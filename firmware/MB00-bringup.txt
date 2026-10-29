@@ -1,4 +1,4 @@
-A-14329-MB00 bring-up index, updated2026-10-29
+A-14329-MB00 bring-up index, updated 2026-10-29
 
 Read PROGRAMMING-MB00.txt for the current ordered EC25AFFA-MINIPCIE + HLK-7628N
 procedure, connector references and per-unit/private common-image options.
@@ -7,20 +7,25 @@ Use acceptance-template.json for actual results, stored under private/<serial>.
 Before programming:
 - Review hardware/audits/AUDIT-MB00.txt and power-addendum.txt.
 - Reconcile actual submitted manufacturing files; user confirmed the intended
-  4layer/1.6mm/1oz/JLC04161H-7628 stackup, but exact order files remain unarchived.
+  4-layer, 1.6 mm, 1 oz JLC04161H-7628 stackup, but exact order files remain unarchived.
 - Inspect assembly, separately fitted modem supports and nano-SIM holder.
-- Test rails/current steps; close modem capacitor deviation before fullcommissioning.
-- Identify router flash/RAM/bootloader; retain its own fullflash/calibration backup.
+- Test rails/current steps; close modem capacitor deviation before full commissioning.
+- Identify router flash/RAM/bootloader; retain its own full flash/calibration backup.
 - Prove recovery, then use the correct image and compatibility checks.
 
 After programming:
-- Check every Ethernet port and Wi-Fi, unique login, J14 console and J17 modemUSB.
-- Default physicalSIM A, eSIM absent; keep hardware_validated and powercut_validated0.
-- Test actualAPN/registration/traffic/reconnect with J17 disconnected from thePC.
-- Verify configuration survives upgrade/reboot, localadmin restrictions, brownouts.
-- Measure supply/thermal behavior under combinedLTE/Ethernet/Wi-Fi load and closedlid.
-- Separately qualify10Afeed temperature rise, PE/protection, mainsisolation andfit.
+- Check every Ethernet port and Wi-Fi, unique login, J14 console and J17 modem USB.
+- Default physical SIM A, eSIM absent; keep both hardware_validated and
+  powercut_validated at 0.
+- Test actual APN/registration/traffic/reconnect with J17 disconnected from the PC.
+- Verify configuration survives upgrade/reboot, local administration restrictions,
+  brownouts.
+- Measure supply/thermal behavior under combined LTE/Ethernet/Wi-Fi load with the lid
+  closed.
+- Separately qualify the 10 A feed temperature rise, PE/protection, mains isolation
+  and enclosure fit.
 
-Offline audit/sourcechecks are complete with recorded findings. Compilation status
+Offline audit and source checks are complete with recorded findings. Compilation status
 is in VALIDATION-MB00.txt and the linked GitHub workflow. Hardware boot, physical
-measurements, OEM initialinstall and productionfixture qualification require boards.
+measurements, OEM initial installation and production fixture qualification require
+boards.

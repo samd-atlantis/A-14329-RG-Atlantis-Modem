@@ -60,6 +60,7 @@ def collect_manifest(tree, output, mode, source_revision):
                           "sha256": hashlib.sha256(path.read_bytes()).hexdigest()})
     manifest = {"schema": 1, "board": "A-14329-MB00", "profile": data["profile"],
                 "source_revision": source_revision,
+                "openwrt_release": data["release"],
                 "openwrt_commit": git(tree, "rev-parse", "HEAD"),
                 "feeds": {n: f["commit"] for n, f in data["feeds"].items()},
                 "mode": mode, "hardware_tested": False, "production_approved": False,

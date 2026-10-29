@@ -1,12 +1,15 @@
-Common-image provisioning candidate for50 units — must be qualified on first board
+Common-image provisioning candidate for 50 units — must be qualified on first board
 
 Purpose: compile the common firmware once, then supply each unit's unique identity
 and credentials separately. No common/default admin password is introduced.
 This is an initial-programming procedure for an ALREADY COMPATIBLE OpenWrt system,
 not an OEM bootloader install procedure and not a routine field update.
 
-The workflow builds an unprovisioned image with root locked. Used alone it is not
-ready to program. The unit-config.tar.gz produced below supplies exactly one file,
+The workflow builds an unprovisioned image with network login locked and Wi-Fi
+setup disabled. The physical USB/UART console remains available for fixture work.
+Used alone, this image is not ready for a customer unit. Successful provisioning
+enables password authentication on the USB/UART console as well as network login.
+The unit-config.tar.gz produced below supplies exactly one file,
 etc/gateway/unit.json, before the new image's first-boot setup runs. The archive has
 no bootloader, calibration, MAC, firmware or unrelated device configuration.
 
@@ -44,12 +47,13 @@ tested. The final OEM initial-install path is still determined by arriving hardw
 FACTORY RESET DISTINCTION
 Routine sysupgrade preserves unit.json through lib/upgrade/keep.d/atech-gateway.
 A full OpenWrt factory reset erases writable overlay, including the common-image
-bundle's unit.json. It then needs private fixture re-provisioning. The per-unit
+bundle's unit.json. Network login is then locked, Wi-Fi setup is disabled, and the
+local fixture console is available for private re-provisioning. The per-unit
 image recipe bakes its record into SquashFS, so that record survives factory reset.
 Do not enable a customer factory-reset feature for common-image units until a
 retained manufacturing-data strategy has been implemented and tested.
 
 Primary implementation reference (pinned version):
-https://raw.githubusercontent.com/openwrt/openwrt/v24.10.7/package/base-files/files/sbin/sysupgrade
+https://raw.githubusercontent.com/openwrt/openwrt/v25.12.6/package/base-files/files/sbin/sysupgrade
 Its -f option restores a supplied configuration tarball; -T tests without flashing.
 The new root filesystem then runs this package's UCI-defaults provisioning script.

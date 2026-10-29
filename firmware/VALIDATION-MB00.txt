@@ -1,17 +1,27 @@
-A-14329-MB00 validation record,2026-10-29
+A-14329-MB00 validation record - 2026-10-29
 
-27 Python tests pass: provisioning, failedsetup behavior, preservedconfiguration,
-carriercontrol interlocks, imagepreflight and privatefactorybundle generation.
-27 JavaScript/form/ACL checks pass. Shellsyntax checks pass.
-Windows tests used unsandboxed GitBash/OpenSSL due sandboxprocesslaunch limitations.
-Linux GitHub sourcechecks also passed for firmware changes committed earlier today.
+Local provisioning, first-boot, carrier-control, build/preflight, private factory
+bundle and binary image-inspection tests pass. JavaScript/form/ACL and shell syntax
+checks pass. Windows tests use Git Bash/OpenSSL outside the sandbox because of
+its process-launch limitations. Linux GitHub source checks also passed for the
+earlier firmware changes committed today; each new push runs them again.
 
-Independent hardware desk audit completed with documentedexceptions. See
-hardware/audits/AUDIT-MB00.txt. Frozenrelease hashes still match the originalmanifest.
+The independent hardware desk audit is complete with documented exceptions. See
+hardware/audits/AUDIT-MB00.txt. Frozen release hashes still match the original
+manifest. No hardware boot, actual flash write or production qualification is
+claimed.
 
-Cross-build firstattempt40923479716 failed because the script's umask077 was
-incompatible with OpenWrt's mandatory022. Corrected without bypassing prerequisites.
-Corrected cross-build40924364866 started from4a01bbf; later runtime fixes include
-unitidentity keep.d persistence and USBconsoleauthentication. A fresh build of those
-changes must be checked before treating an image as the current developmentartifact.
-No hardwareboot, actualflashwrite or productionqualification is claimed.
+The first cross-build, run 40923479716, failed because the script's umask 077 was
+incompatible with OpenWrt's mandatory 022. This is corrected without bypassing
+the prerequisite. The later unfinished 24.10.7 runs 40924364866 and 40927702703
+were cancelled when that baseline was found to lack current security fixes.
+
+The current build locks OpenWrt 25.12.6 and its published feed revisions. A fresh
+cross-build must finish before an image is accepted as the current development
+artifact. The workflow also checks the actual sysupgrade binary's metadata and
+carrier device tree before uploading it. See SECURITY-BASELINE.txt.
+
+Unprovisioned CI images alone are not customer-ready firmware. They have no unit
+credentials, no working setup AP and no hardware acceptance record. The first
+board still needs flash/RAM identification, backups, a qualified programming
+procedure and the acceptance checks in PROGRAMMING-MB00.txt.

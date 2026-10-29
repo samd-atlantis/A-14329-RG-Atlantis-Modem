@@ -10,6 +10,7 @@ import unittest
 TOOLS = Path(__file__).resolve().parents[1] / 'tools'
 sys.path.insert(0, str(TOOLS))
 from make_factory_bundle import create
+from build_support import lock
 
 
 class FactoryBundleTest(unittest.TestCase):
@@ -23,6 +24,7 @@ class FactoryBundleTest(unittest.TestCase):
             image.write_bytes(b'fixture-image')
             manifest = {'board': 'A-14329-MB00', 'profile': 'hilink_hlk-7628n',
                         'mode': 'unprovisioned-validation', 'source_revision': 'test',
+                        'openwrt_release': lock()['release'],
                         'artifacts': [{'file': image.name, 'bytes': image.stat().st_size,
                                        'sha256': hashlib.sha256(image.read_bytes()).hexdigest()}]}
             (root/'manifest.json').write_text(json.dumps(manifest))
@@ -38,6 +40,12 @@ class FactoryBundleTest(unittest.TestCase):
             self.assertNotIn(unit['wifi_password'], (output/'bundle.json').read_text())
             with self.assertRaises(FileExistsError):
                 create(root/'unit.json', root/'manifest.json', image, output)
+            for release in ['v24.10.7', None]:
+                (root/'manifest.json').write_text(json.dumps({**manifest, 'openwrt_release': release}))
+                with self.assertRaisesRegex(ValueError, 'security baseline'):
+                    create(root/'unit.json', root/'manifest.json', image, root/'obsolete')
+                self.assertFalse((root/'obsolete').exists())
+            (root/'manifest.json').write_text(json.dumps(manifest))
             image.write_bytes(b'corrupt')
             with self.assertRaises(ValueError):
                 create(root/'unit.json', root/'manifest.json', image, root/'rejected')

@@ -31,6 +31,9 @@ def assess(probe, manifest, image):
             blockers.append("Unverified 32MB flash layout: " + name)
     if manifest.get("board") != "A-14329-MB00" or manifest.get("profile") != "hilink_hlk-7628n":
         blockers.append("Manifest is for a different board/profile")
+    release = json.loads((Path(__file__).resolve().parents[1] / "build-lock.json").read_text())["release"]
+    if manifest.get("openwrt_release") != release:
+        blockers.append("Image does not match the current locked OpenWrt security baseline: " + release)
     if manifest.get("mode") != "private-unit-development":
         blockers.append("Validation-only images have no unit credentials and must not be programmed")
     if manifest.get("requires_confirmed_flash_bytes") != 33554432:

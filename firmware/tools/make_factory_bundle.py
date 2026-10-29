@@ -11,7 +11,7 @@ import os
 from pathlib import Path
 import tarfile
 
-from build_support import validate_unit
+from build_support import lock, validate_unit
 
 
 def digest(path):
@@ -25,6 +25,8 @@ def create(unit_path, manifest_path, image, output):
     if (manifest.get('board'), manifest.get('profile'), manifest.get('mode')) != (
             'A-14329-MB00', 'hilink_hlk-7628n', 'unprovisioned-validation'):
         raise ValueError('Expected the common MB00 unprovisioned development image')
+    if manifest.get('openwrt_release') != lock()['release']:
+        raise ValueError('Image does not match the current locked OpenWrt security baseline')
     if 'sysupgrade' not in image.name:
         raise ValueError('A sysupgrade image is required')
     entries = [a for a in manifest.get('artifacts', []) if a.get('file') == image.name]
@@ -46,6 +48,7 @@ def create(unit_path, manifest_path, image, output):
     bundle = {'schema': 'mb00-factory-bundle-1', 'unit_serial': serial,
               'image_file': image.name, 'image_sha256': digest(image),
               'image_source_revision': manifest.get('source_revision'),
+              'openwrt_release': manifest['openwrt_release'],
               'config_file': config.name, 'config_sha256': digest(config),
               'operation': 'initial_provisioning_replaces_site_configuration',
               'hardware_tested': False, 'fixture_qualified': False}

@@ -1,0 +1,34 @@
+A-14329-MB00 firmware security baseline - 2026-10-29
+
+The development build is pinned to OpenWrt 25.12.6 and that release's published
+feed commits. The original 24.10.7 baseline has been retired. Its unfinished CI
+builds were cancelled; they are not commissioning artifacts.
+
+OpenWrt's 25.12.6 release notes, dated 2026-10-18, include security fixes affecting
+uhttpd, TLS libraries and other packages. The 24.10.8 notes also describe fixes
+missing from 24.10.7. Pinning an older release makes builds reproducible but does
+not make them secure. Review official security announcements before every
+production image freeze and establish an update/support policy before deployment.
+
+build-lock.json records the source tag object and feed commit IDs. build.sh reads
+that lock instead of maintaining a separate release constant. Image manifests
+record openwrt_release. preflight.py and make_factory_bundle.py reject images
+whose manifest does not match the current lock, including older manifests with
+no release field. This is a consistency check, not a cryptographic signature or
+an automatic vulnerability scanner.
+
+inspect_image.py independently checks the compiled sysupgrade binary's version,
+profile, checksums and carrier device-tree changes. A successful cross-build and
+these checks do not establish that the firmware boots on the purchased module.
+Actual flash capacity, bootloader, protected partition backups, first boot,
+network access controls and recovery still need the first-board acceptance run.
+
+The gateway exposes administration only to its local LAN/Wi-Fi. Customer remote
+access, signed update delivery, fleet identity/certificate lifecycle and an RMS
+replacement are not implemented by this development package.
+
+Official release evidence:
+https://github.com/openwrt/openwrt/releases/tag/v25.12.6
+https://github.com/openwrt/openwrt/releases/tag/v24.10.8
+https://downloads.openwrt.org/releases/25.12.6/targets/ramips/mt76x8/feeds.buildinfo
+https://openwrt.org/advisory/start

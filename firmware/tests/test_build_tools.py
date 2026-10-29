@@ -42,6 +42,7 @@ class BuildToolsTest(unittest.TestCase):
                                        'mtd3: 01fb0000 00010000 "firmware"'])}
             manifest = {'board': 'A-14329-MB00', 'profile': 'hilink_hlk-7628n',
                         'mode': 'private-unit-development', 'unit_serial': 'TEST-0001',
+                        'openwrt_release': build.lock()['release'],
                         'requires_confirmed_flash_bytes': 33554432,
                         'artifacts': [{'file': image.name, 'bytes': image.stat().st_size,
                                        'sha256': hashlib.sha256(image.read_bytes()).hexdigest()}]}
@@ -51,6 +52,8 @@ class BuildToolsTest(unittest.TestCase):
                         {**probe, 'serial': 'OTHER-0001'}]:
                 self.assertTrue(preflight.assess(bad, manifest, image))
             for bad in [{**manifest, 'mode': 'unprovisioned-validation'},
+                        {**manifest, 'openwrt_release': 'v24.10.7'},
+                        {**manifest, 'openwrt_release': None},
                         {**manifest, 'unit_serial': ''}]:
                 self.assertTrue(preflight.assess(probe, bad, image))
             image.write_bytes(b'corrupted')

@@ -20,13 +20,16 @@ OUT="$HERE/dist/$SERIAL"
 [[ ! -e "$OUT" ]] || { echo "Output exists: $OUT. Archive it before rebuilding." >&2; exit 1; }
 SOURCE_REVISION="$(git -C "$HERE" rev-parse HEAD)"
 git -C "$HERE" diff --quiet HEAD -- . || { echo 'Commit firmware changes before building.' >&2; exit 1; }
+RELEASE="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["release"])' "$HERE/build-lock.json")"
+TAG_OBJECT="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["tag_object"])' "$HERE/build-lock.json")"
+UPSTREAM="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["repository"])' "$HERE/build-lock.json")"
 if [ ! -d "$TREE/.git" ]; then
- git clone --depth 1 --branch v24.10.7 https://git.openwrt.org/openwrt/openwrt.git "$TREE"
+ git clone --depth 1 --branch "$RELEASE" "$UPSTREAM" "$TREE"
 fi
 chmod 700 "$TREE"
 cd "$TREE"
-[[ "$(git rev-parse refs/tags/v24.10.7)" == 4100c39a94da53ea1afe038f87fc0bf83d2e51f9 ]]
-[[ "$(git rev-parse HEAD)" == "$(git rev-parse 'v24.10.7^{commit}')" ]]
+[[ "$(git rev-parse "refs/tags/$RELEASE")" == "$TAG_OBJECT" ]]
+[[ "$(git rev-parse HEAD)" == "$(git rev-parse "$RELEASE^{commit}")" ]]
 # Reject unrelated tracked edits; the one audited DTS patch is applied below.
 python3 - "$TREE" <<'PY'
 import subprocess,sys
@@ -100,6 +103,10 @@ cp "$HERE/build-lock.json" "$OUT/build-lock.json"
 cp feeds.conf "$OUT/feeds.txt"
 git diff -- target/linux/ramips/dts/mt7628an_hilink_hlk-7628n.dts > "$OUT/carrier-dts.patch"
 python3 "$HERE/tools/build_support.py" manifest "$TREE" "$OUT" "$MODE" "$SOURCE_REVISION"
+for firmware_image in "$OUT"/*sysupgrade*.bin; do
+  python3 "$HERE/tools/inspect_image.py" --image "$firmware_image" \
+    --manifest "$OUT/manifest.json" --output "$firmware_image.inspection.json"
+done
 chmod 600 "$OUT"/*
 echo "Development artifacts: $OUT ($MODE). No hardware test or production approval."
 if [[ -n "$UNIT" ]]; then
