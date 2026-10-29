@@ -1,17 +1,22 @@
 A-14329-MB00 validation record - 2026-10-29
 
-63 Python tests and 27 JavaScript/form/ACL checks passed on Linux for commit
-e40b98cd779f0fac846e862738054560af8cd671; shell syntax checks passed too.
-https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40944769073
+76 Python tests and 31 JavaScript/form/ACL checks passed on Linux for commit
+62b465179c766924cc7306eebf1fdfbb9906cb28; shell syntax checks passed too.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40946542009
 Coverage includes provisioning, first boot, carrier-control interlocks, image
 preflight, private factory bundles, binary parsing and static filesystem checks.
 These are source/mocked/parser tests, not router execution or hardware tests.
 Local Windows checks also passed using Git Bash/OpenSSL outside the sandbox
 because of its process-launch limitations.
-The subsequent first-boot invocation fix passed 76 Python tests locally, plus
-shell syntax. The final controller-address fix passed 31 JavaScript checks.
-Coverage adds direct and OpenWrt-style conditional
+Coverage includes direct and OpenWrt-style conditional
 sourcing cases, including failed JSON/settings/final commits and console recovery.
+
+CURRENT CANDIDATE
+Run 40946542802 builds 62b465179c766924cc7306eebf1fdfbb9906cb28, carrier package
+0.1.0-r7, with all review fixes below. It started at 2026-10-29 20:09:50 UTC and
+is in progress at this record's update. There is no completed current image yet.
+The compiled-image workflow will automatically inspect its artifact if it succeeds.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40946542802
 
 The independent hardware desk audit is complete with documented exceptions. See
 hardware/audits/AUDIT-MB00.txt. Frozen release hashes still match the original
