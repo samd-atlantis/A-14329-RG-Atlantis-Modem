@@ -1,0 +1,60 @@
+A-14329-MB00 independent saved-design audit - 2026-10-29
+
+Result: available offline audit completed with documented exceptions and prototype
+acceptance gates. This is not an unconditional fabrication/function/safety approval.
+The source is frozen assembly49, not the obsolete hardware/rev-a KiCad concept.
+No frozen release or actual order data was changed. All release manifest hashes match.
+
+ELECTRICAL: mb00-electrical/electrical-audit.txt
+285 explicit critical pin/net checks passed. All544 schematic pin keys exist on the
+PCB. Original schematic has542 unambiguous agreements plus twoQ3 ambiguities from
+overlapping wires. The PCB assignments are correct. A separate four-record Q3
+schematic correction candidate produces544/544 matches. It is not applied to the
+live EasyEDA project; review and native ERC remain needed before future sync.
+
+ROUTING: mb00-physical/REPORT.txt
+Current native copper was converted into an audit-only KiCad9.0.7 board, with
+explicit translation limits. Do NOT fabricate this audit copy. Zero copper-short,
+clearance or drill errors were found under its translated rules.17 warnings and
+four unconnected reports are explained: three need the native pours omitted from
+KiCad, and one is a microscopic isolated USB fragment with no pad attached.
+Independent native geometry joins all92 non-ground pad-bearing nets and allground
+groups through the cached inner planes; no track/via keepout intersections found.
+This does not replace actual signal/thermal/isolation tests or a native pour rebuild.
+
+CONFIRMED PARTS / ORDER INTENT
+User ordered EC25AFFA-MINIPCIE and HLK-7628N as BOM C209920. Modem's used pinout
+matches this carrier. HLK memory variant still requires reading the arriving part.
+PhysicalSIM is nano-SIM; U20 not populated. Software defaults to physicalSIM A.
+User confirmed4layers/1.6mm/1ozouter/JLC04161H-7628, matching calculator geometry.
+This is order-intent confirmation, not a hash comparison of the manufacturing files.
+
+CORRECTED IN FIRMWARE
+Removed inherited reset-key GPIO38 and LED GPIO44, which are unwired on MB00.
+SW1 is hardwarePORST_N; SW3 is modulepin30/SoCGPIO11, not a verified ROM boot key.
+Enabled carrier I2C pinmux while preserving upstream flash/calibration partitions.
+Startup refuses to hot-switch a live SIM; GPIO and emergency powercut actions remain
+separately gated. Unit provisioning and console authentication are tested in mocks.
+
+PROTOTYPE HOLD POINTS / SPECIFIC ACTIONS
+1. Modem power:116uF nominal fitted versus Quectel>=470uF recommendation. Existing
+   2.2uH TPS62132 output network does not justify blind470uF addition. Start with the
+   stock-first loadstep plan and engineering disposition in power-addendum.txt.
+2. Mains: mainbuses4.064mm, terminalstems1.7mm. DRC does not establish10A rating.
+   Measure temperature rise/contact heating for worst loading and closed enclosure;
+   verify PE, upstreamprotection and isolation. F1 protects only thePSUbranch.
+3. USB/Ethernet: calculator widths match confirmed intendedstackup. Unequal vias/
+   connector breakouts need real high-speed USB and all-port traffic/soak testing.
+4. Assembly/mechanical: NT4R1600 modem supports and M2x3screws are separate items;
+   ST1/ST2 are absent from JLC assembly BOM/CPL. Verify installation, terminallead
+   fit, modem seating/height, antennas, enclosureholes and cableclearances.
+5. As-ordered reconciliation: retain actual submitted Gerbers/drills/assembly
+   selections/orderconfirmation and compare with frozen49 before closing thisitem.
+6. Programming: identify memory/bootloader, preserve own calibration/MAC/flash,
+   prove recovery, then qualify firstprogramming and the per-unit fixture. Use
+   firmware/PROGRAMMING-MB00.txt and acceptance-template.json.
+
+No physical rail measurements, SPICE switching simulation, EMC/radio qualification,
+temperature-rise test, firmware boot or field-controller trial is claimed by this audit.
+Reports, machine-readable findings, primary-source links and rerunnable scripts
+are in the two subdirectories. Each check records its scope and exclusions.

@@ -1,0 +1,146 @@
+A-14329-MB00 physical/routing audit — 2026-10-29
+
+Result: available saved-design checks completed. No pad-bearing open net or
+copper short was found by the complementary checks below. This is a prototype
+audit, NOT a statement that the ordered assembly is electrically qualified or
+that the actual submitted fabrication files match this design.
+
+SOURCE AND METHOD
+The source is the frozen release pcb-assembly49.epro2, SHA256
+6c2ec86f674f42a77902b4325106aed0b5708db34972f8ae38958b4818a0f21b.
+The audit extracts this native archive directly. It does not use the old rev-a
+KiCad concept. Native design/release files were not modified by this audit.
+
+audit.py creates an AUDIT-ONLY KiCad 9.0.7 board from the current copper geometry:
+103 components, 553 electrical/test pads, 3382 straight copper segments,
+305 through vias, 34 NPTH holes, the board outline and two NT4 copper rings.
+Zero-diameter native hole placeholders become SMT pads; slot relative rotations
+are preserved. The generated KiCad board must NEVER be sent for fabrication.
+
+KiCad omits native poured ground copper, keepouts, silkscreen, courtyard, solder
+mask/paste rules and 3D models. These are explicit translation limits, not things
+that were removed from the real board. A separate native-geometry script checks
+the cached ground pours and track/via keepouts. This is not a KiCad schematic ERC
+or full EasyEDA-to-KiCad migration.
+
+REPRODUCIBLE RESULTS
+1. KiCad DRC, kicad-drc.json: zero clearance/short/drill/annulus errors under the
+   audit rules. The rules check a 0.15mm signal floor, 3.2mm primary-to-primary/PE
+   and 8mm primary-to-secondary spacing, with 0.001mm conversion allowance.
+   This floor is not a complete port of every net-specific EasyEDA rule.
+   There are 17 warnings: 13 dangling tracks, 3 dangling vias, one copper sliver.
+   There are four unconnected-item reports, explained below. Do not summarize
+   this as an unqualified "KiCad zero-DRC" result.
+2. Native net-island screen: all 92 non-ground nets have at most one pad-bearing
+   connected group. The 24 standalone test/recovery pads are included.
+3. Three KiCad missing connections are GND_ISO groups whose native ground pours
+   were not translated. Native geometry has four ground groups without pours;
+   adding the cached ground fills joins them into ONE group. Both inner-layer
+   fills have one outer contour and holes (206 and 218 holes respectively).
+   69 of 71 ground via centers lie in BOTH filled planes. All three vias that
+   KiCad marked dangling are among those 69. The two others are joined through
+   routed ground. This supports ground connectivity, but is not a regenerated
+   pour, a field solver, or dielectric/safety verification.
+4. The fourth KiCad missing connection is native fragment458618fd5813397f:
+   USB_HOST_DP at native (1691.5226,1573.8838) to (1691.5226,1573.9552) mil,
+   only 0.001814mm long, no pad attached, isolated from the functional route.
+   U1.54 to U8.1 is connected. Remove the orphan from a future layout revision;
+   it is not evidence that the router-to-modem USB signal is open.
+5. Remaining dangling-track warnings include redundant/overshooting 5V and
+   ROUTER_GPIO0_N copper. No separate pad-bearing island results. Treat these
+   as cleanup candidates, not automatic functional opens. The generic B.Cu
+   sliver warning has no item/coordinate in KiCad's report, so it cannot be
+   localized from that report alone.
+6. Independent native screen found zero track/via intersections with all
+   TRACK-prohibited regions, including mounting/Tag-Connect hole clearances.
+
+SIGNAL INTEGRITY
+There IS a prior JLC calculator result, hardware/easyeda/
+impedance-jlc-7628-calculator.png. It shows JLC04161H-7628, four layers, 1.6mm,
+outer1oz/inner0.5oz, L1 referenced toL2: 6mil pair gap gives9.74mil for90ohmUSB
+and7.19mil for100ohmEthernet. Current USB traces are9.74mil (apart from the
+orphan); Ethernet is7.19 or7.2047mil. Native rule names still say CALC_PENDING,
+but the screenshot supports the chosen dimensions for that specific stackup.
+
+All pair conductor length SUM differences are <=0.1411mm; worst Ethernet sum
+difference is0.0575mm. These are not endpoint electrical propagation delays:
+USB service/console have branches and D+has4vias versusD-has2. Several Ethernet
+pairs also have unequal via counts. Sum-matched copper is not proof of equal
+delay or acceptable eye diagrams. USB_HOST and USB_MODEM have matched via counts.
+
+The native plane projection screen samples every0.25mm at trace centers.
+It flags approximately1.2–7.9mm cumulative unsupported projection per conductor,
+mainly connector breakout/antipad regions. The largest single flagged segment
+is1.768mm at LAN4_RXN near the RJ45. This is a review screen, not an SI failure
+threshold; it does not model return-current spreading or differential fields.
+USB enumeration at high speed, modem transfer under load, all four Ethernet
+ports at100Mbps, cable-orientation tests and traffic/error counters remain
+required on the board. Confirm the actual JLC order used the intended stackup.
+
+MAINS DISTRIBUTION / 10A LIMIT
+Measured main L/N/PE bus width is4.064mm, NOT8–10mm. The terminal stems are
+1.7mm. Each complete L/N stem is about13mm long, with BOTH solder tails of its
+terminal pole tapping into it. The nearest tail to the main bus is about5.1mm
+from the bus centerline. A thin1.016mm trace is the PSU branch, not the panel
+feed. F1 is in that PSU branch; it does not fuse the parallel controller feeds.
+
+Illustrative cold resistance only, using copper rho=1.724e-8ohm*m and35um:
+ - 1.7mm wide x5.1mm long: 1.48mohm;0.148W if10A flows through that segment.
+ - 1.7mm wide x13mm long: 3.77mohm;0.377W if10A flows through all of it.
+ - 4.064mm wide x18.4mm long: 2.23mohm;0.223W at10A.
+Do not add all segment heat values indiscriminately: loads divide between
+outputs and the two terminal tails, and PE normally carries no load current.
+These estimates exclude contact/barrel/solder resistance, current crowding,
+copper temperature coefficient and heat transfer; they are NOT a temperature
+rise simulation or current rating. The input terminal and both output-loading
+extremes require measured temperature rise inside the closed enclosure.
+External <=10A protection and protective-earth fault/ground-bond verification
+are still required. Native clearance rules alone do not establish a safety
+standard, pollution degree, material group, altitude or certification.
+
+TERMINALS AND MECHANICALS
+CN1/J15/J16 use six round1.85mm copper pads and1.4mm finished holes,5.08mm pole
+pitch,7.62mm between the two tails of each pole. Nominal radial annulus0.225mm;
+adjacent copper land gap3.23mm. These meet the previously selected dimensional
+targets, but the actual DORABO terminal lead fit and solder fill must be checked.
+
+Native outline is123.952mm square with4mm corner chamfers. Four enclosure
+mounting holes are6.35mmNPTH on107.95mm square centers,8.001mm edge offsets.
+This matches the supplied Integra6x6/back-panel envelope. It is not a measured
+fit with the actual enclosure interior, bosses, lid, cable glands or cable bends.
+
+Modem support centers are24.2mm apart; host relief holes2.2mm. NT4 top copper
+ring is4.5mm outside/2.7mm inside diameter, with mask opening and segmented
+paste apertures present. JAE drawing supports shoulder3.55mm, pilot top4.15mm,
+bodyOD4mm, pilotOD2.3mm, M2x0.4. Socket housing height5.9mm is not the support
+height. TwoNT4R1600 supports plus twoM2x3 screws are separate assembly items:
+ST1/ST2 are NOT actual components in the saved101-part JLC BOM/CPL, despite
+their lands/paste and notes. Do not assume JLC automatically fitted them.
+Check the selected EC25-AF MiniPCIe sample fit, antenna leads and card removal.
+
+BOARD-ARRIVAL ACCEPTANCE STILL OPEN
+ - Compare submitted/order Gerbers, stackup, BOM/CPL against frozen assembly49.
+ - Inspect soldering, shorts, terminal fit and standoff installation.
+ - Current-limited low-voltage rail/startup/load-step checks before modem fit.
+ - First mains tests only with suitable protected equipment and personnel.
+ - 10A temperature rise and PE/protection verification; terminal contact heating.
+ - USB high-speed stability and all-port Ethernet traffic soak under LTE load.
+ - Modem and enclosure physical fit with the purchased parts.
+These are physical validations; they cannot be closed by firmware or DRC.
+
+REPRODUCE (from repository root, Windows PowerShell)
+& .tools/kicad/bin/python.exe hardware/audits/mb00-physical/audit.py
+$env:KICAD_CONFIG_HOME = Join-Path (Get-Location) 'hardware/audits/mb00-physical/.kicad-config'
+$env:KICAD_DOCUMENTS_HOME = Join-Path (Get-Location) 'hardware/audits/mb00-physical/.kicad-documents'
+& .tools/kicad/bin/kicad-cli.exe pcb drc hardware/audits/mb00-physical/mb00-audit-only.kicad_pcb --format json --severity-all --output hardware/audits/mb00-physical/kicad-drc.json
+python hardware/audits/mb00-physical/measure.py
+The bundled CAD runtime required execution outside this session's sandbox;
+it otherwise stalled during CAD object creation. Local checks completed.
+
+REFERENCES
+KiCad9CLI: https://docs.kicad.org/9.0/en/cli/cli.html
+JLC capabilities: https://jlcpcb.com/capabilities/pcb-capabilities/
+JLC calculator: hardware/easyeda/impedance-jlc-7628-calculator.png
+JAE drawing: hardware/easyeda/JAE-MM60-hardware.pdf page7;
+also hardware/easyeda/JAE-NT4-drawing.png (manufacturer drawing).
+Enclosure dimensions: user-supplied Integra drawings / native outline.

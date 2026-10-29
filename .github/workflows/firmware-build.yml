@@ -1,9 +1,6 @@
 name: OpenWrt MB00 cross-build
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/firmware-build.yml'
 permissions:
   contents: read
 jobs:
@@ -11,7 +8,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 180
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Build prerequisites
         run: |
           sudo apt-get update
@@ -21,7 +18,7 @@ jobs:
           JOBS: '2'
         run: bash firmware/build.sh --validation
       - name: Archive validation images and build manifest
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: A-14329-MB00-UNPROVISIONED-VALIDATION
           path: firmware/dist/validation/

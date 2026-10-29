@@ -1,0 +1,3344 @@
+[
+  {
+    "ref": "C1",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "6b3bfb0353fb00ef:e7"
+  },
+  {
+    "ref": "C1",
+    "pin": "1",
+    "net": "5V_ISO",
+    "id": "6b3bfb0353fb00ef:e8"
+  },
+  {
+    "ref": "C2",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "c031c5b29634a733:e14"
+  },
+  {
+    "ref": "C2",
+    "pin": "1",
+    "net": "5V_ISO",
+    "id": "c031c5b29634a733:e15"
+  },
+  {
+    "ref": "C10",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "3ffec2610fb506ab:e15"
+  },
+  {
+    "ref": "C10",
+    "pin": "1",
+    "net": "5V_ISO",
+    "id": "3ffec2610fb506ab:e16"
+  },
+  {
+    "ref": "C11",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "08290ad1801189ca:e14"
+  },
+  {
+    "ref": "C11",
+    "pin": "1",
+    "net": "5V_ISO",
+    "id": "08290ad1801189ca:e15"
+  },
+  {
+    "ref": "C12",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "fd1f468864906447:e14"
+  },
+  {
+    "ref": "C12",
+    "pin": "1",
+    "net": "R_SS",
+    "id": "fd1f468864906447:e15"
+  },
+  {
+    "ref": "C13",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "fe4aadca8fa0b99c:e15"
+  },
+  {
+    "ref": "C13",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "fe4aadca8fa0b99c:e16"
+  },
+  {
+    "ref": "C20",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "39d2a608ce93f225:e15"
+  },
+  {
+    "ref": "C20",
+    "pin": "1",
+    "net": "5V_ISO",
+    "id": "39d2a608ce93f225:e16"
+  },
+  {
+    "ref": "C21",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "e34b789c20660ed7:e14"
+  },
+  {
+    "ref": "C21",
+    "pin": "1",
+    "net": "5V_ISO",
+    "id": "e34b789c20660ed7:e15"
+  },
+  {
+    "ref": "C22",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "8802ffe3de26c73a:e14"
+  },
+  {
+    "ref": "C22",
+    "pin": "1",
+    "net": "M_SS",
+    "id": "8802ffe3de26c73a:e15"
+  },
+  {
+    "ref": "C23",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "cb886c412f5edebb:e15"
+  },
+  {
+    "ref": "C23",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "id": "cb886c412f5edebb:e16"
+  },
+  {
+    "ref": "C24",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "1fd9713946da411e:e7"
+  },
+  {
+    "ref": "C24",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "id": "1fd9713946da411e:e8"
+  },
+  {
+    "ref": "C25",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "03c328e2822d0833:e7"
+  },
+  {
+    "ref": "C25",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "id": "03c328e2822d0833:e8"
+  },
+  {
+    "ref": "C30",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "157e3ff1ece6b92e:e14"
+  },
+  {
+    "ref": "C30",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "157e3ff1ece6b92e:e15"
+  },
+  {
+    "ref": "C31",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "896a76c95c4523a0:e15"
+  },
+  {
+    "ref": "C31",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "896a76c95c4523a0:e16"
+  },
+  {
+    "ref": "C41",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "b64c6de77450bcda:e14"
+  },
+  {
+    "ref": "C41",
+    "pin": "1",
+    "net": "LAN1_RX_CT",
+    "id": "b64c6de77450bcda:e15"
+  },
+  {
+    "ref": "C42",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "fdfd465e0d4b178c:e14"
+  },
+  {
+    "ref": "C42",
+    "pin": "1",
+    "net": "LAN2_RX_CT",
+    "id": "fdfd465e0d4b178c:e15"
+  },
+  {
+    "ref": "C43",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "78384b39a79ef7ef:e14"
+  },
+  {
+    "ref": "C43",
+    "pin": "1",
+    "net": "LAN3_RX_CT",
+    "id": "78384b39a79ef7ef:e15"
+  },
+  {
+    "ref": "C44",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "3229aa63e4556226:e14"
+  },
+  {
+    "ref": "C44",
+    "pin": "1",
+    "net": "LAN4_RX_CT",
+    "id": "3229aa63e4556226:e15"
+  },
+  {
+    "ref": "C51",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "0999f6cfda892adf:e14"
+  },
+  {
+    "ref": "C51",
+    "pin": "1",
+    "net": "LAN1_TX_CT",
+    "id": "0999f6cfda892adf:e15"
+  },
+  {
+    "ref": "C52",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "d20651c262f28b5a:e14"
+  },
+  {
+    "ref": "C52",
+    "pin": "1",
+    "net": "LAN2_TX_CT",
+    "id": "d20651c262f28b5a:e15"
+  },
+  {
+    "ref": "C53",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ab4b680e16ac6103:e14"
+  },
+  {
+    "ref": "C53",
+    "pin": "1",
+    "net": "LAN3_TX_CT",
+    "id": "ab4b680e16ac6103:e15"
+  },
+  {
+    "ref": "C54",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "c5e996a5762b14bb:e14"
+  },
+  {
+    "ref": "C54",
+    "pin": "1",
+    "net": "LAN4_TX_CT",
+    "id": "c5e996a5762b14bb:e15"
+  },
+  {
+    "ref": "C60",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "cdb51dc7a6e9905c:e14"
+  },
+  {
+    "ref": "C60",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "cdb51dc7a6e9905c:e15"
+  },
+  {
+    "ref": "C61",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "d4dea52191a29613:e14"
+  },
+  {
+    "ref": "C61",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "id": "d4dea52191a29613:e15"
+  },
+  {
+    "ref": "C70",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "b5a9a07656b4da62:e14"
+  },
+  {
+    "ref": "C70",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "b5a9a07656b4da62:e15"
+  },
+  {
+    "ref": "C71",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "f4588a3ecbf36373:e14"
+  },
+  {
+    "ref": "C71",
+    "pin": "1",
+    "net": "SIM_A_VCC",
+    "id": "f4588a3ecbf36373:e15"
+  },
+  {
+    "ref": "C72",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "14b2dfb21ecc657e:e14"
+  },
+  {
+    "ref": "C72",
+    "pin": "1",
+    "net": "SIM_B_VCC",
+    "id": "14b2dfb21ecc657e:e15"
+  },
+  {
+    "ref": "F1",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "id": "ad8b895ac4d8d5ea:e16"
+  },
+  {
+    "ref": "F1",
+    "pin": "2",
+    "net": "AC_L_FUSED",
+    "id": "ad8b895ac4d8d5ea:e17"
+  },
+  {
+    "ref": "J2",
+    "pin": "1",
+    "net": "LAN1_TXP",
+    "id": "e6c250c0467ceae5:e27"
+  },
+  {
+    "ref": "J2",
+    "pin": "2",
+    "net": "LAN1_TXN",
+    "id": "e6c250c0467ceae5:e28"
+  },
+  {
+    "ref": "J2",
+    "pin": "3",
+    "net": "LAN1_TX_CT",
+    "id": "e6c250c0467ceae5:e29"
+  },
+  {
+    "ref": "J2",
+    "pin": "4",
+    "net": "",
+    "id": "e6c250c0467ceae5:e30"
+  },
+  {
+    "ref": "J2",
+    "pin": "5",
+    "net": "LAN1_RX_CT",
+    "id": "e6c250c0467ceae5:e31"
+  },
+  {
+    "ref": "J2",
+    "pin": "6",
+    "net": "LAN1_RXP",
+    "id": "e6c250c0467ceae5:e32"
+  },
+  {
+    "ref": "J2",
+    "pin": "7",
+    "net": "LAN1_RXN",
+    "id": "e6c250c0467ceae5:e33"
+  },
+  {
+    "ref": "J2",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "id": "e6c250c0467ceae5:e34"
+  },
+  {
+    "ref": "J2",
+    "pin": "9",
+    "net": "LAN1_GREEN_A",
+    "id": "e6c250c0467ceae5:e35"
+  },
+  {
+    "ref": "J2",
+    "pin": "10",
+    "net": "LAN1_LED_N",
+    "id": "e6c250c0467ceae5:e36"
+  },
+  {
+    "ref": "J2",
+    "pin": "11",
+    "net": "",
+    "id": "e6c250c0467ceae5:e37"
+  },
+  {
+    "ref": "J2",
+    "pin": "12",
+    "net": "",
+    "id": "e6c250c0467ceae5:e38"
+  },
+  {
+    "ref": "J2",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "id": "e6c250c0467ceae5:e39"
+  },
+  {
+    "ref": "J2",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "id": "e6c250c0467ceae5:e40"
+  },
+  {
+    "ref": "J3",
+    "pin": "1",
+    "net": "LAN2_TXP",
+    "id": "d2ee5604695bda98:e27"
+  },
+  {
+    "ref": "J3",
+    "pin": "2",
+    "net": "LAN2_TXN",
+    "id": "d2ee5604695bda98:e28"
+  },
+  {
+    "ref": "J3",
+    "pin": "3",
+    "net": "LAN2_TX_CT",
+    "id": "d2ee5604695bda98:e29"
+  },
+  {
+    "ref": "J3",
+    "pin": "4",
+    "net": "",
+    "id": "d2ee5604695bda98:e30"
+  },
+  {
+    "ref": "J3",
+    "pin": "5",
+    "net": "LAN2_RX_CT",
+    "id": "d2ee5604695bda98:e31"
+  },
+  {
+    "ref": "J3",
+    "pin": "6",
+    "net": "LAN2_RXP",
+    "id": "d2ee5604695bda98:e32"
+  },
+  {
+    "ref": "J3",
+    "pin": "7",
+    "net": "LAN2_RXN",
+    "id": "d2ee5604695bda98:e33"
+  },
+  {
+    "ref": "J3",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "id": "d2ee5604695bda98:e34"
+  },
+  {
+    "ref": "J3",
+    "pin": "9",
+    "net": "LAN2_GREEN_A",
+    "id": "d2ee5604695bda98:e35"
+  },
+  {
+    "ref": "J3",
+    "pin": "10",
+    "net": "LAN2_LED_N",
+    "id": "d2ee5604695bda98:e36"
+  },
+  {
+    "ref": "J3",
+    "pin": "11",
+    "net": "",
+    "id": "d2ee5604695bda98:e37"
+  },
+  {
+    "ref": "J3",
+    "pin": "12",
+    "net": "",
+    "id": "d2ee5604695bda98:e38"
+  },
+  {
+    "ref": "J3",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "id": "d2ee5604695bda98:e39"
+  },
+  {
+    "ref": "J3",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "id": "d2ee5604695bda98:e40"
+  },
+  {
+    "ref": "J4",
+    "pin": "1",
+    "net": "LAN3_TXP",
+    "id": "51b9a9d5e3b9c656:e27"
+  },
+  {
+    "ref": "J4",
+    "pin": "2",
+    "net": "LAN3_TXN",
+    "id": "51b9a9d5e3b9c656:e28"
+  },
+  {
+    "ref": "J4",
+    "pin": "3",
+    "net": "LAN3_TX_CT",
+    "id": "51b9a9d5e3b9c656:e29"
+  },
+  {
+    "ref": "J4",
+    "pin": "4",
+    "net": "",
+    "id": "51b9a9d5e3b9c656:e30"
+  },
+  {
+    "ref": "J4",
+    "pin": "5",
+    "net": "LAN3_RX_CT",
+    "id": "51b9a9d5e3b9c656:e31"
+  },
+  {
+    "ref": "J4",
+    "pin": "6",
+    "net": "LAN3_RXP",
+    "id": "51b9a9d5e3b9c656:e32"
+  },
+  {
+    "ref": "J4",
+    "pin": "7",
+    "net": "LAN3_RXN",
+    "id": "51b9a9d5e3b9c656:e33"
+  },
+  {
+    "ref": "J4",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "id": "51b9a9d5e3b9c656:e34"
+  },
+  {
+    "ref": "J4",
+    "pin": "9",
+    "net": "LAN3_GREEN_A",
+    "id": "51b9a9d5e3b9c656:e35"
+  },
+  {
+    "ref": "J4",
+    "pin": "10",
+    "net": "LAN3_LED_N",
+    "id": "51b9a9d5e3b9c656:e36"
+  },
+  {
+    "ref": "J4",
+    "pin": "11",
+    "net": "",
+    "id": "51b9a9d5e3b9c656:e37"
+  },
+  {
+    "ref": "J4",
+    "pin": "12",
+    "net": "",
+    "id": "51b9a9d5e3b9c656:e38"
+  },
+  {
+    "ref": "J4",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "id": "51b9a9d5e3b9c656:e39"
+  },
+  {
+    "ref": "J4",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "id": "51b9a9d5e3b9c656:e40"
+  },
+  {
+    "ref": "J5",
+    "pin": "1",
+    "net": "LAN4_TXP",
+    "id": "21b97330d64bba0b:e27"
+  },
+  {
+    "ref": "J5",
+    "pin": "2",
+    "net": "LAN4_TXN",
+    "id": "21b97330d64bba0b:e28"
+  },
+  {
+    "ref": "J5",
+    "pin": "3",
+    "net": "LAN4_TX_CT",
+    "id": "21b97330d64bba0b:e29"
+  },
+  {
+    "ref": "J5",
+    "pin": "4",
+    "net": "",
+    "id": "21b97330d64bba0b:e30"
+  },
+  {
+    "ref": "J5",
+    "pin": "5",
+    "net": "LAN4_RX_CT",
+    "id": "21b97330d64bba0b:e31"
+  },
+  {
+    "ref": "J5",
+    "pin": "6",
+    "net": "LAN4_RXP",
+    "id": "21b97330d64bba0b:e32"
+  },
+  {
+    "ref": "J5",
+    "pin": "7",
+    "net": "LAN4_RXN",
+    "id": "21b97330d64bba0b:e33"
+  },
+  {
+    "ref": "J5",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "id": "21b97330d64bba0b:e34"
+  },
+  {
+    "ref": "J5",
+    "pin": "9",
+    "net": "LAN4_GREEN_A",
+    "id": "21b97330d64bba0b:e35"
+  },
+  {
+    "ref": "J5",
+    "pin": "10",
+    "net": "LAN4_LED_N",
+    "id": "21b97330d64bba0b:e36"
+  },
+  {
+    "ref": "J5",
+    "pin": "11",
+    "net": "",
+    "id": "21b97330d64bba0b:e37"
+  },
+  {
+    "ref": "J5",
+    "pin": "12",
+    "net": "",
+    "id": "21b97330d64bba0b:e38"
+  },
+  {
+    "ref": "J5",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "id": "21b97330d64bba0b:e39"
+  },
+  {
+    "ref": "J5",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "id": "21b97330d64bba0b:e40"
+  },
+  {
+    "ref": "J8",
+    "pin": "1",
+    "net": "",
+    "id": "5881288c83874a97:ie69"
+  },
+  {
+    "ref": "J8",
+    "pin": "2",
+    "net": "3V3_MODEM",
+    "id": "5881288c83874a97:ie70"
+  },
+  {
+    "ref": "J8",
+    "pin": "3",
+    "net": "",
+    "id": "5881288c83874a97:ie71"
+  },
+  {
+    "ref": "J8",
+    "pin": "4",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie72"
+  },
+  {
+    "ref": "J8",
+    "pin": "5",
+    "net": "",
+    "id": "5881288c83874a97:ie73"
+  },
+  {
+    "ref": "J8",
+    "pin": "6",
+    "net": "",
+    "id": "5881288c83874a97:ie74"
+  },
+  {
+    "ref": "J8",
+    "pin": "7",
+    "net": "",
+    "id": "5881288c83874a97:ie75"
+  },
+  {
+    "ref": "J8",
+    "pin": "8",
+    "net": "USIM_VDD",
+    "id": "5881288c83874a97:ie76"
+  },
+  {
+    "ref": "J8",
+    "pin": "9",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie77"
+  },
+  {
+    "ref": "J8",
+    "pin": "10",
+    "net": "USIM_DATA",
+    "id": "5881288c83874a97:ie78"
+  },
+  {
+    "ref": "J8",
+    "pin": "11",
+    "net": "",
+    "id": "5881288c83874a97:ie79"
+  },
+  {
+    "ref": "J8",
+    "pin": "12",
+    "net": "USIM_CLK",
+    "id": "5881288c83874a97:ie80"
+  },
+  {
+    "ref": "J8",
+    "pin": "13",
+    "net": "",
+    "id": "5881288c83874a97:ie81"
+  },
+  {
+    "ref": "J8",
+    "pin": "14",
+    "net": "USIM_RST",
+    "id": "5881288c83874a97:ie82"
+  },
+  {
+    "ref": "J8",
+    "pin": "15",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie83"
+  },
+  {
+    "ref": "J8",
+    "pin": "16",
+    "net": "",
+    "id": "5881288c83874a97:ie84"
+  },
+  {
+    "ref": "J8",
+    "pin": "17",
+    "net": "",
+    "id": "5881288c83874a97:ie85"
+  },
+  {
+    "ref": "J8",
+    "pin": "18",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie86"
+  },
+  {
+    "ref": "J8",
+    "pin": "19",
+    "net": "",
+    "id": "5881288c83874a97:ie87"
+  },
+  {
+    "ref": "J8",
+    "pin": "20",
+    "net": "",
+    "id": "5881288c83874a97:ie88"
+  },
+  {
+    "ref": "J8",
+    "pin": "21",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie89"
+  },
+  {
+    "ref": "J8",
+    "pin": "22",
+    "net": "MODEM_PERST_N",
+    "id": "5881288c83874a97:ie90"
+  },
+  {
+    "ref": "J8",
+    "pin": "23",
+    "net": "",
+    "id": "5881288c83874a97:ie91"
+  },
+  {
+    "ref": "J8",
+    "pin": "24",
+    "net": "",
+    "id": "5881288c83874a97:ie92"
+  },
+  {
+    "ref": "J8",
+    "pin": "25",
+    "net": "",
+    "id": "5881288c83874a97:ie93"
+  },
+  {
+    "ref": "J8",
+    "pin": "26",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie94"
+  },
+  {
+    "ref": "J8",
+    "pin": "27",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie95"
+  },
+  {
+    "ref": "J8",
+    "pin": "28",
+    "net": "",
+    "id": "5881288c83874a97:ie96"
+  },
+  {
+    "ref": "J8",
+    "pin": "29",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie97"
+  },
+  {
+    "ref": "J8",
+    "pin": "30",
+    "net": "",
+    "id": "5881288c83874a97:ie98"
+  },
+  {
+    "ref": "J8",
+    "pin": "31",
+    "net": "",
+    "id": "5881288c83874a97:ie99"
+  },
+  {
+    "ref": "J8",
+    "pin": "32",
+    "net": "",
+    "id": "5881288c83874a97:ie100"
+  },
+  {
+    "ref": "J8",
+    "pin": "33",
+    "net": "",
+    "id": "5881288c83874a97:ie101"
+  },
+  {
+    "ref": "J8",
+    "pin": "34",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie102"
+  },
+  {
+    "ref": "J8",
+    "pin": "35",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie103"
+  },
+  {
+    "ref": "J8",
+    "pin": "36",
+    "net": "USB_MODEM_DM",
+    "id": "5881288c83874a97:ie104"
+  },
+  {
+    "ref": "J8",
+    "pin": "37",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie105"
+  },
+  {
+    "ref": "J8",
+    "pin": "38",
+    "net": "USB_MODEM_DP",
+    "id": "5881288c83874a97:ie106"
+  },
+  {
+    "ref": "J8",
+    "pin": "39",
+    "net": "3V3_MODEM",
+    "id": "5881288c83874a97:ie107"
+  },
+  {
+    "ref": "J8",
+    "pin": "40",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie108"
+  },
+  {
+    "ref": "J8",
+    "pin": "41",
+    "net": "3V3_MODEM",
+    "id": "5881288c83874a97:ie109"
+  },
+  {
+    "ref": "J8",
+    "pin": "42",
+    "net": "",
+    "id": "5881288c83874a97:ie110"
+  },
+  {
+    "ref": "J8",
+    "pin": "43",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie111"
+  },
+  {
+    "ref": "J8",
+    "pin": "44",
+    "net": "",
+    "id": "5881288c83874a97:ie112"
+  },
+  {
+    "ref": "J8",
+    "pin": "45",
+    "net": "",
+    "id": "5881288c83874a97:ie113"
+  },
+  {
+    "ref": "J8",
+    "pin": "46",
+    "net": "",
+    "id": "5881288c83874a97:ie114"
+  },
+  {
+    "ref": "J8",
+    "pin": "47",
+    "net": "",
+    "id": "5881288c83874a97:ie115"
+  },
+  {
+    "ref": "J8",
+    "pin": "48",
+    "net": "",
+    "id": "5881288c83874a97:ie116"
+  },
+  {
+    "ref": "J8",
+    "pin": "49",
+    "net": "",
+    "id": "5881288c83874a97:ie117"
+  },
+  {
+    "ref": "J8",
+    "pin": "50",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie118"
+  },
+  {
+    "ref": "J8",
+    "pin": "51",
+    "net": "",
+    "id": "5881288c83874a97:ie119"
+  },
+  {
+    "ref": "J8",
+    "pin": "52",
+    "net": "3V3_MODEM",
+    "id": "5881288c83874a97:ie120"
+  },
+  {
+    "ref": "J8",
+    "pin": "MP1",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie121"
+  },
+  {
+    "ref": "J8",
+    "pin": "MP2",
+    "net": "GND_ISO",
+    "id": "5881288c83874a97:ie122"
+  },
+  {
+    "ref": "J9",
+    "pin": "11",
+    "net": "GND_ISO",
+    "id": "bbec6e56690cdf6b:e30"
+  },
+  {
+    "ref": "J9",
+    "pin": "10",
+    "net": "GND_ISO",
+    "id": "bbec6e56690cdf6b:e31"
+  },
+  {
+    "ref": "J9",
+    "pin": "9",
+    "net": "GND_ISO",
+    "id": "bbec6e56690cdf6b:e32"
+  },
+  {
+    "ref": "J9",
+    "pin": "8",
+    "net": "",
+    "id": "bbec6e56690cdf6b:e33"
+  },
+  {
+    "ref": "J9",
+    "pin": "7",
+    "net": "SIM_A_IO",
+    "id": "bbec6e56690cdf6b:e34"
+  },
+  {
+    "ref": "J9",
+    "pin": "3",
+    "net": "SIM_A_CLK",
+    "id": "bbec6e56690cdf6b:e35"
+  },
+  {
+    "ref": "J9",
+    "pin": "6",
+    "net": "",
+    "id": "bbec6e56690cdf6b:e36"
+  },
+  {
+    "ref": "J9",
+    "pin": "2",
+    "net": "SIM_A_RST",
+    "id": "bbec6e56690cdf6b:e37"
+  },
+  {
+    "ref": "J9",
+    "pin": "5",
+    "net": "GND_ISO",
+    "id": "bbec6e56690cdf6b:e38"
+  },
+  {
+    "ref": "J9",
+    "pin": "1",
+    "net": "SIM_A_VCC",
+    "id": "bbec6e56690cdf6b:e39"
+  },
+  {
+    "ref": "U20",
+    "pin": "9",
+    "net": "",
+    "id": "db79b348afa45eba:e13"
+  },
+  {
+    "ref": "U20",
+    "pin": "8",
+    "net": "SIM_B_VCC",
+    "id": "db79b348afa45eba:e14"
+  },
+  {
+    "ref": "U20",
+    "pin": "7",
+    "net": "SIM_B_RST",
+    "id": "db79b348afa45eba:e15"
+  },
+  {
+    "ref": "U20",
+    "pin": "6",
+    "net": "SIM_B_CLK",
+    "id": "db79b348afa45eba:e16"
+  },
+  {
+    "ref": "U20",
+    "pin": "5",
+    "net": "",
+    "id": "db79b348afa45eba:e17"
+  },
+  {
+    "ref": "U20",
+    "pin": "4",
+    "net": "",
+    "id": "db79b348afa45eba:e18"
+  },
+  {
+    "ref": "U20",
+    "pin": "3",
+    "net": "SIM_B_IO",
+    "id": "db79b348afa45eba:e19"
+  },
+  {
+    "ref": "U20",
+    "pin": "2",
+    "net": "",
+    "id": "db79b348afa45eba:e20"
+  },
+  {
+    "ref": "U20",
+    "pin": "1",
+    "net": "GND_ISO",
+    "id": "db79b348afa45eba:e21"
+  },
+  {
+    "ref": "L1",
+    "pin": "1",
+    "net": "R_SW",
+    "id": "eb1c6094ff7ded4f:e10"
+  },
+  {
+    "ref": "L1",
+    "pin": "2",
+    "net": "3V3_ROUTER",
+    "id": "eb1c6094ff7ded4f:e11"
+  },
+  {
+    "ref": "L2",
+    "pin": "1",
+    "net": "M_SW",
+    "id": "d5c916fd704d224c:e10"
+  },
+  {
+    "ref": "L2",
+    "pin": "2",
+    "net": "3V3_MODEM",
+    "id": "d5c916fd704d224c:e11"
+  },
+  {
+    "ref": "PS1",
+    "pin": "2",
+    "net": "AC_L_FUSED",
+    "id": "678da74009f02ff3:e13"
+  },
+  {
+    "ref": "PS1",
+    "pin": "3",
+    "net": "5V_ISO",
+    "id": "678da74009f02ff3:e14"
+  },
+  {
+    "ref": "PS1",
+    "pin": "4",
+    "net": "GND_ISO",
+    "id": "678da74009f02ff3:e15"
+  },
+  {
+    "ref": "PS1",
+    "pin": "1",
+    "net": "AC_N",
+    "id": "678da74009f02ff3:e16"
+  },
+  {
+    "ref": "Q1",
+    "pin": "1",
+    "net": "MODEM_OFF_GATE",
+    "id": "46477b486aedbc59:e9"
+  },
+  {
+    "ref": "Q1",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "46477b486aedbc59:e10"
+  },
+  {
+    "ref": "Q1",
+    "pin": "3",
+    "net": "MODEM_BUCK_EN",
+    "id": "46477b486aedbc59:e11"
+  },
+  {
+    "ref": "Q2",
+    "pin": "1",
+    "net": "MODEM_RESET_GATE",
+    "id": "dded3d0a88438519:e9"
+  },
+  {
+    "ref": "Q2",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "dded3d0a88438519:e10"
+  },
+  {
+    "ref": "Q2",
+    "pin": "3",
+    "net": "MODEM_PERST_N",
+    "id": "dded3d0a88438519:e11"
+  },
+  {
+    "ref": "R20",
+    "pin": "2",
+    "net": "MODEM_BUCK_EN",
+    "id": "ca5859c19238fcee:e7"
+  },
+  {
+    "ref": "R20",
+    "pin": "1",
+    "net": "5V_ISO",
+    "id": "ca5859c19238fcee:e8"
+  },
+  {
+    "ref": "R21",
+    "pin": "2",
+    "net": "MODEM_OFF_GATE",
+    "id": "9df84346d8cf0c7d:e7"
+  },
+  {
+    "ref": "R21",
+    "pin": "1",
+    "net": "MODEM_OFF",
+    "id": "9df84346d8cf0c7d:e8"
+  },
+  {
+    "ref": "R22",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "2f0486b4f2b77a3d:e7"
+  },
+  {
+    "ref": "R22",
+    "pin": "1",
+    "net": "MODEM_OFF_GATE",
+    "id": "2f0486b4f2b77a3d:e8"
+  },
+  {
+    "ref": "R30",
+    "pin": "2",
+    "net": "I2C_SCL",
+    "id": "aa58bcb7278b8cc1:e7"
+  },
+  {
+    "ref": "R30",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "aa58bcb7278b8cc1:e8"
+  },
+  {
+    "ref": "R31",
+    "pin": "2",
+    "net": "I2C_SDA",
+    "id": "03c4120b9a39a59a:e7"
+  },
+  {
+    "ref": "R31",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "03c4120b9a39a59a:e8"
+  },
+  {
+    "ref": "R32",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "8cdd3d37ff1dc361:e7"
+  },
+  {
+    "ref": "R32",
+    "pin": "1",
+    "net": "SIM_SELECT",
+    "id": "8cdd3d37ff1dc361:e8"
+  },
+  {
+    "ref": "R33",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "06df0b3dcbe1d812:e7"
+  },
+  {
+    "ref": "R33",
+    "pin": "1",
+    "net": "MODEM_OFF",
+    "id": "06df0b3dcbe1d812:e8"
+  },
+  {
+    "ref": "R35",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "faae5919e54faea1:e7"
+  },
+  {
+    "ref": "R35",
+    "pin": "1",
+    "net": "MODEM_RESET_REQ",
+    "id": "faae5919e54faea1:e8"
+  },
+  {
+    "ref": "R41",
+    "pin": "2",
+    "net": "LAN1_GREEN_A",
+    "id": "e8da042156974b41:e7"
+  },
+  {
+    "ref": "R41",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "e8da042156974b41:e8"
+  },
+  {
+    "ref": "R42",
+    "pin": "2",
+    "net": "LAN2_GREEN_A",
+    "id": "fa65e70b92fad1ac:e7"
+  },
+  {
+    "ref": "R42",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "fa65e70b92fad1ac:e8"
+  },
+  {
+    "ref": "R43",
+    "pin": "2",
+    "net": "LAN3_GREEN_A",
+    "id": "a413ecc4ca930ba9:e7"
+  },
+  {
+    "ref": "R43",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "a413ecc4ca930ba9:e8"
+  },
+  {
+    "ref": "R44",
+    "pin": "2",
+    "net": "LAN4_GREEN_A",
+    "id": "0cd1c4ba9293361a:e7"
+  },
+  {
+    "ref": "R44",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "0cd1c4ba9293361a:e8"
+  },
+  {
+    "ref": "R60",
+    "pin": "2",
+    "net": "MODEM_RESET_GATE",
+    "id": "d1392a6642d2c54f:e7"
+  },
+  {
+    "ref": "R60",
+    "pin": "1",
+    "net": "MODEM_RESET_REQ",
+    "id": "d1392a6642d2c54f:e8"
+  },
+  {
+    "ref": "R61",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "b3248dfd9bd5996a:e7"
+  },
+  {
+    "ref": "R61",
+    "pin": "1",
+    "net": "MODEM_RESET_GATE",
+    "id": "b3248dfd9bd5996a:e8"
+  },
+  {
+    "ref": "R70",
+    "pin": "2",
+    "net": "USIM_DATA",
+    "id": "969416d358d29b10:e7"
+  },
+  {
+    "ref": "R70",
+    "pin": "1",
+    "net": "USIM_VDD",
+    "id": "969416d358d29b10:e8"
+  },
+  {
+    "ref": "R36",
+    "pin": "2",
+    "net": "ROUTER_RESET_N",
+    "id": "0753eb08b96e3900:e7"
+  },
+  {
+    "ref": "R36",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "0753eb08b96e3900:e8"
+  },
+  {
+    "ref": "SW1",
+    "pin": "1",
+    "net": "ROUTER_RESET_N",
+    "id": "1e40a4a354bc69d5:e5"
+  },
+  {
+    "ref": "SW1",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "1e40a4a354bc69d5:e6"
+  },
+  {
+    "ref": "U1",
+    "pin": "1",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e122"
+  },
+  {
+    "ref": "U1",
+    "pin": "2",
+    "net": "3V3_ROUTER",
+    "id": "10f5972daab5076b:e123"
+  },
+  {
+    "ref": "U1",
+    "pin": "3",
+    "net": "3V3_ROUTER",
+    "id": "10f5972daab5076b:e124"
+  },
+  {
+    "ref": "U1",
+    "pin": "4",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e125"
+  },
+  {
+    "ref": "U1",
+    "pin": "5",
+    "net": "",
+    "id": "10f5972daab5076b:e126"
+  },
+  {
+    "ref": "U1",
+    "pin": "6",
+    "net": "",
+    "id": "10f5972daab5076b:e127"
+  },
+  {
+    "ref": "U1",
+    "pin": "7",
+    "net": "",
+    "id": "10f5972daab5076b:e128"
+  },
+  {
+    "ref": "U1",
+    "pin": "8",
+    "net": "",
+    "id": "10f5972daab5076b:e129"
+  },
+  {
+    "ref": "U1",
+    "pin": "9",
+    "net": "LAN4_LED_N",
+    "id": "10f5972daab5076b:e130"
+  },
+  {
+    "ref": "U1",
+    "pin": "10",
+    "net": "LAN3_LED_N",
+    "id": "10f5972daab5076b:e131"
+  },
+  {
+    "ref": "U1",
+    "pin": "11",
+    "net": "LAN2_LED_N",
+    "id": "10f5972daab5076b:e132"
+  },
+  {
+    "ref": "U1",
+    "pin": "12",
+    "net": "LAN1_LED_N",
+    "id": "10f5972daab5076b:e133"
+  },
+  {
+    "ref": "U1",
+    "pin": "13",
+    "net": "",
+    "id": "10f5972daab5076b:e134"
+  },
+  {
+    "ref": "U1",
+    "pin": "14",
+    "net": "ROUTER_RESET_N",
+    "id": "10f5972daab5076b:e135"
+  },
+  {
+    "ref": "U1",
+    "pin": "15",
+    "net": "",
+    "id": "10f5972daab5076b:e136"
+  },
+  {
+    "ref": "U1",
+    "pin": "16",
+    "net": "",
+    "id": "10f5972daab5076b:e137"
+  },
+  {
+    "ref": "U1",
+    "pin": "17",
+    "net": "",
+    "id": "10f5972daab5076b:e138"
+  },
+  {
+    "ref": "U1",
+    "pin": "18",
+    "net": "",
+    "id": "10f5972daab5076b:e139"
+  },
+  {
+    "ref": "U1",
+    "pin": "19",
+    "net": "",
+    "id": "10f5972daab5076b:e140"
+  },
+  {
+    "ref": "U1",
+    "pin": "20",
+    "net": "",
+    "id": "10f5972daab5076b:e141"
+  },
+  {
+    "ref": "U1",
+    "pin": "21",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e142"
+  },
+  {
+    "ref": "U1",
+    "pin": "22",
+    "net": "",
+    "id": "10f5972daab5076b:e143"
+  },
+  {
+    "ref": "U1",
+    "pin": "23",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e144"
+  },
+  {
+    "ref": "U1",
+    "pin": "24",
+    "net": "I2C_SCL",
+    "id": "10f5972daab5076b:e145"
+  },
+  {
+    "ref": "U1",
+    "pin": "25",
+    "net": "I2C_SDA",
+    "id": "10f5972daab5076b:e146"
+  },
+  {
+    "ref": "U1",
+    "pin": "26",
+    "net": "",
+    "id": "10f5972daab5076b:e147"
+  },
+  {
+    "ref": "U1",
+    "pin": "27",
+    "net": "",
+    "id": "10f5972daab5076b:e148"
+  },
+  {
+    "ref": "U1",
+    "pin": "28",
+    "net": "",
+    "id": "10f5972daab5076b:e149"
+  },
+  {
+    "ref": "U1",
+    "pin": "29",
+    "net": "",
+    "id": "10f5972daab5076b:e150"
+  },
+  {
+    "ref": "U1",
+    "pin": "30",
+    "net": "ROUTER_GPIO0_N",
+    "id": "10f5972daab5076b:e151"
+  },
+  {
+    "ref": "U1",
+    "pin": "31",
+    "net": "CONSOLE_TX",
+    "id": "10f5972daab5076b:e152"
+  },
+  {
+    "ref": "U1",
+    "pin": "32",
+    "net": "CONSOLE_RX",
+    "id": "10f5972daab5076b:e153"
+  },
+  {
+    "ref": "U1",
+    "pin": "33",
+    "net": "",
+    "id": "10f5972daab5076b:e154"
+  },
+  {
+    "ref": "U1",
+    "pin": "34",
+    "net": "",
+    "id": "10f5972daab5076b:e155"
+  },
+  {
+    "ref": "U1",
+    "pin": "35",
+    "net": "",
+    "id": "10f5972daab5076b:e156"
+  },
+  {
+    "ref": "U1",
+    "pin": "36",
+    "net": "",
+    "id": "10f5972daab5076b:e157"
+  },
+  {
+    "ref": "U1",
+    "pin": "37",
+    "net": "",
+    "id": "10f5972daab5076b:e158"
+  },
+  {
+    "ref": "U1",
+    "pin": "38",
+    "net": "LAN1_TXP",
+    "id": "10f5972daab5076b:e159"
+  },
+  {
+    "ref": "U1",
+    "pin": "39",
+    "net": "LAN1_TXN",
+    "id": "10f5972daab5076b:e160"
+  },
+  {
+    "ref": "U1",
+    "pin": "40",
+    "net": "LAN1_RXP",
+    "id": "10f5972daab5076b:e161"
+  },
+  {
+    "ref": "U1",
+    "pin": "41",
+    "net": "LAN1_RXN",
+    "id": "10f5972daab5076b:e162"
+  },
+  {
+    "ref": "U1",
+    "pin": "42",
+    "net": "LAN2_RXP",
+    "id": "10f5972daab5076b:e163"
+  },
+  {
+    "ref": "U1",
+    "pin": "43",
+    "net": "LAN2_RXN",
+    "id": "10f5972daab5076b:e164"
+  },
+  {
+    "ref": "U1",
+    "pin": "44",
+    "net": "LAN2_TXP",
+    "id": "10f5972daab5076b:e165"
+  },
+  {
+    "ref": "U1",
+    "pin": "45",
+    "net": "LAN2_TXN",
+    "id": "10f5972daab5076b:e166"
+  },
+  {
+    "ref": "U1",
+    "pin": "46",
+    "net": "LAN3_TXP",
+    "id": "10f5972daab5076b:e167"
+  },
+  {
+    "ref": "U1",
+    "pin": "47",
+    "net": "LAN3_TXN",
+    "id": "10f5972daab5076b:e168"
+  },
+  {
+    "ref": "U1",
+    "pin": "48",
+    "net": "LAN3_RXP",
+    "id": "10f5972daab5076b:e169"
+  },
+  {
+    "ref": "U1",
+    "pin": "49",
+    "net": "LAN3_RXN",
+    "id": "10f5972daab5076b:e170"
+  },
+  {
+    "ref": "U1",
+    "pin": "50",
+    "net": "LAN4_RXP",
+    "id": "10f5972daab5076b:e171"
+  },
+  {
+    "ref": "U1",
+    "pin": "51",
+    "net": "LAN4_RXN",
+    "id": "10f5972daab5076b:e172"
+  },
+  {
+    "ref": "U1",
+    "pin": "52",
+    "net": "LAN4_TXP",
+    "id": "10f5972daab5076b:e173"
+  },
+  {
+    "ref": "U1",
+    "pin": "53",
+    "net": "LAN4_TXN",
+    "id": "10f5972daab5076b:e174"
+  },
+  {
+    "ref": "U1",
+    "pin": "54",
+    "net": "USB_HOST_DP",
+    "id": "10f5972daab5076b:e175"
+  },
+  {
+    "ref": "U1",
+    "pin": "55",
+    "net": "USB_HOST_DM",
+    "id": "10f5972daab5076b:e176"
+  },
+  {
+    "ref": "U1",
+    "pin": "56",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e177"
+  },
+  {
+    "ref": "U1",
+    "pin": "57",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e178"
+  },
+  {
+    "ref": "U1",
+    "pin": "58",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e179"
+  },
+  {
+    "ref": "U1",
+    "pin": "59",
+    "net": "GND_ISO",
+    "id": "10f5972daab5076b:e180"
+  },
+  {
+    "ref": "U2",
+    "pin": "17",
+    "net": "GND_ISO",
+    "id": "a3a4d3a2b79cb878:e30"
+  },
+  {
+    "ref": "U2",
+    "pin": "16",
+    "net": "GND_ISO",
+    "id": "a3a4d3a2b79cb878:e31"
+  },
+  {
+    "ref": "U2",
+    "pin": "15",
+    "net": "GND_ISO",
+    "id": "a3a4d3a2b79cb878:e32"
+  },
+  {
+    "ref": "U2",
+    "pin": "14",
+    "net": "3V3_ROUTER",
+    "id": "a3a4d3a2b79cb878:e33"
+  },
+  {
+    "ref": "U2",
+    "pin": "13",
+    "net": "5V_ISO",
+    "id": "a3a4d3a2b79cb878:e34"
+  },
+  {
+    "ref": "U2",
+    "pin": "12",
+    "net": "5V_ISO",
+    "id": "a3a4d3a2b79cb878:e35"
+  },
+  {
+    "ref": "U2",
+    "pin": "11",
+    "net": "5V_ISO",
+    "id": "a3a4d3a2b79cb878:e36"
+  },
+  {
+    "ref": "U2",
+    "pin": "10",
+    "net": "5V_ISO",
+    "id": "a3a4d3a2b79cb878:e37"
+  },
+  {
+    "ref": "U2",
+    "pin": "9",
+    "net": "R_SS",
+    "id": "a3a4d3a2b79cb878:e38"
+  },
+  {
+    "ref": "U2",
+    "pin": "8",
+    "net": "GND_ISO",
+    "id": "a3a4d3a2b79cb878:e39"
+  },
+  {
+    "ref": "U2",
+    "pin": "7",
+    "net": "GND_ISO",
+    "id": "a3a4d3a2b79cb878:e40"
+  },
+  {
+    "ref": "U2",
+    "pin": "6",
+    "net": "GND_ISO",
+    "id": "a3a4d3a2b79cb878:e41"
+  },
+  {
+    "ref": "U2",
+    "pin": "5",
+    "net": "GND_ISO",
+    "id": "a3a4d3a2b79cb878:e42"
+  },
+  {
+    "ref": "U2",
+    "pin": "4",
+    "net": "",
+    "id": "a3a4d3a2b79cb878:e43"
+  },
+  {
+    "ref": "U2",
+    "pin": "3",
+    "net": "R_SW",
+    "id": "a3a4d3a2b79cb878:e44"
+  },
+  {
+    "ref": "U2",
+    "pin": "2",
+    "net": "R_SW",
+    "id": "a3a4d3a2b79cb878:e45"
+  },
+  {
+    "ref": "U2",
+    "pin": "1",
+    "net": "R_SW",
+    "id": "a3a4d3a2b79cb878:e46"
+  },
+  {
+    "ref": "U3",
+    "pin": "17",
+    "net": "GND_ISO",
+    "id": "7ea68129f7b391e0:e30"
+  },
+  {
+    "ref": "U3",
+    "pin": "16",
+    "net": "GND_ISO",
+    "id": "7ea68129f7b391e0:e31"
+  },
+  {
+    "ref": "U3",
+    "pin": "15",
+    "net": "GND_ISO",
+    "id": "7ea68129f7b391e0:e32"
+  },
+  {
+    "ref": "U3",
+    "pin": "14",
+    "net": "3V3_MODEM",
+    "id": "7ea68129f7b391e0:e33"
+  },
+  {
+    "ref": "U3",
+    "pin": "13",
+    "net": "MODEM_BUCK_EN",
+    "id": "7ea68129f7b391e0:e34"
+  },
+  {
+    "ref": "U3",
+    "pin": "12",
+    "net": "5V_ISO",
+    "id": "7ea68129f7b391e0:e35"
+  },
+  {
+    "ref": "U3",
+    "pin": "11",
+    "net": "5V_ISO",
+    "id": "7ea68129f7b391e0:e36"
+  },
+  {
+    "ref": "U3",
+    "pin": "10",
+    "net": "5V_ISO",
+    "id": "7ea68129f7b391e0:e37"
+  },
+  {
+    "ref": "U3",
+    "pin": "9",
+    "net": "M_SS",
+    "id": "7ea68129f7b391e0:e38"
+  },
+  {
+    "ref": "U3",
+    "pin": "8",
+    "net": "GND_ISO",
+    "id": "7ea68129f7b391e0:e39"
+  },
+  {
+    "ref": "U3",
+    "pin": "7",
+    "net": "GND_ISO",
+    "id": "7ea68129f7b391e0:e40"
+  },
+  {
+    "ref": "U3",
+    "pin": "6",
+    "net": "GND_ISO",
+    "id": "7ea68129f7b391e0:e41"
+  },
+  {
+    "ref": "U3",
+    "pin": "5",
+    "net": "GND_ISO",
+    "id": "7ea68129f7b391e0:e42"
+  },
+  {
+    "ref": "U3",
+    "pin": "4",
+    "net": "",
+    "id": "7ea68129f7b391e0:e43"
+  },
+  {
+    "ref": "U3",
+    "pin": "3",
+    "net": "M_SW",
+    "id": "7ea68129f7b391e0:e44"
+  },
+  {
+    "ref": "U3",
+    "pin": "2",
+    "net": "M_SW",
+    "id": "7ea68129f7b391e0:e45"
+  },
+  {
+    "ref": "U3",
+    "pin": "1",
+    "net": "M_SW",
+    "id": "7ea68129f7b391e0:e46"
+  },
+  {
+    "ref": "U6",
+    "pin": "1",
+    "net": "I2C_SCL",
+    "id": "3b606ed15021ab26:e40"
+  },
+  {
+    "ref": "U6",
+    "pin": "2",
+    "net": "I2C_SDA",
+    "id": "3b606ed15021ab26:e41"
+  },
+  {
+    "ref": "U6",
+    "pin": "3",
+    "net": "GND_ISO",
+    "id": "3b606ed15021ab26:e42"
+  },
+  {
+    "ref": "U6",
+    "pin": "4",
+    "net": "GND_ISO",
+    "id": "3b606ed15021ab26:e43"
+  },
+  {
+    "ref": "U6",
+    "pin": "5",
+    "net": "GND_ISO",
+    "id": "3b606ed15021ab26:e44"
+  },
+  {
+    "ref": "U6",
+    "pin": "6",
+    "net": "ROUTER_RESET_N",
+    "id": "3b606ed15021ab26:e45"
+  },
+  {
+    "ref": "U6",
+    "pin": "7",
+    "net": "",
+    "id": "3b606ed15021ab26:e46"
+  },
+  {
+    "ref": "U6",
+    "pin": "8",
+    "net": "",
+    "id": "3b606ed15021ab26:e47"
+  },
+  {
+    "ref": "U6",
+    "pin": "9",
+    "net": "GND_ISO",
+    "id": "3b606ed15021ab26:e48"
+  },
+  {
+    "ref": "U6",
+    "pin": "18",
+    "net": "3V3_ROUTER",
+    "id": "3b606ed15021ab26:e49"
+  },
+  {
+    "ref": "U6",
+    "pin": "17",
+    "net": "",
+    "id": "3b606ed15021ab26:e50"
+  },
+  {
+    "ref": "U6",
+    "pin": "16",
+    "net": "",
+    "id": "3b606ed15021ab26:e51"
+  },
+  {
+    "ref": "U6",
+    "pin": "15",
+    "net": "",
+    "id": "3b606ed15021ab26:e52"
+  },
+  {
+    "ref": "U6",
+    "pin": "14",
+    "net": "",
+    "id": "3b606ed15021ab26:e53"
+  },
+  {
+    "ref": "U6",
+    "pin": "13",
+    "net": "",
+    "id": "3b606ed15021ab26:e54"
+  },
+  {
+    "ref": "U6",
+    "pin": "12",
+    "net": "MODEM_RESET_REQ",
+    "id": "3b606ed15021ab26:e55"
+  },
+  {
+    "ref": "U6",
+    "pin": "11",
+    "net": "MODEM_OFF",
+    "id": "3b606ed15021ab26:e56"
+  },
+  {
+    "ref": "U6",
+    "pin": "10",
+    "net": "SIM_SELECT",
+    "id": "3b606ed15021ab26:e57"
+  },
+  {
+    "ref": "U8",
+    "pin": "1",
+    "net": "USB_HOST_DP",
+    "id": "1454832345ccba66:e13"
+  },
+  {
+    "ref": "U8",
+    "pin": "2",
+    "net": "USB_HOST_DM",
+    "id": "1454832345ccba66:e14"
+  },
+  {
+    "ref": "U8",
+    "pin": "3",
+    "net": "USB_SERVICE_DP",
+    "id": "1454832345ccba66:e15"
+  },
+  {
+    "ref": "U8",
+    "pin": "4",
+    "net": "USB_SERVICE_DM",
+    "id": "1454832345ccba66:e16"
+  },
+  {
+    "ref": "U8",
+    "pin": "5",
+    "net": "GND_ISO",
+    "id": "1454832345ccba66:e17"
+  },
+  {
+    "ref": "U8",
+    "pin": "6",
+    "net": "MODEM_OFF",
+    "id": "1454832345ccba66:e18"
+  },
+  {
+    "ref": "U8",
+    "pin": "7",
+    "net": "USB_MODEM_DM",
+    "id": "1454832345ccba66:e19"
+  },
+  {
+    "ref": "U8",
+    "pin": "8",
+    "net": "USB_MODEM_DP",
+    "id": "1454832345ccba66:e20"
+  },
+  {
+    "ref": "U8",
+    "pin": "9",
+    "net": "MODEM_USB_SEL",
+    "id": "1454832345ccba66:e21"
+  },
+  {
+    "ref": "U8",
+    "pin": "10",
+    "net": "3V3_ROUTER",
+    "id": "1454832345ccba66:e22"
+  },
+  {
+    "ref": "U9",
+    "pin": "1",
+    "net": "USB_MODEM_DP",
+    "id": "16cf76fd2b74400d:e6"
+  },
+  {
+    "ref": "U9",
+    "pin": "2",
+    "net": "USB_MODEM_DM",
+    "id": "16cf76fd2b74400d:e7"
+  },
+  {
+    "ref": "U9",
+    "pin": "3",
+    "net": "GND_ISO",
+    "id": "16cf76fd2b74400d:e8"
+  },
+  {
+    "ref": "U10",
+    "pin": "1",
+    "net": "SIM_B_CLK",
+    "id": "912f33ea6a476c52:e41"
+  },
+  {
+    "ref": "U10",
+    "pin": "2",
+    "net": "USIM_CLK",
+    "id": "912f33ea6a476c52:e42"
+  },
+  {
+    "ref": "U10",
+    "pin": "3",
+    "net": "SIM_A_CLK",
+    "id": "912f33ea6a476c52:e43"
+  },
+  {
+    "ref": "U10",
+    "pin": "4",
+    "net": "GND_ISO",
+    "id": "912f33ea6a476c52:e44"
+  },
+  {
+    "ref": "U10",
+    "pin": "5",
+    "net": "SIM_B_RST",
+    "id": "912f33ea6a476c52:e45"
+  },
+  {
+    "ref": "U10",
+    "pin": "6",
+    "net": "USIM_RST",
+    "id": "912f33ea6a476c52:e46"
+  },
+  {
+    "ref": "U10",
+    "pin": "7",
+    "net": "SIM_A_RST",
+    "id": "912f33ea6a476c52:e47"
+  },
+  {
+    "ref": "U10",
+    "pin": "8",
+    "net": "SIM_SELECT",
+    "id": "912f33ea6a476c52:e48"
+  },
+  {
+    "ref": "U10",
+    "pin": "16",
+    "net": "SIM_SELECT",
+    "id": "912f33ea6a476c52:e49"
+  },
+  {
+    "ref": "U10",
+    "pin": "15",
+    "net": "SIM_A_VCC",
+    "id": "912f33ea6a476c52:e50"
+  },
+  {
+    "ref": "U10",
+    "pin": "14",
+    "net": "USIM_VDD",
+    "id": "912f33ea6a476c52:e51"
+  },
+  {
+    "ref": "U10",
+    "pin": "13",
+    "net": "SIM_B_VCC",
+    "id": "912f33ea6a476c52:e52"
+  },
+  {
+    "ref": "U10",
+    "pin": "12",
+    "net": "3V3_ROUTER",
+    "id": "912f33ea6a476c52:e53"
+  },
+  {
+    "ref": "U10",
+    "pin": "11",
+    "net": "SIM_A_IO",
+    "id": "912f33ea6a476c52:e54"
+  },
+  {
+    "ref": "U10",
+    "pin": "10",
+    "net": "USIM_DATA",
+    "id": "912f33ea6a476c52:e55"
+  },
+  {
+    "ref": "U10",
+    "pin": "9",
+    "net": "SIM_B_IO",
+    "id": "912f33ea6a476c52:e56"
+  },
+  {
+    "ref": "U14",
+    "pin": "1",
+    "net": "SIM_A_CLK",
+    "id": "ec821aae990331fa:e7"
+  },
+  {
+    "ref": "U14",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ec821aae990331fa:e8"
+  },
+  {
+    "ref": "U14",
+    "pin": "3",
+    "net": "SIM_A_RST",
+    "id": "ec821aae990331fa:e9"
+  },
+  {
+    "ref": "U14",
+    "pin": "4",
+    "net": "SIM_A_IO",
+    "id": "ec821aae990331fa:e10"
+  },
+  {
+    "ref": "U14",
+    "pin": "5",
+    "net": "SIM_A_VCC",
+    "id": "ec821aae990331fa:e11"
+  },
+  {
+    "ref": "U14",
+    "pin": "6",
+    "net": "",
+    "id": "ec821aae990331fa:e12"
+  },
+  {
+    "ref": "R37",
+    "pin": "2",
+    "net": "ROUTER_GPIO0_N",
+    "id": "75abc6359c92f346:e7"
+  },
+  {
+    "ref": "R37",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "75abc6359c92f346:e8"
+  },
+  {
+    "ref": "R74",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "d95d68ba9dd4f5c0:e7"
+  },
+  {
+    "ref": "R74",
+    "pin": "1",
+    "net": "MODEM_USB_SEL",
+    "id": "d95d68ba9dd4f5c0:e8"
+  },
+  {
+    "ref": "SW3",
+    "pin": "1",
+    "net": "ROUTER_GPIO0_N",
+    "id": "1278b6749661ccfc:e5"
+  },
+  {
+    "ref": "SW3",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "1278b6749661ccfc:e6"
+  },
+  {
+    "ref": "U15",
+    "pin": "1",
+    "net": "USB_SERVICE_DP",
+    "id": "eab37b300a398a66:e6"
+  },
+  {
+    "ref": "U15",
+    "pin": "2",
+    "net": "USB_SERVICE_DM",
+    "id": "eab37b300a398a66:e7"
+  },
+  {
+    "ref": "U15",
+    "pin": "3",
+    "net": "GND_ISO",
+    "id": "eab37b300a398a66:e8"
+  },
+  {
+    "ref": "C90",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "0f3a78eaa03fa63f:e14"
+  },
+  {
+    "ref": "C90",
+    "pin": "1",
+    "net": "USB_C_VBUS",
+    "id": "0f3a78eaa03fa63f:e15"
+  },
+  {
+    "ref": "C91",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ab8905d4a8896eb8:e14"
+  },
+  {
+    "ref": "C91",
+    "pin": "1",
+    "net": "USB_UART_3V3",
+    "id": "ab8905d4a8896eb8:e15"
+  },
+  {
+    "ref": "C92",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "01dd8cf4c6a0ed23:e14"
+  },
+  {
+    "ref": "C92",
+    "pin": "1",
+    "net": "USB_UART_3V3",
+    "id": "01dd8cf4c6a0ed23:e15"
+  },
+  {
+    "ref": "C93",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "7a1a18525c29922d:e14"
+  },
+  {
+    "ref": "C93",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "7a1a18525c29922d:e15"
+  },
+  {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "id": "4c889eb3ec7dd1aa:e18"
+  },
+  {
+    "ref": "CN1",
+    "pin": "2",
+    "net": "AC_N",
+    "id": "4c889eb3ec7dd1aa:e19"
+  },
+  {
+    "ref": "CN1",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "4c889eb3ec7dd1aa:e20"
+  },
+  {
+    "ref": "CN1",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "4c889eb3ec7dd1aa:e21"
+  },
+  {
+    "ref": "CN1",
+    "pin": "2",
+    "net": "AC_N",
+    "id": "4c889eb3ec7dd1aa:e22"
+  },
+  {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "id": "4c889eb3ec7dd1aa:e23"
+  },
+  {
+    "ref": "J15",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "id": "a92021af4e71eefe:e18"
+  },
+  {
+    "ref": "J15",
+    "pin": "2",
+    "net": "AC_N",
+    "id": "a92021af4e71eefe:e19"
+  },
+  {
+    "ref": "J15",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "a92021af4e71eefe:e20"
+  },
+  {
+    "ref": "J15",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "a92021af4e71eefe:e21"
+  },
+  {
+    "ref": "J15",
+    "pin": "2",
+    "net": "AC_N",
+    "id": "a92021af4e71eefe:e22"
+  },
+  {
+    "ref": "J15",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "id": "a92021af4e71eefe:e23"
+  },
+  {
+    "ref": "J16",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "id": "9acd44cbb464da94:e18"
+  },
+  {
+    "ref": "J16",
+    "pin": "2",
+    "net": "AC_N",
+    "id": "9acd44cbb464da94:e19"
+  },
+  {
+    "ref": "J16",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "9acd44cbb464da94:e20"
+  },
+  {
+    "ref": "J16",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "9acd44cbb464da94:e21"
+  },
+  {
+    "ref": "J16",
+    "pin": "2",
+    "net": "AC_N",
+    "id": "9acd44cbb464da94:e22"
+  },
+  {
+    "ref": "J16",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "id": "9acd44cbb464da94:e23"
+  },
+  {
+    "ref": "Q3",
+    "pin": "1",
+    "net": "USB_DETECT_GATE",
+    "id": "beb144809545913e:e9"
+  },
+  {
+    "ref": "Q3",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "beb144809545913e:e10"
+  },
+  {
+    "ref": "Q3",
+    "pin": "3",
+    "net": "USB_UART_OE_N",
+    "id": "beb144809545913e:e11"
+  },
+  {
+    "ref": "R90",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "3a569db0012ee3fd:e7"
+  },
+  {
+    "ref": "R90",
+    "pin": "1",
+    "net": "USB_C_CC1",
+    "id": "3a569db0012ee3fd:e8"
+  },
+  {
+    "ref": "R91",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "6e468308d992a32a:e7"
+  },
+  {
+    "ref": "R91",
+    "pin": "1",
+    "net": "USB_C_CC2",
+    "id": "6e468308d992a32a:e8"
+  },
+  {
+    "ref": "R92",
+    "pin": "2",
+    "net": "USB_UART_OE_N",
+    "id": "960d24ec39a50cd2:e7"
+  },
+  {
+    "ref": "R92",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "960d24ec39a50cd2:e8"
+  },
+  {
+    "ref": "R93",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "84c1c4cb841776ab:e7"
+  },
+  {
+    "ref": "R93",
+    "pin": "1",
+    "net": "USB_DETECT_GATE",
+    "id": "84c1c4cb841776ab:e8"
+  },
+  {
+    "ref": "R94",
+    "pin": "2",
+    "net": "USB_DETECT_GATE",
+    "id": "9a5f999a91ded760:e7"
+  },
+  {
+    "ref": "R94",
+    "pin": "1",
+    "net": "USB_C_VBUS",
+    "id": "9a5f999a91ded760:e8"
+  },
+  {
+    "ref": "R95",
+    "pin": "2",
+    "net": "USB_UART_TX_BUF",
+    "id": "935f5cd786d91dcd:e7"
+  },
+  {
+    "ref": "R95",
+    "pin": "1",
+    "net": "USB_UART_TX",
+    "id": "935f5cd786d91dcd:e8"
+  },
+  {
+    "ref": "R96",
+    "pin": "2",
+    "net": "USB_UART_RX",
+    "id": "6f483cc0eda4adb4:e7"
+  },
+  {
+    "ref": "R96",
+    "pin": "1",
+    "net": "USB_UART_RX_BUF",
+    "id": "6f483cc0eda4adb4:e8"
+  },
+  {
+    "ref": "U16",
+    "pin": "1",
+    "net": "GND_ISO",
+    "id": "3869a248438e0283:e36"
+  },
+  {
+    "ref": "U16",
+    "pin": "2",
+    "net": "USB_UART_TX",
+    "id": "3869a248438e0283:e37"
+  },
+  {
+    "ref": "U16",
+    "pin": "3",
+    "net": "USB_UART_RX",
+    "id": "3869a248438e0283:e38"
+  },
+  {
+    "ref": "U16",
+    "pin": "4",
+    "net": "USB_UART_3V3",
+    "id": "3869a248438e0283:e39"
+  },
+  {
+    "ref": "U16",
+    "pin": "5",
+    "net": "USB_CONSOLE_DP",
+    "id": "3869a248438e0283:e40"
+  },
+  {
+    "ref": "U16",
+    "pin": "6",
+    "net": "USB_CONSOLE_DM",
+    "id": "3869a248438e0283:e41"
+  },
+  {
+    "ref": "U16",
+    "pin": "7",
+    "net": "",
+    "id": "3869a248438e0283:e42"
+  },
+  {
+    "ref": "U16",
+    "pin": "8",
+    "net": "",
+    "id": "3869a248438e0283:e43"
+  },
+  {
+    "ref": "U16",
+    "pin": "16",
+    "net": "USB_UART_3V3",
+    "id": "3869a248438e0283:e44"
+  },
+  {
+    "ref": "U16",
+    "pin": "15",
+    "net": "GND_ISO",
+    "id": "3869a248438e0283:e45"
+  },
+  {
+    "ref": "U16",
+    "pin": "14",
+    "net": "",
+    "id": "3869a248438e0283:e46"
+  },
+  {
+    "ref": "U16",
+    "pin": "13",
+    "net": "",
+    "id": "3869a248438e0283:e47"
+  },
+  {
+    "ref": "U16",
+    "pin": "12",
+    "net": "",
+    "id": "3869a248438e0283:e48"
+  },
+  {
+    "ref": "U16",
+    "pin": "11",
+    "net": "",
+    "id": "3869a248438e0283:e49"
+  },
+  {
+    "ref": "U16",
+    "pin": "10",
+    "net": "",
+    "id": "3869a248438e0283:e50"
+  },
+  {
+    "ref": "U16",
+    "pin": "9",
+    "net": "",
+    "id": "3869a248438e0283:e51"
+  },
+  {
+    "ref": "U17",
+    "pin": "1",
+    "net": "USB_C_VBUS",
+    "id": "1f4b1db1124d5686:e4"
+  },
+  {
+    "ref": "U17",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "1f4b1db1124d5686:e5"
+  },
+  {
+    "ref": "U17",
+    "pin": "3",
+    "net": "USB_C_VBUS",
+    "id": "1f4b1db1124d5686:e6"
+  },
+  {
+    "ref": "U17",
+    "pin": "4",
+    "net": "",
+    "id": "1f4b1db1124d5686:e7"
+  },
+  {
+    "ref": "U17",
+    "pin": "5",
+    "net": "USB_UART_3V3",
+    "id": "1f4b1db1124d5686:e8"
+  },
+  {
+    "ref": "U18",
+    "pin": "1",
+    "net": "USB_UART_OE_N",
+    "id": "5338920d143d58a7:e23"
+  },
+  {
+    "ref": "U18",
+    "pin": "2",
+    "net": "USB_UART_TX_BUF",
+    "id": "5338920d143d58a7:e24"
+  },
+  {
+    "ref": "U18",
+    "pin": "3",
+    "net": "USB_UART_RX_BUF",
+    "id": "5338920d143d58a7:e25"
+  },
+  {
+    "ref": "U18",
+    "pin": "4",
+    "net": "GND_ISO",
+    "id": "5338920d143d58a7:e26"
+  },
+  {
+    "ref": "U18",
+    "pin": "8",
+    "net": "3V3_ROUTER",
+    "id": "5338920d143d58a7:e27"
+  },
+  {
+    "ref": "U18",
+    "pin": "7",
+    "net": "USB_UART_OE_N",
+    "id": "5338920d143d58a7:e28"
+  },
+  {
+    "ref": "U18",
+    "pin": "6",
+    "net": "CONSOLE_RX",
+    "id": "5338920d143d58a7:e29"
+  },
+  {
+    "ref": "U18",
+    "pin": "5",
+    "net": "CONSOLE_TX",
+    "id": "5338920d143d58a7:e30"
+  },
+  {
+    "ref": "U19",
+    "pin": "1",
+    "net": "USB_CONSOLE_DP",
+    "id": "5061a3df41fad1f9:e6"
+  },
+  {
+    "ref": "U19",
+    "pin": "2",
+    "net": "USB_CONSOLE_DM",
+    "id": "5061a3df41fad1f9:e7"
+  },
+  {
+    "ref": "U19",
+    "pin": "3",
+    "net": "GND_ISO",
+    "id": "5061a3df41fad1f9:e8"
+  },
+  {
+    "ref": "J14",
+    "pin": "B1",
+    "net": "GND_ISO",
+    "id": "52da048fb8f410fb:e39"
+  },
+  {
+    "ref": "J14",
+    "pin": "B4",
+    "net": "USB_C_VBUS",
+    "id": "52da048fb8f410fb:e40"
+  },
+  {
+    "ref": "J14",
+    "pin": "B5",
+    "net": "USB_C_CC2",
+    "id": "52da048fb8f410fb:e41"
+  },
+  {
+    "ref": "J14",
+    "pin": "B6",
+    "net": "USB_CONSOLE_DP",
+    "id": "52da048fb8f410fb:e42"
+  },
+  {
+    "ref": "J14",
+    "pin": "B7",
+    "net": "USB_CONSOLE_DM",
+    "id": "52da048fb8f410fb:e43"
+  },
+  {
+    "ref": "J14",
+    "pin": "B8",
+    "net": "",
+    "id": "52da048fb8f410fb:e44"
+  },
+  {
+    "ref": "J14",
+    "pin": "B9",
+    "net": "USB_C_VBUS",
+    "id": "52da048fb8f410fb:e45"
+  },
+  {
+    "ref": "J14",
+    "pin": "B12",
+    "net": "GND_ISO",
+    "id": "52da048fb8f410fb:e46"
+  },
+  {
+    "ref": "J14",
+    "pin": "A1",
+    "net": "GND_ISO",
+    "id": "52da048fb8f410fb:e47"
+  },
+  {
+    "ref": "J14",
+    "pin": "A4",
+    "net": "USB_C_VBUS",
+    "id": "52da048fb8f410fb:e48"
+  },
+  {
+    "ref": "J14",
+    "pin": "A5",
+    "net": "USB_C_CC1",
+    "id": "52da048fb8f410fb:e49"
+  },
+  {
+    "ref": "J14",
+    "pin": "A6",
+    "net": "USB_CONSOLE_DP",
+    "id": "52da048fb8f410fb:e50"
+  },
+  {
+    "ref": "J14",
+    "pin": "A7",
+    "net": "USB_CONSOLE_DM",
+    "id": "52da048fb8f410fb:e51"
+  },
+  {
+    "ref": "J14",
+    "pin": "A8",
+    "net": "",
+    "id": "52da048fb8f410fb:e52"
+  },
+  {
+    "ref": "J14",
+    "pin": "A9",
+    "net": "USB_C_VBUS",
+    "id": "52da048fb8f410fb:e53"
+  },
+  {
+    "ref": "J14",
+    "pin": "A12",
+    "net": "GND_ISO",
+    "id": "52da048fb8f410fb:e54"
+  },
+  {
+    "ref": "J14",
+    "pin": "1",
+    "net": "CHASSIS_PE",
+    "id": "52da048fb8f410fb:e57"
+  },
+  {
+    "ref": "J14",
+    "pin": "4",
+    "net": "CHASSIS_PE",
+    "id": "52da048fb8f410fb:e58"
+  },
+  {
+    "ref": "J14",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "52da048fb8f410fb:e59"
+  },
+  {
+    "ref": "J14",
+    "pin": "2",
+    "net": "CHASSIS_PE",
+    "id": "52da048fb8f410fb:e60"
+  },
+  {
+    "ref": "J17",
+    "pin": "B1",
+    "net": "GND_ISO",
+    "id": "ed28150000000001:e39"
+  },
+  {
+    "ref": "J17",
+    "pin": "B4",
+    "net": "MUSB_VBUS",
+    "id": "ed28150000000001:e40"
+  },
+  {
+    "ref": "J17",
+    "pin": "B5",
+    "net": "MUSB_CC2",
+    "id": "ed28150000000001:e41"
+  },
+  {
+    "ref": "J17",
+    "pin": "B6",
+    "net": "USB_SERVICE_DP",
+    "id": "ed28150000000001:e42"
+  },
+  {
+    "ref": "J17",
+    "pin": "B7",
+    "net": "USB_SERVICE_DM",
+    "id": "ed28150000000001:e43"
+  },
+  {
+    "ref": "J17",
+    "pin": "B8",
+    "net": "",
+    "id": "ed28150000000001:e44"
+  },
+  {
+    "ref": "J17",
+    "pin": "B9",
+    "net": "MUSB_VBUS",
+    "id": "ed28150000000001:e45"
+  },
+  {
+    "ref": "J17",
+    "pin": "B12",
+    "net": "GND_ISO",
+    "id": "ed28150000000001:e46"
+  },
+  {
+    "ref": "J17",
+    "pin": "A1",
+    "net": "GND_ISO",
+    "id": "ed28150000000001:e47"
+  },
+  {
+    "ref": "J17",
+    "pin": "A4",
+    "net": "MUSB_VBUS",
+    "id": "ed28150000000001:e48"
+  },
+  {
+    "ref": "J17",
+    "pin": "A5",
+    "net": "MUSB_CC1",
+    "id": "ed28150000000001:e49"
+  },
+  {
+    "ref": "J17",
+    "pin": "A6",
+    "net": "USB_SERVICE_DP",
+    "id": "ed28150000000001:e50"
+  },
+  {
+    "ref": "J17",
+    "pin": "A7",
+    "net": "USB_SERVICE_DM",
+    "id": "ed28150000000001:e51"
+  },
+  {
+    "ref": "J17",
+    "pin": "A8",
+    "net": "",
+    "id": "ed28150000000001:e52"
+  },
+  {
+    "ref": "J17",
+    "pin": "A9",
+    "net": "MUSB_VBUS",
+    "id": "ed28150000000001:e53"
+  },
+  {
+    "ref": "J17",
+    "pin": "A12",
+    "net": "GND_ISO",
+    "id": "ed28150000000001:e54"
+  },
+  {
+    "ref": "J17",
+    "pin": "1",
+    "net": "CHASSIS_PE",
+    "id": "ed28150000000001:e57"
+  },
+  {
+    "ref": "J17",
+    "pin": "4",
+    "net": "CHASSIS_PE",
+    "id": "ed28150000000001:e58"
+  },
+  {
+    "ref": "J17",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "id": "ed28150000000001:e59"
+  },
+  {
+    "ref": "J17",
+    "pin": "2",
+    "net": "CHASSIS_PE",
+    "id": "ed28150000000001:e60"
+  },
+  {
+    "ref": "R97",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed28150000000006:e7"
+  },
+  {
+    "ref": "R97",
+    "pin": "1",
+    "net": "MUSB_CC1",
+    "id": "ed28150000000006:e8"
+  },
+  {
+    "ref": "R98",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed2815000000000a:e7"
+  },
+  {
+    "ref": "R98",
+    "pin": "1",
+    "net": "MUSB_CC2",
+    "id": "ed2815000000000a:e8"
+  },
+  {
+    "ref": "C94",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed2815000000000e:e14"
+  },
+  {
+    "ref": "C94",
+    "pin": "1",
+    "net": "MUSB_VBUS",
+    "id": "ed2815000000000e:e15"
+  },
+  {
+    "ref": "R99",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed28150000000012:e7"
+  },
+  {
+    "ref": "R99",
+    "pin": "1",
+    "net": "MUSB_VBUS",
+    "id": "ed28150000000012:e8"
+  },
+  {
+    "ref": "Q4",
+    "pin": "1",
+    "net": "MUSB_GATE",
+    "id": "ed28150000000016:e9"
+  },
+  {
+    "ref": "Q4",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed28150000000016:e10"
+  },
+  {
+    "ref": "Q4",
+    "pin": "3",
+    "net": "MUSB_DETECT_N",
+    "id": "ed28150000000016:e11"
+  },
+  {
+    "ref": "Q5",
+    "pin": "1",
+    "net": "MUSB_DETECT_N",
+    "id": "ed2815000000001a:e9"
+  },
+  {
+    "ref": "Q5",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed2815000000001a:e10"
+  },
+  {
+    "ref": "Q5",
+    "pin": "3",
+    "net": "MODEM_USB_SEL",
+    "id": "ed2815000000001a:e11"
+  },
+  {
+    "ref": "R100",
+    "pin": "2",
+    "net": "MUSB_GATE",
+    "id": "ed2815000000001e:e7"
+  },
+  {
+    "ref": "R100",
+    "pin": "1",
+    "net": "MUSB_VBUS",
+    "id": "ed2815000000001e:e8"
+  },
+  {
+    "ref": "R101",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed28150000000022:e7"
+  },
+  {
+    "ref": "R101",
+    "pin": "1",
+    "net": "MUSB_GATE",
+    "id": "ed28150000000022:e8"
+  },
+  {
+    "ref": "R102",
+    "pin": "2",
+    "net": "MUSB_DETECT_N",
+    "id": "ed28150000000026:e7"
+  },
+  {
+    "ref": "R102",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "ed28150000000026:e8"
+  },
+  {
+    "ref": "R103",
+    "pin": "2",
+    "net": "MODEM_USB_SEL",
+    "id": "ed2815000000002a:e7"
+  },
+  {
+    "ref": "R103",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "id": "ed2815000000002a:e8"
+  },
+  {
+    "ref": "SW4",
+    "pin": "1",
+    "net": "MODEM_PERST_N",
+    "id": "ed2815000000002e:e5"
+  },
+  {
+    "ref": "SW4",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed2815000000002e:e6"
+  },
+  {
+    "ref": "SW5",
+    "pin": "1",
+    "net": "MODEM_BUCK_EN",
+    "id": "ed28150000000032:e5"
+  },
+  {
+    "ref": "SW5",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed28150000000032:e6"
+  },
+  {
+    "ref": "J13",
+    "pin": "1",
+    "net": "GND_ISO",
+    "id": "ed28120000000002",
+    "standalone": true
+  },
+  {
+    "ref": "J13",
+    "pin": "2",
+    "net": "GND_ISO",
+    "id": "ed28120000000003",
+    "standalone": true
+  },
+  {
+    "ref": "J13",
+    "pin": "3",
+    "net": "5V_ISO",
+    "id": "ed28120000000004",
+    "standalone": true
+  },
+  {
+    "ref": "J13",
+    "pin": "4",
+    "net": "5V_ISO",
+    "id": "ed28120000000005",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "1",
+    "net": "GND_ISO",
+    "id": "tc2050leg_000001",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "2",
+    "net": "CONSOLE_TX",
+    "id": "tc2050leg_000002",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "3",
+    "net": "",
+    "id": "tc2050leg_000003",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "4",
+    "net": "ROUTER_RESET_N",
+    "id": "tc2050leg_000004",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "5",
+    "net": "ROUTER_GPIO0_N",
+    "id": "tc2050leg_000005",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "6",
+    "net": "",
+    "id": "tc2050leg_000006",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "7",
+    "net": "",
+    "id": "tc2050leg_000007",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "8",
+    "net": "CONSOLE_RX",
+    "id": "tc2050leg_000008",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "9",
+    "net": "3V3_ROUTER",
+    "id": "tc2050leg_000009",
+    "standalone": true
+  },
+  {
+    "ref": "H1",
+    "pin": "10",
+    "net": "",
+    "id": "tc2050leg_00000a",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "1",
+    "net": "GND_ISO",
+    "id": "tc2050leg_000026",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "2",
+    "net": "",
+    "id": "tc2050leg_000027",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "3",
+    "net": "",
+    "id": "tc2050leg_000028",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "4",
+    "net": "MODEM_USB_SEL",
+    "id": "tc2050leg_000029",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "5",
+    "net": "MODEM_PERST_N",
+    "id": "tc2050leg_00002a",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "6",
+    "net": "",
+    "id": "tc2050leg_00002b",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "7",
+    "net": "",
+    "id": "tc2050leg_00002c",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "8",
+    "net": "MODEM_BUCK_EN",
+    "id": "tc2050leg_00002d",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "9",
+    "net": "",
+    "id": "tc2050leg_00002e",
+    "standalone": true
+  },
+  {
+    "ref": "J12",
+    "pin": "10",
+    "net": "",
+    "id": "tc2050leg_00002f",
+    "standalone": true
+  }
+]

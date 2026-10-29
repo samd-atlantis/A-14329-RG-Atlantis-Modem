@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-29",
+  "offline_electrical_audit_completed": true,
+  "fabrication_or_functional_signoff": false,
+  "ordered_modem": "EC25AFFA-MINIPCIE",
+  "critical_pin_checks": 285,
+  "critical_pin_errors": 0,
+  "original_schematic_pin_keys": 544,
+  "original_unambiguous_matches": 542,
+  "candidate_matches": 544,
+  "findings": [
+    {
+      "id": "E01",
+      "severity": "source_correction",
+      "title": "Q3 schematic wire overlap",
+      "pcb_rework_required_by_finding": false,
+      "status": "Separate candidate prepared; native ERC/live import pending",
+      "evidence": "q3-correction-plan.json"
+    },
+    {
+      "id": "E02",
+      "severity": "prototype_validation_hold",
+      "title": "Modem bulk capacitance differs from Mini PCIe guidance",
+      "existing_bulk_nominal_uF": 116,
+      "manufacturer_recommendation_uF": 470,
+      "status": "Measure transient supply; vendor deviation approval or validated capacitor ECO required",
+      "power_review": "power-addendum.txt",
+      "blind_470uF_addition_approved": false,
+      "experimental_candidate_only": "L2=1uH, additional470uF, C22=22nF; subject to measured loop/startup/current/thermal checks",
+      "definite_failure_claimed": false
+    },
+    {
+      "id": "E03",
+      "severity": "programming_gate",
+      "title": "HLK flash/RAM variant not encoded in saved BOM",
+      "status": "Read physical module boot log/flash before programming"
+    },
+    {
+      "id": "E04",
+      "severity": "documentation",
+      "title": "Physical SIM format is nano-SIM",
+      "actual_part": "XKNANO-1306 C381072"
+    },
+    {
+      "id": "E05",
+      "severity": "bench_gate",
+      "title": "Ethernet CT population needs prototype verification",
+      "status": "Eight100nF parts populated; exact HLK magnetics guidance unresolved"
+    },
+    {
+      "id": "E06",
+      "severity": "firmware_mapping_fix",
+      "title": "Inherited HLK reset key does not match MB00 buttons",
+      "u1_pin8_gpio38": "NC",
+      "u1_pin30_gpio11": "SW3 ROUTER_GPIO0_N",
+      "u1_pin14": "SW1 ROUTER_RESET_N hardware reset",
+      "u1_pin33_gpio44": "NC; no WLAN LED fitted",
+      "status": "Root/runtime agent notified; remove inherited unused key/LED node"
+    }
+  ]
+}

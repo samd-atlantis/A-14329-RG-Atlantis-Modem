@@ -1,4 +1,4 @@
-A-14329 Rev A4 USB-C service path
+A-14329-MB00 USB-C service path (see PROGRAMMING-MB00.txt for current workflow)
 
 J14 is a USB 2.0 device port connected through CH340C to HLK UART0.
 It is a serial console/programming connection, not the HLK native USB host port.
@@ -26,7 +26,8 @@ Serial loading is slower than Ethernet. For 50 units, prefer USB-C console/reset
 plus Ethernet bulk image transfer on the fixture; validate a higher serial baud
 only on prototypes. Initial OEM installation and erased-bootloader recovery are
 bootloader-specific; this connector does not add a silicon USB DFU boot mode.
-EG25 modem firmware service remains on J12 and is separate from the router UART.
+EC25-AF modem firmware service is on J17 and is separate from the router UART.
+J12 is now a custom TC2050 recovery/control footprint, not the modem USB connector.
 
 These are implementation instructions for the development design. No physical
 USB enumeration, file transfer, bootloader recovery or flash test has been run.

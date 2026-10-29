@@ -1,23 +1,26 @@
-A-14329-MB00 firmware bring-up plan
+A-14329-MB00 bring-up index, updated2026-10-29
 
-1. Record fitted HLK router SKU, flash/RAM and modem part number/firmware.
-2. Back up each module's own flash/calibration/MAC data privately. Verify UART0
-   console and U-Boot recovery before changing firmware. Do not erase bootloader.
-3. Build the pinned OpenWrt development source on Linux after confirming target
-   partitions and memory. Inspect image size and supported-device metadata.
-4. Boot with physical SIM A. U20 is absent: esim_populated=0 blocks selecting B
-   before network shutdown or any I2C writes. hardware_validated stays 0 until
-   the current schematic GPIO/polarity mapping is independently checked.
-5. Verify Ethernet DHCP and local authenticated LuCI, all four jacks and Wi-Fi.
-6. Verify modem USB enumeration and QMI device on the router host. Confirm USB-C
-   service switch cannot connect two hosts. Check modem rail during transmit.
-7. Configure the actual APN and test registration/data/reconnect on the purchased
-   modem and service plan. Carrier certifications do not guarantee SIM activation.
-8. Enable carrier GPIO actions only after bus/address, SIM default, polarity,
-   power-down sequence and reset timing are proven. Current hard rail cycling
-   needs graceful modem shutdown work before production use.
-9. Verify persistence, unique credentials, LAN-only management, upgrade/recovery,
-   power failure behavior and controller access. Run an extended soak test.
+Read PROGRAMMING-MB00.txt for the current ordered EC25AFFA-MINIPCIE + HLK-7628N
+procedure, connector references and per-unit/private common-image options.
+Use acceptance-template.json for actual results, stored under private/<serial>.
 
-Firmware source tests do not prove this board works. Exact modem selection,
-independent hardware audit, cross-build and prototype tests remain open.
+Before programming:
+- Review hardware/audits/AUDIT-MB00.txt and power-addendum.txt.
+- Reconcile actual submitted manufacturing files; user confirmed the intended
+  4layer/1.6mm/1oz/JLC04161H-7628 stackup, but exact order files remain unarchived.
+- Inspect assembly, separately fitted modem supports and nano-SIM holder.
+- Test rails/current steps; close modem capacitor deviation before fullcommissioning.
+- Identify router flash/RAM/bootloader; retain its own fullflash/calibration backup.
+- Prove recovery, then use the correct image and compatibility checks.
+
+After programming:
+- Check every Ethernet port and Wi-Fi, unique login, J14 console and J17 modemUSB.
+- Default physicalSIM A, eSIM absent; keep hardware_validated and powercut_validated0.
+- Test actualAPN/registration/traffic/reconnect with J17 disconnected from thePC.
+- Verify configuration survives upgrade/reboot, localadmin restrictions, brownouts.
+- Measure supply/thermal behavior under combinedLTE/Ethernet/Wi-Fi load and closedlid.
+- Separately qualify10Afeed temperature rise, PE/protection, mainsisolation andfit.
+
+Offline audit/sourcechecks are complete with recorded findings. Compilation status
+is in VALIDATION-MB00.txt and the linked GitHub workflow. Hardware boot, physical
+measurements, OEM initialinstall and productionfixture qualification require boards.

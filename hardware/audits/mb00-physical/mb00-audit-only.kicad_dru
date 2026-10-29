@@ -1,0 +1,14 @@
+(version 1)
+(rule "native signal floor incl differential pairs, 1um conversion tolerance"
+ (constraint clearance (min 0.149mm))
+ (constraint hole_clearance (min 0.199mm))
+ (constraint hole_to_hole (min 0.299mm))
+ (constraint via_diameter (min 0.599mm))
+ (constraint hole_size (min 0.299mm))
+ (constraint annular_width (min 0.099mm)))
+(rule "primary to primary or PE 3.2mm source rule"
+ (condition "(A.NetName == 'AC_L_IN' || A.NetName == 'AC_L_FUSED' || A.NetName == 'AC_N') && (B.NetName == 'AC_L_IN' || B.NetName == 'AC_L_FUSED' || B.NetName == 'AC_N' || B.NetName == 'CHASSIS_PE')")
+ (constraint clearance (min 3.199mm)))
+(rule "primary to secondary 8mm source rule"
+ (condition "(A.NetName == 'AC_L_IN' || A.NetName == 'AC_L_FUSED' || A.NetName == 'AC_N') && B.NetName != '' && B.NetName != 'AC_L_IN' && B.NetName != 'AC_L_FUSED' && B.NetName != 'AC_N' && B.NetName != 'CHASSIS_PE'")
+ (constraint clearance (min 7.999mm)))

@@ -1,0 +1,95 @@
+{
+  "status": "UNVALIDATED_ENGINEERING_ESTIMATES",
+  "assumptions": {
+    "vin_V": 5.25,
+    "vout_V": 3.3,
+    "fsw_typical_Hz": 2500000.0,
+    "candidate_L_nominal_H": 1e-06,
+    "candidate_L_minimum_assumed_H": 8e-07,
+    "buck_efficiency_assumed": 0.85,
+    "extra_5V_power_allowance_W": 0.5,
+    "router_budget_A_at_3V3": 1.0,
+    "warning": "Frequency, efficiency, effective L/C, ESR and load are not measured."
+  },
+  "ripple_estimate_App": 0.6128571428571429,
+  "peak_estimates": [
+    {
+      "load_A": 2.7,
+      "peak_A": 3.0064285714285717,
+      "Isat_screening_with_20pct_allowance_A": 3.6077142857142857
+    },
+    {
+      "load_A": 3.0,
+      "peak_A": 3.3064285714285715,
+      "Isat_screening_with_20pct_allowance_A": 3.9677142857142855
+    }
+  ],
+  "startup_estimates": [
+    {
+      "CSS_F": 3.3e-09,
+      "COUT_nominal_F": 0.000116,
+      "tSS_s": 0.00165,
+      "capacitor_only_current_A": 0.23199999999999998
+    },
+    {
+      "CSS_F": 3.3e-09,
+      "COUT_nominal_F": 0.000586,
+      "tSS_s": 0.00165,
+      "capacitor_only_current_A": 1.1720000000000002
+    },
+    {
+      "CSS_F": 2.2e-08,
+      "COUT_nominal_F": 0.000116,
+      "tSS_s": 0.010999999999999998,
+      "capacitor_only_current_A": 0.034800000000000005
+    },
+    {
+      "CSS_F": 2.2e-08,
+      "COUT_nominal_F": 0.000586,
+      "tSS_s": 0.010999999999999998,
+      "capacitor_only_current_A": 0.17580000000000004
+    }
+  ],
+  "power_budget_estimates": [
+    {
+      "modem_A": 2.7,
+      "router_A": 1.0,
+      "5V_power_W": 14.86470588235294,
+      "5V_current_A": 2.972941176470588,
+      "headroom_fraction_at_20W": 0.256764705882353,
+      "headroom_fraction_at_18W": 0.17418300653594776,
+      "exceeds_60C_14W_approximation": true
+    },
+    {
+      "modem_A": 3.0,
+      "router_A": 1.0,
+      "5V_power_W": 16.029411764705884,
+      "5V_current_A": 3.2058823529411766,
+      "headroom_fraction_at_20W": 0.19852941176470584,
+      "headroom_fraction_at_18W": 0.10947712418300648,
+      "exceeds_60C_14W_approximation": true
+    },
+    {
+      "modem_A": 3.0,
+      "router_A": 3.0,
+      "5V_power_W": 23.794117647058822,
+      "5V_current_A": 4.758823529411765,
+      "headroom_fraction_at_20W": -0.18970588235294117,
+      "headroom_fraction_at_18W": -0.3218954248366013,
+      "exceeds_60C_14W_approximation": true
+    }
+  ],
+  "TI_matrix_observations": {
+    "conditions": "12V input,3.3V output,1A load,high frequency;ceramic effective=half nominal",
+    "L_2p2uH": {
+      "Ceff_200uF": "stable_outside_recommendation",
+      "Ceff_400uF": "unstable",
+      "Ceff_800uF": "unstable"
+    },
+    "L_1uH": {
+      "Ceff_400uF": "stable_outside_recommendation",
+      "Ceff_800uF": "unstable"
+    },
+    "interpolation_permitted_as_signoff": false
+  }
+}

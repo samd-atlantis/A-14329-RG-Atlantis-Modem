@@ -1,0 +1,5448 @@
+[
+  {
+    "ref": "CN1",
+    "pin": "1",
+    "name": "1",
+    "net": "AC_L_IN",
+    "conflicts": [],
+    "nc": false,
+    "x": 280.0,
+    "y": -3660.0
+  },
+  {
+    "ref": "CN1",
+    "pin": "2",
+    "name": "2",
+    "net": "AC_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 280.0,
+    "y": -3650.0
+  },
+  {
+    "ref": "CN1",
+    "pin": "3",
+    "name": "3",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 280.0,
+    "y": -3640.0
+  },
+  {
+    "ref": "F1",
+    "pin": "1",
+    "name": "1",
+    "net": "AC_L_IN",
+    "conflicts": [],
+    "nc": false,
+    "x": 755.0,
+    "y": -3650.0
+  },
+  {
+    "ref": "F1",
+    "pin": "2",
+    "name": "2",
+    "net": "AC_L_FUSED",
+    "conflicts": [],
+    "nc": false,
+    "x": 845.0,
+    "y": -3650.0
+  },
+  {
+    "ref": "PS1",
+    "pin": "1",
+    "name": "AC/N",
+    "net": "AC_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 1370.0,
+    "y": -3665.0
+  },
+  {
+    "ref": "PS1",
+    "pin": "2",
+    "name": "AC/L",
+    "net": "AC_L_FUSED",
+    "conflicts": [],
+    "nc": false,
+    "x": 1370.0,
+    "y": -3655.0
+  },
+  {
+    "ref": "PS1",
+    "pin": "3",
+    "name": "+V",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1370.0,
+    "y": -3645.0
+  },
+  {
+    "ref": "PS1",
+    "pin": "4",
+    "name": "-V",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1370.0,
+    "y": -3635.0
+  },
+  {
+    "ref": "U1",
+    "pin": "1",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3685.0
+  },
+  {
+    "ref": "U1",
+    "pin": "2",
+    "name": "3.3VD",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3675.0
+  },
+  {
+    "ref": "U1",
+    "pin": "3",
+    "name": "3.3VD",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3665.0
+  },
+  {
+    "ref": "U1",
+    "pin": "4",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3655.0
+  },
+  {
+    "ref": "U1",
+    "pin": "5",
+    "name": "SPI_CS0",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3645.0
+  },
+  {
+    "ref": "U1",
+    "pin": "6",
+    "name": "REF_CLK0",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3635.0
+  },
+  {
+    "ref": "U1",
+    "pin": "7",
+    "name": "PERST_N",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3625.0
+  },
+  {
+    "ref": "U1",
+    "pin": "8",
+    "name": "WDT_RST_N",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3615.0
+  },
+  {
+    "ref": "U1",
+    "pin": "9",
+    "name": "EPHY_LED4",
+    "net": "LAN4_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3605.0
+  },
+  {
+    "ref": "U1",
+    "pin": "10",
+    "name": "EPHY_LED3",
+    "net": "LAN3_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3595.0
+  },
+  {
+    "ref": "U1",
+    "pin": "11",
+    "name": "EPHY_LED2",
+    "net": "LAN2_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3585.0
+  },
+  {
+    "ref": "U1",
+    "pin": "12",
+    "name": "EPHY_LED1",
+    "net": "LAN1_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3575.0
+  },
+  {
+    "ref": "U1",
+    "pin": "13",
+    "name": "EPHY_LED0",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3565.0
+  },
+  {
+    "ref": "U1",
+    "pin": "14",
+    "name": "PORST_N",
+    "net": "ROUTER_RESET_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3555.0
+  },
+  {
+    "ref": "U1",
+    "pin": "15",
+    "name": "UART_TXD1",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3545.0
+  },
+  {
+    "ref": "U1",
+    "pin": "16",
+    "name": "UART_RXD1",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3535.0
+  },
+  {
+    "ref": "U1",
+    "pin": "17",
+    "name": "I2S_SDI",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3525.0
+  },
+  {
+    "ref": "U1",
+    "pin": "18",
+    "name": "I2S_SDO",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3515.0
+  },
+  {
+    "ref": "U1",
+    "pin": "19",
+    "name": "I2S_WS",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3505.0
+  },
+  {
+    "ref": "U1",
+    "pin": "20",
+    "name": "I2S_CLK",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3495.0
+  },
+  {
+    "ref": "U1",
+    "pin": "21",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3485.0
+  },
+  {
+    "ref": "U1",
+    "pin": "22",
+    "name": "ANT",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3475.0
+  },
+  {
+    "ref": "U1",
+    "pin": "23",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3465.0
+  },
+  {
+    "ref": "U1",
+    "pin": "24",
+    "name": "I2C_SCLK",
+    "net": "I2C_SCL",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3455.0
+  },
+  {
+    "ref": "U1",
+    "pin": "25",
+    "name": "I2C_SD",
+    "net": "I2C_SDA",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -3445.0
+  },
+  {
+    "ref": "U1",
+    "pin": "26",
+    "name": "SPI_CS1",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3435.0
+  },
+  {
+    "ref": "U1",
+    "pin": "27",
+    "name": "SPI_CLK",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3425.0
+  },
+  {
+    "ref": "U1",
+    "pin": "28",
+    "name": "SPI_MISO",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -3415.0
+  },
+  {
+    "ref": "U1",
+    "pin": "29",
+    "name": "SPI_MOSI",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2630.0,
+    "y": -3415.0
+  },
+  {
+    "ref": "U1",
+    "pin": "30",
+    "name": "GPIO0",
+    "net": "ROUTER_GPIO0_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3425.0
+  },
+  {
+    "ref": "U1",
+    "pin": "31",
+    "name": "UART_TXD0",
+    "net": "CONSOLE_TX",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3435.0
+  },
+  {
+    "ref": "U1",
+    "pin": "32",
+    "name": "UART_RXD0",
+    "net": "CONSOLE_RX",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3445.0
+  },
+  {
+    "ref": "U1",
+    "pin": "33",
+    "name": "WLED_N",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2630.0,
+    "y": -3455.0
+  },
+  {
+    "ref": "U1",
+    "pin": "34",
+    "name": "MDI_RP_P0",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2630.0,
+    "y": -3465.0
+  },
+  {
+    "ref": "U1",
+    "pin": "35",
+    "name": "MDI_RN_P0",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2630.0,
+    "y": -3475.0
+  },
+  {
+    "ref": "U1",
+    "pin": "36",
+    "name": "MDI_TP_P0",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2630.0,
+    "y": -3485.0
+  },
+  {
+    "ref": "U1",
+    "pin": "37",
+    "name": "MDI_TN_P0",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2630.0,
+    "y": -3495.0
+  },
+  {
+    "ref": "U1",
+    "pin": "38",
+    "name": "MDI_TP_P1",
+    "net": "LAN1_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3505.0
+  },
+  {
+    "ref": "U1",
+    "pin": "39",
+    "name": "MDI_TN_P1",
+    "net": "LAN1_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3515.0
+  },
+  {
+    "ref": "U1",
+    "pin": "40",
+    "name": "MDI_RP_P1",
+    "net": "LAN1_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3525.0
+  },
+  {
+    "ref": "U1",
+    "pin": "41",
+    "name": "MDI_RN_P1",
+    "net": "LAN1_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3535.0
+  },
+  {
+    "ref": "U1",
+    "pin": "42",
+    "name": "MDI_RP_P2",
+    "net": "LAN2_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3545.0
+  },
+  {
+    "ref": "U1",
+    "pin": "43",
+    "name": "MDI_RN_P2",
+    "net": "LAN2_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3555.0
+  },
+  {
+    "ref": "U1",
+    "pin": "44",
+    "name": "MDI_TP_P2",
+    "net": "LAN2_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3565.0
+  },
+  {
+    "ref": "U1",
+    "pin": "45",
+    "name": "MDI_TN_P2",
+    "net": "LAN2_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3575.0
+  },
+  {
+    "ref": "U1",
+    "pin": "46",
+    "name": "MDI_TP_P3",
+    "net": "LAN3_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3585.0
+  },
+  {
+    "ref": "U1",
+    "pin": "47",
+    "name": "MDI_TN_P3",
+    "net": "LAN3_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3595.0
+  },
+  {
+    "ref": "U1",
+    "pin": "48",
+    "name": "MDI_RP_P3",
+    "net": "LAN3_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3605.0
+  },
+  {
+    "ref": "U1",
+    "pin": "49",
+    "name": "MDI_RN_P3",
+    "net": "LAN3_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3615.0
+  },
+  {
+    "ref": "U1",
+    "pin": "50",
+    "name": "MDI_RP_P4",
+    "net": "LAN4_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3625.0
+  },
+  {
+    "ref": "U1",
+    "pin": "51",
+    "name": "MDI_RN_P4",
+    "net": "LAN4_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3635.0
+  },
+  {
+    "ref": "U1",
+    "pin": "52",
+    "name": "MDI_TP_P4",
+    "net": "LAN4_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3645.0
+  },
+  {
+    "ref": "U1",
+    "pin": "53",
+    "name": "MDI_TN_P4",
+    "net": "LAN4_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3655.0
+  },
+  {
+    "ref": "U1",
+    "pin": "54",
+    "name": "USB_DP",
+    "net": "USB_HOST_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3665.0
+  },
+  {
+    "ref": "U1",
+    "pin": "55",
+    "name": "USB_DM",
+    "net": "USB_HOST_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3675.0
+  },
+  {
+    "ref": "U1",
+    "pin": "56",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2630.0,
+    "y": -3685.0
+  },
+  {
+    "ref": "U1",
+    "pin": "57",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2570.0,
+    "y": -3705.0
+  },
+  {
+    "ref": "U1",
+    "pin": "58",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2550.0,
+    "y": -3705.0
+  },
+  {
+    "ref": "U1",
+    "pin": "59",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -3705.0
+  },
+  {
+    "ref": "U2",
+    "pin": "1",
+    "name": "SW",
+    "net": "R_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 370.0,
+    "y": -2510.0
+  },
+  {
+    "ref": "U2",
+    "pin": "2",
+    "name": "SW",
+    "net": "R_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 370.0,
+    "y": -2500.0
+  },
+  {
+    "ref": "U2",
+    "pin": "3",
+    "name": "SW",
+    "net": "R_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 370.0,
+    "y": -2490.0
+  },
+  {
+    "ref": "U2",
+    "pin": "4",
+    "name": "PG",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 370.0,
+    "y": -2480.0
+  },
+  {
+    "ref": "U2",
+    "pin": "5",
+    "name": "FB",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 430.0,
+    "y": -2430.0
+  },
+  {
+    "ref": "U2",
+    "pin": "6",
+    "name": "AGND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 440.0,
+    "y": -2430.0
+  },
+  {
+    "ref": "U2",
+    "pin": "7",
+    "name": "FSW",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 450.0,
+    "y": -2430.0
+  },
+  {
+    "ref": "U2",
+    "pin": "8",
+    "name": "DEF",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 460.0,
+    "y": -2430.0
+  },
+  {
+    "ref": "U2",
+    "pin": "9",
+    "name": "SS/TR",
+    "net": "R_SS",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -2480.0
+  },
+  {
+    "ref": "U2",
+    "pin": "10",
+    "name": "AVIN",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -2490.0
+  },
+  {
+    "ref": "U2",
+    "pin": "11",
+    "name": "PVIN",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -2500.0
+  },
+  {
+    "ref": "U2",
+    "pin": "12",
+    "name": "PVIN",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -2510.0
+  },
+  {
+    "ref": "U2",
+    "pin": "13",
+    "name": "EN",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 460.0,
+    "y": -2560.0
+  },
+  {
+    "ref": "U2",
+    "pin": "14",
+    "name": "VOS",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 450.0,
+    "y": -2560.0
+  },
+  {
+    "ref": "U2",
+    "pin": "15",
+    "name": "PGND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 440.0,
+    "y": -2560.0
+  },
+  {
+    "ref": "U2",
+    "pin": "16",
+    "name": "PGND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 430.0,
+    "y": -2560.0
+  },
+  {
+    "ref": "U2",
+    "pin": "17",
+    "name": "EP",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 420.0,
+    "y": -2560.0
+  },
+  {
+    "ref": "U3",
+    "pin": "1",
+    "name": "SW",
+    "net": "M_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 370.0,
+    "y": -1310.0
+  },
+  {
+    "ref": "U3",
+    "pin": "2",
+    "name": "SW",
+    "net": "M_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 370.0,
+    "y": -1300.0
+  },
+  {
+    "ref": "U3",
+    "pin": "3",
+    "name": "SW",
+    "net": "M_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 370.0,
+    "y": -1290.0
+  },
+  {
+    "ref": "U3",
+    "pin": "4",
+    "name": "PG",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 370.0,
+    "y": -1280.0
+  },
+  {
+    "ref": "U3",
+    "pin": "5",
+    "name": "FB",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 430.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "U3",
+    "pin": "6",
+    "name": "AGND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 440.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "U3",
+    "pin": "7",
+    "name": "FSW",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 450.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "U3",
+    "pin": "8",
+    "name": "DEF",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 460.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "U3",
+    "pin": "9",
+    "name": "SS/TR",
+    "net": "M_SS",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -1280.0
+  },
+  {
+    "ref": "U3",
+    "pin": "10",
+    "name": "AVIN",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -1290.0
+  },
+  {
+    "ref": "U3",
+    "pin": "11",
+    "name": "PVIN",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -1300.0
+  },
+  {
+    "ref": "U3",
+    "pin": "12",
+    "name": "PVIN",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 520.0,
+    "y": -1310.0
+  },
+  {
+    "ref": "U3",
+    "pin": "13",
+    "name": "EN",
+    "net": "MODEM_BUCK_EN",
+    "conflicts": [],
+    "nc": false,
+    "x": 460.0,
+    "y": -1360.0
+  },
+  {
+    "ref": "U3",
+    "pin": "14",
+    "name": "VOS",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 450.0,
+    "y": -1360.0
+  },
+  {
+    "ref": "U3",
+    "pin": "15",
+    "name": "PGND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 440.0,
+    "y": -1360.0
+  },
+  {
+    "ref": "U3",
+    "pin": "16",
+    "name": "PGND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 430.0,
+    "y": -1360.0
+  },
+  {
+    "ref": "U3",
+    "pin": "17",
+    "name": "EP",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 420.0,
+    "y": -1360.0
+  },
+  {
+    "ref": "U6",
+    "pin": "10",
+    "name": "GP0",
+    "net": "SIM_SELECT",
+    "conflicts": [],
+    "nc": false,
+    "x": 3510.0,
+    "y": -3600.0
+  },
+  {
+    "ref": "U6",
+    "pin": "11",
+    "name": "GP1",
+    "net": "MODEM_OFF",
+    "conflicts": [],
+    "nc": false,
+    "x": 3510.0,
+    "y": -3590.0
+  },
+  {
+    "ref": "U6",
+    "pin": "12",
+    "name": "GP2",
+    "net": "MODEM_RESET_REQ",
+    "conflicts": [],
+    "nc": false,
+    "x": 3510.0,
+    "y": -3580.0
+  },
+  {
+    "ref": "U6",
+    "pin": "13",
+    "name": "GP3",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3510.0,
+    "y": -3570.0
+  },
+  {
+    "ref": "U6",
+    "pin": "14",
+    "name": "GP4",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3510.0,
+    "y": -3560.0
+  },
+  {
+    "ref": "U6",
+    "pin": "15",
+    "name": "GP5",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3510.0,
+    "y": -3550.0
+  },
+  {
+    "ref": "U6",
+    "pin": "16",
+    "name": "GP6",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3510.0,
+    "y": -3540.0
+  },
+  {
+    "ref": "U6",
+    "pin": "17",
+    "name": "GP7",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3510.0,
+    "y": -3530.0
+  },
+  {
+    "ref": "U6",
+    "pin": "18",
+    "name": "VDD",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 3510.0,
+    "y": -3510.0
+  },
+  {
+    "ref": "U6",
+    "pin": "9",
+    "name": "VSS",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3510.0,
+    "y": -3500.0
+  },
+  {
+    "ref": "U6",
+    "pin": "5",
+    "name": "A0",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3390.0,
+    "y": -3530.0
+  },
+  {
+    "ref": "U6",
+    "pin": "4",
+    "name": "A1",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3390.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "U6",
+    "pin": "3",
+    "name": "A2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3390.0,
+    "y": -3510.0
+  },
+  {
+    "ref": "U6",
+    "pin": "2",
+    "name": "SDA",
+    "net": "I2C_SDA",
+    "conflicts": [],
+    "nc": false,
+    "x": 3390.0,
+    "y": -3560.0
+  },
+  {
+    "ref": "U6",
+    "pin": "1",
+    "name": "SCL",
+    "net": "I2C_SCL",
+    "conflicts": [],
+    "nc": false,
+    "x": 3390.0,
+    "y": -3550.0
+  },
+  {
+    "ref": "U6",
+    "pin": "6",
+    "name": "RESET#",
+    "net": "ROUTER_RESET_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 3390.0,
+    "y": -3600.0
+  },
+  {
+    "ref": "U6",
+    "pin": "8",
+    "name": "INT",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3390.0,
+    "y": -3580.0
+  },
+  {
+    "ref": "U6",
+    "pin": "7",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3390.0,
+    "y": -3570.0
+  },
+  {
+    "ref": "U8",
+    "pin": "1",
+    "name": "1D+",
+    "net": "USB_HOST_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 3410.0,
+    "y": -2520.0
+  },
+  {
+    "ref": "U8",
+    "pin": "2",
+    "name": "1D-",
+    "net": "USB_HOST_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 3410.0,
+    "y": -2510.0
+  },
+  {
+    "ref": "U8",
+    "pin": "3",
+    "name": "2D+",
+    "net": "USB_SERVICE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 3410.0,
+    "y": -2500.0
+  },
+  {
+    "ref": "U8",
+    "pin": "4",
+    "name": "2D-",
+    "net": "USB_SERVICE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 3410.0,
+    "y": -2490.0
+  },
+  {
+    "ref": "U8",
+    "pin": "5",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3410.0,
+    "y": -2480.0
+  },
+  {
+    "ref": "U8",
+    "pin": "6",
+    "name": "OE#",
+    "net": "MODEM_OFF",
+    "conflicts": [],
+    "nc": false,
+    "x": 3490.0,
+    "y": -2480.0
+  },
+  {
+    "ref": "U8",
+    "pin": "7",
+    "name": "D-",
+    "net": "USB_MODEM_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 3490.0,
+    "y": -2490.0
+  },
+  {
+    "ref": "U8",
+    "pin": "8",
+    "name": "D+",
+    "net": "USB_MODEM_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 3490.0,
+    "y": -2500.0
+  },
+  {
+    "ref": "U8",
+    "pin": "9",
+    "name": "S",
+    "net": "MODEM_USB_SEL",
+    "conflicts": [],
+    "nc": false,
+    "x": 3490.0,
+    "y": -2510.0
+  },
+  {
+    "ref": "U8",
+    "pin": "10",
+    "name": "VCC",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 3490.0,
+    "y": -2520.0
+  },
+  {
+    "ref": "U9",
+    "pin": "2",
+    "name": "D-",
+    "net": "USB_MODEM_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 3400.0,
+    "y": -2170.0
+  },
+  {
+    "ref": "U9",
+    "pin": "1",
+    "name": "D+",
+    "net": "USB_MODEM_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 3500.0,
+    "y": -2170.0
+  },
+  {
+    "ref": "U9",
+    "pin": "3",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3450.0,
+    "y": -2120.0
+  },
+  {
+    "ref": "U10",
+    "pin": "1",
+    "name": "NO2",
+    "net": "SIM_B_CLK",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2505.0
+  },
+  {
+    "ref": "U10",
+    "pin": "2",
+    "name": "COM2",
+    "net": "USIM_CLK",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -2515.0
+  },
+  {
+    "ref": "U10",
+    "pin": "3",
+    "name": "NC2",
+    "net": "SIM_A_CLK",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2515.0
+  },
+  {
+    "ref": "U10",
+    "pin": "4",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2445.0
+  },
+  {
+    "ref": "U10",
+    "pin": "5",
+    "name": "NO3",
+    "net": "SIM_B_RST",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2485.0
+  },
+  {
+    "ref": "U10",
+    "pin": "6",
+    "name": "COM3",
+    "net": "USIM_RST",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -2495.0
+  },
+  {
+    "ref": "U10",
+    "pin": "7",
+    "name": "NC3",
+    "net": "SIM_A_RST",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2495.0
+  },
+  {
+    "ref": "U10",
+    "pin": "8",
+    "name": "IN3-4",
+    "net": "SIM_SELECT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -2485.0
+  },
+  {
+    "ref": "U10",
+    "pin": "9",
+    "name": "NO4",
+    "net": "SIM_B_IO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2465.0
+  },
+  {
+    "ref": "U10",
+    "pin": "10",
+    "name": "COM4",
+    "net": "USIM_DATA",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -2475.0
+  },
+  {
+    "ref": "U10",
+    "pin": "11",
+    "name": "NC4",
+    "net": "SIM_A_IO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2475.0
+  },
+  {
+    "ref": "U10",
+    "pin": "12",
+    "name": "VCC",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -2445.0
+  },
+  {
+    "ref": "U10",
+    "pin": "13",
+    "name": "NO1",
+    "net": "SIM_B_VCC",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2525.0
+  },
+  {
+    "ref": "U10",
+    "pin": "14",
+    "name": "COM1",
+    "net": "USIM_VDD",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -2535.0
+  },
+  {
+    "ref": "U10",
+    "pin": "15",
+    "name": "NC1",
+    "net": "SIM_A_VCC",
+    "conflicts": [],
+    "nc": false,
+    "x": 4550.0,
+    "y": -2535.0
+  },
+  {
+    "ref": "U10",
+    "pin": "16",
+    "name": "IN1-2",
+    "net": "SIM_SELECT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -2525.0
+  },
+  {
+    "ref": "U14",
+    "pin": "1",
+    "name": "IO1",
+    "net": "SIM_A_CLK",
+    "conflicts": [],
+    "nc": false,
+    "x": 4465.0,
+    "y": -2110.0
+  },
+  {
+    "ref": "U14",
+    "pin": "2",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4465.0,
+    "y": -2100.0
+  },
+  {
+    "ref": "U14",
+    "pin": "3",
+    "name": "IO2",
+    "net": "SIM_A_RST",
+    "conflicts": [],
+    "nc": false,
+    "x": 4465.0,
+    "y": -2090.0
+  },
+  {
+    "ref": "U14",
+    "pin": "4",
+    "name": "IO4",
+    "net": "SIM_A_IO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4535.0,
+    "y": -2090.0
+  },
+  {
+    "ref": "U14",
+    "pin": "5",
+    "name": "VCC",
+    "net": "SIM_A_VCC",
+    "conflicts": [],
+    "nc": false,
+    "x": 4535.0,
+    "y": -2100.0
+  },
+  {
+    "ref": "U14",
+    "pin": "6",
+    "name": "IO3",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4535.0,
+    "y": -2110.0
+  },
+  {
+    "ref": "J8",
+    "pin": "2",
+    "name": "2",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2580.0
+  },
+  {
+    "ref": "J8",
+    "pin": "51",
+    "name": "51",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2330.0
+  },
+  {
+    "ref": "J8",
+    "pin": "4",
+    "name": "4",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2570.0
+  },
+  {
+    "ref": "J8",
+    "pin": "49",
+    "name": "49",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2340.0
+  },
+  {
+    "ref": "J8",
+    "pin": "6",
+    "name": "6",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2560.0
+  },
+  {
+    "ref": "J8",
+    "pin": "47",
+    "name": "47",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2350.0
+  },
+  {
+    "ref": "J8",
+    "pin": "8",
+    "name": "8",
+    "net": "USIM_VDD",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2550.0
+  },
+  {
+    "ref": "J8",
+    "pin": "45",
+    "name": "45",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2360.0
+  },
+  {
+    "ref": "J8",
+    "pin": "10",
+    "name": "10",
+    "net": "USIM_DATA",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2540.0
+  },
+  {
+    "ref": "J8",
+    "pin": "43",
+    "name": "43",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2370.0
+  },
+  {
+    "ref": "J8",
+    "pin": "12",
+    "name": "12",
+    "net": "USIM_CLK",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2530.0
+  },
+  {
+    "ref": "J8",
+    "pin": "41",
+    "name": "41",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2380.0
+  },
+  {
+    "ref": "J8",
+    "pin": "14",
+    "name": "14",
+    "net": "USIM_RST",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2520.0
+  },
+  {
+    "ref": "J8",
+    "pin": "39",
+    "name": "39",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2390.0
+  },
+  {
+    "ref": "J8",
+    "pin": "16",
+    "name": "16",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2510.0
+  },
+  {
+    "ref": "J8",
+    "pin": "37",
+    "name": "37",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2400.0
+  },
+  {
+    "ref": "J8",
+    "pin": "18",
+    "name": "18",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2500.0
+  },
+  {
+    "ref": "J8",
+    "pin": "35",
+    "name": "35",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2410.0
+  },
+  {
+    "ref": "J8",
+    "pin": "20",
+    "name": "20",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2490.0
+  },
+  {
+    "ref": "J8",
+    "pin": "33",
+    "name": "33",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2420.0
+  },
+  {
+    "ref": "J8",
+    "pin": "22",
+    "name": "22",
+    "net": "MODEM_PERST_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2480.0
+  },
+  {
+    "ref": "J8",
+    "pin": "31",
+    "name": "31",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2430.0
+  },
+  {
+    "ref": "J8",
+    "pin": "24",
+    "name": "24",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2470.0
+  },
+  {
+    "ref": "J8",
+    "pin": "29",
+    "name": "29",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2440.0
+  },
+  {
+    "ref": "J8",
+    "pin": "26",
+    "name": "26",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2460.0
+  },
+  {
+    "ref": "J8",
+    "pin": "27",
+    "name": "27",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2450.0
+  },
+  {
+    "ref": "J8",
+    "pin": "28",
+    "name": "28",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2450.0
+  },
+  {
+    "ref": "J8",
+    "pin": "25",
+    "name": "25",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2460.0
+  },
+  {
+    "ref": "J8",
+    "pin": "30",
+    "name": "30",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2440.0
+  },
+  {
+    "ref": "J8",
+    "pin": "23",
+    "name": "23",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2470.0
+  },
+  {
+    "ref": "J8",
+    "pin": "32",
+    "name": "32",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2430.0
+  },
+  {
+    "ref": "J8",
+    "pin": "21",
+    "name": "21",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2480.0
+  },
+  {
+    "ref": "J8",
+    "pin": "34",
+    "name": "34",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2420.0
+  },
+  {
+    "ref": "J8",
+    "pin": "19",
+    "name": "19",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2490.0
+  },
+  {
+    "ref": "J8",
+    "pin": "36",
+    "name": "36",
+    "net": "USB_MODEM_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2410.0
+  },
+  {
+    "ref": "J8",
+    "pin": "17",
+    "name": "17",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2500.0
+  },
+  {
+    "ref": "J8",
+    "pin": "38",
+    "name": "38",
+    "net": "USB_MODEM_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2400.0
+  },
+  {
+    "ref": "J8",
+    "pin": "15",
+    "name": "15",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2510.0
+  },
+  {
+    "ref": "J8",
+    "pin": "40",
+    "name": "40",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2390.0
+  },
+  {
+    "ref": "J8",
+    "pin": "13",
+    "name": "13",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2520.0
+  },
+  {
+    "ref": "J8",
+    "pin": "42",
+    "name": "42",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2380.0
+  },
+  {
+    "ref": "J8",
+    "pin": "11",
+    "name": "11",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2530.0
+  },
+  {
+    "ref": "J8",
+    "pin": "44",
+    "name": "44",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2370.0
+  },
+  {
+    "ref": "J8",
+    "pin": "9",
+    "name": "9",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2470.0,
+    "y": -2540.0
+  },
+  {
+    "ref": "J8",
+    "pin": "46",
+    "name": "46",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2360.0
+  },
+  {
+    "ref": "J8",
+    "pin": "7",
+    "name": "7",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2550.0
+  },
+  {
+    "ref": "J8",
+    "pin": "48",
+    "name": "48",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2530.0,
+    "y": -2350.0
+  },
+  {
+    "ref": "J8",
+    "pin": "5",
+    "name": "5",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2560.0
+  },
+  {
+    "ref": "J8",
+    "pin": "50",
+    "name": "50",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2340.0
+  },
+  {
+    "ref": "J8",
+    "pin": "3",
+    "name": "3",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2570.0
+  },
+  {
+    "ref": "J8",
+    "pin": "52",
+    "name": "52",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 2530.0,
+    "y": -2330.0
+  },
+  {
+    "ref": "J8",
+    "pin": "1",
+    "name": "1",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2470.0,
+    "y": -2580.0
+  },
+  {
+    "ref": "J8",
+    "pin": "MP1",
+    "name": "MP1",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2500.0,
+    "y": -2610.0
+  },
+  {
+    "ref": "J8",
+    "pin": "MP2",
+    "name": "MP2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2500.0,
+    "y": -2300.0
+  },
+  {
+    "ref": "J9",
+    "pin": "1",
+    "name": "VCC",
+    "net": "SIM_A_VCC",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2545.0
+  },
+  {
+    "ref": "J9",
+    "pin": "5",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2535.0
+  },
+  {
+    "ref": "J9",
+    "pin": "2",
+    "name": "RST",
+    "net": "SIM_A_RST",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2525.0
+  },
+  {
+    "ref": "J9",
+    "pin": "6",
+    "name": "VPP",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5365.0,
+    "y": -2515.0
+  },
+  {
+    "ref": "J9",
+    "pin": "3",
+    "name": "CLK",
+    "net": "SIM_A_CLK",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2505.0
+  },
+  {
+    "ref": "J9",
+    "pin": "7",
+    "name": "I/O",
+    "net": "SIM_A_IO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2495.0
+  },
+  {
+    "ref": "J9",
+    "pin": "8",
+    "name": "S/W",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5365.0,
+    "y": -2485.0
+  },
+  {
+    "ref": "J9",
+    "pin": "9",
+    "name": "SHELL",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2475.0
+  },
+  {
+    "ref": "J9",
+    "pin": "10",
+    "name": "SHELL",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2465.0
+  },
+  {
+    "ref": "J9",
+    "pin": "11",
+    "name": "SHELL",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5365.0,
+    "y": -2455.0
+  },
+  {
+    "ref": "H1",
+    "pin": "1",
+    "name": "1",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2330.0,
+    "y": -1175.0
+  },
+  {
+    "ref": "H1",
+    "pin": "2",
+    "name": "2",
+    "net": "CONSOLE_TX",
+    "conflicts": [],
+    "nc": false,
+    "x": 2330.0,
+    "y": -1165.0
+  },
+  {
+    "ref": "H1",
+    "pin": "3",
+    "name": "3",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2330.0,
+    "y": -1155.0
+  },
+  {
+    "ref": "H1",
+    "pin": "4",
+    "name": "4",
+    "net": "ROUTER_RESET_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2330.0,
+    "y": -1145.0
+  },
+  {
+    "ref": "H1",
+    "pin": "5",
+    "name": "5",
+    "net": "ROUTER_GPIO0_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2330.0,
+    "y": -1135.0
+  },
+  {
+    "ref": "H1",
+    "pin": "6",
+    "name": "6",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2330.0,
+    "y": -1125.0
+  },
+  {
+    "ref": "H1",
+    "pin": "7",
+    "name": "7",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2330.0,
+    "y": -1115.0
+  },
+  {
+    "ref": "H1",
+    "pin": "8",
+    "name": "8",
+    "net": "CONSOLE_RX",
+    "conflicts": [],
+    "nc": false,
+    "x": 2330.0,
+    "y": -1105.0
+  },
+  {
+    "ref": "H1",
+    "pin": "9",
+    "name": "9",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2330.0,
+    "y": -1095.0
+  },
+  {
+    "ref": "H1",
+    "pin": "10",
+    "name": "10",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 2330.0,
+    "y": -1085.0
+  },
+  {
+    "ref": "Q1",
+    "pin": "3",
+    "name": "D",
+    "net": "MODEM_BUCK_EN",
+    "conflicts": [],
+    "nc": false,
+    "x": 1610.0,
+    "y": -740.0
+  },
+  {
+    "ref": "Q1",
+    "pin": "1",
+    "name": "G",
+    "net": "MODEM_OFF_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 1580.0,
+    "y": -720.0
+  },
+  {
+    "ref": "Q1",
+    "pin": "2",
+    "name": "S",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1610.0,
+    "y": -700.0
+  },
+  {
+    "ref": "Q2",
+    "pin": "3",
+    "name": "D",
+    "net": "MODEM_PERST_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 3460.0,
+    "y": -1950.0
+  },
+  {
+    "ref": "Q2",
+    "pin": "1",
+    "name": "G",
+    "net": "MODEM_RESET_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 3430.0,
+    "y": -1930.0
+  },
+  {
+    "ref": "Q2",
+    "pin": "2",
+    "name": "S",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3460.0,
+    "y": -1910.0
+  },
+  {
+    "ref": "L1",
+    "pin": "2",
+    "name": "2",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 1270.0,
+    "y": -2550.0
+  },
+  {
+    "ref": "L1",
+    "pin": "1",
+    "name": "1",
+    "net": "R_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 1230.0,
+    "y": -2550.0
+  },
+  {
+    "ref": "L2",
+    "pin": "2",
+    "name": "2",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 1270.0,
+    "y": -1350.0
+  },
+  {
+    "ref": "L2",
+    "pin": "1",
+    "name": "1",
+    "net": "M_SW",
+    "conflicts": [],
+    "nc": false,
+    "x": 1230.0,
+    "y": -1350.0
+  },
+  {
+    "ref": "SW1",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2280.0,
+    "y": -2650.0
+  },
+  {
+    "ref": "SW1",
+    "pin": "1",
+    "name": "1",
+    "net": "ROUTER_RESET_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2220.0,
+    "y": -2650.0
+  },
+  {
+    "ref": "J2",
+    "pin": "14",
+    "name": "14",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4410.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J2",
+    "pin": "13",
+    "name": "13",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4410.0,
+    "y": -3540.0
+  },
+  {
+    "ref": "J2",
+    "pin": "12",
+    "name": "12",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4190.0,
+    "y": -3530.0
+  },
+  {
+    "ref": "J2",
+    "pin": "11",
+    "name": "11",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4190.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J2",
+    "pin": "10",
+    "name": "10",
+    "net": "LAN1_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3550.0
+  },
+  {
+    "ref": "J2",
+    "pin": "9",
+    "name": "9",
+    "net": "LAN1_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3560.0
+  },
+  {
+    "ref": "J2",
+    "pin": "8",
+    "name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3580.0
+  },
+  {
+    "ref": "J2",
+    "pin": "4",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4190.0,
+    "y": -3590.0
+  },
+  {
+    "ref": "J2",
+    "pin": "2",
+    "name": "TD-",
+    "net": "LAN1_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3630.0
+  },
+  {
+    "ref": "J2",
+    "pin": "3",
+    "name": "3",
+    "net": "LAN1_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3620.0
+  },
+  {
+    "ref": "J2",
+    "pin": "1",
+    "name": "TD+",
+    "net": "LAN1_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3610.0
+  },
+  {
+    "ref": "J2",
+    "pin": "6",
+    "name": "RD+",
+    "net": "LAN1_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3650.0
+  },
+  {
+    "ref": "J2",
+    "pin": "5",
+    "name": "5",
+    "net": "LAN1_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3660.0
+  },
+  {
+    "ref": "J2",
+    "pin": "7",
+    "name": "RD-",
+    "net": "LAN1_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 4190.0,
+    "y": -3670.0
+  },
+  {
+    "ref": "J3",
+    "pin": "14",
+    "name": "14",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4860.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J3",
+    "pin": "13",
+    "name": "13",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4860.0,
+    "y": -3540.0
+  },
+  {
+    "ref": "J3",
+    "pin": "12",
+    "name": "12",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4640.0,
+    "y": -3530.0
+  },
+  {
+    "ref": "J3",
+    "pin": "11",
+    "name": "11",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4640.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J3",
+    "pin": "10",
+    "name": "10",
+    "net": "LAN2_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3550.0
+  },
+  {
+    "ref": "J3",
+    "pin": "9",
+    "name": "9",
+    "net": "LAN2_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3560.0
+  },
+  {
+    "ref": "J3",
+    "pin": "8",
+    "name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3580.0
+  },
+  {
+    "ref": "J3",
+    "pin": "4",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4640.0,
+    "y": -3590.0
+  },
+  {
+    "ref": "J3",
+    "pin": "2",
+    "name": "TD-",
+    "net": "LAN2_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3630.0
+  },
+  {
+    "ref": "J3",
+    "pin": "3",
+    "name": "3",
+    "net": "LAN2_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3620.0
+  },
+  {
+    "ref": "J3",
+    "pin": "1",
+    "name": "TD+",
+    "net": "LAN2_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3610.0
+  },
+  {
+    "ref": "J3",
+    "pin": "6",
+    "name": "RD+",
+    "net": "LAN2_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3650.0
+  },
+  {
+    "ref": "J3",
+    "pin": "5",
+    "name": "5",
+    "net": "LAN2_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3660.0
+  },
+  {
+    "ref": "J3",
+    "pin": "7",
+    "name": "RD-",
+    "net": "LAN2_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 4640.0,
+    "y": -3670.0
+  },
+  {
+    "ref": "J4",
+    "pin": "14",
+    "name": "14",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5310.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J4",
+    "pin": "13",
+    "name": "13",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5310.0,
+    "y": -3540.0
+  },
+  {
+    "ref": "J4",
+    "pin": "12",
+    "name": "12",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5090.0,
+    "y": -3530.0
+  },
+  {
+    "ref": "J4",
+    "pin": "11",
+    "name": "11",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5090.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J4",
+    "pin": "10",
+    "name": "10",
+    "net": "LAN3_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3550.0
+  },
+  {
+    "ref": "J4",
+    "pin": "9",
+    "name": "9",
+    "net": "LAN3_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3560.0
+  },
+  {
+    "ref": "J4",
+    "pin": "8",
+    "name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3580.0
+  },
+  {
+    "ref": "J4",
+    "pin": "4",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5090.0,
+    "y": -3590.0
+  },
+  {
+    "ref": "J4",
+    "pin": "2",
+    "name": "TD-",
+    "net": "LAN3_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3630.0
+  },
+  {
+    "ref": "J4",
+    "pin": "3",
+    "name": "3",
+    "net": "LAN3_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3620.0
+  },
+  {
+    "ref": "J4",
+    "pin": "1",
+    "name": "TD+",
+    "net": "LAN3_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3610.0
+  },
+  {
+    "ref": "J4",
+    "pin": "6",
+    "name": "RD+",
+    "net": "LAN3_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3650.0
+  },
+  {
+    "ref": "J4",
+    "pin": "5",
+    "name": "5",
+    "net": "LAN3_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3660.0
+  },
+  {
+    "ref": "J4",
+    "pin": "7",
+    "name": "RD-",
+    "net": "LAN3_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 5090.0,
+    "y": -3670.0
+  },
+  {
+    "ref": "J5",
+    "pin": "14",
+    "name": "14",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5760.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J5",
+    "pin": "13",
+    "name": "13",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5760.0,
+    "y": -3540.0
+  },
+  {
+    "ref": "J5",
+    "pin": "12",
+    "name": "12",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5540.0,
+    "y": -3530.0
+  },
+  {
+    "ref": "J5",
+    "pin": "11",
+    "name": "11",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5540.0,
+    "y": -3520.0
+  },
+  {
+    "ref": "J5",
+    "pin": "10",
+    "name": "10",
+    "net": "LAN4_LED_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3550.0
+  },
+  {
+    "ref": "J5",
+    "pin": "9",
+    "name": "9",
+    "net": "LAN4_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3560.0
+  },
+  {
+    "ref": "J5",
+    "pin": "8",
+    "name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3580.0
+  },
+  {
+    "ref": "J5",
+    "pin": "4",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5540.0,
+    "y": -3590.0
+  },
+  {
+    "ref": "J5",
+    "pin": "2",
+    "name": "TD-",
+    "net": "LAN4_TXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3630.0
+  },
+  {
+    "ref": "J5",
+    "pin": "3",
+    "name": "3",
+    "net": "LAN4_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3620.0
+  },
+  {
+    "ref": "J5",
+    "pin": "1",
+    "name": "TD+",
+    "net": "LAN4_TXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3610.0
+  },
+  {
+    "ref": "J5",
+    "pin": "6",
+    "name": "RD+",
+    "net": "LAN4_RXP",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3650.0
+  },
+  {
+    "ref": "J5",
+    "pin": "5",
+    "name": "5",
+    "net": "LAN4_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3660.0
+  },
+  {
+    "ref": "J5",
+    "pin": "7",
+    "name": "RD-",
+    "net": "LAN4_RXN",
+    "conflicts": [],
+    "nc": false,
+    "x": 5540.0,
+    "y": -3670.0
+  },
+  {
+    "ref": "C1",
+    "pin": "1",
+    "name": "1",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 680.0,
+    "y": -3200.0
+  },
+  {
+    "ref": "C1",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 720.0,
+    "y": -3200.0
+  },
+  {
+    "ref": "C24",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -720.0
+  },
+  {
+    "ref": "C24",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 270.0,
+    "y": -720.0
+  },
+  {
+    "ref": "C25",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 680.0,
+    "y": -720.0
+  },
+  {
+    "ref": "C25",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 720.0,
+    "y": -720.0
+  },
+  {
+    "ref": "C2",
+    "pin": "1",
+    "name": "1",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1230.0,
+    "y": -3200.0
+  },
+  {
+    "ref": "C2",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1270.0,
+    "y": -3200.0
+  },
+  {
+    "ref": "C11",
+    "pin": "1",
+    "name": "1",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 680.0,
+    "y": -2150.0
+  },
+  {
+    "ref": "C11",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 720.0,
+    "y": -2150.0
+  },
+  {
+    "ref": "C21",
+    "pin": "1",
+    "name": "1",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 680.0,
+    "y": -950.0
+  },
+  {
+    "ref": "C21",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 720.0,
+    "y": -950.0
+  },
+  {
+    "ref": "C30",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 3130.0,
+    "y": -2850.0
+  },
+  {
+    "ref": "C30",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3170.0,
+    "y": -2850.0
+  },
+  {
+    "ref": "C41",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN1_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4280.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C41",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4320.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C51",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN1_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4280.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C51",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4320.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C42",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN2_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4730.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C42",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4770.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C52",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN2_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 4730.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C52",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4770.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C43",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN3_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5180.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C43",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5220.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C53",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN3_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5180.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C53",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5220.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C44",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN4_RX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5630.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C44",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5670.0,
+    "y": -3000.0
+  },
+  {
+    "ref": "C54",
+    "pin": "1",
+    "name": "1",
+    "net": "LAN4_TX_CT",
+    "conflicts": [],
+    "nc": false,
+    "x": 5630.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C54",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5670.0,
+    "y": -2800.0
+  },
+  {
+    "ref": "C60",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2280.0,
+    "y": -1930.0
+  },
+  {
+    "ref": "C60",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2320.0,
+    "y": -1930.0
+  },
+  {
+    "ref": "C61",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 2780.0,
+    "y": -1930.0
+  },
+  {
+    "ref": "C61",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2820.0,
+    "y": -1930.0
+  },
+  {
+    "ref": "C70",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 4230.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "C70",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4270.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "C71",
+    "pin": "1",
+    "name": "1",
+    "net": "SIM_A_VCC",
+    "conflicts": [],
+    "nc": false,
+    "x": 4680.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "C71",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4720.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "C72",
+    "pin": "1",
+    "name": "1",
+    "net": "SIM_B_VCC",
+    "conflicts": [],
+    "nc": false,
+    "x": 5130.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "C72",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5170.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "C10",
+    "pin": "1",
+    "name": "1",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -2150.0
+  },
+  {
+    "ref": "C10",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 270.0,
+    "y": -2150.0
+  },
+  {
+    "ref": "C20",
+    "pin": "1",
+    "name": "1",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -950.0
+  },
+  {
+    "ref": "C20",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 270.0,
+    "y": -950.0
+  },
+  {
+    "ref": "C12",
+    "pin": "1",
+    "name": "1",
+    "net": "R_SS",
+    "conflicts": [],
+    "nc": false,
+    "x": 1150.0,
+    "y": -2130.0
+  },
+  {
+    "ref": "C12",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1150.0,
+    "y": -2170.0
+  },
+  {
+    "ref": "C22",
+    "pin": "1",
+    "name": "1",
+    "net": "M_SS",
+    "conflicts": [],
+    "nc": false,
+    "x": 1150.0,
+    "y": -930.0
+  },
+  {
+    "ref": "C22",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1150.0,
+    "y": -970.0
+  },
+  {
+    "ref": "C13",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 1585.0,
+    "y": -2150.0
+  },
+  {
+    "ref": "C13",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1615.0,
+    "y": -2150.0
+  },
+  {
+    "ref": "C23",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_MODEM",
+    "conflicts": [],
+    "nc": false,
+    "x": 1585.0,
+    "y": -950.0
+  },
+  {
+    "ref": "C23",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1615.0,
+    "y": -950.0
+  },
+  {
+    "ref": "C31",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 3585.0,
+    "y": -2850.0
+  },
+  {
+    "ref": "C31",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3615.0,
+    "y": -2850.0
+  },
+  {
+    "ref": "R20",
+    "pin": "2",
+    "name": "2",
+    "net": "MODEM_BUCK_EN",
+    "conflicts": [],
+    "nc": false,
+    "x": 1170.0,
+    "y": -720.0
+  },
+  {
+    "ref": "R20",
+    "pin": "1",
+    "name": "1",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 1130.0,
+    "y": -720.0
+  },
+  {
+    "ref": "R22",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 720.0,
+    "y": -490.0
+  },
+  {
+    "ref": "R22",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_OFF_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 680.0,
+    "y": -490.0
+  },
+  {
+    "ref": "R32",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3170.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R32",
+    "pin": "1",
+    "name": "1",
+    "net": "SIM_SELECT",
+    "conflicts": [],
+    "nc": false,
+    "x": 3130.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R33",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3620.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R33",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_OFF",
+    "conflicts": [],
+    "nc": false,
+    "x": 3580.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R35",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 2720.0,
+    "y": -2850.0
+  },
+  {
+    "ref": "R35",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_RESET_REQ",
+    "conflicts": [],
+    "nc": false,
+    "x": 2680.0,
+    "y": -2850.0
+  },
+  {
+    "ref": "R61",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3470.0,
+    "y": -1700.0
+  },
+  {
+    "ref": "R61",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_RESET_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 3430.0,
+    "y": -1700.0
+  },
+  {
+    "ref": "R21",
+    "pin": "2",
+    "name": "2",
+    "net": "MODEM_OFF_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 270.0,
+    "y": -490.0
+  },
+  {
+    "ref": "R21",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_OFF",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -490.0
+  },
+  {
+    "ref": "R60",
+    "pin": "2",
+    "name": "2",
+    "net": "MODEM_RESET_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 2820.0,
+    "y": -1700.0
+  },
+  {
+    "ref": "R60",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_RESET_REQ",
+    "conflicts": [],
+    "nc": false,
+    "x": 2780.0,
+    "y": -1700.0
+  },
+  {
+    "ref": "R30",
+    "pin": "2",
+    "name": "2",
+    "net": "I2C_SCL",
+    "conflicts": [],
+    "nc": false,
+    "x": 2270.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R30",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2230.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R31",
+    "pin": "2",
+    "name": "2",
+    "net": "I2C_SDA",
+    "conflicts": [],
+    "nc": false,
+    "x": 2720.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R31",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2680.0,
+    "y": -3050.0
+  },
+  {
+    "ref": "R41",
+    "pin": "2",
+    "name": "2",
+    "net": "LAN1_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 4320.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R41",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 4280.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R42",
+    "pin": "2",
+    "name": "2",
+    "net": "LAN2_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 4770.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R42",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 4730.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R43",
+    "pin": "2",
+    "name": "2",
+    "net": "LAN3_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 5220.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R43",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 5180.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R44",
+    "pin": "2",
+    "name": "2",
+    "net": "LAN4_GREEN_A",
+    "conflicts": [],
+    "nc": false,
+    "x": 5670.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R44",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 5630.0,
+    "y": -3250.0
+  },
+  {
+    "ref": "R70",
+    "pin": "2",
+    "name": "2",
+    "net": "USIM_DATA",
+    "conflicts": [],
+    "nc": false,
+    "x": 5620.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "R70",
+    "pin": "1",
+    "name": "1",
+    "net": "USIM_VDD",
+    "conflicts": [],
+    "nc": false,
+    "x": 5580.0,
+    "y": -1800.0
+  },
+  {
+    "ref": "J12",
+    "pin": "1",
+    "name": "1",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3030.0,
+    "y": -1175.0
+  },
+  {
+    "ref": "J12",
+    "pin": "2",
+    "name": "2",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3030.0,
+    "y": -1165.0
+  },
+  {
+    "ref": "J12",
+    "pin": "3",
+    "name": "3",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3030.0,
+    "y": -1155.0
+  },
+  {
+    "ref": "J12",
+    "pin": "4",
+    "name": "4",
+    "net": "MODEM_USB_SEL",
+    "conflicts": [],
+    "nc": false,
+    "x": 3030.0,
+    "y": -1145.0
+  },
+  {
+    "ref": "J12",
+    "pin": "5",
+    "name": "5",
+    "net": "MODEM_PERST_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 3030.0,
+    "y": -1135.0
+  },
+  {
+    "ref": "J12",
+    "pin": "6",
+    "name": "6",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3030.0,
+    "y": -1125.0
+  },
+  {
+    "ref": "J12",
+    "pin": "7",
+    "name": "7",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3030.0,
+    "y": -1115.0
+  },
+  {
+    "ref": "J12",
+    "pin": "8",
+    "name": "8",
+    "net": "MODEM_BUCK_EN",
+    "conflicts": [],
+    "nc": false,
+    "x": 3030.0,
+    "y": -1105.0
+  },
+  {
+    "ref": "J12",
+    "pin": "9",
+    "name": "9",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3030.0,
+    "y": -1095.0
+  },
+  {
+    "ref": "J12",
+    "pin": "10",
+    "name": "10",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 3030.0,
+    "y": -1085.0
+  },
+  {
+    "ref": "J13",
+    "pin": "1",
+    "name": "1",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3730.0,
+    "y": -1165.0
+  },
+  {
+    "ref": "J13",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3730.0,
+    "y": -1155.0
+  },
+  {
+    "ref": "J13",
+    "pin": "3",
+    "name": "3",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3730.0,
+    "y": -1145.0
+  },
+  {
+    "ref": "J13",
+    "pin": "4",
+    "name": "4",
+    "net": "5V_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3730.0,
+    "y": -1135.0
+  },
+  {
+    "ref": "R36",
+    "pin": "2",
+    "name": "2",
+    "net": "ROUTER_RESET_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2370.0,
+    "y": -750.0
+  },
+  {
+    "ref": "R36",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2330.0,
+    "y": -750.0
+  },
+  {
+    "ref": "R37",
+    "pin": "2",
+    "name": "2",
+    "net": "ROUTER_GPIO0_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 2820.0,
+    "y": -750.0
+  },
+  {
+    "ref": "R37",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 2780.0,
+    "y": -750.0
+  },
+  {
+    "ref": "R74",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3270.0,
+    "y": -750.0
+  },
+  {
+    "ref": "R74",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_USB_SEL",
+    "conflicts": [],
+    "nc": false,
+    "x": 3230.0,
+    "y": -750.0
+  },
+  {
+    "ref": "SW3",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3780.0,
+    "y": -750.0
+  },
+  {
+    "ref": "SW3",
+    "pin": "1",
+    "name": "1",
+    "net": "ROUTER_GPIO0_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 3720.0,
+    "y": -750.0
+  },
+  {
+    "ref": "U15",
+    "pin": "2",
+    "name": "D-",
+    "net": "USB_SERVICE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 3000.0,
+    "y": -400.0
+  },
+  {
+    "ref": "U15",
+    "pin": "1",
+    "name": "D+",
+    "net": "USB_SERVICE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 3100.0,
+    "y": -400.0
+  },
+  {
+    "ref": "U15",
+    "pin": "3",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 3050.0,
+    "y": -350.0
+  },
+  {
+    "ref": "J15",
+    "pin": "1",
+    "name": "1",
+    "net": "AC_L_IN",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -3380.0
+  },
+  {
+    "ref": "J15",
+    "pin": "2",
+    "name": "2",
+    "net": "AC_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -3370.0
+  },
+  {
+    "ref": "J15",
+    "pin": "3",
+    "name": "3",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -3360.0
+  },
+  {
+    "ref": "J16",
+    "pin": "1",
+    "name": "1",
+    "net": "AC_L_IN",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -3110.0
+  },
+  {
+    "ref": "J16",
+    "pin": "2",
+    "name": "2",
+    "net": "AC_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -3100.0
+  },
+  {
+    "ref": "J16",
+    "pin": "3",
+    "name": "3",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 230.0,
+    "y": -3090.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B1",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4440.0,
+    "y": -1200.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B4",
+    "name": "VBUS",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 4440.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B5",
+    "name": "CC2",
+    "net": "USB_C_CC2",
+    "conflicts": [],
+    "nc": false,
+    "x": 4440.0,
+    "y": -1240.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B6",
+    "name": "DP2",
+    "net": "USB_CONSOLE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 4440.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B7",
+    "name": "DN2",
+    "net": "USB_CONSOLE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 4440.0,
+    "y": -1260.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B8",
+    "name": "SBU2",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4440.0,
+    "y": -1270.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B9",
+    "name": "VBUS",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 4440.0,
+    "y": -1280.0
+  },
+  {
+    "ref": "J14",
+    "pin": "B12",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4440.0,
+    "y": -1310.0
+  },
+  {
+    "ref": "J14",
+    "pin": "1",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4390.0,
+    "y": -1340.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A1",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -1310.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A4",
+    "name": "VBUS",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -1280.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A5",
+    "name": "CC1",
+    "net": "USB_C_CC1",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -1270.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A6",
+    "name": "DP1",
+    "net": "USB_CONSOLE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -1260.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A7",
+    "name": "DN1",
+    "net": "USB_CONSOLE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A8",
+    "name": "SBU1",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4350.0,
+    "y": -1240.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A9",
+    "name": "VBUS",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "J14",
+    "pin": "A12",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -1200.0
+  },
+  {
+    "ref": "J14",
+    "pin": "3",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4400.0,
+    "y": -1340.0
+  },
+  {
+    "ref": "J14",
+    "pin": "4",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4400.0,
+    "y": -1170.0
+  },
+  {
+    "ref": "J14",
+    "pin": "2",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4390.0,
+    "y": -1170.0
+  },
+  {
+    "ref": "U16",
+    "pin": "1",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5005.0,
+    "y": -1285.0
+  },
+  {
+    "ref": "U16",
+    "pin": "2",
+    "name": "TXD",
+    "net": "USB_UART_TX",
+    "conflicts": [],
+    "nc": false,
+    "x": 5005.0,
+    "y": -1275.0
+  },
+  {
+    "ref": "U16",
+    "pin": "3",
+    "name": "RXD",
+    "net": "USB_UART_RX",
+    "conflicts": [],
+    "nc": false,
+    "x": 5005.0,
+    "y": -1265.0
+  },
+  {
+    "ref": "U16",
+    "pin": "4",
+    "name": "V3",
+    "net": "USB_UART_3V3",
+    "conflicts": [],
+    "nc": false,
+    "x": 5005.0,
+    "y": -1255.0
+  },
+  {
+    "ref": "U16",
+    "pin": "5",
+    "name": "D+",
+    "net": "USB_CONSOLE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 5005.0,
+    "y": -1245.0
+  },
+  {
+    "ref": "U16",
+    "pin": "6",
+    "name": "D-",
+    "net": "USB_CONSOLE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 5005.0,
+    "y": -1235.0
+  },
+  {
+    "ref": "U16",
+    "pin": "7",
+    "name": "NC.",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5005.0,
+    "y": -1225.0
+  },
+  {
+    "ref": "U16",
+    "pin": "8",
+    "name": "OUT#",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5005.0,
+    "y": -1215.0
+  },
+  {
+    "ref": "U16",
+    "pin": "9",
+    "name": "CTS#",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5095.0,
+    "y": -1215.0
+  },
+  {
+    "ref": "U16",
+    "pin": "10",
+    "name": "DSR#",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5095.0,
+    "y": -1225.0
+  },
+  {
+    "ref": "U16",
+    "pin": "11",
+    "name": "RI#",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5095.0,
+    "y": -1235.0
+  },
+  {
+    "ref": "U16",
+    "pin": "12",
+    "name": "DCD#",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5095.0,
+    "y": -1245.0
+  },
+  {
+    "ref": "U16",
+    "pin": "13",
+    "name": "DTR#",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5095.0,
+    "y": -1255.0
+  },
+  {
+    "ref": "U16",
+    "pin": "14",
+    "name": "RTS#",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5095.0,
+    "y": -1265.0
+  },
+  {
+    "ref": "U16",
+    "pin": "15",
+    "name": "R232",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5095.0,
+    "y": -1275.0
+  },
+  {
+    "ref": "U16",
+    "pin": "16",
+    "name": "VCC",
+    "net": "USB_UART_3V3",
+    "conflicts": [],
+    "nc": false,
+    "x": 5095.0,
+    "y": -1285.0
+  },
+  {
+    "ref": "U17",
+    "pin": "1",
+    "name": "VIN",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -960.0
+  },
+  {
+    "ref": "U17",
+    "pin": "2",
+    "name": "VSS",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -950.0
+  },
+  {
+    "ref": "U17",
+    "pin": "3",
+    "name": "CE",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 4350.0,
+    "y": -940.0
+  },
+  {
+    "ref": "U17",
+    "pin": "4",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 4450.0,
+    "y": -940.0
+  },
+  {
+    "ref": "U17",
+    "pin": "5",
+    "name": "VOUT",
+    "net": "USB_UART_3V3",
+    "conflicts": [],
+    "nc": false,
+    "x": 4450.0,
+    "y": -960.0
+  },
+  {
+    "ref": "U18",
+    "pin": "1",
+    "name": "1/OE",
+    "net": "USB_UART_OE_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 5650.0,
+    "y": -1265.0
+  },
+  {
+    "ref": "U18",
+    "pin": "2",
+    "name": "1A",
+    "net": "USB_UART_TX_BUF",
+    "conflicts": [],
+    "nc": false,
+    "x": 5650.0,
+    "y": -1255.0
+  },
+  {
+    "ref": "U18",
+    "pin": "3",
+    "name": "2Y",
+    "net": "USB_UART_RX_BUF",
+    "conflicts": [],
+    "nc": false,
+    "x": 5650.0,
+    "y": -1245.0
+  },
+  {
+    "ref": "U18",
+    "pin": "4",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5650.0,
+    "y": -1235.0
+  },
+  {
+    "ref": "U18",
+    "pin": "5",
+    "name": "2A",
+    "net": "CONSOLE_TX",
+    "conflicts": [],
+    "nc": false,
+    "x": 5750.0,
+    "y": -1235.0
+  },
+  {
+    "ref": "U18",
+    "pin": "6",
+    "name": "1Y",
+    "net": "CONSOLE_RX",
+    "conflicts": [],
+    "nc": false,
+    "x": 5750.0,
+    "y": -1245.0
+  },
+  {
+    "ref": "U18",
+    "pin": "7",
+    "name": "2/OE",
+    "net": "USB_UART_OE_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 5750.0,
+    "y": -1255.0
+  },
+  {
+    "ref": "U18",
+    "pin": "8",
+    "name": "VCC",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 5750.0,
+    "y": -1265.0
+  },
+  {
+    "ref": "U19",
+    "pin": "2",
+    "name": "D-",
+    "net": "USB_CONSOLE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 5000.0,
+    "y": -950.0
+  },
+  {
+    "ref": "U19",
+    "pin": "1",
+    "name": "D+",
+    "net": "USB_CONSOLE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 5100.0,
+    "y": -950.0
+  },
+  {
+    "ref": "U19",
+    "pin": "3",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5050.0,
+    "y": -900.0
+  },
+  {
+    "ref": "Q3",
+    "pin": "3",
+    "name": "D",
+    "net": "",
+    "conflicts": [
+      "GND_ISO",
+      "USB_UART_OE_N"
+    ],
+    "nc": false,
+    "x": 5710.0,
+    "y": -970.0
+  },
+  {
+    "ref": "Q3",
+    "pin": "1",
+    "name": "G",
+    "net": "USB_DETECT_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5680.0,
+    "y": -950.0
+  },
+  {
+    "ref": "Q3",
+    "pin": "2",
+    "name": "S",
+    "net": "",
+    "conflicts": [
+      "GND_ISO",
+      "USB_UART_OE_N"
+    ],
+    "nc": false,
+    "x": 5710.0,
+    "y": -930.0
+  },
+  {
+    "ref": "R90",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4320.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R90",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_C_CC1",
+    "conflicts": [],
+    "nc": false,
+    "x": 4280.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R91",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4770.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R91",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_C_CC2",
+    "conflicts": [],
+    "nc": false,
+    "x": 4730.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R92",
+    "pin": "2",
+    "name": "2",
+    "net": "USB_UART_OE_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 5220.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R92",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 5180.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R94",
+    "pin": "2",
+    "name": "2",
+    "net": "USB_DETECT_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 4320.0,
+    "y": -480.0
+  },
+  {
+    "ref": "R94",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 4280.0,
+    "y": -480.0
+  },
+  {
+    "ref": "R93",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5670.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R93",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_DETECT_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 5630.0,
+    "y": -710.0
+  },
+  {
+    "ref": "R95",
+    "pin": "2",
+    "name": "2",
+    "net": "USB_UART_TX_BUF",
+    "conflicts": [],
+    "nc": false,
+    "x": 4770.0,
+    "y": -480.0
+  },
+  {
+    "ref": "R95",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_UART_TX",
+    "conflicts": [],
+    "nc": false,
+    "x": 4730.0,
+    "y": -480.0
+  },
+  {
+    "ref": "R96",
+    "pin": "2",
+    "name": "2",
+    "net": "USB_UART_RX",
+    "conflicts": [],
+    "nc": false,
+    "x": 5220.0,
+    "y": -480.0
+  },
+  {
+    "ref": "R96",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_UART_RX_BUF",
+    "conflicts": [],
+    "nc": false,
+    "x": 5180.0,
+    "y": -480.0
+  },
+  {
+    "ref": "C90",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5670.0,
+    "y": -480.0
+  },
+  {
+    "ref": "C90",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_C_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 5630.0,
+    "y": -480.0
+  },
+  {
+    "ref": "C91",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4320.0,
+    "y": -250.0
+  },
+  {
+    "ref": "C91",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_UART_3V3",
+    "conflicts": [],
+    "nc": false,
+    "x": 4280.0,
+    "y": -250.0
+  },
+  {
+    "ref": "C92",
+    "pin": "1",
+    "name": "1",
+    "net": "USB_UART_3V3",
+    "conflicts": [],
+    "nc": false,
+    "x": 4730.0,
+    "y": -250.0
+  },
+  {
+    "ref": "C92",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 4770.0,
+    "y": -250.0
+  },
+  {
+    "ref": "C93",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 5180.0,
+    "y": -250.0
+  },
+  {
+    "ref": "C93",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5220.0,
+    "y": -250.0
+  },
+  {
+    "ref": "U20",
+    "pin": "9",
+    "name": "EP",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5450.0,
+    "y": -2120.0
+  },
+  {
+    "ref": "U20",
+    "pin": "8",
+    "name": "VCC",
+    "net": "SIM_B_VCC",
+    "conflicts": [],
+    "nc": false,
+    "x": 5450.0,
+    "y": -2110.0
+  },
+  {
+    "ref": "U20",
+    "pin": "7",
+    "name": "RESET#",
+    "net": "SIM_B_RST",
+    "conflicts": [],
+    "nc": false,
+    "x": 5450.0,
+    "y": -2100.0
+  },
+  {
+    "ref": "U20",
+    "pin": "6",
+    "name": "CLK",
+    "net": "SIM_B_CLK",
+    "conflicts": [],
+    "nc": false,
+    "x": 5450.0,
+    "y": -2090.0
+  },
+  {
+    "ref": "U20",
+    "pin": "5",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5450.0,
+    "y": -2080.0
+  },
+  {
+    "ref": "U20",
+    "pin": "4",
+    "name": "NC",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5350.0,
+    "y": -2080.0
+  },
+  {
+    "ref": "U20",
+    "pin": "3",
+    "name": "I/O",
+    "net": "SIM_B_IO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5350.0,
+    "y": -2090.0
+  },
+  {
+    "ref": "U20",
+    "pin": "2",
+    "name": "SWIO",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 5350.0,
+    "y": -2100.0
+  },
+  {
+    "ref": "U20",
+    "pin": "1",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 5350.0,
+    "y": -2110.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B1",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 6540.0,
+    "y": -1200.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B4",
+    "name": "VBUS",
+    "net": "MUSB_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 6540.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B5",
+    "name": "CC2",
+    "net": "MUSB_CC2",
+    "conflicts": [],
+    "nc": false,
+    "x": 6540.0,
+    "y": -1240.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B6",
+    "name": "DP2",
+    "net": "USB_SERVICE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 6540.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B7",
+    "name": "DN2",
+    "net": "USB_SERVICE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 6540.0,
+    "y": -1260.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B8",
+    "name": "SBU2",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 6540.0,
+    "y": -1270.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B9",
+    "name": "VBUS",
+    "net": "MUSB_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 6540.0,
+    "y": -1280.0
+  },
+  {
+    "ref": "J17",
+    "pin": "B12",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 6540.0,
+    "y": -1310.0
+  },
+  {
+    "ref": "J17",
+    "pin": "1",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 6490.0,
+    "y": -1340.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A1",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 6450.0,
+    "y": -1310.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A4",
+    "name": "VBUS",
+    "net": "MUSB_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 6450.0,
+    "y": -1280.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A5",
+    "name": "CC1",
+    "net": "MUSB_CC1",
+    "conflicts": [],
+    "nc": false,
+    "x": 6450.0,
+    "y": -1270.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A6",
+    "name": "DP1",
+    "net": "USB_SERVICE_DP",
+    "conflicts": [],
+    "nc": false,
+    "x": 6450.0,
+    "y": -1260.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A7",
+    "name": "DN1",
+    "net": "USB_SERVICE_DM",
+    "conflicts": [],
+    "nc": false,
+    "x": 6450.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A8",
+    "name": "SBU1",
+    "net": "",
+    "conflicts": [],
+    "nc": true,
+    "x": 6450.0,
+    "y": -1240.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A9",
+    "name": "VBUS",
+    "net": "MUSB_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 6450.0,
+    "y": -1230.0
+  },
+  {
+    "ref": "J17",
+    "pin": "A12",
+    "name": "GND",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 6450.0,
+    "y": -1200.0
+  },
+  {
+    "ref": "J17",
+    "pin": "3",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 6500.0,
+    "y": -1340.0
+  },
+  {
+    "ref": "J17",
+    "pin": "4",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 6500.0,
+    "y": -1170.0
+  },
+  {
+    "ref": "J17",
+    "pin": "2",
+    "name": "EH",
+    "net": "CHASSIS_PE",
+    "conflicts": [],
+    "nc": false,
+    "x": 6490.0,
+    "y": -1170.0
+  },
+  {
+    "ref": "R97",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 7020.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "R97",
+    "pin": "1",
+    "name": "1",
+    "net": "MUSB_CC1",
+    "conflicts": [],
+    "nc": false,
+    "x": 6980.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "R98",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 7470.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "R98",
+    "pin": "1",
+    "name": "1",
+    "net": "MUSB_CC2",
+    "conflicts": [],
+    "nc": false,
+    "x": 7430.0,
+    "y": -1250.0
+  },
+  {
+    "ref": "C94",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 7020.0,
+    "y": -950.0
+  },
+  {
+    "ref": "C94",
+    "pin": "1",
+    "name": "1",
+    "net": "MUSB_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 6980.0,
+    "y": -950.0
+  },
+  {
+    "ref": "R99",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 7470.0,
+    "y": -950.0
+  },
+  {
+    "ref": "R99",
+    "pin": "1",
+    "name": "1",
+    "net": "MUSB_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 7430.0,
+    "y": -950.0
+  },
+  {
+    "ref": "R101",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 6520.0,
+    "y": -350.0
+  },
+  {
+    "ref": "R101",
+    "pin": "1",
+    "name": "1",
+    "net": "MUSB_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 6480.0,
+    "y": -350.0
+  },
+  {
+    "ref": "Q4",
+    "pin": "3",
+    "name": "D",
+    "net": "MUSB_DETECT_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 6510.0,
+    "y": -670.0
+  },
+  {
+    "ref": "Q4",
+    "pin": "1",
+    "name": "G",
+    "net": "MUSB_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 6480.0,
+    "y": -650.0
+  },
+  {
+    "ref": "Q4",
+    "pin": "2",
+    "name": "S",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 6510.0,
+    "y": -630.0
+  },
+  {
+    "ref": "Q5",
+    "pin": "3",
+    "name": "D",
+    "net": "MODEM_USB_SEL",
+    "conflicts": [],
+    "nc": false,
+    "x": 7010.0,
+    "y": -670.0
+  },
+  {
+    "ref": "Q5",
+    "pin": "1",
+    "name": "G",
+    "net": "MUSB_DETECT_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 6980.0,
+    "y": -650.0
+  },
+  {
+    "ref": "Q5",
+    "pin": "2",
+    "name": "S",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 7010.0,
+    "y": -630.0
+  },
+  {
+    "ref": "R100",
+    "pin": "2",
+    "name": "2",
+    "net": "MUSB_GATE",
+    "conflicts": [],
+    "nc": false,
+    "x": 7470.0,
+    "y": -650.0
+  },
+  {
+    "ref": "R100",
+    "pin": "1",
+    "name": "1",
+    "net": "MUSB_VBUS",
+    "conflicts": [],
+    "nc": false,
+    "x": 7430.0,
+    "y": -650.0
+  },
+  {
+    "ref": "R102",
+    "pin": "2",
+    "name": "2",
+    "net": "MUSB_DETECT_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 7020.0,
+    "y": -350.0
+  },
+  {
+    "ref": "R102",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 6980.0,
+    "y": -350.0
+  },
+  {
+    "ref": "R103",
+    "pin": "2",
+    "name": "2",
+    "net": "MODEM_USB_SEL",
+    "conflicts": [],
+    "nc": false,
+    "x": 7470.0,
+    "y": -350.0
+  },
+  {
+    "ref": "R103",
+    "pin": "1",
+    "name": "1",
+    "net": "3V3_ROUTER",
+    "conflicts": [],
+    "nc": false,
+    "x": 7430.0,
+    "y": -350.0
+  },
+  {
+    "ref": "SW4",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 6530.0,
+    "y": -50.0
+  },
+  {
+    "ref": "SW4",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_PERST_N",
+    "conflicts": [],
+    "nc": false,
+    "x": 6470.0,
+    "y": -50.0
+  },
+  {
+    "ref": "SW5",
+    "pin": "2",
+    "name": "2",
+    "net": "GND_ISO",
+    "conflicts": [],
+    "nc": false,
+    "x": 7030.0,
+    "y": -50.0
+  },
+  {
+    "ref": "SW5",
+    "pin": "1",
+    "name": "1",
+    "net": "MODEM_BUCK_EN",
+    "conflicts": [],
+    "nc": false,
+    "x": 6970.0,
+    "y": -50.0
+  }
+]

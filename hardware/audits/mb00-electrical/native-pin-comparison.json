@@ -1,0 +1,92 @@
+{
+  "critical_pin_checks": 285,
+  "critical_pin_errors": [],
+  "sources": {
+    "schematic-assembly49.epro2": "c2b2022c769c984c676438ef41f6a0b3be7781779bda9eb7a530cbc26eeaad84",
+    "pcb-assembly49.epro2": "6c2ec86f674f42a77902b4325106aed0b5708db34972f8ae38958b4818a0f21b"
+  },
+  "schematic_pins": 544,
+  "pcb_physical_pads": 553,
+  "matched_keys": 544,
+  "mismatches": [
+    {
+      "ref": "Q3",
+      "pin": "3",
+      "schematic": "",
+      "pcb": [
+        "USB_UART_OE_N"
+      ]
+    },
+    {
+      "ref": "Q3",
+      "pin": "2",
+      "schematic": "",
+      "pcb": [
+        "GND_ISO"
+      ]
+    }
+  ],
+  "schematic_pins_without_component_pad": [],
+  "pcb_pads_without_symbol_pin": [],
+  "unlabelled_without_NC": [
+    {
+      "ref": "Q3",
+      "pin": "3",
+      "name": "D",
+      "net": "",
+      "conflicts": [
+        "GND_ISO",
+        "USB_UART_OE_N"
+      ],
+      "nc": false,
+      "x": 5710.0,
+      "y": -970.0
+    },
+    {
+      "ref": "Q3",
+      "pin": "2",
+      "name": "S",
+      "net": "",
+      "conflicts": [
+        "GND_ISO",
+        "USB_UART_OE_N"
+      ],
+      "nc": false,
+      "x": 5710.0,
+      "y": -930.0
+    }
+  ],
+  "conflicting_labels": [
+    {
+      "ref": "Q3",
+      "pin": "3",
+      "name": "D",
+      "net": "",
+      "conflicts": [
+        "GND_ISO",
+        "USB_UART_OE_N"
+      ],
+      "nc": false,
+      "x": 5710.0,
+      "y": -970.0
+    },
+    {
+      "ref": "Q3",
+      "pin": "2",
+      "name": "S",
+      "net": "",
+      "conflicts": [
+        "GND_ISO",
+        "USB_UART_OE_N"
+      ],
+      "nc": false,
+      "x": 5710.0,
+      "y": -930.0
+    }
+  ],
+  "limitations": [
+    "Pad NET and wire labels, not electrical continuity through routed copper.",
+    "Standalone H1/J12 pads mapped by explicit names; J13 by recorded native IDs. Mechanical/contact fit not assessed here.",
+    "Part pin expectations and physical checks are separate from schematic-vs-PCB agreement."
+  ]
+}

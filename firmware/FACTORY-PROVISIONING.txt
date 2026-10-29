@@ -1,0 +1,55 @@
+Common-image provisioning candidate for50 units — must be qualified on first board
+
+Purpose: compile the common firmware once, then supply each unit's unique identity
+and credentials separately. No common/default admin password is introduced.
+This is an initial-programming procedure for an ALREADY COMPATIBLE OpenWrt system,
+not an OEM bootloader install procedure and not a routine field update.
+
+The workflow builds an unprovisioned image with root locked. Used alone it is not
+ready to program. The unit-config.tar.gz produced below supplies exactly one file,
+etc/gateway/unit.json, before the new image's first-boot setup runs. The archive has
+no bootloader, calibration, MAC, firmware or unrelated device configuration.
+
+1. Use PROGRAMMING-MB00.txt to qualify the actual router flash layout, first-board
+   firmware boot, own backups/recovery, and the hardware audit hold points.
+2. Generate per-unit records privately with tools/provision.py. Never reuse a record
+   across units. Print the corresponding serial/Wi-Fi/admin label for each unit.
+3. Download the successful common development build's manifest and sysupgrade image.
+   Verify artifact origin/revision and hashes. No first build is production-approved.
+4. Create a per-unit bundle locally:
+   python3 firmware/tools/make_factory_bundle.py --unit firmware/private/AG26-0001.json --manifest manifest.json --image IMAGE-squashfs-sysupgrade.bin --output firmware/private/AG26-0001-factory
+5. The tool checks the image hash and creates unit-config.tar.gz plus bundle.json.
+   Both belong in private storage. Check bundle.json's serial against the physical
+   label, and its image/config hashes against the actual files before transfer.
+6. On the qualified existing OpenWrt unit, transfer the common image and this unit's
+   config archive to /tmp using authenticated SSH/SCP or the USB-C console.
+   Confirm sha256sum on both transferred files against bundle.json.
+7. Check without a flash write:
+   sysupgrade -T -f /tmp/unit-config.tar.gz /tmp/gateway.bin
+8. Only in the qualified first-provisioning fixture, after identifying the correct
+   unit and passing the checks, the equivalent command without -T performs initial
+   programming. This REPLACES existing site settings with new-device defaults.
+   Do not run it on deployed equipment to perform a routine update.
+9. Reboot acceptance must prove unique root authentication, correct labeled Wi-Fi,
+   physical SIM, all ports, saved settings and recovery. Record the image and bundle
+   hashes in the private manufacturing record. Delete fixture copies after secure
+   archival according to the company's credential-retention procedure.
+
+The normal preflight.py intentionally refuses a bare validation image. It is for
+the private-per-unit image workflow. This common-image candidate needs the explicit
+two-file verification above; do not bypass that tool by relabeling the manifest.
+No flash commands are run by make_factory_bundle.py, and no fixture has yet been
+tested. The final OEM initial-install path is still determined by arriving hardware.
+
+FACTORY RESET DISTINCTION
+Routine sysupgrade preserves unit.json through lib/upgrade/keep.d/atech-gateway.
+A full OpenWrt factory reset erases writable overlay, including the common-image
+bundle's unit.json. It then needs private fixture re-provisioning. The per-unit
+image recipe bakes its record into SquashFS, so that record survives factory reset.
+Do not enable a customer factory-reset feature for common-image units until a
+retained manufacturing-data strategy has been implemented and tested.
+
+Primary implementation reference (pinned version):
+https://raw.githubusercontent.com/openwrt/openwrt/v24.10.7/package/base-files/files/sbin/sysupgrade
+Its -f option restores a supplied configuration tarball; -T tests without flashing.
+The new root filesystem then runs this package's UCI-defaults provisioning script.

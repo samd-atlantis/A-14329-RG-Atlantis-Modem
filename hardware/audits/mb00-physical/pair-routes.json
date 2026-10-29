@@ -1,0 +1,385 @@
+[
+  {
+    "pair": "LAN1_TX",
+    "conductors": [
+      {
+        "net": "LAN1_TXP",
+        "segments": 15,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 40.38345775776983,
+        "coupled_length_fraction": 0.7489818087108762
+      },
+      {
+        "net": "LAN1_TXN",
+        "segments": 179,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 40.382830205757664,
+        "coupled_length_fraction": 0.7572369501209993
+      }
+    ],
+    "length_sum_difference_mm": 0.0006275520121690192
+  },
+  {
+    "pair": "LAN1_RX",
+    "conductors": [
+      {
+        "net": "LAN1_RXP",
+        "segments": 20,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 57.44759837983006,
+        "coupled_length_fraction": 0.8525455425660564
+      },
+      {
+        "net": "LAN1_RXN",
+        "segments": 290,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 57.431478496886285,
+        "coupled_length_fraction": 0.8840043817728511
+      }
+    ],
+    "length_sum_difference_mm": 0.01611988294377653
+  },
+  {
+    "pair": "LAN2_TX",
+    "conductors": [
+      {
+        "net": "LAN2_TXP",
+        "segments": 156,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 35.073477954115035,
+        "coupled_length_fraction": 0.773958586899653
+      },
+      {
+        "net": "LAN2_TXN",
+        "segments": 155,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 35.015964979445826,
+        "coupled_length_fraction": 0.7887414022647001
+      }
+    ],
+    "length_sum_difference_mm": 0.05751297466920846
+  },
+  {
+    "pair": "LAN2_RX",
+    "conductors": [
+      {
+        "net": "LAN2_RXP",
+        "segments": 201,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 42.76625374321579,
+        "coupled_length_fraction": 0.830514155091025
+      },
+      {
+        "net": "LAN2_RXN",
+        "segments": 212,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 42.808274393088446,
+        "coupled_length_fraction": 0.8113579497932467
+      }
+    ],
+    "length_sum_difference_mm": 0.0420206498726543
+  },
+  {
+    "pair": "LAN3_TX",
+    "conductors": [
+      {
+        "net": "LAN3_TXP",
+        "segments": 17,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 32.59328052823744,
+        "coupled_length_fraction": 0.6933573747806792
+      },
+      {
+        "net": "LAN3_TXN",
+        "segments": 141,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 32.59259521429758,
+        "coupled_length_fraction": 0.6959902635485798
+      }
+    ],
+    "length_sum_difference_mm": 0.0006853139398614871
+  },
+  {
+    "pair": "LAN3_RX",
+    "conductors": [
+      {
+        "net": "LAN3_RXP",
+        "segments": 18,
+        "widths_mil": [
+          7.19
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 43.431244132902876,
+        "coupled_length_fraction": 0.6545965503162953
+      },
+      {
+        "net": "LAN3_RXN",
+        "segments": 15,
+        "widths_mil": [
+          7.19
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 43.43124204028608,
+        "coupled_length_fraction": 0.672663085626669
+      }
+    ],
+    "length_sum_difference_mm": 2.0926167962898035e-06
+  },
+  {
+    "pair": "LAN4_TX",
+    "conductors": [
+      {
+        "net": "LAN4_TXP",
+        "segments": 217,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1
+        ],
+        "length_sum_mm": 43.92127424604222,
+        "coupled_length_fraction": 0.8809338886451903
+      },
+      {
+        "net": "LAN4_TXN",
+        "segments": 18,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1
+        ],
+        "length_sum_mm": 43.92168561340591,
+        "coupled_length_fraction": 0.8572244741113084
+      }
+    ],
+    "length_sum_difference_mm": 0.00041136736368940774
+  },
+  {
+    "pair": "LAN4_RX",
+    "conductors": [
+      {
+        "net": "LAN4_RXP",
+        "segments": 13,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 37.30887926532813,
+        "coupled_length_fraction": 0.8142311602348066
+      },
+      {
+        "net": "LAN4_RXN",
+        "segments": 19,
+        "widths_mil": [
+          7.2047
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 37.31005633753197,
+        "coupled_length_fraction": 0.7937560626681929
+      }
+    ],
+    "length_sum_difference_mm": 0.0011770722038377812
+  },
+  {
+    "pair": "USB_HOST_D",
+    "conductors": [
+      {
+        "net": "USB_HOST_DP",
+        "segments": 16,
+        "widths_mil": [
+          8.8587,
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 64.90849167077663,
+        "coupled_length_fraction": 0.8923637166231939
+      },
+      {
+        "net": "USB_HOST_DM",
+        "segments": 19,
+        "widths_mil": [
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 64.90668011633142,
+        "coupled_length_fraction": 0.8943709633766742
+      }
+    ],
+    "length_sum_difference_mm": 0.0018115544452115273
+  },
+  {
+    "pair": "USB_MODEM_D",
+    "conductors": [
+      {
+        "net": "USB_MODEM_DP",
+        "segments": 22,
+        "widths_mil": [
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 51.700233946656695,
+        "coupled_length_fraction": 0.6684744785566868
+      },
+      {
+        "net": "USB_MODEM_DM",
+        "segments": 23,
+        "widths_mil": [
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 51.84135020786556,
+        "coupled_length_fraction": 0.6698266986453775
+      }
+    ],
+    "length_sum_difference_mm": 0.14111626120886456
+  },
+  {
+    "pair": "USB_SERVICE_D",
+    "conductors": [
+      {
+        "net": "USB_SERVICE_DP",
+        "segments": 22,
+        "widths_mil": [
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 40.520724336703054,
+        "coupled_length_fraction": 0.5563807707733078
+      },
+      {
+        "net": "USB_SERVICE_DM",
+        "segments": 18,
+        "widths_mil": [
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 40.52072459442629,
+        "coupled_length_fraction": 0.5656570677441338
+      }
+    ],
+    "length_sum_difference_mm": 2.5772323652972773e-07
+  },
+  {
+    "pair": "USB_CONSOLE_D",
+    "conductors": [
+      {
+        "net": "USB_CONSOLE_DP",
+        "segments": 12,
+        "widths_mil": [
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 21.916638403243198,
+        "coupled_length_fraction": 0.23928773337738485
+      },
+      {
+        "net": "USB_CONSOLE_DM",
+        "segments": 22,
+        "widths_mil": [
+          9.74
+        ],
+        "layers": [
+          1,
+          2
+        ],
+        "length_sum_mm": 21.91663920523906,
+        "coupled_length_fraction": 0.21923971141451754
+      }
+    ],
+    "length_sum_difference_mm": 8.019958634974955e-07
+  }
+]

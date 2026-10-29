@@ -42,6 +42,9 @@ passwd -l root >/dev/null 2>&1
 awk -F: -v OFS=: -v hash="$hash" '$1 == "root" {$2=hash} {print}' /etc/shadow > /etc/shadow.gateway
 chmod 600 /etc/shadow.gateway
 uci set system.@system[0].hostname="AG-$serial"
+# Upstream defaults ttylogin=0, which bypasses the password with login -f root.
+# Provisioned units must authenticate on the USB/UART console as well as LuCI.
+uci set system.@system[0].ttylogin='1'
 uci set gateway.main.serial="$serial"
 uci set network.lan.ipaddr='192.168.50.1'
 uci set network.lan.netmask='255.255.255.0'

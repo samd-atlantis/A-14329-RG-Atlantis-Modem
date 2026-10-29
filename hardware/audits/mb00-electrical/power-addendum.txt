@@ -1,0 +1,139 @@
+A-14329-MB00 modem power addendum - 2026-10-29
+
+Decision: measure the first board as assembled. Do not automatically add 470 uF
+to all boards. No bulk-capacitor or inductor ECO is approved by this desk review.
+The ordered EC25AFFA-MINIPCIE remains on a power-validation hold. The carrier can
+be brought up without the modem while the firmware and power tests proceed.
+
+AS-ASSEMBLED EVIDENCE
+The frozen assembly49 BOM and native records identify:
+  PS1  IRM-20-5, 5 V / 4 A / 20 W, C6280121.
+  U3   TPS62132RGTR fixed 3.3 V / 3 A; FSW pin 7 is grounded (high frequency).
+  L2   SWPA5040S2R2NT, 2.2 uH, C96923; native attributes say +/-30%, 5.5 A Isat.
+  C22  3.3 nF soft-start, 0603, C302028.
+  C23  22 uF 0805, C77074; C24/C25 47 uF each 1210, C77101.
+The nominal bulk total is 116 uF, with additional small bypasses. Effective MLCC
+capacitance must be obtained from the fitted capacitor curves or measurement.
+U2 is a separate TPS62132 for the router; neither buck's 3 A rating is its load.
+The downstream 120 VAC controller terminals bypass the 20 W supply.
+
+CONTROL-LOOP REVIEW
+TI Table 9-2 checks 2.2 uH with nominal ceramic 10/22/47/100/200 uF, not 400 uF.
+It permits 1 uH at high frequency. Equation 10 gives tSS = 1.25 V * CSS / 2.5 uA.
+Consequently 3.3 nF gives about 1.65 ms and 22 nF about 11 ms. This is a nominal
+estimate, not a measured startup time. Changing soft start does not establish
+loop stability. Source [1], printed pages 14-16.
+
+The fuller TI application-note matrix used 12 V input, 3.3 V output, 1 A load and
+high frequency, with effective ceramic capacitance estimated at half nominal.
+For 2.2 uH it marks 200 uF effective stable but 400/800 uF effective unstable.
+For 1 uH it marks 400 uF effective stable outside its recommended range, and
+800 uF effective unstable. Those are test points, not a guarantee between them
+or for this board's 5 V input and mixed capacitor technology. Source [2], pages 1-2.
+
+An illustrative 470 uF electrolytic plus 58 uF effective existing ceramics totals
+528 uF effective. Electrolytics must not be given the ceramic 50% DC-bias factor.
+With 2.2 uH, this is near published unstable test cases. Different ESR can change
+the result, so this is a concrete reason for measurement, not proof it will fail.
+
+The Quectel Mini PCIe guide's >=470 uF low-ESR recommendation and >=2.7 A supply
+remain relevant to the card interface. AF's typical LTE-current table does not
+provide a replacement transient maximum or explicit reduced-capacitance waiver.
+The bare LGA EC25's 100 uF recommendation is for a different interface. See [4]
+and the main electrical-audit.txt. This review found no justified paper-only waiver.
+
+BOUNDED CONTINGENCY IF THE STOCK RAIL DROOPS
+Candidate P1, on one engineering board only: L2 1.0 uH (+/-20% or better), add a
+470 uF low-ESR bulk capacitor between 3V3_MODEM and GND_ISO near J8, and change
+C22 to 22 nF. Retain the existing ceramics and FSW-low configuration. This is a
+test candidate, NOT a verified or production-approved component substitution.
+
+At an assumed 5.25 V input, 3.3 V output, 0.8 uH effective L, and typical 2.5 MHz,
+the calculated inductor ripple is 0.613 A peak-to-peak. Peak is 3.006 A at 2.7 A
+load, or 3.306 A at 3 A load. A 20% allowance at 3 A calls for at least 3.97 A
+saturation capability: use >=4 A as a screening floor, plus verified inductance
+versus current, RMS heating, DCR, dimensions and actual frequency. These are
+conditional calculations, not worst-case current-limit or thermal qualification.
+The TI minimum current-limit test is specified at 12 V; do not call this a
+guaranteed 5 V limit margin. A lower actual switching frequency increases ripple.
+
+For 586 uF nominal total, estimated capacitor-only startup current is 1.172 A
+with 3.3 nF SS, versus 0.176 A with 22 nF SS. Add modem startup load to those
+figures. The longer ramp reduces charging demand but can still alter modem
+startup behavior. Confirm both startup and shutdown before reconnecting the card.
+
+No exact replacement inductor or capacitor SKU is released: mixed-bank stability,
+available mechanical space, useful ESR and actual current margin remain unknown.
+The 1 uH candidate has more promising adjacent TI evidence than retaining 2.2 uH,
+but neither is validated at this effective capacitance. Do not reduce L to
+0.47 uH merely to match another application-note row; that is outside the data
+sheet's stated minimum recommendation and increases current ripple. If P1 fails,
+stop and select a supply/filter combination with a supported large-capacitance
+design; do not keep adding capacitors or increase the nominal modem voltage.
+
+FIRST-BOARD TEST PLAN
+1. Leave the modem unplugged. Inspect fitted PSU, buck, L2, capacitor values and
+   polarity. Record board serial, assembly files and baseline photographs.
+   Use a qualified isolated power setup. A 5 V bench feed requires the AC input
+   disconnected and PS1 output isolated or its backfeed behavior verified first.
+2. At a suitable J8 load fixture, measure 3V3_MODEM and 5V_ISO simultaneously with
+   short probe grounds. Record startup, shutdown and repeated MODEM_OFF cycles.
+   Use load steps between approximately 0.1 A and 2.7 A with several pulse widths
+   and edge rates, including a fast edge on the order of 10 us. Check light-load
+   behavior, sustained load, and recovery when the load is removed. Capture the
+   actual edge, voltage extrema, settling time and any repeated ringing. Repeat
+   with the router busy and near the measured minimum/maximum 5 V input.
+3. After startup, require the card-side rail to remain within 3.0-3.6 V and avoid
+   startup overshoot above 3.6 V. Stop on sustained oscillation, restart/hiccup,
+   excessive heating or unexplained current limiting. Use engineering margin
+   inside the absolute operating window; an edge that only barely passes is not
+   evidence of robust production performance. Scope load-release overshoot too.
+4. Only after the unloaded/fixture checks pass, fit the EC25-AF, SIM and correct
+   antennas. Capture attach, reconnect, sustained LTE upload, simultaneous Wi-Fi
+   and four Ethernet links, and modem power cycles. Avoid a weak-signal test
+   method that disconnects the transmitting antenna. Use controlled attenuation
+   or the intended installation and record radio signal/power conditions.
+5. If baseline fails, preserve its captures and try P1 on that one board. Begin
+   without the modem and repeat steps 2-4. Verify the new capacitor's polarity,
+   shortest practical power loop, insulated mechanical support and enclosure
+   clearance. No unsupported loose capacitor installation is a production fix.
+6. For either passing candidate, test inside the closed Integra enclosure through
+   the intended temperature range and intended 120 VAC tolerance. Record local
+   PSU ambient and regulator/inductor temperatures. Obtain stability evidence
+   across load/temperature, ideally a measured loop response, before releasing an
+   ECO. A single successful LTE session or a nominal-value simulation is insufficient.
+
+5 V POWER HEADROOM
+Source [3] rates PS1 at 20 W, 4 A. At 120 VAC its line-voltage curve allows full
+output. The 5 V thermal curve begins derating above 45 C LOCAL ambient; approximate
+readings are 18 W at 50 C, 14 W at 60 C and 10 W at 70 C, horizontal mounting.
+Local ambient is the air around the supply inside the enclosure, not room air.
+
+Engineering budget, not measurement: reserve 1 A at 3.3 V for the router; use
+2.7 A at 3.3 V for the modem test; assume 85% buck efficiency and 0.5 W extra
+5 V-side allowance. Required 5 V output is then 14.865 W, or 2.973 A. This leaves
+5.135 W (25.7%) against the cool 20 W rating, but exceeds the 60 C derated rating.
+At a full 3 A modem load the same budget is 16.029 W (3.206 A), leaving 19.9%
+cool margin. At 50 C the respective margins fall to 17.4% and 10.9% of 18 W.
+If both bucks actually delivered 3 A, this assumption would require 23.794 W:
+the supply is not sized for both regulators' full rated outputs simultaneously.
+
+Thus the nameplate supply is plausible for the expected loads, but a hot sealed
+enclosure remains a real qualification item. The 85% conversion efficiency and
+0.5 W allowance are explicit design assumptions, not vendor worst-case promises.
+Measure PS1 output power and temperature; do not confuse its AC efficiency with
+the two bucks' efficiencies or subtract the 120 VAC pass-through feed from 20 W.
+
+REPRODUCIBILITY AND SOURCES
+power-calculations.py emits power-calculations.json with the conditional arithmetic.
+Rendered evidence pages in power-evidence were visually inspected. Native design
+files, frozen releases and the live EasyEDA project were not edited by this review.
+
+[1] TI TPS6213x datasheet SLVSAG7F, November 2021:
+https://www.ti.com/lit/ds/symlink/tps62132.pdf
+[2] TI output-filter application report SLVA463A, July 2015:
+https://www.ti.com/lit/an/slva463a/slva463a.pdf
+[3] Mean Well IRM-20 series specification, November 21 2025, pages 2-3:
+https://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
+[4] Quectel EC25 Mini PCIe Hardware Design V2.6, pages 27 and 70-71:
+https://forums.quectel.com/uploads/short-url/hOpbQpopPcLwn4bwSMFRSpJa2kk.pdf

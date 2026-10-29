@@ -1,0 +1,19 @@
+{
+  "source_sha256": "6c2ec86f674f42a77902b4325106aed0b5708db34972f8ae38958b4818a0f21b",
+  "status": "Saved-design audit completed with documented prototype and order-verification gates; NOT production qualification",
+  "kicad_version": "9.0.7",
+  "kicad_violations": {
+    "track_dangling": 13,
+    "via_dangling": 3,
+    "copper_sliver": 1
+  },
+  "kicad_error_violations": 0,
+  "kicad_missing_connection_reports": 4,
+  "explanation": "3 GND groups joined by omitted native pours;1 isolated USB_HOST_DP fragment has no pads",
+  "non_ground_nets": 92,
+  "pad_bearing_split_nets": [],
+  "ground_groups_with_cached_pours": 1,
+  "track_via_keepout_intersections": 0,
+  "mains_bus_width_mm": 4.064,
+  "terminal_stem_width_mm": 1.7
+}

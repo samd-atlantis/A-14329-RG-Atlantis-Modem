@@ -76,6 +76,7 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         self.assertEqual(proc.returncode, 0, proc.stderr)
         self.assertIn('set network.cellular.auto=0', log)
         self.assertIn('set dropbear.@dropbear[0].Interface=lan', log)
+        self.assertIn('set system.@system[0].ttylogin=1', log)
         self.assertIn('set firewall.@zone[1].input=REJECT', log)
         self.assertIn('set gateway.main.provisioned=1', log)
         self.assertIn('root:'+self.env['HASH']+':', (self.dir/'shadow').read_text())
@@ -83,7 +84,11 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
 
     def test_missing_unit_locks_root_and_disables_every_radio(self):
         (self.dir/'unit.json').unlink()
-        self.assert_failed_closed(*self.run_script())
+        proc, log = self.run_script()
+        self.assert_failed_closed(proc, log)
+        # The secret-free validation image retains the upstream local fixture
+        # console; this is not network access and is never customer firmware.
+        self.assertNotIn('ttylogin=1', log)
 
     def test_bad_hash_does_not_configure_wifi(self):
         self.env['HASH']='$6$not-a-valid-hash'

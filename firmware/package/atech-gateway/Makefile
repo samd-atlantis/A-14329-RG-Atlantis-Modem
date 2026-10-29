@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=atech-gateway
 PKG_VERSION:=0.1.0
-PKG_RELEASE:=2
+PKG_RELEASE:=3
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -18,7 +18,6 @@ endef
 
 define Package/atech-gateway/conffiles
 /etc/config/gateway
-/etc/gateway/unit.json
 endef
 
 define Package/atech-gateway/install

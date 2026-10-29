@@ -1,0 +1,115 @@
+A-14329-MB00 programming and first-board commissioning
+2026-10-29 - development procedure, not yet demonstrated on hardware
+
+HARDWARE THIS PROCEDURE TARGETS
+Router: HLK-7628N, BOM C209920. Verify the installed flash/RAM and partition map;
+the same family includes more than one memory variant. Current image is 32MB only.
+Modem: Quectel EC25AFFA-MINIPCIE, as confirmed by the purchaser.
+SIM: physical NANO-SIM in J9 hinged holder. U20 eSIM is absent and not required.
+
+SERVICE CONNECTIONS
+J14 = USB-C -> CH340C -> router UART0 console. Start at 57600,8N1,no flow control
+for upstream OpenWrt. The factory bootloader may use a different baud rate.
+J17 = USB-C -> USB mux -> modem USB. Attaching a PC removes the router's USB host
+from the modem. Disconnect this cable for normal router-to-cellular operation.
+H1/J12 = custom TC2050 recovery/control pinouts, not standard ARM JTAG wiring.
+SW1 = router hardware reset. SW4 = modem reset. SW3 is module pin30/SoC GPIO11;
+it is not assumed to provide a universal ROM-download mode or factory reset.
+Neither USB-C connector supplies the whole carrier. Use normal isolated power or
+the qualified low-voltage fixture; never drive the fixture rail with AC energized.
+
+FIRST BOARD: DO THESE BEFORE FLASHING
+1. Reconcile the order Gerbers/BOM/CPL/stackup with the frozen assembly49 archive.
+   Inspect assembly, polarity, terminal pads and solder joints. Fit the separately
+   sourced NT4R1600 supports/screws and modem. Fit appropriate external antennas.
+2. Complete the power checks in hardware/audits/mb00-electrical/electrical-audit.txt.
+   Existing modem bulk is116uF nominal; Quectel MiniPCIe guidance is>=470uF lowESR.
+   A scope test/vendor disposition or validated capacitor ECO is required. Do not
+   run 10A controller loads before the separate distribution thermal/isolation tests.
+3. Connect J14 and record factory boot logs, actual RAM/flash, UART baud, U-Boot
+   version, flash partition offsets/sizes, and available recovery commands.
+4. Save each unit's own complete flash backup, bootloader/environment, MAC and RF
+   calibration privately. Record SHA256 checksums and verify the saved sizes.
+   Do not clone another unit's factory partition, MAC, calibration or credentials.
+5. Establish how the actual OEM bootloader starts a RAM image and restores its own
+   backup. Do not guess a flash address or give an OEM UI an OpenWrt sysupgrade file.
+   Factory installation remains pending this bootloader identification step.
+
+IMAGE TYPES AND BUILD
+GitHub Actions -> OpenWrt MB00 cross-build -> Run workflow builds a credential-free
+validation image. Its locked network login/no Wi-Fi setup state is intentional;
+physical UART console access remains available for the fixture. That artifact
+proves compilation only and is NOT the customer programming image.
+
+On a supported Linux build host, with a clean committed checkout and build tools:
+  python3 firmware/tools/provision.py --count 1 --prefix AG26 --output firmware/private
+  bash firmware/build.sh "$PWD/firmware/private/AG26-0001.json"
+
+Use a fresh OpenWrt source tree per unit or set OPENWRT_TREE to a new absolute Linux
+path without spaces. A reused secret overlay is rejected. This prototype recipe
+builds one private image per unit. FACTORY-PROVISIONING.txt and make_factory_bundle.py
+provide a faster common-image candidate; qualify it on one prototype first.
+Its per-unit overlay does not survive factory reset; the private per-unit image does.
+firmware/dist/AG26-0001 holds the private images, manifest and SHA256SUMS.
+Do not publish that folder or the label sheet: images contain that unit's Wi-Fi key.
+The source and feeds are pinned in build-lock.json; firmware/bootloader compatibility
+and memory still have to match the actual module.
+
+The initramfs-kernel.bin is for a verified RAM-boot procedure, not a flash write.
+The squashfs-sysupgrade.bin is for an already compatible OpenWrt installation.
+Neither is a blanket replacement for a complete factory flash dump.
+
+READ-ONLY CHECK ON AN ALREADY BOOTING OPENWRT MODULE
+Transfer firmware/tools/collect-device.sh to /tmp/collect-device.sh via authenticated
+SSH/SCP or USB serial. Run it and save its JSON output privately as device.json:
+  sh /tmp/collect-device.sh
+
+On the PC, select the private unit's actual sysupgrade filename:
+  python3 firmware/tools/preflight.py --probe device.json --manifest manifest.json --image IMAGE-squashfs-sysupgrade.bin
+
+This rejects unknown boards, unexpected partition sizes, validation-only images,
+wrong unit identity and mismatched image hashes. It does not measure flash offsets,
+establish OEM compatibility or write flash. Independently verify those prerequisites.
+
+FAST ROUTINE UPDATE AFTER A COMPATIBLE OPENWRT INSTALL IS PROVEN
+1. Connect Ethernet to one LAN jack; keep J14 console available for recovery.
+2. Transfer the correct private image to /tmp using authenticated SCP. Some OpenWrt
+   installs need legacy SCP mode (scp -O) because SFTP is not installed.
+3. On the router: sha256sum /tmp/gateway.bin. Compare with that build's SHA256SUMS.
+4. Run: sysupgrade -T /tmp/gateway.bin
+5. Only after that passes, the verified backup/recovery is available, and the unit
+   identity matches: use the normal sysupgrade operation to perform the update.
+   Do not use -F to override compatibility. Preserve site config for routine updates.
+6. Reconnect and verify the build, unique identity, saved site/APN/LAN settings and
+   all acceptance items. A successful file transfer is not a successful commissioning.
+
+USB-ONLY FILE TRANSFER (SLOWER)
+Once a compatible image boots and you can authenticate over J14:
+  rx /tmp/gateway.bin
+Send the file with the terminal's XMODEM function, then perform the same SHA256
+and sysupgrade -T checks. At57600 baud a multi-megabyte image takes many minutes;
+Ethernet is preferable for production. No automatic USB-DFU installer is claimed.
+
+MODEM AND LOCAL SETUP
+The EC25 card normally keeps its Quectel firmware; router firmware is a separate
+image. Record ATI/firmware revision and use only an exact vendor-approved modem
+update through J17 if needed. No modem firmware is bundled here.
+On first provisioned boot, Ethernet DHCP or ATECH-<serial> Wi-Fi reaches
+https://192.168.50.1. Sign in with the unique admin password from the private label.
+Enter carrier APN and enable cellular. With a PC on J17, modem data is unavailable
+to the router by design. Keep SIM hotplug and automatic DTR sleep disabled until
+validated because the corresponding MiniPCIe pins are unused on MB00.
+
+Carrier defaults select physicalSIM A and power the modem without software GPIOs.
+hardware_validated=0 and powercut_validated=0 stay set until bench acceptance.
+The first gate permits controlled expander initialization after bus/polarity review;
+the second separately gates disruptive rail cycling, which still requires a modem
+shutdown/power sequencing decision. Normal startup does not need either gate.
+No eSIM LPA, remote RMS replacement, cloud VPN or WAN administration is included.
+
+FIRST-BOARD ACCEPTANCE RECORD
+Use acceptance-template.json and store a filled copy under firmware/private/<serial>.
+Record real measurements, not assumptions. Test every Ethernet jack, Wi-Fi setup,
+controller web access, both USB plug orientations, cellular registration/upload,
+reconnect, configuration persistence, authenticated access, power loss and recovery.
+Source tests and a successful cross-build cannot replace these physical checks.

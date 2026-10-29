@@ -1,0 +1,11 @@
+User confirmation received during MB00 audit, 2026-10-29
+
+Ordered modem: EC25AFFA-MINIPCIE.
+Router: HLK-7628N as on the assembly BOM (C209920).
+User answered Yes to: 4 layers, 1.6mm thickness, 1oz outer copper,
+JLC04161H-7628 stackup.
+
+This confirms the intended order configuration used by the impedance calculator.
+It does not replace a copy/hash comparison of the actual submitted Gerbers,
+drill files, assembly selections, copper stack drawing or JLC order confirmation.
+The saved native design and release archives remain unchanged.

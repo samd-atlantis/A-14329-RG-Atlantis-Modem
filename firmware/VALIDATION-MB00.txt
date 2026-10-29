@@ -1,6 +1,17 @@
-A-14329-MB00 source checks, 2026-10-29
-9 Python tests passed: mocked carrier control and unique provisioning.
-15 JavaScript/form/ACL checks passed.
-Tests required unsandboxed Git Bash/OpenSSL on Windows; initial sandbox failures were process launch failures.
-No cross-compiled OpenWrt image, hardware boot test or final independent hardware audit completed.
-GitHub Actions repeats source tests on Linux.
+A-14329-MB00 validation record,2026-10-29
+
+27 Python tests pass: provisioning, failedsetup behavior, preservedconfiguration,
+carriercontrol interlocks, imagepreflight and privatefactorybundle generation.
+27 JavaScript/form/ACL checks pass. Shellsyntax checks pass.
+Windows tests used unsandboxed GitBash/OpenSSL due sandboxprocesslaunch limitations.
+Linux GitHub sourcechecks also passed for firmware changes committed earlier today.
+
+Independent hardware desk audit completed with documentedexceptions. See
+hardware/audits/AUDIT-MB00.txt. Frozenrelease hashes still match the originalmanifest.
+
+Cross-build firstattempt40923479716 failed because the script's umask077 was
+incompatible with OpenWrt's mandatory022. Corrected without bypassing prerequisites.
+Corrected cross-build40924364866 started from4a01bbf; later runtime fixes include
+unitidentity keep.d persistence and USBconsoleauthentication. A fresh build of those
+changes must be checked before treating an image as the current developmentartifact.
+No hardwareboot, actualflashwrite or productionqualification is claimed.

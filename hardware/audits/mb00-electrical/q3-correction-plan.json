@@ -1,0 +1,235 @@
+{
+  "status": "PROPOSED_SCHEMATIC_ONLY_CORRECTION_NOT_LIVE_EASYEDA",
+  "original_sha256": "c2b2022c769c984c676438ef41f6a0b3be7781779bda9eb7a530cbc26eeaad84",
+  "candidate_sha256": "efe2440f7db754e5b854b15ce646aa14e3ffb462bde66f45b98244c34d607d72",
+  "candidate_file": "schematic-mb00-Q3-proposed.epro2",
+  "changed_final_records": [
+    [
+      "SCH_PAGE",
+      "279e02b1d2c42f54",
+      "ed2700000000011e"
+    ],
+    [
+      "SCH_PAGE",
+      "279e02b1d2c42f54",
+      "ed2700000000011f"
+    ],
+    [
+      "SCH_PAGE",
+      "279e02b1d2c42f54",
+      "ed27000000000126"
+    ],
+    [
+      "SCH_PAGE",
+      "279e02b1d2c42f54",
+      "ed27000000000127"
+    ]
+  ],
+  "changes": [
+    {
+      "record_id": "ed2700000000011e",
+      "before": {
+        "h": {
+          "type": "LINE",
+          "ticket": 642351,
+          "id": "ed2700000000011e",
+          "firstTicket": 42616
+        },
+        "b": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 5710,
+          "startY": -970,
+          "endX": 5710,
+          "endY": -870,
+          "lineGroup": "ed2700000000011d"
+        }
+      },
+      "after": {
+        "h": {
+          "type": "LINE",
+          "ticket": 642351,
+          "id": "ed2700000000011e",
+          "firstTicket": 42616
+        },
+        "b": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 5710,
+          "startY": -970,
+          "endX": 5710,
+          "endY": -1070,
+          "lineGroup": "ed2700000000011d"
+        }
+      }
+    },
+    {
+      "record_id": "ed27000000000126",
+      "before": {
+        "h": {
+          "type": "LINE",
+          "ticket": 642363,
+          "id": "ed27000000000126",
+          "firstTicket": 42632
+        },
+        "b": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 5710,
+          "startY": -930,
+          "endX": 5710,
+          "endY": -1030,
+          "lineGroup": "ed27000000000125"
+        }
+      },
+      "after": {
+        "h": {
+          "type": "LINE",
+          "ticket": 642363,
+          "id": "ed27000000000126",
+          "firstTicket": 42632
+        },
+        "b": {
+          "fillColor": null,
+          "fillStyle": null,
+          "strokeColor": null,
+          "strokeStyle": null,
+          "strokeWidth": null,
+          "startX": 5710,
+          "startY": -930,
+          "endX": 5710,
+          "endY": -830,
+          "lineGroup": "ed27000000000125"
+        }
+      }
+    },
+    {
+      "record_id": "ed2700000000011f",
+      "before": {
+        "h": {
+          "type": "ATTR",
+          "ticket": 642355,
+          "id": "ed2700000000011f",
+          "firstTicket": 42618
+        },
+        "b": {
+          "x": 5710,
+          "y": -870,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 7,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "USB_UART_OE_N",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "ed2700000000011d",
+          "zIndex": 3
+        }
+      },
+      "after": {
+        "h": {
+          "type": "ATTR",
+          "ticket": 642355,
+          "id": "ed2700000000011f",
+          "firstTicket": 42618
+        },
+        "b": {
+          "x": 5710,
+          "y": -1070,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 7,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "USB_UART_OE_N",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "ed2700000000011d",
+          "zIndex": 3
+        }
+      }
+    },
+    {
+      "record_id": "ed27000000000127",
+      "before": {
+        "h": {
+          "type": "ATTR",
+          "ticket": 642367,
+          "id": "ed27000000000127",
+          "firstTicket": 42634
+        },
+        "b": {
+          "x": 5710,
+          "y": -1030,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 7,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "GND_ISO",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "ed27000000000125",
+          "zIndex": 3
+        }
+      },
+      "after": {
+        "h": {
+          "type": "ATTR",
+          "ticket": 642367,
+          "id": "ed27000000000127",
+          "firstTicket": 42634
+        },
+        "b": {
+          "x": 5710,
+          "y": -830,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": 7,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "GND_ISO",
+          "keyVisible": false,
+          "valueVisible": true,
+          "key": "NET",
+          "fillColor": null,
+          "parentId": "ed27000000000125",
+          "zIndex": 3
+        }
+      }
+    }
+  ],
+  "matched_schematic_pin_keys": 544,
+  "remaining_mismatches": [],
+  "frozen_release_unchanged": true,
+  "native_erc_rerun": false,
+  "limitations": "Candidate needs import/review and native ERC; no PCB copper or manufacturing files were changed."
+}
