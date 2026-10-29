@@ -35,6 +35,10 @@ async function main(){
    map.data.get=(_,s,k)=>({address:'192.168.50.101',scheme:'https'})[k];assert.equal(open.cfgvalue('x').attrs.href,'https://192.168.50.101');checks+=2;
    map.data.get=(_,s,k)=>({address:'999.168.50.101',scheme:'https'})[k];assert.equal(open.cfgvalue('x'),'—');
    map.data.get=(_,s,k)=>({address:'192.168.50.101',scheme:'javascript'})[k];assert.equal(open.cfgvalue('x'),'—');checks+=2;
+   assert.equal(map.sections[0].options.find(o=>o.name==='address').datatype,'ip4addr("nomask")');
+   map.data.get=(_,s,k)=>({address:'192.168.050.010',scheme:'http'})[k];const href=open.cfgvalue('x').attrs.href;
+   assert.equal(href,'http://192.168.50.10');assert.equal(new URL(href).hostname,'192.168.50.10');
+   map.data.get=(_,s,k)=>({address:'192.168.50.10/24',scheme:'http'})[k];assert.equal(open.cfgvalue('x'),'—');checks+=4;
   }else{
    const node=view.render(await view.load());assert(node.children.length>3);assert(calls.some(c=>c.method==='powercycle'));checks+=2;
    assert(findButton(node,'Emergency modem power cycle').attrs.disabled);

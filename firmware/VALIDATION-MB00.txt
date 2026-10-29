@@ -8,8 +8,9 @@ preflight, private factory bundles, binary parsing and static filesystem checks.
 These are source/mocked/parser tests, not router execution or hardware tests.
 Local Windows checks also passed using Git Bash/OpenSSL outside the sandbox
 because of its process-launch limitations.
-The subsequent first-boot invocation fix passed 76 Python tests and 27 JavaScript
-checks locally, plus shell syntax. It adds direct and OpenWrt-style conditional
+The subsequent first-boot invocation fix passed 76 Python tests locally, plus
+shell syntax. The final controller-address fix passed 31 JavaScript checks.
+Coverage adds direct and OpenWrt-style conditional
 sourcing cases, including failed JSON/settings/final commits and console recovery.
 
 The independent hardware desk audit is complete with documented exceptions. See
@@ -41,6 +42,11 @@ success marker, lock network access and retain the unprovisioned fixture console
 Successful provisioning still requires console authentication; provisioned units'
 upgrade path remains unchanged. This runtime correction requires a new build.
 https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40944786722
+Run 40946264631 was also deliberately superseded shortly after starting so the
+final controller-link correction could be included: IPv4 leading zeros are
+normalized to decimal octets, and subnet suffixes are rejected. Otherwise a
+browser could open a different controller than the address displayed in LuCI.
+No completed image was produced by either superseded run.
 
 The cross-build checks the actual sysupgrade metadata and carrier device tree
 before uploading it. After a successful main-branch build, the separate
