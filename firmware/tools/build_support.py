@@ -42,6 +42,8 @@ def verify_sources(tree):
     for name, feed in data["feeds"].items():
         if git(tree / "feeds" / name, "rev-parse", "HEAD") != feed["commit"]:
             raise ValueError("Unexpected feed revision: " + name)
+        if git(tree / "feeds" / name, "diff", "HEAD", "--name-only"):
+            raise ValueError("Feed contains unreviewed edits: " + name)
 
 
 def collect_manifest(tree, output, mode, source_revision):

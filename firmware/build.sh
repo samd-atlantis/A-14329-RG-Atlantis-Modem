@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Linux only. Validation builds contain no unit record and are not ready to flash.
 set -euo pipefail
-umask 077
+# OpenWrt requires exactly 022; protect secrets with directory/file permissions.
+umask 022
 HERE="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 [[ "$(uname -s)" == Linux ]] || { echo 'Use an OpenWrt-supported Linux build host.' >&2; exit 1; }
 [[ $# == 1 ]] || { echo 'Usage: bash build.sh /absolute/private/UNIT.json | --validation' >&2; exit 1; }
@@ -18,9 +19,11 @@ TREE="${OPENWRT_TREE:-$HERE/build/openwrt}"
 OUT="$HERE/dist/$SERIAL"
 [[ ! -e "$OUT" ]] || { echo "Output exists: $OUT. Archive it before rebuilding." >&2; exit 1; }
 SOURCE_REVISION="$(git -C "$HERE" rev-parse HEAD)"
+git -C "$HERE" diff --quiet HEAD -- . || { echo 'Commit firmware changes before building.' >&2; exit 1; }
 if [ ! -d "$TREE/.git" ]; then
  git clone --depth 1 --branch v24.10.7 https://git.openwrt.org/openwrt/openwrt.git "$TREE"
 fi
+chmod 700 "$TREE"
 cd "$TREE"
 [[ "$(git rev-parse refs/tags/v24.10.7)" == 4100c39a94da53ea1afe038f87fc0bf83d2e51f9 ]]
 [[ "$(git rev-parse HEAD)" == "$(git rev-parse 'v24.10.7^{commit}')" ]]
@@ -37,7 +40,8 @@ python3 "$HERE/tools/build_support.py" feeds feeds.conf
 python3 "$HERE/tools/build_support.py" verify-sources "$TREE"
 ./scripts/feeds install -a
 mkdir -p package/atech-gateway
-cp -a "$HERE/package/atech-gateway/." package/atech-gateway/
+# Synchronize removes stale package files deleted by a newer source revision.
+rsync -a --delete "$HERE/package/atech-gateway/" package/atech-gateway/
 python3 "$HERE/tools/patch_board.py" "$TREE"
 # Reject overlays from earlier units rather than leak credentials into CI artifacts.
 if [[ -d files ]] && [[ -n "$(find files -type f -print -quit)" ]]; then
@@ -89,12 +93,14 @@ done
 make download -j8
 make -j"${JOBS:-$(nproc)}" V=s
 mkdir -p "$OUT"
+chmod 700 "$OUT"
 cp bin/targets/ramips/mt76x8/*hilink_hlk-7628n*.bin "$OUT/"
 cp .config "$OUT/build.config"
 cp "$HERE/build-lock.json" "$OUT/build-lock.json"
 cp feeds.conf "$OUT/feeds.txt"
 git diff -- target/linux/ramips/dts/mt7628an_hilink_hlk-7628n.dts > "$OUT/carrier-dts.patch"
 python3 "$HERE/tools/build_support.py" manifest "$TREE" "$OUT" "$MODE" "$SOURCE_REVISION"
+chmod 600 "$OUT"/*
 echo "Development artifacts: $OUT ($MODE). No hardware test or production approval."
 if [[ -n "$UNIT" ]]; then
   echo 'Contains per-unit Wi-Fi credentials; keep the entire output private.'
