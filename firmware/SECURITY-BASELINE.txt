@@ -27,8 +27,17 @@ The gateway exposes administration only to its local LAN/Wi-Fi. Customer remote
 access, signed update delivery, fleet identity/certificate lifecycle and an RMS
 replacement are not implemented by this development package.
 
+First-boot error handling must be tested using the actual OpenWrt invocation:
+the boot service sources each defaults file in a conditional subshell. Shell
+errexit alone is insufficient in that context. The carrier script explicitly
+checks required operations, locks network access on failure, and removes any
+pending provisioned marker before the boot service's final global UCI commit.
+Tests exercise both direct execution and conditional sourcing. These tests use
+mocked services; they do not replace first-board boot/failure/retry tests.
+
 Official release evidence:
 https://github.com/openwrt/openwrt/releases/tag/v25.12.6
 https://github.com/openwrt/openwrt/releases/tag/v24.10.8
 https://downloads.openwrt.org/releases/25.12.6/targets/ramips/mt76x8/feeds.buildinfo
 https://openwrt.org/advisory/start
+https://github.com/openwrt/openwrt/blob/v25.12.6/package/base-files/files/etc/init.d/boot

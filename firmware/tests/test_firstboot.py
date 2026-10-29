@@ -11,6 +11,8 @@ BASH = shutil.which('bash') or r'C:/Program Files/Git/bin/bash.exe'
 
 
 class FirstBootTest(unittest.TestCase):
+    sourced_by_boot = False
+
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(dir=ROOT)
         self.dir = Path(self.tmp.name)
@@ -20,7 +22,8 @@ class FirstBootTest(unittest.TestCase):
         self.env = os.environ.copy()
         self.env.update(TEST_DIR=posix, PROVISIONED='0', SERIAL='BENCH-0001',
                         SSID='ATECH-BENCH-0001', KEY='0123456789abcdef01234567',
-                        HASH='$6$testsalt$' + 'a'*86, FAIL_CONFIG='0', WAN_ZONE='wan')
+                        HASH='$6$testsalt$' + 'a'*86, FAIL_CONFIG='0', WAN_ZONE='wan',
+                        FAIL_JSON='0', FAIL_GATEWAY_COMMIT='0')
         (self.dir/'unit.json').write_text('{}')
         (self.dir/'shadow').write_text('root:*:0:0:99999:7:::\ndaemon:*:0:0:99999:7:::\n')
         source = (ROOT/'package/atech-gateway/files/etc/uci-defaults/99-atech-gateway').read_text()
@@ -36,10 +39,24 @@ uci() {
   *)
    echo "uci $*" >> "$TEST_DIR/log"
    if [ "$FAIL_CONFIG" = 1 ] && [ "$*" = 'set uhttpd.main.redirect_https=1' ]; then return 1; fi
+   case "$*" in
+    'set gateway.main.provisioned=1') echo 1 > "$TEST_DIR/staged_gateway";;
+    '-q revert gateway') rm -f "$TEST_DIR/staged_gateway";;
+    '-q delete gateway.main.provisioned') echo 0 > "$TEST_DIR/staged_gateway";;
+    'commit gateway')
+     [ "$FAIL_GATEWAY_COMMIT" != 1 ] || return 1
+     if [ -f "$TEST_DIR/staged_gateway" ]; then mv "$TEST_DIR/staged_gateway" "$TEST_DIR/committed_gateway"; fi
+     ;;
+    '-q commit gateway')
+     if [ -f "$TEST_DIR/staged_gateway" ]; then mv "$TEST_DIR/staged_gateway" "$TEST_DIR/committed_gateway"; fi
+     ;;
+   esac
+   return 0
    ;;
  esac
 }
 jsonfilter() {
+ [ "$FAIL_JSON" != 1 ] || return 1
  case "$4" in
   '@.serial') echo "$SERIAL";;
   '@.ssid') echo "$SSID";;
@@ -58,7 +75,12 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         self.tmp.cleanup()
 
     def run_script(self):
-        proc = subprocess.run([BASH, str(self.script)], env=self.env,
+        command = [BASH, str(self.script)]
+        if self.sourced_by_boot:
+            # OpenWrt /etc/init.d/boot sources each defaults file in exactly
+            # this AND-list context, which suppresses shell errexit behavior.
+            command = [BASH, '-c', '( . "$1" ) && echo APPLIED', 'boot', str(self.script)]
+        proc = subprocess.run(command, env=self.env,
                               text=True, capture_output=True)
         path = self.dir/'log'
         return proc, path.read_text() if path.exists() else ''
@@ -69,6 +91,7 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         self.assertIn('set wireless.radio0.disabled=1', log)
         self.assertIn('set wireless.radio1.disabled=1', log)
         self.assertIn('wifi down', log)
+        self.assertIn('-q set system.@system[0].ttylogin=0', log)
         self.assertNotIn('gateway.main.provisioned=1', log)
 
     def test_success_sets_credentials_and_lan_only_defaults(self):
@@ -77,6 +100,7 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         self.assertIn('set network.cellular.auto=0', log)
         self.assertIn('set dropbear.@dropbear[0].Interface=lan', log)
         self.assertIn('set system.@system[0].ttylogin=1', log)
+        self.assertNotIn('ttylogin=0', log)
         self.assertIn('set firewall.@zone[1].input=REJECT', log)
         self.assertIn('set gateway.main.provisioned=1', log)
         self.assertIn('root:'+self.env['HASH']+':', (self.dir/'shadow').read_text())
@@ -100,6 +124,14 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         self.env['SSID']='shared-default'
         self.assert_failed_closed(*self.run_script())
 
+    def test_short_wifi_key_does_not_enable_access(self):
+        self.env['KEY'] = 'abcd'
+        self.assert_failed_closed(*self.run_script())
+
+    def test_failed_json_read_does_not_enable_access(self):
+        self.env['FAIL_JSON'] = '1'
+        self.assert_failed_closed(*self.run_script())
+
     def test_missing_wan_zone_does_not_enable_wifi(self):
         self.env['WAN_ZONE']='lan'
         proc, log = self.run_script()
@@ -112,7 +144,24 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         self.assert_failed_closed(proc, log)
         self.assertGreater(log.rindex('set wireless.radio0.disabled=1'),
                            log.index('set wireless.radio0.disabled=0'))
+        self.assertGreater(log.index('ttylogin=0'), log.index('ttylogin=1'))
         self.assertIn('root:*:', (self.dir/'shadow').read_text())
+
+    def test_failed_final_commit_cannot_be_published_by_boot_global_commit(self):
+        self.env['FAIL_GATEWAY_COMMIT'] = '1'
+        proc, log = self.run_script()
+        self.assertNotEqual(proc.returncode, 0)
+        self.assertNotIn('APPLIED', proc.stdout)
+        # The success marker was staged, then reverted and deleted on failure.
+        self.assertIn('gateway.main.provisioned=1', log)
+        self.assertGreater(log.index('-q revert gateway'), log.index('gateway.main.provisioned=1'))
+        self.assertIn('-q delete gateway.main.provisioned', log)
+        self.assertIn('wifi down', log)
+        self.assertGreater(log.index('ttylogin=0'), log.index('ttylogin=1'))
+        self.assertGreater(log.rindex('passwd -l root'), log.index('gateway.main.provisioned=1'))
+        for filename in ('staged_gateway', 'committed_gateway'):
+            path = self.dir / filename
+            self.assertFalse(path.exists() and path.read_text().strip() == '1')
 
     def test_sysupgrade_does_not_overwrite_site_config(self):
         self.env['PROVISIONED']='1'
@@ -120,6 +169,10 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         proc, log = self.run_script()
         self.assertEqual(proc.returncode, 0, proc.stderr)
         self.assertEqual(log, '')
+
+
+class FirstBootSourcedTest(FirstBootTest):
+    sourced_by_boot = True
 
 
 if __name__ == '__main__':

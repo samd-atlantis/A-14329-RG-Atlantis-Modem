@@ -8,6 +8,9 @@ preflight, private factory bundles, binary parsing and static filesystem checks.
 These are source/mocked/parser tests, not router execution or hardware tests.
 Local Windows checks also passed using Git Bash/OpenSSL outside the sandbox
 because of its process-launch limitations.
+The subsequent first-boot invocation fix passed 76 Python tests and 27 JavaScript
+checks locally, plus shell syntax. It adds direct and OpenWrt-style conditional
+sourcing cases, including failed JSON/settings/final commits and console recovery.
 
 The independent hardware desk audit is complete with documented exceptions. See
 hardware/audits/AUDIT-MB00.txt. Frozen release hashes still match the original
@@ -30,8 +33,13 @@ https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40930865
 An early guard now requires every direct carrier dependency to be selected for
 installation after defconfig, before starting the long compilation. No completed
 current image is claimed by this record; the corrected cross-build must pass.
-Replacement run 40944786722 builds e40b98cd779f0fac846e862738054560af8cd671.
-It was started at 2026-10-29 19:58 UTC and is in progress at this record's update.
+Replacement run 40944786722, source e40b98cd779f0fac846e862738054560af8cd671,
+was deliberately cancelled after a separate first-boot error-handling defect was
+reproduced. OpenWrt sources defaults in a conditional subshell, suppressing shell
+errexit. Required operations now explicitly exit on failure, remove any pending
+success marker, lock network access and retain the unprovisioned fixture console.
+Successful provisioning still requires console authentication; provisioned units'
+upgrade path remains unchanged. This runtime correction requires a new build.
 https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40944786722
 
 The cross-build checks the actual sysupgrade metadata and carrier device tree
