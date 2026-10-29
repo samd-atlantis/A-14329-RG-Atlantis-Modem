@@ -1,0 +1,624 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_0",
+        "ticket": 633657
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2283.5078,
+        "endX": 3310.0,
+        "endY": 2265.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_1",
+        "ticket": 633658
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3310.0,
+        "startY": 2265.0,
+        "endX": 4425.0,
+        "endY": 1600.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_2",
+        "ticket": 633659
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4425.0,
+        "startY": 1600.0,
+        "endX": 4615.0,
+        "endY": 1350.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_3",
+        "ticket": 633660
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4615.0,
+        "startY": 1350.0,
+        "endX": 4685.0394,
+        "endY": 1318.2128,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_4",
+        "ticket": 633661
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4233.9778,
+        "startY": 1202.7926,
+        "endX": 4202.4778,
+        "endY": 1202.7926,
+        "width": 16,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_5",
+        "ticket": 633662
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4425,
+        "startY": 1600,
+        "endX": 4407.2078,
+        "endY": 1525.6326000000001,
+        "width": 16,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_6",
+        "ticket": 633663
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4425,
+        "startY": 1600,
+        "endX": 4685.0394,
+        "endY": 1527.5581,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_7",
+        "ticket": 633664
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2283.5078,
+        "endX": 3255.0,
+        "endY": 2100.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_8",
+        "ticket": 633665
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3255.0,
+        "startY": 2100.0,
+        "endX": 3280.0,
+        "endY": 2095.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_9",
+        "ticket": 633666
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3280.0,
+        "startY": 2095.0,
+        "endX": 3840.0,
+        "endY": 1535.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_10",
+        "ticket": 633667
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3840.0,
+        "startY": 1535.0,
+        "endX": 3840.0,
+        "endY": 1465.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_11",
+        "ticket": 633668
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3840.0,
+        "startY": 1465.0,
+        "endX": 4185.0,
+        "endY": 1285.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_12",
+        "ticket": 633669
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4185.0,
+        "startY": 1285.0,
+        "endX": 4233.9778,
+        "endY": 1202.7926,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_13",
+        "ticket": 633670
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2283.5078,
+        "endX": 3185.0,
+        "endY": 2055.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_14",
+        "ticket": 633671
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3185.0,
+        "startY": 2055.0,
+        "endX": 3510.0,
+        "endY": 1715.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_supply_combined_15",
+        "ticket": 633672
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3510.0,
+        "centerY": 1715.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_16",
+        "ticket": 633673
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3510.0,
+        "startY": 1715.0,
+        "endX": 3510.0,
+        "endY": 1585.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_17",
+        "ticket": 633674
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3510.0,
+        "startY": 1585.0,
+        "endX": 3460.0,
+        "endY": 1535.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_supply_combined_18",
+        "ticket": 633675
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3460.0,
+        "centerY": 1535.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_19",
+        "ticket": 633676
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3460.0,
+        "startY": 1535.0,
+        "endX": 3493.8178,
+        "endY": 1525.6326000000001,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_supply_combined_20",
+        "ticket": 633677
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3535.0,
+        "centerY": 1715.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_21",
+        "ticket": 633678
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3510.0,
+        "startY": 1715.0,
+        "endX": 3535.0,
+        "endY": 1715.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_22",
+        "ticket": 633679
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3510.0,
+        "startY": 1715.0,
+        "endX": 3535.0,
+        "endY": 1715.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_supply_combined_23",
+        "ticket": 633680
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3485.0,
+        "centerY": 1535.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_24",
+        "ticket": 633681
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3460.0,
+        "startY": 1535.0,
+        "endX": 3485.0,
+        "endY": 1535.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_25",
+        "ticket": 633682
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3460.0,
+        "startY": 1535.0,
+        "endX": 3485.0,
+        "endY": 1535.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_supply_combined_26",
+        "ticket": 633683
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 4110,
+        "centerY": 1262.7926,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_supply_combined_27",
+        "ticket": 633684
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 4290,
+        "centerY": 1262.7926,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_28",
+        "ticket": 633685
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 4170.9878,
+        "startY": 1202.7926,
+        "endX": 4139.4878,
+        "endY": 1202.7926,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_supply_combined_29",
+        "ticket": 633686
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 4265.4678,
+        "startY": 1262.7926,
+        "endX": 4290,
+        "endY": 1262.7926,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": [],
+  "remove_ids": [
+    "route2810_0000003f"
+  ],
+  "reroute_controls": [
+    "MODEM_PERST_N"
+  ]
+}

@@ -1,0 +1,23 @@
+A-14329-MB00 firmware bring-up plan
+
+1. Record fitted HLK router SKU, flash/RAM and modem part number/firmware.
+2. Back up each module's own flash/calibration/MAC data privately. Verify UART0
+   console and U-Boot recovery before changing firmware. Do not erase bootloader.
+3. Build the pinned OpenWrt development source on Linux after confirming target
+   partitions and memory. Inspect image size and supported-device metadata.
+4. Boot with physical SIM A. U20 is absent: esim_populated=0 blocks selecting B
+   before network shutdown or any I2C writes. hardware_validated stays 0 until
+   the current schematic GPIO/polarity mapping is independently checked.
+5. Verify Ethernet DHCP and local authenticated LuCI, all four jacks and Wi-Fi.
+6. Verify modem USB enumeration and QMI device on the router host. Confirm USB-C
+   service switch cannot connect two hosts. Check modem rail during transmit.
+7. Configure the actual APN and test registration/data/reconnect on the purchased
+   modem and service plan. Carrier certifications do not guarantee SIM activation.
+8. Enable carrier GPIO actions only after bus/address, SIM default, polarity,
+   power-down sequence and reset timing are proven. Current hard rail cycling
+   needs graceful modem shutdown work before production use.
+9. Verify persistence, unique credentials, LAN-only management, upgrade/recovery,
+   power failure behavior and controller access. Run an extended soak test.
+
+Firmware source tests do not prove this board works. Exact modem selection,
+independent hardware audit, cross-build and prototype tests remain open.

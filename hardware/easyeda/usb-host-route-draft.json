@@ -1,0 +1,786 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620681",
+        "ticket": 620681
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 1,
+        "startX": 2883.8548,
+        "startY": 3057.0887,
+        "endX": 2883.8548,
+        "endY": 3000,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620682",
+        "ticket": 620682
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 1,
+        "startX": 2938.9748,
+        "startY": 3057.0887,
+        "endX": 2938.9748,
+        "endY": 3000,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620683",
+        "ticket": 620683
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 2883.8548,
+        "startY": 3000,
+        "endX": 2883.8548,
+        "endY": 2980,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620684",
+        "ticket": 620684
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 2883.8548,
+        "startY": 2980,
+        "endX": 2903.545,
+        "endY": 2960.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620685",
+        "ticket": 620685
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 2903.545,
+        "startY": 2960.0,
+        "endX": 2903.545,
+        "endY": 2937.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620686",
+        "ticket": 620686
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 2903.545,
+        "startY": 2937.13,
+        "endX": 3031.7401392641236,
+        "endY": 2937.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620687",
+        "ticket": 620687
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 3031.7401392641236,
+        "startY": 2937.13,
+        "endX": 3467.13,
+        "endY": 2501.7401392641236,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620688",
+        "ticket": 620688
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 3467.13,
+        "startY": 2501.7401392641236,
+        "endX": 3467.13,
+        "endY": 1603.2598607358761,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620689",
+        "ticket": 620689
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 3467.13,
+        "startY": 1603.2598607358761,
+        "endX": 3387.13,
+        "endY": 1523.2598607358761,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620690",
+        "ticket": 620690
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 3387.13,
+        "startY": 1523.2598607358761,
+        "endX": 3387.13,
+        "endY": 1176.7401392641239,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620691",
+        "ticket": 620691
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 3387.13,
+        "startY": 1176.7401392641239,
+        "endX": 3467.13,
+        "endY": 1096.7401392641239,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620692",
+        "ticket": 620692
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 3467.13,
+        "startY": 1096.7401392641239,
+        "endX": 3467.13,
+        "endY": 1000.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620693",
+        "ticket": 620693
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 2,
+        "startX": 3467.13,
+        "startY": 1000.0,
+        "endX": 3450,
+        "endY": 960,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620694",
+        "ticket": 620694
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 2938.9748,
+        "startY": 3000,
+        "endX": 2938.9748,
+        "endY": 2980,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620695",
+        "ticket": 620695
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 2938.9748,
+        "startY": 2980,
+        "endX": 2919.285,
+        "endY": 2960.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620696",
+        "ticket": 620696
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 2919.285,
+        "startY": 2960.0,
+        "endX": 2919.285,
+        "endY": 2952.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620697",
+        "ticket": 620697
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 2919.285,
+        "startY": 2952.87,
+        "endX": 3038.2598607358764,
+        "endY": 2952.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620698",
+        "ticket": 620698
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3038.2598607358764,
+        "startY": 2952.87,
+        "endX": 3482.87,
+        "endY": 2508.2598607358764,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620699",
+        "ticket": 620699
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3482.87,
+        "startY": 2508.2598607358764,
+        "endX": 3482.87,
+        "endY": 2200,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620700",
+        "ticket": 620700
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3482.87,
+        "startY": 2200,
+        "endX": 3494.705060216093,
+        "endY": 2188.164939783907,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620701",
+        "ticket": 620701
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3494.705060216093,
+        "startY": 2188.164939783907,
+        "endX": 3494.705060216093,
+        "endY": 2150,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620702",
+        "ticket": 620702
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3494.705060216093,
+        "startY": 2150,
+        "endX": 3482.87,
+        "endY": 2138.164939783907,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620703",
+        "ticket": 620703
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3482.87,
+        "startY": 2138.164939783907,
+        "endX": 3482.87,
+        "endY": 1596.7401392641239,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620704",
+        "ticket": 620704
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3482.87,
+        "startY": 1596.7401392641239,
+        "endX": 3402.87,
+        "endY": 1516.7401392641239,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620705",
+        "ticket": 620705
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3402.87,
+        "startY": 1516.7401392641239,
+        "endX": 3402.87,
+        "endY": 1183.2598607358761,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620706",
+        "ticket": 620706
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3402.87,
+        "startY": 1183.2598607358761,
+        "endX": 3482.87,
+        "endY": 1103.2598607358761,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620707",
+        "ticket": 620707
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3482.87,
+        "startY": 1103.2598607358761,
+        "endX": 3482.87,
+        "endY": 1000.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620708",
+        "ticket": 620708
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 2,
+        "startX": 3482.87,
+        "startY": 1000.0,
+        "endX": 3500,
+        "endY": 960,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620709",
+        "ticket": 620709
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 1,
+        "startX": 3450,
+        "startY": 960,
+        "endX": 3450,
+        "endY": 980,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620710",
+        "ticket": 620710
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 1,
+        "startX": 3450,
+        "startY": 980,
+        "endX": 3470.47,
+        "endY": 1000.47,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620711",
+        "ticket": 620711
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "layerId": 1,
+        "startX": 3470.47,
+        "startY": 1000.47,
+        "endX": 3470.47,
+        "endY": 1023.42,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620712",
+        "ticket": 620712
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 1,
+        "startX": 3500,
+        "startY": 960,
+        "endX": 3500,
+        "endY": 985,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620713",
+        "ticket": 620713
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 1,
+        "startX": 3500,
+        "startY": 985,
+        "endX": 3490.16,
+        "endY": 994.84,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "host_draft_620714",
+        "ticket": 620714
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "layerId": 1,
+        "startX": 3490.16,
+        "startY": 994.84,
+        "endX": 3490.16,
+        "endY": 1023.42,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "host_draft_620715",
+        "ticket": 620715
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "ruleName": "",
+        "centerX": 2883.8548,
+        "centerY": 3000,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "host_draft_620716",
+        "ticket": 620716
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DP",
+        "ruleName": "",
+        "centerX": 3450,
+        "centerY": 960,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "host_draft_620717",
+        "ticket": 620717
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "ruleName": "",
+        "centerX": 2938.9748,
+        "centerY": 3000,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "host_draft_620718",
+        "ticket": 620718
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_HOST_DM",
+        "ruleName": "",
+        "centerX": 3500,
+        "centerY": 960,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    }
+  ],
+  "issues": [],
+  "lengths_mil": {
+    "USB_HOST_DP": 2555.3810509837226,
+    "USB_HOST_DM": 2555.381050983722
+  },
+  "controls_requiring_reroute": [
+    "MODEM_OFF",
+    "MODEM_USB_SEL",
+    "CONSOLE_RX"
+  ],
+  "limitations": [
+    "Native DRC, via delay and signal integrity remain required."
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "status": "NATIVE_DRC_COMPLETE_ZERO_ISSUES",
+  "checks": 124,
+  "nativeCheckTime": "2026-10-29 00:46:25",
+  "copperAndKeepouts": [
+    {
+      "type": "LINE",
+      "before": 3388,
+      "after": 3388,
+      "changed": 0
+    },
+    {
+      "type": "VIA",
+      "before": 305,
+      "after": 305,
+      "changed": 0
+    },
+    {
+      "type": "PAD",
+      "before": 24,
+      "after": 24,
+      "changed": 0
+    },
+    {
+      "type": "REGION",
+      "before": 38,
+      "after": 38,
+      "changed": 0
+    },
+    {
+      "type": "RULE",
+      "before": 24,
+      "after": 24,
+      "changed": 0
+    },
+    {
+      "type": "POUR",
+      "before": 2,
+      "after": 2,
+      "changed": 0
+    },
+    {
+      "type": "POLY",
+      "before": 11,
+      "after": 11,
+      "changed": 0
+    }
+  ],
+  "recoveryContacts": [
+    {
+      "ref": "H1",
+      "pin": "1",
+      "expected": "GND_ISO",
+      "actual": "GND_ISO",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "2",
+      "expected": "CONSOLE_TX",
+      "actual": "CONSOLE_TX",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "3",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "4",
+      "expected": "ROUTER_RESET_N",
+      "actual": "ROUTER_RESET_N",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "5",
+      "expected": "ROUTER_GPIO0_N",
+      "actual": "ROUTER_GPIO0_N",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "6",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "7",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "8",
+      "expected": "CONSOLE_RX",
+      "actual": "CONSOLE_RX",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "9",
+      "expected": "3V3_ROUTER",
+      "actual": "3V3_ROUTER",
+      "pass": true
+    },
+    {
+      "ref": "H1",
+      "pin": "10",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "1",
+      "expected": "GND_ISO",
+      "actual": "GND_ISO",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "2",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "3",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "4",
+      "expected": "MODEM_USB_SEL",
+      "actual": "MODEM_USB_SEL",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "5",
+      "expected": "MODEM_PERST_N",
+      "actual": "MODEM_PERST_N",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "6",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "7",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "8",
+      "expected": "MODEM_BUCK_EN",
+      "actual": "MODEM_BUCK_EN",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "9",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    },
+    {
+      "ref": "J12",
+      "pin": "10",
+      "expected": "NC",
+      "actual": "NC",
+      "pass": true
+    }
+  ],
+  "schematicWiresUnchanged": true,
+  "model": {
+    "rotationBefore": [
+      0,
+      90,
+      0
+    ],
+    "rotationAfter": [
+      0,
+      90,
+      0
+    ],
+    "sizeBefore": [
+      1181.10234,
+      192.91339,
+      2005.90545
+    ],
+    "sizeAfter": [
+      1181.10234,
+      192.91339,
+      2005.90545
+    ],
+    "globalXBefore": 3942.6378,
+    "globalXAfter": 3942.63623,
+    "globalYBefore": 3372.0866100000003,
+    "globalYAfter": 3372.0866100000003,
+    "heightBefore": 139.76378,
+    "heightAfter": 139.76378,
+    "locked": true,
+    "group": "1"
+  },
+  "fixes": [
+    "Recovery H1/J12 footprint references point to valid 10-contact TC2050-IDC library footprint.",
+    "Schematic/PCB channel and device metadata synchronized.",
+    "Replaced non-electrical MODEM1 marker with standard padless separately-sourced model reference.",
+    "Removed duplicate planar body from model-only footprint. Original board-level card envelope, mounting holes, standoff lands and 38 keepouts preserved.",
+    "Model-only datum moved outside host-board keepouts with compensating 3D offset. Original global model size, rotation, height and position preserved within 0.001 mm; model locked and rejoined group1."
+  ],
+  "releaseLimit": "DRC validates configured CAD rules; prototype electrical, thermal, mains safety, RF and mechanical qualification remain required."
+}

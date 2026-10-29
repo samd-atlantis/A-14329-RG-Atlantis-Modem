@@ -1,0 +1,137 @@
+A-14329 REV A4 — USB-C, Hammond enclosure, 120 VAC distribution
+2026-10-27 / development layout, NOT fabrication released
+
+SELECTED ENCLOSURE
+Hammond PCJ664NL, opaque grey polycarbonate, hinged cover and non-metallic snap
+latch, feet mounting. Official enclosure and matching inner-panel drawings are
+saved as PCJ664NL.pdf and PCJR0505.pdf in this directory. The enclosure drawing
+shows body dimensions 159.01 x 153.29 mm; the lid/hinge/latch envelope is larger.
+Do not base panel clearances only on the nominal 6 x 6 x 4 inch catalog size.
+
+BOARD AND MOUNTING
+PCB: 122.00 x 122.00 mm, with 4 mm corner chamfers for rib/fit clearance.
+Hole centers: 107.95 x 107.95 mm square, centered on board.
+Four 6.35 mm NPTH holes, matching the quarter-inch clearance holes shown on
+PCJR0505. Centers from board origin: (7.025,7.025), (114.975,7.025),
+(114.975,114.975), (7.025,114.975) mm.
+The enclosure's internal inserts are #10-32. Use insulating spacers, provisionally
+6.35 mm tall, and suitable #10-32 screws. Verify screw engagement/length, underside
+lead clearance and stand-off support on a physical enclosure sample. PCB replaces
+the optional metal inner panel; it is not mounted directly against a metal plate.
+6.5 mm radius mounting-hardware keepouts are on all layers.
+
+PRELIMINARY PLACEMENT
+Four original vertical through-hole HR915310AE Ethernet jacks retained across the
+upper edge. Power supply and primary area at left/lower side; modem card area at
+right; Vertical top-entry USB-C service port at lower right. Existing EG25 card outline, its two
+mounting holes, seating envelopes and removal/antenna-lead keepouts were translated
+together without changing their relative geometry. This does not provide a 3D
+model of the removable modem itself. All mounting pads and the vertical USB-C body fit inside the board. No conservative envelope overlaps remain. Real cable bends, glands,
+antenna hardware and enclosure machining have not been finalized.
+
+MAINS CONNECTIONS
+Three DORABO DB142V-5.08-3P-GN / JLCPCB C2898700 push-in terminal blocks:
+CN1 (schematic source originally J1) = AC INPUT.
+J15 = OUTPUT 1. J16 = OUTPUT 2.
+Pin 1 = L / AC_L_IN; pin 2 = N / AC_N; pin 3 = PE / CHASSIS_PE.
+Both outputs are directly in parallel with input. They are not switched or
+individually fused. F1 remains a separate 1 A branch fuse for PS1 only.
+Design target: 120 VAC, 10 A TOTAL through the unit, shared by external loads and
+the gateway supply. Installation requires suitable upstream protection no greater
+than 10 A; the gateway branch fuse does not protect the parallel output feeds.
+PE is continuous and is never fused or switched. Protective-earth fault-current
+capability and bonding tests remain release requirements.
+
+Manufacturer states UL/CUL 300 V, 10 A, AWG24–14 for this terminal family. Thus it
+accepts the requested AWG14–18 conductors. Strip length is 10 mm per manufacturer.
+Use conductor sizing and termination appropriate to the actual load and applicable
+installation requirements; accepting 18 AWG does not make every 18 AWG installation
+suitable for 10 A. The 10 A feed is provisionally planned for 14 AWG copper.
+JLCPCB stock observed in EasyEDA: 1,027 terminals (150 needed for 50 boards).
+https://www.nbdibo.com/product/spring-terminal-block/pcb-terminal-db142v-5-08.html
+
+ROUTING
+Existing 4-layer, 1 oz outer-copper stack retained. AC_L_IN and AC_N now have a
+manual high-current routing rule: 8 mm minimum, 10 mm preferred trunk width.
+These are provisional design constraints, not a verified ampacity rating. Local
+terminal fanout, unequal current sharing, thermal rise, copper thickness, PE path,
+fuse coordination and fault conditions require engineering review and testing.
+Do not auto-route the mains trunks using thin default signal tracks.
+Primary-to-secondary net clearance remains 8 mm, extended to the new USB nets.
+Pour-exclusion corridors added around the primary/secondary boundary. Keep the
+low-voltage reference plane continuous locally, without crossing mains isolation.
+The added USB console pair uses USB90_CALC_PENDING; all impedance geometry remains
+subject to fabricator stackup confirmation.
+
+USB-C PROGRAMMING
+J14 / FG-ST-C-16P-LS-SMTD-6.5 / C51912230 -> ESD U19 -> CH340C U16 -> UART buffer U18 ->
+router UART0. Both CC pins have separate 5.1k Rd resistors. VBUS feeds a separate
+ME6211 3.3 V regulator U17 for the USB bridge; it does not feed the gateway rails.
+CH340 VCC and V3 both use that 3.3 V rail. Buffer outputs are disabled when USB
+is absent; Ioff prevents back-powering when the router supply is absent.
+Existing reset and recovery-request buttons remain. Do not simultaneously drive
+the router RX fixture pad and USB console. J7 source is H1 in native PCB annotation.
+Firmware source now includes lrzsz serial file-transfer support. See
+../../firmware/USB-C-service.txt for the intended programming procedure and limits.
+This is not a native USB DFU boot interface. Modem firmware service remains on J12.
+
+VALIDATION / REMAINING WORK
+Final schematic DRC: 0 fatal errors, 0 errors, 0 warnings, 0 info.
+Initial 492-pad net audit passed; replacement J14 has 20 pads, all verified.
+Board placement DRC after rework: no inter-component clearance errors; 412
+unconnected items remain because the board is unrouted. Twelve same-footprint
+clearance flags remain in the three terminal footprints: the pads do not meet our
+conservative 3.2 mm mains rule. These have NOT been suppressed. Review the actual
+PCB clearance/creepage requirements and terminal approval before release.
+No enclosure fit sample, USB enumeration, firmware transfer or 10 A thermal/fault
+test has been performed. Electrical/PCB release gates from A3 still apply.
+
+ROUTED BACKUP
+Before changing shape, the user's routed PCB was saved in
+../easyeda/routed-pcb-before-enclosure-a4.epro2.
+The square-board re-layout removed 4,511 old track segments and 128 vias; routing
+must be redone for the new placement. The original is recoverable from that backup.
+Current editable native source, added BOM, net audit and placement dimensions are
+under ../easyeda/ with a4 or A4 in their filenames.
+
+VERTICAL USB-C UPDATE: J14 is now top entry, normal to PCB, about 6.35 mm high.
+Center (101,5.2) mm. 16 contacts + 4 shield anchors; A8/B8 explicitly NC.
+JLCPCB stock observed 193 on 2026-10-27; 50 needed. Confirm cable/lid access on sample.
+Latest native exports: ../easyeda/schematic-vertical-usbc.epro2 and pcb-vertical-usbc.epro2.
+
+SMALL-COMPONENT PLACEMENT CLEANUP (2026-10-27)
+Grouped buck input/inductor/output parts; oriented SW pins toward inductors.
+Moved bypass capacitors near their supply pins, grouped USB console and SIM parts.
+SIM socket moved out of modem RF clearance area. Ethernet jack centers are now
+(23,110.5), (42,110.5), (61,110.5), (80,110.5) mm for body and mounting clearance.
+73 small reference labels aligned and resized. No net assignments changed.
+Native DRC: zero inter-component/keepout violations; 12 terminal footprint flags
+and 412 unconnected items remain. Latest PCB: pcb-small-component-tidy.epro2.
+
+CONNECTOR SILKSCREEN UPDATE (2026-10-27)
+Added LAN 1-4, USB SERVICE, router UART / 3V3, modem service, SIM CARD,
+ESIM OPTION, TEST 5V / AC OFF, RESET and RECOVERY legends. Verified all
+header pin labels against the current PCB net map and actual pin orientation.
+Input and both 120 VAC outputs are now separately named; existing L/N/PE retained.
+38 new top-silkscreen text objects. No copper, net assignments, or part positions
+changed. Latest native board export: ../easyeda/pcb-plug-labels.epro2.
+
+
+2026-10-27 ONBOARD ESIM + TEST PAD CHANGE (supersedes earlier J11/J13 header notes)
+J13 header removed from PCB. Four 1.8mm round top copper test pads, 2.54mm pitch, centered x=84.074mm, y=2.413/4.953/7.493/10.033mm. Pads 1/2 GND_ISO; 3/4 5V_ISO. Solder mask exposed +0.1mm, no stencil aperture (paste expansion -36mil). No holes or fitted component. Schematic J13 retained as logical fixture interface named test pads, Add into BOM=no, Convert to PCB=no. PCB synchronization preview confirmed it is not restored. AC must be off for fixture power.
+U20 optional onboard MFF2 eUICC replaces external J11 adapter header; physical J9 remains. U20 1=GND_ISO,3=SIM_B_IO,6=SIM_B_CLK,7=SIM_B_RST,8=SIM_B_VCC; 2/4/5/9 NC. U10 selector default physical SIM, modem off before switch. U20 DNP / excluded from assembly BOM pending separately sourced provisioned provider part. 5x6mm MFF2 library geometry from ST4SIM-200M seed, not an orderable activated SIM. Supplier part cleared. Confirm provider pad geometry, EP treatment, IO3 pinout and provisioning/software before population/release. C72 moved beside U20. U20 center (52.2,45)mm, C72 (52.2,49.1)mm.
+Schematic DRC 0 fatal / 0 error / 0 warning. PCB DRC 424 total = 412 unrouted connection errors plus 12 same-terminal-footprint TH clearance flags; netlist mismatch resolved by applying only three U20 property updates. No layout release or eSIM service validation.
+Native exports: hardware/easyeda/schematic-onboard-esim.epro2 and pcb-onboard-esim.epro2.
+
+
+2026-10-27 REPLACEABLE FUSE HOLDER + 3D MODELS
+F1 changed from axial soldered fuse to C3131 BLX-A XC-7 replaceable 5x20/5.2x20 holder, 6.3A 250VAC, through hole / wave solder. JLC stock 87178 observed in EasyEDA. Fuse cartridge separate: preliminary T1A 250VAC ceramic HBC leadless 5x20; final MPN/inrush/breaking-capacity validation required. 10A panel feed bypass protection remains external; F1 only protects PSU branch.
+Holder footprint 9526763bc8d9425f, 22mm pitch, nominal 1.7x0.6mm plated slots. Manufacturer drawing C3131-manufacturer.pdf specifies tab width1.5+/-0.2 and thickness0.35+/-0.05mm; check slot allowance at upper tolerance before fabrication.
+J8 exact-name MM60-52B1-E1-R650 public model assigned. F1 stocked holder model inherited. MODEM1 padless mechanical device anchor added with EG25G Mini PCIe reference model, aligned flat to the 30x51 card area and mounting holes, seat3.55mm. GL cosmetic/RF details must be checked against actual part. MODEM1 is PCB-only and excluded from assembly BOM; future schematic-to-PCB import may propose removing it: deselect that removal to retain the mechanical model. The host electrical interface remains J8.
+All original electrical component XY/angles preserved, all original pad-number/net identities preserved including F1 terminal1 AC_L_IN and2 AC_L_FUSED. Original1.586mm stack-up retained. Valid USB_HOST, USB_SERVICE and USB_CONSOLE DP/DM pairs created in manager; invalid legacy unused USB_MODEM_DP-only pair removed.
+Schematic DRC0 fatal/0error/0warning. PCB remains unrouted; netlist synchronization flags can include the PCB-only MODEM1 anchor and property differences; do not treat current layout as fabrication released.
+Final native exports hardware/easyeda/pcb-modem-holder-models.epro2 and schematic-modem-holder-models.epro2. Validation modem-holder-models-validation.json.
+
+2026-10-28 Integra enclosure change: Supersedes Hammond PCJ664NL mechanical envelope. Based on user supplied 6x6 enclosure drawing and PNLB66PV-104 panel row. PCB now123.952mm square,4mm corner chamfers, centered about prior board center. Four6.35mm NPTH at107.95mm square centers retained and locked; edge-to-center8.001mm. Existing13mm diameter mounting keepouts retained. Electrical components, pad nets, pads, layer stack and differential pair metadata verified unchanged. Actual enclosure model/screw hardware and lid/sidewall/cabling fit require physical or complete CAD verification; back panel dimensions do not define all internal walls. Finalsource hardware/easyeda/pcb-integra-6x6.epro-source.
+
+2026-10-28 dual USB-C revision: J17 modem USB service input added with independent CC Rd and Q4/Q5 cable detection. J14 remains CH340C router console, manual SW1 reset/SW3 recovery. SW4 modem reset and SW5 modem buck power-cycle added. H1/J12 fitted headers replaced by bare numbered2x3 recovery pads. TempTC2050 removed. All13new component pin nets compared savedSCHvsPCB: match. Existing remaining electrical pad nets and4layerstack preserved. SCHERC0fatal/0error/0warning. PCB DRC470total:456unroutedconnections,12existingterminalsamefootprintflags,1MODEM1visualanchorownkeepout overlap,1netlistcomparison issue. No newSMDpadclearanceconflicts remain afterplacementadjustments. DraftNT4annularland bore clearance increased to0.25mm. Finalhardware/easyeda/pcb-dual-usbc.epro2 andschematic-dual-usbc.epro2. Readdual-usbc-production-notes.txt for programminglimits. NativeUSBDFUorserialfullimageflashing onHLKbootloader NOTverified.

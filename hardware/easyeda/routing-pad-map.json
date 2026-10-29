@@ -1,0 +1,9008 @@
+[
+  {
+    "ref": "C1",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 846.4567,
+    "y": 3524.3068999999996,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 64.37,
+      "height": 106.299,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C1",
+    "pin": "1",
+    "net": "5V_ISO",
+    "x": 846.4567,
+    "y": 3404.8269,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 64.37,
+      "height": 106.299,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C2",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 1476.378,
+    "y": 3492.1268999999998,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C2",
+    "pin": "1",
+    "net": "5V_ISO",
+    "x": 1476.378,
+    "y": 3437.0069,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C10",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 1692.9135,
+    "y": 2696.8504,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C10",
+    "pin": "1",
+    "net": "5V_ISO",
+    "x": 1771.6535,
+    "y": 2696.8504,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C11",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 1724.4085,
+    "y": 2834.6457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C11",
+    "pin": "1",
+    "net": "5V_ISO",
+    "x": 1779.5285,
+    "y": 2834.6457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C12",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 1763.7786,
+    "y": 2972.4409,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C12",
+    "pin": "1",
+    "net": "R_SS",
+    "x": 1818.8986,
+    "y": 2972.4409,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C13",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2401.5746999999997,
+    "y": 2834.6457,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C13",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 2322.8347,
+    "y": 2834.6457,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C20",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2440.945,
+    "y": 2362.2441,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C20",
+    "pin": "1",
+    "net": "5V_ISO",
+    "x": 2519.685,
+    "y": 2362.2441,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C21",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2590.5502,
+    "y": 2283.5039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C21",
+    "pin": "1",
+    "net": "5V_ISO",
+    "x": 2645.6702,
+    "y": 2283.5039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C22",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2551.1802000000002,
+    "y": 2440.9843,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C22",
+    "pin": "1",
+    "net": "M_SS",
+    "x": 2606.3002,
+    "y": 2440.9843,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C23",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3248.0314,
+    "y": 1850.3937,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C23",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "x": 3169.2914,
+    "y": 1850.3937,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C24",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3208.6614,
+    "y": 2067.614,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 64.37,
+      "height": 106.299,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C24",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "x": 3208.6614,
+    "y": 1948.134,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 64.37,
+      "height": 106.299,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C25",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4685.0394,
+    "y": 1437.6928,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 64.37,
+      "height": 106.299,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C25",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "x": 4685.0394,
+    "y": 1318.2128,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 64.37,
+      "height": 106.299,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C30",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2940.9458,
+    "y": 3877.9528,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C30",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 2885.8258,
+    "y": 3877.9528,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C31",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 826.7717,
+    "y": 3799.2126,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C31",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 905.5117,
+    "y": 3799.2126,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 55.512,
+      "height": 53.15,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C41",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 775.5915,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C41",
+    "pin": "1",
+    "net": "LAN1_RX_CT",
+    "x": 720.4715000000001,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C42",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 1523.623,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C42",
+    "pin": "1",
+    "net": "LAN2_RX_CT",
+    "x": 1468.5030000000002,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C43",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2271.6545,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C43",
+    "pin": "1",
+    "net": "LAN3_RX_CT",
+    "x": 2216.5345,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C44",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3228.3465,
+    "y": 3905.5128,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C44",
+    "pin": "1",
+    "net": "LAN4_RX_CT",
+    "x": 3228.3465,
+    "y": 3850.3928,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C51",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 933.0717999999999,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C51",
+    "pin": "1",
+    "net": "LAN1_TX_CT",
+    "x": 877.9518,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C52",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 1681.1033,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C52",
+    "pin": "1",
+    "net": "LAN2_TX_CT",
+    "x": 1625.9833,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C53",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2429.1348,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C53",
+    "pin": "1",
+    "net": "LAN3_TX_CT",
+    "x": 2374.0148,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C54",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3228.3465,
+    "y": 3787.4025,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C54",
+    "pin": "1",
+    "net": "LAN4_TX_CT",
+    "x": 3228.3465,
+    "y": 3732.2825000000003,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C60",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3310,
+    "y": 777.56,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C60",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 3310,
+    "y": 722.44,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C61",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4685.0394,
+    "y": 1582.6780999999999,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C61",
+    "pin": "1",
+    "net": "3V3_MODEM",
+    "x": 4685.0394,
+    "y": 1527.5581,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C70",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2775.5906,
+    "y": 1956.7332,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C70",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 2775.5906,
+    "y": 1901.6132,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C71",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2283.4646,
+    "y": 2133.8986,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C71",
+    "pin": "1",
+    "net": "SIM_A_VCC",
+    "x": 2283.4646,
+    "y": 2078.7786,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C72",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2690.1181,
+    "y": 1955.6308999999999,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C72",
+    "pin": "1",
+    "net": "SIM_B_VCC",
+    "x": 2690.1181,
+    "y": 1900.5109,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "F1",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "x": 1128.07,
+    "y": 1025,
+    "angle": 180,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 39.37,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 66.929,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "F1",
+    "pin": "2",
+    "net": "AC_L_FUSED",
+    "x": 261.93,
+    "y": 1025,
+    "angle": 180,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 39.37,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 66.929,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "1",
+    "net": "LAN1_TXP",
+    "x": 1080.5118,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "2",
+    "net": "LAN1_TXN",
+    "x": 1030.5118,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "3",
+    "net": "LAN1_TX_CT",
+    "x": 980.5118,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "4",
+    "net": "",
+    "x": 930.5118,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "5",
+    "net": "LAN1_RX_CT",
+    "x": 880.5118,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "6",
+    "net": "LAN1_RXP",
+    "x": 830.5118,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "7",
+    "net": "LAN1_RXN",
+    "x": 780.5118,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "x": 730.5118,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "9",
+    "net": "LAN1_GREEN_A",
+    "x": 1154.5318,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "10",
+    "net": "LAN1_LED_N",
+    "x": 1054.5318,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "11",
+    "net": "",
+    "x": 756.5018,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "12",
+    "net": "",
+    "x": 656.4918,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "x": 594.4918,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J2",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "x": 1216.5318,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "1",
+    "net": "LAN2_TXP",
+    "x": 1828.5433,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "2",
+    "net": "LAN2_TXN",
+    "x": 1778.5433,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "3",
+    "net": "LAN2_TX_CT",
+    "x": 1728.5433,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "4",
+    "net": "",
+    "x": 1678.5433,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "5",
+    "net": "LAN2_RX_CT",
+    "x": 1628.5433,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "6",
+    "net": "LAN2_RXP",
+    "x": 1578.5433,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "7",
+    "net": "LAN2_RXN",
+    "x": 1528.5433,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "x": 1478.5433,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "9",
+    "net": "LAN2_GREEN_A",
+    "x": 1902.5633,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "10",
+    "net": "LAN2_LED_N",
+    "x": 1802.5633,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "11",
+    "net": "",
+    "x": 1504.5333,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "12",
+    "net": "",
+    "x": 1404.5233,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "x": 1342.5233,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J3",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "x": 1964.5633,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "1",
+    "net": "LAN3_TXP",
+    "x": 2576.5748,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "2",
+    "net": "LAN3_TXN",
+    "x": 2526.5748,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "3",
+    "net": "LAN3_TX_CT",
+    "x": 2476.5748,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "4",
+    "net": "",
+    "x": 2426.5748,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "5",
+    "net": "LAN3_RX_CT",
+    "x": 2376.5748,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "6",
+    "net": "LAN3_RXP",
+    "x": 2326.5748,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "7",
+    "net": "LAN3_RXN",
+    "x": 2276.5748,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "x": 2226.5748,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "9",
+    "net": "LAN3_GREEN_A",
+    "x": 2650.5948,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "10",
+    "net": "LAN3_LED_N",
+    "x": 2550.5948,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "11",
+    "net": "",
+    "x": 2252.5648,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "12",
+    "net": "",
+    "x": 2152.5548,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "x": 2090.5548,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J4",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "x": 2712.5948,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "1",
+    "net": "LAN4_TXP",
+    "x": 3324.6063,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "2",
+    "net": "LAN4_TXN",
+    "x": 3274.6063,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "3",
+    "net": "LAN4_TX_CT",
+    "x": 3224.6063,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "4",
+    "net": "",
+    "x": 3174.6063,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "5",
+    "net": "LAN4_RX_CT",
+    "x": 3124.6063,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "6",
+    "net": "LAN4_RXP",
+    "x": 3074.6063,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "7",
+    "net": "LAN4_RXN",
+    "x": 3024.6063,
+    "y": 4194.4887,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "8",
+    "net": "CHASSIS_PE",
+    "x": 2974.6063,
+    "y": 4094.4886999999994,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 59.055,
+      "height": 59.055
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 35.434,
+      "height": 35.434
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "9",
+    "net": "LAN4_GREEN_A",
+    "x": 3398.6263,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "10",
+    "net": "LAN4_LED_N",
+    "x": 3298.6263,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "11",
+    "net": "",
+    "x": 3000.5963,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "12",
+    "net": "",
+    "x": 2900.5863,
+    "y": 4606.298699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 62.992,
+      "height": 62.992
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 43.308,
+      "height": 43.308
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "13",
+    "net": "CHASSIS_PE",
+    "x": 2838.5863,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J5",
+    "pin": "14",
+    "net": "CHASSIS_PE",
+    "x": 3460.6263,
+    "y": 4291.338699999999,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 64.96,
+      "height": 64.96
+    }
+  },
+  {
+    "ref": "J8",
+    "pin": "1",
+    "net": "",
+    "x": 3478.0678,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "2",
+    "net": "3V3_MODEM",
+    "x": 3493.8178,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "3",
+    "net": "",
+    "x": 3509.5678,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "4",
+    "net": "GND_ISO",
+    "x": 3525.3178,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "5",
+    "net": "",
+    "x": 3541.0678,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "6",
+    "net": "",
+    "x": 3556.8078,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "7",
+    "net": "",
+    "x": 3572.5578,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "8",
+    "net": "USIM_VDD",
+    "x": 3588.3078,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "9",
+    "net": "GND_ISO",
+    "x": 3604.0578,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "10",
+    "net": "USIM_DATA",
+    "x": 3619.8078,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "11",
+    "net": "",
+    "x": 3635.5478,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "12",
+    "net": "USIM_CLK",
+    "x": 3651.2978,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "13",
+    "net": "",
+    "x": 3667.0478,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "14",
+    "net": "USIM_RST",
+    "x": 3682.7978,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "15",
+    "net": "GND_ISO",
+    "x": 3698.5478,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "16",
+    "net": "",
+    "x": 3714.2878,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "17",
+    "net": "",
+    "x": 3856.0278,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "18",
+    "net": "GND_ISO",
+    "x": 3871.7678,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "19",
+    "net": "",
+    "x": 3887.5178,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "20",
+    "net": "",
+    "x": 3903.2678,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "21",
+    "net": "GND_ISO",
+    "x": 3919.0178,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "22",
+    "net": "MODEM_PERST_N",
+    "x": 3934.7678,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "23",
+    "net": "",
+    "x": 3950.5078,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "24",
+    "net": "",
+    "x": 3966.2578,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "25",
+    "net": "",
+    "x": 3982.0078,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "26",
+    "net": "GND_ISO",
+    "x": 3997.7578,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "27",
+    "net": "GND_ISO",
+    "x": 4013.5078,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "28",
+    "net": "",
+    "x": 4029.2478,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "29",
+    "net": "GND_ISO",
+    "x": 4044.9978,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "30",
+    "net": "",
+    "x": 4060.7478,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "31",
+    "net": "",
+    "x": 4076.4978,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "32",
+    "net": "",
+    "x": 4092.2478,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "33",
+    "net": "",
+    "x": 4107.9878,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "34",
+    "net": "GND_ISO",
+    "x": 4123.7378,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "35",
+    "net": "GND_ISO",
+    "x": 4139.4878,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "36",
+    "net": "USB_MODEM_DM",
+    "x": 4155.2378,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "37",
+    "net": "GND_ISO",
+    "x": 4170.9878,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "38",
+    "net": "USB_MODEM_DP",
+    "x": 4186.7278,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "39",
+    "net": "3V3_MODEM",
+    "x": 4202.4778,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "40",
+    "net": "GND_ISO",
+    "x": 4218.2278,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "41",
+    "net": "3V3_MODEM",
+    "x": 4233.9778,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "42",
+    "net": "",
+    "x": 4249.7278,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "43",
+    "net": "GND_ISO",
+    "x": 4265.4678,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "44",
+    "net": "",
+    "x": 4281.2178,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "45",
+    "net": "",
+    "x": 4296.9678,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "46",
+    "net": "",
+    "x": 4312.7178,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "47",
+    "net": "",
+    "x": 4328.4678,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "48",
+    "net": "",
+    "x": 4344.2078,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "49",
+    "net": "",
+    "x": 4359.9578,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "50",
+    "net": "GND_ISO",
+    "x": 4375.7078,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "51",
+    "net": "",
+    "x": 4391.4578,
+    "y": 1202.7926,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "52",
+    "net": "3V3_MODEM",
+    "x": 4407.2078,
+    "y": 1525.6326000000001,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 78.74,
+      "height": 23.62,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "MP1",
+    "net": "GND_ISO",
+    "x": 3365.8678,
+    "y": 1226.4226,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 125.98,
+      "height": 90.55,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J8",
+    "pin": "MP2",
+    "net": "GND_ISO",
+    "x": 4519.4078,
+    "y": 1226.4226,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 125.98,
+      "height": 90.55,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "11",
+    "net": "GND_ISO",
+    "x": 2180.51,
+    "y": 1701.065,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 51.181,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "10",
+    "net": "GND_ISO",
+    "x": 2180.51,
+    "y": 2047.515,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 51.181,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "9",
+    "net": "GND_ISO",
+    "x": 1719.49,
+    "y": 2047.515,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 51.181,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "8",
+    "net": "",
+    "x": 1719.49,
+    "y": 1701.065,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 51.181,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "7",
+    "net": "SIM_A_IO",
+    "x": 2075,
+    "y": 2208.935,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 66.929,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "3",
+    "net": "SIM_A_CLK",
+    "x": 2025,
+    "y": 2208.935,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 66.929,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "6",
+    "net": "",
+    "x": 1975,
+    "y": 2208.935,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 66.929,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "2",
+    "net": "SIM_A_RST",
+    "x": 1925,
+    "y": 2208.935,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 66.929,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "5",
+    "net": "GND_ISO",
+    "x": 1875,
+    "y": 2208.935,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 66.929,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J9",
+    "pin": "1",
+    "net": "SIM_A_VCC",
+    "x": 1825,
+    "y": 2208.935,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 66.929,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "9",
+    "net": "",
+    "x": 2720,
+    "y": 1735,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 133.858,
+      "height": 169.291,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "8",
+    "net": "SIM_B_VCC",
+    "x": 2830.24,
+    "y": 1810,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "7",
+    "net": "SIM_B_RST",
+    "x": 2830.24,
+    "y": 1760,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "6",
+    "net": "SIM_B_CLK",
+    "x": 2830.24,
+    "y": 1710,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "5",
+    "net": "",
+    "x": 2830.24,
+    "y": 1660,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "4",
+    "net": "",
+    "x": 2609.76,
+    "y": 1660,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "3",
+    "net": "SIM_B_IO",
+    "x": 2609.76,
+    "y": 1710,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "2",
+    "net": "",
+    "x": 2609.76,
+    "y": 1760,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U20",
+    "pin": "1",
+    "net": "GND_ISO",
+    "x": 2609.77,
+    "y": 1810,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 23.622,
+      "height": 39.37,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "L1",
+    "pin": "1",
+    "net": "R_SW",
+    "x": 2047.2443,
+    "y": 2834.6457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 83.622,
+      "height": 166.142,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "L1",
+    "pin": "2",
+    "net": "3V3_ROUTER",
+    "x": 2204.7243,
+    "y": 2834.6457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 83.622,
+      "height": 166.142,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "L2",
+    "pin": "1",
+    "net": "M_SW",
+    "x": 2913.3860000000004,
+    "y": 1968.5039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 83.622,
+      "height": 166.142,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "L2",
+    "pin": "2",
+    "net": "3V3_MODEM",
+    "x": 3070.866,
+    "y": 1968.5039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 83.622,
+      "height": 166.142,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "PS1",
+    "pin": "2",
+    "net": "AC_L_FUSED",
+    "x": 270.55,
+    "y": 1349.175,
+    "angle": 90,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "PS1",
+    "pin": "3",
+    "net": "5V_ISO",
+    "x": 774.49,
+    "y": 3120.825,
+    "angle": 90,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "PS1",
+    "pin": "4",
+    "net": "GND_ISO",
+    "x": 1089.45,
+    "y": 3120.825,
+    "angle": 90,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "PS1",
+    "pin": "1",
+    "net": "AC_N",
+    "x": 1089.45,
+    "y": 1349.175,
+    "angle": 90,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 86.614,
+      "height": 86.614
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "Q1",
+    "pin": "1",
+    "net": "MODEM_OFF_GATE",
+    "x": 2578.7401,
+    "y": 2068.9386,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q1",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2578.7401,
+    "y": 2143.7386,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q1",
+    "pin": "3",
+    "net": "MODEM_BUCK_EN",
+    "x": 2500.0001,
+    "y": 2106.3386,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q2",
+    "pin": "1",
+    "net": "MODEM_RESET_GATE",
+    "x": 3228.3464,
+    "y": 1655.5133999999998,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q2",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3228.3464,
+    "y": 1730.3134,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q2",
+    "pin": "3",
+    "net": "MODEM_PERST_N",
+    "x": 3149.6064,
+    "y": 1692.9134,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R20",
+    "pin": "2",
+    "net": "MODEM_BUCK_EN",
+    "x": 2844.6205999999997,
+    "y": 2145.7087,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R20",
+    "pin": "1",
+    "net": "5V_ISO",
+    "x": 2785.3006,
+    "y": 2145.7087,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R21",
+    "pin": "2",
+    "net": "MODEM_OFF_GATE",
+    "x": 2431.2347999999997,
+    "y": 2165.3937,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R21",
+    "pin": "1",
+    "net": "MODEM_OFF",
+    "x": 2371.9148,
+    "y": 2165.3937,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R22",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2431.2347999999997,
+    "y": 2086.6535,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R22",
+    "pin": "1",
+    "net": "MODEM_OFF_GATE",
+    "x": 2371.9148,
+    "y": 2086.6535,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R30",
+    "pin": "2",
+    "net": "I2C_SCL",
+    "x": 1565.0931,
+    "y": 3641.7323,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R30",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 1505.7730999999999,
+    "y": 3641.7323,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R31",
+    "pin": "2",
+    "net": "I2C_SDA",
+    "x": 1604.4631000000002,
+    "y": 3523.622,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R31",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 1545.1431,
+    "y": 3523.622,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R32",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2923.3608,
+    "y": 1318.8976,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R32",
+    "pin": "1",
+    "net": "SIM_SELECT",
+    "x": 2864.0408,
+    "y": 1318.8976,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R33",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2431.2347999999997,
+    "y": 2244.1339,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R33",
+    "pin": "1",
+    "net": "MODEM_OFF",
+    "x": 2371.9148,
+    "y": 2244.1339,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R35",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3258.0065,
+    "y": 1496.063,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R35",
+    "pin": "1",
+    "net": "MODEM_RESET_REQ",
+    "x": 3198.6865000000003,
+    "y": 1496.063,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R41",
+    "pin": "2",
+    "net": "LAN1_GREEN_A",
+    "x": 1092.6521,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R41",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 1033.3320999999999,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R42",
+    "pin": "2",
+    "net": "LAN2_GREEN_A",
+    "x": 1840.6836,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R42",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 1781.3636,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R43",
+    "pin": "2",
+    "net": "LAN3_GREEN_A",
+    "x": 2588.7151,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R43",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 2529.3951,
+    "y": 3897.6378,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R44",
+    "pin": "2",
+    "net": "LAN4_GREEN_A",
+    "x": 3228.3465,
+    "y": 3671.3923,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R44",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 3228.3465,
+    "y": 3612.0723000000003,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R60",
+    "pin": "2",
+    "net": "MODEM_RESET_GATE",
+    "x": 3070.8661,
+    "y": 1742.2584000000002,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R60",
+    "pin": "1",
+    "net": "MODEM_RESET_REQ",
+    "x": 3070.8661,
+    "y": 1682.9384,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R61",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2982.4159,
+    "y": 1771.6535,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R61",
+    "pin": "1",
+    "net": "MODEM_RESET_GATE",
+    "x": 2923.0959000000003,
+    "y": 1771.6535,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R70",
+    "pin": "2",
+    "net": "USIM_DATA",
+    "x": 3061.1560999999997,
+    "y": 1318.8976,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R70",
+    "pin": "1",
+    "net": "USIM_VDD",
+    "x": 3001.8361,
+    "y": 1318.8976,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R36",
+    "pin": "2",
+    "net": "ROUTER_RESET_N",
+    "x": 2520,
+    "y": 2560.34,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R36",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 2520,
+    "y": 2619.66,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW1",
+    "pin": "1",
+    "net": "ROUTER_RESET_N",
+    "x": 2395,
+    "y": 2558.98,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW1",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2395,
+    "y": 2731.02,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "1",
+    "net": "GND_ISO",
+    "x": 2994.0946999999996,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "2",
+    "net": "3V3_ROUTER",
+    "x": 2938.9746999999998,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "3",
+    "net": "3V3_ROUTER",
+    "x": 2883.8547,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "4",
+    "net": "GND_ISO",
+    "x": 2828.7446999999997,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "5",
+    "net": "",
+    "x": 2773.6247,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "6",
+    "net": "",
+    "x": 2718.5047,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "7",
+    "net": "",
+    "x": 2663.3846999999996,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "8",
+    "net": "",
+    "x": 2608.2646999999997,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "9",
+    "net": "LAN4_LED_N",
+    "x": 2553.1447,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "10",
+    "net": "LAN3_LED_N",
+    "x": 2498.0346999999997,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "11",
+    "net": "LAN2_LED_N",
+    "x": 2442.9147,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "12",
+    "net": "LAN1_LED_N",
+    "x": 2387.7947,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "13",
+    "net": "",
+    "x": 2332.6746999999996,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "14",
+    "net": "ROUTER_RESET_N",
+    "x": 2277.5546999999997,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "15",
+    "net": "",
+    "x": 2222.4447,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "16",
+    "net": "",
+    "x": 2167.3246999999997,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "17",
+    "net": "",
+    "x": 2112.2047,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "18",
+    "net": "",
+    "x": 2057.0847,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "19",
+    "net": "",
+    "x": 2001.9646999999998,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "20",
+    "net": "",
+    "x": 1946.8546999999999,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "21",
+    "net": "GND_ISO",
+    "x": 1891.7346999999997,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "22",
+    "net": "",
+    "x": 1836.6146999999996,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "23",
+    "net": "GND_ISO",
+    "x": 1781.4946999999997,
+    "y": 3793.3069,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "24",
+    "net": "I2C_SCL",
+    "x": 1730.3147,
+    "y": 3675.1969,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "25",
+    "net": "I2C_SDA",
+    "x": 1730.3147,
+    "y": 3620.0769,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "26",
+    "net": "",
+    "x": 1730.3147,
+    "y": 3564.9569,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "27",
+    "net": "",
+    "x": 1730.3147,
+    "y": 3509.8469,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "28",
+    "net": "",
+    "x": 1730.3147,
+    "y": 3454.7269,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "29",
+    "net": "",
+    "x": 1730.3147,
+    "y": 3399.6068999999998,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "30",
+    "net": "ROUTER_GPIO0_N",
+    "x": 1730.3147,
+    "y": 3344.4869,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "31",
+    "net": "CONSOLE_TX",
+    "x": 1730.3147,
+    "y": 3289.3669,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "32",
+    "net": "CONSOLE_RX",
+    "x": 1730.3147,
+    "y": 3234.2469,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "33",
+    "net": "",
+    "x": 1730.3147,
+    "y": 3179.1369,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "34",
+    "net": "",
+    "x": 1781.4946999999997,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "35",
+    "net": "",
+    "x": 1836.6146999999996,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "36",
+    "net": "",
+    "x": 1891.7346999999997,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "37",
+    "net": "",
+    "x": 1946.8546999999999,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "38",
+    "net": "LAN1_TXP",
+    "x": 2001.9646999999998,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "39",
+    "net": "LAN1_TXN",
+    "x": 2057.0847,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "40",
+    "net": "LAN1_RXP",
+    "x": 2112.2047,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "41",
+    "net": "LAN1_RXN",
+    "x": 2167.3246999999997,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "42",
+    "net": "LAN2_RXP",
+    "x": 2222.4447,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "43",
+    "net": "LAN2_RXN",
+    "x": 2277.5546999999997,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "44",
+    "net": "LAN2_TXP",
+    "x": 2332.6746999999996,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "45",
+    "net": "LAN2_TXN",
+    "x": 2387.7947,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "46",
+    "net": "LAN3_TXP",
+    "x": 2442.9147,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "47",
+    "net": "LAN3_TXN",
+    "x": 2498.0346999999997,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "48",
+    "net": "LAN3_RXP",
+    "x": 2553.1447,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "49",
+    "net": "LAN3_RXN",
+    "x": 2608.2646999999997,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "50",
+    "net": "LAN4_RXP",
+    "x": 2663.3846999999996,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "51",
+    "net": "LAN4_RXN",
+    "x": 2718.5047,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "52",
+    "net": "LAN4_TXP",
+    "x": 2773.6247,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "53",
+    "net": "LAN4_TXN",
+    "x": 2828.7446999999997,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "54",
+    "net": "USB_HOST_DP",
+    "x": 2883.8547,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "55",
+    "net": "USB_HOST_DM",
+    "x": 2938.9746999999998,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "56",
+    "net": "GND_ISO",
+    "x": 2994.0946999999996,
+    "y": 3057.0869,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 35.433,
+      "height": 70.866,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "57",
+    "net": "GND_ISO",
+    "x": 2281.4946999999997,
+    "y": 3415.3568999999998,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 220.472,
+      "height": 220.472,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "58",
+    "net": "GND_ISO",
+    "x": 2881.8947,
+    "y": 3324.7969,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 122.047,
+      "height": 62.992,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U1",
+    "pin": "59",
+    "net": "GND_ISO",
+    "x": 2881.8947,
+    "y": 3584.6468999999997,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 122.047,
+      "height": 62.992,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "17",
+    "net": "GND_ISO",
+    "x": 1889.7638,
+    "y": 2834.6457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 62.992,
+      "height": 62.992,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "16",
+    "net": "GND_ISO",
+    "x": 1919.2638,
+    "y": 2779.5457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "15",
+    "net": "GND_ISO",
+    "x": 1899.5638,
+    "y": 2779.5457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "14",
+    "net": "3V3_ROUTER",
+    "x": 1879.9638,
+    "y": 2779.5457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "13",
+    "net": "5V_ISO",
+    "x": 1860.2638,
+    "y": 2779.5457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "12",
+    "net": "5V_ISO",
+    "x": 1834.6638,
+    "y": 2805.1457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "11",
+    "net": "5V_ISO",
+    "x": 1834.6638,
+    "y": 2824.8457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "10",
+    "net": "5V_ISO",
+    "x": 1834.6638,
+    "y": 2844.4457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "9",
+    "net": "R_SS",
+    "x": 1834.6638,
+    "y": 2864.1457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "8",
+    "net": "GND_ISO",
+    "x": 1860.2638,
+    "y": 2889.7457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "7",
+    "net": "GND_ISO",
+    "x": 1879.9638,
+    "y": 2889.7457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "6",
+    "net": "GND_ISO",
+    "x": 1899.5638,
+    "y": 2889.7457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "5",
+    "net": "GND_ISO",
+    "x": 1919.2638,
+    "y": 2889.7457,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "4",
+    "net": "",
+    "x": 1944.8637999999999,
+    "y": 2864.1457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "3",
+    "net": "R_SW",
+    "x": 1944.8637999999999,
+    "y": 2844.4457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "2",
+    "net": "R_SW",
+    "x": 1944.8637999999999,
+    "y": 2824.8457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U2",
+    "pin": "1",
+    "net": "R_SW",
+    "x": 1944.8637999999999,
+    "y": 2805.1457,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "17",
+    "net": "GND_ISO",
+    "x": 2755.9055,
+    "y": 2283.5039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 62.992,
+      "height": 62.992,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "16",
+    "net": "GND_ISO",
+    "x": 2785.4055,
+    "y": 2228.4039000000002,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "15",
+    "net": "GND_ISO",
+    "x": 2765.7055,
+    "y": 2228.4039000000002,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "14",
+    "net": "3V3_MODEM",
+    "x": 2746.1054999999997,
+    "y": 2228.4039000000002,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "13",
+    "net": "MODEM_BUCK_EN",
+    "x": 2726.4055,
+    "y": 2228.4039000000002,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "12",
+    "net": "5V_ISO",
+    "x": 2700.8055,
+    "y": 2254.0039,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "11",
+    "net": "5V_ISO",
+    "x": 2700.8055,
+    "y": 2273.7039,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "10",
+    "net": "5V_ISO",
+    "x": 2700.8055,
+    "y": 2293.3039000000003,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "9",
+    "net": "M_SS",
+    "x": 2700.8055,
+    "y": 2313.0039,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "8",
+    "net": "GND_ISO",
+    "x": 2726.4055,
+    "y": 2338.6039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "7",
+    "net": "GND_ISO",
+    "x": 2746.1054999999997,
+    "y": 2338.6039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "6",
+    "net": "GND_ISO",
+    "x": 2765.7055,
+    "y": 2338.6039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "5",
+    "net": "GND_ISO",
+    "x": 2785.4055,
+    "y": 2338.6039,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "4",
+    "net": "",
+    "x": 2811.0054999999998,
+    "y": 2313.0039,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "3",
+    "net": "M_SW",
+    "x": 2811.0054999999998,
+    "y": 2293.3039000000003,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "2",
+    "net": "M_SW",
+    "x": 2811.0054999999998,
+    "y": 2273.7039,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U3",
+    "pin": "1",
+    "net": "M_SW",
+    "x": 2811.0054999999998,
+    "y": 2254.0039,
+    "angle": 270,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 11.024,
+      "height": 31.496
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "1",
+    "net": "I2C_SCL",
+    "x": 981.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "2",
+    "net": "I2C_SDA",
+    "x": 1031.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "3",
+    "net": "GND_ISO",
+    "x": 1081.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "4",
+    "net": "GND_ISO",
+    "x": 1131.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "5",
+    "net": "GND_ISO",
+    "x": 1181.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "6",
+    "net": "ROUTER_RESET_N",
+    "x": 1231.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "7",
+    "net": "",
+    "x": 1281.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "8",
+    "net": "",
+    "x": 1331.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "9",
+    "net": "GND_ISO",
+    "x": 1381.1024,
+    "y": 3433.0672,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "18",
+    "net": "3V3_ROUTER",
+    "x": 981.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "17",
+    "net": "",
+    "x": 1031.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "16",
+    "net": "",
+    "x": 1081.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "15",
+    "net": "",
+    "x": 1131.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "14",
+    "net": "",
+    "x": 1181.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "13",
+    "net": "",
+    "x": 1231.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "12",
+    "net": "MODEM_RESET_REQ",
+    "x": 1281.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "11",
+    "net": "MODEM_OFF",
+    "x": 1331.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U6",
+    "pin": "10",
+    "net": "SIM_SELECT",
+    "x": 1381.1024,
+    "y": 3811.0272,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 82.677
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "1",
+    "net": "USB_HOST_DP",
+    "x": 3280.47,
+    "y": 623.42,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "2",
+    "net": "USB_HOST_DM",
+    "x": 3300.16,
+    "y": 623.42,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "3",
+    "net": "USB_SERVICE_DP",
+    "x": 3319.84,
+    "y": 623.42,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "4",
+    "net": "USB_SERVICE_DM",
+    "x": 3339.53,
+    "y": 623.42,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "5",
+    "net": "GND_ISO",
+    "x": 3343.858,
+    "y": 650,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 22.835,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "6",
+    "net": "MODEM_OFF",
+    "x": 3339.53,
+    "y": 676.58,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "7",
+    "net": "USB_MODEM_DM",
+    "x": 3319.84,
+    "y": 676.58,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "8",
+    "net": "USB_MODEM_DP",
+    "x": 3300.16,
+    "y": 676.58,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "9",
+    "net": "MODEM_USB_SEL",
+    "x": 3280.47,
+    "y": 676.58,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 9.843,
+      "height": 20.669,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U8",
+    "pin": "10",
+    "net": "3V3_ROUTER",
+    "x": 3276.142,
+    "y": 650,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 22.835,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U9",
+    "pin": "1",
+    "net": "USB_MODEM_DP",
+    "x": 4259.685,
+    "y": 1086.22,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U9",
+    "pin": "2",
+    "net": "USB_MODEM_DM",
+    "x": 4259.685,
+    "y": 1113.78,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U9",
+    "pin": "3",
+    "net": "GND_ISO",
+    "x": 4220.315,
+    "y": 1100,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "1",
+    "net": "SIM_B_CLK",
+    "x": 3067.825,
+    "y": 1420.43,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "2",
+    "net": "USIM_CLK",
+    "x": 3067.825,
+    "y": 1446.02,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "3",
+    "net": "SIM_A_CLK",
+    "x": 3067.825,
+    "y": 1471.61,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "4",
+    "net": "GND_ISO",
+    "x": 3067.825,
+    "y": 1497.21,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "5",
+    "net": "SIM_B_RST",
+    "x": 3067.825,
+    "y": 1522.8,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "6",
+    "net": "USIM_RST",
+    "x": 3067.825,
+    "y": 1548.39,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "7",
+    "net": "SIM_A_RST",
+    "x": 3067.825,
+    "y": 1573.98,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "8",
+    "net": "SIM_SELECT",
+    "x": 3067.825,
+    "y": 1599.57,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "16",
+    "net": "SIM_SELECT",
+    "x": 2842.175,
+    "y": 1420.43,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "15",
+    "net": "SIM_A_VCC",
+    "x": 2842.175,
+    "y": 1446.02,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "14",
+    "net": "USIM_VDD",
+    "x": 2842.175,
+    "y": 1471.61,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "13",
+    "net": "SIM_B_VCC",
+    "x": 2842.175,
+    "y": 1497.21,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "12",
+    "net": "3V3_ROUTER",
+    "x": 2842.175,
+    "y": 1522.8,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "11",
+    "net": "SIM_A_IO",
+    "x": 2842.175,
+    "y": 1548.39,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "10",
+    "net": "USIM_DATA",
+    "x": 2842.175,
+    "y": 1573.98,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U10",
+    "pin": "9",
+    "net": "SIM_B_IO",
+    "x": 2842.175,
+    "y": 1599.57,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 13.504,
+      "height": 68.169
+    },
+    "hole": null
+  },
+  {
+    "ref": "U14",
+    "pin": "1",
+    "net": "SIM_A_CLK",
+    "x": 2639.7653999999998,
+    "y": 2061.0986000000003,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 20.945,
+      "height": 42.205,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U14",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 2677.1654,
+    "y": 2061.0986000000003,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 20.945,
+      "height": 42.205,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U14",
+    "pin": "3",
+    "net": "SIM_A_RST",
+    "x": 2714.5654,
+    "y": 2061.0986000000003,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 20.945,
+      "height": 42.205,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U14",
+    "pin": "4",
+    "net": "SIM_A_IO",
+    "x": 2714.5654,
+    "y": 2151.5786,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 20.945,
+      "height": 42.205,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U14",
+    "pin": "5",
+    "net": "SIM_A_VCC",
+    "x": 2677.1654,
+    "y": 2151.5786,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 20.945,
+      "height": 42.205,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U14",
+    "pin": "6",
+    "net": "",
+    "x": 2639.7653999999998,
+    "y": 2151.5786,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 20.945,
+      "height": 42.205,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R37",
+    "pin": "2",
+    "net": "ROUTER_GPIO0_N",
+    "x": 2992.126,
+    "y": 2273.7545,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R37",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 2992.126,
+    "y": 2214.4345000000003,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R74",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3513.912,
+    "y": 905.5118,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R74",
+    "pin": "1",
+    "net": "MODEM_USB_SEL",
+    "x": 3454.592,
+    "y": 905.5118,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW3",
+    "pin": "1",
+    "net": "ROUTER_GPIO0_N",
+    "x": 2906.106,
+    "y": 2401.5748,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW3",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3078.146,
+    "y": 2401.5748,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U15",
+    "pin": "1",
+    "net": "USB_SERVICE_DP",
+    "x": 4066.22,
+    "y": 305.315,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U15",
+    "pin": "2",
+    "net": "USB_SERVICE_DM",
+    "x": 4093.78,
+    "y": 305.315,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U15",
+    "pin": "3",
+    "net": "GND_ISO",
+    "x": 4080,
+    "y": 344.685,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C90",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3909.4479,
+    "y": 600.3937,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C90",
+    "pin": "1",
+    "net": "USB_C_VBUS",
+    "x": 3964.5679,
+    "y": 600.3937,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C91",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3792.44,
+    "y": 845,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C91",
+    "pin": "1",
+    "net": "USB_UART_3V3",
+    "x": 3847.56,
+    "y": 845,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C92",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3412.44,
+    "y": 555,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C92",
+    "pin": "1",
+    "net": "USB_UART_3V3",
+    "x": 3467.56,
+    "y": 555,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C93",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3847.0079,
+    "y": 490.0009,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C93",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 3847.0079,
+    "y": 434.8809,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "x": 941.7322999999999,
+    "y": 401.1811,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "CN1",
+    "pin": "2",
+    "net": "AC_N",
+    "x": 1141.7323,
+    "y": 401.1811,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "CN1",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 1341.7323,
+    "y": 401.1811,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "CN1",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 1341.7323,
+    "y": 701.1811,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "CN1",
+    "pin": "2",
+    "net": "AC_N",
+    "x": 1141.7323,
+    "y": 701.1811,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "CN1",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "x": 941.7322999999999,
+    "y": 701.1811,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J15",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "x": 1665,
+    "y": 400,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J15",
+    "pin": "2",
+    "net": "AC_N",
+    "x": 1865,
+    "y": 400,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J15",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 2065,
+    "y": 400,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J15",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 2065,
+    "y": 700,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J15",
+    "pin": "2",
+    "net": "AC_N",
+    "x": 1865,
+    "y": 700,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J15",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "x": 1665,
+    "y": 700,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J16",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "x": 2390,
+    "y": 400,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J16",
+    "pin": "2",
+    "net": "AC_N",
+    "x": 2590,
+    "y": 400,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J16",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 2790,
+    "y": 400,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J16",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 2790,
+    "y": 700,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J16",
+    "pin": "2",
+    "net": "AC_N",
+    "x": 2590,
+    "y": 700,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "J16",
+    "pin": "1",
+    "net": "AC_L_IN",
+    "x": 2390,
+    "y": 700,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 90.551,
+      "height": 90.551
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 59.056,
+      "height": 59.056
+    }
+  },
+  {
+    "ref": "Q3",
+    "pin": "1",
+    "net": "USB_DETECT_GATE",
+    "x": 4215.7086,
+    "y": 384.09610000000004,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q3",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4215.7086,
+    "y": 458.8961,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q3",
+    "pin": "3",
+    "net": "USB_UART_OE_N",
+    "x": 4136.9686,
+    "y": 421.4961,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R90",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3404.5276,
+    "y": 188.36079999999998,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R90",
+    "pin": "1",
+    "net": "USB_C_CC1",
+    "x": 3404.5276,
+    "y": 129.0408,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R91",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3404.5276,
+    "y": 306.471,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R91",
+    "pin": "1",
+    "net": "USB_C_CC2",
+    "x": 3404.5276,
+    "y": 247.15099999999998,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R92",
+    "pin": "2",
+    "net": "USB_UART_OE_N",
+    "x": 4004.66,
+    "y": 350,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R92",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 3945.34,
+    "y": 350,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R93",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4052.2441,
+    "y": 694.0014,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R93",
+    "pin": "1",
+    "net": "USB_DETECT_GATE",
+    "x": 4052.2441,
+    "y": 753.3213999999999,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R94",
+    "pin": "2",
+    "net": "USB_DETECT_GATE",
+    "x": 3980,
+    "y": 754.66,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R94",
+    "pin": "1",
+    "net": "USB_C_VBUS",
+    "x": 3980,
+    "y": 695.34,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R95",
+    "pin": "2",
+    "net": "USB_UART_TX_BUF",
+    "x": 3390.34,
+    "y": 655,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R95",
+    "pin": "1",
+    "net": "USB_UART_TX",
+    "x": 3449.66,
+    "y": 655,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R96",
+    "pin": "2",
+    "net": "USB_UART_RX",
+    "x": 3449.66,
+    "y": 605,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R96",
+    "pin": "1",
+    "net": "USB_UART_RX_BUF",
+    "x": 3390.34,
+    "y": 605,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "1",
+    "net": "GND_ISO",
+    "x": 3521.91,
+    "y": 705,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "2",
+    "net": "USB_UART_TX",
+    "x": 3521.91,
+    "y": 655,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "3",
+    "net": "USB_UART_RX",
+    "x": 3521.91,
+    "y": 605,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "4",
+    "net": "USB_UART_3V3",
+    "x": 3521.91,
+    "y": 555,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "5",
+    "net": "USB_CONSOLE_DP",
+    "x": 3521.91,
+    "y": 505,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "6",
+    "net": "USB_CONSOLE_DM",
+    "x": 3521.91,
+    "y": 455,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "7",
+    "net": "",
+    "x": 3521.91,
+    "y": 405,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "8",
+    "net": "",
+    "x": 3521.91,
+    "y": 355,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "16",
+    "net": "USB_UART_3V3",
+    "x": 3748.09,
+    "y": 705,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "15",
+    "net": "GND_ISO",
+    "x": 3748.09,
+    "y": 655,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "14",
+    "net": "",
+    "x": 3748.09,
+    "y": 605,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "13",
+    "net": "",
+    "x": 3748.09,
+    "y": 555,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "12",
+    "net": "",
+    "x": 3748.09,
+    "y": 505,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "11",
+    "net": "",
+    "x": 3748.09,
+    "y": 455,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "10",
+    "net": "",
+    "x": 3748.09,
+    "y": 405,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U16",
+    "pin": "9",
+    "net": "",
+    "x": 3748.09,
+    "y": 355,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 22.047,
+      "height": 68.701
+    },
+    "hole": null
+  },
+  {
+    "ref": "U17",
+    "pin": "1",
+    "net": "USB_C_VBUS",
+    "x": 3832.6,
+    "y": 674.58,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 19.291,
+      "height": 45.551,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U17",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3870,
+    "y": 674.58,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 19.291,
+      "height": 45.551,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U17",
+    "pin": "3",
+    "net": "USB_C_VBUS",
+    "x": 3907.4,
+    "y": 674.58,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 19.291,
+      "height": 45.551,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U17",
+    "pin": "4",
+    "net": "",
+    "x": 3907.4,
+    "y": 765.42,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 19.291,
+      "height": 46.26,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U17",
+    "pin": "5",
+    "net": "USB_UART_3V3",
+    "x": 3832.6,
+    "y": 765.42,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 19.291,
+      "height": 46.26,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "1",
+    "net": "USB_UART_OE_N",
+    "x": 4075.82,
+    "y": 426.61,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "2",
+    "net": "USB_UART_TX_BUF",
+    "x": 4075.82,
+    "y": 452.2,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "3",
+    "net": "USB_UART_RX_BUF",
+    "x": 4075.82,
+    "y": 477.79,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "4",
+    "net": "GND_ISO",
+    "x": 4075.82,
+    "y": 503.39,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "8",
+    "net": "3V3_ROUTER",
+    "x": 3934.18,
+    "y": 426.61,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "7",
+    "net": "USB_UART_OE_N",
+    "x": 3934.18,
+    "y": 452.2,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "6",
+    "net": "CONSOLE_RX",
+    "x": 3934.18,
+    "y": 477.79,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U18",
+    "pin": "5",
+    "net": "CONSOLE_TX",
+    "x": 3934.18,
+    "y": 503.39,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "OVAL",
+      "width": 12.402,
+      "height": 47.146
+    },
+    "hole": null
+  },
+  {
+    "ref": "U19",
+    "pin": "1",
+    "net": "USB_CONSOLE_DP",
+    "x": 3878.78,
+    "y": 344.685,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U19",
+    "pin": "2",
+    "net": "USB_CONSOLE_DM",
+    "x": 3851.22,
+    "y": 344.685,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "U19",
+    "pin": "3",
+    "net": "GND_ISO",
+    "x": 3865,
+    "y": 305.315,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 7.874,
+      "height": 11.811,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "J14",
+    "pin": "B1",
+    "net": "GND_ISO",
+    "x": 3808.27,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "B4",
+    "net": "USB_C_VBUS",
+    "x": 3749.21,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "B5",
+    "net": "USB_C_CC2",
+    "x": 3729.53,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "B6",
+    "net": "USB_CONSOLE_DP",
+    "x": 3709.84,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "B7",
+    "net": "USB_CONSOLE_DM",
+    "x": 3690.16,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "B8",
+    "net": "",
+    "x": 3670.47,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "B9",
+    "net": "USB_C_VBUS",
+    "x": 3650.79,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "B12",
+    "net": "GND_ISO",
+    "x": 3591.73,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A1",
+    "net": "GND_ISO",
+    "x": 3591.73,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A4",
+    "net": "USB_C_VBUS",
+    "x": 3650.79,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A5",
+    "net": "USB_C_CC1",
+    "x": 3670.47,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A6",
+    "net": "USB_CONSOLE_DP",
+    "x": 3690.16,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A7",
+    "net": "USB_CONSOLE_DM",
+    "x": 3709.84,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A8",
+    "net": "",
+    "x": 3729.53,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A9",
+    "net": "USB_C_VBUS",
+    "x": 3749.21,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "A12",
+    "net": "GND_ISO",
+    "x": 3808.27,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "1",
+    "net": "CHASSIS_PE",
+    "x": 3605.51,
+    "y": 264.645,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "4",
+    "net": "CHASSIS_PE",
+    "x": 3794.49,
+    "y": 95.355,
+    "angle": 180,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 3605.51,
+    "y": 95.355,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J14",
+    "pin": "2",
+    "net": "CHASSIS_PE",
+    "x": 3794.49,
+    "y": 264.645,
+    "angle": 180,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B1",
+    "net": "GND_ISO",
+    "x": 4188.27,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B4",
+    "net": "MUSB_VBUS",
+    "x": 4129.21,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B5",
+    "net": "MUSB_CC2",
+    "x": 4109.53,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B6",
+    "net": "USB_SERVICE_DP",
+    "x": 4089.84,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B7",
+    "net": "USB_SERVICE_DM",
+    "x": 4070.16,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B8",
+    "net": "",
+    "x": 4050.47,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B9",
+    "net": "MUSB_VBUS",
+    "x": 4030.79,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "B12",
+    "net": "GND_ISO",
+    "x": 3971.73,
+    "y": 145.945,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A1",
+    "net": "GND_ISO",
+    "x": 3971.73,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A4",
+    "net": "MUSB_VBUS",
+    "x": 4030.79,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A5",
+    "net": "MUSB_CC1",
+    "x": 4050.47,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A6",
+    "net": "USB_SERVICE_DP",
+    "x": 4070.16,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A7",
+    "net": "USB_SERVICE_DM",
+    "x": 4089.84,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A8",
+    "net": "",
+    "x": 4109.53,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A9",
+    "net": "MUSB_VBUS",
+    "x": 4129.21,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "A12",
+    "net": "GND_ISO",
+    "x": 4188.27,
+    "y": 214.055,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 11.811,
+      "height": 34.252,
+      "radius": 0
+    },
+    "hole": {
+      "holeType": "ROUND",
+      "width": 0,
+      "height": 0
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "1",
+    "net": "CHASSIS_PE",
+    "x": 3985.51,
+    "y": 264.645,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "4",
+    "net": "CHASSIS_PE",
+    "x": 4174.49,
+    "y": 95.355,
+    "angle": 180,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "3",
+    "net": "CHASSIS_PE",
+    "x": 3985.51,
+    "y": 95.355,
+    "angle": 0,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "J17",
+    "pin": "2",
+    "net": "CHASSIS_PE",
+    "x": 4174.49,
+    "y": 264.645,
+    "angle": 180,
+    "layer": 12,
+    "shape": {
+      "padType": "OVAL",
+      "width": 57.087,
+      "height": 43.307
+    },
+    "hole": {
+      "holeType": "SLOT",
+      "width": 37.402,
+      "height": 23.622
+    }
+  },
+  {
+    "ref": "R97",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4340,
+    "y": 609.66,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R97",
+    "pin": "1",
+    "net": "MUSB_CC1",
+    "x": 4340,
+    "y": 550.34,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R98",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4340,
+    "y": 719.66,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R98",
+    "pin": "1",
+    "net": "MUSB_CC2",
+    "x": 4340,
+    "y": 660.34,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C94",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4312.44,
+    "y": 800,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "C94",
+    "pin": "1",
+    "net": "MUSB_VBUS",
+    "x": 4367.56,
+    "y": 800,
+    "angle": 180,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.496,
+      "height": 35.433,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R99",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4470,
+    "y": 770.34,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R99",
+    "pin": "1",
+    "net": "MUSB_VBUS",
+    "x": 4470,
+    "y": 829.66,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q4",
+    "pin": "1",
+    "net": "MUSB_GATE",
+    "x": 4192.9133,
+    "y": 1064.9622,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q4",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4192.9133,
+    "y": 1139.7622000000001,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q4",
+    "pin": "3",
+    "net": "MUSB_DETECT_N",
+    "x": 4114.1733,
+    "y": 1102.3622,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q5",
+    "pin": "1",
+    "net": "MUSB_DETECT_N",
+    "x": 4370.0787,
+    "y": 1064.9622,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q5",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4370.0787,
+    "y": 1139.7622000000001,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "Q5",
+    "pin": "3",
+    "net": "MODEM_USB_SEL",
+    "x": 4291.3387,
+    "y": 1102.3622,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 39.37,
+      "height": 25.591,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R100",
+    "pin": "2",
+    "net": "MUSB_GATE",
+    "x": 3651.7072,
+    "y": 944.8819,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R100",
+    "pin": "1",
+    "net": "MUSB_VBUS",
+    "x": 3592.3872,
+    "y": 944.8819,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R101",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3818.8976,
+    "y": 915.2219,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R101",
+    "pin": "1",
+    "net": "MUSB_GATE",
+    "x": 3818.8976,
+    "y": 974.5418999999999,
+    "angle": -90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R102",
+    "pin": "2",
+    "net": "MUSB_DETECT_N",
+    "x": 3651.7072,
+    "y": 1062.9921,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R102",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 3592.3872,
+    "y": 1062.9921,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R103",
+    "pin": "2",
+    "net": "MODEM_USB_SEL",
+    "x": 3848.5575999999996,
+    "y": 1062.9921,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "R103",
+    "pin": "1",
+    "net": "3V3_ROUTER",
+    "x": 3789.2376,
+    "y": 1062.9921,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 31.751,
+      "height": 34.016,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW4",
+    "pin": "1",
+    "net": "MODEM_PERST_N",
+    "x": 4685.0394,
+    "y": 1055.7123,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW4",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4685.0394,
+    "y": 1227.7522999999999,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW5",
+    "pin": "1",
+    "net": "MODEM_BUCK_EN",
+    "x": 4685.0394,
+    "y": 1764.3737,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "SW5",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 4685.0394,
+    "y": 1936.4137,
+    "angle": 90,
+    "layer": 1,
+    "shape": {
+      "padType": "RECT",
+      "width": 48.425,
+      "height": 73.228,
+      "radius": 0
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "1",
+    "net": "GND_ISO",
+    "x": 3310,
+    "y": 95,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 70.8661,
+      "height": 70.8661
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "2",
+    "net": "GND_ISO",
+    "x": 3310,
+    "y": 195,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 70.8661,
+      "height": 70.8661
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "3",
+    "net": "5V_ISO",
+    "x": 3310,
+    "y": 295,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 70.8661,
+      "height": 70.8661
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "4",
+    "net": "5V_ISO",
+    "x": 3310,
+    "y": 395,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 70.8661,
+      "height": 70.8661
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "H1-1",
+    "net": "GND_ISO",
+    "x": 2834.6457,
+    "y": 2598.4252,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "H1-2",
+    "net": "CONSOLE_TX",
+    "x": 2934.6457,
+    "y": 2598.4252,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "H1-3",
+    "net": "CONSOLE_RX",
+    "x": 2834.6457,
+    "y": 2698.4252,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "H1-4",
+    "net": "ROUTER_RESET_N",
+    "x": 2934.6457,
+    "y": 2698.4252,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "H1-5",
+    "net": "ROUTER_GPIO0_N",
+    "x": 2834.6457,
+    "y": 2798.4252,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "H1-6",
+    "net": "3V3_ROUTER",
+    "x": 2934.6457,
+    "y": 2798.4252,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "J12-1",
+    "net": "GND_ISO",
+    "x": 3228.3464,
+    "y": 826.7717,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "J12-2",
+    "net": "USB_SERVICE_DP",
+    "x": 3328.3464,
+    "y": 826.7717,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "J12-3",
+    "net": "USB_SERVICE_DM",
+    "x": 3228.3464,
+    "y": 926.7717,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "J12-4",
+    "net": "MODEM_USB_SEL",
+    "x": 3328.3464,
+    "y": 926.7717,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "J12-5",
+    "net": "MODEM_PERST_N",
+    "x": 3228.3464,
+    "y": 1026.7717,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  },
+  {
+    "ref": "TEST",
+    "pin": "J12-6",
+    "net": "MODEM_BUCK_EN",
+    "x": 3328.3464,
+    "y": 1026.7717,
+    "angle": 0,
+    "layer": 1,
+    "shape": {
+      "padType": "ELLIPSE",
+      "width": 55.1181,
+      "height": 55.1181
+    },
+    "hole": null
+  }
+]

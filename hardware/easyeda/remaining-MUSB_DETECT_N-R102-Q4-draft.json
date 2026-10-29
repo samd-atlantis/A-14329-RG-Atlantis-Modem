@@ -1,0 +1,89 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_DETECT_N_R102_Q4_651883",
+        "ticket": 651883
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_DETECT_N",
+        "layerId": 1,
+        "startX": 3651.7072,
+        "startY": 1062.9921,
+        "endX": 3700.0,
+        "endY": 1085.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_DETECT_N_R102_Q4_651884",
+        "ticket": 651884
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_DETECT_N",
+        "layerId": 1,
+        "startX": 3700.0,
+        "startY": 1085.0,
+        "endX": 3760.0,
+        "endY": 1095.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_DETECT_N_R102_Q4_651885",
+        "ticket": 651885
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_DETECT_N",
+        "layerId": 1,
+        "startX": 3760.0,
+        "startY": 1095.0,
+        "endX": 4114.1733,
+        "endY": 1102.3622,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3651.7072,
+      1062.9921
+    ],
+    [
+      1,
+      3700.0,
+      1085.0
+    ],
+    [
+      1,
+      3760.0,
+      1095.0
+    ],
+    [
+      1,
+      4114.1733,
+      1102.3622
+    ]
+  ],
+  "issues": []
+}

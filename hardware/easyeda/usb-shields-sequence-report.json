@@ -1,0 +1,309 @@
+[
+  {
+    "start": [
+      "J14",
+      "1"
+    ],
+    "end": [
+      "J14",
+      "3"
+    ],
+    "accepted": false,
+    "attempts": [
+      {
+        "width": 40,
+        "layer": 1,
+        "result": "search 35 nodes False\ngoal island 3842 bounds 3105.0 3750.0 25.0 590.0 via sites 3164\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 40,
+        "layer": 2,
+        "result": "search 568 nodes False\ngoal island 117 bounds 3580.0 3670.0 95.0 170.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 1,
+        "result": "search 67 nodes False\ngoal island 4937 bounds 3105.0 4110.0 25.0 595.0 via sites 3829\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 2,
+        "result": "search 785 nodes False\ngoal island 203 bounds 3570.0 3675.0 90.0 200.0 via sites 1\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 1,
+        "result": "search 286 nodes False\ngoal island 5807 bounds 3105.0 4110.0 25.0 605.0 via sites 4024\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 2,
+        "result": "search 1003 nodes False\ngoal island 297 bounds 3560.0 3690.0 85.0 220.0 via sites 5\n",
+        "error": "No main supply path found\n"
+      }
+    ]
+  },
+  {
+    "start": [
+      "J14",
+      "2"
+    ],
+    "end": [
+      "J14",
+      "3"
+    ],
+    "accepted": false,
+    "attempts": [
+      {
+        "width": 40,
+        "layer": 1,
+        "result": "search 32 nodes False\ngoal island 3842 bounds 3105.0 3750.0 25.0 590.0 via sites 3164\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 40,
+        "layer": 2,
+        "result": "search 94 nodes False\ngoal island 117 bounds 3580.0 3670.0 95.0 170.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 1,
+        "result": "search 66 nodes False\ngoal island 5572 bounds 3105.0 4295.0 25.0 595.0 via sites 4106\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 2,
+        "result": "search 147 nodes False\ngoal island 203 bounds 3570.0 3675.0 90.0 200.0 via sites 1\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 1,
+        "result": "search 108 nodes False\ngoal island 6497 bounds 3105.0 4295.0 25.0 605.0 via sites 4308\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 2,
+        "result": "search 2277 nodes False\ngoal island 297 bounds 3560.0 3690.0 85.0 220.0 via sites 5\n",
+        "error": "No main supply path found\n"
+      }
+    ]
+  },
+  {
+    "start": [
+      "J14",
+      "4"
+    ],
+    "end": [
+      "J14",
+      "3"
+    ],
+    "accepted": false,
+    "attempts": [
+      {
+        "width": 40,
+        "layer": 1,
+        "result": "search 13 nodes False\ngoal island 3842 bounds 3105.0 3750.0 25.0 590.0 via sites 3164\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 40,
+        "layer": 2,
+        "result": "search 20 nodes False\ngoal island 117 bounds 3580.0 3670.0 95.0 170.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 1,
+        "result": "search 33 nodes False\ngoal island 5572 bounds 3105.0 4295.0 25.0 595.0 via sites 4106\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 2,
+        "result": "search 54 nodes False\ngoal island 203 bounds 3570.0 3675.0 90.0 200.0 via sites 1\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 1,
+        "result": "search 70 nodes False\ngoal island 6496 bounds 3105.0 4295.0 25.0 600.0 via sites 4307\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 2,
+        "result": "search 115 nodes False\ngoal island 297 bounds 3560.0 3690.0 85.0 220.0 via sites 5\n",
+        "error": "No main supply path found\n"
+      }
+    ]
+  },
+  {
+    "start": [
+      "J17",
+      "3"
+    ],
+    "end": [
+      "J14",
+      "4"
+    ],
+    "accepted": false,
+    "attempts": [
+      {
+        "width": 40,
+        "layer": 1,
+        "result": "search 1498 nodes False\ngoal island 13 bounds 3785.0 3800.0 90.0 105.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 40,
+        "layer": 2,
+        "result": "search 1054 nodes False\ngoal island 20 bounds 3775.0 3810.0 85.0 105.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 1,
+        "result": "search 2803 nodes False\ngoal island 33 bounds 3780.0 3805.0 85.0 120.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 2,
+        "result": "search 1218 nodes False\ngoal island 54 bounds 3765.0 3820.0 80.0 145.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 1,
+        "result": "search 3611 nodes False\ngoal island 70 bounds 3775.0 3810.0 80.0 145.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 2,
+        "result": "search 1409 nodes False\ngoal island 115 bounds 3745.0 3830.0 70.0 160.0 via sites 0\n",
+        "error": "No main supply path found\n"
+      }
+    ]
+  },
+  {
+    "start": [
+      "J17",
+      "1"
+    ],
+    "end": [
+      "J17",
+      "3"
+    ],
+    "accepted": true,
+    "attempts": [
+      {
+        "width": 40,
+        "layer": 1,
+        "result": "search 106 nodes False\ngoal island 1498 bounds 3835.0 4410.0 25.0 190.0 via sites 967\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 40,
+        "layer": 2,
+        "result": "search 1373 nodes False\ngoal island 1054 bounds 3860.0 4410.0 25.0 145.0 via sites 878\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 1,
+        "result": "search 241 nodes False\ngoal island 2399 bounds 3485.0 4420.0 25.0 230.0 via sites 1076\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 2,
+        "result": "search 1694 nodes False\ngoal island 1218 bounds 3850.0 4420.0 25.0 155.0 via sites 1008\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 1,
+        "result": "search 96 nodes True\nremaining-CHASSIS_PE-J17-J17-draft.json 3 records 0 issues\n",
+        "error": ""
+      }
+    ]
+  },
+  {
+    "start": [
+      "J17",
+      "2"
+    ],
+    "end": [
+      "J17",
+      "3"
+    ],
+    "accepted": false,
+    "attempts": [
+      {
+        "width": 40,
+        "layer": 1,
+        "result": "search 75 nodes False\ngoal island 1498 bounds 3835.0 4410.0 25.0 190.0 via sites 967\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 40,
+        "layer": 2,
+        "result": "search 187 nodes False\ngoal island 1054 bounds 3860.0 4410.0 25.0 145.0 via sites 878\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 1,
+        "result": "search 151 nodes False\ngoal island 2399 bounds 3485.0 4420.0 25.0 230.0 via sites 1076\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 30,
+        "layer": 2,
+        "result": "search 250 nodes False\ngoal island 1218 bounds 3850.0 4420.0 25.0 155.0 via sites 1008\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 1,
+        "result": "search 240 nodes False\ngoal island 3113 bounds 3485.0 4435.0 25.0 400.0 via sites 1240\n",
+        "error": "No main supply path found\n"
+      },
+      {
+        "width": 20,
+        "layer": 2,
+        "result": "search 346 nodes False\ngoal island 1409 bounds 3825.0 4435.0 25.0 170.0 via sites 1090\n",
+        "error": "No main supply path found\n"
+      }
+    ]
+  },
+  {
+    "start": [
+      "J17",
+      "4"
+    ],
+    "end": [
+      "J17",
+      "3"
+    ],
+    "accepted": true,
+    "attempts": [
+      {
+        "width": 40,
+        "layer": 1,
+        "result": "search 191 nodes True\nremaining-CHASSIS_PE-J17-J17-draft.json 3 records 0 issues\n",
+        "error": ""
+      }
+    ]
+  }
+]

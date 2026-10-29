@@ -1,0 +1,116 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_@2707,2195_R20_639849",
+        "ticket": 639849
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 2,
+        "startX": 2707.0,
+        "startY": 2195.0,
+        "endX": 2760.0,
+        "endY": 2150.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_@2707,2195_R20_639850",
+        "ticket": 639850
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 2,
+        "startX": 2760.0,
+        "startY": 2150.0,
+        "endX": 2900.0,
+        "endY": 2140.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_BUCK_EN_@2707,2195_R20_639851",
+        "ticket": 639851
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "ruleName": "",
+        "centerX": 2900.0,
+        "centerY": 2140.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_@2707,2195_R20_639852",
+        "ticket": 639852
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 2900.0,
+        "startY": 2140.0,
+        "endX": 2844.6205999999997,
+        "endY": 2145.7087,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      2,
+      2707.0,
+      2195.0
+    ],
+    [
+      2,
+      2760.0,
+      2150.0
+    ],
+    [
+      2,
+      2900.0,
+      2140.0
+    ],
+    [
+      1,
+      2900.0,
+      2140.0
+    ],
+    [
+      1,
+      2844.6205999999997,
+      2145.7087
+    ]
+  ],
+  "issues": []
+}

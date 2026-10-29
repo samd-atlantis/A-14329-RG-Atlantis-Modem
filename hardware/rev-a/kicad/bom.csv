@@ -1,0 +1,89 @@
+reference,value,mpn,footprint,status,DNP
+J1,AC L / N / PE,AC L / N / PE,,Mains-rated touch-safe terminal and enclosure earth arrangement unresolved,False
+F1,T1A 250VAC - REVIEW,T1A 250VAC - REVIEW,,Fuse interrupt rating / inrush coordination and holder unresolved,False
+PS1,IRM-20-5,IRM-20-5,Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT,Pin map verified; thermal and mains integration review pending,False
+C1,47u 16V,47u 16V,Capacitor_SMD:C_1210_3225Metric,Selected; review required,False
+C2,100n 16V,100n 16V,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+#FLG01,PWR_FLAG,PWR_FLAG,,Selected; review required,False
+#FLG02,PWR_FLAG,PWR_FLAG,,Selected; review required,False
+#FLG03,PWR_FLAG,PWR_FLAG,,Selected; review required,False
+U2,TPS62132RGTR,TPS62132RGTR,Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias,Pin map/reference topology verified; load transient and exact L/C qualification pending,False
+L1,2.2uH / >=4A Isat,XFL4020-222MEB,Inductor_SMD:L_Coilcraft_XxL4020,Reference family; hot Isat and DCR review pending,False
+C10,10u 16V X7R,10u 16V X7R,Capacitor_SMD:C_0805_2012Metric,Selected; review required,False
+C11,100n 16V,100n 16V,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C12,3.3n 25V,3.3n 25V,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C13,22u 10V X7R,22u 10V X7R,Capacitor_SMD:C_0805_2012Metric,Selected; review required,False
+#FLG04,PWR_FLAG,PWR_FLAG,,Selected; review required,False
+U3,TPS62132RGTR,TPS62132RGTR,Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias,Pin map/reference topology verified; load transient and exact L/C qualification pending,False
+L2,2.2uH / >=4A Isat,XFL4020-222MEB,Inductor_SMD:L_Coilcraft_XxL4020,Reference family; hot Isat and DCR review pending,False
+C20,10u 16V X7R,10u 16V X7R,Capacitor_SMD:C_0805_2012Metric,Selected; review required,False
+C21,100n 16V,100n 16V,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C22,3.3n 25V,3.3n 25V,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C23,22u 10V X7R,22u 10V X7R,Capacitor_SMD:C_0805_2012Metric,Selected; review required,False
+C24,47u 10V X7R,47u 10V X7R,Capacitor_SMD:C_1210_3225Metric,Selected; review required,False
+C25,47u 10V X7R,47u 10V X7R,Capacitor_SMD:C_1210_3225Metric,Selected; review required,False
+R20,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+Q1,2N7002,2N7002,Package_TO_SOT_SMD:SOT-23,Gate1/source2/drain3; EN open-drain pull-down,False
+R21,1k,1k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R22,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+#FLG05,PWR_FLAG,PWR_FLAG,,Selected; review required,False
+U1,HLK-7628N 128M/32M,HLK-7628N 128M/32M,Gateway:HLK7628N_56,Physical pins verified; boot-straps left unloaded; footprint verification pending,False
+U6,MCP23008-E/SO,MCP23008-E/SO,Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs,False
+R30,4.7k,4.7k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R31,4.7k,4.7k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R32,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R33,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R34,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R35,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+C30,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C31,22u 10V,22u 10V,Capacitor_SMD:C_0805_2012Metric,Selected; review required,False
+SW1,ROUTER RESET,ROUTER RESET,Button_Switch_SMD:SW_SPST_TL3342,Selected; review required,False
+J7,CONSOLE 3V3 TTL,CONSOLE 3V3 TTL,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,Selected; review required,False
+J2,7499010121A,7499010121A,Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal,Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates,False
+R41,470,470,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+C41,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+C51,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+J3,7499010121A,7499010121A,Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal,Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates,False
+R42,470,470,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+C42,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+C52,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+J4,7499010121A,7499010121A,Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal,Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates,False
+R43,470,470,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+C43,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+C53,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+J5,7499010121A,7499010121A,Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal,Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates,False
+R44,470,470,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+C44,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+C54,100n - DNP CT OPTION,100n - DNP CT OPTION,Capacitor_SMD:C_0603_1608Metric,Selected; review required,True
+J8,EG25-GL Mini PCIe socket,EG25-GL Mini PCIe socket,,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates,False
+U8,TS3USB221ARSER,TS3USB221ARSER,,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected,False
+U9,TPD2EUSB30DRTR,TPD2EUSB30DRTR,Package_TO_SOT_SMD:Texas_DRT-3,Selected; review required,False
+C60,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C61,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+Q2,2N7002,2N7002,Package_TO_SOT_SMD:SOT-23,Selected; review required,False
+R60,1k,1k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R61,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+U10,TS3A44159PWR,TS3A44159PWR,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification,False
+J9,NANO SIM - SOCKET TBD,NANO SIM - SOCKET TBD,,ISO contact mapping complete; manufacturer pad mapping unresolved,False
+U11,ST4SIM-200M provider SKU TBD,ST4SIM-200M provider SKU TBD,,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected,False
+C70,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C71,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C72,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+#FLG06,SWITCHED SIM POWER,SWITCHED SIM POWER,,"ERC source annotation only: supplied through passive SIM selector, not an independent source",False
+#FLG07,SWITCHED SIM POWER,SWITCHED SIM POWER,,"ERC source annotation only: supplied through passive SIM selector, not an independent source",False
+R70,15k,15k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+U14,TPD4E001DBVR,TPD4E001DBVR,Package_TO_SOT_SMD:SOT-23-6,"Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC",False
+U12,TPS22918DBVR,TPS22918DBVR,Package_TO_SOT_SMD:SOT-23-6,Selected; review required,False
+R80,100,100,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+C80,1n,1n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C81,1u,1u,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+C82,10u 10V,10u 10V,Capacitor_SMD:C_0805_2012Metric,Selected; review required,False
+C83,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+U5,Ai-WB2-13,Ai-WB2-13,Gateway:AiWB2_13,Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used,False
+R81,10k,10k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+R82,10k - DNP SERVICE,10k - DNP SERVICE,Resistor_SMD:R_0603_1608Metric,Selected; review required,True
+SW2,WIFI SERVICE - DNP,WIFI SERVICE - DNP,Button_Switch_SMD:SW_SPST_TL3342,Optional GPIO5 service button; download strap behavior not assumed,True
+U13,SN74LVC2G125DCUR,SN74LVC2G125DCUR,Package_SO:VSSOP-8_2.3x2mm_P0.5mm,Selected; review required,False
+R83,100k,100k,Resistor_SMD:R_0603_1608Metric,Selected; review required,False
+C84,100n,100n,Capacitor_SMD:C_0603_1608Metric,Selected; review required,False
+J10,AUX UART / SERVICE,AUX UART / SERVICE,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,3.3V TTL service header; disable host UART buffer before external programming; no 5V adapter,False

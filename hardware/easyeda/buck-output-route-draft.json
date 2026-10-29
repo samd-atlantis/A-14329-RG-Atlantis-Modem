@@ -1,0 +1,415 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621419",
+        "ticket": 621419
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2204.7243,
+        "startY": 2834.6457,
+        "endX": 2250,
+        "endY": 2789.37,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621420",
+        "ticket": 621420
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2250,
+        "startY": 2789.37,
+        "endX": 2250,
+        "endY": 2540,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621421",
+        "ticket": 621421
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2250,
+        "startY": 2540,
+        "endX": 2030.63,
+        "endY": 2540,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621422",
+        "ticket": 621422
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2030.63,
+        "startY": 2540,
+        "endX": 2030.63,
+        "endY": 2620.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621423",
+        "ticket": 621423
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2283.5078,
+        "endX": 3120,
+        "endY": 2283.508,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621424",
+        "ticket": 621424
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3120,
+        "startY": 2283.508,
+        "endX": 3169.2528,
+        "endY": 2199.9937,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621425",
+        "ticket": 621425
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2283.5078,
+        "endX": 3070.892,
+        "endY": 2360,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621426",
+        "ticket": 621426
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2360,
+        "endX": 3168.857,
+        "endY": 2360,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621427",
+        "ticket": 621427
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3168.857,
+        "startY": 2360,
+        "endX": 3208.6228,
+        "endY": 2400.2340000000004,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621428",
+        "ticket": 621428
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2030.63,
+        "startY": 2620.0,
+        "endX": 1940,
+        "endY": 2620,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621429",
+        "ticket": 621429
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 1940,
+        "startY": 2620,
+        "endX": 1879.9638,
+        "endY": 2680.0362,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621430",
+        "ticket": 621430
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 1879.9638,
+        "startY": 2680.0362,
+        "endX": 1879.9638,
+        "endY": 2779.5457,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621431",
+        "ticket": 621431
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3169.2528,
+        "startY": 2199.9937,
+        "endX": 3169.2528,
+        "endY": 2110,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621432",
+        "ticket": 621432
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3169.2528,
+        "startY": 2110,
+        "endX": 2746.1055,
+        "endY": 2110,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621433",
+        "ticket": 621433
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 2746.1055,
+        "startY": 2110,
+        "endX": 2746.1054999999997,
+        "endY": 2228.4039000000002,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621434",
+        "ticket": 621434
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1771.6535,
+        "startY": 2696.8504,
+        "endX": 1860.2638,
+        "endY": 2696.8504,
+        "width": 10,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621435",
+        "ticket": 621435
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1860.2638,
+        "startY": 2696.8504,
+        "endX": 1860.2638,
+        "endY": 2779.5457,
+        "width": 10,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621436",
+        "ticket": 621436
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SS",
+        "layerId": 1,
+        "startX": 2700.8055,
+        "startY": 2313.0039,
+        "endX": 2700.8055,
+        "endY": 2350,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621437",
+        "ticket": 621437
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SS",
+        "layerId": 1,
+        "startX": 2700.8055,
+        "startY": 2350,
+        "endX": 2660.8055,
+        "endY": 2390,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_out_621438",
+        "ticket": 621438
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SS",
+        "layerId": 1,
+        "startX": 2660.8055,
+        "startY": 2390,
+        "endX": 2652.56,
+        "endY": 2390.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": [],
+  "reroute_controls": [
+    "MODEM_USB_SEL",
+    "MODEM_BUCK_EN",
+    "ROUTER_GPIO0_N",
+    "CONSOLE_RX"
+  ],
+  "remove_ids": [
+    "route2810_000000b0"
+  ]
+}

@@ -1,0 +1,470 @@
+
+=== PDF PAGE 1 ===
+File Name:IRM-20-SPEC   2025-11-21
+■	
+	
+■
+	
+	
+		 !!"
+!! # $
+
+%&'$
+()	
+*	
+(+	+	
+
+	
+		,	!
+-%	
+!+
+"
+%	)
+	!)..(/0
+1+-%
+(!
+	++
+
+2
+31
+
+!"	%
+		+%+%%	
+
+	!	%	)	$	!45
+)#	!)	
+%(
+	
++
+	
+
+	%%%	.%((	+	+ !/6%7 "!"+
+!	$"8#
+
+	
+((	
+%""	.	(%"!"+
+!	,	(+	+
+-%	
+
+	
+	
+
+
+
+
+	.94!	#	+!	.%$		:(		.+!
+#$	.%
+Ⅱ
++!	+"	%';:<=:<2
+
+'5%
+!:(
+*!%+	+	
+
+(+.	+	(+
+
+	+	+,	!
++%	+,	!
+9+ 	,	!
+>%+	+)	+
+■
+■
+	
+?!).221=1=81=81=1
+".
+;	
+
+ 
+  
+@AA78AA+!+
+	B
+C	)
+	!/021+
+<!"+
+!	D8
+:
+
+'"	%		+!
+	!	.!.20/℃
+&+	
+E;%+	+	=?)=?)).
+	.$ (	+)+	
+
+	
+
+ Ⅱ
+Ⅲ
+Ⅲ
+?) ). +. 
+?1
+
+&
+
+F&;
+2 
+" 
+Bauar
+Sicherheit
+egel
+ge
+ma
+t gepruft
+od
+be
+www.
+ID 2000000000
+tuv.com
+wac
+g
+o s
+UL62368-1
+IEC62368-1
+LPS
+
+
+TPTC004
+BS EN/EN62368-1
+User’s Manual
+https://www.meanwell.com/serviceGTIN.aspx
+;+%E
+■ !"#$
+BS EN/EN61558-1/-2-16
+IEC61558-1/-2-16
+20W AC-DC High Reliable PCB-Mount Green Industrial Power Module IRM-20 series
+
+
+=== PDF PAGE 2 ===
+File Name:IRM-20-SPEC   2025-11-21
+SPECIFICATION
+MODEL
+DC VOLTAGE
+RATED CURRENT
+CURRENT RANGE
+RATED POWER
+OUTPUT
+LINE REGULATION
+LOAD REGULATION
+HOLD UP TIME (Typ.)
+VOLTAGE RANGE
+FREQUENCY RANGE
+EFFICIENCY (Typ.)
+INPUT
+INRUSH CURRENT (Typ.)
+WITHSTAND VOLTAGE
+ISOLATION RESISTANCE
+WORKING HUMIDITY
+WORKING TEMP.
+STORAGE TEMP., HUMIDITY
+TEMP. COEFFICIENT
+VIBRATION
+MTBF
+DIMENSION
+OTHERS
+NOTE
+PACKING
+OVERLOAD
+OVER VOLTAGE
+AC CURRENT (Typ.)
+20 ~ 90% RH non-condensing
+-30 ~ +85℃(Refer to "Derating Curve")
+-40 ~ +85
+, 10 ~ 95% RH
+℃
+±
+℃
+℃
+0.03%/
+(0 ~ 50
+)
+SAFETY STANDARDS
+RIPPLE & NOISE (max.) Note.2
+VOLTAGE TOLERANCE Note.3
+ENVIRONMENT
+SAFETY &
+PROTECTION
+Protection type : Shut off o/p voltage, clamping by zener diode
+I/P-O/P:4.2KVac
+I/P-O/P:100M Ohms / 500Vdc / 25
+/ 70% RH
+℃
+LEAKAGE CURRENT
+< 0.25mA/277Vac
+SETUP, RISE TIME
+OPERATING ALTITUDE Note.4 2000 meters
+BS EN/EN55035, BS EN/EN61000-6-2
+EMC IMMUNITY
+EMC EMISSION
+Parameter
+Conducted
+Radiated
+Harmonic Current  (Note 5)
+Voltage Flicker
+Standard
+BS EN/EN55032(CISPR32), CNS15936
+BS EN/EN61000-3-2
+Test Level / Note
+Class B
+-------
+BS EN/EN61000-3-3
+Class B
+Class A
+Parameter
+ESD
+Radiated Susceptibility
+EFT/Burest
+Surge
+Standard
+BS EN/EN61000-4-2
+Test Level /Note
+Level 3, 8KV air; Level 2, 4KV contact, criteria A
+Level 4,2KV/L-N, criteria A
+Conducted
+Magnetic Field
+BS EN/EN61000-4-3
+BS EN/EN61000-4-4
+BS EN/EN61000-4-6
+BS EN/EN61000-4-5
+BS EN/EN61000-4-8
+BS EN/EN61000-4-11
+Voltage Dips and interruptions
+Level 3, criteria A
+Level 3, criteria A
+Level 3, criteria A
+Level 4, criteria A
+BS EN/EN55032(CISPR32), CNS15936
+＞
+.
+95% dip 0 5 periods, 30% dip 25 periods,
+95% interruptions 250 periods
+＞
+1. All parameters NOT specially mentioned are measured at 230Vac input, rated load and 25
+of ambient temperature.
+℃
+2. Ripple & noise are measured at 20MHz of bandwidth by using a 12" twisted pair-wire terminated with a 0.1
+F & 47
+F parallel capacitor.
+μ
+μ
+3. Tolerance : includes set up tolerance, line regulation and load regulation.
+4. The ambient temperature derating of 3.5
+/1000m with fanless models and of 5
+/1000m with fan models for operating altitude higher than 2000m(6500ft).
+℃
+℃
+5. The power supply is considered as an independent unit ,but the final equipment still need to re-confirm that the whole system complies with the EMC
+directives. For guidance on how to perform these EMC tests, please refer to “EMI testing of component power supplies.”
+(as available on https://www.meanwell.com//Upload/PDF/EMI_statement_en.pdf )
+Product Liability Disclaimer
+For detailed information, please refer to
+※
+：
+https://www.meanwell.com/serviceDisclaimer.aspx
+EMC
+(Note.5)
+10 ~ 500Hz, 2G 10min./1cycle, period for 60min. each along X, Y, Z axes
+1000ms, 20ms/230Vac          1000ms, 20ms/115Vac at full load
+47 ~ 440Hz
+52.4*27.2*24mm (L*W*H)
+0.05Kg/240pcs/13Kg/0.94CUFT
+40ms/230V
+8ms/115V
+at full load
+ac
+ac
+85 ~ 305V
+120 ~ 430Vdc
+ac
+79%
+76%
+84%
+13.8 ~ 16.2V
+84%
+17.25 ~ 20.25V
+85%
+27.6 ~ 32.4V
+0.6A/115V
+0.4A/230V
+0.3A/277V
+ac
+ac
+ac
+COLD START 20A/115V
+40A/230V
+ac
+ac
+115%~160% rated output power
+5.75 ~ 6.75V
+3.8 ~ 4.46V
+Protection type : Hiccup mode, recovers automatically after fault condition is removed
+±1%
+±1%
+±0.3%
+±0.5%
+±0.3%
+±0.5%
+±0.3%
+±0.5%
+±0.5%
+±0.5%
+±2.5%
+±2.5%
+±2.5%
+±2.5%
+±2.5%
+200mVp-p
+200mVp-p
+200mVp-p
+200mVp-p
+200mVp-p
+3.3V
+12V
+15V
+24V
+4A
+4.5A
+1.8A
+1.4A
+0.9A
+0 ~ 4A
+0 ~ 4.5A
+0 ~ 1.8A
+0 ~ 1.4A
+0 ~ 0.9A
+20W
+14.85W
+21.6W
+21W
+21.6W
+IRM-20-5
+IRM-20-12
+IRM-20-15
+IRM-20-24
+IRM-20-3.3
+5V
+10656.2K hrs min.
+Telcordia SR-332 (Bellcore) ; 970.3K hrs min.      MIL-HDBK-217F (25
+)
+℃
+SOLDERING TEMPERATURE Wave soldering: 265
+,5s (max.); Manual soldering: 390
+,3s (max.)
+℃
+℃
+IEC62368-1,
+,UL62368-1,TUV BS EN/EN62368-1,
+,EAC TP TC 004,
+IEC61558-1/-2-16
+BS EN/EN61558-1/-2-16
+BSMI CNS15598-1 approved
+OVER VOLTAGE CATEGORY IEC/EN 61558-1/-2-16(OVC
+, altitude up to 2000m) IEC/EN/UL 62368-1(OVC
+, altitude up to 000m)
+Ⅲ
+Ⅱ
+;
+2
+20W AC-DC High Reliable PCB-Mount Green Industrial Power Module IRM-20 series
+
+
+=== PDF PAGE 3 ===
+File Name:IRM-20-SPEC   2025-11-21
+Block Diagram
+Output Derating VS Input Voltage
+Derating Curve
+fosc : 65KHz
+FILTER
+Input
+EMI
+FILTER
+RECTIFIERS
+&
+RECTIFIERS
+CONTROL
+PWM
+DETECTION
+CIRCUIT
+&
+FILTER
++V
+-V
+SWITCHING
+POWER
+Installation Manual
+Please refer to : http://www.meanwell.com/manual.html
+Mechanical Specification
+Case No.219A
+P/N diameter:1.0
+24
+1.0
+3.5 1mm
+±
+45
+52.4
+BOTTOM
+VIEW
+AC/N
+-V
++V
+AC/L
+3.4
+3.2
+3.2
+8
+20.8
+27.2
+AMBIENT TEMPERATURE (
+)
+℃
+LOAD (%)
+(HORIZONTAL)
+INPUT VOLTAGE (Vac) 60Hz
+85
+100
+95
+120
+115
+160
+140
+200
+180
+240
+220
+305
+LOAD (%)
+90
+100
+80
+70
+60
+50
+40
+OTHERS
+-30
+0
+10
+20
+30
+40
+50
+60
+70
+20
+40
+60
+80
+100
+45
+3.3V,5V
+50
+70
+75
+80 85
+5
+(Unit:mm
+, Tolerance:
+[inch]
+0.5[ 0.02])
+±
+±
+20W AC-DC High Reliable PCB-Mount Green Industrial Power Module IRM-20 series

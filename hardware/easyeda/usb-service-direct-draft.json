@@ -1,0 +1,1092 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623037",
+        "ticket": 623037
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 3509.84,
+        "startY": 1023.42,
+        "endX": 3509.84,
+        "endY": 1005.16,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623038",
+        "ticket": 623038
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 3509.84,
+        "startY": 1005.16,
+        "endX": 3543.8,
+        "endY": 971.2,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623039",
+        "ticket": 623039
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 3543.8,
+        "startY": 971.2,
+        "endX": 3543.8,
+        "endY": 850,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623040",
+        "ticket": 623040
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 3543.8,
+        "startY": 850,
+        "endX": 3530,
+        "endY": 850,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623041",
+        "ticket": 623041
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 3529.53,
+        "startY": 1023.42,
+        "endX": 3560,
+        "endY": 992.95,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623042",
+        "ticket": 623042
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 3560,
+        "startY": 992.95,
+        "endX": 3560,
+        "endY": 850,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623043",
+        "ticket": 623043
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 3560,
+        "startY": 850,
+        "endX": 3600,
+        "endY": 850,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623044",
+        "ticket": 623044
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 3600,
+        "startY": 850,
+        "endX": 3600,
+        "endY": 900,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623045",
+        "ticket": 623045
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 3530,
+        "startY": 850,
+        "endX": 3552.13,
+        "endY": 820.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623046",
+        "ticket": 623046
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 3552.13,
+        "startY": 820.0,
+        "endX": 3552.13,
+        "endY": 772.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623047",
+        "ticket": 623047
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 3552.13,
+        "startY": 772.13,
+        "endX": 3750,
+        "endY": 772.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623048",
+        "ticket": 623048
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 3750,
+        "startY": 772.13,
+        "endX": 3772.1243122480105,
+        "endY": 750.0056877519896,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623049",
+        "ticket": 623049
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 3772.1243122480105,
+        "startY": 750.0056877519896,
+        "endX": 3900,
+        "endY": 750.0056877519896,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623050",
+        "ticket": 623050
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 3900,
+        "startY": 750.0056877519896,
+        "endX": 3922.1243122480105,
+        "endY": 772.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623051",
+        "ticket": 623051
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 3922.1243122480105,
+        "startY": 772.13,
+        "endX": 4072.13,
+        "endY": 772.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623052",
+        "ticket": 623052
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 4072.13,
+        "startY": 772.13,
+        "endX": 4072.13,
+        "endY": 400.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623053",
+        "ticket": 623053
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 4072.13,
+        "startY": 400.0,
+        "endX": 4055,
+        "endY": 380,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623054",
+        "ticket": 623054
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 2,
+        "startX": 3600,
+        "startY": 900,
+        "endX": 3567.87,
+        "endY": 820.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623055",
+        "ticket": 623055
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 2,
+        "startX": 3567.87,
+        "startY": 820.0,
+        "endX": 3567.87,
+        "endY": 787.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623056",
+        "ticket": 623056
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 2,
+        "startX": 3567.87,
+        "startY": 787.87,
+        "endX": 4087.87,
+        "endY": 787.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623057",
+        "ticket": 623057
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 2,
+        "startX": 4087.87,
+        "startY": 787.87,
+        "endX": 4087.87,
+        "endY": 400.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623058",
+        "ticket": 623058
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 2,
+        "startX": 4087.87,
+        "startY": 400.0,
+        "endX": 4105,
+        "endY": 380,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623059",
+        "ticket": 623059
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4055,
+        "startY": 380,
+        "endX": 4055,
+        "endY": 341.535,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623060",
+        "ticket": 623060
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4055,
+        "startY": 341.535,
+        "endX": 4066.22,
+        "endY": 330.315,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623061",
+        "ticket": 623061
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4066.22,
+        "startY": 330.315,
+        "endX": 4066.22,
+        "endY": 305.315,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623062",
+        "ticket": 623062
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4105,
+        "startY": 380,
+        "endX": 4105,
+        "endY": 341.535,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623063",
+        "ticket": 623063
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4105,
+        "startY": 341.535,
+        "endX": 4093.78,
+        "endY": 330.315,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623064",
+        "ticket": 623064
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4093.78,
+        "startY": 330.315,
+        "endX": 4093.78,
+        "endY": 305.315,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623065",
+        "ticket": 623065
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4070.16,
+        "startY": 214.055,
+        "endX": 4070.16,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623066",
+        "ticket": 623066
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4070.16,
+        "startY": 260,
+        "endX": 4055,
+        "endY": 275,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623067",
+        "ticket": 623067
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4055,
+        "startY": 275,
+        "endX": 4066.22,
+        "endY": 305.315,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623068",
+        "ticket": 623068
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4089.84,
+        "startY": 214.055,
+        "endX": 4089.84,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623069",
+        "ticket": 623069
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4089.84,
+        "startY": 260,
+        "endX": 4105,
+        "endY": 275,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623070",
+        "ticket": 623070
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4105,
+        "startY": 275,
+        "endX": 4093.78,
+        "endY": 305.315,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623071",
+        "ticket": 623071
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4089.84,
+        "startY": 145.945,
+        "endX": 4089.84,
+        "endY": 110,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623072",
+        "ticket": 623072
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 2,
+        "startX": 4089.84,
+        "startY": 110,
+        "endX": 4065,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623073",
+        "ticket": 623073
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "layerId": 1,
+        "startX": 4065,
+        "startY": 260,
+        "endX": 4070.16,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623074",
+        "ticket": 623074
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4070.16,
+        "startY": 145.945,
+        "endX": 4070.16,
+        "endY": 180,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623075",
+        "ticket": 623075
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4070.16,
+        "startY": 180,
+        "endX": 4089.84,
+        "endY": 180,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623076",
+        "ticket": 623076
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "layerId": 1,
+        "startX": 4089.84,
+        "startY": 180,
+        "endX": 4089.84,
+        "endY": 214.055,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623077",
+        "ticket": 623077
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3513.912,
+        "startY": 905.5118,
+        "endX": 3510,
+        "endY": 920,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623078",
+        "ticket": 623078
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3521.91,
+        "startY": 705,
+        "endX": 3465,
+        "endY": 705,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "service_direct_623079",
+        "ticket": 623079
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 4080,
+        "startY": 344.685,
+        "endX": 4080,
+        "endY": 360,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623080",
+        "ticket": 623080
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "ruleName": "",
+        "centerX": 3530,
+        "centerY": 850,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623081",
+        "ticket": 623081
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "ruleName": "",
+        "centerX": 4055,
+        "centerY": 380,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623082",
+        "ticket": 623082
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "ruleName": "",
+        "centerX": 4089.84,
+        "centerY": 110,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623083",
+        "ticket": 623083
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DP",
+        "ruleName": "",
+        "centerX": 4065,
+        "centerY": 260,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623084",
+        "ticket": 623084
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "ruleName": "",
+        "centerX": 3600,
+        "centerY": 900,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623085",
+        "ticket": 623085
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_SERVICE_DM",
+        "ruleName": "",
+        "centerX": 4105,
+        "centerY": 380,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623086",
+        "ticket": 623086
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3510,
+        "centerY": 920,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623087",
+        "ticket": 623087
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3465,
+        "centerY": 705,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "service_direct_623088",
+        "ticket": 623088
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 4080,
+        "centerY": 360,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    }
+  ],
+  "issues": [],
+  "main_lengths_mil": {
+    "USB_SERVICE_DP": 1402.1562765598107,
+    "USB_SERVICE_DM": 1507.5141178907984
+  },
+  "reverse_orientation_lengths_mil": {
+    "USB_SERVICE_DP": 1549.3591178907986,
+    "USB_SERVICE_DM": 1595.3041178907988
+  },
+  "controls_requiring_reroute": [
+    "MUSB_VBUS",
+    "MUSB_CC1",
+    "MUSB_CC2",
+    "MODEM_USB_SEL",
+    "CONSOLE_RX",
+    "USB_UART_TX_BUF",
+    "USB_UART_RX_BUF",
+    "USB_UART_OE_N"
+  ],
+  "ground_primitives_replaced": [
+    "route2810_000000ee",
+    "ba61a2c477adfc7c"
+  ],
+  "references": [
+    "https://www.ti.com/video/6087491555001"
+  ],
+  "limitations": [
+    "Fanout and USB-C orientation length matching, native DRC and return vias remain required."
+  ]
+}

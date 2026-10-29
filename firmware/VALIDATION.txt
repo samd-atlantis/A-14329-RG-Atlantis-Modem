@@ -1,0 +1,26 @@
+A-14329 firmware development validation — 2026-10-27
+
+Source validation:
+- JavaScript syntax, mocked LuCI form rendering, password field handling, controller
+  bookmark URL rejection and RPC ACL structure: 15 checks passed.
+- Carrier shell mocked tests: initialization ordering, SIM power-off/switch/power-on
+  sequencing, failed I2C operation handling, invalid SIM rejection and hardware
+  validation gate: 5 tests passed.
+- Bash syntax checks passed for build.sh, first-boot defaults, carrier hardware
+  script and executable rpcd plugin. Python source compilation passed.
+- Per-unit provisioning tests passed: unique Wi-Fi/admin secrets, hashed admin
+  credentials in unit payload, and invalid serial rejection (2 additional tests).
+- Browser preview tested: navigation, APN save feedback, invalid IPv4 rejection,
+  valid controller addition and Wi-Fi settings display.
+
+Important limits:
+The browser preview is simulated and uses a proposed product visual design.
+Firmware currently uses authenticated standard LuCI navigation plus custom pages.
+No OpenWrt cross-compile, MIPS execution, real LuCI/rpcd integration, actual I2C,
+modem network session or PCB test has been performed. Hardware controls remain
+disabled pending bench validation. No production-ready .bin is included.
+
+The Linux build recipe and package are development source. Confirm build result,
+exact HLK memory/flash variant, calibration preservation, install/recovery method,
+pinmux, SIM switch polarity, graceful modem shutdown and all acceptance items in
+README.txt before a production release.

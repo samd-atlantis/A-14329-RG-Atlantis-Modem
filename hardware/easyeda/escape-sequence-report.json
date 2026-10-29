@@ -1,0 +1,156 @@
+[
+  {
+    "net": "3V3_ROUTER",
+    "start": [
+      "@2440,2905",
+      "0"
+    ],
+    "end": [
+      "@2370,2985",
+      "0"
+    ],
+    "accepted": true,
+    "result": "search 1372 nodes True\nremaining-3V3_ROUTER-@2440,2905-@2370,2985-draft.json 6 records 0 issues\n",
+    "error": ""
+  },
+  {
+    "net": "3V3_ROUTER",
+    "start": [
+      "@3592.3872,1030",
+      "0"
+    ],
+    "end": [
+      "@3845,335",
+      "0"
+    ],
+    "accepted": false,
+    "result": "search 29227 nodes False\ngoal island 10001 bounds 3090.0 4345.0 25.0 625.0 via sites 5596\n",
+    "error": "No main supply path found\n"
+  },
+  {
+    "net": "MODEM_BUCK_EN",
+    "start": [
+      "@2707,2195",
+      "0"
+    ],
+    "end": [
+      "R20",
+      "2"
+    ],
+    "accepted": true,
+    "result": "search 2281 nodes True\nremaining-MODEM_BUCK_EN-@2707,2195-R20-draft.json 4 records 0 issues\n",
+    "error": ""
+  },
+  {
+    "net": "SIM_A_VCC",
+    "start": [
+      "@2640,2105",
+      "0"
+    ],
+    "end": [
+      "C71",
+      "1"
+    ],
+    "accepted": true,
+    "result": "search 2609 nodes True\nremaining-SIM_A_VCC-@2640,2105-C71-draft.json 7 records 0 issues\n",
+    "error": ""
+  },
+  {
+    "net": "MODEM_OFF",
+    "start": [
+      "@3590,1120",
+      "0"
+    ],
+    "end": [
+      "@2344.8811,2219.4956",
+      "0"
+    ],
+    "accepted": false,
+    "result": "search 11593 nodes False\ngoal island 10001 bounds 1840.0 2750.0 1870.0 2530.0 via sites 3241\n",
+    "error": "No main supply path found\n"
+  },
+  {
+    "net": "MODEM_PERST_N",
+    "start": [
+      "standalone",
+      "J12-5"
+    ],
+    "end": [
+      "Q2",
+      "3"
+    ],
+    "accepted": true,
+    "result": "search 56388 nodes True\nremaining-MODEM_PERST_N-standalone-Q2-draft.json 14 records 0 issues\n",
+    "error": ""
+  },
+  {
+    "net": "MODEM_BUCK_EN",
+    "start": [
+      "standalone",
+      "J12-8"
+    ],
+    "end": [
+      "R20",
+      "2"
+    ],
+    "accepted": true,
+    "result": "search 23378 nodes True\nremaining-MODEM_BUCK_EN-standalone-R20-draft.json 9 records 0 issues\n",
+    "error": ""
+  },
+  {
+    "net": "CONSOLE_RX",
+    "start": [
+      "@2474,2918",
+      "0"
+    ],
+    "end": [
+      "@1740.1579,3017.7144",
+      "0"
+    ],
+    "accepted": false,
+    "result": "search 341 nodes False\ngoal island 7788 bounds 1240.0 2260.0 2570.0 3440.0 via sites 3733\n",
+    "error": "No main supply path found\n"
+  },
+  {
+    "net": "MUSB_DETECT_N",
+    "start": [
+      "R102",
+      "2"
+    ],
+    "end": [
+      "Q4",
+      "3"
+    ],
+    "accepted": true,
+    "result": "search 432 nodes True\nremaining-MUSB_DETECT_N-R102-Q4-draft.json 3 records 0 issues\n",
+    "error": ""
+  },
+  {
+    "net": "MUSB_DETECT_N",
+    "start": [
+      "Q4",
+      "3"
+    ],
+    "end": [
+      "Q5",
+      "1"
+    ],
+    "accepted": true,
+    "result": "search 265 nodes True\nremaining-MUSB_DETECT_N-Q4-Q5-draft.json 3 records 0 issues\n",
+    "error": ""
+  },
+  {
+    "net": "5V_ISO",
+    "start": [
+      "@2660,2350",
+      "0"
+    ],
+    "end": [
+      "standalone",
+      "4"
+    ],
+    "accepted": false,
+    "result": "search 3992 nodes False\ngoal island 10001 bounds 2770.0 3380.0 25.0 1240.0 via sites 8634\n",
+    "error": "No main supply path found\n"
+  }
+]

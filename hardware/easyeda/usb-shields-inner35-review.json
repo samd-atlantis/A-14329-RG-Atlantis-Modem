@@ -1,0 +1,572 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_0",
+        "ticket": 220000
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 2786.85,
+        "startY": 388.58500000000004,
+        "endX": 3285.0,
+        "endY": 30.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_1",
+        "ticket": 220001
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3285.0,
+        "startY": 30.0,
+        "endX": 3485.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_2",
+        "ticket": 220002
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3485.0,
+        "startY": 40.0,
+        "endX": 3605.51,
+        "endY": 95.355,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_3",
+        "ticket": 220003
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3794.49,
+        "startY": 264.645,
+        "endX": 3809.49,
+        "endY": 222.14499999999998,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_4",
+        "ticket": 220004
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3809.49,
+        "startY": 222.14499999999998,
+        "endX": 3799.49,
+        "endY": 104.64499999999998,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_5",
+        "ticket": 220005
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3799.49,
+        "startY": 104.64499999999998,
+        "endX": 3794.49,
+        "endY": 95.355,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_6",
+        "ticket": 220006
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3794.49,
+        "startY": 95.355,
+        "endX": 3739.49,
+        "endY": 50.355000000000004,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_7",
+        "ticket": 220007
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3739.49,
+        "startY": 50.355000000000004,
+        "endX": 3704.49,
+        "endY": 42.855000000000004,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_8",
+        "ticket": 220008
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3704.49,
+        "startY": 42.855000000000004,
+        "endX": 3671.99,
+        "endY": 55.355000000000004,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_9",
+        "ticket": 220009
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3671.99,
+        "startY": 55.355000000000004,
+        "endX": 3605.51,
+        "endY": 95.355,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_10",
+        "ticket": 220010
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3985.51,
+        "startY": 95.355,
+        "endX": 3800.51,
+        "endY": 92.855,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_11",
+        "ticket": 220011
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3800.51,
+        "startY": 92.855,
+        "endX": 3794.49,
+        "endY": 95.355,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_12",
+        "ticket": 220012
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 4174.49,
+        "startY": 95.355,
+        "endX": 4119.49,
+        "endY": 50.355000000000004,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_13",
+        "ticket": 220013
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 4119.49,
+        "startY": 50.355000000000004,
+        "endX": 4084.49,
+        "endY": 42.855000000000004,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_14",
+        "ticket": 220014
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 4084.49,
+        "startY": 42.855000000000004,
+        "endX": 4051.99,
+        "endY": 55.355000000000004,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_15",
+        "ticket": 220015
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 4051.99,
+        "startY": 55.355000000000004,
+        "endX": 3985.51,
+        "endY": 95.355,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_16",
+        "ticket": 220016
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 3985.51,
+        "startY": 264.645,
+        "endX": 3985.51,
+        "endY": 95.355,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_17",
+        "ticket": 220017
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 4174.49,
+        "startY": 264.645,
+        "endX": 4189.49,
+        "endY": 207.14499999999998,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_18",
+        "ticket": 220018
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 4189.49,
+        "startY": 207.14499999999998,
+        "endX": 4179.49,
+        "endY": 104.64499999999998,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe36_19",
+        "ticket": 220019
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 15,
+        "startX": 4179.49,
+        "startY": 104.64499999999998,
+        "endX": 4174.49,
+        "endY": 95.355,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "report": [
+    {
+      "start": "J14.1",
+      "end": "J14.3",
+      "accepted": false,
+      "launch": {
+        "pad": "J14.1",
+        "center": [
+          3605.51,
+          264.645
+        ],
+        "point": [
+          3592.26,
+          254.89499999999998
+        ],
+        "width": 20,
+        "minimumDataGap": 57.27538336895177,
+        "containedInExistingPad": true
+      }
+    },
+    {
+      "start": "J14.2",
+      "end": "J14.4",
+      "accepted": true,
+      "launch": null,
+      "points": [
+        [
+          3794.49,
+          264.645
+        ],
+        [
+          3809.49,
+          222.14499999999998
+        ],
+        [
+          3799.49,
+          104.64499999999998
+        ],
+        [
+          3794.49,
+          95.355
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "start": "J14.4",
+      "end": "J14.3",
+      "accepted": true,
+      "launch": null,
+      "points": [
+        [
+          3794.49,
+          95.355
+        ],
+        [
+          3739.49,
+          50.355000000000004
+        ],
+        [
+          3704.49,
+          42.855000000000004
+        ],
+        [
+          3671.99,
+          55.355000000000004
+        ],
+        [
+          3605.51,
+          95.355
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "start": "J17.3",
+      "end": "J14.4",
+      "accepted": true,
+      "launch": null,
+      "points": [
+        [
+          3985.51,
+          95.355
+        ],
+        [
+          3800.51,
+          92.855
+        ],
+        [
+          3794.49,
+          95.355
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "start": "J17.4",
+      "end": "J17.3",
+      "accepted": true,
+      "launch": null,
+      "points": [
+        [
+          4174.49,
+          95.355
+        ],
+        [
+          4119.49,
+          50.355000000000004
+        ],
+        [
+          4084.49,
+          42.855000000000004
+        ],
+        [
+          4051.99,
+          55.355000000000004
+        ],
+        [
+          3985.51,
+          95.355
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "start": "J17.1",
+      "end": "J17.3",
+      "accepted": true,
+      "launch": null,
+      "points": [
+        [
+          3985.51,
+          264.645
+        ],
+        [
+          3985.51,
+          95.355
+        ]
+      ],
+      "issues": []
+    },
+    {
+      "start": "J17.2",
+      "end": "J17.4",
+      "accepted": true,
+      "launch": null,
+      "points": [
+        [
+          4174.49,
+          264.645
+        ],
+        [
+          4189.49,
+          207.14499999999998
+        ],
+        [
+          4179.49,
+          104.64499999999998
+        ],
+        [
+          4174.49,
+          95.355
+        ]
+      ],
+      "issues": []
+    }
+  ]
+}

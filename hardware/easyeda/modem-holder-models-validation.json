@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-27",
+  "electricalComponentPositionsPreserved": true,
+  "electricalPadNetsPreserved": true,
+  "schematicDRC": {
+    "fatal": 0,
+    "error": 0,
+    "warning": 0
+  },
+  "fuseHolder": {
+    "ref": "F1",
+    "lcsc": "C3131",
+    "stockObserved": 87178,
+    "footprint": "9526763bc8d9425f",
+    "pitchMM": 22,
+    "finishedLibrarySlotMM": [
+      1.7,
+      0.6
+    ],
+    "cartridge": "separate T1A 250VAC ceramic HBC 5x20 leadless, final MPN TBD",
+    "manufacturerDrawing": "C3131-manufacturer.pdf",
+    "review": "Manufacturer tab width is 1.5±0.2mm, thickness 0.35±0.05mm; verify finished-slot allowance at upper tolerance before fabrication."
+  },
+  "models": [
+    {
+      "h": {
+        "type": "COMPONENT",
+        "ticket": 1480,
+        "id": "ad8b895ac4d8d5ea"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "layerId": 1,
+        "x": 695,
+        "y": 1025,
+        "angle": 180,
+        "attrs": {
+          "Name": "5x20 HOLDER; FIT T1A 250VAC",
+          "Unique ID": "gge2",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1ed26000000000017"
+        },
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "COMPONENT",
+        "ticket": 1487,
+        "id": "7493f4728229cf23"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": "1",
+        "layerId": 1,
+        "x": 3942.6378,
+        "y": 2368.1496,
+        "angle": 0,
+        "attrs": {
+          "Unique ID": "UNIQUEMODEM1",
+          "Add into BOM": "no",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "",
+          "3D Model Transform": "1181.10234,192.91339,2005.90545,0,90,0,0,1003.93701,139.76378"
+        },
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "COMPONENT",
+        "ticket": 1491,
+        "id": "5881288c83874a97"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": "1",
+        "layerId": 1,
+        "x": 3942.6378,
+        "y": 1364.2126,
+        "angle": 0,
+        "attrs": {
+          "Unique ID": "gge15",
+          "3D Model": "e182306d407e47d5a83dc4e075ccbea7|user",
+          "3D Model Title": "MM60-52B1-E1-R650",
+          "3D Model Transform": "1169.2890300369263,263.7790065705776,393.7,180,0,0,0,0,0",
+          "Reuse Block": "",
+          "Group ID": "",
+          "Channel ID": "$1I51"
+        },
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "modemModelLimit": "EG25G Mini PCIe library model used as mechanical reference for EG25-GL; verify actual GL hardware/RF fittings. MODEM1 is a PCB-only model anchor; preserve it when reviewing future schematic-to-PCB imports.",
+  "routingPairs": [
+    {
+      "h": {
+        "type": "NET",
+        "ticket": 149,
+        "id": "[\"NET\",\"USB_HOST_DP\"]"
+      },
+      "b": {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": "USB_HOST",
+        "isPositiveNet": true,
+        "equalLengthGroupName": null
+      }
+    },
+    {
+      "h": {
+        "type": "NET",
+        "ticket": 150,
+        "id": "[\"NET\",\"USB_HOST_DM\"]"
+      },
+      "b": {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": "USB_HOST",
+        "isPositiveNet": false,
+        "equalLengthGroupName": null
+      }
+    },
+    {
+      "h": {
+        "type": "NET",
+        "ticket": 151,
+        "id": "[\"NET\",\"USB_SERVICE_DP\"]"
+      },
+      "b": {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": "USB_SERVICE",
+        "isPositiveNet": true,
+        "equalLengthGroupName": null
+      }
+    },
+    {
+      "h": {
+        "type": "NET",
+        "ticket": 153,
+        "id": "[\"NET\",\"USB_SERVICE_DM\"]"
+      },
+      "b": {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": "USB_SERVICE",
+        "isPositiveNet": false,
+        "equalLengthGroupName": null
+      }
+    },
+    {
+      "h": {
+        "type": "NET",
+        "ticket": 158,
+        "id": "[\"NET\",\"USB_CONSOLE_DM\"]"
+      },
+      "b": {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": "USB_CONSOLE",
+        "isPositiveNet": false,
+        "equalLengthGroupName": null
+      }
+    },
+    {
+      "h": {
+        "type": "NET",
+        "ticket": 159,
+        "id": "[\"NET\",\"USB_CONSOLE_DP\"]"
+      },
+      "b": {
+        "netType": null,
+        "specialColor": null,
+        "retLine": true,
+        "differentialName": "USB_CONSOLE",
+        "isPositiveNet": true,
+        "equalLengthGroupName": null
+      }
+    }
+  ],
+  "pcbRelease": "Unrouted. Existing checks, mains safety review and assembly tolerance review remain. No fabrication release."
+}

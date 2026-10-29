@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "msg": null,
+  "status": 0,
+  "data": [
+    {
+      "resource_id": 1,
+      "resource_name": "7628N指导说明书",
+      "resource_url": "/download/HLK-7628N/1/7628N指导说明书.zip",
+      "filesuffix": ".zip"
+    },
+    {
+      "resource_id": 1,
+      "resource_name": "openwrt版本文档",
+      "resource_url": "/download/HLK-7628N/1/openwrt版本文档.zip",
+      "filesuffix": ".zip"
+    },
+    {
+      "resource_id": 1,
+      "resource_name": "openwrt模块升级方法",
+      "resource_url": "/download/HLK-7628N/1/openwrt模块升级方法.pdf",
+      "filesuffix": ".pdf"
+    },
+    {
+      "resource_id": 1,
+      "resource_name": "海凌科贴片模块回流焊生产建议V1.4.pdf",
+      "resource_url": "/download/HLK-7628N/1/海凌科贴片模块回流焊生产建议V1.4.pdf",
+      "filesuffix": ".pdf"
+    },
+    {
+      "resource_id": 1,
+      "resource_name": "HLK-7628N硬件手册V2.6.pdf",
+      "resource_url": "/download/HLK-7628N/1/HLK-7628N硬件手册V2.6.pdf",
+      "filesuffix": ".pdf"
+    },
+    {
+      "resource_id": 1,
+      "resource_name": "HLK-7628N转接板与底板设计.rar",
+      "resource_url": "/download/HLK-7628N/1/HLK-7628N转接板与底板设计.rar",
+      "filesuffix": ".rar"
+    },
+    {
+      "resource_id": 3,
+      "resource_name": "TCP&UDP测试工具",
+      "resource_url": "/download/HLK-7628N/3/TCP&UDP测试工具.rar",
+      "filesuffix": ".rar"
+    },
+    {
+      "resource_id": 3,
+      "resource_name": "串口&TCP_UDP调试工具 (2)",
+      "resource_url": "/download/HLK-7628N/3/串口&TCP_UDP调试工具 (2).rar",
+      "filesuffix": ".rar"
+    },
+    {
+      "resource_id": 3,
+      "resource_name": "串口配置工具和UDP搜索工具",
+      "resource_url": "/download/HLK-7628N/3/串口配置工具和UDP搜索工具.rar",
+      "filesuffix": ".rar"
+    }
+  ],
+  "extdata": null,
+  "code": 0,
+  "errCode": 0,
+  "locate": null
+}

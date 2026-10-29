@@ -1,0 +1,3190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\samd.ATECHLLC\Documents\ChatGPT\PSU\hardware\rev-a\kicad\walchem_gateway.kicad_sch</source>
+    <date>2026-10-27T08:42:17-0400</date>
+    <tool>Eeschema 9.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Walchem cellular gateway - schematic index</title>
+        <company/>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>walchem_gateway.kicad_sch</source>
+        <comment number="1" value="120 VAC / EG25-GL / 4 LAN / Wi-Fi + BLE / NO LoRa"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/01 - 120 VAC input and isolated 5 V supply/" tstamps="/afa7d4bd-89cb-5512-aed2-2a0a382b9fbe/">
+      <title_block>
+        <title>01 - 120 VAC input and isolated 5 V supply</title>
+        <company>Walchem connectivity gateway</company>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>01_ac_input.kicad_sch</source>
+        <comment number="1" value="Not released for fabrication; see design-review.md"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/">
+      <title_block>
+        <title>03 - Router module and I2C management</title>
+        <company>Walchem connectivity gateway</company>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>03_router_control.kicad_sch</source>
+        <comment number="1" value="Not released for fabrication; see design-review.md"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/">
+      <title_block>
+        <title>05 - EG25-GL socket, USB isolation and reset</title>
+        <company>Walchem connectivity gateway</company>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>05_cellular_usb.kicad_sch</source>
+        <comment number="1" value="Not released for fabrication; see design-review.md"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/">
+      <title_block>
+        <title>07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART</title>
+        <company>Walchem connectivity gateway</company>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>07_wifi_ble.kicad_sch</source>
+        <comment number="1" value="Not released for fabrication; see design-review.md"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/">
+      <title_block>
+        <title>02 - Separate 3.3 V router and modem supplies</title>
+        <company>Walchem connectivity gateway</company>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>02_dc_power.kicad_sch</source>
+        <comment number="1" value="Not released for fabrication; see design-review.md"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/">
+      <title_block>
+        <title>04 - Four 10/100 LAN ports with integrated magnetics</title>
+        <company>Walchem connectivity gateway</company>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>04_ethernet.kicad_sch</source>
+        <comment number="1" value="Not released for fabrication; see design-review.md"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/">
+      <title_block>
+        <title>06 - Switched physical SIM and eUICC (one active)</title>
+        <company>Walchem connectivity gateway</company>
+        <rev>A1 - Engineering review</rev>
+        <date>2026-10-27</date>
+        <source>06_sim_selection.kicad_sch</source>
+        <comment number="1" value="Not released for fabrication; see design-review.md"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47u 16V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">47u 16V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="47u 16V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="01 - 120 VAC input and isolated 5 V supply"/>
+      <property name="Sheetfile" value="01_ac_input.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 - 120 VAC input and isolated 5 V supply/" tstamps="/afa7d4bd-89cb-5512-aed2-2a0a382b9fbe/"/>
+      <tstamps>538ba871-7ca0-5e2f-968b-5474a8d15b53</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n 16V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n 16V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="01 - 120 VAC input and isolated 5 V supply"/>
+      <property name="Sheetfile" value="01_ac_input.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/01 - 120 VAC input and isolated 5 V supply/" tstamps="/afa7d4bd-89cb-5512-aed2-2a0a382b9fbe/"/>
+      <tstamps>88cef8d3-b62f-5cac-aac0-4ef4f09f69b1</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>T1A 250VAC - REVIEW</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">T1A 250VAC - REVIEW</field>
+        <field name="DesignStatus">Fuse interrupt rating / inrush coordination and holder unresolved</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="Fuse" description="Fuse"/>
+      <property name="MPN" value="T1A 250VAC - REVIEW"/>
+      <property name="DesignStatus" value="Fuse interrupt rating / inrush coordination and holder unresolved"/>
+      <property name="Sheetname" value="01 - 120 VAC input and isolated 5 V supply"/>
+      <property name="Sheetfile" value="01_ac_input.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/01 - 120 VAC input and isolated 5 V supply/" tstamps="/afa7d4bd-89cb-5512-aed2-2a0a382b9fbe/"/>
+      <tstamps>9908b646-7025-5d3d-a447-fda87c7b8631</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>AC L / N / PE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">AC L / N / PE</field>
+        <field name="DesignStatus">Mains-rated touch-safe terminal and enclosure earth arrangement unresolved</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="AC L / N / PE"/>
+      <property name="DesignStatus" value="Mains-rated touch-safe terminal and enclosure earth arrangement unresolved"/>
+      <property name="Sheetname" value="01 - 120 VAC input and isolated 5 V supply"/>
+      <property name="Sheetfile" value="01_ac_input.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/01 - 120 VAC input and isolated 5 V supply/" tstamps="/afa7d4bd-89cb-5512-aed2-2a0a382b9fbe/"/>
+      <tstamps>b13a3091-1f23-5fb4-b2af-b6d59a27994c</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>IRM-20-5</value>
+      <footprint>Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</footprint>
+      <datasheet>http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</datasheet>
+      <fields>
+        <field name="MPN">IRM-20-5</field>
+        <field name="DesignStatus">Pin map verified; thermal and mains integration review pending</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</field>
+        <field name="Datasheet">http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="IRM-20-5" description="5V, 4A, 20W, Isolated, AC-DC, 219A(IRM20)"/>
+      <property name="MPN" value="IRM-20-5"/>
+      <property name="DesignStatus" value="Pin map verified; thermal and mains integration review pending"/>
+      <property name="Sheetname" value="01 - 120 VAC input and isolated 5 V supply"/>
+      <property name="Sheetfile" value="01_ac_input.kicad_sch"/>
+      <property name="ki_keywords" value="Miniature Module-type Power Supply MeanWell"/>
+      <property name="ki_fp_filters" value="Converter*ACDC*MeanWell*IRM*20*THT*"/>
+      <sheetpath names="/01 - 120 VAC input and isolated 5 V supply/" tstamps="/afa7d4bd-89cb-5512-aed2-2a0a382b9fbe/"/>
+      <tstamps>79253dba-de85-5ede-ab33-56b7beaf7168</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>917ebbeb-40a2-5ea5-bc75-f2cd16787a0b</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>22u 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">22u 10V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="22u 10V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>0e6e4d76-25b1-542e-8d58-cc4df199b938</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>CONSOLE 3V3 TTL</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CONSOLE 3V3 TTL</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="CONSOLE 3V3 TTL"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>ab2af799-d69a-59ca-8390-1bb1706ba575</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">4.7k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="4.7k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>a65ff9c7-6830-5697-9753-c985b8ef750a</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">4.7k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="4.7k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>bce13d13-b9c1-50bf-9940-7a8c5905e3c8</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>c4291bf9-ef73-50fa-b8d7-ebbacfeae30e</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>ebee8299-391a-5b0f-8e5a-d3f8e8ce9be3</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>3f4a99d0-8c6e-526d-be91-70650289455b</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>0cb9a751-f50a-5427-9b77-ece4659ee712</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>ROUTER RESET</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">ROUTER RESET</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="ROUTER RESET"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>3f157ca8-7bd7-5725-81fd-b5b367ae3714</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>HLK-7628N 128M/32M</value>
+      <footprint>Gateway:HLK7628N_56</footprint>
+      <datasheet>https://h.hlktech.com/download/HLK-7628N/1/HLK-7628N%E7%A1%AC%E4%BB%B6%E6%89%8B%E5%86%8CV2.6.pdf</datasheet>
+      <fields>
+        <field name="MPN">HLK-7628N 128M/32M</field>
+        <field name="DesignStatus">Physical pins verified; boot-straps left unloaded; footprint verification pending</field>
+        <field name="Footprint">Gateway:HLK7628N_56</field>
+        <field name="Datasheet">https://h.hlktech.com/download/HLK-7628N/1/HLK-7628N%E7%A1%AC%E4%BB%B6%E6%89%8B%E5%86%8CV2.6.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="HLK7628N" description=""/>
+      <property name="MPN" value="HLK-7628N 128M/32M"/>
+      <property name="DesignStatus" value="Physical pins verified; boot-straps left unloaded; footprint verification pending"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>88b14c30-2507-5de6-a9a2-67c4b4c86991</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MCP23008-E/SO</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf</datasheet>
+      <fields>
+        <field name="MPN">MCP23008-E/SO</field>
+        <field name="DesignStatus">18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs</field>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="MCP23008-xSO" description="8-bit I/O expander, I2C, interrupts, SOIC-18"/>
+      <property name="MPN" value="MCP23008-E/SO"/>
+      <property name="DesignStatus" value="18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs"/>
+      <property name="Sheetname" value="03 - Router module and I2C management"/>
+      <property name="Sheetfile" value="03_router_control.kicad_sch"/>
+      <property name="ki_keywords" value="I2C parallel port expander"/>
+      <property name="ki_fp_filters" value="SOIC*7.5x11.6mm*P1.27mm*"/>
+      <sheetpath names="/03 - Router module and I2C management/" tstamps="/9a0a98fa-906f-5020-a6b4-daa03c80b493/"/>
+      <tstamps>f481630c-5110-5427-9657-3a400c23e9c5</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>35c5e131-c557-53b7-9bfc-4dd0ddad2cff</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>4d37a824-aa71-5fb6-80fb-db30f766dbb8</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>EG25-GL Mini PCIe socket</value>
+      <datasheet>https://www.quectel.com/product/lte-eg25-gl-mini-pcie/</datasheet>
+      <fields>
+        <field name="MPN">EG25-GL Mini PCIe socket</field>
+        <field name="DesignStatus">52-pin modem map verified; exact connector footprint + controlled modem guide are release gates</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.quectel.com/product/lte-eg25-gl-mini-pcie/</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="EG25GL_MiniPCIe" description=""/>
+      <property name="MPN" value="EG25-GL Mini PCIe socket"/>
+      <property name="DesignStatus" value="52-pin modem map verified; exact connector footprint + controlled modem guide are release gates"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>3d082a39-f745-5900-ba48-26348c56ee70</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">2N7002</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="Q_NMOS_GSD" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="2N7002"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>2bea17ba-918b-5f33-94b3-0ba7c03f52ea</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">1k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="1k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>f4ca4114-98f5-584f-9a38-79717276e9b8</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>1c56900f-f27a-552a-a1af-c9d41af08bec</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>TS3USB221ARSER</value>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ts3usb221a.pdf</datasheet>
+      <fields>
+        <field name="MPN">TS3USB221ARSER</field>
+        <field name="DesignStatus">Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ts3usb221a.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="TS3USB221ARSE" description=""/>
+      <property name="MPN" value="TS3USB221ARSER"/>
+      <property name="DesignStatus" value="Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>f6cc9643-b9ff-58ba-8c77-ca6b23851b89</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TPD2EUSB30DRTR</value>
+      <footprint>Package_TO_SOT_SMD:Texas_DRT-3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPD2EUSB30DRTR</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Package_TO_SOT_SMD:Texas_DRT-3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="TPD2EUSB30" description="2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3"/>
+      <property name="MPN" value="TPD2EUSB30DRTR"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="05 - EG25-GL socket, USB isolation and reset"/>
+      <property name="Sheetfile" value="05_cellular_usb.kicad_sch"/>
+      <property name="ki_keywords" value="ESD protection USB 3.0"/>
+      <property name="ki_fp_filters" value="Texas*DRT*"/>
+      <sheetpath names="/05 - EG25-GL socket, USB isolation and reset/" tstamps="/cb97f1d3-f282-5632-8e1b-e3f736306a63/"/>
+      <tstamps>c9e32c8f-db57-5bb6-87e2-1c7bb572d7cd</tstamps>
+    </comp>
+    <comp ref="C80">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">1n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="1n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>58751a3c-6fcb-51be-9263-eccbfe2dbe4d</tstamps>
+    </comp>
+    <comp ref="C81">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">1u</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="1u"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>d3356172-9dd3-5add-b6c0-1d8093a63fd9</tstamps>
+    </comp>
+    <comp ref="C82">
+      <value>10u 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">10u 10V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="10u 10V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>def0e1f0-77f9-5e40-82f4-7e1b79a5172a</tstamps>
+    </comp>
+    <comp ref="C83">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>643af88d-af26-5915-be42-2c1d0947b701</tstamps>
+    </comp>
+    <comp ref="C84">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>df02caa7-28d4-5fc1-9745-ba276784c545</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>AUX UART / SERVICE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">AUX UART / SERVICE</field>
+        <field name="DesignStatus">3.3V TTL service header; disable host UART buffer before external programming; no 5V adapter</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="AUX UART / SERVICE"/>
+      <property name="DesignStatus" value="3.3V TTL service header; disable host UART buffer before external programming; no 5V adapter"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>13183a65-2995-51b6-b510-66c0d0e40c58</tstamps>
+    </comp>
+    <comp ref="R80">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>97184a1c-069e-5424-b59f-d69b5457fb9e</tstamps>
+    </comp>
+    <comp ref="R81">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">10k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="10k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>8fc5cc40-df4a-50df-8d75-844e11318035</tstamps>
+    </comp>
+    <comp ref="R82">
+      <value>10k - DNP SERVICE</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">10k - DNP SERVICE</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="10k - DNP SERVICE"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>bfd00435-df78-53c2-b78f-cd614fb876ba</tstamps>
+    </comp>
+    <comp ref="R83">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>1cba1f0a-323e-550d-b3f3-de933b97b4c7</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>WIFI SERVICE - DNP</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">WIFI SERVICE - DNP</field>
+        <field name="DesignStatus">Optional GPIO5 service button; download strap behavior not assumed</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="MPN" value="WIFI SERVICE - DNP"/>
+      <property name="DesignStatus" value="Optional GPIO5 service button; download strap behavior not assumed"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>52b9a898-09b7-587c-9e2d-9b2df30d4a58</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>Ai-WB2-13</value>
+      <footprint>Gateway:AiWB2_13</footprint>
+      <datasheet>https://en.ai-thinker.com/Uploads/file/20220930/20220930121135_29921.pdf</datasheet>
+      <fields>
+        <field name="MPN">Ai-WB2-13</field>
+        <field name="DesignStatus">Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used</field>
+        <field name="Footprint">Gateway:AiWB2_13</field>
+        <field name="Datasheet">https://en.ai-thinker.com/Uploads/file/20220930/20220930121135_29921.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="AiWB2_13" description=""/>
+      <property name="MPN" value="Ai-WB2-13"/>
+      <property name="DesignStatus" value="Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>0295f2a8-6b76-50c8-9360-1466a5843cd5</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>TPS22918DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps22918.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS22918DBVR</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps22918.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="TPS22918DBV" description=""/>
+      <property name="MPN" value="TPS22918DBVR"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>4943e3ad-4f1e-5323-8f21-99ea261e7984</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>SN74LVC2G125DCUR</value>
+      <footprint>Package_SO:VSSOP-8_2.3x2mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc2g125.pdf</datasheet>
+      <fields>
+        <field name="MPN">SN74LVC2G125DCUR</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Package_SO:VSSOP-8_2.3x2mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc2g125.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="LVC2G125DCU" description=""/>
+      <property name="MPN" value="SN74LVC2G125DCUR"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART"/>
+      <property name="Sheetfile" value="07_wifi_ble.kicad_sch"/>
+      <sheetpath names="/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/" tstamps="/d3623747-eee9-56c4-bfd4-d5800771cdfb/"/>
+      <tstamps>689dc1ff-00ae-52be-acc4-9bc6fa4674fa</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10u 16V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">10u 16V X7R</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="10u 16V X7R"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>8d248543-6dea-57e4-be92-beddcda342d3</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n 16V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n 16V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>e9e72c1b-8d62-5869-a5ac-89ef3946a2e5</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>3.3n 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">3.3n 25V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="3.3n 25V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>ba43bca1-4e44-5554-b892-8725ca5b92b1</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>22u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">22u 10V X7R</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="22u 10V X7R"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>5894b056-7f4d-5175-9dc7-51cfce8ec83f</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10u 16V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">10u 16V X7R</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="10u 16V X7R"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>85983749-309c-51e4-b3e9-cbd80d154a9d</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>100n 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n 16V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n 16V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>c80cfffa-d512-5b9c-bd14-fceff05edc96</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>3.3n 25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">3.3n 25V</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="3.3n 25V"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>1fda6210-f1aa-5fc0-8d05-c1300734b488</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>22u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">22u 10V X7R</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="22u 10V X7R"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>e72bef2a-166e-5dfd-a625-fc1d2fcb5156</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>47u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">47u 10V X7R</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="47u 10V X7R"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>695a5212-4c74-5320-b83d-3cccebf10869</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>47u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">47u 10V X7R</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="47u 10V X7R"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>4f395691-3efb-542d-81ea-4d5e6669cd5a</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH / &gt;=4A Isat</value>
+      <footprint>Inductor_SMD:L_Coilcraft_XxL4020</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">XFL4020-222MEB</field>
+        <field name="DesignStatus">Reference family; hot Isat and DCR review pending</field>
+        <field name="Footprint">Inductor_SMD:L_Coilcraft_XxL4020</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="L" description="Inductor"/>
+      <property name="MPN" value="XFL4020-222MEB"/>
+      <property name="DesignStatus" value="Reference family; hot Isat and DCR review pending"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>c2acfe48-f1e0-5e55-b8be-da832402fad1</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH / &gt;=4A Isat</value>
+      <footprint>Inductor_SMD:L_Coilcraft_XxL4020</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">XFL4020-222MEB</field>
+        <field name="DesignStatus">Reference family; hot Isat and DCR review pending</field>
+        <field name="Footprint">Inductor_SMD:L_Coilcraft_XxL4020</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="L" description="Inductor"/>
+      <property name="MPN" value="XFL4020-222MEB"/>
+      <property name="DesignStatus" value="Reference family; hot Isat and DCR review pending"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>22f0e3ee-1aa5-5863-bc8e-fcea99d437d0</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="MPN">2N7002</field>
+        <field name="DesignStatus">Gate1/source2/drain3; EN open-drain pull-down</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="Q_NMOS_GSD" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="MPN" value="2N7002"/>
+      <property name="DesignStatus" value="Gate1/source2/drain3; EN open-drain pull-down"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>a2d30d02-43f4-5bb0-a321-d4fca6d97e6f</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>3fbbe826-cc40-5013-bcae-b62020349c68</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">1k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="1k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>248341c0-6f7f-57d9-8984-4a02b009f93e</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="100k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>ffb559e8-83cd-5ea8-8438-3c26e406bffe</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS62132RGTR</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS62132RGTR</field>
+        <field name="DesignStatus">Pin map/reference topology verified; load transient and exact L/C qualification pending</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62130.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="TPS62132" description="3A Step-Down Converter with DCS-Control, Fixed 3.3V Output Voltage, 3-17V Input Voltage, QFN-16"/>
+      <property name="MPN" value="TPS62132RGTR"/>
+      <property name="DesignStatus" value="Pin map/reference topology verified; load transient and exact L/C qualification pending"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="step-down dcdc"/>
+      <property name="ki_fp_filters" value="VQFN*1EP*3x3mm*P0.5mm*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>34b0ce37-9c4a-562d-aa0c-4af0be378845</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS62132RGTR</value>
+      <footprint>Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS62132RGTR</field>
+        <field name="DesignStatus">Pin map/reference topology verified; load transient and exact L/C qualification pending</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62130.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="TPS62132" description="3A Step-Down Converter with DCS-Control, Fixed 3.3V Output Voltage, 3-17V Input Voltage, QFN-16"/>
+      <property name="MPN" value="TPS62132RGTR"/>
+      <property name="DesignStatus" value="Pin map/reference topology verified; load transient and exact L/C qualification pending"/>
+      <property name="Sheetname" value="02 - Separate 3.3 V router and modem supplies"/>
+      <property name="Sheetfile" value="02_dc_power.kicad_sch"/>
+      <property name="ki_keywords" value="step-down dcdc"/>
+      <property name="ki_fp_filters" value="VQFN*1EP*3x3mm*P0.5mm*"/>
+      <sheetpath names="/02 - Separate 3.3 V router and modem supplies/" tstamps="/9ce3624f-31f9-5fe7-8f56-b1287f617b85/"/>
+      <tstamps>0d773b84-140d-563b-952d-1aabaeb2da07</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>70ac910f-928b-52a1-ace3-15a9a862a522</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>f0ac76a7-075e-526d-abbb-e4ff83874cae</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>d72b6831-2374-5468-af36-d87ae467d6a2</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>6b08d1fd-dfc5-5c7b-b00a-52f84211be4c</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>a54a6455-9b55-5a8c-940e-44a32db5166a</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>97273d24-890d-550b-8cd8-cfce73f797c2</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>ff004b3b-6527-50ec-ad7f-e3246a9c044a</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>100n - DNP CT OPTION</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n - DNP CT OPTION</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n - DNP CT OPTION"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>15b152a4-b9da-5b7d-a570-171dba5820ed</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>7499010121A</value>
+      <footprint>Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/7499010121A.pdf</datasheet>
+      <fields>
+        <field name="MPN">7499010121A</field>
+        <field name="DesignStatus">Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates</field>
+        <field name="Footprint">Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/7499010121A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="MagJack7499010121A" description=""/>
+      <property name="MPN" value="7499010121A"/>
+      <property name="DesignStatus" value="Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>dac4e6bf-341b-58aa-aeec-54efcee82759</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>7499010121A</value>
+      <footprint>Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/7499010121A.pdf</datasheet>
+      <fields>
+        <field name="MPN">7499010121A</field>
+        <field name="DesignStatus">Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates</field>
+        <field name="Footprint">Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/7499010121A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="MagJack7499010121A" description=""/>
+      <property name="MPN" value="7499010121A"/>
+      <property name="DesignStatus" value="Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>366ef1cc-c099-5b7f-8bac-ff06e9dfb243</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>7499010121A</value>
+      <footprint>Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/7499010121A.pdf</datasheet>
+      <fields>
+        <field name="MPN">7499010121A</field>
+        <field name="DesignStatus">Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates</field>
+        <field name="Footprint">Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/7499010121A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="MagJack7499010121A" description=""/>
+      <property name="MPN" value="7499010121A"/>
+      <property name="DesignStatus" value="Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>86395770-e2be-52e0-9e55-bded8939f94b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>7499010121A</value>
+      <footprint>Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</footprint>
+      <datasheet>https://www.we-online.com/components/products/datasheet/7499010121A.pdf</datasheet>
+      <fields>
+        <field name="MPN">7499010121A</field>
+        <field name="DesignStatus">Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates</field>
+        <field name="Footprint">Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/7499010121A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="MagJack7499010121A" description=""/>
+      <property name="MPN" value="7499010121A"/>
+      <property name="DesignStatus" value="Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>80344d84-3420-5b61-ab89-97a693c6a35b</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">470</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="470"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>5bbca68c-97dd-5559-930a-7c75b9d0e34a</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">470</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="470"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>b9cde845-2c11-5de3-be03-12aba44c41f6</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">470</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="470"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>99d9af0c-c236-5bb0-880a-5a41f187b5f3</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">470</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="470"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="04 - Four 10/100 LAN ports with integrated magnetics"/>
+      <property name="Sheetfile" value="04_ethernet.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/04 - Four 10/100 LAN ports with integrated magnetics/" tstamps="/11928ca6-2777-5d1a-a03d-dd9f5e8913ee/"/>
+      <tstamps>682412ad-a996-545f-a90c-e5fbe3b745fd</tstamps>
+    </comp>
+    <comp ref="C70">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>2cc20c81-9576-57cc-9631-cdea182191ce</tstamps>
+    </comp>
+    <comp ref="C71">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>08d38a16-ef46-5dc6-ba31-32dee1a3ea8c</tstamps>
+    </comp>
+    <comp ref="C72">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">100n</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="C" description="Unpolarized capacitor"/>
+      <property name="MPN" value="100n"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>c6c30479-ce1e-5b3e-92e2-ca7ebda99fc8</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>NANO SIM - SOCKET TBD</value>
+      <fields>
+        <field name="MPN">NANO SIM - SOCKET TBD</field>
+        <field name="DesignStatus">ISO contact mapping complete; manufacturer pad mapping unresolved</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="NanoSIM_contacts" description=""/>
+      <property name="MPN" value="NANO SIM - SOCKET TBD"/>
+      <property name="DesignStatus" value="ISO contact mapping complete; manufacturer pad mapping unresolved"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>d13431d4-0312-5986-bdec-35cd9994ddd0</tstamps>
+    </comp>
+    <comp ref="R70">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">15k</field>
+        <field name="DesignStatus">Selected; review required</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="R" description="Resistor"/>
+      <property name="MPN" value="15k"/>
+      <property name="DesignStatus" value="Selected; review required"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>48ce9d2a-1b49-57c8-89f2-06ef031c0cf6</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>TS3A44159PWR</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ts3a44159.pdf</datasheet>
+      <fields>
+        <field name="MPN">TS3A44159PWR</field>
+        <field name="DesignStatus">Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ts3a44159.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="SIM_MUX_TS3A44159PW" description=""/>
+      <property name="MPN" value="TS3A44159PWR"/>
+      <property name="DesignStatus" value="Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>b1cf0d11-dd04-5dd2-b73d-b909b26c300c</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>ST4SIM-200M provider SKU TBD</value>
+      <datasheet>https://www.st.com/resource/en/data_brief/st4sim-200m.pdf</datasheet>
+      <fields>
+        <field name="MPN">ST4SIM-200M provider SKU TBD</field>
+        <field name="DesignStatus">MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.st.com/resource/en/data_brief/st4sim-200m.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="eUICC_MFF2_ST4SIM200M" description=""/>
+      <property name="MPN" value="ST4SIM-200M provider SKU TBD"/>
+      <property name="DesignStatus" value="MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>3f93e910-d014-5a96-a1c2-1753212a6c9c</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>TPD4E001DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpd4e001.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPD4E001DBVR</field>
+        <field name="DesignStatus">Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpd4e001.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Gateway" part="TPD4E001DBV" description=""/>
+      <property name="MPN" value="TPD4E001DBVR"/>
+      <property name="DesignStatus" value="Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC"/>
+      <property name="Sheetname" value="06 - Switched physical SIM and eUICC (one active)"/>
+      <property name="Sheetfile" value="06_sim_selection.kicad_sch"/>
+      <sheetpath names="/06 - Switched physical SIM and eUICC (one active)/" tstamps="/b4de9e4c-7d46-5eb9-b4a6-e158181904ac/"/>
+      <tstamps>7e174d89-9fe2-5e43-9968-c052218d6393</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Gateway" part="AiWB2_13">
+      <docs>https://en.ai-thinker.com/Uploads/file/20220930/20220930121135_29921.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AiWB2_13</field>
+        <field name="Footprint">Gateway:AiWB2_13</field>
+        <field name="Datasheet">https://en.ai-thinker.com/Uploads/file/20220930/20220930121135_29921.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="IO14" type="bidirectional"/>
+        <pin num="4" name="IO17" type="bidirectional"/>
+        <pin num="5" name="IO3" type="bidirectional"/>
+        <pin num="6" name="IO4" type="bidirectional"/>
+        <pin num="7" name="IO2_FLASH" type="bidirectional"/>
+        <pin num="8" name="IO8_NC" type="bidirectional"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="IO5_SERVICE" type="bidirectional"/>
+        <pin num="11" name="RXD" type="input"/>
+        <pin num="12" name="TXD" type="output"/>
+        <pin num="13" name="NC_GND_AMBIG" type="no_connect"/>
+        <pin num="14" name="IO1_FLASH" type="bidirectional"/>
+        <pin num="15" name="RST_NC" type="no_connect"/>
+        <pin num="16" name="IO11" type="bidirectional"/>
+        <pin num="17" name="IO12" type="bidirectional"/>
+        <pin num="18" name="NC_GND_AMBIG" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="EG25GL_MiniPCIe">
+      <docs>https://www.quectel.com/product/lte-eg25-gl-mini-pcie/</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EG25GL_MiniPCIe</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.quectel.com/product/lte-eg25-gl-mini-pcie/</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="WAKE_N" type="bidirectional"/>
+        <pin num="2" name="VCC_3V3" type="power_in"/>
+        <pin num="3" name="RESERVED" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="RESERVED" type="no_connect"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="RESERVED" type="no_connect"/>
+        <pin num="8" name="USIM_VDD" type="power_out"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="USIM_DATA" type="bidirectional"/>
+        <pin num="11" name="UART_RX" type="bidirectional"/>
+        <pin num="12" name="USIM_CLK" type="output"/>
+        <pin num="13" name="UART_TX" type="bidirectional"/>
+        <pin num="14" name="USIM_RST" type="output"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="RESERVED" type="no_connect"/>
+        <pin num="17" name="RI" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="RESERVED" type="no_connect"/>
+        <pin num="20" name="W_DISABLE_N" type="input"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="PERST_N" type="input"/>
+        <pin num="23" name="UART_CTS" type="bidirectional"/>
+        <pin num="24" name="RESERVED" type="no_connect"/>
+        <pin num="25" name="UART_RTS" type="bidirectional"/>
+        <pin num="26" name="GND" type="power_in"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="NC" type="no_connect"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="I2C_SCL" type="bidirectional"/>
+        <pin num="31" name="DTR" type="bidirectional"/>
+        <pin num="32" name="I2C_SDA" type="bidirectional"/>
+        <pin num="33" name="RESERVED" type="no_connect"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="USB_DM" type="bidirectional"/>
+        <pin num="37" name="GND" type="power_in"/>
+        <pin num="38" name="USB_DP" type="bidirectional"/>
+        <pin num="39" name="VCC_3V3" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+        <pin num="41" name="VCC_3V3" type="power_in"/>
+        <pin num="42" name="LED_WWAN_N" type="bidirectional"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="USIM_PRESENCE" type="bidirectional"/>
+        <pin num="45" name="PCM_CLK" type="bidirectional"/>
+        <pin num="46" name="RESERVED" type="no_connect"/>
+        <pin num="47" name="PCM_DOUT" type="bidirectional"/>
+        <pin num="48" name="NC" type="no_connect"/>
+        <pin num="49" name="PCM_DIN" type="bidirectional"/>
+        <pin num="50" name="GND" type="power_in"/>
+        <pin num="51" name="PCM_SYNC" type="bidirectional"/>
+        <pin num="52" name="VCC_3V3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="HLK7628N">
+      <docs>https://h.hlktech.com/download/HLK-7628N/1/HLK-7628N%E7%A1%AC%E4%BB%B6%E6%89%8B%E5%86%8CV2.6.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HLK7628N</field>
+        <field name="Footprint">Gateway:HLK7628N_56</field>
+        <field name="Datasheet">https://h.hlktech.com/download/HLK-7628N/1/HLK-7628N%E7%A1%AC%E4%BB%B6%E6%89%8B%E5%86%8CV2.6.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="3V3" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SPI_CS0" type="bidirectional"/>
+        <pin num="6" name="REF_CLK0" type="bidirectional"/>
+        <pin num="7" name="PERST_N" type="bidirectional"/>
+        <pin num="8" name="WDT_RST_N" type="bidirectional"/>
+        <pin num="9" name="EPHY_LED4" type="bidirectional"/>
+        <pin num="10" name="EPHY_LED3" type="bidirectional"/>
+        <pin num="11" name="EPHY_LED2" type="bidirectional"/>
+        <pin num="12" name="EPHY_LED1" type="bidirectional"/>
+        <pin num="13" name="EPHY_LED0" type="bidirectional"/>
+        <pin num="14" name="PORST_N" type="input"/>
+        <pin num="15" name="UART_TXD1" type="output"/>
+        <pin num="16" name="UART_RXD1" type="input"/>
+        <pin num="17" name="I2S_SDI" type="bidirectional"/>
+        <pin num="18" name="I2S_SDO" type="bidirectional"/>
+        <pin num="19" name="I2S_WS" type="bidirectional"/>
+        <pin num="20" name="I2S_CLK" type="bidirectional"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ANT_UNLINKED" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="I2C_SCLK" type="bidirectional"/>
+        <pin num="25" name="I2C_SD" type="bidirectional"/>
+        <pin num="26" name="SPI_CS1" type="bidirectional"/>
+        <pin num="27" name="SPI_CLK" type="bidirectional"/>
+        <pin num="28" name="SPI_MISO" type="bidirectional"/>
+        <pin num="29" name="SPI_MOSI" type="bidirectional"/>
+        <pin num="30" name="GPIO0" type="bidirectional"/>
+        <pin num="31" name="UART_TXD0" type="output"/>
+        <pin num="32" name="UART_RXD0" type="input"/>
+        <pin num="33" name="WLED_N" type="bidirectional"/>
+        <pin num="34" name="MDI_RP_P0" type="bidirectional"/>
+        <pin num="35" name="MDI_RN_P0" type="bidirectional"/>
+        <pin num="36" name="MDI_TP_P0" type="bidirectional"/>
+        <pin num="37" name="MDI_TN_P0" type="bidirectional"/>
+        <pin num="38" name="MDI_TP_P1" type="bidirectional"/>
+        <pin num="39" name="MDI_TN_P1" type="bidirectional"/>
+        <pin num="40" name="MDI_RP_P1" type="bidirectional"/>
+        <pin num="41" name="MDI_RN_P1" type="bidirectional"/>
+        <pin num="42" name="MDI_RP_P2" type="bidirectional"/>
+        <pin num="43" name="MDI_RN_P2" type="bidirectional"/>
+        <pin num="44" name="MDI_TP_P2" type="bidirectional"/>
+        <pin num="45" name="MDI_TN_P2" type="bidirectional"/>
+        <pin num="46" name="MDI_TP_P3" type="bidirectional"/>
+        <pin num="47" name="MDI_TN_P3" type="bidirectional"/>
+        <pin num="48" name="MDI_RP_P3" type="bidirectional"/>
+        <pin num="49" name="MDI_RN_P3" type="bidirectional"/>
+        <pin num="50" name="MDI_RP_P4" type="bidirectional"/>
+        <pin num="51" name="MDI_RN_P4" type="bidirectional"/>
+        <pin num="52" name="MDI_TP_P4" type="bidirectional"/>
+        <pin num="53" name="MDI_TN_P4" type="bidirectional"/>
+        <pin num="54" name="USB_DP" type="bidirectional"/>
+        <pin num="55" name="USB_DM" type="bidirectional"/>
+        <pin num="56" name="GND" type="power_in"/>
+        <pin num="EP1" name="THERMAL_GND" type="power_in"/>
+        <pin num="EP2" name="THERMAL_GND" type="power_in"/>
+        <pin num="EP3" name="THERMAL_GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="IRM-20-5">
+      <description>5V, 4A, 20W, Isolated, AC-DC, 219A(IRM20)</description>
+      <docs>http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</docs>
+      <footprints>
+        <fp>Converter*ACDC*MeanWell*IRM*20*THT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">IRM-20-5</field>
+        <field name="Footprint">Converter_ACDC:Converter_ACDC_MeanWell_IRM-20-xx_THT</field>
+        <field name="Datasheet">http://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF</field>
+        <field name="Description">5V, 4A, 20W, Isolated, AC-DC, 219A(IRM20)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/L" type="power_in"/>
+        <pin num="2" name="AC/N" type="power_in"/>
+        <pin num="3" name="-Vo" type="power_out"/>
+        <pin num="4" name="+Vo" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="LVC2G125DCU">
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc2g125.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LVC2G125DCU</field>
+        <field name="Footprint">Package_SO:VSSOP-8_2.3x2mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc2g125.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1OE_N" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="2Y" type="tri_state"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2A" type="input"/>
+        <pin num="6" name="1Y" type="tri_state"/>
+        <pin num="7" name="2OE_N" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="MCP23008-xSO">
+      <description>8-bit I/O expander, I2C, interrupts, SOIC-18</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23008-xSO</field>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf</field>
+        <field name="Description">8-bit I/O expander, I2C, interrupts, SOIC-18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="SDA" type="bidirectional"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A1" type="input"/>
+        <pin num="5" name="A0" type="input"/>
+        <pin num="6" name="~{RESET}" type="input"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="INT" type="output"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="GP0" type="bidirectional"/>
+        <pin num="11" name="GP1" type="bidirectional"/>
+        <pin num="12" name="GP2" type="bidirectional"/>
+        <pin num="13" name="GP3" type="bidirectional"/>
+        <pin num="14" name="GP4" type="bidirectional"/>
+        <pin num="15" name="GP5" type="bidirectional"/>
+        <pin num="16" name="GP6" type="bidirectional"/>
+        <pin num="17" name="GP7" type="bidirectional"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="MagJack7499010121A">
+      <docs>https://www.we-online.com/components/products/datasheet/7499010121A.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MagJack7499010121A</field>
+        <field name="Footprint">Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</field>
+        <field name="Datasheet">https://www.we-online.com/components/products/datasheet/7499010121A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RD_PLUS" type="passive"/>
+        <pin num="2" name="RX_CT" type="passive"/>
+        <pin num="3" name="RD_MINUS" type="passive"/>
+        <pin num="4" name="TD_PLUS" type="passive"/>
+        <pin num="5" name="TX_CT" type="passive"/>
+        <pin num="6" name="TD_MINUS" type="passive"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="SHIELD_RETURN" type="passive"/>
+        <pin num="9" name="GREEN_A" type="passive"/>
+        <pin num="10" name="GREEN_K" type="passive"/>
+        <pin num="11" name="YELLOW_A" type="passive"/>
+        <pin num="12" name="YELLOW_K" type="passive"/>
+        <pin num="SH" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="NanoSIM_contacts">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NanoSIM_contacts</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="C1" name="VCC" type="power_in"/>
+        <pin num="C2" name="RST" type="input"/>
+        <pin num="C3" name="CLK" type="input"/>
+        <pin num="C5" name="GND" type="power_in"/>
+        <pin num="C6" name="VPP_UNUSED" type="no_connect"/>
+        <pin num="C7" name="IO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="Q_NMOS_GSD">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="SIM_MUX_TS3A44159PW">
+      <docs>https://www.ti.com/lit/ds/symlink/ts3a44159.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SIM_MUX_TS3A44159PW</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ts3a44159.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NO2_CLK" type="passive"/>
+        <pin num="2" name="COM2_CLK" type="passive"/>
+        <pin num="3" name="NC2_CLK" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="NO3_RST" type="passive"/>
+        <pin num="6" name="COM3_RST" type="passive"/>
+        <pin num="7" name="NC3_RST" type="passive"/>
+        <pin num="8" name="IN3_4" type="input"/>
+        <pin num="9" name="NO4_IO" type="passive"/>
+        <pin num="10" name="COM4_IO" type="passive"/>
+        <pin num="11" name="NC4_IO" type="passive"/>
+        <pin num="12" name="VCC" type="power_in"/>
+        <pin num="13" name="NO1_VCC" type="passive"/>
+        <pin num="14" name="COM1_VCC" type="passive"/>
+        <pin num="15" name="NC1_VCC" type="passive"/>
+        <pin num="16" name="IN1_2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="TPD2EUSB30">
+      <description>2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf</docs>
+      <footprints>
+        <fp>Texas*DRT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD2EUSB30</field>
+        <field name="Footprint">Package_TO_SOT_SMD:Texas_DRT-3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf</field>
+        <field name="Description">2-Channel ESD Protection for Super-Speed USB 3.0 Interface, DRT-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D+" type="passive"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="TPD4E001DBV">
+      <docs>https://www.ti.com/lit/ds/symlink/tpd4e001.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPD4E001DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpd4e001.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="IO4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="TPS22918DBV">
+      <docs>https://www.ti.com/lit/ds/symlink/tps22918.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS22918DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps22918.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ON" type="input"/>
+        <pin num="4" name="CT" type="passive"/>
+        <pin num="5" name="QOD" type="passive"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="TPS62132">
+      <description>3A Step-Down Converter with DCS-Control, Fixed 3.3V Output Voltage, 3-17V Input Voltage, QFN-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps62130.pdf</docs>
+      <footprints>
+        <fp>VQFN*1EP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62132</field>
+        <field name="Footprint">Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62130.pdf</field>
+        <field name="Description">3A Step-Down Converter with DCS-Control, Fixed 3.3V Output Voltage, 3-17V Input Voltage, QFN-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="output"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="PG" type="open_collector"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="FSW" type="input"/>
+        <pin num="8" name="DEF" type="input"/>
+        <pin num="9" name="SS/TR" type="input"/>
+        <pin num="10" name="VIN" type="power_in"/>
+        <pin num="11" name="VIN" type="passive"/>
+        <pin num="12" name="VIN" type="passive"/>
+        <pin num="13" name="EN" type="input"/>
+        <pin num="14" name="VOS" type="input"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="TS3USB221ARSE">
+      <docs>https://www.ti.com/lit/ds/symlink/ts3usb221a.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TS3USB221ARSE</field>
+        <field name="Footprint">Package_DFN_QFN:UQFN-10_1.4x1.8mm_P0.4mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ts3usb221a.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1D_PLUS" type="bidirectional"/>
+        <pin num="2" name="1D_MINUS" type="bidirectional"/>
+        <pin num="3" name="2D_PLUS" type="bidirectional"/>
+        <pin num="4" name="2D_MINUS" type="bidirectional"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="OE_N" type="input"/>
+        <pin num="7" name="D_MINUS" type="bidirectional"/>
+        <pin num="8" name="D_PLUS" type="bidirectional"/>
+        <pin num="9" name="SELECT" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Gateway" part="eUICC_MFF2_ST4SIM200M">
+      <docs>https://www.st.com/resource/en/data_brief/st4sim-200m.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">eUICC_MFF2_ST4SIM200M</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.st.com/resource/en/data_brief/st4sim-200m.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SWIO_UNUSED" type="no_connect"/>
+        <pin num="3" name="IO" type="bidirectional"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="RESET" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Gateway">
+      <uri>C:\Users\samd.ATECHLLC\Documents\ChatGPT\PSU\hardware\rev-a\kicad/Gateway.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3_AUX" class="Default">
+      <node ref="C82" pin="1" pintype="passive"/>
+      <node ref="C83" pin="1" pintype="passive"/>
+      <node ref="C84" pin="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R80" pin="2" pintype="passive"/>
+      <node ref="R81" pin="1" pintype="passive"/>
+      <node ref="R83" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U12" pin="6" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U13" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="3V3_MODEM" class="Default">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="VCC_3V3" pintype="power_in"/>
+      <node ref="J8" pin="39" pinfunction="VCC_3V3" pintype="power_in"/>
+      <node ref="J8" pin="41" pinfunction="VCC_3V3" pintype="power_in"/>
+      <node ref="J8" pin="52" pinfunction="VCC_3V3" pintype="power_in"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="VOS" pintype="input"/>
+    </net>
+    <net code="3" name="3V3_ROUTER" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="C70" pin="1" pintype="passive"/>
+      <node ref="C81" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="3V3" pintype="power_in"/>
+      <node ref="U10" pin="12" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U12" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="VOS" pintype="input"/>
+      <node ref="U6" pin="18" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="10" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="4" name="5V_ISO" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="PS1" pin="4" pinfunction="+Vo" pintype="power_out"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="VIN" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="VIN" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="11" pinfunction="VIN" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="VIN" pintype="passive"/>
+    </net>
+    <net code="5" name="AC_L_FUSED" class="Default">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="PS1" pin="1" pinfunction="AC/L" pintype="power_in"/>
+    </net>
+    <net code="6" name="AC_L_IN" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="AC_N" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="PS1" pin="2" pinfunction="AC/N" pintype="power_in"/>
+    </net>
+    <net code="8" name="CHASSIS_PE" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="SHIELD_RETURN" pintype="passive"/>
+      <node ref="J2" pin="SH" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="SHIELD_RETURN" pintype="passive"/>
+      <node ref="J3" pin="SH" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="SHIELD_RETURN" pintype="passive"/>
+      <node ref="J4" pin="SH" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="SHIELD_RETURN" pintype="passive"/>
+      <node ref="J5" pin="SH" pinfunction="SHIELD" pintype="passive"/>
+    </net>
+    <net code="9" name="CONSOLE_RX" class="Default">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="UART_RXD0" pintype="input"/>
+    </net>
+    <net code="10" name="CONSOLE_TX" class="Default">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="UART_TXD0" pintype="output"/>
+    </net>
+    <net code="11" name="GND_ISO" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C71" pin="2" pintype="passive"/>
+      <node ref="C72" pin="2" pintype="passive"/>
+      <node ref="C80" pin="2" pintype="passive"/>
+      <node ref="C81" pin="2" pintype="passive"/>
+      <node ref="C82" pin="2" pintype="passive"/>
+      <node ref="C83" pin="2" pintype="passive"/>
+      <node ref="C84" pin="2" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="26" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="27" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="34" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="35" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="37" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="43" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="50" pinfunction="GND" pintype="power_in"/>
+      <node ref="J8" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="J9" pin="C5" pinfunction="GND" pintype="power_in"/>
+      <node ref="PS1" pin="3" pinfunction="-Vo" pintype="power_out"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+      <node ref="R82" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="56" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="EP1" pinfunction="THERMAL_GND" pintype="power_in"/>
+      <node ref="U1" pin="EP2" pinfunction="THERMAL_GND" pintype="power_in"/>
+      <node ref="U1" pin="EP3" pinfunction="THERMAL_GND" pintype="power_in"/>
+      <node ref="U10" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U11" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U13" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="FB" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="FSW" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="DEF" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="FB" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="FSW" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="DEF" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="A1" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="A0" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="9" pinfunction="SELECT" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="12" name="I2C_SCL" class="Default">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="I2C_SCLK" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="13" name="I2C_SDA" class="Default">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="I2C_SD" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="LAN1_GREEN_A" class="Default">
+      <node ref="J2" pin="9" pinfunction="GREEN_A" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="LAN1_LED_N" class="Default">
+      <node ref="J2" pin="10" pinfunction="GREEN_K" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="EPHY_LED1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="LAN1_RXN" class="Default">
+      <node ref="J2" pin="3" pinfunction="RD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="MDI_RN_P1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="LAN1_RXP" class="Default">
+      <node ref="J2" pin="1" pinfunction="RD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="MDI_RP_P1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="LAN1_RX_CT" class="Default">
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="RX_CT" pintype="passive"/>
+    </net>
+    <net code="19" name="LAN1_TXN" class="Default">
+      <node ref="J2" pin="6" pinfunction="TD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="MDI_TN_P1" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="LAN1_TXP" class="Default">
+      <node ref="J2" pin="4" pinfunction="TD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="MDI_TP_P1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="LAN1_TX_CT" class="Default">
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="TX_CT" pintype="passive"/>
+    </net>
+    <net code="22" name="LAN2_GREEN_A" class="Default">
+      <node ref="J3" pin="9" pinfunction="GREEN_A" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="LAN2_LED_N" class="Default">
+      <node ref="J3" pin="10" pinfunction="GREEN_K" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="EPHY_LED2" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="LAN2_RXN" class="Default">
+      <node ref="J3" pin="3" pinfunction="RD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="MDI_RN_P2" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="LAN2_RXP" class="Default">
+      <node ref="J3" pin="1" pinfunction="RD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="MDI_RP_P2" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="LAN2_RX_CT" class="Default">
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="RX_CT" pintype="passive"/>
+    </net>
+    <net code="27" name="LAN2_TXN" class="Default">
+      <node ref="J3" pin="6" pinfunction="TD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="MDI_TN_P2" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="LAN2_TXP" class="Default">
+      <node ref="J3" pin="4" pinfunction="TD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="MDI_TP_P2" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="LAN2_TX_CT" class="Default">
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="TX_CT" pintype="passive"/>
+    </net>
+    <net code="30" name="LAN3_GREEN_A" class="Default">
+      <node ref="J4" pin="9" pinfunction="GREEN_A" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="LAN3_LED_N" class="Default">
+      <node ref="J4" pin="10" pinfunction="GREEN_K" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="EPHY_LED3" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="LAN3_RXN" class="Default">
+      <node ref="J4" pin="3" pinfunction="RD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="MDI_RN_P3" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="LAN3_RXP" class="Default">
+      <node ref="J4" pin="1" pinfunction="RD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="MDI_RP_P3" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="LAN3_RX_CT" class="Default">
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="RX_CT" pintype="passive"/>
+    </net>
+    <net code="35" name="LAN3_TXN" class="Default">
+      <node ref="J4" pin="6" pinfunction="TD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="MDI_TN_P3" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="LAN3_TXP" class="Default">
+      <node ref="J4" pin="4" pinfunction="TD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="MDI_TP_P3" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="LAN3_TX_CT" class="Default">
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="TX_CT" pintype="passive"/>
+    </net>
+    <net code="38" name="LAN4_GREEN_A" class="Default">
+      <node ref="J5" pin="9" pinfunction="GREEN_A" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="LAN4_LED_N" class="Default">
+      <node ref="J5" pin="10" pinfunction="GREEN_K" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="EPHY_LED4" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="LAN4_RXN" class="Default">
+      <node ref="J5" pin="3" pinfunction="RD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="MDI_RN_P4" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="LAN4_RXP" class="Default">
+      <node ref="J5" pin="1" pinfunction="RD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="MDI_RP_P4" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="LAN4_RX_CT" class="Default">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="RX_CT" pintype="passive"/>
+    </net>
+    <net code="43" name="LAN4_TXN" class="Default">
+      <node ref="J5" pin="6" pinfunction="TD_MINUS" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="MDI_TN_P4" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="LAN4_TXP" class="Default">
+      <node ref="J5" pin="4" pinfunction="TD_PLUS" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="MDI_TP_P4" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="LAN4_TX_CT" class="Default">
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="TX_CT" pintype="passive"/>
+    </net>
+    <net code="46" name="MODEM_BUCK_EN" class="Default">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="47" name="MODEM_OFF" class="Default">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="GP1" pintype="bidirectional"/>
+      <node ref="U8" pin="6" pinfunction="OE_N" pintype="input"/>
+    </net>
+    <net code="48" name="MODEM_OFF_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="49" name="MODEM_PERST_N" class="Default">
+      <node ref="J8" pin="22" pinfunction="PERST_N" pintype="input"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="50" name="MODEM_RESET_GATE" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+      <node ref="R61" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="MODEM_RESET_REQ" class="Default">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="GP2" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="M_SS" class="Default">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="SS/TR" pintype="input"/>
+    </net>
+    <net code="53" name="M_SW" class="Default">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SW" pintype="output"/>
+      <node ref="U3" pin="2" pinfunction="SW" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="54" name="ROUTER_RESET_N" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PORST_N" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="55" name="R_SS" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SS/TR" pintype="input"/>
+    </net>
+    <net code="56" name="R_SW" class="Default">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SW" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="SW" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="57" name="SIM_A_CLK" class="Default">
+      <node ref="J9" pin="C3" pinfunction="CLK" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="NC2_CLK" pintype="passive"/>
+      <node ref="U14" pin="1" pinfunction="IO1" pintype="passive"/>
+    </net>
+    <net code="58" name="SIM_A_IO" class="Default">
+      <node ref="J9" pin="C7" pinfunction="IO" pintype="bidirectional"/>
+      <node ref="U10" pin="11" pinfunction="NC4_IO" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="IO3" pintype="passive"/>
+    </net>
+    <net code="59" name="SIM_A_RST" class="Default">
+      <node ref="J9" pin="C2" pinfunction="RST" pintype="input"/>
+      <node ref="U10" pin="7" pinfunction="NC3_RST" pintype="passive"/>
+      <node ref="U14" pin="3" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="60" name="SIM_A_VCC" class="Default">
+      <node ref="C71" pin="1" pintype="passive"/>
+      <node ref="J9" pin="C1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U10" pin="15" pinfunction="NC1_VCC" pintype="passive"/>
+      <node ref="U14" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="61" name="SIM_B_CLK" class="Default">
+      <node ref="U10" pin="1" pinfunction="NO2_CLK" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="62" name="SIM_B_IO" class="Default">
+      <node ref="U10" pin="9" pinfunction="NO4_IO" pintype="passive"/>
+      <node ref="U11" pin="3" pinfunction="IO" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="SIM_B_RST" class="Default">
+      <node ref="U10" pin="5" pinfunction="NO3_RST" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="RESET" pintype="input"/>
+    </net>
+    <net code="64" name="SIM_B_VCC" class="Default">
+      <node ref="C72" pin="1" pintype="passive"/>
+      <node ref="U10" pin="13" pinfunction="NO1_VCC" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="65" name="SIM_SELECT" class="Default">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U10" pin="16" pinfunction="IN1_2" pintype="input"/>
+      <node ref="U10" pin="8" pinfunction="IN3_4" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="GP0" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="UART1_HOST_RX" class="Default">
+      <node ref="U1" pin="16" pinfunction="UART_RXD1" pintype="input"/>
+      <node ref="U13" pin="3" pinfunction="2Y" pintype="tri_state"/>
+    </net>
+    <net code="67" name="UART1_HOST_TX" class="Default">
+      <node ref="U1" pin="15" pinfunction="UART_TXD1" pintype="output"/>
+      <node ref="U13" pin="2" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="68" name="USB_HOST_DM" class="Default">
+      <node ref="U1" pin="55" pinfunction="USB_DM" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="D_MINUS" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="USB_HOST_DP" class="Default">
+      <node ref="U1" pin="54" pinfunction="USB_DP" pintype="bidirectional"/>
+      <node ref="U8" pin="8" pinfunction="D_PLUS" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="USB_MODEM_DM" class="Default">
+      <node ref="J8" pin="36" pinfunction="USB_DM" pintype="bidirectional"/>
+      <node ref="U8" pin="2" pinfunction="1D_MINUS" pintype="bidirectional"/>
+      <node ref="U9" pin="2" pinfunction="D-" pintype="passive"/>
+    </net>
+    <net code="71" name="USB_MODEM_DP" class="Default">
+      <node ref="J8" pin="38" pinfunction="USB_DP" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pinfunction="1D_PLUS" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="D+" pintype="passive"/>
+    </net>
+    <net code="72" name="USIM_CLK" class="Default">
+      <node ref="J8" pin="12" pinfunction="USIM_CLK" pintype="output"/>
+      <node ref="U10" pin="2" pinfunction="COM2_CLK" pintype="passive"/>
+    </net>
+    <net code="73" name="USIM_DATA" class="Default">
+      <node ref="J8" pin="10" pinfunction="USIM_DATA" pintype="bidirectional"/>
+      <node ref="R70" pin="2" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="COM4_IO" pintype="passive"/>
+    </net>
+    <net code="74" name="USIM_RST" class="Default">
+      <node ref="J8" pin="14" pinfunction="USIM_RST" pintype="output"/>
+      <node ref="U10" pin="6" pinfunction="COM3_RST" pintype="passive"/>
+    </net>
+    <net code="75" name="USIM_VDD" class="Default">
+      <node ref="J8" pin="8" pinfunction="USIM_VDD" pintype="power_out"/>
+      <node ref="R70" pin="1" pintype="passive"/>
+      <node ref="U10" pin="14" pinfunction="COM1_VCC" pintype="passive"/>
+    </net>
+    <net code="76" name="WIFI_AUX_EN" class="Default">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="ON" pintype="input"/>
+      <node ref="U6" pin="13" pinfunction="GP3" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="WIFI_BUF_DISABLE" class="Default">
+      <node ref="R83" pin="2" pintype="passive"/>
+      <node ref="U13" pin="1" pinfunction="1OE_N" pintype="input"/>
+      <node ref="U13" pin="7" pinfunction="2OE_N" pintype="input"/>
+      <node ref="U6" pin="14" pinfunction="GP4" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="WIFI_CT" class="Default">
+      <node ref="C80" pin="1" pintype="passive"/>
+      <node ref="U12" pin="4" pinfunction="CT" pintype="passive"/>
+    </net>
+    <net code="79" name="WIFI_EN" class="Default">
+      <node ref="R81" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="80" name="WIFI_QOD" class="Default">
+      <node ref="R80" pin="1" pintype="passive"/>
+      <node ref="U12" pin="5" pinfunction="QOD" pintype="passive"/>
+    </net>
+    <net code="81" name="WIFI_SERVICE" class="Default">
+      <node ref="R82" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="IO5_SERVICE" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="WIFI_UART_RX" class="Default">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="1Y" pintype="tri_state"/>
+      <node ref="U5" pin="11" pinfunction="RXD" pintype="input"/>
+    </net>
+    <net code="83" name="WIFI_UART_TX" class="Default">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="2A" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="TXD" pintype="output"/>
+    </net>
+    <net code="84" name="unconnected-(J2-NC-Pad7)" class="Default">
+      <node ref="J2" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J2-YELLOW_A-Pad11)" class="Default">
+      <node ref="J2" pin="11" pinfunction="YELLOW_A" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J2-YELLOW_K-Pad12)" class="Default">
+      <node ref="J2" pin="12" pinfunction="YELLOW_K" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(J3-NC-Pad7)" class="Default">
+      <node ref="J3" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(J3-YELLOW_A-Pad11)" class="Default">
+      <node ref="J3" pin="11" pinfunction="YELLOW_A" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J3-YELLOW_K-Pad12)" class="Default">
+      <node ref="J3" pin="12" pinfunction="YELLOW_K" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(J4-NC-Pad7)" class="Default">
+      <node ref="J4" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(J4-YELLOW_A-Pad11)" class="Default">
+      <node ref="J4" pin="11" pinfunction="YELLOW_A" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(J4-YELLOW_K-Pad12)" class="Default">
+      <node ref="J4" pin="12" pinfunction="YELLOW_K" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(J5-NC-Pad7)" class="Default">
+      <node ref="J5" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J5-YELLOW_A-Pad11)" class="Default">
+      <node ref="J5" pin="11" pinfunction="YELLOW_A" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J5-YELLOW_K-Pad12)" class="Default">
+      <node ref="J5" pin="12" pinfunction="YELLOW_K" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J8-DTR-Pad31)" class="Default">
+      <node ref="J8" pin="31" pinfunction="DTR" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J8-I2C_SCL-Pad30)" class="Default">
+      <node ref="J8" pin="30" pinfunction="I2C_SCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J8-I2C_SDA-Pad32)" class="Default">
+      <node ref="J8" pin="32" pinfunction="I2C_SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J8-LED_WWAN_N-Pad42)" class="Default">
+      <node ref="J8" pin="42" pinfunction="LED_WWAN_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J8-NC-Pad6)" class="Default">
+      <node ref="J8" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J8-NC-Pad28)" class="Default">
+      <node ref="J8" pin="28" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J8-NC-Pad48)" class="Default">
+      <node ref="J8" pin="48" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J8-PCM_CLK-Pad45)" class="Default">
+      <node ref="J8" pin="45" pinfunction="PCM_CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J8-PCM_DIN-Pad49)" class="Default">
+      <node ref="J8" pin="49" pinfunction="PCM_DIN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J8-PCM_DOUT-Pad47)" class="Default">
+      <node ref="J8" pin="47" pinfunction="PCM_DOUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J8-PCM_SYNC-Pad51)" class="Default">
+      <node ref="J8" pin="51" pinfunction="PCM_SYNC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J8-RESERVED-Pad3)" class="Default">
+      <node ref="J8" pin="3" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J8-RESERVED-Pad5)" class="Default">
+      <node ref="J8" pin="5" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J8-RESERVED-Pad7)" class="Default">
+      <node ref="J8" pin="7" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J8-RESERVED-Pad16)" class="Default">
+      <node ref="J8" pin="16" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J8-RESERVED-Pad19)" class="Default">
+      <node ref="J8" pin="19" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J8-RESERVED-Pad24)" class="Default">
+      <node ref="J8" pin="24" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J8-RESERVED-Pad33)" class="Default">
+      <node ref="J8" pin="33" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J8-RESERVED-Pad46)" class="Default">
+      <node ref="J8" pin="46" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J8-RI-Pad17)" class="Default">
+      <node ref="J8" pin="17" pinfunction="RI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J8-UART_CTS-Pad23)" class="Default">
+      <node ref="J8" pin="23" pinfunction="UART_CTS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J8-UART_RTS-Pad25)" class="Default">
+      <node ref="J8" pin="25" pinfunction="UART_RTS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J8-UART_RX-Pad11)" class="Default">
+      <node ref="J8" pin="11" pinfunction="UART_RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J8-UART_TX-Pad13)" class="Default">
+      <node ref="J8" pin="13" pinfunction="UART_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J8-USIM_PRESENCE-Pad44)" class="Default">
+      <node ref="J8" pin="44" pinfunction="USIM_PRESENCE" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(J8-WAKE_N-Pad1)" class="Default">
+      <node ref="J8" pin="1" pinfunction="WAKE_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(J8-W_DISABLE_N-Pad20)" class="Default">
+      <node ref="J8" pin="20" pinfunction="W_DISABLE_N" pintype="input+no_connect"/>
+    </net>
+    <net code="123" name="unconnected-(J9-VPP_UNUSED-PadC6)" class="Default">
+      <node ref="J9" pin="C6" pinfunction="VPP_UNUSED" pintype="no_connect"/>
+    </net>
+    <net code="124" name="unconnected-(U1-ANT_UNLINKED-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="ANT_UNLINKED" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="125" name="unconnected-(U1-EPHY_LED0-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="EPHY_LED0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="126" name="unconnected-(U1-GPIO0-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="127" name="unconnected-(U1-I2S_CLK-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="I2S_CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="128" name="unconnected-(U1-I2S_SDI-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="I2S_SDI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="129" name="unconnected-(U1-I2S_SDO-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="I2S_SDO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(U1-I2S_WS-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="I2S_WS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(U1-MDI_RN_P0-Pad35)" class="Default">
+      <node ref="U1" pin="35" pinfunction="MDI_RN_P0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="132" name="unconnected-(U1-MDI_RP_P0-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="MDI_RP_P0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="133" name="unconnected-(U1-MDI_TN_P0-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="MDI_TN_P0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="134" name="unconnected-(U1-MDI_TP_P0-Pad36)" class="Default">
+      <node ref="U1" pin="36" pinfunction="MDI_TP_P0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="135" name="unconnected-(U1-PERST_N-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="PERST_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="136" name="unconnected-(U1-REF_CLK0-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="REF_CLK0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="137" name="unconnected-(U1-SPI_CLK-Pad27)" class="Default">
+      <node ref="U1" pin="27" pinfunction="SPI_CLK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="138" name="unconnected-(U1-SPI_CS0-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="SPI_CS0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="139" name="unconnected-(U1-SPI_CS1-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="SPI_CS1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="140" name="unconnected-(U1-SPI_MISO-Pad28)" class="Default">
+      <node ref="U1" pin="28" pinfunction="SPI_MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="141" name="unconnected-(U1-SPI_MOSI-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="SPI_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="142" name="unconnected-(U1-WDT_RST_N-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="WDT_RST_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(U1-WLED_N-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="WLED_N" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(U2-PG-Pad4)" class="Default">
+      <node ref="U2" pin="4" pinfunction="PG" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="145" name="unconnected-(U3-PG-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="PG" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="146" name="unconnected-(U5-IO1_FLASH-Pad14)" class="Default">
+      <node ref="U5" pin="14" pinfunction="IO1_FLASH" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="147" name="unconnected-(U5-IO2_FLASH-Pad7)" class="Default">
+      <node ref="U5" pin="7" pinfunction="IO2_FLASH" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="148" name="unconnected-(U5-IO3-Pad5)" class="Default">
+      <node ref="U5" pin="5" pinfunction="IO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="149" name="unconnected-(U5-IO4-Pad6)" class="Default">
+      <node ref="U5" pin="6" pinfunction="IO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="150" name="unconnected-(U5-IO8_NC-Pad8)" class="Default">
+      <node ref="U5" pin="8" pinfunction="IO8_NC" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="151" name="unconnected-(U5-IO11-Pad16)" class="Default">
+      <node ref="U5" pin="16" pinfunction="IO11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="152" name="unconnected-(U5-IO12-Pad17)" class="Default">
+      <node ref="U5" pin="17" pinfunction="IO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="153" name="unconnected-(U5-IO14-Pad3)" class="Default">
+      <node ref="U5" pin="3" pinfunction="IO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="154" name="unconnected-(U5-IO17-Pad4)" class="Default">
+      <node ref="U5" pin="4" pinfunction="IO17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="155" name="unconnected-(U5-NC_GND_AMBIG-Pad13)" class="Default">
+      <node ref="U5" pin="13" pinfunction="NC_GND_AMBIG" pintype="no_connect"/>
+    </net>
+    <net code="156" name="unconnected-(U5-NC_GND_AMBIG-Pad18)" class="Default">
+      <node ref="U5" pin="18" pinfunction="NC_GND_AMBIG" pintype="no_connect"/>
+    </net>
+    <net code="157" name="unconnected-(U5-RST_NC-Pad15)" class="Default">
+      <node ref="U5" pin="15" pinfunction="RST_NC" pintype="no_connect"/>
+    </net>
+    <net code="158" name="unconnected-(U6-GP5-Pad15)" class="Default">
+      <node ref="U6" pin="15" pinfunction="GP5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="159" name="unconnected-(U6-GP6-Pad16)" class="Default">
+      <node ref="U6" pin="16" pinfunction="GP6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="160" name="unconnected-(U6-GP7-Pad17)" class="Default">
+      <node ref="U6" pin="17" pinfunction="GP7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="161" name="unconnected-(U6-INT-Pad8)" class="Default">
+      <node ref="U6" pin="8" pinfunction="INT" pintype="output+no_connect"/>
+    </net>
+    <net code="162" name="unconnected-(U6-NC-Pad7)" class="Default">
+      <node ref="U6" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="163" name="unconnected-(U8-2D_MINUS-Pad4)" class="Default">
+      <node ref="U8" pin="4" pinfunction="2D_MINUS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="164" name="unconnected-(U8-2D_PLUS-Pad3)" class="Default">
+      <node ref="U8" pin="3" pinfunction="2D_PLUS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="165" name="unconnected-(U11-NC-Pad4)" class="Default">
+      <node ref="U11" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="166" name="unconnected-(U11-NC-Pad5)" class="Default">
+      <node ref="U11" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="167" name="unconnected-(U11-SWIO_UNUSED-Pad2)" class="Default">
+      <node ref="U11" pin="2" pinfunction="SWIO_UNUSED" pintype="no_connect"/>
+    </net>
+    <net code="168" name="unconnected-(U14-IO4-Pad6)" class="Default">
+      <node ref="U14" pin="6" pinfunction="IO4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

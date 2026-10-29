@@ -1,0 +1,15 @@
+USB SERVICE REVISION — 2026-10-28
+
+J14 ROUTER USB: USB-C -> CH340C UART -> HLK console through existing partial-power buffers. Self-powered bridge from computer; board/router still require board power. Use a data-capable USB cable and CH340 driver. SW1 resets router; SW3 provides GPIO0/recovery input. Bootloader behavior and serial image transfer must be demonstrated on the purchased HLK module; GPIO0 is not assumed to be a native USB DFU strap. Ethernet/TFTP may still be required by its shipped bootloader. No DTR/RTS automatic reset added.
+
+J17 MODEM USB: same FG-ST-C-16P-LS-SMTD-6.5 vertical USB-C connector C51912230. A6/B6 to USB_SERVICE_DP; A7/B7 to USB_SERVICE_DM through existing U15 ESD and U8 TS3USB221A switch. A5/B5 each have separate5.1k Rd. USB VBUS is MUSB_VBUS with1uF local bypass and100k bleed, NOT connected to5V_ISO or modem supply. Q4/Q5 and R100-R103 translate VBUS presence to MODEM_USB_SEL: absent=0/router, present=1/service. Existing R74 pulldown retained. U8 OE remains MODEM_OFF so service requires modem enabled. Plugging the service cable disconnects cellular USB from router. Remove cable to restore.
+
+SW4 pulls MODEM_PERST_N low while pressed. SW5 pulls MODEM_BUCK_EN low while pressed, allowing a modem supply power-cycle on release. Use Quectel's tool/firmware for exact EG25-GL card and version. Emergency recovery requiring card-specific USB_BOOT pads is not guaranteed by the Mini PCIe edge connector.
+
+H1/J12 headers replaced by six1.4mm bare top pads each,2.54mm pitch2x3, no stencil paste. Logical schematic connectors retained with Convert to PCB=no and Add into BOM=no. H1 pins1 GND,2 routerTX,3 routerRX,4 reset#,5 GPIO0/recovery#,6 3V3 reference. J12 pins1 GND,2 serviceDP,3 serviceDM,4 USBselect,5 modemreset#,6 modem supply enable. J12.4 is now a driven status/control node; production fixture must NOT drive it against Q5.
+
+Temporary TC2050 evaluation component removed. No Tag-Connect cable required.
+
+Routing: maintain90ohm USB differential impedance using actual fab stackup, short matched pair routes, no split reference plane, minimize service-pad stubs, ESD device near J17. Both USB ports share isolated secondary ground, not galvanically isolated from attached computers.
+
+Validation: all new SCH pin-net maps match saved PCB; preexisting remaining component pad nets preserved. This is an UNROUTED DEVELOPMENT DESIGN. Layout DRC, integrity, USB attach/detach/power sequencing, recovery and production flashing scripts require bench qualification.

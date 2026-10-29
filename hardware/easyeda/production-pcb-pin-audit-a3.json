@@ -1,0 +1,12 @@
+{
+  "verifiedNativePinNumbers": 404,
+  "errors": [],
+  "groundPadAliasNote": "HLK library exposed ground pads map to numeric PCB pads 57/58/59; all on GND_ISO. Schematic uses EP1/EP2/EP3.",
+  "parts": 73,
+  "pairs": 11,
+  "pcbDrc": {
+    "unconnected": 331,
+    "clearance": 20,
+    "sameFootprintClearance": 2
+  }
+}

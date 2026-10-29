@@ -1,0 +1,426 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_624462",
+        "ticket": 624462
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2786.85,
+        "startY": 388.58500000000004,
+        "endX": 2785.0,
+        "endY": 785.0,
+        "width": 60.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_624463",
+        "ticket": 624463
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2785.0,
+        "startY": 785.0,
+        "endX": 2765.0,
+        "endY": 845.0,
+        "width": 60.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_624464",
+        "ticket": 624464
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2765.0,
+        "startY": 845.0,
+        "endX": 595.0,
+        "endY": 3575.0,
+        "width": 60.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_624465",
+        "ticket": 624465
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 595.0,
+        "startY": 3575.0,
+        "endX": 594.4918,
+        "endY": 4291.338699999999,
+        "width": 60.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631462,
+        "id": "pe_bond_631462"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 559.4918,
+        "startY": 4700,
+        "endX": 3495.6263,
+        "endY": 4700,
+        "width": 60,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631463,
+        "id": "pe_bond_631463"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 594.4918,
+        "startY": 4291.338699999999,
+        "endX": 559.4918,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631464,
+        "id": "pe_bond_631464"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 559.4918,
+        "startY": 4326.338699999999,
+        "endX": 559.4918,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631465,
+        "id": "pe_bond_631465"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1216.5318,
+        "startY": 4291.338699999999,
+        "endX": 1251.5318,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631466,
+        "id": "pe_bond_631466"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1251.5318,
+        "startY": 4326.338699999999,
+        "endX": 1251.5318,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631467,
+        "id": "pe_bond_631467"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1342.5233,
+        "startY": 4291.338699999999,
+        "endX": 1307.5233,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631468,
+        "id": "pe_bond_631468"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1307.5233,
+        "startY": 4326.338699999999,
+        "endX": 1307.5233,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631469,
+        "id": "pe_bond_631469"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1964.5633,
+        "startY": 4291.338699999999,
+        "endX": 1999.5633,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631470,
+        "id": "pe_bond_631470"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1999.5633,
+        "startY": 4326.338699999999,
+        "endX": 1999.5633,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631471,
+        "id": "pe_bond_631471"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2090.5548,
+        "startY": 4291.338699999999,
+        "endX": 2055.5548,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631472,
+        "id": "pe_bond_631472"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2055.5548,
+        "startY": 4326.338699999999,
+        "endX": 2055.5548,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631473,
+        "id": "pe_bond_631473"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2712.5948,
+        "startY": 4291.338699999999,
+        "endX": 2747.5948,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631474,
+        "id": "pe_bond_631474"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2747.5948,
+        "startY": 4326.338699999999,
+        "endX": 2747.5948,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631475,
+        "id": "pe_bond_631475"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2838.5863,
+        "startY": 4291.338699999999,
+        "endX": 2803.5863,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631476,
+        "id": "pe_bond_631476"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2803.5863,
+        "startY": 4326.338699999999,
+        "endX": 2803.5863,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631477,
+        "id": "pe_bond_631477"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 3460.6263,
+        "startY": 4291.338699999999,
+        "endX": 3495.6263,
+        "endY": 4326.338699999999,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 631478,
+        "id": "pe_bond_631478"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 3495.6263,
+        "startY": 4326.338699999999,
+        "endX": 3495.6263,
+        "endY": 4700,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": []
+}

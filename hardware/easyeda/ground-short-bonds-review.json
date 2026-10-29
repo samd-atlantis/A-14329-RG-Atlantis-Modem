@@ -1,0 +1,25 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 51000,
+        "id": "ground_short32_0"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3540,
+        "startY": 275,
+        "endX": 3540,
+        "endY": 214.055,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ]
+}

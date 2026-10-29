@@ -1,0 +1,205 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_MODEM_OFF_0",
+        "ticket": 30000
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 15,
+        "startX": 3590.0,
+        "startY": 1120.0,
+        "endX": 3587.5,
+        "endY": 1160.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_MODEM_OFF_1",
+        "ticket": 30001
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 15,
+        "startX": 3587.5,
+        "startY": 1160.0,
+        "endX": 3577.5,
+        "endY": 1177.5,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_MODEM_OFF_2",
+        "ticket": 30002
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 15,
+        "startX": 3577.5,
+        "startY": 1177.5,
+        "endX": 3055.0,
+        "endY": 1615.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_MODEM_OFF_3",
+        "ticket": 30003
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 15,
+        "startX": 3055.0,
+        "startY": 1615.0,
+        "endX": 2592.5,
+        "endY": 2080.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_MODEM_OFF_4",
+        "ticket": 30004
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 15,
+        "startX": 2592.5,
+        "startY": 2080.0,
+        "endX": 2537.5,
+        "endY": 2080.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_MODEM_OFF_5",
+        "ticket": 30005
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 15,
+        "startX": 2537.5,
+        "startY": 2080.0,
+        "endX": 2344.8811,
+        "endY": 2219.4956,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_CONSOLE_RX_0",
+        "ticket": 30006
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 15,
+        "startX": 2474.0,
+        "startY": 2918.0,
+        "endX": 2481.5,
+        "endY": 2880.5,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_CONSOLE_RX_1",
+        "ticket": 30007
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 15,
+        "startX": 2481.5,
+        "startY": 2880.5,
+        "endX": 2469.0,
+        "endY": 2863.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_CONSOLE_RX_2",
+        "ticket": 30008
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 15,
+        "startX": 2469.0,
+        "startY": 2863.0,
+        "endX": 2359.0,
+        "endY": 2798.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "inner30L2_CONSOLE_RX_3",
+        "ticket": 30009
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 15,
+        "startX": 2359.0,
+        "startY": 2798.0,
+        "endX": 1690.9454,
+        "endY": 2761.8094,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ]
+}

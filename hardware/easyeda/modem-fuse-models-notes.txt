@@ -1,0 +1,1 @@
+F1 is now C3131 replaceable 5x20 holder, not the former axial fuse. See modem-holder-models-validation.json and A4-HANDOFF.txt for final model transforms and sourcing. Modem uses EG25G Mini PCIe mechanical reference for EG25-GL.

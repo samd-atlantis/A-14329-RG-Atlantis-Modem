@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img">
+<rect width="1200" height="760" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b40} .small{font-size:15px} .wire{stroke:#187f73;stroke-width:2;fill:none}</style>
+<text x="30" y="40" font-size="24">03 / Physical SIM and eUICC selection (functional interface only)</text>
+<text x="30" y="68" font-size="15" fill="#a34b00">Rev A • Functional schematic • Pin mapping and component ratings unresolved • NOT FOR FABRICATION</text>
+<rect x="40" y="180" width="260" height="145" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="52" y="205" font-size="16">U4 modem SIM interface</text>
+<text x="52" y="228" font-size="16">SIM_VCC / SIM_CLK</text>
+<text x="52" y="251" font-size="16">SIM_RST / SIM_IO</text>
+<text x="52" y="274" font-size="16">Modem-controlled voltage</text>
+<rect x="430" y="180" width="290" height="145" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="442" y="205" font-size="16">U6: SIM selector, part TBD</text>
+<text x="442" y="228" font-size="16">Isolate inactive branch</text>
+<text x="442" y="251" font-size="16">Route voltage and signals</text>
+<text x="442" y="274" font-size="16">No simultaneous SIM use</text>
+<rect x="860" y="110" width="280" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="872" y="135" font-size="16">J6: nano-SIM socket</text>
+<text x="872" y="158" font-size="16">Low-capacitance ESD</text>
+<text x="872" y="181" font-size="16">Card-detect if supported</text>
+<rect x="860" y="350" width="280" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="872" y="375" font-size="16">U8: MFF2 eUICC</text>
+<text x="872" y="398" font-size="16">Provider + exact SKU TBD</text>
+<text x="872" y="421" font-size="16">Provisioning stack required</text>
+<rect x="430" y="430" width="290" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="442" y="455" font-size="16">U1 control / firmware</text>
+<text x="442" y="478" font-size="16">SIM_SELECT + MODEM_EN</text>
+<text x="442" y="501" font-size="16">Safe off / switch / reattach</text>
+<path class="wire" d="M300 245 H430"/><text class="small" x="310" y="233">4 SIM nets</text>
+<path class="wire" d="M720 220 H790 V160 H860"/><text class="small" x="745" y="145">SIM_A</text>
+<path class="wire" d="M720 285 H790 V400 H860"/><text class="small" x="745" y="385">SIM_B</text>
+<path class="wire" d="M575 430 V325"/><text class="small" x="585" y="380">SELECT / sequencing</text>
+<text class="small" x="30" y="590">Do not connect physical SIM and eUICC directly in parallel. Prevent unpowered-branch back-powering.</text>
+<text class="small" x="30" y="614">TXS02326A is only a candidate architecture; its internal LDO/interface must be reconciled with modem SIM power.</text>
+<text class="small" x="30" y="638">Exact Quectel firmware, SIM voltages, selector control and profile provisioning remain release gates.</text>
+<text class="small" x="30" y="662">Selection gives one active subscription; eSIM multi-profile management is a separate software/provider function.</text>
+<text class="small" x="30" y="686">No symbol pin numbers are implied by this functional drawing.</text>
+<text x="30" y="738" font-size="13">Walchem gateway | 120 VAC | EG25-GL | 4 LAN | Wi-Fi + BLE retained | LoRa omitted | 2026-10-27</text></svg>

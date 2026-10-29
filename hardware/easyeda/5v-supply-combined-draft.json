@@ -1,0 +1,1346 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_0",
+        "ticket": 700000
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 846.4567,
+        "startY": 3404.8269,
+        "endX": 1045.0,
+        "endY": 3205.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_1",
+        "ticket": 700001
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1045.0,
+        "centerY": 3205.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_2",
+        "ticket": 700002
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1045.0,
+        "startY": 3205.0,
+        "endX": 1125.0,
+        "endY": 3190.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_3",
+        "ticket": 700003
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1125.0,
+        "startY": 3190.0,
+        "endX": 2140.0,
+        "endY": 2580.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_4",
+        "ticket": 700004
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2140.0,
+        "startY": 2580.0,
+        "endX": 2295.0,
+        "endY": 2515.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_5",
+        "ticket": 700005
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2295.0,
+        "centerY": 2515.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_6",
+        "ticket": 700006
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2295.0,
+        "startY": 2515.0,
+        "endX": 2370.0,
+        "endY": 2505.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_7",
+        "ticket": 700007
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2370.0,
+        "startY": 2505.0,
+        "endX": 2475.0,
+        "endY": 2460.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_8",
+        "ticket": 700008
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2475.0,
+        "centerY": 2460.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_9",
+        "ticket": 700009
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2475.0,
+        "startY": 2460.0,
+        "endX": 2660,
+        "endY": 2350,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_10",
+        "ticket": 700010
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2660,
+        "centerY": 2350,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_11",
+        "ticket": 700011
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1045.0,
+        "centerY": 3230.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_12",
+        "ticket": 700012
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1045.0,
+        "startY": 3205.0,
+        "endX": 1045.0,
+        "endY": 3230.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_13",
+        "ticket": 700013
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1045.0,
+        "startY": 3205.0,
+        "endX": 1045.0,
+        "endY": 3230.0,
+        "width": 80,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_14",
+        "ticket": 700014
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2295.0,
+        "centerY": 2490.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_15",
+        "ticket": 700015
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2295.0,
+        "startY": 2515.0,
+        "endX": 2295.0,
+        "endY": 2490.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_16",
+        "ticket": 700016
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2295.0,
+        "startY": 2515.0,
+        "endX": 2295.0,
+        "endY": 2490.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_17",
+        "ticket": 700017
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2475.0,
+        "centerY": 2485.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_18",
+        "ticket": 700018
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2475.0,
+        "startY": 2460.0,
+        "endX": 2475.0,
+        "endY": 2485.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_19",
+        "ticket": 700019
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2475.0,
+        "startY": 2460.0,
+        "endX": 2475.0,
+        "endY": 2485.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_20",
+        "ticket": 700020
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2635,
+        "centerY": 2350,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_21",
+        "ticket": 700021
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2660,
+        "startY": 2350,
+        "endX": 2635,
+        "endY": 2350,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_22",
+        "ticket": 700022
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2660,
+        "startY": 2350,
+        "endX": 2635,
+        "endY": 2350,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_23",
+        "ticket": 700023
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 774.49,
+        "startY": 3120.825,
+        "endX": 846.4567,
+        "endY": 3404.8269,
+        "width": 80,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_24",
+        "ticket": 700024
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2660,
+        "startY": 2350,
+        "endX": 2659.3849999999998,
+        "endY": 2210.0441,
+        "width": 26,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_25",
+        "ticket": 700025
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2659.3849999999998,
+        "startY": 2210.0441,
+        "endX": 2635.0,
+        "endY": 2325.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_26",
+        "ticket": 700026
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2635.0,
+        "centerY": 2325.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_27",
+        "ticket": 700027
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2635.0,
+        "startY": 2325.0,
+        "endX": 2630.0,
+        "endY": 2355.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_28",
+        "ticket": 700028
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2630.0,
+        "startY": 2355.0,
+        "endX": 2610.0,
+        "endY": 2375.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_29",
+        "ticket": 700029
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2610.0,
+        "startY": 2375.0,
+        "endX": 2450.0,
+        "endY": 2485.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_30",
+        "ticket": 700030
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2450.0,
+        "centerY": 2485.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_31",
+        "ticket": 700031
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2450.0,
+        "startY": 2485.0,
+        "endX": 2370.0,
+        "endY": 2505.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_32",
+        "ticket": 700032
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2370.0,
+        "startY": 2505.0,
+        "endX": 2290.0,
+        "endY": 2505.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_33",
+        "ticket": 700033
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2290.0,
+        "startY": 2505.0,
+        "endX": 2280.0,
+        "endY": 2495.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_34",
+        "ticket": 700034
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2280.0,
+        "startY": 2495.0,
+        "endX": 2270.0,
+        "endY": 2495.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_35",
+        "ticket": 700035
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2270.0,
+        "centerY": 2495.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_36",
+        "ticket": 700036
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2270.0,
+        "startY": 2495.0,
+        "endX": 1825.0,
+        "endY": 2675.0,
+        "width": 80,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_37",
+        "ticket": 700037
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1825.0,
+        "centerY": 2675.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_38",
+        "ticket": 700038
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1825.0,
+        "startY": 2675.0,
+        "endX": 1771.6535,
+        "endY": 2696.8504,
+        "width": 80,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_39",
+        "ticket": 700039
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2660.0,
+        "centerY": 2325.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_40",
+        "ticket": 700040
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2635.0,
+        "startY": 2325.0,
+        "endX": 2660.0,
+        "endY": 2325.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_41",
+        "ticket": 700041
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2635.0,
+        "startY": 2325.0,
+        "endX": 2660.0,
+        "endY": 2325.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_42",
+        "ticket": 700042
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2450.0,
+        "centerY": 2510.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_43",
+        "ticket": 700043
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2450.0,
+        "startY": 2485.0,
+        "endX": 2450.0,
+        "endY": 2510.0,
+        "width": 80,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_44",
+        "ticket": 700044
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2450.0,
+        "startY": 2485.0,
+        "endX": 2450.0,
+        "endY": 2510.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_45",
+        "ticket": 700045
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2245.0,
+        "centerY": 2495.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_46",
+        "ticket": 700046
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2270.0,
+        "startY": 2495.0,
+        "endX": 2245.0,
+        "endY": 2495.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_47",
+        "ticket": 700047
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2270.0,
+        "startY": 2495.0,
+        "endX": 2245.0,
+        "endY": 2495.0,
+        "width": 80,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_48",
+        "ticket": 700048
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1850.0,
+        "centerY": 2675.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_49",
+        "ticket": 700049
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1825.0,
+        "startY": 2675.0,
+        "endX": 1850.0,
+        "endY": 2675.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_50",
+        "ticket": 700050
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1825.0,
+        "startY": 2675.0,
+        "endX": 1850.0,
+        "endY": 2675.0,
+        "width": 80,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_51",
+        "ticket": 700051
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 846.4567,
+        "startY": 3404.8269,
+        "endX": 960.0,
+        "endY": 3360.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_52",
+        "ticket": 700052
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 960.0,
+        "startY": 3360.0,
+        "endX": 1045.0,
+        "endY": 3345.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_53",
+        "ticket": 700053
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1045.0,
+        "centerY": 3345.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_54",
+        "ticket": 700054
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1045.0,
+        "startY": 3345.0,
+        "endX": 1400.0,
+        "endY": 3325.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_55",
+        "ticket": 700055
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1400.0,
+        "startY": 3325.0,
+        "endX": 1450.0,
+        "endY": 3375.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_56",
+        "ticket": 700056
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1450.0,
+        "startY": 3375.0,
+        "endX": 1460.0,
+        "endY": 3400.0,
+        "width": 60,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_57",
+        "ticket": 700057
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1460.0,
+        "centerY": 3400.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_58",
+        "ticket": 700058
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1460.0,
+        "startY": 3400.0,
+        "endX": 1476.378,
+        "endY": 3437.0069,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_59",
+        "ticket": 700059
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1020.0,
+        "centerY": 3345.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_60",
+        "ticket": 700060
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1045.0,
+        "startY": 3345.0,
+        "endX": 1020.0,
+        "endY": 3345.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_61",
+        "ticket": 700061
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1045.0,
+        "startY": 3345.0,
+        "endX": 1020.0,
+        "endY": 3345.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "5v_supply_combined_62",
+        "ticket": 700062
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1485.0,
+        "centerY": 3400.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_63",
+        "ticket": 700063
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1460.0,
+        "startY": 3400.0,
+        "endX": 1485.0,
+        "endY": 3400.0,
+        "width": 60,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "5v_supply_combined_64",
+        "ticket": 700064
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1460.0,
+        "startY": 3400.0,
+        "endX": 1485.0,
+        "endY": 3400.0,
+        "width": 60,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": []
+}

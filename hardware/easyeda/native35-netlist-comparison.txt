@@ -1,0 +1,347 @@
+Browser tab: 1, Title: "A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209", URL: "https://pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4|12de2a08187ded60@9350624465b744b1a24fb48be3d774f4|279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c|*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c|2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c|!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d|!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d|!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c|!c57d78373cad53ff(device)f9f7fbae4c469728@10cda219a11d4728af9b80718a4aa61c".
+1 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4%7C12de2a08187ded60@9350624465b744b1a24fb48be3d774f4%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c%7C!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d%7C!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d%7C!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c%7C!c57d78373cad53ff(device)f9f7fbae4c469728@10cda219a11d4728af9b80718a4aa61c
+	2 container
+		3 image svg-work-space
+		4 image canvas-work-space
+		5 container top-bar-react
+			6 container toolbar-common
+				7 link Value: pro.easyeda.com/editor#, ID: modelogo
+				8 container
+					9 text File (F)
+				10 container
+					11 text Edit (E)
+				12 container
+					13 text View (V)
+				14 container
+					15 text Place (P)
+				16 container
+					17 text Design (D)
+				18 container
+					19 text Route (U)
+				20 container
+					21 text Layout (O)
+				22 container
+					23 text Tools (T)
+				24 container
+					25 text Export (R)
+				26 container
+					27 text Advanced (A)
+				28 container
+					29 text Settings (I)
+				30 container
+					31 text Help (H)
+			32 container userbar
+				33 text V3.2.209
+				34 text Personal
+				35 text EN
+				36 link Notifications
+				37 link Description: Avatar powerturn, Help: Homepage
+					38 image Avatar
+					39 container loginUsername
+						40 text powerturn
+		41 container
+			7463 container Switch Brightness
+				7464 text Normal Brightness
+			7465 container Unit
+				7466 text mil
+			7467 container Routing Corner
+				7468 text Line 45°
+		48 container main
+			49 container layoutLeft
+				50 container
+					51 container All Projects
+						52 text A l l P r o j e c t s
+					53 container Project Design
+						54 text P r o j e c t D e s i g n
+					55 container Common Library
+						56 text C o m m o n L i b r a r y
+				57 container left-panel-projectAndLib-design
+					58 container
+						59 text Page Net Component Object
+					60 container treeMyDesignNetPage
+						61 container
+							62 text field (settable) GND_ISO
+						63 container netClassification
+							64 text Net
+							65 text Component
+						6038 content list
+							6039 container
+								7593 container
+									7594 text Nets (94)
+								7595 container
+									7596 text GND_ISO (39799.9mil)
+								7597 container
+									7598 text Net Classes (0)
+								7599 container
+									7600 text Ratlines (0)
+								7601 container
+									7602 text Differential Pair (12)
+								7603 container
+									7604 text Equal Length Group (0)
+								7605 container
+									7606 text Pads Pair Group (0)
+			80 container editorTabbar
+				81 container
+					82 text Start Page EG25_MINIPCIE_MECHANICAL_ONLY EG25_REMOVABLE_CARD_MECHANICAL CONN-TH_2604-1103 210S-1*6P L=11.6MMGold-plated black PCB1 P1.Schematic1 PCB2
+				7437 container
+					7438 image rulerh_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					7439 image rulerv_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					7440 AXWebArea EasyEDA PCB, URL: pro.easyeda.com/editor?entry=pcb
+					7441 container
+						7442 text Top Inner1 Inner2 Bottom Top Silkscreen Bottom Silkscreen Top Solder Mask Bottom Solder Mask Top Paste Mask Bottom Paste Mask Top Assembly Bottom Assembly Board Outline Multi Document Mechanical 3D Shell Outline 3D Shell Top 3D Shell Bottom Drill Drawing Ratline
+					7443 text X:
+					7824 text 1625
+					7444 text Y:
+					7825 text 3040
+					7445 text dX:
+					7826 text 1625
+					7446 text dY:
+					7827 text 3040
+					7447 container
+						7448 text field (settable) 439%
+					7449 container
+						7450 text field (settable) 5.0
+					7451 container
+						7452 text mil
+			103 container layoutRight
+				104 container
+					105 container Layer
+						106 text L a y e r
+					107 container Filter
+						108 text F i l t e r
+					7539 container Properties
+						7540 text P r o p e r t i e s
+				111 container pcb-attribute-manager
+					7541 container
+						7542 pop up button (collapsed, settable) Value: Common(Default), Secondary Actions: Expand
+							7543 menu
+								7544 (selected) Common(Default)
+								7545 Top Assembly View
+								7546 Bottom Assembly View
+								7547 Only Top Side
+								7548 Only Bottom Side
+								7549 Save As Config...
+								7550 Set as default config
+								7551 (disabled) Rename Config...
+								7552 (disabled) Save Config
+								7553 (disabled) Delete Config
+						7554 text Reset
+						7555 content list
+							7556 text All
+							7557 text Copper
+							7558 text Non-Copper
+						7559 text All Top Side 1 Top Layer 3 Top Silkscreen Layer 5 Top Solder Mask Layer 7 Top Paste Mask Layer 9 Top Assembly Layer Bottom Side 2 Bottom Layer 4 Bottom Silkscreen Layer 6 Bottom Solder Mask Layer 8 Bottom Paste Mask Layer 10 Bottom Assembly Layer Inner Side 15 Inner1 16 Inner2 Other 11 Board Outline Layer 12 Multi-Layer 13 Document Layer 14 Mechanical Layer 56 Drill Drawing Layer 57 Ratline Layer Component 48 Component Shape Layer 49 Component Marking Layer 50 Pin Soldering Layer 51 Pin Floating Layer 3D Shell 53 Outline Layer 54 Top Layer 55 Bottom Layer
+			131 container layoutBottom
+				132 container
+					133 text Library
+					134 text Log
+					135 text Device Standardization
+					136 text DRC
+					137 text Find Results
+				7828 container schDrcPrimaryLog
+					7829 button Check DRC
+					7830 button Export
+					7831 button Clear
+					7832 container
+						7833 checkbox (settable, integer) Description: ✔, Value: 1
+						7834 text ✔
+						7835 text All ( 1 )
+						7836 checkbox (settable, integer) Description: ✔, Value: 1
+						7837 text ✔
+						7838 text Fatal Error ( 0 )
+						7839 checkbox (settable, integer) Description: ✔, Value: 1
+						7840 text ✔
+						7841 text Error ( 1 )
+						7842 checkbox (settable, integer) Description: ✔, Value: 1
+						7843 text ✔
+						7844 text Warn ( 0 )
+						7845 checkbox (settable, integer) Description: ✔, Value: 1
+						7846 text ✔
+						7847 text Info ( 0 )
+					7848 container
+						7849 text 2026-10-28 22:27:31 [ Error ] :  The pin of the component 210S-1*6P L=11.6MMGold-plated black does not correspond to the pad (Pin has no corresponding pad : 10、7、8、9):  $1I53 , $1I118
+		1140 container jlcIMDragger
+			1141 text Online Chat
+			7435 text 
+		1143 container
+			1144 text Floating Tool
+		1145 container
+			1146 text Floating Tool
+		1147 container
+			1148 text Table Setting
+			1149 container
+				1150 text Border Color
+				1151 text field
+				1152 text #A00000
+		7850 container dlgShowImportChanges
+			7851 container
+				7852 text Confirm Importing changes information
+				7853 text Group by
+				7854 container
+					7855 radio button (settable, integer) Description: Action, Value: 0
+					7856 text Action
+				7857 container
+					7858 radio button (settable, integer) Description: Object, Value: 1
+					7859 text Object
+				7860 container
+					7861 checkbox (settable, integer) 0
+				7862 text Contains Design Rules
+				7863 text Filter :
+				7864 text field (settable)
+				7865 table
+					7866 row
+						7867 cell
+							7868 container
+								7869 checkbox (settable, integer) Description: ✔, Value: 1
+								7870 text ✔
+							7871 text Change
+						7872 cell
+							7873 text Action
+						7874 cell
+							7875 text Object
+						7876 cell
+							7877 text Before import
+						7878 cell
+							7879 text After import
+				7880 container
+					7881 container
+						7882 container ✔ F1
+							7883 container
+								7884 checkbox (settable, integer) Description: ✔, Value: 1
+								7885 text ✔
+								7886 text F1
+					7887 container
+						7888 container ✔
+							7889 container
+								7890 checkbox (settable, integer) Description: ✔, Value: 1
+								7891 text ✔
+						7892 container Update Property
+							7893 text Update Property
+						7894 container F1:Name
+							7895 text F1:Name
+						7896 container 5x20 HOLDER; FIT T1A 250VAC
+							7897 text 5x20 HOLDER; FIT T1A 250VAC
+						7898 container ={Manufacturer Part}
+							7899 text ={Manufacturer Part}
+					7900 container
+						7901 container ✔ MODEM1
+							7902 container
+								7903 checkbox (settable, integer) Description: ✔, Value: 1
+								7904 text ✔
+								7905 text MODEM1
+					7906 container
+						7907 container ✔
+							7908 container
+								7909 checkbox (settable, integer) Description: ✔, Value: 1
+								7910 text ✔
+						7911 container Remove Component
+							7912 text Remove Component
+						7913 container MODEM1
+							7914 text MODEM1
+						7915 container MODEM1
+							7916 text MODEM1
+					7917 container
+						7918 container ✔ R100
+							7919 container
+								7920 checkbox (settable, integer) Description: ✔, Value: 1
+								7921 text ✔
+								7922 text R100
+					7923 container
+						7924 container ✔
+							7925 container
+								7926 checkbox (settable, integer) Description: ✔, Value: 1
+								7927 text ✔
+						7928 container Update Property
+							7929 text Update Property
+						7930 container R100:Channel ID
+							7931 text R100:Channel ID
+						7932 container $1ed281400000000a7
+							7933 text $1ed281400000000a7
+						7934 container $1I165
+							7935 text $1I165
+					7936 container
+						7937 container ✔ R101
+							7938 container
+								7939 checkbox (settable, integer) Description: ✔, Value: 1
+								7940 text ✔
+								7941 text R101
+					7942 container
+						7943 container ✔
+							7944 container
+								7945 checkbox (settable, integer) Description: ✔, Value: 1
+								7946 text ✔
+						7947 container Update Property
+							7948 text Update Property
+						7949 container R101:Channel ID
+							7950 text R101:Channel ID
+						7951 container $1ed281400000000b7
+							7952 text $1ed281400000000b7
+						7953 container $1I162
+							7954 text $1I162
+					7955 container
+						7956 container ✔ R102
+							7957 container
+								7958 checkbox (settable, integer) Description: ✔, Value: 1
+								7959 text ✔
+								7960 text R102
+					7961 container
+						7962 container ✔
+							7963 container
+								7964 checkbox (settable, integer) Description: ✔, Value: 1
+								7965 text ✔
+						7966 container Update Property
+							7967 text Update Property
+						7968 container R102:Channel ID
+							7969 text R102:Channel ID
+						7970 container $1ed281400000000c7
+							7971 text $1ed281400000000c7
+						7972 container $1I166
+							7973 text $1I166
+					7974 container
+						7975 container ✔ R103
+							7976 container
+								7977 checkbox (settable, integer) Description: ✔, Value: 1
+								7978 text ✔
+								7979 text R103
+					7980 container
+						7981 container ✔
+							7982 container
+								7983 checkbox (settable, integer) Description: ✔, Value: 1
+								7984 text ✔
+						7985 container Update Property
+							7986 text Update Property
+						7987 container R103:Channel ID
+							7988 text R103:Channel ID
+						7989 container $1ed281400000000d7
+							7990 text $1ed281400000000d7
+						7991 container $1I167
+							7992 text $1I167
+					7993 container
+						7994 container ✔ SW4
+							7995 container
+								7996 checkbox (settable, integer) Description: ✔, Value: 1
+								7997 text ✔
+								7998 text SW4
+					7999 container
+						8000 container ✔
+							8001 container
+								8002 checkbox (settable, integer) Description: ✔, Value: 1
+								8003 text ✔
+						8004 container Update Property
+							8005 text Update Property
+						8006 container SW4:Channel ID
+							8007 text SW4:Channel ID
+						8008 container $1ed281400000000e7
+							8009 text $1ed281400000000e7
+						8010 container $1I168
+							8011 text $1I168
+				8012 container
+					8013 checkbox (settable, integer) Description: ✔, Value: 1
+					8014 text ✔
+				8015 text Also update track's net (Only applies to circumstance under which net name changes and no component/wire is added or removed)
+				8016 button Export Report
+				8017 button Apply Changes
+				8018 button Cancel
+				8019 button 
+
+The focused UI element is 1 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4%7C12de2a08187ded60@9350624465b744b1a24fb48be3d774f4%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c%7C!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d%7C!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d%7C!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c%7C!c57d78373cad53ff(device)f9f7fbae4c469728@10cda219a11d4728af9b80718a4aa61c

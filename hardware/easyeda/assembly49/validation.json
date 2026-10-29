@@ -1,0 +1,37 @@
+{
+  "bomCount": 101,
+  "cplCount": 101,
+  "removed": [
+    "U20",
+    "MODEM1"
+  ],
+  "missing": [],
+  "addedCapacitors": [
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C51",
+    "C52",
+    "C53",
+    "C54"
+  ],
+  "terminal": {
+    "No.": "7",
+    "Quantity": "3",
+    "Comment": "DB142V-5.08-3P-GN",
+    "Designator": "CN1,J15,J16",
+    "Footprint": "CONN-TH_3P-P5.08_DIBO_DB142V-5.08-3P",
+    "Value": "",
+    "Manufacturer Part": "DB142V-5.08-3P-GN",
+    "Manufacturer": "DORABO(地博电气)",
+    "Supplier Part": "C2898700",
+    "Supplier": "LCSC"
+  },
+  "nativeDRC": {
+    "errors": 0,
+    "checks": 124,
+    "time": "2026-10-29 10:40:41"
+  },
+  "note": "JLC format/designator consistency validated; final JLC engineering review and prototype electrical/thermal validation remain required."
+}

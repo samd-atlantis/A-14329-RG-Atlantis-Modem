@@ -1,0 +1,884 @@
+{
+  "status": "OFFLINE_CHECKED_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_0",
+        "ticket": 150000
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3208.6228,
+        "startY": 2519.714,
+        "endX": 3260.0,
+        "endY": 2495.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_1",
+        "ticket": 150001
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3260.0,
+        "startY": 2495.0,
+        "endX": 3510.0,
+        "endY": 2340.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_2",
+        "ticket": 150002
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3510.0,
+        "centerY": 2340.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_3",
+        "ticket": 150003
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3510.0,
+        "startY": 2340.0,
+        "endX": 3595.0,
+        "endY": 2155.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_4",
+        "ticket": 150004
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3595.0,
+        "startY": 2155.0,
+        "endX": 3595.0,
+        "endY": 2045.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_5",
+        "ticket": 150005
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3595.0,
+        "centerY": 2045.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_6",
+        "ticket": 150006
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3595.0,
+        "startY": 2045.0,
+        "endX": 3247.9928,
+        "endY": 2199.9937,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_7",
+        "ticket": 150007
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2785.4055,
+        "startY": 2228.4039000000002,
+        "endX": 2745.0,
+        "endY": 2270.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_8",
+        "ticket": 150008
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2745.0,
+        "startY": 2270.0,
+        "endX": 2685.0,
+        "endY": 2280.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_9",
+        "ticket": 150009
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2685.0,
+        "startY": 2280.0,
+        "endX": 2625.0,
+        "endY": 2280.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_10",
+        "ticket": 150010
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2625.0,
+        "startY": 2280.0,
+        "endX": 2600.0,
+        "endY": 2310.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_11",
+        "ticket": 150011
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2600.0,
+        "startY": 2310.0,
+        "endX": 2590.0,
+        "endY": 2335.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_12",
+        "ticket": 150012
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2590.0,
+        "startY": 2335.0,
+        "endX": 2580.645,
+        "endY": 2210.0441,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_13",
+        "ticket": 150013
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3258.0065,
+        "startY": 1496.063,
+        "endX": 3275.0,
+        "endY": 1705.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_14",
+        "ticket": 150014
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3275.0,
+        "startY": 1705.0,
+        "endX": 3250.0,
+        "endY": 1720.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_15",
+        "ticket": 150015
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3250.0,
+        "startY": 1720.0,
+        "endX": 3005.0,
+        "endY": 1805.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_16",
+        "ticket": 150016
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3005.0,
+        "centerY": 1805.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_17",
+        "ticket": 150017
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3005.0,
+        "startY": 1805.0,
+        "endX": 2825.0,
+        "endY": 1955.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_18",
+        "ticket": 150018
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2825.0,
+        "startY": 1955.0,
+        "endX": 2605.0,
+        "endY": 1955.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_19",
+        "ticket": 150019
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2605.0,
+        "startY": 1955.0,
+        "endX": 2550.0,
+        "endY": 1900.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_20",
+        "ticket": 150020
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 2550.0,
+        "centerY": 1900.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_21",
+        "ticket": 150021
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2550.0,
+        "startY": 1900.0,
+        "endX": 2430.0,
+        "endY": 2020.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_22",
+        "ticket": 150022
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 2430.0,
+        "centerY": 2020.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_23",
+        "ticket": 150023
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2430.0,
+        "startY": 2020.0,
+        "endX": 2360.0,
+        "endY": 2025.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_24",
+        "ticket": 150024
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2360.0,
+        "startY": 2025.0,
+        "endX": 2225.0,
+        "endY": 2055.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_25",
+        "ticket": 150025
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2225.0,
+        "startY": 2055.0,
+        "endX": 2220.0,
+        "endY": 2065.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_26",
+        "ticket": 150026
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2220.0,
+        "startY": 2065.0,
+        "endX": 2220.0,
+        "endY": 2095.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_27",
+        "ticket": 150027
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2220.0,
+        "startY": 2095.0,
+        "endX": 2240.0,
+        "endY": 2115.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_28",
+        "ticket": 150028
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2240.0,
+        "startY": 2115.0,
+        "endX": 2283.4646,
+        "endY": 2133.8986,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_29",
+        "ticket": 150029
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 1875.0,
+        "startY": 2208.935,
+        "endX": 1890.0,
+        "endY": 2165.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_30",
+        "ticket": 150030
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 1890.0,
+        "startY": 2165.0,
+        "endX": 1900.0,
+        "endY": 2155.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_31",
+        "ticket": 150031
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 1900.0,
+        "centerY": 2155.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_32",
+        "ticket": 150032
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 1900.0,
+        "startY": 2155.0,
+        "endX": 2145.0,
+        "endY": 2050.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_33",
+        "ticket": 150033
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 2145.0,
+        "centerY": 2050.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_34",
+        "ticket": 150034
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2145.0,
+        "startY": 2050.0,
+        "endX": 2180.51,
+        "endY": 2047.515,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_35",
+        "ticket": 150035
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3525.3178,
+        "startY": 1525.6326000000001,
+        "endX": 3525.0,
+        "endY": 1477,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_36",
+        "ticket": 150036
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3525.0,
+        "centerY": 1477,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_37",
+        "ticket": 150037
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3525.0,
+        "startY": 1477,
+        "endX": 3630.0,
+        "endY": 1475.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_38",
+        "ticket": 150038
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3630.0,
+        "startY": 1475.0,
+        "endX": 3650.0,
+        "endY": 1460.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_39",
+        "ticket": 150039
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3650.0,
+        "startY": 1460.0,
+        "endX": 3650.0,
+        "endY": 1350.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_40",
+        "ticket": 150040
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3650.0,
+        "startY": 1350.0,
+        "endX": 3615.0,
+        "endY": 1315.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "ground35_41",
+        "ticket": 150041
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3615.0,
+        "centerY": 1315.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ground35_42",
+        "ticket": 150042
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3615.0,
+        "startY": 1315.0,
+        "endX": 3604.0578,
+        "endY": 1202.7926,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": []
+}

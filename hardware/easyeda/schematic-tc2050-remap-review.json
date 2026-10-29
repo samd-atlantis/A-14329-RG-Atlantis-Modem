@@ -1,0 +1,115 @@
+{
+  "changes": [
+    {
+      "id": "ed26000000000f0e",
+      "type": "ATTR",
+      "key": "Fixture1",
+      "value": "H1 router TC2050: 1 GND / 2 router TX / 4 RESET_N / 5 GPIO0_N / 8 router RX / 9 3V3 sense; 3,6,7,10 NC. 3.3V UART fixture; not an ARM JTAG pinout."
+    },
+    {
+      "id": "ed26000000000f0f",
+      "type": "ATTR",
+      "key": "Fixture2",
+      "value": "J12 modem TC2050: 1 GND / 4 USB_SELECT / 5 PERST_N / 8 BUCK_EN; 2,3,6,7,9,10 NC. Firmware data uses J17 USB-C."
+    },
+    {
+      "id": "abac77e2a42fd12d",
+      "type": "ATTR",
+      "key": "Name",
+      "value": "ROUTER RECOVERY TC2050-IDC (legged)"
+    },
+    {
+      "id": "ed26000000000e78",
+      "type": "ATTR",
+      "key": "Name",
+      "value": "MODEM RECOVERY TC2050-IDC (controls only)"
+    },
+    {
+      "id": "ed26000000000c12",
+      "type": "LINE",
+      "startY": -1105,
+      "endY": -1105
+    },
+    {
+      "id": "ed26000000000c14",
+      "type": "ATTR",
+      "key": "NET",
+      "value": "CONSOLE_RX"
+    },
+    {
+      "id": "ed26000000000c1e",
+      "type": "LINE",
+      "startY": -1095,
+      "endY": -1095
+    },
+    {
+      "id": "ed26000000000c20",
+      "type": "ATTR",
+      "key": "NET",
+      "value": "3V3_ROUTER"
+    },
+    {
+      "id": "ed26000000000e92",
+      "type": "LINE",
+      "startY": -1105,
+      "endY": -1105
+    },
+    {
+      "id": "ed26000000000e94",
+      "type": "ATTR",
+      "key": "NET",
+      "value": "MODEM_BUCK_EN"
+    },
+    {
+      "id": "tc2050_nc_ed260000000003b8_3",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    },
+    {
+      "id": "tc2050_nc_ed260000000003b8_6",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    },
+    {
+      "id": "tc2050_nc_ed260000000003b8_7",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    },
+    {
+      "id": "tc2050_nc_ed260000000003b8_10",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    },
+    {
+      "id": "tc2050_nc_ed26000000000e72_6",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    },
+    {
+      "id": "tc2050_nc_ed26000000000e72_7",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    },
+    {
+      "id": "tc2050_nc_ed26000000000e72_9",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    },
+    {
+      "id": "tc2050_nc_ed26000000000e72_10",
+      "type": "ATTR",
+      "key": "NO_CONNECT",
+      "value": "yes"
+    }
+  ],
+  "changedRecordCount": 18,
+  "originalRecords": 3528,
+  "newRecords": 3536
+}

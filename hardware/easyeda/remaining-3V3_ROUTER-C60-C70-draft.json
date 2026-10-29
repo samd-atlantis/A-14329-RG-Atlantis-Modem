@@ -1,0 +1,218 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-sequence-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638242",
+        "ticket": 638242
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3427.56,
+        "startY": 1050.0,
+        "endX": 3400.0,
+        "endY": 1015.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638243",
+        "ticket": 638243
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3400.0,
+        "startY": 1015.0,
+        "endX": 3345.0,
+        "endY": 1015.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638244",
+        "ticket": 638244
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3345.0,
+        "startY": 1015.0,
+        "endX": 3270.0,
+        "endY": 1200.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_C60_C70_638245",
+        "ticket": 638245
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 3270.0,
+        "centerY": 1200.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638246",
+        "ticket": 638246
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3270.0,
+        "startY": 1200.0,
+        "endX": 3270.0,
+        "endY": 1540.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638247",
+        "ticket": 638247
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3270.0,
+        "startY": 1540.0,
+        "endX": 3125.0,
+        "endY": 1800.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_C60_C70_638248",
+        "ticket": 638248
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 3125.0,
+        "centerY": 1800.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638249",
+        "ticket": 638249
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3125.0,
+        "startY": 1800.0,
+        "endX": 2775.5906,
+        "endY": 1901.6132,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3427.56,
+      1050.0
+    ],
+    [
+      1,
+      3400.0,
+      1015.0
+    ],
+    [
+      1,
+      3345.0,
+      1015.0
+    ],
+    [
+      1,
+      3270.0,
+      1200.0
+    ],
+    [
+      2,
+      3270.0,
+      1200.0
+    ],
+    [
+      2,
+      3270.0,
+      1540.0
+    ],
+    [
+      2,
+      3125.0,
+      1800.0
+    ],
+    [
+      1,
+      3125.0,
+      1800.0
+    ],
+    [
+      1,
+      2775.5906,
+      1901.6132
+    ]
+  ],
+  "issues": []
+}

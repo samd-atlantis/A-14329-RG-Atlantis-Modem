@@ -1,0 +1,13 @@
+{
+  "exportedComponents": 92,
+  "placementReadbackMismatches": [],
+  "envelopeOverlaps": [],
+  "padAssignmentsUnchanged": true,
+  "drc": {
+    "interComponent": 0,
+    "keepout": 0,
+    "existingTerminalFootprint": 12,
+    "unrouted": 412
+  },
+  "nativeExport": "pcb-small-component-tidy.epro2"
+}

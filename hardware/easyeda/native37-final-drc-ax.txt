@@ -1,0 +1,231 @@
+Browser tab: 1, Title: "A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209", URL: "https://pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4|12de2a08187ded60@9350624465b744b1a24fb48be3d774f4|279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c|*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c|2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c|!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d|!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d|!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c|!c57d78373cad53ff(device)f9f7fbae4c469728@10cda219a11d4728af9b80718a4aa61c|!33cb51db55f6775c@10cda219a11d4728af9b80718a4aa61c".
+1 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4%7C12de2a08187ded60@9350624465b744b1a24fb48be3d774f4%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c%7C!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d%7C!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d%7C!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c%7C!c57d78373cad53ff(device)f9f7fbae4c469728@10cda219a11d4728af9b80718a4aa61c%7C!33cb51db55f6775c@10cda219a11d4728af9b80718a4aa61c
+	2 container
+		3 image svg-work-space
+		4 image canvas-work-space
+		5 container top-bar-react
+			6 container toolbar-common
+				7 link Value: pro.easyeda.com/editor#, ID: modelogo
+				8 container
+					9 text File (F)
+				1246 container
+					1247 text Edit (E)
+				10 container
+					11 text View (V)
+				1248 container
+					1249 text Place (P)
+				2302 container
+					2303 text Design (D)
+				1254 container
+					1255 text Route (U)
+				1252 container
+					1253 text Layout (O)
+				12 container
+					13 text Tools (T)
+				2304 container
+					2305 text Export (R)
+				14 container
+					15 text Advanced (A)
+				16 container
+					17 text Settings (I)
+				18 container
+					19 text Help (H)
+			20 container userbar
+				21 text V3.2.209
+				22 text Personal
+				23 text EN
+				24 link Notifications
+				25 link Description: Avatar powerturn, Help: Homepage
+					26 image Avatar
+					27 container loginUsername
+						28 text powerturn
+		29 container
+			2306 container Switch Brightness
+				2307 text Normal Brightness
+			2308 container Unit
+				2309 text mil
+			2310 container Routing Corner
+				2311 text Line 45°
+		31 container main
+			32 container layoutLeft
+				33 container
+					34 container All Projects
+						35 text A l l P r o j e c t s
+					36 container Project Design
+						37 text P r o j e c t D e s i g n
+					38 container Common Library
+						39 text C o m m o n L i b r a r y
+				40 container left-panel-projectAndLib-design
+					2250 container
+						2251 text Page Net Component Object
+					2252 container treeMyDesignNetPage
+						2253 container
+							2254 text field (settable)
+						2255 container netClassification
+							2256 text Net
+							2257 text Component
+						2258 content list
+							2259 container
+								2312 container
+									2313 text Nets (94)
+								2314 container
+									2315 text Net Classes (0)
+								2316 container
+									2317 text Ratlines (0)
+								2318 container
+									2319 text Differential Pair (12)
+								2320 container
+									2321 text Equal Length Group (0)
+								2322 container
+									2323 text Pads Pair Group (0)
+			59 container editorTabbar
+				60 container
+					61 text Start Page EG25_MINIPCIE_MECHANICAL_ONLY EG25_REMOVABLE_CARD_MECHANICAL CONN-TH_2604-1103 210S-1*6P L=11.6MMGold-plated black TC2050-IDC-LEG PCB1 P1.Schematic1 PCB2
+				2274 container
+					2275 image rulerh_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					2276 image rulerv_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					2277 AXWebArea EasyEDA PCB, URL: pro.easyeda.com/editor?entry=pcb
+					2278 container
+						2279 text Top Inner1 Inner2 Bottom Top Silkscreen Bottom Silkscreen Top Solder Mask Bottom Solder Mask Top Paste Mask Bottom Paste Mask Top Assembly Bottom Assembly Board Outline Multi Document Mechanical 3D Shell Outline 3D Shell Top 3D Shell Bottom Drill Drawing Ratline
+					2280 text X:
+					2324 text -460
+					2281 text Y:
+					2325 text 5170
+					2282 text dX:
+					2283 text -460
+					2284 text dY:
+					2285 text 5170
+					2286 container
+						2287 text field (settable) 164%
+					2288 container
+						2289 text field (settable) 5.0
+					2290 container
+						2291 text mil
+			76 container layoutRight
+				77 container
+					1317 container Layer
+						1318 text L a y e r
+					1319 container Filter
+						1320 text F i l t e r
+					2230 container Properties
+						2231 text P r o p e r t i e s
+				1323 container pcb-attribute-manager
+					2232 container
+						2233 pop up button (collapsed, settable) Value: Common(Default), Secondary Actions: Expand
+							2234 menu
+								2292 (selected) Common(Default)
+								2293 Top Assembly View
+								2294 Bottom Assembly View
+								2295 Only Top Side
+								2296 Only Bottom Side
+								2297 Save As Config...
+								2298 Set as default config
+								2299 (disabled) Rename Config...
+								2300 (disabled) Save Config
+								2301 (disabled) Delete Config
+						2245 text Reset
+						2246 content list
+							2247 text All
+							2248 text Copper
+							2249 text Non-Copper
+						2326 text All Top Side 1 Top Layer 3 Top Silkscreen Layer 5 Top Solder Mask Layer 7 Top Paste Mask Layer 9 Top Assembly Layer Bottom Side 2 Bottom Layer 4 Bottom Silkscreen Layer 6 Bottom Solder Mask Layer 8 Bottom Paste Mask Layer 10 Bottom Assembly Layer Inner Side 15 Inner1 16 Inner2 Other 11 Board Outline Layer 12 Multi-Layer 13 Document Layer 14 Mechanical Layer 56 Drill Drawing Layer 57 Ratline Layer Component 48 Component Shape Layer 49 Component Marking Layer 50 Pin Soldering Layer 51 Pin Floating Layer 3D Shell 53 Outline Layer 54 Top Layer 55 Bottom Layer
+			356 container layoutBottom
+				357 container
+					358 text Library
+					359 text Log
+					2327 text Device Standardization
+					2328 text DRC
+					362 text Find Results
+				2329 container drcResult
+					2330 button Check DRC, ID: checkDRC
+					2331 button Clear Errors, ID: clearErrors
+					2332 content list
+						2333 container
+							2334 container
+								2335 text All (2)
+							2336 container
+								2337 text Clearance Error (1)
+							2338 container
+								2339 text Device to Prohibited Region (1)
+							2340 container
+								2341 text Netlist Error (1)
+							2342 container
+								2343 text Netlist Error (1)
+					2344 container drcTable
+						2345 container
+							2346 table
+								2347 row
+									2348 cell
+										2349 text No.
+									2350 cell
+										2351 text Display
+									2352 cell
+										2353 text Error Type
+									2354 cell
+										2355 text Error Object
+									2356 cell
+										2357 text Rule Name
+									2358 cell
+										2359 text Object 1
+									2360 cell
+										2361 text Object 2
+									2362 cell
+										2363 text Layer
+									2364 cell
+										2365 text Explanation
+							2366 table
+								2367 row
+									2368 cell
+										2369 text 1
+									2370 cell
+										2371 text Netlist Error
+									2372 cell
+										2373 text Netlist Error
+									2374 cell
+										2375 text Import Changes
+									2376 cell
+										2377 text Schematic Netlist
+									2378 cell
+										2379 text PCB Netlist
+									2380 cell
+										2381 text -
+									2382 cell
+										2383 text PCB and schematic netlist does not match. You can click on the rule name "Import Changes" to view the difference.
+								2384 row
+									2385 cell
+										2386 text 2
+									2387 cell
+										2388 text Clearance Error
+									2389 cell
+										2390 text Device to Prohibited Region
+									2391 cell
+										2392 text otherClearance
+									2393 cell
+										2394 text Prohibited Region : e11
+									2395 cell
+										2396 text Device : MODEM1
+									2397 cell
+										2398 text Top
+									2399 cell
+										2400 text Object 1 and object 2 overlap
+						2401 content list
+							2402 text 1
+							2403 container
+								2404 text Total 2 Items | 1 pages
+							2405 container
+								2406 text 50 /page
+		1200 container jlcIMDragger
+			1201 text Online Chat
+			2064 text 
+		1203 container
+			1204 text Floating Tool
+		1205 container
+			1206 text Floating Tool
+		1207 container
+			1208 text Table Setting
+			1209 container
+				1210 text Border Color
+				1211 text field
+				1212 text #A00000
+
+The focused UI element is 1 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4%7C12de2a08187ded60@9350624465b744b1a24fb48be3d774f4%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c%7C!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d%7C!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d%7C!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c%7C!c57d78373cad53ff(device)f9f7fbae4c469728@10cda219a11d4728af9b80718a4aa61c%7C!33cb51db55f6775c@10cda219a11d4728af9b80718a4aa61c

@@ -1,0 +1,672 @@
+{
+  "J1": {
+    "1": "AC_L_IN",
+    "2": "AC_N",
+    "3": "CHASSIS_PE"
+  },
+  "F1": {
+    "1": "AC_L_IN",
+    "2": "AC_L_FUSED"
+  },
+  "PS1": {
+    "1": "AC_N",
+    "2": "AC_L_FUSED",
+    "3": "5V_ISO",
+    "4": "GND_ISO"
+  },
+  "C1": {
+    "1": "5V_ISO",
+    "2": "GND_ISO"
+  },
+  "C2": {
+    "1": "5V_ISO",
+    "2": "GND_ISO"
+  },
+  "U2": {
+    "1": "R_SW",
+    "2": "R_SW",
+    "3": "R_SW",
+    "4": "NC",
+    "5": "GND_ISO",
+    "6": "GND_ISO",
+    "7": "GND_ISO",
+    "8": "GND_ISO",
+    "9": "R_SS",
+    "10": "5V_ISO",
+    "11": "5V_ISO",
+    "12": "5V_ISO",
+    "13": "5V_ISO",
+    "14": "3V3_ROUTER",
+    "15": "GND_ISO",
+    "16": "GND_ISO",
+    "17": "GND_ISO"
+  },
+  "L1": {
+    "1": "R_SW",
+    "2": "3V3_ROUTER"
+  },
+  "C10": {
+    "1": "5V_ISO",
+    "2": "GND_ISO"
+  },
+  "C11": {
+    "1": "5V_ISO",
+    "2": "GND_ISO"
+  },
+  "C12": {
+    "1": "R_SS",
+    "2": "GND_ISO"
+  },
+  "C13": {
+    "1": "3V3_ROUTER",
+    "2": "GND_ISO"
+  },
+  "U3": {
+    "1": "M_SW",
+    "2": "M_SW",
+    "3": "M_SW",
+    "4": "NC",
+    "5": "GND_ISO",
+    "6": "GND_ISO",
+    "7": "GND_ISO",
+    "8": "GND_ISO",
+    "9": "M_SS",
+    "10": "5V_ISO",
+    "11": "5V_ISO",
+    "12": "5V_ISO",
+    "13": "MODEM_BUCK_EN",
+    "14": "3V3_MODEM",
+    "15": "GND_ISO",
+    "16": "GND_ISO",
+    "17": "GND_ISO"
+  },
+  "L2": {
+    "1": "M_SW",
+    "2": "3V3_MODEM"
+  },
+  "C20": {
+    "1": "5V_ISO",
+    "2": "GND_ISO"
+  },
+  "C21": {
+    "1": "5V_ISO",
+    "2": "GND_ISO"
+  },
+  "C22": {
+    "1": "M_SS",
+    "2": "GND_ISO"
+  },
+  "C23": {
+    "1": "3V3_MODEM",
+    "2": "GND_ISO"
+  },
+  "C24": {
+    "1": "3V3_MODEM",
+    "2": "GND_ISO"
+  },
+  "C25": {
+    "1": "3V3_MODEM",
+    "2": "GND_ISO"
+  },
+  "R20": {
+    "1": "5V_ISO",
+    "2": "MODEM_BUCK_EN"
+  },
+  "Q1": {
+    "1": "MODEM_OFF_GATE",
+    "2": "GND_ISO",
+    "3": "MODEM_BUCK_EN"
+  },
+  "R21": {
+    "1": "MODEM_OFF",
+    "2": "MODEM_OFF_GATE"
+  },
+  "R22": {
+    "1": "MODEM_OFF_GATE",
+    "2": "GND_ISO"
+  },
+  "U1": {
+    "1": "GND_ISO",
+    "2": "3V3_ROUTER",
+    "3": "3V3_ROUTER",
+    "4": "GND_ISO",
+    "5": "NC",
+    "6": "NC",
+    "7": "NC",
+    "8": "NC",
+    "9": "LAN4_LED_N",
+    "10": "LAN3_LED_N",
+    "11": "LAN2_LED_N",
+    "12": "LAN1_LED_N",
+    "13": "NC",
+    "14": "ROUTER_RESET_N",
+    "15": "NC",
+    "16": "NC",
+    "17": "NC",
+    "18": "NC",
+    "19": "NC",
+    "20": "NC",
+    "21": "GND_ISO",
+    "22": "NC",
+    "23": "GND_ISO",
+    "24": "I2C_SCL",
+    "25": "I2C_SDA",
+    "26": "NC",
+    "27": "NC",
+    "28": "NC",
+    "29": "NC",
+    "30": "ROUTER_GPIO0_N",
+    "31": "CONSOLE_TX",
+    "32": "CONSOLE_RX",
+    "33": "NC",
+    "34": "NC",
+    "35": "NC",
+    "36": "NC",
+    "37": "NC",
+    "38": "LAN1_TXP",
+    "39": "LAN1_TXN",
+    "40": "LAN1_RXP",
+    "41": "LAN1_RXN",
+    "42": "LAN2_RXP",
+    "43": "LAN2_RXN",
+    "44": "LAN2_TXP",
+    "45": "LAN2_TXN",
+    "46": "LAN3_TXP",
+    "47": "LAN3_TXN",
+    "48": "LAN3_RXP",
+    "49": "LAN3_RXN",
+    "50": "LAN4_RXP",
+    "51": "LAN4_RXN",
+    "52": "LAN4_TXP",
+    "53": "LAN4_TXN",
+    "54": "USB_HOST_DP",
+    "55": "USB_HOST_DM",
+    "56": "GND_ISO",
+    "57": "GND_ISO",
+    "58": "GND_ISO",
+    "59": "GND_ISO",
+    "EP1": "GND_ISO",
+    "EP2": "GND_ISO",
+    "EP3": "GND_ISO"
+  },
+  "U6": {
+    "1": "I2C_SCL",
+    "2": "I2C_SDA",
+    "3": "GND_ISO",
+    "4": "GND_ISO",
+    "5": "GND_ISO",
+    "6": "ROUTER_RESET_N",
+    "7": "NC",
+    "8": "NC",
+    "9": "GND_ISO",
+    "10": "SIM_SELECT",
+    "11": "MODEM_OFF",
+    "12": "MODEM_RESET_REQ",
+    "13": "NC",
+    "14": "NC",
+    "15": "NC",
+    "16": "NC",
+    "17": "NC",
+    "18": "3V3_ROUTER"
+  },
+  "R30": {
+    "1": "3V3_ROUTER",
+    "2": "I2C_SCL"
+  },
+  "R31": {
+    "1": "3V3_ROUTER",
+    "2": "I2C_SDA"
+  },
+  "R32": {
+    "1": "SIM_SELECT",
+    "2": "GND_ISO"
+  },
+  "R33": {
+    "1": "MODEM_OFF",
+    "2": "GND_ISO"
+  },
+  "R35": {
+    "1": "MODEM_RESET_REQ",
+    "2": "GND_ISO"
+  },
+  "C30": {
+    "1": "3V3_ROUTER",
+    "2": "GND_ISO"
+  },
+  "C31": {
+    "1": "3V3_ROUTER",
+    "2": "GND_ISO"
+  },
+  "SW1": {
+    "1": "ROUTER_RESET_N",
+    "2": "GND_ISO"
+  },
+  "J7": {
+    "1": "GND_ISO",
+    "2": "CONSOLE_TX",
+    "3": "CONSOLE_RX",
+    "4": "ROUTER_RESET_N",
+    "5": "ROUTER_GPIO0_N",
+    "6": "3V3_ROUTER"
+  },
+  "J2": {
+    "1": "LAN1_TXP",
+    "2": "LAN1_TXN",
+    "3": "LAN1_TX_CT",
+    "4": "NC",
+    "5": "LAN1_RX_CT",
+    "6": "LAN1_RXP",
+    "7": "LAN1_RXN",
+    "8": "CHASSIS_PE",
+    "9": "LAN1_GREEN_A",
+    "10": "LAN1_LED_N",
+    "11": "NC",
+    "12": "NC",
+    "13": "CHASSIS_PE",
+    "14": "CHASSIS_PE"
+  },
+  "R41": {
+    "1": "3V3_ROUTER",
+    "2": "LAN1_GREEN_A"
+  },
+  "C41": {
+    "1": "LAN1_RX_CT",
+    "2": "GND_ISO"
+  },
+  "C51": {
+    "1": "LAN1_TX_CT",
+    "2": "GND_ISO"
+  },
+  "J3": {
+    "1": "LAN2_TXP",
+    "2": "LAN2_TXN",
+    "3": "LAN2_TX_CT",
+    "4": "NC",
+    "5": "LAN2_RX_CT",
+    "6": "LAN2_RXP",
+    "7": "LAN2_RXN",
+    "8": "CHASSIS_PE",
+    "9": "LAN2_GREEN_A",
+    "10": "LAN2_LED_N",
+    "11": "NC",
+    "12": "NC",
+    "13": "CHASSIS_PE",
+    "14": "CHASSIS_PE"
+  },
+  "R42": {
+    "1": "3V3_ROUTER",
+    "2": "LAN2_GREEN_A"
+  },
+  "C42": {
+    "1": "LAN2_RX_CT",
+    "2": "GND_ISO"
+  },
+  "C52": {
+    "1": "LAN2_TX_CT",
+    "2": "GND_ISO"
+  },
+  "J4": {
+    "1": "LAN3_TXP",
+    "2": "LAN3_TXN",
+    "3": "LAN3_TX_CT",
+    "4": "NC",
+    "5": "LAN3_RX_CT",
+    "6": "LAN3_RXP",
+    "7": "LAN3_RXN",
+    "8": "CHASSIS_PE",
+    "9": "LAN3_GREEN_A",
+    "10": "LAN3_LED_N",
+    "11": "NC",
+    "12": "NC",
+    "13": "CHASSIS_PE",
+    "14": "CHASSIS_PE"
+  },
+  "R43": {
+    "1": "3V3_ROUTER",
+    "2": "LAN3_GREEN_A"
+  },
+  "C43": {
+    "1": "LAN3_RX_CT",
+    "2": "GND_ISO"
+  },
+  "C53": {
+    "1": "LAN3_TX_CT",
+    "2": "GND_ISO"
+  },
+  "J5": {
+    "1": "LAN4_TXP",
+    "2": "LAN4_TXN",
+    "3": "LAN4_TX_CT",
+    "4": "NC",
+    "5": "LAN4_RX_CT",
+    "6": "LAN4_RXP",
+    "7": "LAN4_RXN",
+    "8": "CHASSIS_PE",
+    "9": "LAN4_GREEN_A",
+    "10": "LAN4_LED_N",
+    "11": "NC",
+    "12": "NC",
+    "13": "CHASSIS_PE",
+    "14": "CHASSIS_PE"
+  },
+  "R44": {
+    "1": "3V3_ROUTER",
+    "2": "LAN4_GREEN_A"
+  },
+  "C44": {
+    "1": "LAN4_RX_CT",
+    "2": "GND_ISO"
+  },
+  "C54": {
+    "1": "LAN4_TX_CT",
+    "2": "GND_ISO"
+  },
+  "J8": {
+    "1": "NC",
+    "2": "3V3_MODEM",
+    "3": "NC",
+    "4": "GND_ISO",
+    "5": "NC",
+    "6": "NC",
+    "7": "NC",
+    "8": "USIM_VDD",
+    "9": "GND_ISO",
+    "10": "USIM_DATA",
+    "11": "NC",
+    "12": "USIM_CLK",
+    "13": "NC",
+    "14": "USIM_RST",
+    "15": "GND_ISO",
+    "16": "NC",
+    "17": "NC",
+    "18": "GND_ISO",
+    "19": "NC",
+    "20": "NC",
+    "21": "GND_ISO",
+    "22": "MODEM_PERST_N",
+    "23": "NC",
+    "24": "NC",
+    "25": "NC",
+    "26": "GND_ISO",
+    "27": "GND_ISO",
+    "28": "NC",
+    "29": "GND_ISO",
+    "30": "NC",
+    "31": "NC",
+    "32": "NC",
+    "33": "NC",
+    "34": "GND_ISO",
+    "35": "GND_ISO",
+    "36": "USB_MODEM_DM",
+    "37": "GND_ISO",
+    "38": "USB_MODEM_DP",
+    "39": "3V3_MODEM",
+    "40": "GND_ISO",
+    "41": "3V3_MODEM",
+    "42": "NC",
+    "43": "GND_ISO",
+    "44": "NC",
+    "45": "NC",
+    "46": "NC",
+    "47": "NC",
+    "48": "NC",
+    "49": "NC",
+    "50": "GND_ISO",
+    "51": "NC",
+    "52": "3V3_MODEM",
+    "MP1": "GND_ISO",
+    "MP2": "GND_ISO"
+  },
+  "U8": {
+    "1": "USB_HOST_DP",
+    "2": "USB_HOST_DM",
+    "3": "USB_SERVICE_DP",
+    "4": "USB_SERVICE_DM",
+    "5": "GND_ISO",
+    "6": "MODEM_OFF",
+    "7": "USB_MODEM_DM",
+    "8": "USB_MODEM_DP",
+    "9": "MODEM_USB_SEL",
+    "10": "3V3_ROUTER"
+  },
+  "U9": {
+    "1": "USB_MODEM_DP",
+    "2": "USB_MODEM_DM",
+    "3": "GND_ISO"
+  },
+  "C60": {
+    "1": "3V3_ROUTER",
+    "2": "GND_ISO"
+  },
+  "C61": {
+    "1": "3V3_MODEM",
+    "2": "GND_ISO"
+  },
+  "Q2": {
+    "1": "MODEM_RESET_GATE",
+    "2": "GND_ISO",
+    "3": "MODEM_PERST_N"
+  },
+  "R60": {
+    "1": "MODEM_RESET_REQ",
+    "2": "MODEM_RESET_GATE"
+  },
+  "R61": {
+    "1": "MODEM_RESET_GATE",
+    "2": "GND_ISO"
+  },
+  "U10": {
+    "1": "SIM_B_CLK",
+    "2": "USIM_CLK",
+    "3": "SIM_A_CLK",
+    "4": "GND_ISO",
+    "5": "SIM_B_RST",
+    "6": "USIM_RST",
+    "7": "SIM_A_RST",
+    "8": "SIM_SELECT",
+    "9": "SIM_B_IO",
+    "10": "USIM_DATA",
+    "11": "SIM_A_IO",
+    "12": "3V3_ROUTER",
+    "13": "SIM_B_VCC",
+    "14": "USIM_VDD",
+    "15": "SIM_A_VCC",
+    "16": "SIM_SELECT"
+  },
+  "J9": {
+    "1": "SIM_A_VCC",
+    "2": "SIM_A_RST",
+    "3": "SIM_A_CLK",
+    "5": "GND_ISO",
+    "6": "NC",
+    "7": "SIM_A_IO",
+    "8": "NC",
+    "9": "GND_ISO",
+    "10": "GND_ISO",
+    "11": "GND_ISO"
+  },
+  "C70": {
+    "1": "3V3_ROUTER",
+    "2": "GND_ISO"
+  },
+  "C71": {
+    "1": "SIM_A_VCC",
+    "2": "GND_ISO"
+  },
+  "C72": {
+    "1": "SIM_B_VCC",
+    "2": "GND_ISO"
+  },
+  "R70": {
+    "1": "USIM_VDD",
+    "2": "USIM_DATA"
+  },
+  "U14": {
+    "1": "SIM_A_CLK",
+    "2": "GND_ISO",
+    "3": "SIM_A_RST",
+    "4": "SIM_A_IO",
+    "5": "SIM_A_VCC",
+    "6": "NC"
+  },
+  "J11": {
+    "1": "SIM_B_VCC",
+    "2": "SIM_B_RST",
+    "3": "SIM_B_CLK",
+    "4": "GND_ISO",
+    "5": "SIM_B_IO",
+    "6": "NC"
+  },
+  "J12": {
+    "1": "GND_ISO",
+    "2": "USB_SERVICE_DP",
+    "3": "USB_SERVICE_DM",
+    "4": "MODEM_USB_SEL",
+    "5": "MODEM_PERST_N",
+    "6": "MODEM_BUCK_EN"
+  },
+  "J13": {
+    "1": "GND_ISO",
+    "2": "GND_ISO",
+    "3": "5V_ISO",
+    "4": "5V_ISO"
+  },
+  "R36": {
+    "1": "3V3_ROUTER",
+    "2": "ROUTER_RESET_N"
+  },
+  "R37": {
+    "1": "3V3_ROUTER",
+    "2": "ROUTER_GPIO0_N"
+  },
+  "R74": {
+    "1": "MODEM_USB_SEL",
+    "2": "GND_ISO"
+  },
+  "SW3": {
+    "1": "ROUTER_GPIO0_N",
+    "2": "GND_ISO"
+  },
+  "U15": {
+    "1": "USB_SERVICE_DP",
+    "2": "USB_SERVICE_DM",
+    "3": "GND_ISO"
+  },
+  "J15": {
+    "1": "AC_L_IN",
+    "2": "AC_N",
+    "3": "CHASSIS_PE"
+  },
+  "J16": {
+    "1": "AC_L_IN",
+    "2": "AC_N",
+    "3": "CHASSIS_PE"
+  },
+  "J14": {
+    "1": "CHASSIS_PE",
+    "2": "CHASSIS_PE",
+    "3": "CHASSIS_PE",
+    "4": "CHASSIS_PE",
+    "A1B12": "GND_ISO",
+    "B1A12": "GND_ISO",
+    "A4B9": "USB_C_VBUS",
+    "B4A9": "USB_C_VBUS",
+    "B8": "NC",
+    "A8": "NC",
+    "A5": "USB_C_CC1",
+    "B5": "USB_C_CC2",
+    "B7": "USB_CONSOLE_DM",
+    "A7": "USB_CONSOLE_DM",
+    "A6": "USB_CONSOLE_DP",
+    "B6": "USB_CONSOLE_DP"
+  },
+  "U16": {
+    "1": "GND_ISO",
+    "2": "USB_UART_TX",
+    "3": "USB_UART_RX",
+    "4": "USB_UART_3V3",
+    "5": "USB_CONSOLE_DP",
+    "6": "USB_CONSOLE_DM",
+    "7": "NC",
+    "8": "NC",
+    "9": "NC",
+    "10": "NC",
+    "11": "NC",
+    "12": "NC",
+    "13": "NC",
+    "14": "NC",
+    "15": "GND_ISO",
+    "16": "USB_UART_3V3"
+  },
+  "U17": {
+    "1": "USB_C_VBUS",
+    "2": "GND_ISO",
+    "3": "USB_C_VBUS",
+    "4": "NC",
+    "5": "USB_UART_3V3"
+  },
+  "U18": {
+    "1": "USB_UART_OE_N",
+    "2": "USB_UART_TX_BUF",
+    "3": "USB_UART_RX_BUF",
+    "4": "GND_ISO",
+    "5": "CONSOLE_TX",
+    "6": "CONSOLE_RX",
+    "7": "USB_UART_OE_N",
+    "8": "3V3_ROUTER"
+  },
+  "U19": {
+    "1": "USB_CONSOLE_DP",
+    "2": "USB_CONSOLE_DM",
+    "3": "GND_ISO"
+  },
+  "Q3": {
+    "1": "USB_DETECT_GATE",
+    "2": "GND_ISO",
+    "3": "USB_UART_OE_N"
+  },
+  "R90": {
+    "1": "USB_C_CC1",
+    "2": "GND_ISO"
+  },
+  "R91": {
+    "1": "USB_C_CC2",
+    "2": "GND_ISO"
+  },
+  "R92": {
+    "1": "3V3_ROUTER",
+    "2": "USB_UART_OE_N"
+  },
+  "R93": {
+    "1": "USB_DETECT_GATE",
+    "2": "GND_ISO"
+  },
+  "R94": {
+    "1": "USB_C_VBUS",
+    "2": "USB_DETECT_GATE"
+  },
+  "R95": {
+    "1": "USB_UART_TX",
+    "2": "USB_UART_TX_BUF"
+  },
+  "R96": {
+    "1": "USB_UART_RX_BUF",
+    "2": "USB_UART_RX"
+  },
+  "C90": {
+    "1": "USB_C_VBUS",
+    "2": "GND_ISO"
+  },
+  "C91": {
+    "1": "USB_UART_3V3",
+    "2": "GND_ISO"
+  },
+  "C92": {
+    "1": "USB_UART_3V3",
+    "2": "GND_ISO"
+  },
+  "C93": {
+    "1": "3V3_ROUTER",
+    "2": "GND_ISO"
+  }
+}

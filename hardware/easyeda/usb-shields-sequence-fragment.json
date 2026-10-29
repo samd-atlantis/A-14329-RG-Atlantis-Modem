@@ -1,0 +1,185 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626811",
+        "ticket": 626811
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 2786.85,
+        "startY": 388.58500000000004,
+        "endX": 3285.0,
+        "endY": 30.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626812",
+        "ticket": 626812
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3285.0,
+        "startY": 30.0,
+        "endX": 3485.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626813",
+        "ticket": 626813
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3485.0,
+        "startY": 40.0,
+        "endX": 3605.51,
+        "endY": 95.355,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_629814",
+        "ticket": 629814
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3985.51,
+        "startY": 264.645,
+        "endX": 4000.0,
+        "endY": 240.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_629815",
+        "ticket": 629815
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4000.0,
+        "startY": 240.0,
+        "endX": 4000.0,
+        "endY": 120.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_629816",
+        "ticket": 629816
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4000.0,
+        "startY": 120.0,
+        "endX": 3985.51,
+        "endY": 95.355,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_632817",
+        "ticket": 632817
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4174.49,
+        "startY": 95.355,
+        "endX": 4115.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_632818",
+        "ticket": 632818
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4115.0,
+        "startY": 40.0,
+        "endX": 4055.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_632819",
+        "ticket": 632819
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4055.0,
+        "startY": 40.0,
+        "endX": 3985.51,
+        "endY": 95.355,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ]
+}

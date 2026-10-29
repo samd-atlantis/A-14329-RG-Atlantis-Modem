@@ -1,0 +1,26 @@
+[
+  {
+    "reference": "ST1,ST2",
+    "pcb_reference": "ST1,ST2",
+    "manufacturer": "JAE",
+    "mpn": "NT4R1600",
+    "quantity_per_board": 2,
+    "quantity_for_50": 100,
+    "lcsc": null,
+    "sourcing": "Separate source / assembler consignment; not found in JLC library",
+    "description": "Tin plated brass SMT threaded support, M2x0.4, dia4mm body,3.55mm card shoulder,0.6mm pilot",
+    "source": "https://docs.rs-online.com/bbd1/0900766b813f2bc8.pdf",
+    "assembly": "Reflow to isolated top annular lands; remove pickup tape before fitting modem. PCB land/stencil draft requires assembler review."
+  },
+  {
+    "reference": "MS1,MS2",
+    "manufacturer": "Commodity hardware",
+    "mpn": "DIN7985H-M2x3-A2",
+    "quantity_per_board": 2,
+    "quantity_for_50": 100,
+    "lcsc": null,
+    "sourcing": "Separate assembly hardware",
+    "description": "M2x0.4 x3mm pan head Phillips screw, A2 stainless, head diameter4mm max; no countersunk head",
+    "assembly": "Install after inserting modem. Verify installed thread engagement/clearance and establish torque from hardware/card supplier; do not bottom against PCB."
+  }
+]

@@ -1,0 +1,317 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "points": [
+    [
+      1,
+      3070.892,
+      2283.5078
+    ],
+    [
+      1,
+      3185.0,
+      2055.0
+    ],
+    [
+      1,
+      3510.0,
+      1715.0
+    ],
+    [
+      2,
+      3510.0,
+      1715.0
+    ],
+    [
+      2,
+      3510.0,
+      1585.0
+    ],
+    [
+      2,
+      3460.0,
+      1535.0
+    ],
+    [
+      1,
+      3460.0,
+      1535.0
+    ],
+    [
+      1,
+      3493.8178,
+      1525.6326000000001
+    ]
+  ],
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_632640",
+        "ticket": 632640
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2283.5078,
+        "endX": 3185.0,
+        "endY": 2055.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_632641",
+        "ticket": 632641
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3185.0,
+        "startY": 2055.0,
+        "endX": 3510.0,
+        "endY": 1715.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_trunk_632642",
+        "ticket": 632642
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3510.0,
+        "centerY": 1715.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_632643",
+        "ticket": 632643
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3510.0,
+        "startY": 1715.0,
+        "endX": 3510.0,
+        "endY": 1585.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_632644",
+        "ticket": 632644
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3510.0,
+        "startY": 1585.0,
+        "endX": 3460.0,
+        "endY": 1535.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_trunk_632645",
+        "ticket": 632645
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3460.0,
+        "centerY": 1535.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_632646",
+        "ticket": 632646
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3460.0,
+        "startY": 1535.0,
+        "endX": 3493.8178,
+        "endY": 1525.6326000000001,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_parallel_632647",
+        "ticket": 632647
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3535.0,
+        "centerY": 1715.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_632648",
+        "ticket": 632648
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3510.0,
+        "startY": 1715.0,
+        "endX": 3535.0,
+        "endY": 1715.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_632649",
+        "ticket": 632649
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3510.0,
+        "startY": 1715.0,
+        "endX": 3535.0,
+        "endY": 1715.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_parallel_632650",
+        "ticket": 632650
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "ruleName": "",
+        "centerX": 3485.0,
+        "centerY": 1535.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_632651",
+        "ticket": 632651
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3460.0,
+        "startY": 1535.0,
+        "endX": 3485.0,
+        "endY": 1535.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_632652",
+        "ticket": 632652
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 2,
+        "startX": 3460.0,
+        "startY": 1535.0,
+        "endX": 3485.0,
+        "endY": 1535.0,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": [],
+  "review": "Via ampacity, return paths and native DRC remain required."
+}

@@ -1,0 +1,33 @@
+{
+  "status": "OFFLINE_PLACEMENT_NOT_APPLIED",
+  "positions_mil": {
+    "C20": [
+      2620,
+      2210
+    ],
+    "L2": [
+      2992.126,
+      2283.5039
+    ],
+    "R37": [
+      2500,
+      2250
+    ],
+    "SW3": [
+      2440,
+      2410
+    ],
+    "C23": [
+      3208.6614,
+      2200
+    ],
+    "C24": [
+      3208.6614,
+      2460
+    ]
+  },
+  "pad_clearance_issues": [],
+  "limitations": [
+    "Courtyards, existing traces, component keepouts, thermal layout and native DRC still require review."
+  ]
+}

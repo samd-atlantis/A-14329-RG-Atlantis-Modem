@@ -1,0 +1,19 @@
+{
+  "mpn": "2604-1103",
+  "supplier": "C3309758",
+  "jlcStockObserved": 163,
+  "jlcUnitPriceObserved": 0.7295,
+  "observed": "2026-10-28",
+  "manufacturer": "https://www.wago.com/global/pcb-terminal-blocks-and-pluggable-connectors/pcb-terminal-block/p/2604-1103",
+  "datasheet": "https://media.digikey.com/pdf/Data%20Sheets/WAGO%20PDFs/2604-1103.pdf",
+  "wireAWG": "24-12",
+  "ulUseGroupB": {
+    "amps": 20,
+    "volts": 300
+  },
+  "pitchMM": 5,
+  "holeMM": 1.3,
+  "holeTolerancePlusMM": 0.1,
+  "pinsPerPotential": 2,
+  "status": "Candidate; not yet substituted. Verify copper clearance with actual library footprint."
+}

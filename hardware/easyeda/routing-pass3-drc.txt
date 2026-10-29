@@ -1,0 +1,472 @@
+Browser tab: 1, Title: "A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209", URL: "https://pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4|12de2a08187ded60@9350624465b744b1a24fb48be3d774f4|279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c|*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c|!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d|!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d".
+0 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4%7C12de2a08187ded60@9350624465b744b1a24fb48be3d774f4%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d%7C!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d
+	1 container
+		2 image svg-work-space
+		3 image canvas-work-space
+		4 container top-bar-react
+			5 container toolbar-common
+				6 link Value: pro.easyeda.com/editor#, ID: modelogo
+				7 container
+					8 text File (F)
+				9 container
+					10 text Edit (E)
+				11 container
+					12 text View (V)
+				13 container
+					14 text Place (P)
+				15 container
+					16 text Design (D)
+				17 container
+					18 text Route (U)
+				19 container
+					20 text Layout (O)
+				21 container
+					22 text Tools (T)
+				23 container
+					24 text Export (R)
+				25 container
+					26 text Advanced (A)
+				27 container
+					28 text Settings (I)
+				29 container
+					30 text Help (H)
+			31 container userbar
+				32 text V3.2.209
+				33 text Personal
+				34 text EN
+				35 link Notifications
+				36 link Description: Avatar powerturn, Help: Homepage
+					37 image Avatar
+					38 container loginUsername
+						39 text powerturn
+		40 container
+			41 container Switch Brightness
+				42 text Normal Brightness
+			43 container Unit
+				44 text mil
+			45 container Routing Corner
+				46 text Line 45°
+		47 container main
+			48 container layoutLeft
+				49 container
+					50 container All Projects
+						51 text A l l P r o j e c t s
+					52 container Project Design
+						53 text P r o j e c t D e s i g n
+					54 container Common Library
+						55 text C o m m o n L i b r a r y
+				56 container left-panel-projectAndLib-design
+					57 container
+						58 text Page Net Component Object
+					59 container schLeftTree
+						60 text field (settable)
+						61 container treeMyProject-content
+							62 content list treeMyProject
+								63 container
+									2299 AXListMarker • 
+									65 container A-14329 AIO Modem
+										66 text main
+										67 text A-14329 AIO Modem
+								68 container
+									2300 AXListMarker • 
+									70 container Board: Board1
+										71 text Board1
+								72 container
+									2301 AXListMarker • 
+									74 container Schematic: Schematic1
+										75 text Schematic1
+								76 container
+									2302 AXListMarker • 
+									78 text 1. P1
+								79 container
+									2303 AXListMarker • 
+									81 text PCB1
+								82 container
+									2304 AXListMarker • 
+									84 text Panel1
+			85 container editorTabbar
+				86 container
+					87 text Start Page EG25_MINIPCIE_MECHANICAL_ONLY EG25_REMOVABLE_CARD_MECHANICAL PCB1 P1.Schematic1 PCB1
+				91 container
+					92 image rulerh_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					93 image rulerv_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					94 AXWebArea EasyEDA PCB, URL: pro.easyeda.com/editor?entry=pcb
+					95 container
+						96 text Top Inner1 Inner2 Bottom Top Silkscreen Bottom Silkscreen Top Solder Mask Bottom Solder Mask Top Paste Mask Bottom Paste Mask Top Assembly Bottom Assembly Board Outline Multi Document Mechanical 3D Shell Outline 3D Shell Top 3D Shell Bottom Drill Drawing Ratline
+					97 text X:
+					98 text 4335
+					99 text Y:
+					100 text 5770
+					101 text dX:
+					102 text 0
+					103 text dY:
+					104 text 0
+					105 container
+						106 text field (settable) 180%
+					107 container
+						108 text field (settable) 5.0
+					109 container
+						110 text mil
+			111 container layoutRight
+				112 container
+					113 container Layer
+						114 text L a y e r
+					115 container Filter
+						116 text F i l t e r
+					4082 container Properties
+						4083 text P r o p e r t i e s
+				119 container pcb-attribute-manager
+					4084 container
+						4085 pop up button (collapsed, settable) Value: Common(Default), Secondary Actions: Expand
+							4086 menu
+								4087 (selected) Common(Default)
+								4088 Top Assembly View
+								4089 Bottom Assembly View
+								4090 Only Top Side
+								4091 Only Bottom Side
+								4092 Save As Config...
+								4093 Set as default config
+								4094 (disabled) Rename Config...
+								4095 (disabled) Save Config
+								4096 (disabled) Delete Config
+						4097 text Reset
+						4098 content list
+							4099 text All
+							4100 text Copper
+							4101 text Non-Copper
+						4102 text All Top Side 1 Top Layer 3 Top Silkscreen Layer 5 Top Solder Mask Layer 7 Top Paste Mask Layer 9 Top Assembly Layer Bottom Side 2 Bottom Layer 4 Bottom Silkscreen Layer 6 Bottom Solder Mask Layer 8 Bottom Paste Mask Layer 10 Bottom Assembly Layer Inner Side 15 Inner1 16 Inner2 Other 11 Board Outline Layer 12 Multi-Layer 13 Document Layer 14 Mechanical Layer 56 Drill Drawing Layer 57 Ratline Layer Component 48 Component Shape Layer 49 Component Marking Layer 50 Pin Soldering Layer 51 Pin Floating Layer 3D Shell 53 Outline Layer 54 Top Layer 55 Bottom Layer
+			139 container layoutBottom
+				140 container
+					141 text Library
+					142 text Log
+					143 text Device Standardization
+					144 text DRC
+					145 text Find Results
+				266 container drcResult
+					267 button Check DRC, ID: checkDRC
+					268 button Clear Errors, ID: clearErrors
+					269 content list
+						4104 container
+							4960 container
+								4961 text All (221)
+							4962 container
+								4963 text Clearance Error (1)
+							4964 container
+								4965 text Device to Prohibited Region (1)
+							4966 container
+								4967 text Clearance Error in the same footprint (12)
+							4968 container
+								4969 text TH Pad to TH Pad (12)
+							4970 container
+								4971 text Connection Error (207)
+							4972 container
+								4973 text GND_ISO (12)
+							4974 container
+								4975 text 5V_ISO (17)
+							4976 container
+								4977 text 3V3_ROUTER (20)
+							4978 container
+								4979 text M_SS (2)
+							4980 container
+								4981 text 3V3_MODEM (10)
+							4982 container
+								4983 text LAN1_RX_CT (2)
+							4984 container
+								4985 text LAN2_RX_CT (2)
+							4986 container
+								4987 text LAN3_RX_CT (2)
+							4988 container
+								4989 text LAN4_RX_CT (2)
+							4990 container
+								4991 text LAN1_TX_CT (2)
+							4992 container
+								4993 text LAN2_TX_CT (2)
+							4994 container
+								4995 text LAN3_TX_CT (2)
+							4996 container
+								4997 text LAN4_TX_CT (2)
+							4998 container
+								4999 text AC_L_IN (7)
+							5000 container
+								5001 text AC_L_FUSED (2)
+							5002 container
+								5003 text LAN1_TXP (2)
+							5004 container
+								5005 text LAN1_TXN (2)
+							5006 container
+								5007 text LAN1_RXP (2)
+							5008 container
+								5009 text LAN1_RXN (2)
+							5010 container
+								5011 text CHASSIS_PE (26)
+							5012 container
+								5013 text LAN2_TXP (2)
+							5014 container
+								5015 text LAN2_TXN (2)
+							5016 container
+								5017 text LAN2_RXP (2)
+							5018 container
+								5019 text LAN2_RXN (2)
+							5020 container
+								5021 text LAN3_TXP (2)
+							5022 container
+								5023 text LAN3_TXN (2)
+							5024 container
+								5025 text LAN3_RXP (2)
+							5026 container
+								5027 text LAN3_RXN (2)
+							5028 container
+								5029 text LAN4_TXP (2)
+							5030 container
+								5031 text LAN4_TXN (2)
+							5032 container
+								5033 text LAN4_RXP (2)
+					4179 container drcTable
+						4180 container
+							4181 table
+								4182 row
+									4183 cell
+										4184 text No.
+									4185 cell
+										4186 text Display
+									4187 cell
+										4188 text Error Type
+									4189 cell
+										4190 text Error Object
+									4191 cell
+										4192 text Rule Name
+									4193 cell
+										4194 text Object 1
+									4195 cell
+										4196 text Object 2
+									4197 cell
+										4198 text Layer
+									4199 cell
+										4200 text Explanation
+							4201 table
+								4202 row
+									4203 cell
+										4204 text 1
+									4205 cell
+										5034 text Clearance Error in the same footprint
+									4207 cell
+										5035 text TH Pad to TH Pad
+									4209 cell
+										4210 text MAINS_PE_3P2MM
+									4211 cell
+										5036 text TH Pad (AC_N): CN1_2
+									4213 cell
+										5037 text TH Pad (AC_L_IN): CN1_1
+									4215 cell
+										5038 text Top
+									4217 cell
+										5039 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4219 row
+									4220 cell
+										4221 text 2
+									4222 cell
+										5040 text Clearance Error in the same footprint
+									4224 cell
+										5041 text TH Pad to TH Pad
+									4226 cell
+										4227 text MAINS_PE_3P2MM
+									4228 cell
+										5042 text TH Pad (CHASSIS_PE): CN1_3
+									5043 cell
+										5044 text TH Pad (AC_N): CN1_2
+									4230 cell
+										5045 text Top
+									4232 cell
+										5046 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4234 row
+									4235 cell
+										4236 text 3
+									4237 cell
+										5047 text Clearance Error in the same footprint
+									4239 cell
+										5048 text TH Pad to TH Pad
+									4241 cell
+										4242 text MAINS_PE_3P2MM
+									4243 cell
+										5049 text TH Pad (AC_N): CN1_2
+									5050 cell
+										5051 text TH Pad (CHASSIS_PE): CN1_3
+									4245 cell
+										5052 text Top
+									4247 cell
+										5053 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4249 row
+									4250 cell
+										4251 text 4
+									4252 cell
+										5054 text Clearance Error in the same footprint
+									4254 cell
+										5055 text TH Pad to TH Pad
+									4256 cell
+										4257 text MAINS_PE_3P2MM
+									4258 cell
+										5056 text TH Pad (AC_L_IN): CN1_1
+									5057 cell
+										5058 text TH Pad (AC_N): CN1_2
+									4260 cell
+										5059 text Top
+									4262 cell
+										5060 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4264 row
+									4265 cell
+										4266 text 5
+									4267 cell
+										5061 text Clearance Error in the same footprint
+									4269 cell
+										5062 text TH Pad to TH Pad
+									4271 cell
+										4272 text MAINS_PE_3P2MM
+									4273 cell
+										5063 text TH Pad (AC_N): J15_2
+									5064 cell
+										5065 text TH Pad (AC_L_IN): J15_1
+									4275 cell
+										5066 text Top
+									4277 cell
+										5067 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4279 row
+									4280 cell
+										4281 text 6
+									4282 cell
+										5068 text Clearance Error in the same footprint
+									4284 cell
+										5069 text TH Pad to TH Pad
+									4286 cell
+										4287 text MAINS_PE_3P2MM
+									4288 cell
+										5070 text TH Pad (CHASSIS_PE): J15_3
+									5071 cell
+										5072 text TH Pad (AC_N): J15_2
+									4290 cell
+										5073 text Top
+									4292 cell
+										5074 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4294 row
+									4295 cell
+										4296 text 7
+									4297 cell
+										5075 text Clearance Error in the same footprint
+									4299 cell
+										5076 text TH Pad to TH Pad
+									4301 cell
+										4302 text MAINS_PE_3P2MM
+									4303 cell
+										5077 text TH Pad (AC_N): J15_2
+									5078 cell
+										5079 text TH Pad (CHASSIS_PE): J15_3
+									4305 cell
+										5080 text Top
+									4307 cell
+										5081 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4309 row
+									4310 cell
+										4311 text 8
+									4312 cell
+										5082 text Clearance Error in the same footprint
+									4314 cell
+										5083 text TH Pad to TH Pad
+									4316 cell
+										4317 text MAINS_PE_3P2MM
+									4318 cell
+										5084 text TH Pad (AC_L_IN): J15_1
+									5085 cell
+										5086 text TH Pad (AC_N): J15_2
+									4320 cell
+										5087 text Top
+									4322 cell
+										5088 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4324 row
+									4325 cell
+										4326 text 9
+									4327 cell
+										5089 text Clearance Error in the same footprint
+									4329 cell
+										5090 text TH Pad to TH Pad
+									4331 cell
+										4332 text MAINS_PE_3P2MM
+									4333 cell
+										5091 text TH Pad (AC_N): J16_2
+									5092 cell
+										5093 text TH Pad (AC_L_IN): J16_1
+									4335 cell
+										5094 text Top
+									4337 cell
+										5095 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4339 row
+									4340 cell
+										4341 text 10
+									4342 cell
+										5096 text Clearance Error in the same footprint
+									4344 cell
+										5097 text TH Pad to TH Pad
+									4346 cell
+										4347 text MAINS_PE_3P2MM
+									4348 cell
+										5098 text TH Pad (CHASSIS_PE): J16_3
+									5099 cell
+										5100 text TH Pad (AC_N): J16_2
+									4350 cell
+										5101 text Top
+									4352 cell
+										5102 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4354 row
+									4355 cell
+										4356 text 11
+									4357 cell
+										5103 text Clearance Error in the same footprint
+									4359 cell
+										5104 text TH Pad to TH Pad
+									4361 cell
+										4362 text MAINS_PE_3P2MM
+									4363 cell
+										5105 text TH Pad (AC_N): J16_2
+									5106 cell
+										5107 text TH Pad (CHASSIS_PE): J16_3
+									4365 cell
+										5108 text Top
+									4367 cell
+										5109 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								4369 row
+									4370 cell
+										4371 text 12
+									4372 cell
+										5110 text Clearance Error in the same footprint
+									4374 cell
+										5111 text TH Pad to TH Pad
+									4376 cell
+										4377 text MAINS_PE_3P2MM
+									4378 cell
+										5112 text TH Pad (AC_L_IN): J16_1
+									5113 cell
+										5114 text TH Pad (AC_N): J16_2
+									4380 cell
+										5115 text Top
+									4382 cell
+										5116 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+						4954 content list
+							4955 text 1
+							4956 container
+								4957 text Total 12 Items | 1 pages
+							4958 container
+								4959 text 50 /page
+		146 container jlcIMDragger
+			147 text Online Chat
+			4103 text 
+		149 container
+			150 text Floating Tool
+		151 container
+			152 text Floating Tool
+		153 container
+			154 text Table Setting
+			155 container
+				156 text Border Color
+				157 text field
+				158 text #A00000
+		159 image get-bbox
+
+The focused UI element is 0 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4%7C12de2a08187ded60@9350624465b744b1a24fb48be3d774f4%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d%7C!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d

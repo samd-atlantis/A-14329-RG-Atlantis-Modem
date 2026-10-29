@@ -1,0 +1,29 @@
+A-14329 AIO Modem — production access Rev A3
+2026-10-27
+
+Bluetooth and Ai-WB2 radio omitted. HLK-7628N supplies Wi-Fi.
+
+J7 router fixture, 6 unpopulated through-hole contacts:
+1 GND_ISO; 2 router UART0 TX -> fixture RX; 3 router UART0 RX <- fixture TX; 4 ROUTER_RESET_N; 5 ROUTER_GPIO0_N; 6 3V3_ROUTER reference/sense only.
+Use 3.3V UART levels and open-drain reset/GPIO controls. GPIO0 is a firmware-defined recovery/factory request, not a guaranteed silicon ROM boot strap. UART/U-Boot recovery requires an intact supported bootloader. Arrange preprogrammed HLK modules and validate the intended image/recovery sequence on a prototype.
+
+J12 modem fixture:
+1 GND_ISO; 2 USB D+; 3 USB D-; 4 MODEM_USB_SEL (3.3V high selects fixture, default low selects router); 5 MODEM_PERST_N (open drain); 6 MODEM_BUCK_EN (open-drain low cuts modem rail). USB switch disconnects both paths when MODEM_OFF is high. No fixture USB VBUS feeds the board. Fixture USB host and board must share GND_ISO. Validate USB enumeration and modem updater on the chosen EG25-GL firmware.
+Mini PCIe does not expose a dedicated emergency boot strap in this design. Reserved pins stay unconnected. A modem with erased/corrupt recovery firmware may require the Quectel service carrier.
+
+J13 fixture power:
+1,2 GND_ISO; 3,4 5V_ISO. Current-limited regulated 5V fixture supply with AC input DISCONNECTED. Never parallel fixture power with energized AC/DC output.
+
+Production cycle:
+Contact fixture with mains disconnected; apply regulated 5V; verify rails; capture router serial/MAC; flash supported router image through bootloader/Ethernet workflow; program unique configuration; select modem service USB and update if required; return selector low; verify SIM selection, cellular registration/data, all four Ethernet ports, Wi-Fi AP/client modes, reset and watchdog. Log firmware versions, MAC, modem IMEI and pass/fail to serial number. All sequences require prototype validation; no automated fixture software is supplied yet.
+
+Routing configuration applied:
+4 copper layers, native JLC04161H-7628 preset, nominal 1.5862mm. L2 continuous GND_ISO in low-voltage region only; L3 power/ground. Do not pour primary region or bridge isolation on any layer.
+Signal track preferred .25mm/min .20mm; clearance .20mm; copper zones .25mm; copper-to-edge .5mm; hole clearance .3mm.
+5V/modem power preferred 1.5mm; router/switch nodes 1mm; power neckdown minimum .3mm. Short wide switch-node routing and local buck loops; verify currents/temperature after placement.
+11 differential pairs: 8 Ethernet and 3 USB segments. ETH100_CALC_PENDING .25mm width/.20mm gap/.5mm skew; USB90_CALC_PENDING .28mm width/.15mm gap/.25mm skew. These are preliminary geometries, NOT impedance signoff. Obtain actual dielectric properties and confirm 100/90ohm dimensions with fabricator before routing. Keep return reference continuous; no plane splits, matched vias, minimal stubs.
+Primary-secondary clearance 8mm; primary-PE and inter-primary 3.2mm. These conservative design targets do not constitute compliance certification or creepage approval. Review terminal footprint, isolation slots/geometry, material group, pollution degree and applicable product standard before release.
+
+Verification:
+Schematic DRC: 0 errors, 0 warnings; 1 informational unannotated graphic/frame item remains. PCB DRC during preliminary placement: 331 unconnected-pad items, 20 clearance errors, 2 same-footprint clearance errors. Board is UNROUTED and NOT ready for fabrication. Resolve clearances during placement and review same-footprint terminal restrictions rather than suppressing them.
+Modem mechanical group position and rotation preserved from user layout. Fixture connectors are DNP assembly items. Vertical through-hole Ethernet connectors retained.

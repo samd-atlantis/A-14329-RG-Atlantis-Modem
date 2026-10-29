@@ -1,0 +1,622 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-sequence-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632204",
+        "ticket": 632204
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2540,
+        "startY": 2735,
+        "endX": 2500.0,
+        "endY": 2695.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632205",
+        "ticket": 632205
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2500.0,
+        "centerY": 2695.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632206",
+        "ticket": 632206
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2500.0,
+        "startY": 2695.0,
+        "endX": 2540.0,
+        "endY": 2725.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632207",
+        "ticket": 632207
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2540.0,
+        "startY": 2725.0,
+        "endX": 2600.0,
+        "endY": 2745.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632208",
+        "ticket": 632208
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2600.0,
+        "startY": 2745.0,
+        "endX": 2600.0,
+        "endY": 2775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632209",
+        "ticket": 632209
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2600.0,
+        "startY": 2775.0,
+        "endX": 2550.0,
+        "endY": 2775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632210",
+        "ticket": 632210
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2550.0,
+        "startY": 2775.0,
+        "endX": 2500.0,
+        "endY": 2825.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632211",
+        "ticket": 632211
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2500.0,
+        "startY": 2825.0,
+        "endX": 2500.0,
+        "endY": 2945.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632212",
+        "ticket": 632212
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2500.0,
+        "startY": 2945.0,
+        "endX": 2525.0,
+        "endY": 2970.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632213",
+        "ticket": 632213
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2525.0,
+        "centerY": 2970.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632214",
+        "ticket": 632214
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2525.0,
+        "startY": 2970.0,
+        "endX": 2725.0,
+        "endY": 3000.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632215",
+        "ticket": 632215
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2725.0,
+        "centerY": 3000.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632216",
+        "ticket": 632216
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2725.0,
+        "startY": 3000.0,
+        "endX": 2795.0,
+        "endY": 3075.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632217",
+        "ticket": 632217
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2795.0,
+        "startY": 3075.0,
+        "endX": 2810.0,
+        "endY": 3115.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632218",
+        "ticket": 632218
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2810.0,
+        "centerY": 3115.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632219",
+        "ticket": 632219
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2810.0,
+        "startY": 3115.0,
+        "endX": 2595.0,
+        "endY": 3200.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632220",
+        "ticket": 632220
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2595.0,
+        "startY": 3200.0,
+        "endX": 2250.0,
+        "endY": 3200.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632221",
+        "ticket": 632221
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2250.0,
+        "startY": 3200.0,
+        "endX": 1990.0,
+        "endY": 3170.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632222",
+        "ticket": 632222
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1990.0,
+        "startY": 3170.0,
+        "endX": 1750.0,
+        "endY": 3105.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632223",
+        "ticket": 632223
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1750.0,
+        "startY": 3105.0,
+        "endX": 1670.0,
+        "endY": 2980.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632224",
+        "ticket": 632224
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1670.0,
+        "startY": 2980.0,
+        "endX": 1650.0,
+        "endY": 2735.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632225",
+        "ticket": 632225
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1650.0,
+        "startY": 2735.0,
+        "endX": 1650.0,
+        "endY": 2660.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632226",
+        "ticket": 632226
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1650.0,
+        "startY": 2660.0,
+        "endX": 1930.0,
+        "endY": 2435.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632227",
+        "ticket": 632227
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1930.0,
+        "startY": 2435.0,
+        "endX": 1955.0,
+        "endY": 2425.34,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      2540,
+      2735
+    ],
+    [
+      1,
+      2500.0,
+      2695.0
+    ],
+    [
+      2,
+      2500.0,
+      2695.0
+    ],
+    [
+      2,
+      2540.0,
+      2725.0
+    ],
+    [
+      2,
+      2600.0,
+      2745.0
+    ],
+    [
+      2,
+      2600.0,
+      2775.0
+    ],
+    [
+      2,
+      2550.0,
+      2775.0
+    ],
+    [
+      2,
+      2500.0,
+      2825.0
+    ],
+    [
+      2,
+      2500.0,
+      2945.0
+    ],
+    [
+      2,
+      2525.0,
+      2970.0
+    ],
+    [
+      1,
+      2525.0,
+      2970.0
+    ],
+    [
+      1,
+      2725.0,
+      3000.0
+    ],
+    [
+      2,
+      2725.0,
+      3000.0
+    ],
+    [
+      2,
+      2795.0,
+      3075.0
+    ],
+    [
+      2,
+      2810.0,
+      3115.0
+    ],
+    [
+      1,
+      2810.0,
+      3115.0
+    ],
+    [
+      1,
+      2595.0,
+      3200.0
+    ],
+    [
+      1,
+      2250.0,
+      3200.0
+    ],
+    [
+      1,
+      1990.0,
+      3170.0
+    ],
+    [
+      1,
+      1750.0,
+      3105.0
+    ],
+    [
+      1,
+      1670.0,
+      2980.0
+    ],
+    [
+      1,
+      1650.0,
+      2735.0
+    ],
+    [
+      1,
+      1650.0,
+      2660.0
+    ],
+    [
+      1,
+      1930.0,
+      2435.0
+    ],
+    [
+      1,
+      1955.0,
+      2425.34
+    ]
+  ],
+  "issues": []
+}

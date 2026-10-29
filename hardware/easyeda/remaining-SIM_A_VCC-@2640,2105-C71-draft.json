@@ -1,0 +1,195 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_SIM_A_VCC_@2640,2105_C71_642853",
+        "ticket": 642853
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "layerId": 2,
+        "startX": 2640.0,
+        "startY": 2105.0,
+        "endX": 2665.0,
+        "endY": 2105.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_SIM_A_VCC_@2640,2105_C71_642854",
+        "ticket": 642854
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "ruleName": "",
+        "centerX": 2665.0,
+        "centerY": 2105.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_SIM_A_VCC_@2640,2105_C71_642855",
+        "ticket": 642855
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "layerId": 1,
+        "startX": 2665.0,
+        "startY": 2105.0,
+        "endX": 2545.0,
+        "endY": 2105.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_SIM_A_VCC_@2640,2105_C71_642856",
+        "ticket": 642856
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "ruleName": "",
+        "centerX": 2545.0,
+        "centerY": 2105.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_SIM_A_VCC_@2640,2105_C71_642857",
+        "ticket": 642857
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "layerId": 2,
+        "startX": 2545.0,
+        "startY": 2105.0,
+        "endX": 2330.0,
+        "endY": 2095.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_SIM_A_VCC_@2640,2105_C71_642858",
+        "ticket": 642858
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "ruleName": "",
+        "centerX": 2330.0,
+        "centerY": 2095.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_SIM_A_VCC_@2640,2105_C71_642859",
+        "ticket": 642859
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "layerId": 1,
+        "startX": 2330.0,
+        "startY": 2095.0,
+        "endX": 2283.4646,
+        "endY": 2078.7786,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      2,
+      2640.0,
+      2105.0
+    ],
+    [
+      2,
+      2665.0,
+      2105.0
+    ],
+    [
+      1,
+      2665.0,
+      2105.0
+    ],
+    [
+      1,
+      2545.0,
+      2105.0
+    ],
+    [
+      2,
+      2545.0,
+      2105.0
+    ],
+    [
+      2,
+      2330.0,
+      2095.0
+    ],
+    [
+      1,
+      2330.0,
+      2095.0
+    ],
+    [
+      1,
+      2283.4646,
+      2078.7786
+    ]
+  ],
+  "issues": []
+}

@@ -1,0 +1,438 @@
+sheet,reference,unit,pin,pin_name,electrical_type,net,source,status
+01_ac_input,J1,1,1,Pin_1,passive,AC_L_IN,KiCad 9.0.7 Connector_Generic:Conn_01x03; manufacturer cross-check as documented,Mains-rated touch-safe terminal and enclosure earth arrangement unresolved
+01_ac_input,J1,1,2,Pin_2,passive,AC_N,KiCad 9.0.7 Connector_Generic:Conn_01x03; manufacturer cross-check as documented,Mains-rated touch-safe terminal and enclosure earth arrangement unresolved
+01_ac_input,J1,1,3,Pin_3,passive,CHASSIS_PE,KiCad 9.0.7 Connector_Generic:Conn_01x03; manufacturer cross-check as documented,Mains-rated touch-safe terminal and enclosure earth arrangement unresolved
+01_ac_input,F1,1,1,~,passive,AC_L_IN,KiCad 9.0.7 Device:Fuse; manufacturer cross-check as documented,Fuse interrupt rating / inrush coordination and holder unresolved
+01_ac_input,F1,1,2,~,passive,AC_L_FUSED,KiCad 9.0.7 Device:Fuse; manufacturer cross-check as documented,Fuse interrupt rating / inrush coordination and holder unresolved
+01_ac_input,PS1,1,1,AC/L,power_in,AC_L_FUSED,KiCad 9.0.7 Converter_ACDC:IRM-20-5; manufacturer cross-check as documented,Pin map verified; thermal and mains integration review pending
+01_ac_input,PS1,1,2,AC/N,power_in,AC_N,KiCad 9.0.7 Converter_ACDC:IRM-20-5; manufacturer cross-check as documented,Pin map verified; thermal and mains integration review pending
+01_ac_input,PS1,1,4,+Vo,power_out,5V_ISO,KiCad 9.0.7 Converter_ACDC:IRM-20-5; manufacturer cross-check as documented,Pin map verified; thermal and mains integration review pending
+01_ac_input,PS1,1,3,-Vo,power_out,GND_ISO,KiCad 9.0.7 Converter_ACDC:IRM-20-5; manufacturer cross-check as documented,Pin map verified; thermal and mains integration review pending
+01_ac_input,C1,1,1,~,passive,5V_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+01_ac_input,C1,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+01_ac_input,C2,1,1,~,passive,5V_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+01_ac_input,C2,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+01_ac_input,#FLG01,1,1,~,power_out,AC_L_FUSED,KiCad 9.0.7 power:PWR_FLAG; manufacturer cross-check as documented,Selected; review required
+01_ac_input,#FLG02,1,1,~,power_out,AC_N,KiCad 9.0.7 power:PWR_FLAG; manufacturer cross-check as documented,Selected; review required
+01_ac_input,#FLG03,1,1,~,power_out,CHASSIS_PE,KiCad 9.0.7 power:PWR_FLAG; manufacturer cross-check as documented,Selected; review required
+02_dc_power,U2,1,13,EN,input,5V_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,9,SS/TR,input,R_SS,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,8,DEF,input,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,7,FSW,input,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,10,VIN,power_in,5V_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,11,VIN,passive,5V_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,12,VIN,passive,5V_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,15,GND,passive,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,16,GND,passive,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,17,GND,passive,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,6,GND,power_in,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,1,SW,output,R_SW,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,2,SW,passive,R_SW,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,3,SW,passive,R_SW,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,14,VOS,input,3V3_ROUTER,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,4,PG,open_collector,NC,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U2,1,5,FB,input,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,L1,1,1,1,passive,R_SW,KiCad 9.0.7 Device:L; manufacturer cross-check as documented,Reference family; hot Isat and DCR review pending
+02_dc_power,L1,1,2,2,passive,3V3_ROUTER,KiCad 9.0.7 Device:L; manufacturer cross-check as documented,Reference family; hot Isat and DCR review pending
+02_dc_power,C10,1,1,~,passive,5V_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C10,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C11,1,1,~,passive,5V_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C11,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C12,1,1,~,passive,R_SS,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C12,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C13,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C13,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,#FLG04,1,1,~,power_out,3V3_ROUTER,KiCad 9.0.7 power:PWR_FLAG; manufacturer cross-check as documented,Selected; review required
+02_dc_power,U3,1,13,EN,input,MODEM_BUCK_EN,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,9,SS/TR,input,M_SS,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,8,DEF,input,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,7,FSW,input,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,10,VIN,power_in,5V_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,11,VIN,passive,5V_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,12,VIN,passive,5V_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,15,GND,passive,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,16,GND,passive,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,17,GND,passive,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,6,GND,power_in,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,1,SW,output,M_SW,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,2,SW,passive,M_SW,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,3,SW,passive,M_SW,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,14,VOS,input,3V3_MODEM,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,4,PG,open_collector,NC,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,U3,1,5,FB,input,GND_ISO,KiCad 9.0.7 Regulator_Switching:TPS62132; manufacturer cross-check as documented,Pin map/reference topology verified; load transient and exact L/C qualification pending
+02_dc_power,L2,1,1,1,passive,M_SW,KiCad 9.0.7 Device:L; manufacturer cross-check as documented,Reference family; hot Isat and DCR review pending
+02_dc_power,L2,1,2,2,passive,3V3_MODEM,KiCad 9.0.7 Device:L; manufacturer cross-check as documented,Reference family; hot Isat and DCR review pending
+02_dc_power,C20,1,1,~,passive,5V_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C20,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C21,1,1,~,passive,5V_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C21,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C22,1,1,~,passive,M_SS,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C22,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C23,1,1,~,passive,3V3_MODEM,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C23,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C24,1,1,~,passive,3V3_MODEM,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C24,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C25,1,1,~,passive,3V3_MODEM,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,C25,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+02_dc_power,R20,1,1,~,passive,5V_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+02_dc_power,R20,1,2,~,passive,MODEM_BUCK_EN,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+02_dc_power,Q1,1,1,G,input,MODEM_OFF_GATE,KiCad 9.0.7 Transistor_FET:2N7002; manufacturer cross-check as documented,Gate1/source2/drain3; EN open-drain pull-down
+02_dc_power,Q1,1,3,D,passive,MODEM_BUCK_EN,KiCad 9.0.7 Transistor_FET:2N7002; manufacturer cross-check as documented,Gate1/source2/drain3; EN open-drain pull-down
+02_dc_power,Q1,1,2,S,passive,GND_ISO,KiCad 9.0.7 Transistor_FET:2N7002; manufacturer cross-check as documented,Gate1/source2/drain3; EN open-drain pull-down
+02_dc_power,R21,1,1,~,passive,MODEM_OFF,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+02_dc_power,R21,1,2,~,passive,MODEM_OFF_GATE,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+02_dc_power,R22,1,1,~,passive,MODEM_OFF_GATE,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+02_dc_power,R22,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+02_dc_power,#FLG05,1,1,~,power_out,3V3_MODEM,KiCad 9.0.7 power:PWR_FLAG; manufacturer cross-check as documented,Selected; review required
+03_router_control,U1,1,1,GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,2,3V3,power_in,3V3_ROUTER,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,3,3V3,power_in,3V3_ROUTER,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,4,GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,5,SPI_CS0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,6,REF_CLK0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,7,PERST_N,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,8,WDT_RST_N,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,9,EPHY_LED4,bidirectional,LAN4_LED_N,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,10,EPHY_LED3,bidirectional,LAN3_LED_N,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,11,EPHY_LED2,bidirectional,LAN2_LED_N,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,12,EPHY_LED1,bidirectional,LAN1_LED_N,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,13,EPHY_LED0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,14,PORST_N,input,ROUTER_RESET_N,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,15,UART_TXD1,output,UART1_HOST_TX,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,16,UART_RXD1,input,UART1_HOST_RX,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,17,I2S_SDI,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,18,I2S_SDO,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,19,I2S_WS,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,20,I2S_CLK,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,21,GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,22,ANT_UNLINKED,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,23,GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,24,I2C_SCLK,bidirectional,I2C_SCL,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,25,I2C_SD,bidirectional,I2C_SDA,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,26,SPI_CS1,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,27,SPI_CLK,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,28,SPI_MISO,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,EP1,THERMAL_GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,EP2,THERMAL_GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,EP3,THERMAL_GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,29,SPI_MOSI,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,30,GPIO0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,31,UART_TXD0,output,CONSOLE_TX,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,32,UART_RXD0,input,CONSOLE_RX,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,33,WLED_N,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,34,MDI_RP_P0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,35,MDI_RN_P0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,36,MDI_TP_P0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,37,MDI_TN_P0,bidirectional,NC,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,38,MDI_TP_P1,bidirectional,LAN1_TXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,39,MDI_TN_P1,bidirectional,LAN1_TXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,40,MDI_RP_P1,bidirectional,LAN1_RXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,41,MDI_RN_P1,bidirectional,LAN1_RXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,42,MDI_RP_P2,bidirectional,LAN2_RXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,43,MDI_RN_P2,bidirectional,LAN2_RXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,44,MDI_TP_P2,bidirectional,LAN2_TXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,45,MDI_TN_P2,bidirectional,LAN2_TXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,46,MDI_TP_P3,bidirectional,LAN3_TXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,47,MDI_TN_P3,bidirectional,LAN3_TXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,48,MDI_RP_P3,bidirectional,LAN3_RXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,49,MDI_RN_P3,bidirectional,LAN3_RXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,50,MDI_RP_P4,bidirectional,LAN4_RXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,51,MDI_RN_P4,bidirectional,LAN4_RXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,52,MDI_TP_P4,bidirectional,LAN4_TXP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,53,MDI_TN_P4,bidirectional,LAN4_TXN,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,54,USB_DP,bidirectional,USB_HOST_DP,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,55,USB_DM,bidirectional,USB_HOST_DM,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U1,1,56,GND,power_in,GND_ISO,Hi-Link hardware manual PDF pp.11-13 and 16-17; physical 1-56 plus design-named unnumbered EP1-EP3 ground lands,Physical pins verified; boot-straps left unloaded; footprint verification pending
+03_router_control,U6,1,6,~{RESET},input,ROUTER_RESET_N,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,1,SCL,input,I2C_SCL,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,2,SDA,bidirectional,I2C_SDA,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,8,INT,output,NC,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,3,A2,input,GND_ISO,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,4,A1,input,GND_ISO,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,5,A0,input,GND_ISO,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,7,NC,no_connect,NC,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,18,VDD,power_in,3V3_ROUTER,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,9,VSS,power_in,GND_ISO,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,10,GP0,bidirectional,SIM_SELECT,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,11,GP1,bidirectional,MODEM_OFF,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,12,GP2,bidirectional,MODEM_RESET_REQ,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,13,GP3,bidirectional,WIFI_AUX_EN,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,14,GP4,bidirectional,WIFI_BUF_DISABLE,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,15,GP5,bidirectional,NC,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,16,GP6,bidirectional,NC,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,U6,1,17,GP7,bidirectional,NC,KiCad 9.0.7 Interface_Expansion:MCP23008-xSO; manufacturer cross-check as documented,18-pin SOIC mapping verified; address 0x20; power-on GPIO inputs
+03_router_control,R30,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R30,1,2,~,passive,I2C_SCL,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R31,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R31,1,2,~,passive,I2C_SDA,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R32,1,1,~,passive,SIM_SELECT,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R32,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R33,1,1,~,passive,MODEM_OFF,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R33,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R34,1,1,~,passive,WIFI_AUX_EN,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R34,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R35,1,1,~,passive,MODEM_RESET_REQ,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,R35,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+03_router_control,C30,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+03_router_control,C30,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+03_router_control,C31,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+03_router_control,C31,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+03_router_control,SW1,1,1,1,passive,ROUTER_RESET_N,KiCad 9.0.7 Switch:SW_Push; manufacturer cross-check as documented,Selected; review required
+03_router_control,SW1,1,2,2,passive,GND_ISO,KiCad 9.0.7 Switch:SW_Push; manufacturer cross-check as documented,Selected; review required
+03_router_control,J7,1,1,Pin_1,passive,GND_ISO,KiCad 9.0.7 Connector_Generic:Conn_01x03; manufacturer cross-check as documented,Selected; review required
+03_router_control,J7,1,2,Pin_2,passive,CONSOLE_TX,KiCad 9.0.7 Connector_Generic:Conn_01x03; manufacturer cross-check as documented,Selected; review required
+03_router_control,J7,1,3,Pin_3,passive,CONSOLE_RX,KiCad 9.0.7 Connector_Generic:Conn_01x03; manufacturer cross-check as documented,Selected; review required
+04_ethernet,J2,1,1,RD_PLUS,passive,LAN1_RXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,2,RX_CT,passive,LAN1_RX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,3,RD_MINUS,passive,LAN1_RXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,4,TD_PLUS,passive,LAN1_TXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,5,TX_CT,passive,LAN1_TX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,6,TD_MINUS,passive,LAN1_TXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,7,NC,no_connect,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,8,SHIELD_RETURN,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,9,GREEN_A,passive,LAN1_GREEN_A,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,10,GREEN_K,passive,LAN1_LED_N,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,11,YELLOW_A,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,12,YELLOW_K,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J2,1,SH,SHIELD,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,R41,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,R41,1,2,~,passive,LAN1_GREEN_A,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C41,1,1,~,passive,LAN1_RX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C41,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C51,1,1,~,passive,LAN1_TX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C51,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,J3,1,1,RD_PLUS,passive,LAN2_RXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,2,RX_CT,passive,LAN2_RX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,3,RD_MINUS,passive,LAN2_RXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,4,TD_PLUS,passive,LAN2_TXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,5,TX_CT,passive,LAN2_TX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,6,TD_MINUS,passive,LAN2_TXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,7,NC,no_connect,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,8,SHIELD_RETURN,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,9,GREEN_A,passive,LAN2_GREEN_A,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,10,GREEN_K,passive,LAN2_LED_N,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,11,YELLOW_A,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,12,YELLOW_K,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J3,1,SH,SHIELD,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,R42,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,R42,1,2,~,passive,LAN2_GREEN_A,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C42,1,1,~,passive,LAN2_RX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C42,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C52,1,1,~,passive,LAN2_TX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C52,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,J4,1,1,RD_PLUS,passive,LAN3_RXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,2,RX_CT,passive,LAN3_RX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,3,RD_MINUS,passive,LAN3_RXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,4,TD_PLUS,passive,LAN3_TXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,5,TX_CT,passive,LAN3_TX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,6,TD_MINUS,passive,LAN3_TXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,7,NC,no_connect,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,8,SHIELD_RETURN,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,9,GREEN_A,passive,LAN3_GREEN_A,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,10,GREEN_K,passive,LAN3_LED_N,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,11,YELLOW_A,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,12,YELLOW_K,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J4,1,SH,SHIELD,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,R43,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,R43,1,2,~,passive,LAN3_GREEN_A,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C43,1,1,~,passive,LAN3_RX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C43,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C53,1,1,~,passive,LAN3_TX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C53,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,J5,1,1,RD_PLUS,passive,LAN4_RXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,2,RX_CT,passive,LAN4_RX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,3,RD_MINUS,passive,LAN4_RXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,4,TD_PLUS,passive,LAN4_TXP,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,5,TX_CT,passive,LAN4_TX_CT,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,6,TD_MINUS,passive,LAN4_TXN,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,7,NC,no_connect,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,8,SHIELD_RETURN,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,9,GREEN_A,passive,LAN4_GREEN_A,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,10,GREEN_K,passive,LAN4_LED_N,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,11,YELLOW_A,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,12,YELLOW_K,passive,NC,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,J5,1,SH,SHIELD,passive,CHASSIS_PE,"Wurth 7499010121A rev003.001 p.2; RX/TX names corrected against vendor, not old KiCad symbol",Vendor latest RX/TX names used; PHY CT bias and shield scheme are layout release gates
+04_ethernet,R44,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,R44,1,2,~,passive,LAN4_GREEN_A,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C44,1,1,~,passive,LAN4_RX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C44,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C54,1,1,~,passive,LAN4_TX_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+04_ethernet,C54,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,J8,1,1,WAKE_N,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,3,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,5,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,7,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,9,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,11,UART_RX,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,13,UART_TX,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,15,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,17,RI,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,19,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,21,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,23,UART_CTS,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,25,UART_RTS,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,27,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,29,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,31,DTR,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,33,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,35,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,37,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,39,VCC_3V3,power_in,3V3_MODEM,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,41,VCC_3V3,power_in,3V3_MODEM,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,43,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,45,PCM_CLK,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,47,PCM_DOUT,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,49,PCM_DIN,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,51,PCM_SYNC,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,2,VCC_3V3,power_in,3V3_MODEM,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,4,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,6,NC,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,8,USIM_VDD,power_out,USIM_VDD,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,10,USIM_DATA,bidirectional,USIM_DATA,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,12,USIM_CLK,output,USIM_CLK,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,14,USIM_RST,output,USIM_RST,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,16,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,18,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,20,W_DISABLE_N,input,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,22,PERST_N,input,MODEM_PERST_N,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,24,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,26,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,28,NC,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,30,I2C_SCL,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,32,I2C_SDA,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,34,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,36,USB_DM,bidirectional,USB_MODEM_DM,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,38,USB_DP,bidirectional,USB_MODEM_DP,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,40,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,42,LED_WWAN_N,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,44,USIM_PRESENCE,bidirectional,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,46,RESERVED,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,48,NC,no_connect,NC,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,50,GND,power_in,GND_ISO,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,J8,1,52,VCC_3V3,power_in,3V3_MODEM,Quectel EG2x-GL Mini PCIe hardware design V1.1 PDF pp.16-19 (vendor-authored public mirror); confirm controlled copy,52-pin modem map verified; exact connector footprint + controlled modem guide are release gates
+05_cellular_usb,U8,1,8,D_PLUS,bidirectional,USB_HOST_DP,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,7,D_MINUS,bidirectional,USB_HOST_DM,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,6,OE_N,input,MODEM_OFF,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,9,SELECT,input,GND_ISO,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,10,VCC,power_in,3V3_ROUTER,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,1,1D_PLUS,bidirectional,USB_MODEM_DP,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,2,1D_MINUS,bidirectional,USB_MODEM_DM,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,3,2D_PLUS,bidirectional,NC,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,4,2D_MINUS,bidirectional,NC,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U8,1,5,GND,power_in,GND_ISO,TI SCDS277C p.3 RSE pin map; footprint must be replaced with verified RSE land pattern,Pin map verified; USB disconnect on MODEM_OFF; RSE footprint must be selected
+05_cellular_usb,U9,1,1,D+,passive,USB_MODEM_DP,KiCad 9.0.7 Power_Protection:TPD2EUSB30; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,U9,1,3,GND,passive,GND_ISO,KiCad 9.0.7 Power_Protection:TPD2EUSB30; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,U9,1,2,D-,passive,USB_MODEM_DM,KiCad 9.0.7 Power_Protection:TPD2EUSB30; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,C60,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,C60,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,C61,1,1,~,passive,3V3_MODEM,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,C61,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,Q2,1,1,G,input,MODEM_RESET_GATE,KiCad 9.0.7 Transistor_FET:2N7002; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,Q2,1,3,D,passive,MODEM_PERST_N,KiCad 9.0.7 Transistor_FET:2N7002; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,Q2,1,2,S,passive,GND_ISO,KiCad 9.0.7 Transistor_FET:2N7002; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,R60,1,1,~,passive,MODEM_RESET_REQ,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,R60,1,2,~,passive,MODEM_RESET_GATE,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,R61,1,1,~,passive,MODEM_RESET_GATE,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+05_cellular_usb,R61,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,U10,1,14,COM1_VCC,passive,USIM_VDD,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,2,COM2_CLK,passive,USIM_CLK,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,6,COM3_RST,passive,USIM_RST,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,10,COM4_IO,passive,USIM_DATA,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,16,IN1_2,input,SIM_SELECT,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,8,IN3_4,input,SIM_SELECT,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,12,VCC,power_in,3V3_ROUTER,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,4,GND,power_in,GND_ISO,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,15,NC1_VCC,passive,SIM_A_VCC,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,3,NC2_CLK,passive,SIM_A_CLK,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,7,NC3_RST,passive,SIM_A_RST,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,11,NC4_IO,passive,SIM_A_IO,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,13,NO1_VCC,passive,SIM_B_VCC,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,1,NO2_CLK,passive,SIM_B_CLK,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,5,NO3_RST,passive,SIM_B_RST,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,U10,1,9,NO4_IO,passive,SIM_B_IO,TI TS3A44159 SCDS225B p.3 PW package; COM->NC when controls low,Four-pole break-before-make selector; current/capacitance and power-down sequencing require qualification
+06_sim_selection,J9,1,C1,VCC,power_in,SIM_A_VCC,ISO7816 contact designations only; mechanical socket SKU and contact-to-pad numbering unresolved,ISO contact mapping complete; manufacturer pad mapping unresolved
+06_sim_selection,J9,1,C2,RST,input,SIM_A_RST,ISO7816 contact designations only; mechanical socket SKU and contact-to-pad numbering unresolved,ISO contact mapping complete; manufacturer pad mapping unresolved
+06_sim_selection,J9,1,C3,CLK,input,SIM_A_CLK,ISO7816 contact designations only; mechanical socket SKU and contact-to-pad numbering unresolved,ISO contact mapping complete; manufacturer pad mapping unresolved
+06_sim_selection,J9,1,C5,GND,power_in,GND_ISO,ISO7816 contact designations only; mechanical socket SKU and contact-to-pad numbering unresolved,ISO contact mapping complete; manufacturer pad mapping unresolved
+06_sim_selection,J9,1,C6,VPP_UNUSED,no_connect,NC,ISO7816 contact designations only; mechanical socket SKU and contact-to-pad numbering unresolved,ISO contact mapping complete; manufacturer pad mapping unresolved
+06_sim_selection,J9,1,C7,IO,bidirectional,SIM_A_IO,ISO7816 contact designations only; mechanical socket SKU and contact-to-pad numbering unresolved,ISO contact mapping complete; manufacturer pad mapping unresolved
+06_sim_selection,U11,1,8,VCC,power_in,SIM_B_VCC,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,U11,1,7,RESET,input,SIM_B_RST,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,U11,1,6,CLK,input,SIM_B_CLK,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,U11,1,3,IO,bidirectional,SIM_B_IO,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,U11,1,1,GND,power_in,GND_ISO,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,U11,1,2,SWIO_UNUSED,no_connect,NC,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,U11,1,4,NC,no_connect,NC,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,U11,1,5,NC,no_connect,NC,ST DB4082 Rev5 PDF p.14 VFDFPN8: top view; provider-specific ordering code not selected,MFF2 top-view pins mapped; provider ordering code/provisioning agreement not selected
+06_sim_selection,C70,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,C70,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,C71,1,1,~,passive,SIM_A_VCC,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,C71,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,C72,1,1,~,passive,SIM_B_VCC,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,C72,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,#FLG06,1,1,~,power_out,SIM_A_VCC,KiCad 9.0.7 power:PWR_FLAG; manufacturer cross-check as documented,"ERC source annotation only: supplied through passive SIM selector, not an independent source"
+06_sim_selection,#FLG07,1,1,~,power_out,SIM_B_VCC,KiCad 9.0.7 power:PWR_FLAG; manufacturer cross-check as documented,"ERC source annotation only: supplied through passive SIM selector, not an independent source"
+06_sim_selection,R70,1,1,~,passive,USIM_VDD,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,R70,1,2,~,passive,USIM_DATA,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+06_sim_selection,U14,1,1,IO1,passive,SIM_A_CLK,TI TPD4E001 SLLS682P p3 DBV pin map; switched-SIM supply referenced clamps,"Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC"
+06_sim_selection,U14,1,3,IO2,passive,SIM_A_RST,TI TPD4E001 SLLS682P p3 DBV pin map; switched-SIM supply referenced clamps,"Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC"
+06_sim_selection,U14,1,4,IO3,passive,SIM_A_IO,TI TPD4E001 SLLS682P p3 DBV pin map; switched-SIM supply referenced clamps,"Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC"
+06_sim_selection,U14,1,6,IO4,passive,NC,TI TPD4E001 SLLS682P p3 DBV pin map; switched-SIM supply referenced clamps,"Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC"
+06_sim_selection,U14,1,5,VCC,power_in,SIM_A_VCC,TI TPD4E001 SLLS682P p3 DBV pin map; switched-SIM supply referenced clamps,"Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC"
+06_sim_selection,U14,1,2,GND,power_in,GND_ISO,TI TPD4E001 SLLS682P p3 DBV pin map; switched-SIM supply referenced clamps,"Physical SIM ESD array; locate at selected socket, referenced to switched SIM_A_VCC"
+07_wifi_ble,U12,1,1,VIN,power_in,3V3_ROUTER,TI TPS22918 DBV pin table,Selected; review required
+07_wifi_ble,U12,1,3,ON,input,WIFI_AUX_EN,TI TPS22918 DBV pin table,Selected; review required
+07_wifi_ble,U12,1,2,GND,power_in,GND_ISO,TI TPS22918 DBV pin table,Selected; review required
+07_wifi_ble,U12,1,6,VOUT,power_out,3V3_AUX,TI TPS22918 DBV pin table,Selected; review required
+07_wifi_ble,U12,1,5,QOD,passive,WIFI_QOD,TI TPS22918 DBV pin table,Selected; review required
+07_wifi_ble,U12,1,4,CT,passive,WIFI_CT,TI TPS22918 DBV pin table,Selected; review required
+07_wifi_ble,R80,1,1,~,passive,WIFI_QOD,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,R80,1,2,~,passive,3V3_AUX,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C80,1,1,~,passive,WIFI_CT,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C80,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C81,1,1,~,passive,3V3_ROUTER,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C81,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C82,1,1,~,passive,3V3_AUX,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C82,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C83,1,1,~,passive,3V3_AUX,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C83,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,U5,1,1,3V3,power_in,3V3_AUX,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,2,EN,input,WIFI_EN,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,3,IO14,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,4,IO17,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,5,IO3,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,6,IO4,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,7,IO2_FLASH,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,8,IO8_NC,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,9,GND,power_in,GND_ISO,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,10,IO5_SERVICE,bidirectional,WIFI_SERVICE,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,11,RXD,input,WIFI_UART_RX,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,12,TXD,output,WIFI_UART_TX,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,13,NC_GND_AMBIG,no_connect,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,14,IO1_FLASH,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,15,RST_NC,no_connect,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,16,IO11,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,17,IO12,bidirectional,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,U5,1,18,NC_GND_AMBIG,no_connect,NC,"Ai-WB2-13 V1.1.0 PDF pp.10-12,16; NC/GND discrepancy on 13/18 is a release gate",Pins verified except 13/18 vendor NC/GND ambiguity; reset15 not used
+07_wifi_ble,R81,1,1,~,passive,3V3_AUX,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,R81,1,2,~,passive,WIFI_EN,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,R82,1,1,~,passive,WIFI_SERVICE,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,R82,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,SW2,1,1,1,passive,WIFI_SERVICE,KiCad 9.0.7 Switch:SW_Push; manufacturer cross-check as documented,Optional GPIO5 service button; download strap behavior not assumed
+07_wifi_ble,SW2,1,2,2,passive,3V3_AUX,KiCad 9.0.7 Switch:SW_Push; manufacturer cross-check as documented,Optional GPIO5 service button; download strap behavior not assumed
+07_wifi_ble,U13,1,2,1A,input,UART1_HOST_TX,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,U13,1,5,2A,input,WIFI_UART_TX,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,U13,1,1,1OE_N,input,WIFI_BUF_DISABLE,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,U13,1,7,2OE_N,input,WIFI_BUF_DISABLE,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,U13,1,6,1Y,tri_state,WIFI_UART_RX,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,U13,1,3,2Y,tri_state,UART1_HOST_RX,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,U13,1,8,VCC,power_in,3V3_AUX,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,U13,1,4,GND,power_in,GND_ISO,"TI SCES204Q pp.4-5 DCU mapping, Ioff support",Selected; review required
+07_wifi_ble,R83,1,1,~,passive,3V3_AUX,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,R83,1,2,~,passive,WIFI_BUF_DISABLE,KiCad 9.0.7 Device:R; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C84,1,1,~,passive,3V3_AUX,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,C84,1,2,~,passive,GND_ISO,KiCad 9.0.7 Device:C; manufacturer cross-check as documented,Selected; review required
+07_wifi_ble,J10,1,1,Pin_1,passive,GND_ISO,KiCad 9.0.7 Connector_Generic:Conn_01x04; manufacturer cross-check as documented,3.3V TTL service header; disable host UART buffer before external programming; no 5V adapter
+07_wifi_ble,J10,1,2,Pin_2,passive,3V3_AUX,KiCad 9.0.7 Connector_Generic:Conn_01x04; manufacturer cross-check as documented,3.3V TTL service header; disable host UART buffer before external programming; no 5V adapter
+07_wifi_ble,J10,1,3,Pin_3,passive,WIFI_UART_RX,KiCad 9.0.7 Connector_Generic:Conn_01x04; manufacturer cross-check as documented,3.3V TTL service header; disable host UART buffer before external programming; no 5V adapter
+07_wifi_ble,J10,1,4,Pin_4,passive,WIFI_UART_TX,KiCad 9.0.7 Connector_Generic:Conn_01x04; manufacturer cross-check as documented,3.3V TTL service header; disable host UART buffer before external programming; no 5V adapter

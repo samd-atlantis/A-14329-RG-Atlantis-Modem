@@ -1,0 +1,29 @@
+{
+  "status": "VERIFIED_NATIVE_SCHEMATIC_EXPORT_PCB_REMAP_PENDING",
+  "pinproof": {
+    "H1": {
+      "1": "GND_ISO",
+      "2": "CONSOLE_TX",
+      "3": "NC",
+      "4": "ROUTER_RESET_N",
+      "5": "ROUTER_GPIO0_N",
+      "6": "NC",
+      "7": "NC",
+      "8": "CONSOLE_RX",
+      "9": "3V3_ROUTER",
+      "10": "NC"
+    },
+    "J12": {
+      "1": "GND_ISO",
+      "2": "NC",
+      "3": "NC",
+      "4": "MODEM_USB_SEL",
+      "5": "MODEM_PERST_N",
+      "6": "NC",
+      "7": "NC",
+      "8": "MODEM_BUCK_EN",
+      "9": "NC",
+      "10": "NC"
+    }
+  }
+}

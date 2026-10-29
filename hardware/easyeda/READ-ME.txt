@@ -1,0 +1,18 @@
+Walchem Gateway Rev A2 - EasyEDA Pro schematic draft
+
+Saved in user project A-14329 AIO Modem, Board1, Schematic1/P1.
+Native backup: walchem-gateway-rev-a2.epro2 (includes library dependencies).
+Source: walchem-gateway-rev-a2.epro-source.
+BOM: bom-a2.json; pin audit: pin-map-a2.json; verification: verification-a2.json.
+
+81 components; 354 connected pin wires; 85 explicit no-connects.
+J2-J5 = HR915310AE, C19724785, vertical top-entry through-hole, integrated magnetics. JLC assembly stock 530 at selection. 200 needed for 50 boards.
+
+Separate source: EG25-GL Mini PCIe card, provisioned eSIM adapter, RF antennas and cables.
+J11 optional 6-pin eSIM adapter interface, DNP. Pin1 VCC,2 RST,3 CLK,4 GND,5 IO,6 NC.
+DNP BOM options: J11, SW2, R82, C41-C44, C51-C54.
+
+Native schematic DRC: zero errors, zero warnings; one substantive information item: Ai-WB2-13U library footprint contains pad19 without symbol pin. Verify manufacturer land pattern before layout release.
+Other release gates: Ethernet PHY center-tap bias and shielding; mains fuse AC approval/inrush coordination, clearance/creepage/enclosure/PE review; LTE rail transient and thermal validation; firmware and US carrier integration.
+
+This is an editable, connected engineering draft. It is not fabrication or mains safety approval. The PCB workspace contains an initial imported footprint/ratsnest set; no routed layout is claimed.

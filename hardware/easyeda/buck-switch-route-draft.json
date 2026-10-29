@@ -1,0 +1,206 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621123",
+        "ticket": 621123
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "R_SW",
+        "layerId": 1,
+        "startX": 1944.8637999999999,
+        "startY": 2805.1457,
+        "endX": 1989.8637999999999,
+        "endY": 2805.1457,
+        "width": 11.02,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621124",
+        "ticket": 621124
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "R_SW",
+        "layerId": 1,
+        "startX": 1944.8637999999999,
+        "startY": 2824.8457,
+        "endX": 1989.8637999999999,
+        "endY": 2824.8457,
+        "width": 11.02,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621125",
+        "ticket": 621125
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "R_SW",
+        "layerId": 1,
+        "startX": 1944.8637999999999,
+        "startY": 2844.4457,
+        "endX": 1989.8637999999999,
+        "endY": 2844.4457,
+        "width": 11.02,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621126",
+        "ticket": 621126
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "R_SW",
+        "layerId": 1,
+        "startX": 1989.8637999999999,
+        "startY": 2805.1457,
+        "endX": 1989.8637999999999,
+        "endY": 2844.4457,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621127",
+        "ticket": 621127
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "R_SW",
+        "layerId": 1,
+        "startX": 1989.8637999999999,
+        "startY": 2824.8457,
+        "endX": 2047.2443,
+        "endY": 2834.6457,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621128",
+        "ticket": 621128
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SW",
+        "layerId": 1,
+        "startX": 2811.0054999999998,
+        "startY": 2254.0039,
+        "endX": 2856.0054999999998,
+        "endY": 2254.0039,
+        "width": 11.02,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621129",
+        "ticket": 621129
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SW",
+        "layerId": 1,
+        "startX": 2811.0054999999998,
+        "startY": 2273.7039,
+        "endX": 2856.0054999999998,
+        "endY": 2273.7039,
+        "width": 11.02,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621130",
+        "ticket": 621130
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SW",
+        "layerId": 1,
+        "startX": 2811.0054999999998,
+        "startY": 2293.3039000000003,
+        "endX": 2856.0054999999998,
+        "endY": 2293.3039000000003,
+        "width": 11.02,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621131",
+        "ticket": 621131
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SW",
+        "layerId": 1,
+        "startX": 2856.0054999999998,
+        "startY": 2254.0039,
+        "endX": 2856.0054999999998,
+        "endY": 2293.3039000000003,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "buck_switch_621132",
+        "ticket": 621132
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "M_SW",
+        "layerId": 1,
+        "startX": 2856.0054999999998,
+        "startY": 2273.7039,
+        "endX": 2913.4120000000003,
+        "endY": 2283.5078,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": []
+}

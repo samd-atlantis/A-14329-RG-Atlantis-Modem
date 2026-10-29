@@ -1,0 +1,810 @@
+{
+  "status": "OFFLINE_CANDIDATE_NOT_APPLIED",
+  "controls_requiring_reroute": [
+    "LAN3_RX_CT",
+    "LAN3_GREEN_A",
+    "LAN4_LED_N"
+  ],
+  "width_mil": 7.19,
+  "clearance_mil": 7.874,
+  "pair_gap_mil": 6.0,
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619291",
+        "ticket": 619291
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2326.5748,
+        "startY": 4094.4887,
+        "endX": 2326.5748,
+        "endY": 4246.81,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619292",
+        "ticket": 619292
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2326.5748,
+        "startY": 4246.81,
+        "endX": 2592.354,
+        "endY": 4246.81,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619293",
+        "ticket": 619293
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2592.354,
+        "startY": 4246.81,
+        "endX": 2635,
+        "endY": 4204.164,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619294",
+        "ticket": 619294
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2635,
+        "startY": 4204.164,
+        "endX": 2635,
+        "endY": 4175,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619295",
+        "ticket": 619295
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2276.5748,
+        "startY": 4194.4887,
+        "endX": 2276.5748,
+        "endY": 4260,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619296",
+        "ticket": 619296
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2276.5748,
+        "startY": 4260,
+        "endX": 2597.817,
+        "endY": 4260,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619297",
+        "ticket": 619297
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2597.817,
+        "startY": 4260,
+        "endX": 2640,
+        "endY": 4217.817,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619298",
+        "ticket": 619298
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2640,
+        "startY": 4217.817,
+        "endX": 2685,
+        "endY": 4217.817,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619299",
+        "ticket": 619299
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2685,
+        "startY": 4217.817,
+        "endX": 2685,
+        "endY": 4190,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619300",
+        "ticket": 619300
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 1,
+        "startX": 2635,
+        "startY": 4175,
+        "endX": 2650,
+        "endY": 4160,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619301",
+        "ticket": 619301
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 1,
+        "startX": 2650,
+        "startY": 4160,
+        "endX": 2650,
+        "endY": 3990,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619302",
+        "ticket": 619302
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 1,
+        "startX": 2650,
+        "startY": 3990,
+        "endX": 2635,
+        "endY": 3975,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619303",
+        "ticket": 619303
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 1,
+        "startX": 2635,
+        "startY": 3975,
+        "endX": 2635,
+        "endY": 3960,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619304",
+        "ticket": 619304
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 1,
+        "startX": 2685,
+        "startY": 4190,
+        "endX": 2663.19,
+        "endY": 4168.19,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619305",
+        "ticket": 619305
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 1,
+        "startX": 2663.19,
+        "startY": 4168.19,
+        "endX": 2663.19,
+        "endY": 3990,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619306",
+        "ticket": 619306
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 1,
+        "startX": 2663.19,
+        "startY": 3990,
+        "endX": 2670,
+        "endY": 3983.19,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619307",
+        "ticket": 619307
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 1,
+        "startX": 2670,
+        "startY": 3983.19,
+        "endX": 2670,
+        "endY": 3960,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619308",
+        "ticket": 619308
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2635,
+        "startY": 3960,
+        "endX": 2570,
+        "endY": 3895,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619309",
+        "ticket": 619309
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2570,
+        "startY": 3895,
+        "endX": 2570,
+        "endY": 3600,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619310",
+        "ticket": 619310
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2570,
+        "startY": 3600,
+        "endX": 2552.2257412,
+        "endY": 3600,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619311",
+        "ticket": 619311
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2552.2257412,
+        "startY": 3600,
+        "endX": 2552.2257412,
+        "endY": 3550,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619312",
+        "ticket": 619312
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2552.2257412,
+        "startY": 3550,
+        "endX": 2570,
+        "endY": 3550,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619313",
+        "ticket": 619313
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2570,
+        "startY": 3550,
+        "endX": 2570,
+        "endY": 3220,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619314",
+        "ticket": 619314
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2570,
+        "startY": 3220,
+        "endX": 2550,
+        "endY": 3200,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619315",
+        "ticket": 619315
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 2,
+        "startX": 2550,
+        "startY": 3200,
+        "endX": 2550,
+        "endY": 3170,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619316",
+        "ticket": 619316
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2670,
+        "startY": 3960,
+        "endX": 2583.19,
+        "endY": 3873.19,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619317",
+        "ticket": 619317
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2583.19,
+        "startY": 3873.19,
+        "endX": 2583.19,
+        "endY": 3220,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619318",
+        "ticket": 619318
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2583.19,
+        "startY": 3220,
+        "endX": 2585,
+        "endY": 3218.19,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619319",
+        "ticket": 619319
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 2,
+        "startX": 2585,
+        "startY": 3218.19,
+        "endX": 2585,
+        "endY": 3170,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619320",
+        "ticket": 619320
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 1,
+        "startX": 2550,
+        "startY": 3170,
+        "endX": 2550,
+        "endY": 3060.514,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619321",
+        "ticket": 619321
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "layerId": 1,
+        "startX": 2550,
+        "startY": 3060.514,
+        "endX": 2553.1408,
+        "endY": 3057.0887,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619322",
+        "ticket": 619322
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 1,
+        "startX": 2585,
+        "startY": 3170,
+        "endX": 2585,
+        "endY": 3081.924,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "rx3_candidate_619323",
+        "ticket": 619323
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "layerId": 1,
+        "startX": 2585,
+        "startY": 3081.924,
+        "endX": 2608.26,
+        "endY": 3057.0887,
+        "width": 7.19,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "rx3_candidate_619324",
+        "ticket": 619324
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "ruleName": "",
+        "centerX": 2635,
+        "centerY": 4175,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "rx3_candidate_619325",
+        "ticket": 619325
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "ruleName": "",
+        "centerX": 2635,
+        "centerY": 3960,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "rx3_candidate_619326",
+        "ticket": 619326
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXP",
+        "ruleName": "",
+        "centerX": 2550,
+        "centerY": 3170,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "rx3_candidate_619327",
+        "ticket": 619327
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "ruleName": "",
+        "centerX": 2685,
+        "centerY": 4190,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "rx3_candidate_619328",
+        "ticket": 619328
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "ruleName": "",
+        "centerX": 2670,
+        "centerY": 3960,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "rx3_candidate_619329",
+        "ticket": 619329
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "LAN3_RXN",
+        "ruleName": "",
+        "centerX": 2585,
+        "centerY": 3170,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    }
+  ],
+  "clearance_issues": [],
+  "limitations": [
+    "Sampled geometry only; does not replace native DRC.",
+    "Region keepouts, exact curved/custom pads, copper pours, board edges, impedance, and via delay require additional checks."
+  ]
+}

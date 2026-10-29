@@ -1,0 +1,1618 @@
+
+=== PDF PAGE 1 ===
+ 
+ 
+ 
+ 
+Mini PCIe EVB User Guide 
+ 
+UMTS/HSPA/LTE Module Series 
+ 
+Rev: Mini_PCIe_EVB_User_Guide_V1.1 
+ 
+Date: 2015-06-10 
+www.quectel.com 
+
+
+=== PDF PAGE 2 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          1 / 30 
+ 
+ 
+ 
+ 
+Our aim is to provide customers with timely and comprehensive service. For any 
+assistance, please contact our company headquarters: 
+ 
+Quectel Wireless Solutions Co., Ltd.  
+Office 501, Building 13, No.99, Tianzhou Road, Shanghai, China, 200233 
+Tel: +86 21 5108 6236 
+Mail: info@quectel.com 
+ 
+Or our local office, for more information, please visit:  
+http://www.quectel.com/support/salesupport.aspx 
+ 
+ 
+For technical support, to report documentation errors, please visit:  
+http://www.quectel.com/support/techsupport.aspx 
+Or Email: Support@quectel.com 
+ 
+ 
+GENERAL NOTES 
+QUECTEL OFFERS THIS INFORMATION AS A SERVICE TO ITS CUSTOMERS. THE INFORMATION 
+PROVIDED IS BASED UPON CUSTOMERS’ REQUIREMENTS. QUECTEL MAKES EVERY EFFORT 
+TO ENSURE THE QUALITY OF THE INFORMATION IT MAKES AVAILABLE. QUECTEL DOES NOT 
+MAKE ANY WARRANTY AS TO THE INFORMATION CONTAINED HEREIN, AND DOES NOT ACCEPT 
+ANY LIABILITY FOR ANY INJURY, LOSS OR DAMAGE OF ANY KIND INCURRED BY USE OF OR 
+RELIANCE UPON THE INFORMATION. THE INFORMATION SUPPLIED HEREIN IS SUBJECT TO 
+CHANGE WITHOUT PRIOR NOTICE.  
+ 
+ 
+COPYRIGHT 
+THIS INFORMATION CONTAINED HERE IS PROPRIETARY TECHNICAL INFORMATION OF 
+QUECTEL CO., LTD. TRANSMITTABLE, REPRODUCTION, DISSEMINATION AND EDITING OF THIS 
+DOCUMENT AS WELL AS UTILIZATION OF THIS CONTENTS ARE FORBIDDEN WITHOUT 
+PERMISSION. OFFENDERS WILL BE HELD LIABLE FOR PAYMENT OF DAMAGES. ALL RIGHTS 
+ARE RESERVED IN THE EVENT OF A PATENT GRANT OR REGISTRATION OF A UTILITY MODEL 
+OR DESIGN.  
+ 
+Copyright © Quectel Wireless Solutions Co., Ltd. 2015. All rights reserved. 
+ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 3 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          2 / 30 
+ 
+ 
+ 
+About the Document 
+  
+History  
+ 
+ 
+Revision  
+Date 
+Author 
+Description 
+1.0 
+2015-03-03 
+Radom XIANG 
+Initial 
+1.1 
+2015-06-10 
+Radom XIANG 
+Deleted +5V adapter parts in EVB accessories 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 4 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          3 / 30 
+ 
+ 
+ 
+Contents 
+About the Document ................................................................................................................................... 2 
+Contents ....................................................................................................................................................... 3 
+Table Index ................................................................................................................................................... 4 
+Figure Index ................................................................................................................................................. 5 
+1 
+Introduction .......................................................................................................................................... 6 
+1.1. 
+Safety Information ................................................................................................................... 7 
+2 
+General Overview ................................................................................................................................. 8 
+2.1. 
+Scope of the EVB .................................................................................................................... 8 
+2.2. 
+Key Features ........................................................................................................................... 8 
+2.3. 
+System Overview..................................................................................................................... 9 
+2.4. 
+Interface Overview................................................................................................................... 9 
+2.5. 
+EVB View ............................................................................................................................... 11 
+2.6. 
+EVB Accessories ................................................................................................................... 11 
+3 
+Interface Application ......................................................................................................................... 13 
+3.1. 
+Power Interface ..................................................................................................................... 13 
+3.2. 
+USB Device Interface ............................................................................................................ 14 
+3.3. 
+Audio Interface ...................................................................................................................... 15 
+3.3.1. 
+Earphone (J401/J403).................................................................................................... 16 
+3.3.2. 
+Handset (J404/J402) ...................................................................................................... 18 
+3.4. 
+USIM Card Interface .............................................................................................................. 19 
+3.5. 
+UART Interface ...................................................................................................................... 21 
+3.6. 
+Switch and Button.................................................................................................................. 22 
+3.7. 
+Status LEDs ........................................................................................................................... 23 
+3.8. 
+Jumpers ................................................................................................................................. 24 
+3.9. 
+Test Points ............................................................................................................................. 24 
+4 
+Operation of Mini PCIe Module ......................................................................................................... 26 
+4.1. 
+Power On Mini PCIe Module ................................................................................................. 26 
+4.2. 
+Power Off Mini PCIe Module ................................................................................................. 26 
+4.3. 
+Reset Mini PCIe Module ........................................................................................................ 27 
+4.4. 
+Communication via USB or UART Interface ......................................................................... 27 
+4.4.1. 
+Communication via USB Interface ................................................................................. 27 
+4.4.2. 
+Communication via UART Interface ............................................................................... 27 
+4.5. 
+Firmware Upgrade ................................................................................................................. 27 
+5 
+EVB Accessories Assembly ............................................................................................................. 29 
+6 
+Appendix A Reference ....................................................................................................................... 30 
+ 
+ 
+ 
+ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 5 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          4 / 30 
+ 
+ 
+ 
+Table Index 
+TABLE 1: FEATURES .......................................................................................................................................... 8 
+TABLE 2: INTERFACES OF MINI PCIE EVB...................................................................................................... 9 
+TABLE 3: ACCESSORIES LIST ......................................................................................................................... 11 
+TABLE 4: PIN ASSIGNMENT OF USB DEVICE INTERFACE J302 ................................................................. 15 
+TABLE 5: PIN ASSIGNMENT OF J401/J403 .................................................................................................... 17 
+TABLE 6: PIN ASSIGNMENT OF J404/J402 .................................................................................................... 19 
+TABLE 7: PIN ASSIGNMENT OF J303 ............................................................................................................. 20 
+TABLE 8: PIN ASSIGNMENT OF J301 ............................................................................................................. 22 
+TABLE 9: DESCRIPTION OF SWITCH AND BUTTON .................................................................................... 23 
+TABLE 10: DESCRIPTION OF STATUS LEDS ................................................................................................. 24 
+TABLE 11: JUMPER OPERATION OF J304/J405 ............................................................................................ 24 
+TABLE 12: TEST POINTS ................................................................................................................................. 25 
+TABLE 13: INDICATION OF D101 .................................................................................................................... 26 
+TABLE 14: RELATED DOCUMENTS ................................................................................................................ 30 
+ 
+ 
+ 
+ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 6 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          5 / 30 
+ 
+ 
+ 
+Figure Index  
+FIGURE 1: SYSTEM OVERVIEW ....................................................................................................................... 9 
+FIGURE 2: EVB TOP VIEW ............................................................................................................................... 11 
+FIGURE 3: EVB ACCESSORIES ...................................................................................................................... 12 
+FIGURE 4: SIMPLIFIED POWER SUPPLY SCHEMATIC ................................................................................ 13 
+FIGURE 5: POWER INTERFACE ..................................................................................................................... 14 
+FIGURE 6: POWER PLUG ................................................................................................................................ 14 
+FIGURE 7: CIRCUIT OF USB INTERFACE ...................................................................................................... 15 
+FIGURE 8: AUDIO CODEC CIRCUIT ............................................................................................................... 16 
+FIGURE 9: J401 EARPHONE CIRCUIT ........................................................................................................... 16 
+FIGURE 10: J403 EARPHONE CIRCUIT ......................................................................................................... 17 
+FIGURE 11: PIN ASSIGNMENT OF J401/J403 ................................................................................................ 17 
+FIGURE 12: THE SKETCH OF CTIA AUDIO PLUG ......................................................................................... 18 
+FIGURE 13: J404 HANDSET CIRCUIT ............................................................................................................ 18 
+FIGURE 14: J402 HANDSET CIRCUIT ............................................................................................................ 19 
+FIGURE 15: SIMPLIFIED USIM CARD INTERFACE SCHEMATIC ................................................................. 20 
+FIGURE 16: PINS ASSIGNMENT OF USIM CARD HOLDER .......................................................................... 20 
+FIGURE 17: UART BLOCK DIAGRAM ............................................................................................................. 21 
+FIGURE 18: MAIN UART PORT (J301) ............................................................................................................ 22 
+FIGURE 19: SWITCH AND BUTTON ................................................................................................................ 23 
+FIGURE 20: STATUS LEDS .............................................................................................................................. 23 
+FIGURE 21: TEST POINTS ............................................................................................................................... 25 
+FIGURE 22: SELECT THE USB DM PORT TO UPDATE FIRMWARE ............................................................ 28 
+FIGURE 23: EVB AND ACCESSORIES EQUIPMENT ..................................................................................... 29 
+ 
+ 
+ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 7 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          6 / 30 
+ 
+ 
+ 
+1 Introduction  
+ 
+This document describes the evaluation board of Mini PCIe card. The Mini PCIe evaluation board is an 
+assistant system integrator for developing and evaluating products based on Quectel Wireless Modules.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 8 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          7 / 30 
+ 
+ 
+ 
+1.1. Safety Information  
+ 
+The following safety precautions must be observed during all phases of the operation, such as usage, 
+service or repair of any cellular terminal or mobile incorporating module. Manufacturers of the cellular 
+terminal should send the following safety information to users and operating personnel and to incorporate 
+these guidelines into all manuals supplied with the product. If not so, Quectel does not take on any liability 
+for customer failure to comply with these precautions.  
+ 
+ 
+ 
+Full attention must be given to driving at all times in order to reduce the risk of an 
+accident. Using a mobie while driving (even with a handsfree kit) cause distraction 
+and can lead to an accident. You must comply with laws and regulations restrcting 
+the use of wireless devices while driving.  
+ 
+Switch off the cellular terminal or mobile before boarding an aircraft. Make sure it 
+switched off. The operation of wireless appliances in an aircraft is forbidden to 
+prevent interference with communication systems. Consult the airline staff about 
+the use of wireless devices on boarding the aircraft, if your device offers a Fight 
+Mode which must be enabled prior to boarding an aircraft. 
+ 
+Switch off your wireless device when in hospitals or clinics or other health care 
+facilities. These requests are desinged to prevent possible interference with 
+sentitive medical equipment. 
+ 
+Cellular terminals or mobiles operate over radio frequency signal and cellular 
+network and cannot be guaranteed to connect in all conditions, for example no 
+mobile fee or an invalid SIM card. While you are in this condition and need 
+emergent help, Please Remember using emergency call. In order to make or 
+receive call, the cellular terminal or mobile must be switched on and in a service 
+area with adequate cellular signal strength. 
+ 
+Your cellular terminal or mobile contains a transmitter and receiver. When it is ON , 
+it receives and transmits radio frequency energy. RF interference can occur if it is 
+used close to TV set, radio, computer or other electric equipment. 
+ 
+In locations with potencially explosive atmospheres, obey all posted signs to turn 
+off wireless devices such as your phone or other cellular terminals. Areas with 
+potencially exposive atmospheres including fuelling areas, below decks on boats, 
+fuel or chemical transfer or storage facilities, areas where the air contains 
+chemicals or particles such as grain, dust or metal powders.  
+Quectel 
+Confidential
+
+
+=== PDF PAGE 9 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          8 / 30 
+ 
+ 
+ 
+2 General Overview  
+ 
+Quectel supplies Mini PCIe-EVB kit for designers to develop applications based on Quectel Mini PCIe 
+module. This EVB can test all functionalities of Quectel Mini PCIe module. 
+ 
+2.1. Scope of the EVB 
+ 
+Mini PCIe EVB is applicable to the following modules. Please refer to document [3] to obtain more details 
+for these modules. 
+ 
+ 
+UC20 Mini PCIe  
+ 
+UC15 Mini PCIe  
+ 
+EC20 Mini PCIe  
+ 
+2.2. Key Features 
+Table 1: Features  
+ 
+Features 
+Implementation 
+Power Supply 
+DC supply 4.5~5.5V typically 5V 
+VBAT: 3.3V at J202 
+USIM Card Interface  
+USIM/SIM card (6 pins) connector with push loading 
+USIM/SIM card: 3V and 1.8V 
+Audio Interface 
+Used for earphone and handset 
+UART Interface 
+COM-serial interface for data communication (default 115200bps) 
+Max. baud rate: 460800bps 
+USB Interface 
+USB 2.0 
+Signal Indication  
+2 LEDs are available for signal indication 
+Physical Characteristics 
+Size: 94 × 58mm 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 10 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          9 / 30 
+ 
+ 
+ 
+2.3. System Overview 
+3V3
+J202
+Mini PCIe card
+J301
+ COM (UART Port)
+J201
+J302
+S201
+S101
+Micro USB 
+interface
+J303
+J404
+USIM card holder
+Audio interface
+Power 
+supply
+Power 
+switch
+RESET
+D103
+D101
+Status LEDs
+1                     5
+6          9
+Test points
+VBAT
+3V
+3V
+UART
+PCM
+1.8V
+1.8V
+GND
+J304
+J405
+J103
+USB_ON
+W_DISABLE
+J101
+J102
+1
+51
+2
+52
+J401
+J403
+J402
+Audio interface
+ 
+Figure 1: System Overview 
+2.4. Interface Overview  
+Table 2: Interfaces of Mini PCIe EVB  
+Interface 
+Reference 
+Number 
+Description 
+Power Supply 
+J201 
+(bottom side) 
+The power jack on the EVB board. Supply voltage typically +5V 
+Power Switch 
+S201 
+Control power supply VBAT ON/OFF 
+RESET 
+S101 
+Reset button. It is used to reset the Mini PCIe module 
+Micro USB 
+J302 
+USB device interface 
+It can also be used to supply power to EVB board 
+Audio 
+J401 
+Used for Ф3.5mm CTIA earphone by default 
+Used to test module PCM function 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 11 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          10 / 30 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+J404 
+(bottom side) 
+Used for handset 
+Used to test module PCM function 
+J402 
+(bottom side) 
+Used for handset 
+Used to test analog audio function of UC15 Mini PCIe only 
+J403 
+Used for Ф3.5mm CTIA earphone by default 
+Used to test analog audio function of UC15 Mini PCIe only 
+USIM 
+J303 
+(bottom side) 
+USIM/SIM card holder 
+COM 
+J301 
+(bottom side) 
+UART port 
+LEDs 
+D103, D101 
+D103 is VBAT ON/OFF indicator 
+D101 is used for indicating the status of Mini PCIe module  
+Mini PCIe 
+J101 
+Mini PCI Express connector for Mini PCIe module 
+J102 
+Latch for Mini PCIe module 
+VBAT 
+J202 
+VBAT voltage testing 
+Jumpers 
+J304 
+Used for matching UART’s level  
+J405 
+Used for matching PCM’s level  
+Reserved 
+J103 
+Reserved for module’s W_DISABLE# and USB_ON function 
+Test Points 
+/ 
+Used for UART signals and PCM signals testing 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 12 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          11 / 30 
+ 
+ 
+ 
+2.5. EVB View 
+ 
+Figure 2: EVB Top View 
+2.6. EVB Accessories 
+ 
+All the items of EVB kit are listed as below. Please contact the supplier if there is something missing. 
+ 
+Table 3: Accessories List  
+Items 
+Description 
+Quantity 
+Cables 
+USB to UART converter cable 
+1 
+USB cable 
+1 
+RF cable 
+3 
+Antennas 
+Main Antenna 
+2 
+GNSS Antenna (passive) 
+1 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 13 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          12 / 30 
+ 
+ 
+ 
+ 
+USB to UART converter cable
+Bolts and nuts
+GNSS Antenna
+USB cable
+Main Antenna
+RF cable
+Driver disk
+Earphone
+ 
+Figure 3: EVB Accessories 
+ 
+ 
+Audio  
+Earphone 
+1 
+Disk 
+USB2.0 to RS232 driver and USB driver disk 
+1 
+Other 
+Bolts and nuts for fixing EVB 
+1 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 14 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          13 / 30 
+ 
+ 
+ 
+3 Interface Application 
+ 
+This chapter describes the hardware interfaces of Mini PCIe EVB, shown as follows: 
+ 
+ 
+Power interface 
+ 
+USB interface 
+ 
+Audio interface 
+ 
+USIM card interface 
+ 
+UART interface 
+ 
+It also provides information about LEDs, jumper, button and test points to help you use the Mini PCIe 
+EVB. 
+ 
+3.1. Power Interface 
+ 
+The power supply of Mini PCIe EVB could come from the external input which is connected with power 
+jack or USB receptacle on the EVB board. The power supply connects to a step-down converter which 
+can provide the supply voltage (VBAT) required for operating EVB and Mini PCIe module.  
+ 
+Figure 4 shows the simplified power supply schematic, and Figure 5 shows the power interface of Mini 
+PCIe EVB. 
+ 
+J201
+S201
+Power jack
+Power 
+switch
+Step-down converter
+AAT2138
+U201
+Power supply to 
+Mini PCIe module
+1.8V
+3.0V
+U202 
+U203 
+USB
+J302
+3V3
+VBAT
+ 
+Figure 4: Simplified Power Supply Schematic 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 15 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          14 / 30 
+ 
+ 
+ 
+  
+GND
+5V DC Power input
+ 
+Figure 5: Power Interface 
+ 
+You can also use an extra +5V DC adapter to supply power, shown as Figure 6. 
+Inner contact
+Outer contact
+ 
+Figure 6: Power Plug 
+3.2. USB Device Interface 
+ 
+Quectel Mini PCIe module provides a USB 2.0 interface which complies with USB 2.0 standard for 
+high-speed (480Mbps) functions. It is used for AT command, data transmission, firmware upgrade and 
+GNSS NMEA output. 
+ 
+Mini PCIe EVB provides a Micro-USB receptacle J302 to connect a host device. The USB data lines 
+USB_DP and USB_DM are connected directly to the Mini PCIe module. The USB_VBUS line can be used 
+to supply power for EVB. 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 16 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          15 / 30 
+ 
+ 
+ 
+J101
+USB_DP
+USB_DM
+GND
+Differential layout
+USB_VBUS
+USB_DP
+USB_DM
+GND
+ESD Array
+NM_2pF
+USB_ID
+Power supply for EVB
+1
+2
+3
+4
+5
+36
+38
+J302
+ 
+Figure 7: Circuit of USB Interface 
+ 
+Table 4: Pin Assignment of USB Device Interface J302 
+ 
+3.3. Audio Interface 
+ 
+Quectel Mini PCIe module provides one digital audio interface (PCM). Mini PCIe EVB is equipped with an 
+external audio codec called ALC5616, and Figure 8 shows the audio codec circuit. 
+ 
+The Mini PCIe EVB provides several analog audio interfaces. J401 and J404 are used for module PCM 
+function which is connected through codec ALC5616. J402 and J403 are used for UC15 Mini PCIe analog 
+audio function only. This chapter gives a detailed introduction on these analog audio interfaces. 
+J302 Pin 
+Pin Name 
+Function 
+1 
+USB_VBUS 
+This pin is used to supply power for EVB 
+2 
+USB_DM 
+USB serial differential bus (minus) 
+3 
+USB_DP 
+USB serial differential bus (positive) 
+4 
+USB_ID 
+Not connected 
+5 
+GND 
+GND for USB interface 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 17 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          16 / 30 
+ 
+ 
+ 
+PCM_IN
+PCM_OUT
+PCM_SYNC
+PCM_CLK
+I2C_SCL
+I2C_SDA
+CODEC
+ALC5616
+J101
+1.8V or 3.0V
+4.7K
+4.7K
+BCLK1
+LRCK1
+DACDAT1
+ADCDAT1
+SCL
+SDA
+MIC_BIAS
+MICBIAS1
+IN2P
+IN2N
+LOUTP
+LOUTN
+R
+C
+HPO_L
+HPO_R
+MIC
+Earphone
+Handset
+24
+23
+22
+21
+26
+27
+32
+3
+4
+20
+17
+10
+9
+45
+51
+47
+49
+30
+32
+J405
+ 
+Figure 8: Audio Codec Circuit 
+ 
+3.3.1. Earphone (J401/J403) 
+A CTIA earphone can be used in audio interface J401 or J403. The name of the corresponding pins had 
+been marked on the EVB. Figure 9 and Figure 10 show the circuit of audio interface J401 and J403 for 
+earphone separately. 
+ 
+ 
+33pF
+GND GND
+Differential 
+layout
+10pF
+10pF 33pF
+GND
+GND
+AGND
+4.7uF
+AGND
+ESD
+ESD
+ALC5616
+CODEC
+IN2N
+IN2P
+10pF
+33pF ESD
+J401
+Audio Jack
+HPO_L
+HPO_R
+2
+4
+5
+3
+1
+4
+3
+20
+17
+AGND
+ 
+Figure 9: J401 Earphone Circuit 
+ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 18 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          17 / 30 
+ 
+ 
+ 
+33pF
+GND GND
+Differential 
+layout
+10pF
+10pF 33pF
+GND
+GND
+4.7uF
+AGND
+ESD
+ESD
+10pF
+33pF ESD
+J403
+Audio Jack
+2
+4
+5
+3
+1
+AGND
+AGND
+J101
+UC15 Mini PCIe-MIC_N 3
+1
+7
+5
+ UC15 Mini PCIe-MIC_P
+UC15 Mini PCIe-SPK_N
+UC15 Mini PCIe-SPK_P
+ 
+Figure 10: J403 Earphone Circuit 
+ 
+1
+2
+3
+4
+5
+6
+ 
+Figure 11: Pin Assignment of J401/J403 
+ 
+Table 5: Pin Assignment of J401/J403  
+J401/J403 Pin 
+Pin Name 
+Function 
+1 
+MIC 
+Microphone input 
+2 
+AGND 
+Dedicated GND for Audio 
+3 
+SPK_R 
+Right channel of stereo audio output 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 19 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          18 / 30 
+ 
+ 
+ 
+ 
+The following figure shows the sketch of CTIA audio plug which suits for the audio jack on Mini PCIe EVB. 
+  
+2
+1
+MIC
+GND
+SW
+SPK_R
+SPK_L
+3
+4
+32Ω
+32Ω
+ 
+Figure 12: The Sketch of CTIA Audio Plug 
+ 
+3.3.2. Handset (J404/J402) 
+A handset can be used in audio interface J404 or J402. The name of the corresponding pins had been 
+marked on the EVB. Figure 13 and Figure 14 show the circuit of audio interface J404 and J402 for 
+handset separately.  
+ 
+ESD
+33pF
+ESD
+ESD
+ESD
+33pF
+33pF
+33pF
+33pF
+33pF
+10pF
+10pF
+10pF
+10pF
+10pF
+10pF
+IN2P
+IN2N
+LOUTP
+LOUTN
+FB
+4
+1
+3
+2
+ALC5616
+J404
+CODEC
+3
+4
+9
+10
+ 
+Figure 13: J404 Handset Circuit 
+4 
+SPK_L 
+Left channel of stereo audio output 
+5, 6 
+NC 
+/ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 20 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          19 / 30 
+ 
+ 
+ 
+ESD
+33pF
+ESD
+ESD
+ESD
+33pF
+33pF
+33pF
+33pF
+33pF
+10pF
+10pF
+10pF
+10pF
+10pF
+10pF
+FB
+4
+1
+3
+2
+J101
+J402
+UC15 Mini PCIe-MIC_N
+ UC15 Mini PCIe-MIC_P
+UC15 Mini PCIe-SPK_N
+UC15 Mini PCIe-SPK_P
+1
+3
+5
+7
+ 
+Figure 14: J402 Handset Circuit 
+ 
+Table 6: Pin Assignment of J404/J402 
+ 
+3.4. USIM Card Interface 
+ 
+The Mini PCIe EVB has a 6-pin push-push type USIM/SIM card (3V or 1.8V) holder J303. Figure 15 
+shows the simplified interface schematic for J303. 
+ 
+J404/J402 Pin 
+Pin Name 
+Function 
+1 
+MICN 
+Negative microphone input 
+2 
+SPKN 
+Negative speaker output 
+3 
+SPKP 
+Positive speaker output 
+4 
+MICP 
+Positive microphone input 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 21 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          20 / 30 
+ 
+ 
+ 
+USIM card holder
+SIM_VDD
+SIM_CLK
+SIM_DATA
+SIM_RST
+SIM_GND
+J101
+J303
+C1
+C7
+C2
+C3
+Push-Push
+SIM_VDD
+SIM_DATA
+SIM_RST
+SIM_CLK
+GND
+GND
+8
+10
+12
+14
+ 
+Figure 15: Simplified USIM Card Interface Schematic 
+ 
+ 
+C1 C2 C3
+C5 C6 C7
+CD1
+CD2
+ 
+Figure 16: Pins Assignment of USIM Card Holder 
+ 
+Table 7: Pin Assignment of J303 
+J303 Pin  
+Signal Name 
+I/O 
+Function 
+C1 
+SIM_VDD 
+O 
+USIM/SIM card power, generated by 
+the Mini PCIe module 
+C2 
+SIM_RST 
+O 
+USIM/SIM card reset 
+C3 
+SIM_CLK 
+O 
+USIM/SIM card clock 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 22 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          21 / 30 
+ 
+ 
+ 
+ 
+ 
+Mini PCIe module does not support SIM card detection. 
+ 
+3.5. UART Interface 
+ 
+The UART interface COM of the Mini PCIe EVB is intended for the communication between the module 
+and the host application. This interface can be used for data transmission and AT communication. 
+ 
+The following figure shows the UART block diagram on Mini PCIe EVB. 
+ 
+RS232 
+Level Match
+Level 
+Translator
+COM
+DB9
+J301
+RS232 
+3.0V 
+3.0V or 
+1.8V
+J101
+3.0V or 1.8V from J304
+UART interface
+ 
+Figure 17: UART Block Diagram 
+C5 
+GND 
+/ 
+Ground 
+C6 
+VPP 
+/ 
+Not connected 
+C7 
+SIM_DATA 
+I/O 
+Data line, bi-directional 
+CD1 
+ 
+/ 
+Not connected 
+CD2 
+ 
+/ 
+Not connected 
+NOTE 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 23 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          22 / 30 
+ 
+ 
+ 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+  
+Figure 18: Main UART Port (J301) 
+ 
+Table 8: Pin Assignment of J301 
+ 
+3.6. Switch and Button 
+ 
+Mini PCIe EVB comprises a button (S101) and a switch (S201). Figure 19 shows the switch and button. 
+J301 Pin 
+Signal Name 
+I/O 
+Description  
+1 
+RS232_DCD 
+O 
+Data carrier detection 
+2 
+RS232_RXD 
+I 
+Receive data 
+3 
+RS232_TXD 
+O 
+Transmit data 
+4 
+RS232_DTR 
+I 
+Data terminal ready 
+5 
+RS232_GND 
+/ 
+GND 
+6 
+NC 
+/ 
+NC 
+7 
+RS232_RTS 
+I 
+Request to send 
+8 
+RS232_CTS 
+O 
+Clear to send 
+9 
+RS232_RI 
+O 
+Ring indicator 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 24 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          23 / 30 
+ 
+ 
+ 
+  
+S201
+S101
+ 
+Figure 19: Switch and Button 
+ 
+Table 9: Description of Switch and Button  
+  
+3.7. Status LEDs 
+ 
+Mini PCIe EVB comprises two status LEDs (D103, D101). Figure 20 shows the position of LEDs. 
+  
+D103
+D101
+ 
+Figure 20: Status LEDs 
+Reference  
+Description 
+S201 
+Control power supply VBAT ON/OFF. 
+S101 
+It is used to reset the Mini PCIe module. 
+Press the button for more than 150ms and then release to reset the module. 
+Please note that press time cannot be more than 200ms for UC15 Mini 
+PCIe, otherwise the module will be powered off. 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 25 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          24 / 30 
+ 
+ 
+ 
+Table 10: Description of Status LEDs  
+ 
+3.8. Jumpers 
+ 
+Mini PCIe EVB provides jumper J304 and jumper J405 to match up the UART’s and PCM’s level with Mini 
+PCIe module. The following table shows the jumper operation of J304/J405.  
+ 
+Table 11: Jumper Operation of J304/J405  
+ 
+ 
+1. 
+By default, Jumper J304 is set to UART and 3V, and Jumper J405 is set to PCM and 1.8V.  
+2. 
+If you want to enable W_DISABLE# function, please connect W_DISABLE and GND by the reserved 
+Jumper J103. 
+ 
+3.9. Test Points 
+ 
+Mini PCIe EVB provides some test points for some signals. It can help to obtain the corresponding 
+waveform. 
+Reference  
+Description 
+D103 
+Indicate the power supply is ready 
+Bright: VBAT ON 
+Extinct: VBAT OFF 
+D101 
+Indicate the module network registration mode 
+Bright: registered to network 
+Extinct: not registered or in airplane mode 
+Module Interface Level 
+Jumper J304 
+Jumper J405 
+3.3V UART Level 
+Connects UART and 3V 
+/ 
+1.8V UART Level 
+Connects UART and 1.8V 
+/ 
+3.3V PCM Level 
+/ 
+Connects PCM to 3V 
+1.8V PCM Level 
+/ 
+Connects PCM to 1.8V 
+NOTES 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 26 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          25 / 30 
+ 
+ 
+ 
+  
+ 
+Figure 21: Test Points 
+ 
+Table 12: Test Points 
+Test Points Name 
+Description 
+TXD 
+Connected directly to Mini PCIe UART’s TXD 
+CTS 
+Connected directly to Mini PCIe UART’s RTS 
+DTR 
+Connected directly to Mini PCIe UART’s DTR 
+RXD 
+Connected directly to Mini PCIe UART’s RXD 
+RTS 
+Connected directly to Mini PCIe UART’s CTS 
+DCD 
+Connected directly to Mini PCIe UART’s DCD 
+RI 
+Connected directly to Mini PCIe UART’s RI 
+PCM_CLK 
+Connected directly to Mini PCIe PCM’s PCM_CLK 
+PCM_SYNC 
+Connected directly to Mini PCIe PCM’s PCM_SYNC 
+PCM_OUT 
+Connected directly to Mini PCIe PCM’s PCM_OUT 
+PCM_IN 
+Connected directly to Mini PCIe PCM’s PCM_IN 
+D- 
+Connected directly to Mini PCIe USB’s USB_DM 
+D+ 
+Connected directly to Mini PCIe USB’s USB_DP 
+VBAT 
+Connected directly to the output of AAT2138 
+GND 
+Ground 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 27 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          26 / 30 
+ 
+ 
+ 
+4 Operation of Mini PCIe Module  
+ 
+4.1. Power On Mini PCIe Module 
+ 
+1. Connect the Mini PCIe module to the connector J101 on Mini PCIe EVB, charge with USB cable or 
++5V power adapter and insert SIM card to J303. 
+ 
+2. Switch S201 to ON state, D103 will be light and indicates power supply for EVB is ready. The module 
+will be powered on automatically. D101 (NET_STATUS) will be light after the module registered to the 
+network successfully. 
+ 
+Table 13: Indication of D101 
+ 
+4.2. Power Off Mini PCIe Module  
+ 
+There are two ways to power off Mini PCIe module. 
+ 
+One way is to execute AT command AT+QPOWD (Refer to document [2]). It is the best and safest 
+approach. It logs off the network and saves data before shutdown. But Mini PCIe module will be powered 
+on again after shutdown. 
+ 
+The other way is to switch S201 (POWER) to OFF state directly, but this way is not recommended. Please 
+switch S201 to OFF after shutting down the module by executing AT command AT+QPOWD. 
+ 
+ 
+ 
+Reference 
+State 
+Description 
+D101 
+NET_STATUS 
+Always ON 
+Registered to network 
+Always OFF 
+Others 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 28 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          27 / 30 
+ 
+ 
+ 
+4.3. Reset Mini PCIe Module 
+ 
+The emergency restart option is only used in case of emergency. For example, the software does not 
+respond for more than 5 seconds due to some serious problems. 
+ 
+Pressing the key S101 for more than 150ms then releasing will reset the Mini PCIe module. This may 
+cause the loss of information stored in the memory since the reset has been initialized. 
+ 
+4.4. Communication via USB or UART Interface 
+4.4.1. Communication via USB Interface 
+1. 
+Power on the Mini PCIe module. 
+2. 
+Connect EVB and PC with USB cable through USB interface, refer to document [1] to install USB 
+driver from the Driver Disk.  
+3. 
+Configure AT Command Window, select correct communication port, and operate the Mini PCIe 
+module via AT commands. 
+ 
+4.4.2. Communication via UART Interface 
+1. 
+Install the USB-to-RS232 driver from the Driver Disk. 
+2. 
+Connect the UART interface to PC with USB-to-RS232 converter cable. 
+3. 
+Configure AT Command configuration tool, set correct baud rate (such as 115200bps) and COM 
+number which can be checked by the Device Manager on PC. 
+4. 
+Power on the Mini PCIe module and operate the module via AT commands. 
+ 
+4.5. Firmware Upgrade 
+ 
+Mini PCIe Module upgrades firmware via USB port by default, please follow the procedures below to 
+upgrade firmware. 
+ 
+1. Open the firmware upgrade tool “QFlash” in the PC and power on the Mini PCIe module. 
+2. Click the “COM Port” dropdown list and select the USB DM port. 
+3. Click the “Load FW Files” button to choose the firmware document package. 
+4. Click the “Start” button to upgrade the firmware. 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 29 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          28 / 30 
+ 
+ 
+ 
+ 
+Figure 22: Select the USB DM Port to Update Firmware 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 30 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          29 / 30 
+ 
+ 
+ 
+5 EVB Accessories Assembly 
+ 
+ 
+Figure 23: EVB and Accessories Equipment 
+ 
+ 
+ 
+ 
+ 
+Quectel 
+Confidential
+
+
+=== PDF PAGE 31 ===
+                                                                       UMTS/HSPA/LTE Module Series 
+                                                                Mini PCIe EVB User Guide 
+ 
+ 
+Mini_PCIe_EVB_User_Guide           Confidential / Released                          30 / 30 
+ 
+ 
+ 
+6 Appendix A Reference 
+ 
+Table 14: Related Documents 
+ 
+SN 
+Document Name 
+Remark 
+[1] 
+Quectel_XX_Drivers_for_Windows_Installation
+_Guide 
+XX represents UC20, UC15 and EC20 etc. 
+Install USB driver of module in Windows 
+XP/Vista/7/8.  
+[2] 
+Quectel_XX_AT_Commands_Manual 
+XX represents UC20, UC15 and EC20 etc. 
+[3] 
+Quectel_XX_Mini_PCIe_Hardware_Design 
+XX represents UC20, UC15 and EC20 etc. 
+Quectel 
+Confidential

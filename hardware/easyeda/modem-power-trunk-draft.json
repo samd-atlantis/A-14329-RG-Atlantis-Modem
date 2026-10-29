@@ -1,0 +1,174 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "points": [
+    [
+      1,
+      3070.892,
+      2283.5078
+    ],
+    [
+      1,
+      3310.0,
+      2265.0
+    ],
+    [
+      1,
+      4425.0,
+      1600.0
+    ],
+    [
+      1,
+      4615.0,
+      1350.0
+    ],
+    [
+      1,
+      4685.0394,
+      1318.2128
+    ]
+  ],
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626627",
+        "ticket": 626627
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3070.892,
+        "startY": 2283.5078,
+        "endX": 3310.0,
+        "endY": 2265.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626628",
+        "ticket": 626628
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 3310.0,
+        "startY": 2265.0,
+        "endX": 4425.0,
+        "endY": 1600.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626629",
+        "ticket": 626629
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4425.0,
+        "startY": 1600.0,
+        "endX": 4615.0,
+        "endY": 1350.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626630",
+        "ticket": 626630
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4615.0,
+        "startY": 1350.0,
+        "endX": 4685.0394,
+        "endY": 1318.2128,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_local_626631",
+        "ticket": 626631
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4233.9778,
+        "startY": 1202.7926,
+        "endX": 4202.4778,
+        "endY": 1202.7926,
+        "width": 16,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_local_626632",
+        "ticket": 626632
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4425,
+        "startY": 1600,
+        "endX": 4407.2078,
+        "endY": 1525.6326000000001,
+        "width": 16,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_local_626633",
+        "ticket": 626633
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_MODEM",
+        "layerId": 1,
+        "startX": 4425,
+        "startY": 1600,
+        "endX": 4685.0394,
+        "endY": 1527.5581,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": [],
+  "review": "Via ampacity, return paths and native DRC remain required."
+}

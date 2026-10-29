@@ -1,0 +1,31 @@
+{
+  "card_envelope_mm": [
+    51,
+    30
+  ],
+  "hole_centers_from_card_edge_mm": 48.05,
+  "hole_pitch_mm": 24.2,
+  "host_mount_holes_mm": 2.2,
+  "standoff_seat_target_mm": 3.55,
+  "standoff_body_od_mm": 4,
+  "metal_clearance_diameter_mm": 6,
+  "vertical_reservation_mm": 12,
+  "removal_beyond_card_mm": 15,
+  "group": "MODEM_J8_MECHANICAL",
+  "standoff_sku": "JAE NT4R1600 SMT, qty2; M2x3 pan screws qty2 separately sourced",
+  "datum": "Z=0 host PCB top; card underside and NT4 shoulder Z=3.55 mm; J8 housing top5.90 mm",
+  "mounting_global_mil": [
+    {
+      "x": 3466.2598,
+      "y": 3255.9449
+    },
+    {
+      "x": 4419.0158,
+      "y": 3255.9449
+    }
+  ],
+  "standoff_pilot_top_mm": 4.15,
+  "standoff_pilot_od_mm": 2.3,
+  "model_assembly": "EG25_NT4_assembly, MODEM1 contains removable card and both simplified NT4 bodies",
+  "model_note": "Visual mechanical reference; final hardware sample fit check required."
+}

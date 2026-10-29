@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-27T08:42:16-0400",
+    "kicad_version": "9.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca",
+            "violations": []
+        },
+        {
+            "path": "/01 - 120 VAC input and isolated 5 V supply/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca/afa7d4bd-89cb-5512-aed2-2a0a382b9fbe",
+            "violations": []
+        },
+        {
+            "path": "/03 - Router module and I2C management/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca/9a0a98fa-906f-5020-a6b4-daa03c80b493",
+            "violations": []
+        },
+        {
+            "path": "/05 - EG25-GL socket, USB isolation and reset/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca/cb97f1d3-f282-5632-8e1b-e3f736306a63",
+            "violations": []
+        },
+        {
+            "path": "/07 - Ai-WB2-13 Wi-Fi/BLE and isolated UART/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca/d3623747-eee9-56c4-bfd4-d5800771cdfb",
+            "violations": []
+        },
+        {
+            "path": "/02 - Separate 3.3 V router and modem supplies/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca/9ce3624f-31f9-5fe7-8f56-b1287f617b85",
+            "violations": []
+        },
+        {
+            "path": "/04 - Four 10/100 LAN ports with integrated magnetics/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca/11928ca6-2777-5d1a-a03d-dd9f5e8913ee",
+            "violations": []
+        },
+        {
+            "path": "/06 - Switched physical SIM and eUICC (one active)/",
+            "uuid_path": "/e2b4de55-5fa2-5851-8fd5-3f59d57549ca/b4de9e4c-7d46-5eb9-b4a6-e158181904ac",
+            "violations": []
+        }
+    ],
+    "source": "walchem_gateway.kicad_sch"
+}

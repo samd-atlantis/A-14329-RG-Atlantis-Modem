@@ -1,0 +1,174 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "ground-endpoints34-working-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_U3_C20_635781",
+        "ticket": 635781
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2785.4055,
+        "startY": 2228.4039000000002,
+        "endX": 2745.0,
+        "endY": 2270.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_U3_C20_635783",
+        "ticket": 635783
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2745.0,
+        "startY": 2270.0,
+        "endX": 2685.0,
+        "endY": 2280.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_U3_C20_635784",
+        "ticket": 635784
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2685.0,
+        "startY": 2280.0,
+        "endX": 2625.0,
+        "endY": 2280.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_U3_C20_635785",
+        "ticket": 635785
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2625.0,
+        "startY": 2280.0,
+        "endX": 2600.0,
+        "endY": 2310.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_U3_C20_635786",
+        "ticket": 635786
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2600.0,
+        "startY": 2310.0,
+        "endX": 2590.0,
+        "endY": 2335.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_U3_C20_635788",
+        "ticket": 635788
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2590.0,
+        "startY": 2335.0,
+        "endX": 2580.645,
+        "endY": 2210.0441,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      2785.4055,
+      2228.4039000000002
+    ],
+    [
+      1,
+      2745.0,
+      2270.0
+    ],
+    [
+      2,
+      2745.0,
+      2270.0
+    ],
+    [
+      2,
+      2685.0,
+      2280.0
+    ],
+    [
+      2,
+      2625.0,
+      2280.0
+    ],
+    [
+      2,
+      2600.0,
+      2310.0
+    ],
+    [
+      2,
+      2590.0,
+      2335.0
+    ],
+    [
+      1,
+      2590.0,
+      2335.0
+    ],
+    [
+      1,
+      2580.645,
+      2210.0441
+    ]
+  ],
+  "issues": []
+}

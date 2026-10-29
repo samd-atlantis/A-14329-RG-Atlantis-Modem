@@ -1,0 +1,89 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-native29-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626811",
+        "ticket": 626811
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 2786.85,
+        "startY": 388.58500000000004,
+        "endX": 3285.0,
+        "endY": 30.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626812",
+        "ticket": 626812
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3285.0,
+        "startY": 30.0,
+        "endX": 3485.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626813",
+        "ticket": 626813
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3485.0,
+        "startY": 40.0,
+        "endX": 3605.51,
+        "endY": 95.355,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      2786.85,
+      388.58500000000004
+    ],
+    [
+      1,
+      3285.0,
+      30.0
+    ],
+    [
+      1,
+      3485.0,
+      40.0
+    ],
+    [
+      1,
+      3605.51,
+      95.355
+    ]
+  ],
+  "issues": []
+}

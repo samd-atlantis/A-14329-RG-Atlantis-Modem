@@ -1,0 +1,3953 @@
+[
+  {
+    "reference": "J1",
+    "template": "U10",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "AC_L_IN",
+    "x": 280,
+    "y": -3660
+  },
+  {
+    "reference": "J1",
+    "template": "U10",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "AC_N",
+    "x": 280,
+    "y": -3650
+  },
+  {
+    "reference": "J1",
+    "template": "U10",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "CHASSIS_PE",
+    "x": 280,
+    "y": -3640
+  },
+  {
+    "reference": "F1",
+    "template": "F1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "AC_L_IN",
+    "x": 780,
+    "y": -3650
+  },
+  {
+    "reference": "F1",
+    "template": "F1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "AC_L_FUSED",
+    "x": 820,
+    "y": -3650
+  },
+  {
+    "reference": "PS1",
+    "template": "U9",
+    "pin": "1",
+    "pin_name": "AC/N",
+    "net": "AC_N",
+    "x": 1370,
+    "y": -3665
+  },
+  {
+    "reference": "PS1",
+    "template": "U9",
+    "pin": "2",
+    "pin_name": "AC/L",
+    "net": "AC_L_FUSED",
+    "x": 1370,
+    "y": -3655
+  },
+  {
+    "reference": "PS1",
+    "template": "U9",
+    "pin": "3",
+    "pin_name": "+V",
+    "net": "5V_ISO",
+    "x": 1370,
+    "y": -3645
+  },
+  {
+    "reference": "PS1",
+    "template": "U9",
+    "pin": "4",
+    "pin_name": "-V",
+    "net": "GND_ISO",
+    "x": 1370,
+    "y": -3635
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "1",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -3685
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "2",
+    "pin_name": "3.3VD",
+    "net": "3V3_ROUTER",
+    "x": 2470,
+    "y": -3675
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "3",
+    "pin_name": "3.3VD",
+    "net": "3V3_ROUTER",
+    "x": 2470,
+    "y": -3665
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "4",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -3655
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "5",
+    "pin_name": "SPI_CS0",
+    "net": "NC",
+    "x": 2470,
+    "y": -3645
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "6",
+    "pin_name": "REF_CLK0",
+    "net": "NC",
+    "x": 2470,
+    "y": -3635
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "7",
+    "pin_name": "PERST_N",
+    "net": "NC",
+    "x": 2470,
+    "y": -3625
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "8",
+    "pin_name": "WDT_RST_N",
+    "net": "NC",
+    "x": 2470,
+    "y": -3615
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "9",
+    "pin_name": "EPHY_LED4",
+    "net": "LAN4_LED_N",
+    "x": 2470,
+    "y": -3605
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "10",
+    "pin_name": "EPHY_LED3",
+    "net": "LAN3_LED_N",
+    "x": 2470,
+    "y": -3595
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "11",
+    "pin_name": "EPHY_LED2",
+    "net": "LAN2_LED_N",
+    "x": 2470,
+    "y": -3585
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "12",
+    "pin_name": "EPHY_LED1",
+    "net": "LAN1_LED_N",
+    "x": 2470,
+    "y": -3575
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "13",
+    "pin_name": "EPHY_LED0",
+    "net": "NC",
+    "x": 2470,
+    "y": -3565
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "14",
+    "pin_name": "PORST_N",
+    "net": "ROUTER_RESET_N",
+    "x": 2470,
+    "y": -3555
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "15",
+    "pin_name": "UART_TXD1",
+    "net": "UART1_HOST_TX",
+    "x": 2470,
+    "y": -3545
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "16",
+    "pin_name": "UART_RXD1",
+    "net": "UART1_HOST_RX",
+    "x": 2470,
+    "y": -3535
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "17",
+    "pin_name": "I2S_SDI",
+    "net": "NC",
+    "x": 2470,
+    "y": -3525
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "18",
+    "pin_name": "I2S_SDO",
+    "net": "NC",
+    "x": 2470,
+    "y": -3515
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "19",
+    "pin_name": "I2S_WS",
+    "net": "NC",
+    "x": 2470,
+    "y": -3505
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "20",
+    "pin_name": "I2S_CLK",
+    "net": "NC",
+    "x": 2470,
+    "y": -3495
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "21",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -3485
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "22",
+    "pin_name": "ANT",
+    "net": "NC",
+    "x": 2470,
+    "y": -3475
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "23",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -3465
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "24",
+    "pin_name": "I2C_SCLK",
+    "net": "I2C_SCL",
+    "x": 2470,
+    "y": -3455
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "25",
+    "pin_name": "I2C_SD",
+    "net": "I2C_SDA",
+    "x": 2470,
+    "y": -3445
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "26",
+    "pin_name": "SPI_CS1",
+    "net": "NC",
+    "x": 2470,
+    "y": -3435
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "27",
+    "pin_name": "SPI_CLK",
+    "net": "NC",
+    "x": 2470,
+    "y": -3425
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "28",
+    "pin_name": "SPI_MISO",
+    "net": "NC",
+    "x": 2470,
+    "y": -3415
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "29",
+    "pin_name": "SPI_MOSI",
+    "net": "NC",
+    "x": 2630,
+    "y": -3415
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "30",
+    "pin_name": "GPIO0",
+    "net": "NC",
+    "x": 2630,
+    "y": -3425
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "31",
+    "pin_name": "UART_TXD0",
+    "net": "CONSOLE_TX",
+    "x": 2630,
+    "y": -3435
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "32",
+    "pin_name": "UART_RXD0",
+    "net": "CONSOLE_RX",
+    "x": 2630,
+    "y": -3445
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "33",
+    "pin_name": "WLED_N",
+    "net": "NC",
+    "x": 2630,
+    "y": -3455
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "34",
+    "pin_name": "MDI_RP_P0",
+    "net": "NC",
+    "x": 2630,
+    "y": -3465
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "35",
+    "pin_name": "MDI_RN_P0",
+    "net": "NC",
+    "x": 2630,
+    "y": -3475
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "36",
+    "pin_name": "MDI_TP_P0",
+    "net": "NC",
+    "x": 2630,
+    "y": -3485
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "37",
+    "pin_name": "MDI_TN_P0",
+    "net": "NC",
+    "x": 2630,
+    "y": -3495
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "38",
+    "pin_name": "MDI_TP_P1",
+    "net": "LAN1_TXP",
+    "x": 2630,
+    "y": -3505
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "39",
+    "pin_name": "MDI_TN_P1",
+    "net": "LAN1_TXN",
+    "x": 2630,
+    "y": -3515
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "40",
+    "pin_name": "MDI_RP_P1",
+    "net": "LAN1_RXP",
+    "x": 2630,
+    "y": -3525
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "41",
+    "pin_name": "MDI_RN_P1",
+    "net": "LAN1_RXN",
+    "x": 2630,
+    "y": -3535
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "42",
+    "pin_name": "MDI_RP_P2",
+    "net": "LAN2_RXP",
+    "x": 2630,
+    "y": -3545
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "43",
+    "pin_name": "MDI_RN_P2",
+    "net": "LAN2_RXN",
+    "x": 2630,
+    "y": -3555
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "44",
+    "pin_name": "MDI_TP_P2",
+    "net": "LAN2_TXP",
+    "x": 2630,
+    "y": -3565
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "45",
+    "pin_name": "MDI_TN_P2",
+    "net": "LAN2_TXN",
+    "x": 2630,
+    "y": -3575
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "46",
+    "pin_name": "MDI_TP_P3",
+    "net": "LAN3_TXP",
+    "x": 2630,
+    "y": -3585
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "47",
+    "pin_name": "MDI_TN_P3",
+    "net": "LAN3_TXN",
+    "x": 2630,
+    "y": -3595
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "48",
+    "pin_name": "MDI_RP_P3",
+    "net": "LAN3_RXP",
+    "x": 2630,
+    "y": -3605
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "49",
+    "pin_name": "MDI_RN_P3",
+    "net": "LAN3_RXN",
+    "x": 2630,
+    "y": -3615
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "50",
+    "pin_name": "MDI_RP_P4",
+    "net": "LAN4_RXP",
+    "x": 2630,
+    "y": -3625
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "51",
+    "pin_name": "MDI_RN_P4",
+    "net": "LAN4_RXN",
+    "x": 2630,
+    "y": -3635
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "52",
+    "pin_name": "MDI_TP_P4",
+    "net": "LAN4_TXP",
+    "x": 2630,
+    "y": -3645
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "53",
+    "pin_name": "MDI_TN_P4",
+    "net": "LAN4_TXN",
+    "x": 2630,
+    "y": -3655
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "54",
+    "pin_name": "USB_DP",
+    "net": "USB_HOST_DP",
+    "x": 2630,
+    "y": -3665
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "55",
+    "pin_name": "USB_DM",
+    "net": "USB_HOST_DM",
+    "x": 2630,
+    "y": -3675
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "56",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2630,
+    "y": -3685
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "57",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2570,
+    "y": -3705
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "58",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2550,
+    "y": -3705
+  },
+  {
+    "reference": "U1",
+    "template": "U1",
+    "pin": "59",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2530,
+    "y": -3705
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "1",
+    "pin_name": "SW",
+    "net": "R_SW",
+    "x": 370,
+    "y": -2510
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "2",
+    "pin_name": "SW",
+    "net": "R_SW",
+    "x": 370,
+    "y": -2500
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "3",
+    "pin_name": "SW",
+    "net": "R_SW",
+    "x": 370,
+    "y": -2490
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "4",
+    "pin_name": "PG",
+    "net": "NC",
+    "x": 370,
+    "y": -2480
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "5",
+    "pin_name": "FB",
+    "net": "GND_ISO",
+    "x": 430,
+    "y": -2430
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "6",
+    "pin_name": "AGND",
+    "net": "GND_ISO",
+    "x": 440,
+    "y": -2430
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "7",
+    "pin_name": "FSW",
+    "net": "GND_ISO",
+    "x": 450,
+    "y": -2430
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "8",
+    "pin_name": "DEF",
+    "net": "GND_ISO",
+    "x": 460,
+    "y": -2430
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "9",
+    "pin_name": "SS/TR",
+    "net": "R_SS",
+    "x": 520,
+    "y": -2480
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "10",
+    "pin_name": "AVIN",
+    "net": "5V_ISO",
+    "x": 520,
+    "y": -2490
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "11",
+    "pin_name": "PVIN",
+    "net": "5V_ISO",
+    "x": 520,
+    "y": -2500
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "12",
+    "pin_name": "PVIN",
+    "net": "5V_ISO",
+    "x": 520,
+    "y": -2510
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "13",
+    "pin_name": "EN",
+    "net": "5V_ISO",
+    "x": 460,
+    "y": -2560
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "14",
+    "pin_name": "VOS",
+    "net": "3V3_ROUTER",
+    "x": 450,
+    "y": -2560
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "15",
+    "pin_name": "PGND",
+    "net": "GND_ISO",
+    "x": 440,
+    "y": -2560
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "16",
+    "pin_name": "PGND",
+    "net": "GND_ISO",
+    "x": 430,
+    "y": -2560
+  },
+  {
+    "reference": "U2",
+    "template": "U3",
+    "pin": "17",
+    "pin_name": "EP",
+    "net": "GND_ISO",
+    "x": 420,
+    "y": -2560
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "1",
+    "pin_name": "SW",
+    "net": "M_SW",
+    "x": 370,
+    "y": -1310
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "2",
+    "pin_name": "SW",
+    "net": "M_SW",
+    "x": 370,
+    "y": -1300
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "3",
+    "pin_name": "SW",
+    "net": "M_SW",
+    "x": 370,
+    "y": -1290
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "4",
+    "pin_name": "PG",
+    "net": "NC",
+    "x": 370,
+    "y": -1280
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "5",
+    "pin_name": "FB",
+    "net": "GND_ISO",
+    "x": 430,
+    "y": -1230
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "6",
+    "pin_name": "AGND",
+    "net": "GND_ISO",
+    "x": 440,
+    "y": -1230
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "7",
+    "pin_name": "FSW",
+    "net": "GND_ISO",
+    "x": 450,
+    "y": -1230
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "8",
+    "pin_name": "DEF",
+    "net": "GND_ISO",
+    "x": 460,
+    "y": -1230
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "9",
+    "pin_name": "SS/TR",
+    "net": "M_SS",
+    "x": 520,
+    "y": -1280
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "10",
+    "pin_name": "AVIN",
+    "net": "5V_ISO",
+    "x": 520,
+    "y": -1290
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "11",
+    "pin_name": "PVIN",
+    "net": "5V_ISO",
+    "x": 520,
+    "y": -1300
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "12",
+    "pin_name": "PVIN",
+    "net": "5V_ISO",
+    "x": 520,
+    "y": -1310
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "13",
+    "pin_name": "EN",
+    "net": "MODEM_BUCK_EN",
+    "x": 460,
+    "y": -1360
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "14",
+    "pin_name": "VOS",
+    "net": "3V3_MODEM",
+    "x": 450,
+    "y": -1360
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "15",
+    "pin_name": "PGND",
+    "net": "GND_ISO",
+    "x": 440,
+    "y": -1360
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "16",
+    "pin_name": "PGND",
+    "net": "GND_ISO",
+    "x": 430,
+    "y": -1360
+  },
+  {
+    "reference": "U3",
+    "template": "U3",
+    "pin": "17",
+    "pin_name": "EP",
+    "net": "GND_ISO",
+    "x": 420,
+    "y": -1360
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "1",
+    "pin_name": "3V3",
+    "net": "3V3_AUX",
+    "x": 3395,
+    "y": -1290
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "2",
+    "pin_name": "EN/NC",
+    "net": "WIFI_EN",
+    "x": 3395,
+    "y": -1280
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "3",
+    "pin_name": "IO14",
+    "net": "NC",
+    "x": 3395,
+    "y": -1270
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "4",
+    "pin_name": "IO17",
+    "net": "NC",
+    "x": 3395,
+    "y": -1260
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "5",
+    "pin_name": "IO3",
+    "net": "NC",
+    "x": 3395,
+    "y": -1250
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "6",
+    "pin_name": "IO4",
+    "net": "NC",
+    "x": 3395,
+    "y": -1240
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "7",
+    "pin_name": "IO2",
+    "net": "NC",
+    "x": 3395,
+    "y": -1230
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "8",
+    "pin_name": "IO8/NC",
+    "net": "NC",
+    "x": 3395,
+    "y": -1220
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "9",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 3395,
+    "y": -1210
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "10",
+    "pin_name": "IO5",
+    "net": "WIFI_SERVICE",
+    "x": 3505,
+    "y": -1210
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "11",
+    "pin_name": "RXD",
+    "net": "WIFI_UART_RX",
+    "x": 3505,
+    "y": -1220
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "12",
+    "pin_name": "TXD",
+    "net": "WIFI_UART_TX",
+    "x": 3505,
+    "y": -1230
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "13",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 3505,
+    "y": -1240
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "14",
+    "pin_name": "IO1",
+    "net": "NC",
+    "x": 3505,
+    "y": -1250
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "15",
+    "pin_name": "RST/NC",
+    "net": "NC",
+    "x": 3505,
+    "y": -1260
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "16",
+    "pin_name": "IO11",
+    "net": "NC",
+    "x": 3505,
+    "y": -1270
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "17",
+    "pin_name": "IO12",
+    "net": "NC",
+    "x": 3505,
+    "y": -1280
+  },
+  {
+    "reference": "U5",
+    "template": "U2",
+    "pin": "18",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 3505,
+    "y": -1290
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "1",
+    "pin_name": "SCL",
+    "net": "I2C_SCL",
+    "x": 3390,
+    "y": -3550
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "2",
+    "pin_name": "SDA",
+    "net": "I2C_SDA",
+    "x": 3390,
+    "y": -3560
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "3",
+    "pin_name": "A2",
+    "net": "GND_ISO",
+    "x": 3390,
+    "y": -3510
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "4",
+    "pin_name": "A1",
+    "net": "GND_ISO",
+    "x": 3390,
+    "y": -3520
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "5",
+    "pin_name": "A0",
+    "net": "GND_ISO",
+    "x": 3390,
+    "y": -3530
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "6",
+    "pin_name": "RESET#",
+    "net": "ROUTER_RESET_N",
+    "x": 3390,
+    "y": -3600
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "7",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 3390,
+    "y": -3570
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "8",
+    "pin_name": "INT",
+    "net": "NC",
+    "x": 3390,
+    "y": -3580
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "9",
+    "pin_name": "VSS",
+    "net": "GND_ISO",
+    "x": 3510,
+    "y": -3500
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "10",
+    "pin_name": "GP0",
+    "net": "SIM_SELECT",
+    "x": 3510,
+    "y": -3600
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "11",
+    "pin_name": "GP1",
+    "net": "MODEM_OFF",
+    "x": 3510,
+    "y": -3590
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "12",
+    "pin_name": "GP2",
+    "net": "MODEM_RESET_REQ",
+    "x": 3510,
+    "y": -3580
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "13",
+    "pin_name": "GP3",
+    "net": "WIFI_AUX_EN",
+    "x": 3510,
+    "y": -3570
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "14",
+    "pin_name": "GP4",
+    "net": "WIFI_BUF_DISABLE",
+    "x": 3510,
+    "y": -3560
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "15",
+    "pin_name": "GP5",
+    "net": "NC",
+    "x": 3510,
+    "y": -3550
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "16",
+    "pin_name": "GP6",
+    "net": "NC",
+    "x": 3510,
+    "y": -3540
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "17",
+    "pin_name": "GP7",
+    "net": "NC",
+    "x": 3510,
+    "y": -3530
+  },
+  {
+    "reference": "U6",
+    "template": "U4",
+    "pin": "18",
+    "pin_name": "VDD",
+    "net": "3V3_ROUTER",
+    "x": 3510,
+    "y": -3510
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "1",
+    "pin_name": "1D+",
+    "net": "USB_MODEM_DP",
+    "x": 3410,
+    "y": -2520
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "2",
+    "pin_name": "1D-",
+    "net": "USB_MODEM_DM",
+    "x": 3410,
+    "y": -2510
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "3",
+    "pin_name": "2D+",
+    "net": "NC",
+    "x": 3410,
+    "y": -2500
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "4",
+    "pin_name": "2D-",
+    "net": "NC",
+    "x": 3410,
+    "y": -2490
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "5",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 3410,
+    "y": -2480
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "6",
+    "pin_name": "OE#",
+    "net": "MODEM_OFF",
+    "x": 3490,
+    "y": -2480
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "7",
+    "pin_name": "D-",
+    "net": "USB_HOST_DM",
+    "x": 3490,
+    "y": -2490
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "8",
+    "pin_name": "D+",
+    "net": "USB_HOST_DP",
+    "x": 3490,
+    "y": -2500
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "9",
+    "pin_name": "S",
+    "net": "GND_ISO",
+    "x": 3490,
+    "y": -2510
+  },
+  {
+    "reference": "U8",
+    "template": "U6",
+    "pin": "10",
+    "pin_name": "VCC",
+    "net": "3V3_ROUTER",
+    "x": 3490,
+    "y": -2520
+  },
+  {
+    "reference": "U9",
+    "template": "D1",
+    "pin": "1",
+    "pin_name": "D+",
+    "net": "USB_MODEM_DP",
+    "x": 3500,
+    "y": -2170
+  },
+  {
+    "reference": "U9",
+    "template": "D1",
+    "pin": "2",
+    "pin_name": "D-",
+    "net": "USB_MODEM_DM",
+    "x": 3400,
+    "y": -2170
+  },
+  {
+    "reference": "U9",
+    "template": "D1",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 3450,
+    "y": -2120
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "1",
+    "pin_name": "NO2",
+    "net": "SIM_B_CLK",
+    "x": 4550,
+    "y": -2505
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "2",
+    "pin_name": "COM2",
+    "net": "USIM_CLK",
+    "x": 4450,
+    "y": -2515
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "3",
+    "pin_name": "NC2",
+    "net": "SIM_A_CLK",
+    "x": 4550,
+    "y": -2515
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "4",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 4550,
+    "y": -2445
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "5",
+    "pin_name": "NO3",
+    "net": "SIM_B_RST",
+    "x": 4550,
+    "y": -2485
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "6",
+    "pin_name": "COM3",
+    "net": "USIM_RST",
+    "x": 4450,
+    "y": -2495
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "7",
+    "pin_name": "NC3",
+    "net": "SIM_A_RST",
+    "x": 4550,
+    "y": -2495
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "8",
+    "pin_name": "IN3-4",
+    "net": "SIM_SELECT",
+    "x": 4450,
+    "y": -2485
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "9",
+    "pin_name": "NO4",
+    "net": "SIM_B_IO",
+    "x": 4550,
+    "y": -2465
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "10",
+    "pin_name": "COM4",
+    "net": "USIM_DATA",
+    "x": 4450,
+    "y": -2475
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "11",
+    "pin_name": "NC4",
+    "net": "SIM_A_IO",
+    "x": 4550,
+    "y": -2475
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "12",
+    "pin_name": "VCC",
+    "net": "3V3_ROUTER",
+    "x": 4450,
+    "y": -2445
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "13",
+    "pin_name": "NO1",
+    "net": "SIM_B_VCC",
+    "x": 4550,
+    "y": -2525
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "14",
+    "pin_name": "COM1",
+    "net": "USIM_VDD",
+    "x": 4450,
+    "y": -2535
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "15",
+    "pin_name": "NC1",
+    "net": "SIM_A_VCC",
+    "x": 4550,
+    "y": -2535
+  },
+  {
+    "reference": "U10",
+    "template": "U5",
+    "pin": "16",
+    "pin_name": "IN1-2",
+    "net": "SIM_SELECT",
+    "x": 4450,
+    "y": -2525
+  },
+  {
+    "reference": "U12",
+    "template": "U7",
+    "pin": "1",
+    "pin_name": "VIN",
+    "net": "3V3_ROUTER",
+    "x": 2390,
+    "y": -1260
+  },
+  {
+    "reference": "U12",
+    "template": "U7",
+    "pin": "2",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2390,
+    "y": -1250
+  },
+  {
+    "reference": "U12",
+    "template": "U7",
+    "pin": "3",
+    "pin_name": "ON",
+    "net": "WIFI_AUX_EN",
+    "x": 2390,
+    "y": -1240
+  },
+  {
+    "reference": "U12",
+    "template": "U7",
+    "pin": "4",
+    "pin_name": "CT",
+    "net": "WIFI_CT",
+    "x": 2510,
+    "y": -1240
+  },
+  {
+    "reference": "U12",
+    "template": "U7",
+    "pin": "5",
+    "pin_name": "QOD",
+    "net": "WIFI_QOD",
+    "x": 2510,
+    "y": -1250
+  },
+  {
+    "reference": "U12",
+    "template": "U7",
+    "pin": "6",
+    "pin_name": "VOUT",
+    "net": "3V3_AUX",
+    "x": 2510,
+    "y": -1260
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "1",
+    "pin_name": "1OE#",
+    "net": "WIFI_BUF_DISABLE",
+    "x": 2410,
+    "y": -865
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "2",
+    "pin_name": "1A",
+    "net": "UART1_HOST_TX",
+    "x": 2410,
+    "y": -855
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "3",
+    "pin_name": "2Y",
+    "net": "UART1_HOST_RX",
+    "x": 2410,
+    "y": -845
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "4",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 2410,
+    "y": -835
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "5",
+    "pin_name": "2A",
+    "net": "WIFI_UART_TX",
+    "x": 2490,
+    "y": -835
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "6",
+    "pin_name": "1Y",
+    "net": "WIFI_UART_RX",
+    "x": 2490,
+    "y": -845
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "7",
+    "pin_name": "2OE#",
+    "net": "WIFI_BUF_DISABLE",
+    "x": 2490,
+    "y": -855
+  },
+  {
+    "reference": "U13",
+    "template": "U8",
+    "pin": "8",
+    "pin_name": "VCC",
+    "net": "3V3_AUX",
+    "x": 2490,
+    "y": -865
+  },
+  {
+    "reference": "U14",
+    "template": "D2",
+    "pin": "1",
+    "pin_name": "IO1",
+    "net": "SIM_A_CLK",
+    "x": 4465,
+    "y": -2110
+  },
+  {
+    "reference": "U14",
+    "template": "D2",
+    "pin": "2",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 4465,
+    "y": -2100
+  },
+  {
+    "reference": "U14",
+    "template": "D2",
+    "pin": "3",
+    "pin_name": "IO2",
+    "net": "SIM_A_RST",
+    "x": 4465,
+    "y": -2090
+  },
+  {
+    "reference": "U14",
+    "template": "D2",
+    "pin": "4",
+    "pin_name": "IO4",
+    "net": "SIM_A_IO",
+    "x": 4535,
+    "y": -2090
+  },
+  {
+    "reference": "U14",
+    "template": "D2",
+    "pin": "5",
+    "pin_name": "VCC",
+    "net": "SIM_A_VCC",
+    "x": 4535,
+    "y": -2100
+  },
+  {
+    "reference": "U14",
+    "template": "D2",
+    "pin": "6",
+    "pin_name": "IO3",
+    "net": "NC",
+    "x": 4535,
+    "y": -2110
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "NC",
+    "x": 2470,
+    "y": -2580
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "3V3_MODEM",
+    "x": 2530,
+    "y": -2580
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "NC",
+    "x": 2470,
+    "y": -2570
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "4",
+    "pin_name": "4",
+    "net": "GND_ISO",
+    "x": 2530,
+    "y": -2570
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "5",
+    "pin_name": "5",
+    "net": "NC",
+    "x": 2470,
+    "y": -2560
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "6",
+    "pin_name": "6",
+    "net": "NC",
+    "x": 2530,
+    "y": -2560
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "7",
+    "pin_name": "7",
+    "net": "NC",
+    "x": 2470,
+    "y": -2550
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "8",
+    "pin_name": "8",
+    "net": "USIM_VDD",
+    "x": 2530,
+    "y": -2550
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "9",
+    "pin_name": "9",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2540
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "10",
+    "pin_name": "10",
+    "net": "USIM_DATA",
+    "x": 2530,
+    "y": -2540
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "11",
+    "pin_name": "11",
+    "net": "NC",
+    "x": 2470,
+    "y": -2530
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "12",
+    "pin_name": "12",
+    "net": "USIM_CLK",
+    "x": 2530,
+    "y": -2530
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "13",
+    "pin_name": "13",
+    "net": "NC",
+    "x": 2470,
+    "y": -2520
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "14",
+    "pin_name": "14",
+    "net": "USIM_RST",
+    "x": 2530,
+    "y": -2520
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "15",
+    "pin_name": "15",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2510
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "16",
+    "pin_name": "16",
+    "net": "NC",
+    "x": 2530,
+    "y": -2510
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "17",
+    "pin_name": "17",
+    "net": "NC",
+    "x": 2470,
+    "y": -2500
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "18",
+    "pin_name": "18",
+    "net": "GND_ISO",
+    "x": 2530,
+    "y": -2500
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "19",
+    "pin_name": "19",
+    "net": "NC",
+    "x": 2470,
+    "y": -2490
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "20",
+    "pin_name": "20",
+    "net": "NC",
+    "x": 2530,
+    "y": -2490
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "21",
+    "pin_name": "21",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2480
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "22",
+    "pin_name": "22",
+    "net": "MODEM_PERST_N",
+    "x": 2530,
+    "y": -2480
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "23",
+    "pin_name": "23",
+    "net": "NC",
+    "x": 2470,
+    "y": -2470
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "24",
+    "pin_name": "24",
+    "net": "NC",
+    "x": 2530,
+    "y": -2470
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "25",
+    "pin_name": "25",
+    "net": "NC",
+    "x": 2470,
+    "y": -2460
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "26",
+    "pin_name": "26",
+    "net": "GND_ISO",
+    "x": 2530,
+    "y": -2460
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "27",
+    "pin_name": "27",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2450
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "28",
+    "pin_name": "28",
+    "net": "NC",
+    "x": 2530,
+    "y": -2450
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "29",
+    "pin_name": "29",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2440
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "30",
+    "pin_name": "30",
+    "net": "NC",
+    "x": 2530,
+    "y": -2440
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "31",
+    "pin_name": "31",
+    "net": "NC",
+    "x": 2470,
+    "y": -2430
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "32",
+    "pin_name": "32",
+    "net": "NC",
+    "x": 2530,
+    "y": -2430
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "33",
+    "pin_name": "33",
+    "net": "NC",
+    "x": 2470,
+    "y": -2420
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "34",
+    "pin_name": "34",
+    "net": "GND_ISO",
+    "x": 2530,
+    "y": -2420
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "35",
+    "pin_name": "35",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2410
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "36",
+    "pin_name": "36",
+    "net": "USB_MODEM_DM",
+    "x": 2530,
+    "y": -2410
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "37",
+    "pin_name": "37",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2400
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "38",
+    "pin_name": "38",
+    "net": "USB_MODEM_DP",
+    "x": 2530,
+    "y": -2400
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "39",
+    "pin_name": "39",
+    "net": "3V3_MODEM",
+    "x": 2470,
+    "y": -2390
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "40",
+    "pin_name": "40",
+    "net": "GND_ISO",
+    "x": 2530,
+    "y": -2390
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "41",
+    "pin_name": "41",
+    "net": "3V3_MODEM",
+    "x": 2470,
+    "y": -2380
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "42",
+    "pin_name": "42",
+    "net": "NC",
+    "x": 2530,
+    "y": -2380
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "43",
+    "pin_name": "43",
+    "net": "GND_ISO",
+    "x": 2470,
+    "y": -2370
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "44",
+    "pin_name": "44",
+    "net": "NC",
+    "x": 2530,
+    "y": -2370
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "45",
+    "pin_name": "45",
+    "net": "NC",
+    "x": 2470,
+    "y": -2360
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "46",
+    "pin_name": "46",
+    "net": "NC",
+    "x": 2530,
+    "y": -2360
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "47",
+    "pin_name": "47",
+    "net": "NC",
+    "x": 2470,
+    "y": -2350
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "48",
+    "pin_name": "48",
+    "net": "NC",
+    "x": 2530,
+    "y": -2350
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "49",
+    "pin_name": "49",
+    "net": "NC",
+    "x": 2470,
+    "y": -2340
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "50",
+    "pin_name": "50",
+    "net": "GND_ISO",
+    "x": 2530,
+    "y": -2340
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "51",
+    "pin_name": "51",
+    "net": "NC",
+    "x": 2470,
+    "y": -2330
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "52",
+    "pin_name": "52",
+    "net": "3V3_MODEM",
+    "x": 2530,
+    "y": -2330
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "MP2",
+    "pin_name": "MP2",
+    "net": "GND_ISO",
+    "x": 2500,
+    "y": -2300
+  },
+  {
+    "reference": "J8",
+    "template": "CN1",
+    "pin": "MP1",
+    "pin_name": "MP1",
+    "net": "GND_ISO",
+    "x": 2500,
+    "y": -2610
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "1",
+    "pin_name": "VCC",
+    "net": "SIM_A_VCC",
+    "x": 5365,
+    "y": -2545
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "2",
+    "pin_name": "RST",
+    "net": "SIM_A_RST",
+    "x": 5365,
+    "y": -2525
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "3",
+    "pin_name": "CLK",
+    "net": "SIM_A_CLK",
+    "x": 5365,
+    "y": -2505
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "5",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 5365,
+    "y": -2535
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "6",
+    "pin_name": "VPP",
+    "net": "NC",
+    "x": 5365,
+    "y": -2515
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "7",
+    "pin_name": "I/O",
+    "net": "SIM_A_IO",
+    "x": 5365,
+    "y": -2495
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "8",
+    "pin_name": "S/W",
+    "net": "NC",
+    "x": 5365,
+    "y": -2485
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "9",
+    "pin_name": "SHELL",
+    "net": "GND_ISO",
+    "x": 5365,
+    "y": -2475
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "10",
+    "pin_name": "SHELL",
+    "net": "GND_ISO",
+    "x": 5365,
+    "y": -2465
+  },
+  {
+    "reference": "J9",
+    "template": "CARD1",
+    "pin": "11",
+    "pin_name": "SHELL",
+    "net": "GND_ISO",
+    "x": 5365,
+    "y": -2455
+  },
+  {
+    "reference": "J7",
+    "template": "H1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "GND_ISO",
+    "x": 2680,
+    "y": -2665
+  },
+  {
+    "reference": "J7",
+    "template": "H1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "CONSOLE_TX",
+    "x": 2680,
+    "y": -2655
+  },
+  {
+    "reference": "J7",
+    "template": "H1",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "CONSOLE_RX",
+    "x": 2680,
+    "y": -2645
+  },
+  {
+    "reference": "J7",
+    "template": "H1",
+    "pin": "4",
+    "pin_name": "4",
+    "net": "NC",
+    "x": 2680,
+    "y": -2635
+  },
+  {
+    "reference": "J10",
+    "template": "H1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "GND_ISO",
+    "x": 3730,
+    "y": -405
+  },
+  {
+    "reference": "J10",
+    "template": "H1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "3V3_AUX",
+    "x": 3730,
+    "y": -395
+  },
+  {
+    "reference": "J10",
+    "template": "H1",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "WIFI_UART_RX",
+    "x": 3730,
+    "y": -385
+  },
+  {
+    "reference": "J10",
+    "template": "H1",
+    "pin": "4",
+    "pin_name": "4",
+    "net": "WIFI_UART_TX",
+    "x": 3730,
+    "y": -375
+  },
+  {
+    "reference": "J11",
+    "template": "H2",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "SIM_B_VCC",
+    "x": 5380,
+    "y": -2125
+  },
+  {
+    "reference": "J11",
+    "template": "H2",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "SIM_B_RST",
+    "x": 5380,
+    "y": -2115
+  },
+  {
+    "reference": "J11",
+    "template": "H2",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "SIM_B_CLK",
+    "x": 5380,
+    "y": -2105
+  },
+  {
+    "reference": "J11",
+    "template": "H2",
+    "pin": "4",
+    "pin_name": "4",
+    "net": "GND_ISO",
+    "x": 5380,
+    "y": -2095
+  },
+  {
+    "reference": "J11",
+    "template": "H2",
+    "pin": "5",
+    "pin_name": "5",
+    "net": "SIM_B_IO",
+    "x": 5380,
+    "y": -2085
+  },
+  {
+    "reference": "J11",
+    "template": "H2",
+    "pin": "6",
+    "pin_name": "6",
+    "net": "NC",
+    "x": 5380,
+    "y": -2075
+  },
+  {
+    "reference": "Q1",
+    "template": "Q1",
+    "pin": "1",
+    "pin_name": "G",
+    "net": "MODEM_OFF_GATE",
+    "x": 1580,
+    "y": -720
+  },
+  {
+    "reference": "Q1",
+    "template": "Q1",
+    "pin": "2",
+    "pin_name": "S",
+    "net": "GND_ISO",
+    "x": 1610,
+    "y": -700
+  },
+  {
+    "reference": "Q1",
+    "template": "Q1",
+    "pin": "3",
+    "pin_name": "D",
+    "net": "MODEM_BUCK_EN",
+    "x": 1610,
+    "y": -740
+  },
+  {
+    "reference": "Q2",
+    "template": "Q1",
+    "pin": "1",
+    "pin_name": "G",
+    "net": "MODEM_RESET_GATE",
+    "x": 3430,
+    "y": -1930
+  },
+  {
+    "reference": "Q2",
+    "template": "Q1",
+    "pin": "2",
+    "pin_name": "S",
+    "net": "GND_ISO",
+    "x": 3460,
+    "y": -1910
+  },
+  {
+    "reference": "Q2",
+    "template": "Q1",
+    "pin": "3",
+    "pin_name": "D",
+    "net": "MODEM_PERST_N",
+    "x": 3460,
+    "y": -1950
+  },
+  {
+    "reference": "L1",
+    "template": "L1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "R_SW",
+    "x": 1230,
+    "y": -2550
+  },
+  {
+    "reference": "L1",
+    "template": "L1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "3V3_ROUTER",
+    "x": 1270,
+    "y": -2550
+  },
+  {
+    "reference": "L2",
+    "template": "L1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "M_SW",
+    "x": 1230,
+    "y": -1350
+  },
+  {
+    "reference": "L2",
+    "template": "L1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "3V3_MODEM",
+    "x": 1270,
+    "y": -1350
+  },
+  {
+    "reference": "SW1",
+    "template": "SW1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "ROUTER_RESET_N",
+    "x": 2220,
+    "y": -2650
+  },
+  {
+    "reference": "SW1",
+    "template": "SW1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2280,
+    "y": -2650
+  },
+  {
+    "reference": "SW2",
+    "template": "SW1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "WIFI_SERVICE",
+    "x": 3170,
+    "y": -620
+  },
+  {
+    "reference": "SW2",
+    "template": "SW1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "3V3_AUX",
+    "x": 3230,
+    "y": -620
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "1",
+    "pin_name": "TD+",
+    "net": "LAN1_TXP",
+    "x": 4190,
+    "y": -3610
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "2",
+    "pin_name": "TD-",
+    "net": "LAN1_TXN",
+    "x": 4190,
+    "y": -3630
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "LAN1_TX_CT",
+    "x": 4190,
+    "y": -3620
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "4",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 4190,
+    "y": -3590
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "5",
+    "pin_name": "5",
+    "net": "LAN1_RX_CT",
+    "x": 4190,
+    "y": -3660
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "6",
+    "pin_name": "RD+",
+    "net": "LAN1_RXP",
+    "x": 4190,
+    "y": -3650
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "7",
+    "pin_name": "RD-",
+    "net": "LAN1_RXN",
+    "x": 4190,
+    "y": -3670
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "8",
+    "pin_name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "x": 4190,
+    "y": -3580
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "9",
+    "pin_name": "9",
+    "net": "LAN1_GREEN_A",
+    "x": 4190,
+    "y": -3560
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "10",
+    "pin_name": "10",
+    "net": "LAN1_LED_N",
+    "x": 4190,
+    "y": -3550
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "11",
+    "pin_name": "11",
+    "net": "NC",
+    "x": 4190,
+    "y": -3520
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "12",
+    "pin_name": "12",
+    "net": "NC",
+    "x": 4190,
+    "y": -3530
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "13",
+    "pin_name": "13",
+    "net": "CHASSIS_PE",
+    "x": 4410,
+    "y": -3540
+  },
+  {
+    "reference": "J2",
+    "template": "U11",
+    "pin": "14",
+    "pin_name": "14",
+    "net": "CHASSIS_PE",
+    "x": 4410,
+    "y": -3520
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "1",
+    "pin_name": "TD+",
+    "net": "LAN2_TXP",
+    "x": 4640,
+    "y": -3610
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "2",
+    "pin_name": "TD-",
+    "net": "LAN2_TXN",
+    "x": 4640,
+    "y": -3630
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "LAN2_TX_CT",
+    "x": 4640,
+    "y": -3620
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "4",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 4640,
+    "y": -3590
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "5",
+    "pin_name": "5",
+    "net": "LAN2_RX_CT",
+    "x": 4640,
+    "y": -3660
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "6",
+    "pin_name": "RD+",
+    "net": "LAN2_RXP",
+    "x": 4640,
+    "y": -3650
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "7",
+    "pin_name": "RD-",
+    "net": "LAN2_RXN",
+    "x": 4640,
+    "y": -3670
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "8",
+    "pin_name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "x": 4640,
+    "y": -3580
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "9",
+    "pin_name": "9",
+    "net": "LAN2_GREEN_A",
+    "x": 4640,
+    "y": -3560
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "10",
+    "pin_name": "10",
+    "net": "LAN2_LED_N",
+    "x": 4640,
+    "y": -3550
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "11",
+    "pin_name": "11",
+    "net": "NC",
+    "x": 4640,
+    "y": -3520
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "12",
+    "pin_name": "12",
+    "net": "NC",
+    "x": 4640,
+    "y": -3530
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "13",
+    "pin_name": "13",
+    "net": "CHASSIS_PE",
+    "x": 4860,
+    "y": -3540
+  },
+  {
+    "reference": "J3",
+    "template": "U11",
+    "pin": "14",
+    "pin_name": "14",
+    "net": "CHASSIS_PE",
+    "x": 4860,
+    "y": -3520
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "1",
+    "pin_name": "TD+",
+    "net": "LAN3_TXP",
+    "x": 5090,
+    "y": -3610
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "2",
+    "pin_name": "TD-",
+    "net": "LAN3_TXN",
+    "x": 5090,
+    "y": -3630
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "LAN3_TX_CT",
+    "x": 5090,
+    "y": -3620
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "4",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 5090,
+    "y": -3590
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "5",
+    "pin_name": "5",
+    "net": "LAN3_RX_CT",
+    "x": 5090,
+    "y": -3660
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "6",
+    "pin_name": "RD+",
+    "net": "LAN3_RXP",
+    "x": 5090,
+    "y": -3650
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "7",
+    "pin_name": "RD-",
+    "net": "LAN3_RXN",
+    "x": 5090,
+    "y": -3670
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "8",
+    "pin_name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "x": 5090,
+    "y": -3580
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "9",
+    "pin_name": "9",
+    "net": "LAN3_GREEN_A",
+    "x": 5090,
+    "y": -3560
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "10",
+    "pin_name": "10",
+    "net": "LAN3_LED_N",
+    "x": 5090,
+    "y": -3550
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "11",
+    "pin_name": "11",
+    "net": "NC",
+    "x": 5090,
+    "y": -3520
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "12",
+    "pin_name": "12",
+    "net": "NC",
+    "x": 5090,
+    "y": -3530
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "13",
+    "pin_name": "13",
+    "net": "CHASSIS_PE",
+    "x": 5310,
+    "y": -3540
+  },
+  {
+    "reference": "J4",
+    "template": "U11",
+    "pin": "14",
+    "pin_name": "14",
+    "net": "CHASSIS_PE",
+    "x": 5310,
+    "y": -3520
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "1",
+    "pin_name": "TD+",
+    "net": "LAN4_TXP",
+    "x": 5540,
+    "y": -3610
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "2",
+    "pin_name": "TD-",
+    "net": "LAN4_TXN",
+    "x": 5540,
+    "y": -3630
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "LAN4_TX_CT",
+    "x": 5540,
+    "y": -3620
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "4",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 5540,
+    "y": -3590
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "5",
+    "pin_name": "5",
+    "net": "LAN4_RX_CT",
+    "x": 5540,
+    "y": -3660
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "6",
+    "pin_name": "RD+",
+    "net": "LAN4_RXP",
+    "x": 5540,
+    "y": -3650
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "7",
+    "pin_name": "RD-",
+    "net": "LAN4_RXN",
+    "x": 5540,
+    "y": -3670
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "8",
+    "pin_name": "CHS GND",
+    "net": "CHASSIS_PE",
+    "x": 5540,
+    "y": -3580
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "9",
+    "pin_name": "9",
+    "net": "LAN4_GREEN_A",
+    "x": 5540,
+    "y": -3560
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "10",
+    "pin_name": "10",
+    "net": "LAN4_LED_N",
+    "x": 5540,
+    "y": -3550
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "11",
+    "pin_name": "11",
+    "net": "NC",
+    "x": 5540,
+    "y": -3520
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "12",
+    "pin_name": "12",
+    "net": "NC",
+    "x": 5540,
+    "y": -3530
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "13",
+    "pin_name": "13",
+    "net": "CHASSIS_PE",
+    "x": 5760,
+    "y": -3540
+  },
+  {
+    "reference": "J5",
+    "template": "U11",
+    "pin": "14",
+    "pin_name": "14",
+    "net": "CHASSIS_PE",
+    "x": 5760,
+    "y": -3520
+  },
+  {
+    "reference": "C1",
+    "template": "C4",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "5V_ISO",
+    "x": 680,
+    "y": -3200
+  },
+  {
+    "reference": "C1",
+    "template": "C4",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 720,
+    "y": -3200
+  },
+  {
+    "reference": "C2",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "5V_ISO",
+    "x": 1230,
+    "y": -3200
+  },
+  {
+    "reference": "C2",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 1270,
+    "y": -3200
+  },
+  {
+    "reference": "C10",
+    "template": "C2",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "5V_ISO",
+    "x": 230,
+    "y": -2150
+  },
+  {
+    "reference": "C10",
+    "template": "C2",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 270,
+    "y": -2150
+  },
+  {
+    "reference": "C11",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "5V_ISO",
+    "x": 680,
+    "y": -2150
+  },
+  {
+    "reference": "C11",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 720,
+    "y": -2150
+  },
+  {
+    "reference": "C12",
+    "template": "C5",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "R_SS",
+    "x": 1150,
+    "y": -2130
+  },
+  {
+    "reference": "C12",
+    "template": "C5",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 1150,
+    "y": -2170
+  },
+  {
+    "reference": "C13",
+    "template": "C3",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 1585,
+    "y": -2150
+  },
+  {
+    "reference": "C13",
+    "template": "C3",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 1615,
+    "y": -2150
+  },
+  {
+    "reference": "C20",
+    "template": "C2",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "5V_ISO",
+    "x": 230,
+    "y": -950
+  },
+  {
+    "reference": "C20",
+    "template": "C2",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 270,
+    "y": -950
+  },
+  {
+    "reference": "C21",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "5V_ISO",
+    "x": 680,
+    "y": -950
+  },
+  {
+    "reference": "C21",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 720,
+    "y": -950
+  },
+  {
+    "reference": "C22",
+    "template": "C5",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "M_SS",
+    "x": 1150,
+    "y": -930
+  },
+  {
+    "reference": "C22",
+    "template": "C5",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 1150,
+    "y": -970
+  },
+  {
+    "reference": "C23",
+    "template": "C3",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_MODEM",
+    "x": 1585,
+    "y": -950
+  },
+  {
+    "reference": "C23",
+    "template": "C3",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 1615,
+    "y": -950
+  },
+  {
+    "reference": "C24",
+    "template": "C4",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_MODEM",
+    "x": 230,
+    "y": -720
+  },
+  {
+    "reference": "C24",
+    "template": "C4",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 270,
+    "y": -720
+  },
+  {
+    "reference": "C25",
+    "template": "C4",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_MODEM",
+    "x": 680,
+    "y": -720
+  },
+  {
+    "reference": "C25",
+    "template": "C4",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 720,
+    "y": -720
+  },
+  {
+    "reference": "R20",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "5V_ISO",
+    "x": 1130,
+    "y": -720
+  },
+  {
+    "reference": "R20",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "MODEM_BUCK_EN",
+    "x": 1170,
+    "y": -720
+  },
+  {
+    "reference": "R21",
+    "template": "R2",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "MODEM_OFF",
+    "x": 230,
+    "y": -490
+  },
+  {
+    "reference": "R21",
+    "template": "R2",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "MODEM_OFF_GATE",
+    "x": 270,
+    "y": -490
+  },
+  {
+    "reference": "R22",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "MODEM_OFF_GATE",
+    "x": 680,
+    "y": -490
+  },
+  {
+    "reference": "R22",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 720,
+    "y": -490
+  },
+  {
+    "reference": "R30",
+    "template": "R3",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 2230,
+    "y": -3050
+  },
+  {
+    "reference": "R30",
+    "template": "R3",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "I2C_SCL",
+    "x": 2270,
+    "y": -3050
+  },
+  {
+    "reference": "R31",
+    "template": "R3",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 2680,
+    "y": -3050
+  },
+  {
+    "reference": "R31",
+    "template": "R3",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "I2C_SDA",
+    "x": 2720,
+    "y": -3050
+  },
+  {
+    "reference": "R32",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "SIM_SELECT",
+    "x": 3130,
+    "y": -3050
+  },
+  {
+    "reference": "R32",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3170,
+    "y": -3050
+  },
+  {
+    "reference": "R33",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "MODEM_OFF",
+    "x": 3580,
+    "y": -3050
+  },
+  {
+    "reference": "R33",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3620,
+    "y": -3050
+  },
+  {
+    "reference": "R34",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "WIFI_AUX_EN",
+    "x": 2230,
+    "y": -2850
+  },
+  {
+    "reference": "R34",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2270,
+    "y": -2850
+  },
+  {
+    "reference": "R35",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "MODEM_RESET_REQ",
+    "x": 2680,
+    "y": -2850
+  },
+  {
+    "reference": "R35",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2720,
+    "y": -2850
+  },
+  {
+    "reference": "C30",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 3130,
+    "y": -2850
+  },
+  {
+    "reference": "C30",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3170,
+    "y": -2850
+  },
+  {
+    "reference": "C31",
+    "template": "C3",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 3585,
+    "y": -2850
+  },
+  {
+    "reference": "C31",
+    "template": "C3",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3615,
+    "y": -2850
+  },
+  {
+    "reference": "R41",
+    "template": "R6",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 4280,
+    "y": -3250
+  },
+  {
+    "reference": "R41",
+    "template": "R6",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "LAN1_GREEN_A",
+    "x": 4320,
+    "y": -3250
+  },
+  {
+    "reference": "C41",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN1_RX_CT",
+    "x": 4280,
+    "y": -3000
+  },
+  {
+    "reference": "C41",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4320,
+    "y": -3000
+  },
+  {
+    "reference": "C51",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN1_TX_CT",
+    "x": 4280,
+    "y": -2800
+  },
+  {
+    "reference": "C51",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4320,
+    "y": -2800
+  },
+  {
+    "reference": "R42",
+    "template": "R6",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 4730,
+    "y": -3250
+  },
+  {
+    "reference": "R42",
+    "template": "R6",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "LAN2_GREEN_A",
+    "x": 4770,
+    "y": -3250
+  },
+  {
+    "reference": "C42",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN2_RX_CT",
+    "x": 4730,
+    "y": -3000
+  },
+  {
+    "reference": "C42",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4770,
+    "y": -3000
+  },
+  {
+    "reference": "C52",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN2_TX_CT",
+    "x": 4730,
+    "y": -2800
+  },
+  {
+    "reference": "C52",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4770,
+    "y": -2800
+  },
+  {
+    "reference": "R43",
+    "template": "R6",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 5180,
+    "y": -3250
+  },
+  {
+    "reference": "R43",
+    "template": "R6",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "LAN3_GREEN_A",
+    "x": 5220,
+    "y": -3250
+  },
+  {
+    "reference": "C43",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN3_RX_CT",
+    "x": 5180,
+    "y": -3000
+  },
+  {
+    "reference": "C43",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5220,
+    "y": -3000
+  },
+  {
+    "reference": "C53",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN3_TX_CT",
+    "x": 5180,
+    "y": -2800
+  },
+  {
+    "reference": "C53",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5220,
+    "y": -2800
+  },
+  {
+    "reference": "R44",
+    "template": "R6",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 5630,
+    "y": -3250
+  },
+  {
+    "reference": "R44",
+    "template": "R6",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "LAN4_GREEN_A",
+    "x": 5670,
+    "y": -3250
+  },
+  {
+    "reference": "C44",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN4_RX_CT",
+    "x": 5630,
+    "y": -3000
+  },
+  {
+    "reference": "C44",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5670,
+    "y": -3000
+  },
+  {
+    "reference": "C54",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "LAN4_TX_CT",
+    "x": 5630,
+    "y": -2800
+  },
+  {
+    "reference": "C54",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5670,
+    "y": -2800
+  },
+  {
+    "reference": "C60",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 2280,
+    "y": -1930
+  },
+  {
+    "reference": "C60",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2320,
+    "y": -1930
+  },
+  {
+    "reference": "C61",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_MODEM",
+    "x": 2780,
+    "y": -1930
+  },
+  {
+    "reference": "C61",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2820,
+    "y": -1930
+  },
+  {
+    "reference": "R60",
+    "template": "R2",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "MODEM_RESET_REQ",
+    "x": 2780,
+    "y": -1700
+  },
+  {
+    "reference": "R60",
+    "template": "R2",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "MODEM_RESET_GATE",
+    "x": 2820,
+    "y": -1700
+  },
+  {
+    "reference": "R61",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "MODEM_RESET_GATE",
+    "x": 3430,
+    "y": -1700
+  },
+  {
+    "reference": "R61",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3470,
+    "y": -1700
+  },
+  {
+    "reference": "C70",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 4230,
+    "y": -1800
+  },
+  {
+    "reference": "C70",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4270,
+    "y": -1800
+  },
+  {
+    "reference": "C71",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "SIM_A_VCC",
+    "x": 4680,
+    "y": -1800
+  },
+  {
+    "reference": "C71",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4720,
+    "y": -1800
+  },
+  {
+    "reference": "C72",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "SIM_B_VCC",
+    "x": 5130,
+    "y": -1800
+  },
+  {
+    "reference": "C72",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5170,
+    "y": -1800
+  },
+  {
+    "reference": "R70",
+    "template": "R5",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USIM_VDD",
+    "x": 5580,
+    "y": -1800
+  },
+  {
+    "reference": "R70",
+    "template": "R5",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "USIM_DATA",
+    "x": 5620,
+    "y": -1800
+  },
+  {
+    "reference": "R80",
+    "template": "R7",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "WIFI_QOD",
+    "x": 2180,
+    "y": -550
+  },
+  {
+    "reference": "R80",
+    "template": "R7",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "3V3_AUX",
+    "x": 2220,
+    "y": -550
+  },
+  {
+    "reference": "C80",
+    "template": "C6",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "WIFI_CT",
+    "x": 2735,
+    "y": -550
+  },
+  {
+    "reference": "C80",
+    "template": "C6",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2765,
+    "y": -550
+  },
+  {
+    "reference": "C81",
+    "template": "C2",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 3280,
+    "y": -550
+  },
+  {
+    "reference": "C81",
+    "template": "C2",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3320,
+    "y": -550
+  },
+  {
+    "reference": "C82",
+    "template": "C2",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_AUX",
+    "x": 2180,
+    "y": -320
+  },
+  {
+    "reference": "C82",
+    "template": "C2",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2220,
+    "y": -320
+  },
+  {
+    "reference": "C83",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_AUX",
+    "x": 2730,
+    "y": -320
+  },
+  {
+    "reference": "C83",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 2770,
+    "y": -320
+  },
+  {
+    "reference": "R81",
+    "template": "R4",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_AUX",
+    "x": 3180,
+    "y": -850
+  },
+  {
+    "reference": "R81",
+    "template": "R4",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "WIFI_EN",
+    "x": 3220,
+    "y": -850
+  },
+  {
+    "reference": "R82",
+    "template": "R4",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "WIFI_SERVICE",
+    "x": 3730,
+    "y": -850
+  },
+  {
+    "reference": "R82",
+    "template": "R4",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3770,
+    "y": -850
+  },
+  {
+    "reference": "R83",
+    "template": "R1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_AUX",
+    "x": 3730,
+    "y": -620
+  },
+  {
+    "reference": "R83",
+    "template": "R1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "WIFI_BUF_DISABLE",
+    "x": 3770,
+    "y": -620
+  },
+  {
+    "reference": "C84",
+    "template": "C1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_AUX",
+    "x": 3180,
+    "y": -390
+  },
+  {
+    "reference": "C84",
+    "template": "C1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 3220,
+    "y": -390
+  }
+]

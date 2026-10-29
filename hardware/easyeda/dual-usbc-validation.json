@@ -1,0 +1,19 @@
+{
+  "pinMappingFindings": [],
+  "electricalPreserved": true,
+  "unchanged": [
+    {
+      "type": "LAYER_PHYS",
+      "unchanged": true
+    }
+  ],
+  "newParts": 13,
+  "pcbComponentCount": 103,
+  "recoveryPads": 12,
+  "limitations": [
+    "Unrouted development PCB; physical USB and flashing tests pending.",
+    "Router bootloader serial transfer support not yet demonstrated. Some bootloaders require Ethernet/TFTP.",
+    "No automatic DTR/RTS boot/reset circuit added; physical buttons retained.",
+    "Bare H1/J12 recovery testpads are board primitives and intentionally excluded from component ECO via Convert to PCB=no."
+  ]
+}

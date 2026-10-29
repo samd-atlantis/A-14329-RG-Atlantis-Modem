@@ -1,0 +1,6 @@
+reference,quantity,description,status
+CELL1,1,Quectel EG25-GL Mini PCIe daughtercard,Exact carrier-approved SKU to be selected; separate from J8 socket
+ANT1/ANT2,2,LTE main and diversity antennas,Band coverage / gain / enclosure and certification review
+RF1/RF2,2,Modem coax to enclosure RF connectors,"Connector types, cable length and insertion loss TBD"
+CASE1,1,Touch-safe enclosure with 2.4 GHz RF window,"Dimensions, PE scheme and environment rating TBD"
+ANT3,1,Router 2.4 GHz antenna assembly,"Use module-supported antenna connector, keep pin22 unlinked unless vendor RF modification selected"

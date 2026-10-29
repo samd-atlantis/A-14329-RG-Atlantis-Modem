@@ -1,0 +1,13 @@
+{
+  "atech-gateway": {
+    "description": "Gateway administration for authenticated LuCI users",
+    "read": {
+      "ubus": {"atech.gateway": ["status"], "network.interface.cellular": ["status"], "luci-rpc": ["getDHCPLeases"]},
+      "uci": ["gateway", "network"]
+    },
+    "write": {
+      "ubus": {"atech.gateway": ["select_sim", "powercycle"]},
+      "uci": ["gateway", "network"]
+    }
+  }
+}

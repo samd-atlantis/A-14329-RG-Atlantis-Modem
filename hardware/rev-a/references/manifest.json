@@ -1,0 +1,89 @@
+[
+  {
+    "file": "hlk.pdf",
+    "url": "https://h.hlktech.com/download/HLK-7628N/1/HLK-7628N%E7%A1%AC%E4%BB%B6%E6%89%8B%E5%86%8CV2.6.pdf",
+    "bytes": 1430547,
+    "sha256": "4ceede8b4964863c85dd9fac828b67978319085e26f7eec4798985882b908a92"
+  },
+  {
+    "file": "ai-wb2.pdf",
+    "url": "https://en.ai-thinker.com/Uploads/file/20220930/20220930121135_29921.pdf",
+    "bytes": 1293146,
+    "sha256": "db1f06d82b742e6acc0bfb9f0826c2b215426931b39d95cf8cd7838ac3d37278"
+  },
+  {
+    "file": "tps62132.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps62132.pdf",
+    "bytes": 2536822,
+    "sha256": "f9b1af285622c0cf1a5991f9641a6e64c5e6d899e52cc0b1632808742019579f"
+  },
+  {
+    "file": "sim-switch.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/ts3a44159.pdf",
+    "bytes": 1605397,
+    "sha256": "6c0cecb9f339f257263b22e4d6fb8e89a514770eced22344e3ec8d77be480b27"
+  },
+  {
+    "file": "acdc.pdf",
+    "url": "https://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF",
+    "bytes": 127910,
+    "sha256": "aa1afdbcdf0bf6db796710e26bd5e258f4857ffb1c14bd1ac3d94af86f3b8789"
+  },
+  {
+    "file": "quectel-product.html",
+    "url": "https://www.quectel.com/product/lte-eg25-gl-mini-pcie/",
+    "bytes": 265876,
+    "sha256": "91a283f73cfd6390c39dbd46fbab04b6521a93f688018d253238090cd2d92bdf"
+  },
+  {
+    "file": "kicad-download.html",
+    "url": "https://downloads.kicad.org/kicad/windows/explore/stable",
+    "bytes": 514663,
+    "sha256": "447e39cc51c3f48ae9462b5d729302dd38dddaf91a2a4122c3005f5b60b91b4d"
+  },
+  {
+    "file": "magjack.pdf",
+    "url": "https://www.we-online.com/components/products/datasheet/7499010121A.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "euicc.pdf",
+    "url": "https://www.st.com/resource/en/data_brief/st4sim-200m.pdf",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "usb-esd.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf",
+    "bytes": 2202585,
+    "sha256": "0598c5db22020f75981a25648f963d7065f76d9a3635c2bacb98cbfc49884d33"
+  },
+  {
+    "file": "wifi-switch.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps22918.pdf",
+    "bytes": 1072926,
+    "sha256": "1b28eb58003d28b18bf919a15734056f296a499bebee2bd493a1e4358c4dfb1c"
+  },
+  {
+    "file": "quectel-hardware.pdf",
+    "url": "https://manuals.plus/m/e0bca78a5dc0c0f3bbf234764f826f6b81548d5558890c74a850cad912649003.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "gpio-expander.pdf",
+    "url": "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23008-and-MCP23008-Data-Sheet-DS20001919.pdf",
+    "bytes": 580252,
+    "sha256": "88eb728767e9e895bfbd8012d5bb0d97aff44f7e97184632f2282466efa65b34"
+  },
+  {
+    "file": "usb-switch.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/ts3usb221a.pdf",
+    "bytes": 1462357,
+    "sha256": "cccebf8c10df605133d24bd3ab3abeb97a19dbf539d3465b53562fc19f7a242e"
+  },
+  {
+    "file": "uart-buffer.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc2g125.pdf",
+    "bytes": 813455,
+    "sha256": "15dab14095892f561bc7407dde6c7fb2fb75d92c6bdafc34e949e5dca1fed340"
+  }
+]

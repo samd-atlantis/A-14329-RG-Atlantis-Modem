@@ -1,0 +1,8 @@
+MODEM MECHANICAL HEIGHTS — 2026-10-29
+Datum Z=0 is host PCB top surface.
+J8 JAE MM60-52B1-E1-R650: solder feet Z=0; housing top Z=5.90 mm. Imported model offset Z=2.55 mm, rotation X270 Y0 Z180, Y offset -5 mm.
+ST1/ST2 JAE NT4R1600: 4 mm body diameter; support shoulder Z=3.55 mm; pilot diameter 2.3 mm, top Z=4.15 mm; M2x0.4 internal thread. Two M2x3 pan screws, separately sourced. No hardware SKU change.
+MODEM1 carrier underside Z=3.55 mm. Combined reference mesh EG25_NT4_assembly includes both NT4 supports; bores simplified, no helical threads. Model imported centered vertically; Z offset 3.592311 mm compensates measured center. X rotation90, XY offsets21.402 and25.5 mm.
+Do not interpret model origin offsets as support heights. 5.9 mm is socket housing height, not card support height.
+Source: JAE NT4 drawing in JAE-MM60-hardware.pdf, page7.
+Final physical fit must be checked with selected modem card and socket samples.

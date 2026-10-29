@@ -1,0 +1,425 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "ground-endpoints34-working-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638789",
+        "ticket": 638789
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3258.0065,
+        "startY": 1496.063,
+        "endX": 3275.0,
+        "endY": 1705.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638790",
+        "ticket": 638790
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3275.0,
+        "startY": 1705.0,
+        "endX": 3250.0,
+        "endY": 1720.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638791",
+        "ticket": 638791
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3250.0,
+        "startY": 1720.0,
+        "endX": 3005.0,
+        "endY": 1805.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_GND_ISO_R35_C71_638792",
+        "ticket": 638792
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3005.0,
+        "centerY": 1805.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638793",
+        "ticket": 638793
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3005.0,
+        "startY": 1805.0,
+        "endX": 2825.0,
+        "endY": 1955.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638795",
+        "ticket": 638795
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2825.0,
+        "startY": 1955.0,
+        "endX": 2605.0,
+        "endY": 1955.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638796",
+        "ticket": 638796
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2605.0,
+        "startY": 1955.0,
+        "endX": 2550.0,
+        "endY": 1900.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_GND_ISO_R35_C71_638797",
+        "ticket": 638797
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 2550.0,
+        "centerY": 1900.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638798",
+        "ticket": 638798
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 2550.0,
+        "startY": 1900.0,
+        "endX": 2430.0,
+        "endY": 2020.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_GND_ISO_R35_C71_638799",
+        "ticket": 638799
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 2430.0,
+        "centerY": 2020.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638800",
+        "ticket": 638800
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2430.0,
+        "startY": 2020.0,
+        "endX": 2360.0,
+        "endY": 2025.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638801",
+        "ticket": 638801
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2360.0,
+        "startY": 2025.0,
+        "endX": 2225.0,
+        "endY": 2055.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638802",
+        "ticket": 638802
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2225.0,
+        "startY": 2055.0,
+        "endX": 2220.0,
+        "endY": 2065.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638803",
+        "ticket": 638803
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2220.0,
+        "startY": 2065.0,
+        "endX": 2220.0,
+        "endY": 2095.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638804",
+        "ticket": 638804
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2220.0,
+        "startY": 2095.0,
+        "endX": 2240.0,
+        "endY": 2115.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_R35_C71_638805",
+        "ticket": 638805
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2240.0,
+        "startY": 2115.0,
+        "endX": 2283.4646,
+        "endY": 2133.8986,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3258.0065,
+      1496.063
+    ],
+    [
+      1,
+      3275.0,
+      1705.0
+    ],
+    [
+      1,
+      3250.0,
+      1720.0
+    ],
+    [
+      1,
+      3005.0,
+      1805.0
+    ],
+    [
+      2,
+      3005.0,
+      1805.0
+    ],
+    [
+      2,
+      2825.0,
+      1955.0
+    ],
+    [
+      1,
+      2825.0,
+      1955.0
+    ],
+    [
+      1,
+      2605.0,
+      1955.0
+    ],
+    [
+      1,
+      2550.0,
+      1900.0
+    ],
+    [
+      2,
+      2550.0,
+      1900.0
+    ],
+    [
+      2,
+      2430.0,
+      2020.0
+    ],
+    [
+      1,
+      2430.0,
+      2020.0
+    ],
+    [
+      1,
+      2360.0,
+      2025.0
+    ],
+    [
+      1,
+      2225.0,
+      2055.0
+    ],
+    [
+      1,
+      2220.0,
+      2065.0
+    ],
+    [
+      1,
+      2220.0,
+      2095.0
+    ],
+    [
+      1,
+      2240.0,
+      2115.0
+    ],
+    [
+      1,
+      2283.4646,
+      2133.8986
+    ]
+  ],
+  "issues": []
+}

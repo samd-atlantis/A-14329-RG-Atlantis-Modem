@@ -1,0 +1,30 @@
+{
+  "components": 81,
+  "pad_net_assignments_preserved": 440,
+  "group": "MODEM_J8_MECHANICAL",
+  "socket": "J8",
+  "card_envelope_mm": [
+    51,
+    30
+  ],
+  "mount_holes": 2,
+  "mount_hole_diameter_mm": 2.2,
+  "hole_pitch_mm": 24.2,
+  "edge_to_hole_axis_mm": 48.05,
+  "boss_models": 2,
+  "seat_target_mm": 3.55,
+  "copper_keepout_diameter_mm": 6,
+  "component_keepouts": 2,
+  "hardware_keepouts": 2,
+  "reference_documents": [
+    "JAE SJ105219 rev4 (2019-02-21), note5 inserted card edge at locating-hole axis",
+    "Quectel EG25-G Mini PCIe standard full-size mechanical drawing (reference geometry); EG25-GL product specifies standard Mini PCIe 51 x 30 mm envelope",
+    "JAE NT4 reference seat body 3.55 mm; selected through-hole spacer SKU/stack pending"
+  ],
+  "remaining": [
+    "Place grouped assembly within final board outline",
+    "Verify actual EG25-GL card, socket and spacer stack before fabrication",
+    "Through-hole M2 spacer SKU pending; BOSS primitives are mechanical envelope models",
+    "12 mm Z and 15 mm removal clearance are conservative design reservations, not vendor minima"
+  ]
+}

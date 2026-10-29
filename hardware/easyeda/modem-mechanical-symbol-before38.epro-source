@@ -1,0 +1,4 @@
+{"type":"DOCHEAD"}||{"docType":"SYMBOL","client":"0f72e7c7a266f4dc","uuid":"b7b614ecd83587f2","updateTime":1793247496341,"version":"1793247496341","editVersion":"3.2.209"}|
+{"type":"CANVAS","ticket":1,"id":"CANVAS"}||{"originX":0,"originY":0}|
+{"type":"PART","ticket":2,"id":"31ac823c759c947d"}||{"title":"EG25_REMOVABLE_CARD_MECHANICAL.1"}|
+{"type":"RECT","ticket":3,"id":"15a26efb778340ca"}||{"radiusX":0,"radiusY":0,"dotX1":-40,"dotX2":40,"dotY1":-20,"dotY2":20,"strokeColor":null,"strokeStyle":null,"fillColor":null,"strokeWidth":null,"fillStyle":null,"rotation":0,"zIndex":5,"partId":"31ac823c759c947d"}

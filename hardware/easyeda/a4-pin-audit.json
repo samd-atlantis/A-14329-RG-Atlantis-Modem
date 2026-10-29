@@ -1,0 +1,10 @@
+{
+  "auditedPhysicalPadRecords": 492,
+  "errors": [],
+  "aliases": {
+    "CN1": "J1",
+    "H1": "J7"
+  },
+  "groundAliases": "HLK EP1/EP2/EP3 map to PCB 57/58/59 and remain GND_ISO.",
+  "components": 92
+}

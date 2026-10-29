@@ -1,0 +1,618 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-sequence-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644263",
+        "ticket": 644263
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3749.21,
+        "startY": 214.055,
+        "endX": 3750.0,
+        "endY": 295.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644264",
+        "ticket": 644264
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3750.0,
+        "startY": 295.0,
+        "endX": 3770.0,
+        "endY": 315.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_USB_C_VBUS_J14_C90_644265",
+        "ticket": 644265
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "ruleName": "",
+        "centerX": 3770.0,
+        "centerY": 315.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644266",
+        "ticket": 644266
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3770.0,
+        "startY": 315.0,
+        "endX": 3820.0,
+        "endY": 365.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644267",
+        "ticket": 644267
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3820.0,
+        "startY": 365.0,
+        "endX": 3860.0,
+        "endY": 365.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644268",
+        "ticket": 644268
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3860.0,
+        "startY": 365.0,
+        "endX": 3940.0,
+        "endY": 250.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644269",
+        "ticket": 644269
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3940.0,
+        "startY": 250.0,
+        "endX": 3940.0,
+        "endY": 215.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644270",
+        "ticket": 644270
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3940.0,
+        "startY": 215.0,
+        "endX": 4080.0,
+        "endY": 80.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644271",
+        "ticket": 644271
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4080.0,
+        "startY": 80.0,
+        "endX": 4135.0,
+        "endY": 60.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644272",
+        "ticket": 644272
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4135.0,
+        "startY": 60.0,
+        "endX": 4215.0,
+        "endY": 60.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644273",
+        "ticket": 644273
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4215.0,
+        "startY": 60.0,
+        "endX": 4255.0,
+        "endY": 165.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644274",
+        "ticket": 644274
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4255.0,
+        "startY": 165.0,
+        "endX": 4260.0,
+        "endY": 255.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644275",
+        "ticket": 644275
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4260.0,
+        "startY": 255.0,
+        "endX": 4260.0,
+        "endY": 410.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644276",
+        "ticket": 644276
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4260.0,
+        "startY": 410.0,
+        "endX": 4405.0,
+        "endY": 560.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644277",
+        "ticket": 644277
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4405.0,
+        "startY": 560.0,
+        "endX": 4405.0,
+        "endY": 580.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644278",
+        "ticket": 644278
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4405.0,
+        "startY": 580.0,
+        "endX": 4385.0,
+        "endY": 600.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644279",
+        "ticket": 644279
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4385.0,
+        "startY": 600.0,
+        "endX": 4320.0,
+        "endY": 660.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644280",
+        "ticket": 644280
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4320.0,
+        "startY": 660.0,
+        "endX": 4115.0,
+        "endY": 750.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_USB_C_VBUS_J14_C90_644281",
+        "ticket": 644281
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "ruleName": "",
+        "centerX": 4115.0,
+        "centerY": 750.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644282",
+        "ticket": 644282
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 4115.0,
+        "startY": 750.0,
+        "endX": 4080.0,
+        "endY": 785.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644283",
+        "ticket": 644283
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 4080.0,
+        "startY": 785.0,
+        "endX": 3950.0,
+        "endY": 785.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644284",
+        "ticket": 644284
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3950.0,
+        "startY": 785.0,
+        "endX": 3945.0,
+        "endY": 775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644285",
+        "ticket": 644285
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3945.0,
+        "startY": 775.0,
+        "endX": 3955.0,
+        "endY": 620.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644286",
+        "ticket": 644286
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3955.0,
+        "startY": 620.0,
+        "endX": 3964.5679,
+        "endY": 600.3937,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3749.21,
+      214.055
+    ],
+    [
+      1,
+      3750.0,
+      295.0
+    ],
+    [
+      1,
+      3770.0,
+      315.0
+    ],
+    [
+      2,
+      3770.0,
+      315.0
+    ],
+    [
+      2,
+      3820.0,
+      365.0
+    ],
+    [
+      2,
+      3860.0,
+      365.0
+    ],
+    [
+      2,
+      3940.0,
+      250.0
+    ],
+    [
+      2,
+      3940.0,
+      215.0
+    ],
+    [
+      2,
+      4080.0,
+      80.0
+    ],
+    [
+      2,
+      4135.0,
+      60.0
+    ],
+    [
+      2,
+      4215.0,
+      60.0
+    ],
+    [
+      2,
+      4255.0,
+      165.0
+    ],
+    [
+      2,
+      4260.0,
+      255.0
+    ],
+    [
+      2,
+      4260.0,
+      410.0
+    ],
+    [
+      2,
+      4405.0,
+      560.0
+    ],
+    [
+      2,
+      4405.0,
+      580.0
+    ],
+    [
+      2,
+      4385.0,
+      600.0
+    ],
+    [
+      2,
+      4320.0,
+      660.0
+    ],
+    [
+      2,
+      4115.0,
+      750.0
+    ],
+    [
+      1,
+      4115.0,
+      750.0
+    ],
+    [
+      1,
+      4080.0,
+      785.0
+    ],
+    [
+      1,
+      3950.0,
+      785.0
+    ],
+    [
+      1,
+      3945.0,
+      775.0
+    ],
+    [
+      1,
+      3955.0,
+      620.0
+    ],
+    [
+      1,
+      3964.5679,
+      600.3937
+    ]
+  ],
+  "issues": []
+}

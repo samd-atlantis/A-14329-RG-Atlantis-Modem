@@ -1,0 +1,133 @@
+{
+  "checkpoint": "native27",
+  "accepted": [
+    {
+      "net": "MODEM_BUCK_EN",
+      "start": [
+        "standalone",
+        "J12-6"
+      ],
+      "end": [
+        "R20",
+        "2"
+      ],
+      "result": "search 21611 nodes True\nremaining-MODEM_BUCK_EN-standalone-R20-draft.json 10 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "ROUTER_GPIO0_N",
+      "start": [
+        "U1",
+        "30"
+      ],
+      "end": [
+        "R37",
+        "2"
+      ],
+      "result": "search 89604 nodes True\nremaining-ROUTER_GPIO0_N-U1-R37-draft.json 16 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "ROUTER_RESET_N",
+      "start": [
+        "standalone",
+        "H1-4"
+      ],
+      "end": [
+        "R36",
+        "2"
+      ],
+      "result": "search 35785 nodes True\nremaining-ROUTER_RESET_N-standalone-R36-draft.json 24 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "3V3_ROUTER",
+      "start": [
+        "R43",
+        "1"
+      ],
+      "end": [
+        "R42",
+        "1"
+      ],
+      "result": "search 28609 nodes True\nremaining-3V3_ROUTER-R43-R42-draft.json 14 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "3V3_ROUTER",
+      "start": [
+        "C60",
+        "1"
+      ],
+      "end": [
+        "C70",
+        "1"
+      ],
+      "result": "search 31174 nodes True\nremaining-3V3_ROUTER-C60-C70-draft.json 8 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "3V3_ROUTER",
+      "start": [
+        "C93",
+        "1"
+      ],
+      "end": [
+        "C60",
+        "1"
+      ],
+      "result": "search 19780 nodes True\nremaining-3V3_ROUTER-C93-C60-draft.json 13 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "USB_C_VBUS",
+      "start": [
+        "J14",
+        "A9"
+      ],
+      "end": [
+        "C90",
+        "1"
+      ],
+      "result": "search 28441 nodes True\nremaining-USB_C_VBUS-J14-C90-draft.json 24 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "MUSB_VBUS",
+      "start": [
+        "J17",
+        "A9"
+      ],
+      "end": [
+        "C94",
+        "1"
+      ],
+      "result": "search 5490 nodes True\nremaining-MUSB_VBUS-J17-C94-draft.json 14 records 0 issues",
+      "error": "",
+      "accepted": true
+    },
+    {
+      "net": "5V_ISO",
+      "start": [
+        "C20",
+        "1"
+      ],
+      "end": [
+        "standalone",
+        "4"
+      ],
+      "result": "search 34493 nodes True\nremaining-5V_ISO-C20-standalone-draft.json 13 records 0 issues",
+      "error": "",
+      "accepted": true
+    }
+  ],
+  "recordCount": 136,
+  "status": "OFFLINE_SCREENED_NATIVE_DRC_PENDING"
+}

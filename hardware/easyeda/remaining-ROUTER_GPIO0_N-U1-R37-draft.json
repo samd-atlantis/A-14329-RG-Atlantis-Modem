@@ -1,0 +1,422 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-sequence-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629188",
+        "ticket": 629188
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1730.3147,
+        "startY": 3344.4869,
+        "endX": 1680.0,
+        "endY": 3320.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629189",
+        "ticket": 629189
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1680.0,
+        "startY": 3320.0,
+        "endX": 1655.0,
+        "endY": 3285.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629190",
+        "ticket": 629190
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1655.0,
+        "startY": 3285.0,
+        "endX": 1655.0,
+        "endY": 3140.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629191",
+        "ticket": 629191
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 1655.0,
+        "centerY": 3140.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629192",
+        "ticket": 629192
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 2,
+        "startX": 1655.0,
+        "startY": 3140.0,
+        "endX": 1635.0,
+        "endY": 3015.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629193",
+        "ticket": 629193
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 1635.0,
+        "centerY": 3015.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629194",
+        "ticket": 629194
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1635.0,
+        "startY": 3015.0,
+        "endX": 1620.0,
+        "endY": 2995.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629195",
+        "ticket": 629195
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1620.0,
+        "startY": 2995.0,
+        "endX": 1620.0,
+        "endY": 2590.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629196",
+        "ticket": 629196
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1620.0,
+        "startY": 2590.0,
+        "endX": 1770.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629197",
+        "ticket": 629197
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1770.0,
+        "startY": 2385.0,
+        "endX": 2040.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629198",
+        "ticket": 629198
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 2040.0,
+        "centerY": 2385.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629199",
+        "ticket": 629199
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 2,
+        "startX": 2040.0,
+        "startY": 2385.0,
+        "endX": 2315.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629200",
+        "ticket": 629200
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 2315.0,
+        "centerY": 2385.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629201",
+        "ticket": 629201
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2315.0,
+        "startY": 2385.0,
+        "endX": 2450.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629202",
+        "ticket": 629202
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2450.0,
+        "startY": 2385.0,
+        "endX": 2460.0,
+        "endY": 2380.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629203",
+        "ticket": 629203
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2460.0,
+        "startY": 2380.0,
+        "endX": 2500.026,
+        "endY": 2279.6544999999996,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      1730.3147,
+      3344.4869
+    ],
+    [
+      1,
+      1680.0,
+      3320.0
+    ],
+    [
+      1,
+      1655.0,
+      3285.0
+    ],
+    [
+      1,
+      1655.0,
+      3140.0
+    ],
+    [
+      2,
+      1655.0,
+      3140.0
+    ],
+    [
+      2,
+      1635.0,
+      3015.0
+    ],
+    [
+      1,
+      1635.0,
+      3015.0
+    ],
+    [
+      1,
+      1620.0,
+      2995.0
+    ],
+    [
+      1,
+      1620.0,
+      2590.0
+    ],
+    [
+      1,
+      1770.0,
+      2385.0
+    ],
+    [
+      1,
+      2040.0,
+      2385.0
+    ],
+    [
+      2,
+      2040.0,
+      2385.0
+    ],
+    [
+      2,
+      2315.0,
+      2385.0
+    ],
+    [
+      1,
+      2315.0,
+      2385.0
+    ],
+    [
+      1,
+      2450.0,
+      2385.0
+    ],
+    [
+      1,
+      2460.0,
+      2380.0
+    ],
+    [
+      1,
+      2500.026,
+      2279.6544999999996
+    ]
+  ],
+  "issues": []
+}

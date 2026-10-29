@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "changes": "J8 and MODEM1 3D transforms, new combined modem/NT4 mesh, mechanical datum text only",
+  "copperUnchanged": {
+    "LINE": true,
+    "VIA": true,
+    "PAD": true,
+    "REGION": true,
+    "RULE": true,
+    "POUR": true,
+    "POLY": true
+  },
+  "heightDatum": "host PCB top Z=0",
+  "socketHousingTop": 5.900005,
+  "cardUnderside": 3.549689,
+  "supportShoulder": 3.549689,
+  "pilotTop": 4.149689,
+  "modelSupportBore": "simplified 1.6 mm, M2 internal thread reference",
+  "toleranceMM": 0.001
+}

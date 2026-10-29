@@ -1,0 +1,245 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "ground-endpoints34-working-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J8_J8_641806",
+        "ticket": 641806
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3525.3178,
+        "startY": 1525.6326000000001,
+        "endX": 3525.0,
+        "endY": 1475.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_GND_ISO_J8_J8_641807",
+        "ticket": 641807
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3525.0,
+        "centerY": 1475.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J8_J8_641808",
+        "ticket": 641808
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3525.0,
+        "startY": 1475.0,
+        "endX": 3630.0,
+        "endY": 1475.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J8_J8_641809",
+        "ticket": 641809
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3630.0,
+        "startY": 1475.0,
+        "endX": 3650.0,
+        "endY": 1460.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J8_J8_641810",
+        "ticket": 641810
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3650.0,
+        "startY": 1460.0,
+        "endX": 3650.0,
+        "endY": 1350.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J8_J8_641811",
+        "ticket": 641811
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 3650.0,
+        "startY": 1350.0,
+        "endX": 3615.0,
+        "endY": 1315.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_GND_ISO_J8_J8_641812",
+        "ticket": 641812
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3615.0,
+        "centerY": 1315.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J8_J8_641813",
+        "ticket": 641813
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3615.0,
+        "startY": 1315.0,
+        "endX": 3604.0578,
+        "endY": 1202.7926,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3525.3178,
+      1525.6326000000001
+    ],
+    [
+      1,
+      3525.0,
+      1475.0
+    ],
+    [
+      2,
+      3525.0,
+      1475.0
+    ],
+    [
+      2,
+      3630.0,
+      1475.0
+    ],
+    [
+      2,
+      3650.0,
+      1460.0
+    ],
+    [
+      2,
+      3650.0,
+      1350.0
+    ],
+    [
+      2,
+      3615.0,
+      1315.0
+    ],
+    [
+      1,
+      3615.0,
+      1315.0
+    ],
+    [
+      1,
+      3604.0578,
+      1202.7926
+    ]
+  ],
+  "issues": [
+    {
+      "id": "remaining_GND_ISO_J8_J8_641807",
+      "net": "GND_ISO",
+      "geometry": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3525.0,
+        "centerY": 1475.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "conflicts": [
+        [
+          "VIA 82aa344124d2f1f8",
+          "USIM_CLK",
+          7.555
+        ]
+      ]
+    }
+  ]
+}

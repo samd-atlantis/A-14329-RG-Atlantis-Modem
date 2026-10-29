@@ -1,0 +1,30 @@
+newmtl mtl46
+Ka 0.54 0.43 0.26
+Kd 1.00 0.81 0.50
+Ks 0.48 0.48 0.48
+d 1.00
+endmtl
+newmtl mtl47
+Ka 0.42 0.44 0.50
+Kd 0.79 0.82 0.93
+Ks 0.48 0.48 0.48
+d 1.00
+endmtl
+newmtl mtl48
+Ka 0.12 0.12 0.12
+Kd 0.25 0.25 0.25
+Ks 0.48 0.48 0.48
+d 1.00
+endmtl
+newmtl mtl49
+Ka 0.00 0.26 0.00
+Kd 0.00 0.50 0.00
+Ks 0.48 0.48 0.48
+d 1.00
+endmtl
+
+newmtl support
+Ka 0.65 0.65 0.65
+Kd 0.75 0.75 0.78
+Ks 0.8 0.8 0.8
+d 1

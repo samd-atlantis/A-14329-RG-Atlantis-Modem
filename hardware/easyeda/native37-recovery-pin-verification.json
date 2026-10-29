@@ -1,0 +1,126 @@
+{
+  "contacts": 20,
+  "mismatches": [],
+  "checks": [
+    {
+      "device": "H1",
+      "pin": "1",
+      "net": "GND_ISO",
+      "expected": "GND_ISO"
+    },
+    {
+      "device": "H1",
+      "pin": "2",
+      "net": "CONSOLE_TX",
+      "expected": "CONSOLE_TX"
+    },
+    {
+      "device": "H1",
+      "pin": "3",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "H1",
+      "pin": "4",
+      "net": "ROUTER_RESET_N",
+      "expected": "ROUTER_RESET_N"
+    },
+    {
+      "device": "H1",
+      "pin": "5",
+      "net": "ROUTER_GPIO0_N",
+      "expected": "ROUTER_GPIO0_N"
+    },
+    {
+      "device": "H1",
+      "pin": "6",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "H1",
+      "pin": "7",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "H1",
+      "pin": "8",
+      "net": "CONSOLE_RX",
+      "expected": "CONSOLE_RX"
+    },
+    {
+      "device": "H1",
+      "pin": "9",
+      "net": "3V3_ROUTER",
+      "expected": "3V3_ROUTER"
+    },
+    {
+      "device": "H1",
+      "pin": "10",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "J12",
+      "pin": "1",
+      "net": "GND_ISO",
+      "expected": "GND_ISO"
+    },
+    {
+      "device": "J12",
+      "pin": "2",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "J12",
+      "pin": "3",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "J12",
+      "pin": "4",
+      "net": "MODEM_USB_SEL",
+      "expected": "MODEM_USB_SEL"
+    },
+    {
+      "device": "J12",
+      "pin": "5",
+      "net": "MODEM_PERST_N",
+      "expected": "MODEM_PERST_N"
+    },
+    {
+      "device": "J12",
+      "pin": "6",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "J12",
+      "pin": "7",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "J12",
+      "pin": "8",
+      "net": "MODEM_BUCK_EN",
+      "expected": "MODEM_BUCK_EN"
+    },
+    {
+      "device": "J12",
+      "pin": "9",
+      "net": "NC",
+      "expected": "NC"
+    },
+    {
+      "device": "J12",
+      "pin": "10",
+      "net": "NC",
+      "expected": "NC"
+    }
+  ]
+}

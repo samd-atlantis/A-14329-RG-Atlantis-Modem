@@ -1,0 +1,42 @@
+ETHERNET CENTER-TAP POPULATION REVIEW — 2026-10-29
+
+Prototype recommendation: populate C41-C44 and C51-C54, 100 nF each.
+This is an engineering recommendation, not a verified HLK-7628N mandatory requirement.
+
+Our saved native PCB has C41-C44 between LAN1-LAN4_RX_CT and GND_ISO,
+and C51-C54 between LAN1-LAN4_TX_CT and GND_ISO. All eight currently
+have Add into BOM=no. They are not series signal capacitors or supply bypasses.
+
+HanRun HR915310AE rev01 page1 exposes PHY-side RX CT at P5 and TX CT
+at P3. These have no internal capacitor to ground. The separate internal
+1000 pF/2 kV termination is on the cable side and does not replace them.
+Source: HR915310AE-review48.pdf, manufacturer's drawing downloaded from
+https://uploadcdn.oneyac.com/attachments/files/brand_pdf/hanrun/C3/FA/HR915310AE.pdf
+
+Onion Omega2S reference schematic, page3 option1, connects BOTH PHY-side
+transformer center taps together and to ground through C525=0.1 uF.
+This is an MT7688-family reference, not the exact HLK-7628N module.
+Our two separate 100 nF capacitors per port implement individual AC
+shunts rather than Onion's shared node. They preserve DC isolation from
+ground and do not apply an external DC supply to the PHY center taps.
+Source: Omega2S-reference48.pdf
+https://github.com/OnionIoT/Omega2/blob/master/Schematics/Omega2S-Reference-Schematic.pdf
+
+Conflicting evidence: Hi-Link's supplied HLK-RM08A-KIT-V2.5 reference
+schematic (7688A kit included in its HLK-7628N carrier download) leaves
+the TF-1016DG center taps unconnected. This demonstrates a floating-tap
+implementation, but is insufficient to prove capacitors mandatory or
+unnecessary for our different integrated magnetics and PCB layout.
+https://h.hlktech.com/Mobile/download/FDetail/34.html
+
+Decision basis: use the existing 100 nF footprints as populated parts
+for the first prototype, providing an AC common-mode return consistent
+with the Onion family reference. Do not connect center taps directly to
+3.3 V or ground based on generic PHY examples. Test all four ports at
+10/100 Mb/s, including long cables, packet traffic and emissions before
+freezing the production population. Vendor confirmation of the exact
+HLK-7628N external magnetics recommendation remains desirable.
+
+No live schematic/PCB population settings changed by this review.
+assembly47 files still represent the prior DNP population and must be
+regenerated if the prototype recommendation is adopted.

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "part": "FG-ST-C-16P-LS-SMTD-6.5",
+  "jlcpcb": "C51912230",
+  "stockObserved": 193,
+  "center_mm": [
+    101,
+    5.2
+  ],
+  "orientation": "Top entry, mating normal to PCB",
+  "height_mm": 6.35,
+  "physicalPads": 20,
+  "pinMapErrors": [],
+  "schematicDRC": {
+    "fatal": 0,
+    "error": 0,
+    "warning": 0
+  },
+  "pcbDRC": {
+    "total": 424,
+    "unrouted": 412,
+    "terminalSameFootprintClearance": 12,
+    "interComponentClearance": 0
+  },
+  "drawing": "C51912230.pdf",
+  "fabricationRelease": false
+}

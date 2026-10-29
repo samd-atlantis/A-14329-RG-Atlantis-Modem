@@ -1,0 +1,945 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625037",
+        "ticket": 625037
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 1,
+        "startX": 3619.685,
+        "startY": 311.22,
+        "endX": 3650,
+        "endY": 300,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625038",
+        "ticket": 625038
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3619.685,
+        "startY": 338.78,
+        "endX": 3650,
+        "endY": 350,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625039",
+        "ticket": 625039
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 2,
+        "startX": 3650,
+        "startY": 300,
+        "endX": 3610.0,
+        "endY": 317.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625040",
+        "ticket": 625040
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 2,
+        "startX": 3610.0,
+        "startY": 317.13,
+        "endX": 3442.13,
+        "endY": 317.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625041",
+        "ticket": 625041
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 2,
+        "startX": 3442.13,
+        "startY": 317.13,
+        "endX": 3442.13,
+        "endY": 420.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625042",
+        "ticket": 625042
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 2,
+        "startX": 3442.13,
+        "startY": 420.0,
+        "endX": 3420,
+        "endY": 505,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625043",
+        "ticket": 625043
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3650,
+        "startY": 350,
+        "endX": 3610.0,
+        "endY": 332.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625044",
+        "ticket": 625044
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3610.0,
+        "startY": 332.87,
+        "endX": 3560,
+        "endY": 332.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625045",
+        "ticket": 625045
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3560,
+        "startY": 332.87,
+        "endX": 3548,
+        "endY": 344.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625046",
+        "ticket": 625046
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3548,
+        "startY": 344.87,
+        "endX": 3548,
+        "endY": 412.30038421267983,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625047",
+        "ticket": 625047
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3548,
+        "startY": 412.30038421267983,
+        "endX": 3536,
+        "endY": 424.30038421267983,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625048",
+        "ticket": 625048
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3536,
+        "startY": 424.30038421267983,
+        "endX": 3512,
+        "endY": 424.30038421267983,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625049",
+        "ticket": 625049
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3512,
+        "startY": 424.30038421267983,
+        "endX": 3500,
+        "endY": 412.30038421267983,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625050",
+        "ticket": 625050
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3500,
+        "startY": 412.30038421267983,
+        "endX": 3500,
+        "endY": 344.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625051",
+        "ticket": 625051
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3500,
+        "startY": 344.87,
+        "endX": 3488,
+        "endY": 332.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625052",
+        "ticket": 625052
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3488,
+        "startY": 332.87,
+        "endX": 3457.87,
+        "endY": 332.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625053",
+        "ticket": 625053
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3457.87,
+        "startY": 332.87,
+        "endX": 3457.87,
+        "endY": 420.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625054",
+        "ticket": 625054
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 2,
+        "startX": 3457.87,
+        "startY": 420.0,
+        "endX": 3460,
+        "endY": 450,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625055",
+        "ticket": 625055
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 1,
+        "startX": 3420,
+        "startY": 505,
+        "endX": 3521.91,
+        "endY": 505,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625056",
+        "ticket": 625056
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3460,
+        "startY": 450,
+        "endX": 3521.91,
+        "endY": 455,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625057",
+        "ticket": 625057
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 1,
+        "startX": 3690.16,
+        "startY": 214.055,
+        "endX": 3690.16,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625058",
+        "ticket": 625058
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 1,
+        "startX": 3690.16,
+        "startY": 260,
+        "endX": 3675,
+        "endY": 275,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625059",
+        "ticket": 625059
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 1,
+        "startX": 3675,
+        "startY": 275,
+        "endX": 3619.685,
+        "endY": 311.22,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625060",
+        "ticket": 625060
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3709.84,
+        "startY": 214.055,
+        "endX": 3709.84,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625061",
+        "ticket": 625061
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3709.84,
+        "startY": 260,
+        "endX": 3725,
+        "endY": 275,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625062",
+        "ticket": 625062
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3725,
+        "startY": 275,
+        "endX": 3690,
+        "endY": 310,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625063",
+        "ticket": 625063
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3690,
+        "startY": 310,
+        "endX": 3670,
+        "endY": 350,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625064",
+        "ticket": 625064
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3670,
+        "startY": 350,
+        "endX": 3619.685,
+        "endY": 338.78,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625065",
+        "ticket": 625065
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 1,
+        "startX": 3709.84,
+        "startY": 145.945,
+        "endX": 3709.84,
+        "endY": 110,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625066",
+        "ticket": 625066
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 2,
+        "startX": 3709.84,
+        "startY": 110,
+        "endX": 3685,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625067",
+        "ticket": 625067
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "layerId": 1,
+        "startX": 3685,
+        "startY": 260,
+        "endX": 3690.16,
+        "endY": 260,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625068",
+        "ticket": 625068
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3690.16,
+        "startY": 145.945,
+        "endX": 3690.16,
+        "endY": 180,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625069",
+        "ticket": 625069
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3690.16,
+        "startY": 180,
+        "endX": 3709.84,
+        "endY": 180,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625070",
+        "ticket": 625070
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "layerId": 1,
+        "startX": 3709.84,
+        "startY": 180,
+        "endX": 3709.84,
+        "endY": 214.055,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625071",
+        "ticket": 625071
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3580.315,
+        "startY": 325,
+        "endX": 3540,
+        "endY": 275,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "console_draft_625072",
+        "ticket": 625072
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 3392.44,
+        "startY": 560,
+        "endX": 3370,
+        "endY": 560,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625073",
+        "ticket": 625073
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "ruleName": "",
+        "centerX": 3650,
+        "centerY": 300,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625074",
+        "ticket": 625074
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "ruleName": "",
+        "centerX": 3420,
+        "centerY": 505,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625075",
+        "ticket": 625075
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "ruleName": "",
+        "centerX": 3709.84,
+        "centerY": 110,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625076",
+        "ticket": 625076
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DP",
+        "ruleName": "",
+        "centerX": 3685,
+        "centerY": 260,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625077",
+        "ticket": 625077
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "ruleName": "",
+        "centerX": 3650,
+        "centerY": 350,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625078",
+        "ticket": 625078
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_CONSOLE_DM",
+        "ruleName": "",
+        "centerX": 3460,
+        "centerY": 450,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625079",
+        "ticket": 625079
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3540,
+        "centerY": 275,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "console_draft_625080",
+        "ticket": 625080
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 3370,
+        "centerY": 560,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    }
+  ],
+  "issues": [],
+  "length_sums_mil": {
+    "USB_CONSOLE_DP": 862.859779655244,
+    "USB_CONSOLE_DM": 862.859779655244
+  },
+  "main_lengths_mil": {
+    "USB_CONSOLE_DP": 669.7119383242562,
+    "USB_CONSOLE_DM": 775.0697796552437
+  },
+  "reverse_orientation_lengths_mil": {
+    "USB_CONSOLE_DP": 816.914779655244,
+    "USB_CONSOLE_DM": 862.859779655244
+  },
+  "controls_requiring_reroute": [
+    "MUSB_VBUS",
+    "MUSB_CC1",
+    "MUSB_CC2",
+    "MODEM_USB_SEL",
+    "CONSOLE_RX",
+    "USB_UART_TX_BUF",
+    "USB_UART_RX_BUF",
+    "USB_UART_OE_N",
+    "USB_C_VBUS",
+    "USB_C_CC1",
+    "USB_C_CC2",
+    "USB_UART_3V3",
+    "CONSOLE_TX"
+  ],
+  "U19_placement_mil": [
+    3600,
+    325,
+    90
+  ],
+  "C92_placement_mil": [
+    3420,
+    560,
+    180
+  ],
+  "references": [
+    "https://www.ti.com/video/6087491555001"
+  ],
+  "limitations": [
+    "Native DRC and USB-C orientation verification remain required."
+  ]
+}

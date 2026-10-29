@@ -1,0 +1,875 @@
+Browser tab: 10, Title: "A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209", URL: "https://pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c|279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c|!21c3a1b21510bfed@10cda219a11d4728af9b80718a4aa61c|!b7b614ecd83587f2(device)560e27d64cf1c4e0@10cda219a11d4728af9b80718a4aa61c|!686ca1748dab4679a11d995e455a8425(device)5e0ed316534e4f7e8ddcafbe197d62da@885384f8a5084b689f475ebbcafe966d|!5665faeda5b6b38c@10cda219a11d4728af9b80718a4aa61c".
+0 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C!21c3a1b21510bfed@10cda219a11d4728af9b80718a4aa61c%7C!b7b614ecd83587f2(device)560e27d64cf1c4e0@10cda219a11d4728af9b80718a4aa61c%7C!686ca1748dab4679a11d995e455a8425(device)5e0ed316534e4f7e8ddcafbe197d62da@885384f8a5084b689f475ebbcafe966d%7C!5665faeda5b6b38c@10cda219a11d4728af9b80718a4aa61c
+	1 container
+		2 image svg-work-space
+		3 image canvas-work-space
+		4 container top-bar-react
+			5 container toolbar-common
+				6 link Value: pro.easyeda.com/editor#, ID: modelogo
+				7 container
+					8 text File (F)
+				9 container
+					10 text Edit (E)
+				11 container
+					12 text View (V)
+				13 container
+					14 text Place (P)
+				15 container
+					16 text Design (D)
+				17 container
+					18 text Route (U)
+				19 container
+					20 text Layout (O)
+				21 container
+					22 text Tools (T)
+				23 container
+					24 text Export (R)
+				25 container
+					26 text Advanced (A)
+				27 container
+					28 text Settings (I)
+				29 container
+					30 text Help (H)
+			31 container userbar
+				32 text V3.2.209
+				33 text Personal
+				34 text EN
+				35 link Notifications
+				36 link Description: Avatar powerturn, Help: Homepage
+					37 image Avatar
+					38 container loginUsername
+						39 text powerturn
+		40 container
+			41 container Switch Brightness
+				42 text Normal Brightness
+			43 container Unit
+				44 text mil
+			45 container Routing Corner
+				46 text Line 45°
+		47 container main
+			48 container layoutLeft
+				49 container
+					50 container All Projects
+						51 text A l l P r o j e c t s
+					52 container Project Design
+						53 text P r o j e c t D e s i g n
+					54 container Common Library
+						55 text C o m m o n L i b r a r y
+				56 container leftTreeContainer
+					57 container left-panel-projectAndLib-design
+						58 container
+							59 text Page Net Component Object
+						60 container schLeftTree
+							61 text field (settable)
+							62 container treeMyProject-content
+								63 content list treeMyProject
+									64 container
+										65 AXListMarker • 
+										66 container A-14329 AIO Modem
+											67 text main
+											68 text A-14329 AIO Modem
+									69 container
+										70 AXListMarker • 
+										71 container Board: Board1
+											72 text Board1
+									73 container
+										74 AXListMarker • 
+										75 container Schematic: Schematic1
+											76 text Schematic1
+									77 container
+										78 AXListMarker • 
+										79 text 1. P1
+									80 container
+										81 AXListMarker • 
+										82 text PCB1
+									83 container
+										84 AXListMarker • 
+										85 text Panel1
+									86 container
+										87 AXListMarker • 
+										88 text PCB2
+			89 container editorTabbar
+				90 container
+					91 text Start Page PCB1 TC2050-IDC P1.Schematic1 EG25_REMOVABLE_CARD_MECHANICAL EG25_CARD_MECHANICAL_REFERENCE EG25_MINIPCIE_MECHANICAL_ONLY PCB1
+				92 container
+					93 image rulerh_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					94 image rulerv_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					95 AXWebArea EasyEDA PCB, URL: pro.easyeda.com/editor?entry=pcb
+					96 container
+						97 text Top Inner1 Inner2 Bottom Top Silkscreen Bottom Silkscreen Top Solder Mask Bottom Solder Mask Top Paste Mask Bottom Paste Mask Top Assembly Bottom Assembly Board Outline Multi Document Mechanical 3D Shell Outline 3D Shell Top 3D Shell Bottom Drill Drawing Ratline
+					98 text X:
+					99 text 6265
+					100 text Y:
+					101 text 2625
+					102 text dX:
+					103 text 2325
+					104 text dY:
+					105 text 3465
+					106 container
+						107 text field (settable) 108%
+					108 container
+						109 text field (settable) 5.0
+					110 container
+						111 text mil
+			112 container layoutRight
+				113 container
+					114 container Layer
+						115 text L a y e r
+					116 container Filter
+						117 text F i l t e r
+					118 container Properties
+						119 text P r o p e r t i e s
+				120 container pcb-attribute-manager
+					2618 container
+						2619 pop up button (collapsed, settable) Value: Common(Default), Secondary Actions: Expand
+							2620 menu
+								2621 (selected) Common(Default)
+								2622 Top Assembly View
+								2623 Bottom Assembly View
+								2624 Only Top Side
+								2625 Only Bottom Side
+								2626 Save As Config...
+								2627 Set as default config
+								2628 (disabled) Rename Config...
+								2629 (disabled) Save Config
+								2630 (disabled) Delete Config
+						2631 text Reset
+						2632 content list
+							2633 text All
+							2634 text Copper
+							2635 text Non-Copper
+						2636 text All Top Side 1 Top Layer 3 Top Silkscreen Layer 5 Top Solder Mask Layer 7 Top Paste Mask Layer 9 Top Assembly Layer Bottom Side 2 Bottom Layer 4 Bottom Silkscreen Layer 6 Bottom Solder Mask Layer 8 Bottom Paste Mask Layer 10 Bottom Assembly Layer Inner Side 15 Inner1 16 Inner2 Other 11 Board Outline Layer 12 Multi-Layer 13 Document Layer 14 Mechanical Layer 56 Drill Drawing Layer 57 Ratline Layer Component 48 Component Shape Layer 49 Component Marking Layer 50 Pin Soldering Layer 51 Pin Floating Layer 3D Shell 53 Outline Layer 54 Top Layer 55 Bottom Layer
+			140 container layoutBottom
+				141 container
+					142 text Library
+					143 text Log
+					144 text Device Standardization
+					145 text DRC
+					146 text Find Results
+				2674 container drcResult
+					2675 button Check DRC, ID: checkDRC
+					2676 button Clear Errors, ID: clearErrors
+					2677 content list
+						2678 container
+							2679 container
+								2680 text All (39)
+							2681 container
+								2682 text Clearance Error (26)
+							2683 container
+								2684 text TH Pad to Track (26)
+							2685 container
+								2686 text Clearance Error in the same footprint (12)
+							2687 container
+								2688 text TH Pad to TH Pad (12)
+							2689 container
+								2690 text Netlist Error (1)
+							2691 container
+								2692 text Netlist Error (1)
+					2693 container drcTable
+						2694 container
+							2695 table
+								2696 row
+									2697 cell
+										2698 text No.
+									2699 cell
+										2700 text Display
+									2701 cell
+										2702 text Error Type
+									2703 cell
+										2704 text Error Object
+									2705 cell
+										2706 text Rule Name
+									2707 cell
+										2708 text Object 1
+									2709 cell
+										2710 text Object 2
+									2711 cell
+										2712 text Layer
+									2713 cell
+										2714 text Explanation
+							2715 table
+								2716 row
+									2717 cell
+										2718 text 1
+									2719 cell
+										2720 text Netlist Error
+									2721 cell
+										2722 text Netlist Error
+									2723 cell
+										2724 text Import Changes
+									2725 cell
+										2726 text Schematic Netlist
+									2727 cell
+										2728 text PCB Netlist
+									2729 cell
+										2730 text -
+									2731 cell
+										2732 text PCB and schematic netlist does not match. You can click on the rule name "Import Changes" to view the difference.
+								2733 row
+									2734 cell
+										2735 text 2
+									2736 cell
+										2737 text Clearance Error in the same footprint
+									2738 cell
+										2739 text TH Pad to TH Pad
+									2740 cell
+										2741 text MAINS_PE_3P2MM
+									2742 cell
+										2743 text TH Pad (AC_N): CN1_2
+									2744 cell
+										2745 text TH Pad (AC_L_IN): CN1_1
+									2746 cell
+										2747 text Top
+									2748 cell
+										2749 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2750 row
+									2751 cell
+										2752 text 3
+									2753 cell
+										2754 text Clearance Error in the same footprint
+									2755 cell
+										2756 text TH Pad to TH Pad
+									2757 cell
+										2758 text MAINS_PE_3P2MM
+									2759 cell
+										2760 text TH Pad (CHASSIS_PE): CN1_3
+									2761 cell
+										2762 text TH Pad (AC_N): CN1_2
+									2763 cell
+										2764 text Top
+									2765 cell
+										2766 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2767 row
+									2768 cell
+										2769 text 4
+									2770 cell
+										2771 text Clearance Error in the same footprint
+									2772 cell
+										2773 text TH Pad to TH Pad
+									2774 cell
+										2775 text MAINS_PE_3P2MM
+									2776 cell
+										2777 text TH Pad (AC_N): CN1_2
+									2778 cell
+										2779 text TH Pad (CHASSIS_PE): CN1_3
+									2780 cell
+										2781 text Top
+									2782 cell
+										2783 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2784 row
+									2785 cell
+										2786 text 5
+									2787 cell
+										2788 text Clearance Error in the same footprint
+									2789 cell
+										2790 text TH Pad to TH Pad
+									2791 cell
+										2792 text MAINS_PE_3P2MM
+									2793 cell
+										2794 text TH Pad (AC_L_IN): CN1_1
+									2795 cell
+										2796 text TH Pad (AC_N): CN1_2
+									2797 cell
+										2798 text Top
+									2799 cell
+										2800 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2801 row
+									2802 cell
+										2803 text 6
+									2804 cell
+										2805 text Clearance Error in the same footprint
+									2806 cell
+										2807 text TH Pad to TH Pad
+									2808 cell
+										2809 text MAINS_PE_3P2MM
+									2810 cell
+										2811 text TH Pad (AC_N): J15_2
+									2812 cell
+										2813 text TH Pad (AC_L_IN): J15_1
+									2814 cell
+										2815 text Top
+									2816 cell
+										2817 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2818 row
+									2819 cell
+										2820 text 7
+									2821 cell
+										2822 text Clearance Error in the same footprint
+									2823 cell
+										2824 text TH Pad to TH Pad
+									2825 cell
+										2826 text MAINS_PE_3P2MM
+									2827 cell
+										2828 text TH Pad (CHASSIS_PE): J15_3
+									2829 cell
+										2830 text TH Pad (AC_N): J15_2
+									2831 cell
+										2832 text Top
+									2833 cell
+										2834 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2835 row
+									2836 cell
+										2837 text 8
+									2838 cell
+										2839 text Clearance Error in the same footprint
+									2840 cell
+										2841 text TH Pad to TH Pad
+									2842 cell
+										2843 text MAINS_PE_3P2MM
+									2844 cell
+										2845 text TH Pad (AC_N): J15_2
+									2846 cell
+										2847 text TH Pad (CHASSIS_PE): J15_3
+									2848 cell
+										2849 text Top
+									2850 cell
+										2851 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2852 row
+									2853 cell
+										2854 text 9
+									2855 cell
+										2856 text Clearance Error in the same footprint
+									2857 cell
+										2858 text TH Pad to TH Pad
+									2859 cell
+										2860 text MAINS_PE_3P2MM
+									2861 cell
+										2862 text TH Pad (AC_L_IN): J15_1
+									2863 cell
+										2864 text TH Pad (AC_N): J15_2
+									2865 cell
+										2866 text Top
+									2867 cell
+										2868 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2869 row
+									2870 cell
+										2871 text 10
+									2872 cell
+										2873 text Clearance Error in the same footprint
+									2874 cell
+										2875 text TH Pad to TH Pad
+									2876 cell
+										2877 text MAINS_PE_3P2MM
+									2878 cell
+										2879 text TH Pad (AC_N): J16_2
+									2880 cell
+										2881 text TH Pad (AC_L_IN): J16_1
+									2882 cell
+										2883 text Top
+									2884 cell
+										2885 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2886 row
+									2887 cell
+										2888 text 11
+									2889 cell
+										2890 text Clearance Error in the same footprint
+									2891 cell
+										2892 text TH Pad to TH Pad
+									2893 cell
+										2894 text MAINS_PE_3P2MM
+									2895 cell
+										2896 text TH Pad (CHASSIS_PE): J16_3
+									2897 cell
+										2898 text TH Pad (AC_N): J16_2
+									2899 cell
+										2900 text Top
+									2901 cell
+										2902 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2903 row
+									2904 cell
+										2905 text 12
+									2906 cell
+										2907 text Clearance Error in the same footprint
+									2908 cell
+										2909 text TH Pad to TH Pad
+									2910 cell
+										2911 text MAINS_PE_3P2MM
+									2912 cell
+										2913 text TH Pad (AC_N): J16_2
+									2914 cell
+										2915 text TH Pad (CHASSIS_PE): J16_3
+									2916 cell
+										2917 text Top
+									2918 cell
+										2919 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2920 row
+									2921 cell
+										2922 text 13
+									2923 cell
+										2924 text Clearance Error in the same footprint
+									2925 cell
+										2926 text TH Pad to TH Pad
+									2927 cell
+										2928 text MAINS_PE_3P2MM
+									2929 cell
+										2930 text TH Pad (AC_L_IN): J16_1
+									2931 cell
+										2932 text TH Pad (AC_N): J16_2
+									2933 cell
+										2934 text Top
+									2935 cell
+										2936 text Object 1 to object 2 in the same footprint distance is 109.4mil, should be >= 126mil
+								2937 row
+									2938 cell
+										2939 text 14
+									2940 cell
+										2941 text Clearance Error
+									2942 cell
+										2943 text TH Pad to Track
+									2944 cell
+										2945 text MAINS_PE_3P2MM
+									2946 cell
+										2947 text Track (AC_N): e12184
+									2948 cell
+										2949 text TH Pad (AC_L_IN): CN1_1
+									2950 cell
+										2951 text Top
+									2952 cell
+										2953 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								2954 row
+									2955 cell
+										2956 text 15
+									2957 cell
+										2958 text Clearance Error
+									2959 cell
+										2960 text TH Pad to Track
+									2961 cell
+										2962 text MAINS_PE_3P2MM
+									2963 cell
+										2964 text Track (AC_N): e12184
+									2965 cell
+										2966 text TH Pad (CHASSIS_PE): CN1_3
+									2967 cell
+										2968 text Top
+									2969 cell
+										2970 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								2971 row
+									2972 cell
+										2973 text 16
+									2974 cell
+										2975 text Clearance Error
+									2976 cell
+										2977 text TH Pad to Track
+									2978 cell
+										2979 text MAINS_PE_3P2MM
+									2980 cell
+										2981 text Track (AC_N): e12184
+									2982 cell
+										2983 text TH Pad (CHASSIS_PE): CN1_3
+									2984 cell
+										2985 text Top
+									2986 cell
+										2987 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								2988 row
+									2989 cell
+										2990 text 17
+									2991 cell
+										2992 text Clearance Error
+									2993 cell
+										2994 text TH Pad to Track
+									2995 cell
+										2996 text MAINS_PE_3P2MM
+									2997 cell
+										2998 text Track (AC_N): e12184
+									2999 cell
+										3000 text TH Pad (AC_L_IN): CN1_1
+									3001 cell
+										3002 text Top
+									3003 cell
+										3004 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3005 row
+									3006 cell
+										3007 text 18
+									3008 cell
+										3009 text Clearance Error
+									3010 cell
+										3011 text TH Pad to Track
+									3012 cell
+										3013 text MAINS_PE_3P2MM
+									3014 cell
+										3015 text Track (AC_N): e12187
+									3016 cell
+										3017 text TH Pad (AC_L_IN): J15_1
+									3018 cell
+										3019 text Top
+									3020 cell
+										3021 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3022 row
+									3023 cell
+										3024 text 19
+									3025 cell
+										3026 text Clearance Error
+									3027 cell
+										3028 text TH Pad to Track
+									3029 cell
+										3030 text MAINS_PE_3P2MM
+									3031 cell
+										3032 text Track (AC_N): e12187
+									3033 cell
+										3034 text TH Pad (CHASSIS_PE): J15_3
+									3035 cell
+										3036 text Top
+									3037 cell
+										3038 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3039 row
+									3040 cell
+										3041 text 20
+									3042 cell
+										3043 text Clearance Error
+									3044 cell
+										3045 text TH Pad to Track
+									3046 cell
+										3047 text MAINS_PE_3P2MM
+									3048 cell
+										3049 text Track (AC_N): e12187
+									3050 cell
+										3051 text TH Pad (CHASSIS_PE): J15_3
+									3052 cell
+										3053 text Top
+									3054 cell
+										3055 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3056 row
+									3057 cell
+										3058 text 21
+									3059 cell
+										3060 text Clearance Error
+									3061 cell
+										3062 text TH Pad to Track
+									3063 cell
+										3064 text MAINS_PE_3P2MM
+									3065 cell
+										3066 text Track (AC_N): e12187
+									3067 cell
+										3068 text TH Pad (AC_L_IN): J15_1
+									3069 cell
+										3070 text Top
+									3071 cell
+										3072 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3073 row
+									3074 cell
+										3075 text 22
+									3076 cell
+										3077 text Clearance Error
+									3078 cell
+										3079 text TH Pad to Track
+									3080 cell
+										3081 text MAINS_PE_3P2MM
+									3082 cell
+										3083 text Track (AC_N): e12190
+									3084 cell
+										3085 text TH Pad (AC_L_IN): J16_1
+									3086 cell
+										3087 text Top
+									3088 cell
+										3089 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3090 row
+									3091 cell
+										3092 text 23
+									3093 cell
+										3094 text Clearance Error
+									3095 cell
+										3096 text TH Pad to Track
+									3097 cell
+										3098 text MAINS_PE_3P2MM
+									3099 cell
+										3100 text Track (AC_N): e12190
+									3101 cell
+										3102 text TH Pad (CHASSIS_PE): J16_3
+									3103 cell
+										3104 text Top
+									3105 cell
+										3106 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3107 row
+									3108 cell
+										3109 text 24
+									3110 cell
+										3111 text Clearance Error
+									3112 cell
+										3113 text TH Pad to Track
+									3114 cell
+										3115 text MAINS_PE_3P2MM
+									3116 cell
+										3117 text Track (AC_N): e12190
+									3118 cell
+										3119 text TH Pad (CHASSIS_PE): J16_3
+									3120 cell
+										3121 text Top
+									3122 cell
+										3123 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3124 row
+									3125 cell
+										3126 text 25
+									3127 cell
+										3128 text Clearance Error
+									3129 cell
+										3130 text TH Pad to Track
+									3131 cell
+										3132 text MAINS_PE_3P2MM
+									3133 cell
+										3134 text Track (AC_N): e12190
+									3135 cell
+										3136 text TH Pad (AC_L_IN): J16_1
+									3137 cell
+										3138 text Top
+									3139 cell
+										3140 text Object 1 to object 2 distance is 119.3mil, should be >= 126mil
+								3141 row
+									3142 cell
+										3143 text 26
+									3144 cell
+										3145 text Clearance Error
+									3146 cell
+										3147 text TH Pad to Track
+									3148 cell
+										3149 text MAINS_PE_3P2MM
+									3150 cell
+										3151 text Track (AC_L_IN): e12183
+									3152 cell
+										3153 text TH Pad (AC_N): CN1_2
+									3154 cell
+										3155 text Bottom
+									3156 cell
+										3157 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3158 row
+									3159 cell
+										3160 text 27
+									3161 cell
+										3162 text Clearance Error
+									3163 cell
+										3164 text TH Pad to Track
+									3165 cell
+										3166 text MAINS_PE_3P2MM
+									3167 cell
+										3168 text Track (AC_L_IN): e12183
+									3169 cell
+										3170 text TH Pad (AC_N): CN1_2
+									3171 cell
+										3172 text Bottom
+									3173 cell
+										3174 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3175 row
+									3176 cell
+										3177 text 28
+									3178 cell
+										3179 text Clearance Error
+									3180 cell
+										3181 text TH Pad to Track
+									3182 cell
+										3183 text MAINS_PE_3P2MM
+									3184 cell
+										3185 text Track (CHASSIS_PE): e12185
+									3186 cell
+										3187 text TH Pad (AC_N): CN1_2
+									3188 cell
+										3189 text Bottom
+									3190 cell
+										3191 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3192 row
+									3193 cell
+										3194 text 29
+									3195 cell
+										3196 text Clearance Error
+									3197 cell
+										3198 text TH Pad to Track
+									3199 cell
+										3200 text MAINS_PE_3P2MM
+									3201 cell
+										3202 text Track (CHASSIS_PE): e12185
+									3203 cell
+										3204 text TH Pad (AC_N): CN1_2
+									3205 cell
+										3206 text Bottom
+									3207 cell
+										3208 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3209 row
+									3210 cell
+										3211 text 30
+									3212 cell
+										3213 text Clearance Error
+									3214 cell
+										3215 text TH Pad to Track
+									3216 cell
+										3217 text MAINS_PE_3P2MM
+									3218 cell
+										3219 text Track (AC_L_IN): e12186
+									3220 cell
+										3221 text TH Pad (AC_N): J15_2
+									3222 cell
+										3223 text Bottom
+									3224 cell
+										3225 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3226 row
+									3227 cell
+										3228 text 31
+									3229 cell
+										3230 text Clearance Error
+									3231 cell
+										3232 text TH Pad to Track
+									3233 cell
+										3234 text MAINS_PE_3P2MM
+									3235 cell
+										3236 text Track (AC_L_IN): e12186
+									3237 cell
+										3238 text TH Pad (AC_N): J15_2
+									3239 cell
+										3240 text Bottom
+									3241 cell
+										3242 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3243 row
+									3244 cell
+										3245 text 32
+									3246 cell
+										3247 text Clearance Error
+									3248 cell
+										3249 text TH Pad to Track
+									3250 cell
+										3251 text MAINS_PE_3P2MM
+									3252 cell
+										3253 text Track (CHASSIS_PE): e12188
+									3254 cell
+										3255 text TH Pad (AC_N): J15_2
+									3256 cell
+										3257 text Bottom
+									3258 cell
+										3259 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3260 row
+									3261 cell
+										3262 text 33
+									3263 cell
+										3264 text Clearance Error
+									3265 cell
+										3266 text TH Pad to Track
+									3267 cell
+										3268 text MAINS_PE_3P2MM
+									3269 cell
+										3270 text Track (CHASSIS_PE): e12188
+									3271 cell
+										3272 text TH Pad (AC_N): J15_2
+									3273 cell
+										3274 text Bottom
+									3275 cell
+										3276 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3277 row
+									3278 cell
+										3279 text 34
+									3280 cell
+										3281 text Clearance Error
+									3282 cell
+										3283 text TH Pad to Track
+									3284 cell
+										3285 text MAINS_PE_3P2MM
+									3286 cell
+										3287 text Track (AC_L_IN): e12189
+									3288 cell
+										3289 text TH Pad (AC_N): J16_2
+									3290 cell
+										3291 text Bottom
+									3292 cell
+										3293 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3294 row
+									3295 cell
+										3296 text 35
+									3297 cell
+										3298 text Clearance Error
+									3299 cell
+										3300 text TH Pad to Track
+									3301 cell
+										3302 text MAINS_PE_3P2MM
+									3303 cell
+										3304 text Track (AC_L_IN): e12189
+									3305 cell
+										3306 text TH Pad (AC_N): J16_2
+									3307 cell
+										3308 text Bottom
+									3309 cell
+										3310 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3311 row
+									3312 cell
+										3313 text 36
+									3314 cell
+										3315 text Clearance Error
+									3316 cell
+										3317 text TH Pad to Track
+									3318 cell
+										3319 text MAINS_PE_3P2MM
+									3320 cell
+										3321 text Track (CHASSIS_PE): e12191
+									3322 cell
+										3323 text TH Pad (AC_N): J16_2
+									3324 cell
+										3325 text Bottom
+									3326 cell
+										3327 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3328 row
+									3329 cell
+										3330 text 37
+									3331 cell
+										3332 text Clearance Error
+									3333 cell
+										3334 text TH Pad to Track
+									3335 cell
+										3336 text MAINS_PE_3P2MM
+									3337 cell
+										3338 text Track (CHASSIS_PE): e11750
+									3339 cell
+										3340 text TH Pad (AC_N): J16_2
+									3341 cell
+										3342 text Bottom
+									3343 cell
+										3344 text Object 1 to object 2 distance is 121.5mil, should be >= 126mil
+								3345 row
+									3346 cell
+										3347 text 38
+									3348 cell
+										3349 text Clearance Error
+									3350 cell
+										3351 text TH Pad to Track
+									3352 cell
+										3353 text MAINS_PE_3P2MM
+									3354 cell
+										3355 text Track (CHASSIS_PE): e12191
+									3356 cell
+										3357 text TH Pad (AC_N): J16_2
+									3358 cell
+										3359 text Bottom
+									3360 cell
+										3361 text Object 1 to object 2 distance is 116.1mil, should be >= 126mil
+								3362 row
+									3363 cell
+										3364 text 39
+									3365 cell
+										3366 text Clearance Error
+									3367 cell
+										3368 text TH Pad to Track
+									3369 cell
+										3370 text MAINS_PE_3P2MM
+									3371 cell
+										3372 text Track (CHASSIS_PE): e11750
+									3373 cell
+										3374 text TH Pad (AC_N): J16_2
+									3375 cell
+										3376 text Bottom
+									3377 cell
+										3378 text Object 1 to object 2 distance is 120.1mil, should be >= 126mil
+						3379 content list
+							3380 text 1
+							3381 container
+								3382 text Total 39 Items | 1 pages
+							3383 container
+								3384 text 50 /page
+		213 container jlcIMDragger
+			214 text Online Chat
+			2673 text 
+		216 container
+			217 text Floating Tool
+		218 container
+			219 text Floating Tool
+		220 container
+			221 text Table Setting
+			222 container
+				223 text Border Color
+				224 text field
+				225 text #A00000
+		226 image get-bbox
+
+The focused UI element is 0 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C!21c3a1b21510bfed@10cda219a11d4728af9b80718a4aa61c%7C!b7b614ecd83587f2(device)560e27d64cf1c4e0@10cda219a11d4728af9b80718a4aa61c%7C!686ca1748dab4679a11d995e455a8425(device)5e0ed316534e4f7e8ddcafbe197d62da@885384f8a5084b689f475ebbcafe966d%7C!5665faeda5b6b38c@10cda219a11d4728af9b80718a4aa61c

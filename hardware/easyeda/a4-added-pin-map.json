@@ -1,0 +1,658 @@
+[
+  {
+    "reference": "J1",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "AC_L_IN",
+    "x": 280,
+    "y": -3660
+  },
+  {
+    "reference": "J1",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "AC_N",
+    "x": 280,
+    "y": -3650
+  },
+  {
+    "reference": "J1",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "CHASSIS_PE",
+    "x": 280,
+    "y": -3640
+  },
+  {
+    "reference": "J15",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "AC_L_IN",
+    "x": 230,
+    "y": -3380
+  },
+  {
+    "reference": "J15",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "AC_N",
+    "x": 230,
+    "y": -3370
+  },
+  {
+    "reference": "J15",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "CHASSIS_PE",
+    "x": 230,
+    "y": -3360
+  },
+  {
+    "reference": "J16",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "AC_L_IN",
+    "x": 230,
+    "y": -3110
+  },
+  {
+    "reference": "J16",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "AC_N",
+    "x": 230,
+    "y": -3100
+  },
+  {
+    "reference": "J16",
+    "pin": "3",
+    "pin_name": "3",
+    "net": "CHASSIS_PE",
+    "x": 230,
+    "y": -3090
+  },
+  {
+    "reference": "J14",
+    "pin": "A1B12",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 4365,
+    "y": -1305
+  },
+  {
+    "reference": "J14",
+    "pin": "A4B9",
+    "pin_name": "VBUS",
+    "net": "USB_C_VBUS",
+    "x": 4365,
+    "y": -1295
+  },
+  {
+    "reference": "J14",
+    "pin": "B8",
+    "pin_name": "SBU2",
+    "net": "NC",
+    "x": 4365,
+    "y": -1285
+  },
+  {
+    "reference": "J14",
+    "pin": "A5",
+    "pin_name": "CC1",
+    "net": "USB_C_CC1",
+    "x": 4365,
+    "y": -1275
+  },
+  {
+    "reference": "J14",
+    "pin": "B7",
+    "pin_name": "DN2",
+    "net": "USB_CONSOLE_DM",
+    "x": 4365,
+    "y": -1265
+  },
+  {
+    "reference": "J14",
+    "pin": "A6",
+    "pin_name": "DP1",
+    "net": "USB_CONSOLE_DP",
+    "x": 4365,
+    "y": -1255
+  },
+  {
+    "reference": "J14",
+    "pin": "A7",
+    "pin_name": "DN1",
+    "net": "USB_CONSOLE_DM",
+    "x": 4365,
+    "y": -1245
+  },
+  {
+    "reference": "J14",
+    "pin": "B6",
+    "pin_name": "DP2",
+    "net": "USB_CONSOLE_DP",
+    "x": 4365,
+    "y": -1235
+  },
+  {
+    "reference": "J14",
+    "pin": "A8",
+    "pin_name": "SBU1",
+    "net": "NC",
+    "x": 4365,
+    "y": -1225
+  },
+  {
+    "reference": "J14",
+    "pin": "B5",
+    "pin_name": "CC2",
+    "net": "USB_C_CC2",
+    "x": 4365,
+    "y": -1215
+  },
+  {
+    "reference": "J14",
+    "pin": "B4A9",
+    "pin_name": "VBUS",
+    "net": "USB_C_VBUS",
+    "x": 4365,
+    "y": -1205
+  },
+  {
+    "reference": "J14",
+    "pin": "B1A12",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 4365,
+    "y": -1195
+  },
+  {
+    "reference": "J14",
+    "pin": "4",
+    "pin_name": "EH",
+    "net": "CHASSIS_PE",
+    "x": 4435,
+    "y": -1225
+  },
+  {
+    "reference": "J14",
+    "pin": "3",
+    "pin_name": "EH",
+    "net": "CHASSIS_PE",
+    "x": 4435,
+    "y": -1215
+  },
+  {
+    "reference": "J14",
+    "pin": "2",
+    "pin_name": "EH",
+    "net": "CHASSIS_PE",
+    "x": 4435,
+    "y": -1205
+  },
+  {
+    "reference": "J14",
+    "pin": "1",
+    "pin_name": "EH",
+    "net": "CHASSIS_PE",
+    "x": 4435,
+    "y": -1195
+  },
+  {
+    "reference": "U16",
+    "pin": "1",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 5005,
+    "y": -1285
+  },
+  {
+    "reference": "U16",
+    "pin": "2",
+    "pin_name": "TXD",
+    "net": "USB_UART_TX",
+    "x": 5005,
+    "y": -1275
+  },
+  {
+    "reference": "U16",
+    "pin": "3",
+    "pin_name": "RXD",
+    "net": "USB_UART_RX",
+    "x": 5005,
+    "y": -1265
+  },
+  {
+    "reference": "U16",
+    "pin": "4",
+    "pin_name": "V3",
+    "net": "USB_UART_3V3",
+    "x": 5005,
+    "y": -1255
+  },
+  {
+    "reference": "U16",
+    "pin": "5",
+    "pin_name": "D+",
+    "net": "USB_CONSOLE_DP",
+    "x": 5005,
+    "y": -1245
+  },
+  {
+    "reference": "U16",
+    "pin": "6",
+    "pin_name": "D-",
+    "net": "USB_CONSOLE_DM",
+    "x": 5005,
+    "y": -1235
+  },
+  {
+    "reference": "U16",
+    "pin": "7",
+    "pin_name": "NC.",
+    "net": "NC",
+    "x": 5005,
+    "y": -1225
+  },
+  {
+    "reference": "U16",
+    "pin": "8",
+    "pin_name": "OUT#",
+    "net": "NC",
+    "x": 5005,
+    "y": -1215
+  },
+  {
+    "reference": "U16",
+    "pin": "9",
+    "pin_name": "CTS#",
+    "net": "NC",
+    "x": 5095,
+    "y": -1215
+  },
+  {
+    "reference": "U16",
+    "pin": "10",
+    "pin_name": "DSR#",
+    "net": "NC",
+    "x": 5095,
+    "y": -1225
+  },
+  {
+    "reference": "U16",
+    "pin": "11",
+    "pin_name": "RI#",
+    "net": "NC",
+    "x": 5095,
+    "y": -1235
+  },
+  {
+    "reference": "U16",
+    "pin": "12",
+    "pin_name": "DCD#",
+    "net": "NC",
+    "x": 5095,
+    "y": -1245
+  },
+  {
+    "reference": "U16",
+    "pin": "13",
+    "pin_name": "DTR#",
+    "net": "NC",
+    "x": 5095,
+    "y": -1255
+  },
+  {
+    "reference": "U16",
+    "pin": "14",
+    "pin_name": "RTS#",
+    "net": "NC",
+    "x": 5095,
+    "y": -1265
+  },
+  {
+    "reference": "U16",
+    "pin": "15",
+    "pin_name": "R232",
+    "net": "GND_ISO",
+    "x": 5095,
+    "y": -1275
+  },
+  {
+    "reference": "U16",
+    "pin": "16",
+    "pin_name": "VCC",
+    "net": "USB_UART_3V3",
+    "x": 5095,
+    "y": -1285
+  },
+  {
+    "reference": "U17",
+    "pin": "1",
+    "pin_name": "VIN",
+    "net": "USB_C_VBUS",
+    "x": 4350,
+    "y": -960
+  },
+  {
+    "reference": "U17",
+    "pin": "2",
+    "pin_name": "VSS",
+    "net": "GND_ISO",
+    "x": 4350,
+    "y": -950
+  },
+  {
+    "reference": "U17",
+    "pin": "3",
+    "pin_name": "CE",
+    "net": "USB_C_VBUS",
+    "x": 4350,
+    "y": -940
+  },
+  {
+    "reference": "U17",
+    "pin": "4",
+    "pin_name": "NC",
+    "net": "NC",
+    "x": 4450,
+    "y": -940
+  },
+  {
+    "reference": "U17",
+    "pin": "5",
+    "pin_name": "VOUT",
+    "net": "USB_UART_3V3",
+    "x": 4450,
+    "y": -960
+  },
+  {
+    "reference": "U18",
+    "pin": "1",
+    "pin_name": "1/OE",
+    "net": "USB_UART_OE_N",
+    "x": 5650,
+    "y": -1265
+  },
+  {
+    "reference": "U18",
+    "pin": "2",
+    "pin_name": "1A",
+    "net": "USB_UART_TX_BUF",
+    "x": 5650,
+    "y": -1255
+  },
+  {
+    "reference": "U18",
+    "pin": "3",
+    "pin_name": "2Y",
+    "net": "USB_UART_RX_BUF",
+    "x": 5650,
+    "y": -1245
+  },
+  {
+    "reference": "U18",
+    "pin": "4",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 5650,
+    "y": -1235
+  },
+  {
+    "reference": "U18",
+    "pin": "5",
+    "pin_name": "2A",
+    "net": "CONSOLE_TX",
+    "x": 5750,
+    "y": -1235
+  },
+  {
+    "reference": "U18",
+    "pin": "6",
+    "pin_name": "1Y",
+    "net": "CONSOLE_RX",
+    "x": 5750,
+    "y": -1245
+  },
+  {
+    "reference": "U18",
+    "pin": "7",
+    "pin_name": "2/OE",
+    "net": "USB_UART_OE_N",
+    "x": 5750,
+    "y": -1255
+  },
+  {
+    "reference": "U18",
+    "pin": "8",
+    "pin_name": "VCC",
+    "net": "3V3_ROUTER",
+    "x": 5750,
+    "y": -1265
+  },
+  {
+    "reference": "U19",
+    "pin": "2",
+    "pin_name": "D-",
+    "net": "USB_CONSOLE_DM",
+    "x": 5000,
+    "y": -950
+  },
+  {
+    "reference": "U19",
+    "pin": "1",
+    "pin_name": "D+",
+    "net": "USB_CONSOLE_DP",
+    "x": 5100,
+    "y": -950
+  },
+  {
+    "reference": "U19",
+    "pin": "3",
+    "pin_name": "GND",
+    "net": "GND_ISO",
+    "x": 5050,
+    "y": -900
+  },
+  {
+    "reference": "Q3",
+    "pin": "3",
+    "pin_name": "D",
+    "net": "USB_UART_OE_N",
+    "x": 5710,
+    "y": -970
+  },
+  {
+    "reference": "Q3",
+    "pin": "1",
+    "pin_name": "G",
+    "net": "USB_DETECT_GATE",
+    "x": 5680,
+    "y": -950
+  },
+  {
+    "reference": "Q3",
+    "pin": "2",
+    "pin_name": "S",
+    "net": "GND_ISO",
+    "x": 5710,
+    "y": -930
+  },
+  {
+    "reference": "R90",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4320,
+    "y": -710
+  },
+  {
+    "reference": "R90",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_C_CC1",
+    "x": 4280,
+    "y": -710
+  },
+  {
+    "reference": "R91",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4770,
+    "y": -710
+  },
+  {
+    "reference": "R91",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_C_CC2",
+    "x": 4730,
+    "y": -710
+  },
+  {
+    "reference": "R92",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "USB_UART_OE_N",
+    "x": 5220,
+    "y": -710
+  },
+  {
+    "reference": "R92",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 5180,
+    "y": -710
+  },
+  {
+    "reference": "R93",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5670,
+    "y": -710
+  },
+  {
+    "reference": "R93",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_DETECT_GATE",
+    "x": 5630,
+    "y": -710
+  },
+  {
+    "reference": "R94",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "USB_DETECT_GATE",
+    "x": 4320,
+    "y": -480
+  },
+  {
+    "reference": "R94",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_C_VBUS",
+    "x": 4280,
+    "y": -480
+  },
+  {
+    "reference": "R95",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "USB_UART_TX_BUF",
+    "x": 4770,
+    "y": -480
+  },
+  {
+    "reference": "R95",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_UART_TX",
+    "x": 4730,
+    "y": -480
+  },
+  {
+    "reference": "R96",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "USB_UART_RX",
+    "x": 5220,
+    "y": -480
+  },
+  {
+    "reference": "R96",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_UART_RX_BUF",
+    "x": 5180,
+    "y": -480
+  },
+  {
+    "reference": "C90",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5670,
+    "y": -480
+  },
+  {
+    "reference": "C90",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_C_VBUS",
+    "x": 5630,
+    "y": -480
+  },
+  {
+    "reference": "C91",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4320,
+    "y": -250
+  },
+  {
+    "reference": "C91",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_UART_3V3",
+    "x": 4280,
+    "y": -250
+  },
+  {
+    "reference": "C92",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "USB_UART_3V3",
+    "x": 4730,
+    "y": -250
+  },
+  {
+    "reference": "C92",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 4770,
+    "y": -250
+  },
+  {
+    "reference": "C93",
+    "pin": "1",
+    "pin_name": "1",
+    "net": "3V3_ROUTER",
+    "x": 5180,
+    "y": -250
+  },
+  {
+    "reference": "C93",
+    "pin": "2",
+    "pin_name": "2",
+    "net": "GND_ISO",
+    "x": 5220,
+    "y": -250
+  }
+]

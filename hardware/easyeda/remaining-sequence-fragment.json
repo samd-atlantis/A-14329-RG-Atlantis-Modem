@@ -1,0 +1,2773 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626178",
+        "ticket": 626178
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3025,
+        "startY": 2785,
+        "endX": 3050.0,
+        "endY": 2760.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626179",
+        "ticket": 626179
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3050.0,
+        "startY": 2760.0,
+        "endX": 3090.0,
+        "endY": 2760.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626180",
+        "ticket": 626180
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3090.0,
+        "startY": 2760.0,
+        "endX": 3115.0,
+        "endY": 2735.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626181",
+        "ticket": 626181
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3115.0,
+        "startY": 2735.0,
+        "endX": 3115.0,
+        "endY": 2705.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626182",
+        "ticket": 626182
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3115.0,
+        "startY": 2705.0,
+        "endX": 3040.0,
+        "endY": 2545.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626183",
+        "ticket": 626183
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "ruleName": "",
+        "centerX": 3040.0,
+        "centerY": 2545.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626184",
+        "ticket": 626184
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 2,
+        "startX": 3040.0,
+        "startY": 2545.0,
+        "endX": 3040.0,
+        "endY": 2175.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626185",
+        "ticket": 626185
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "ruleName": "",
+        "centerX": 3040.0,
+        "centerY": 2175.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626186",
+        "ticket": 626186
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3040.0,
+        "startY": 2175.0,
+        "endX": 3015.0,
+        "endY": 2155.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_626187",
+        "ticket": 626187
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3015.0,
+        "startY": 2155.0,
+        "endX": 2844.6205999999997,
+        "endY": 2145.7087,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629188",
+        "ticket": 629188
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1730.3147,
+        "startY": 3344.4869,
+        "endX": 1680.0,
+        "endY": 3320.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629189",
+        "ticket": 629189
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1680.0,
+        "startY": 3320.0,
+        "endX": 1655.0,
+        "endY": 3285.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629190",
+        "ticket": 629190
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1655.0,
+        "startY": 3285.0,
+        "endX": 1655.0,
+        "endY": 3140.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629191",
+        "ticket": 629191
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 1655.0,
+        "centerY": 3140.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629192",
+        "ticket": 629192
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 2,
+        "startX": 1655.0,
+        "startY": 3140.0,
+        "endX": 1635.0,
+        "endY": 3015.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629193",
+        "ticket": 629193
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 1635.0,
+        "centerY": 3015.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629194",
+        "ticket": 629194
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1635.0,
+        "startY": 3015.0,
+        "endX": 1620.0,
+        "endY": 2995.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629195",
+        "ticket": 629195
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1620.0,
+        "startY": 2995.0,
+        "endX": 1620.0,
+        "endY": 2590.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629196",
+        "ticket": 629196
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1620.0,
+        "startY": 2590.0,
+        "endX": 1770.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629197",
+        "ticket": 629197
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 1770.0,
+        "startY": 2385.0,
+        "endX": 2040.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629198",
+        "ticket": 629198
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 2040.0,
+        "centerY": 2385.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629199",
+        "ticket": 629199
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 2,
+        "startX": 2040.0,
+        "startY": 2385.0,
+        "endX": 2315.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629200",
+        "ticket": 629200
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 2315.0,
+        "centerY": 2385.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629201",
+        "ticket": 629201
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2315.0,
+        "startY": 2385.0,
+        "endX": 2450.0,
+        "endY": 2385.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629202",
+        "ticket": 629202
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2450.0,
+        "startY": 2385.0,
+        "endX": 2460.0,
+        "endY": 2380.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_GPIO0_N_U1_R37_629203",
+        "ticket": 629203
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2460.0,
+        "startY": 2380.0,
+        "endX": 2500.026,
+        "endY": 2279.6544999999996,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632204",
+        "ticket": 632204
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2540,
+        "startY": 2735,
+        "endX": 2500.0,
+        "endY": 2695.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632205",
+        "ticket": 632205
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2500.0,
+        "centerY": 2695.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632206",
+        "ticket": 632206
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2500.0,
+        "startY": 2695.0,
+        "endX": 2540.0,
+        "endY": 2725.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632207",
+        "ticket": 632207
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2540.0,
+        "startY": 2725.0,
+        "endX": 2600.0,
+        "endY": 2745.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632208",
+        "ticket": 632208
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2600.0,
+        "startY": 2745.0,
+        "endX": 2600.0,
+        "endY": 2775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632209",
+        "ticket": 632209
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2600.0,
+        "startY": 2775.0,
+        "endX": 2550.0,
+        "endY": 2775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632210",
+        "ticket": 632210
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2550.0,
+        "startY": 2775.0,
+        "endX": 2500.0,
+        "endY": 2825.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632211",
+        "ticket": 632211
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2500.0,
+        "startY": 2825.0,
+        "endX": 2500.0,
+        "endY": 2945.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632212",
+        "ticket": 632212
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2500.0,
+        "startY": 2945.0,
+        "endX": 2525.0,
+        "endY": 2970.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632213",
+        "ticket": 632213
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2525.0,
+        "centerY": 2970.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632214",
+        "ticket": 632214
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2525.0,
+        "startY": 2970.0,
+        "endX": 2725.0,
+        "endY": 3000.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632215",
+        "ticket": 632215
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2725.0,
+        "centerY": 3000.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632216",
+        "ticket": 632216
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2725.0,
+        "startY": 3000.0,
+        "endX": 2795.0,
+        "endY": 3075.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632217",
+        "ticket": 632217
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 2,
+        "startX": 2795.0,
+        "startY": 3075.0,
+        "endX": 2810.0,
+        "endY": 3115.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632218",
+        "ticket": 632218
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "ruleName": "",
+        "centerX": 2810.0,
+        "centerY": 3115.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632219",
+        "ticket": 632219
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2810.0,
+        "startY": 3115.0,
+        "endX": 2595.0,
+        "endY": 3200.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632220",
+        "ticket": 632220
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2595.0,
+        "startY": 3200.0,
+        "endX": 2250.0,
+        "endY": 3200.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632221",
+        "ticket": 632221
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 2250.0,
+        "startY": 3200.0,
+        "endX": 1990.0,
+        "endY": 3170.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632222",
+        "ticket": 632222
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1990.0,
+        "startY": 3170.0,
+        "endX": 1750.0,
+        "endY": 3105.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632223",
+        "ticket": 632223
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1750.0,
+        "startY": 3105.0,
+        "endX": 1670.0,
+        "endY": 2980.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632224",
+        "ticket": 632224
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1670.0,
+        "startY": 2980.0,
+        "endX": 1650.0,
+        "endY": 2735.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632225",
+        "ticket": 632225
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1650.0,
+        "startY": 2735.0,
+        "endX": 1650.0,
+        "endY": 2660.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632226",
+        "ticket": 632226
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1650.0,
+        "startY": 2660.0,
+        "endX": 1930.0,
+        "endY": 2435.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_ROUTER_RESET_N_standalone_R36_632227",
+        "ticket": 632227
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_RESET_N",
+        "layerId": 1,
+        "startX": 1930.0,
+        "startY": 2435.0,
+        "endX": 1955.0,
+        "endY": 2425.34,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635228",
+        "ticket": 635228
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2529.3951,
+        "startY": 3897.6378,
+        "endX": 2525.0,
+        "endY": 4000.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_R43_R42_635229",
+        "ticket": 635229
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 2525.0,
+        "centerY": 4000.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635230",
+        "ticket": 635230
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2525.0,
+        "startY": 4000.0,
+        "endX": 2440.0,
+        "endY": 3915.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635231",
+        "ticket": 635231
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2440.0,
+        "startY": 3915.0,
+        "endX": 2405.0,
+        "endY": 3895.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635232",
+        "ticket": 635232
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2405.0,
+        "startY": 3895.0,
+        "endX": 2375.0,
+        "endY": 3895.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635233",
+        "ticket": 635233
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2375.0,
+        "startY": 3895.0,
+        "endX": 2335.0,
+        "endY": 3930.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635234",
+        "ticket": 635234
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2335.0,
+        "startY": 3930.0,
+        "endX": 1925.0,
+        "endY": 4125.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635235",
+        "ticket": 635235
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1925.0,
+        "startY": 4125.0,
+        "endX": 1770.0,
+        "endY": 4145.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635236",
+        "ticket": 635236
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1770.0,
+        "startY": 4145.0,
+        "endX": 1740.0,
+        "endY": 4130.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635237",
+        "ticket": 635237
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1740.0,
+        "startY": 4130.0,
+        "endX": 1730.0,
+        "endY": 4110.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635238",
+        "ticket": 635238
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1730.0,
+        "startY": 4110.0,
+        "endX": 1740.0,
+        "endY": 3985.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635239",
+        "ticket": 635239
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1740.0,
+        "startY": 3985.0,
+        "endX": 1770.0,
+        "endY": 3925.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_R43_R42_635240",
+        "ticket": 635240
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 1770.0,
+        "centerY": 3925.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635241",
+        "ticket": 635241
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 1770.0,
+        "startY": 3925.0,
+        "endX": 1781.3636,
+        "endY": 3897.6378,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638242",
+        "ticket": 638242
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3427.56,
+        "startY": 1050.0,
+        "endX": 3400.0,
+        "endY": 1015.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638243",
+        "ticket": 638243
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3400.0,
+        "startY": 1015.0,
+        "endX": 3345.0,
+        "endY": 1015.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638244",
+        "ticket": 638244
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3345.0,
+        "startY": 1015.0,
+        "endX": 3270.0,
+        "endY": 1200.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_C60_C70_638245",
+        "ticket": 638245
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 3270.0,
+        "centerY": 1200.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638246",
+        "ticket": 638246
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3270.0,
+        "startY": 1200.0,
+        "endX": 3270.0,
+        "endY": 1540.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638247",
+        "ticket": 638247
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3270.0,
+        "startY": 1540.0,
+        "endX": 3125.0,
+        "endY": 1800.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_C60_C70_638248",
+        "ticket": 638248
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 3125.0,
+        "centerY": 1800.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C60_C70_638249",
+        "ticket": 638249
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3125.0,
+        "startY": 1800.0,
+        "endX": 2775.5906,
+        "endY": 1901.6132,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641250",
+        "ticket": 641250
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3847.0079,
+        "startY": 434.8809,
+        "endX": 3845.0,
+        "endY": 335.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_C93_C60_641251",
+        "ticket": 641251
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 3845.0,
+        "centerY": 335.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641252",
+        "ticket": 641252
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3845.0,
+        "startY": 335.0,
+        "endX": 3880.0,
+        "endY": 190.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641253",
+        "ticket": 641253
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3880.0,
+        "startY": 190.0,
+        "endX": 3865.0,
+        "endY": 85.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641254",
+        "ticket": 641254
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3865.0,
+        "startY": 85.0,
+        "endX": 3835.0,
+        "endY": 55.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641255",
+        "ticket": 641255
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3835.0,
+        "startY": 55.0,
+        "endX": 3715.0,
+        "endY": 35.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641256",
+        "ticket": 641256
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3715.0,
+        "startY": 35.0,
+        "endX": 3550.0,
+        "endY": 35.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641257",
+        "ticket": 641257
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3550.0,
+        "startY": 35.0,
+        "endX": 3345.0,
+        "endY": 230.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641258",
+        "ticket": 641258
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 3345.0,
+        "startY": 230.0,
+        "endX": 3345.0,
+        "endY": 510.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_C93_C60_641259",
+        "ticket": 641259
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 3345.0,
+        "centerY": 510.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641260",
+        "ticket": 641260
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3345.0,
+        "startY": 510.0,
+        "endX": 3320.0,
+        "endY": 635.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641261",
+        "ticket": 641261
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3320.0,
+        "startY": 635.0,
+        "endX": 3345.0,
+        "endY": 960.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_C93_C60_641262",
+        "ticket": 641262
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3345.0,
+        "startY": 960.0,
+        "endX": 3427.56,
+        "endY": 1050.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644263",
+        "ticket": 644263
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3749.21,
+        "startY": 214.055,
+        "endX": 3750.0,
+        "endY": 295.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644264",
+        "ticket": 644264
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3750.0,
+        "startY": 295.0,
+        "endX": 3770.0,
+        "endY": 315.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_USB_C_VBUS_J14_C90_644265",
+        "ticket": 644265
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "ruleName": "",
+        "centerX": 3770.0,
+        "centerY": 315.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644266",
+        "ticket": 644266
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3770.0,
+        "startY": 315.0,
+        "endX": 3820.0,
+        "endY": 365.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644267",
+        "ticket": 644267
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3820.0,
+        "startY": 365.0,
+        "endX": 3860.0,
+        "endY": 365.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644268",
+        "ticket": 644268
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3860.0,
+        "startY": 365.0,
+        "endX": 3940.0,
+        "endY": 250.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644269",
+        "ticket": 644269
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3940.0,
+        "startY": 250.0,
+        "endX": 3940.0,
+        "endY": 215.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644270",
+        "ticket": 644270
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 3940.0,
+        "startY": 215.0,
+        "endX": 4080.0,
+        "endY": 80.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644271",
+        "ticket": 644271
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4080.0,
+        "startY": 80.0,
+        "endX": 4135.0,
+        "endY": 60.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644272",
+        "ticket": 644272
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4135.0,
+        "startY": 60.0,
+        "endX": 4215.0,
+        "endY": 60.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644273",
+        "ticket": 644273
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4215.0,
+        "startY": 60.0,
+        "endX": 4255.0,
+        "endY": 165.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644274",
+        "ticket": 644274
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4255.0,
+        "startY": 165.0,
+        "endX": 4260.0,
+        "endY": 255.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644275",
+        "ticket": 644275
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4260.0,
+        "startY": 255.0,
+        "endX": 4260.0,
+        "endY": 410.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644276",
+        "ticket": 644276
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4260.0,
+        "startY": 410.0,
+        "endX": 4405.0,
+        "endY": 560.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644277",
+        "ticket": 644277
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4405.0,
+        "startY": 560.0,
+        "endX": 4405.0,
+        "endY": 580.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644278",
+        "ticket": 644278
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4405.0,
+        "startY": 580.0,
+        "endX": 4385.0,
+        "endY": 600.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644279",
+        "ticket": 644279
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4385.0,
+        "startY": 600.0,
+        "endX": 4320.0,
+        "endY": 660.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644280",
+        "ticket": 644280
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 2,
+        "startX": 4320.0,
+        "startY": 660.0,
+        "endX": 4115.0,
+        "endY": 750.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_USB_C_VBUS_J14_C90_644281",
+        "ticket": 644281
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "ruleName": "",
+        "centerX": 4115.0,
+        "centerY": 750.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644282",
+        "ticket": 644282
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 4115.0,
+        "startY": 750.0,
+        "endX": 4080.0,
+        "endY": 785.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644283",
+        "ticket": 644283
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 4080.0,
+        "startY": 785.0,
+        "endX": 3950.0,
+        "endY": 785.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644284",
+        "ticket": 644284
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3950.0,
+        "startY": 785.0,
+        "endX": 3945.0,
+        "endY": 775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644285",
+        "ticket": 644285
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3945.0,
+        "startY": 775.0,
+        "endX": 3955.0,
+        "endY": 620.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_USB_C_VBUS_J14_C90_644286",
+        "ticket": 644286
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_C_VBUS",
+        "layerId": 1,
+        "startX": 3955.0,
+        "startY": 620.0,
+        "endX": 3964.5679,
+        "endY": 600.3937,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647287",
+        "ticket": 647287
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4129.21,
+        "startY": 214.055,
+        "endX": 4125.0,
+        "endY": 295.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MUSB_VBUS_J17_C94_647288",
+        "ticket": 647288
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "ruleName": "",
+        "centerX": 4125.0,
+        "centerY": 295.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647289",
+        "ticket": 647289
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 2,
+        "startX": 4125.0,
+        "startY": 295.0,
+        "endX": 4125.0,
+        "endY": 185.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647290",
+        "ticket": 647290
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 2,
+        "startX": 4125.0,
+        "startY": 185.0,
+        "endX": 4145.0,
+        "endY": 170.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647291",
+        "ticket": 647291
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 2,
+        "startX": 4145.0,
+        "startY": 170.0,
+        "endX": 4215.0,
+        "endY": 145.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MUSB_VBUS_J17_C94_647292",
+        "ticket": 647292
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "ruleName": "",
+        "centerX": 4215.0,
+        "centerY": 145.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647293",
+        "ticket": 647293
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4215.0,
+        "startY": 145.0,
+        "endX": 4245.0,
+        "endY": 155.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647294",
+        "ticket": 647294
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4245.0,
+        "startY": 155.0,
+        "endX": 4255.0,
+        "endY": 165.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647295",
+        "ticket": 647295
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4255.0,
+        "startY": 165.0,
+        "endX": 4255.0,
+        "endY": 405.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647296",
+        "ticket": 647296
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4255.0,
+        "startY": 405.0,
+        "endX": 4405.0,
+        "endY": 560.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647297",
+        "ticket": 647297
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4405.0,
+        "startY": 560.0,
+        "endX": 4505.0,
+        "endY": 750.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647298",
+        "ticket": 647298
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4505.0,
+        "startY": 750.0,
+        "endX": 4505.0,
+        "endY": 790.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647299",
+        "ticket": 647299
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4505.0,
+        "startY": 790.0,
+        "endX": 4500.0,
+        "endY": 800.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647300",
+        "ticket": 647300
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4500.0,
+        "startY": 800.0,
+        "endX": 4367.56,
+        "endY": 800.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650301",
+        "ticket": 650301
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2659.3849999999998,
+        "startY": 2210.0441,
+        "endX": 2700.0,
+        "endY": 2225.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_650302",
+        "ticket": 650302
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2700.0,
+        "centerY": 2225.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650303",
+        "ticket": 650303
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2700.0,
+        "startY": 2225.0,
+        "endX": 2890.0,
+        "endY": 2170.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650304",
+        "ticket": 650304
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2890.0,
+        "startY": 2170.0,
+        "endX": 3065.0,
+        "endY": 1980.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_650305",
+        "ticket": 650305
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3065.0,
+        "centerY": 1980.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650306",
+        "ticket": 650306
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3065.0,
+        "startY": 1980.0,
+        "endX": 3200.0,
+        "endY": 1845.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_650307",
+        "ticket": 650307
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3200.0,
+        "centerY": 1845.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650308",
+        "ticket": 650308
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3200.0,
+        "startY": 1845.0,
+        "endX": 3340.0,
+        "endY": 1700.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650309",
+        "ticket": 650309
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3340.0,
+        "startY": 1700.0,
+        "endX": 3340.0,
+        "endY": 1160.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650310",
+        "ticket": 650310
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3340.0,
+        "startY": 1160.0,
+        "endX": 3070.0,
+        "endY": 890.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_650311",
+        "ticket": 650311
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3070.0,
+        "centerY": 890.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650312",
+        "ticket": 650312
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3070.0,
+        "startY": 890.0,
+        "endX": 3070.0,
+        "endY": 700.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_650313",
+        "ticket": 650313
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3070.0,
+        "startY": 700.0,
+        "endX": 3310,
+        "endY": 395,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ]
+}

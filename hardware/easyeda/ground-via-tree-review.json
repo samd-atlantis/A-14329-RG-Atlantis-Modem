@@ -1,0 +1,1066 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_0",
+        "ticket": 40000
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1125,
+        "startY": 3545,
+        "endX": 1100,
+        "endY": 3545,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_1",
+        "ticket": 40001
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1100,
+        "startY": 3570,
+        "endX": 1100,
+        "endY": 3545,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_2",
+        "ticket": 40002
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1125,
+        "startY": 3570,
+        "endX": 1125,
+        "endY": 3545,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_3",
+        "ticket": 40003
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 871.4567,
+        "startY": 3580,
+        "endX": 846.4567,
+        "endY": 3580,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_4",
+        "ticket": 40004
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1876.9685,
+        "startY": 2847.441,
+        "endX": 1876.9685,
+        "endY": 2821.8504,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_5",
+        "ticket": 40005
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1902.5591,
+        "startY": 2821.8504,
+        "endX": 1876.9685,
+        "endY": 2821.8504,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_6",
+        "ticket": 40006
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1902.5591,
+        "startY": 2847.441,
+        "endX": 1876.9685,
+        "endY": 2847.441,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_7",
+        "ticket": 40007
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2743.1102,
+        "startY": 2296.2992,
+        "endX": 2743.1102,
+        "endY": 2270.7086,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_8",
+        "ticket": 40008
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2768.7008,
+        "startY": 2270.7086,
+        "endX": 2743.1102,
+        "endY": 2270.7086,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_9",
+        "ticket": 40009
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2768.7008,
+        "startY": 2296.2992,
+        "endX": 2743.1102,
+        "endY": 2296.2992,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_10",
+        "ticket": 40010
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 825.5915,
+        "startY": 3897.6378,
+        "endX": 826.7717,
+        "endY": 3849.2126,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_11",
+        "ticket": 40011
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1730,
+        "startY": 2880,
+        "endX": 1763.7786,
+        "endY": 2922.4409,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_12",
+        "ticket": 40012
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 871.4567,
+        "startY": 3580,
+        "endX": 896.4567,
+        "endY": 3524.3069,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_13",
+        "ticket": 40013
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3847.0079,
+        "startY": 540.0009,
+        "endX": 3859.4479,
+        "endY": 600.3937,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_14",
+        "ticket": 40014
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3465,
+        "startY": 705,
+        "endX": 3450,
+        "endY": 777.56,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_15",
+        "ticket": 40015
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3370,
+        "startY": 560,
+        "endX": 3392.44,
+        "endY": 460,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_16",
+        "ticket": 40016
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2597.44,
+        "startY": 2440,
+        "endX": 2590.5502,
+        "endY": 2333.5039,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_17",
+        "ticket": 40017
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3278.3465,
+        "startY": 3787.4025,
+        "endX": 3278.3465,
+        "endY": 3905.5128,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_18",
+        "ticket": 40018
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1490,
+        "startY": 3515,
+        "endX": 1407.4814,
+        "endY": 3426.1782,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_19",
+        "ticket": 40019
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1876.9685,
+        "startY": 2847.441,
+        "endX": 1763.7786,
+        "endY": 2922.4409,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_20",
+        "ticket": 40020
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3290,
+        "startY": 2200,
+        "endX": 3258.6614,
+        "endY": 2067.614,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_21",
+        "ticket": 40021
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 4735.0394,
+        "startY": 1582.6781,
+        "endX": 4735.0394,
+        "endY": 1437.6928,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_22",
+        "ticket": 40022
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1731.1033,
+        "startY": 3897.6378,
+        "endX": 1573.623,
+        "endY": 3897.6378,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_23",
+        "ticket": 40023
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 983.0718,
+        "startY": 3897.6378,
+        "endX": 825.5915,
+        "endY": 3897.6378,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_24",
+        "ticket": 40024
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3370,
+        "startY": 560,
+        "endX": 3465,
+        "endY": 705,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_25",
+        "ticket": 40025
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2580,
+        "startY": 2160,
+        "endX": 2590.5502,
+        "endY": 2333.5039,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_26",
+        "ticket": 40026
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 4290,
+        "startY": 1262.7926,
+        "endX": 4110,
+        "endY": 1262.7926,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_27",
+        "ticket": 40027
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2640.1181,
+        "startY": 1955.6309,
+        "endX": 2825.5906,
+        "endY": 1956.7332,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_28",
+        "ticket": 40028
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1100,
+        "startY": 3545,
+        "endX": 896.4567,
+        "endY": 3524.3069,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_29",
+        "ticket": 40029
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3258.6614,
+        "startY": 2067.614,
+        "endX": 3298.0314,
+        "endY": 1850.3937,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_30",
+        "ticket": 40030
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1710,
+        "startY": 2660,
+        "endX": 1876.9685,
+        "endY": 2821.8504,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_31",
+        "ticket": 40031
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3540,
+        "startY": 275,
+        "endX": 3392.44,
+        "endY": 460,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_32",
+        "ticket": 40032
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 846.4567,
+        "startY": 3580,
+        "endX": 826.7717,
+        "endY": 3849.2126,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_33",
+        "ticket": 40033
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3278.3465,
+        "startY": 3905.5128,
+        "endX": 2990.9458,
+        "endY": 3877.9528,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_34",
+        "ticket": 40034
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3792.44,
+        "startY": 895,
+        "endX": 3859.4479,
+        "endY": 600.3937,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_35",
+        "ticket": 40035
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1125,
+        "startY": 3545,
+        "endX": 1407.4814,
+        "endY": 3426.1782,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_36",
+        "ticket": 40036
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3260,
+        "startY": 2519.7,
+        "endX": 3290,
+        "endY": 2200,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_37",
+        "ticket": 40037
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1902.5591,
+        "startY": 2821.8504,
+        "endX": 2159.37,
+        "endY": 2620,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_38",
+        "ticket": 40038
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3465,
+        "startY": 705,
+        "endX": 3792.44,
+        "endY": 895,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_39",
+        "ticket": 40039
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2283.4646,
+        "startY": 2218.8986,
+        "endX": 2159.37,
+        "endY": 2620,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_40",
+        "ticket": 40040
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2825.5906,
+        "startY": 1956.7332,
+        "endX": 3258.6614,
+        "endY": 2067.614,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_41",
+        "ticket": 40041
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 4290,
+        "startY": 1262.7926,
+        "endX": 4262.44,
+        "endY": 800,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_42",
+        "ticket": 40042
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 4290,
+        "startY": 1262.7926,
+        "endX": 4735.0394,
+        "endY": 1437.6928,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_43",
+        "ticket": 40043
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 4262.44,
+        "startY": 800,
+        "endX": 3792.44,
+        "endY": 895,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_44",
+        "ticket": 40044
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3290,
+        "startY": 2200,
+        "endX": 2768.7008,
+        "endY": 2270.7086,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_45",
+        "ticket": 40045
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2429.1348,
+        "startY": 3947.6378,
+        "endX": 2990.9458,
+        "endY": 3877.9528,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_46",
+        "ticket": 40046
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1125,
+        "startY": 3545,
+        "endX": 1573.623,
+        "endY": 3897.6378,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_47",
+        "ticket": 40047
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 3260,
+        "startY": 2519.7,
+        "endX": 2597.44,
+        "endY": 2440,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_48",
+        "ticket": 40048
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2321.6545,
+        "startY": 3897.6378,
+        "endX": 2990.9458,
+        "endY": 3877.9528,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_49",
+        "ticket": 40049
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1902.5591,
+        "startY": 2847.441,
+        "endX": 2590.5502,
+        "endY": 2333.5039,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_50",
+        "ticket": 40050
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 2321.6545,
+        "startY": 3897.6378,
+        "endX": 1763.7786,
+        "endY": 2922.4409,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_51",
+        "ticket": 40051
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 1125,
+        "startY": 3545,
+        "endX": 2321.6545,
+        "endY": 3897.6378,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "groundtree30_52",
+        "ticket": 40052
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 4290,
+        "startY": 1262.7926,
+        "endX": 3258.6614,
+        "endY": 2067.614,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": []
+}

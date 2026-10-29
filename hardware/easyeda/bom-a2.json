@@ -1,0 +1,650 @@
+[
+  {
+    "reference": "J1",
+    "mpn": "KF301R-5.0-3P",
+    "supplier_part": "C474884",
+    "footprint_uuid": "115a91a050cea87f",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "F1",
+    "mpn": "SCT520PT1A250V",
+    "supplier_part": "C22447825",
+    "footprint_uuid": "39dd1a3519dc0da9",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "PS1",
+    "mpn": "IRM-20-5",
+    "supplier_part": "C6280121",
+    "footprint_uuid": "47dfa20d0a67a49b",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U1",
+    "mpn": "HLK-7628N",
+    "supplier_part": "C209920",
+    "footprint_uuid": "f57aaec7250e77e3",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U2",
+    "mpn": "TPS62132RGTR",
+    "supplier_part": "C81563",
+    "footprint_uuid": "c2ca26d9d992cb3d",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U3",
+    "mpn": "TPS62132RGTR",
+    "supplier_part": "C81563",
+    "footprint_uuid": "c2ca26d9d992cb3d",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U5",
+    "mpn": "Ai-WB2-13U",
+    "supplier_part": "C5187544",
+    "footprint_uuid": "89cad1a53e4606f4",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U6",
+    "mpn": "MCP23008-E/SO",
+    "supplier_part": "C92253",
+    "footprint_uuid": "8218e87e161f9787",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U8",
+    "mpn": "TS3USB221ARSER",
+    "supplier_part": "C128396",
+    "footprint_uuid": "478d32c3c1f880e8",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U9",
+    "mpn": "TPD2EUSB30DRTR",
+    "supplier_part": "C97502",
+    "footprint_uuid": "9c5ba73d9737bc77",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U10",
+    "mpn": "TS3A44159PWR",
+    "supplier_part": "C151886",
+    "footprint_uuid": "529e4604fd9dc5c6",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U12",
+    "mpn": "TPS22918DBVR",
+    "supplier_part": "C131941",
+    "footprint_uuid": "f065d7fe3080910b",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U13",
+    "mpn": "SN74LVC2G125DCUR",
+    "supplier_part": "C21404",
+    "footprint_uuid": "7c837d95b943ed90",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "U14",
+    "mpn": "TPD4E001DBVR",
+    "supplier_part": "C465736",
+    "footprint_uuid": "602a50bc6aca7ff9",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J8",
+    "mpn": "MM60-52B1-E1-R650",
+    "supplier_part": "C4634556",
+    "footprint_uuid": "94ded281ef9eeffa",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J9",
+    "mpn": "XKNANO-1306",
+    "supplier_part": "C381072",
+    "footprint_uuid": "25726f2e4e7003a0",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J7",
+    "mpn": "B-2100S04P-A110",
+    "supplier_part": "C124378",
+    "footprint_uuid": "496af44dc1ec808c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J10",
+    "mpn": "B-2100S04P-A110",
+    "supplier_part": "C124378",
+    "footprint_uuid": "496af44dc1ec808c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J11",
+    "mpn": "B-2100S06P-A110",
+    "supplier_part": "C124380",
+    "footprint_uuid": "33cb51db55f6775c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "Q1",
+    "mpn": "2N7002",
+    "supplier_part": "C8545",
+    "footprint_uuid": "fe3268499a5b4016",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "Q2",
+    "mpn": "2N7002",
+    "supplier_part": "C8545",
+    "footprint_uuid": "fe3268499a5b4016",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "L1",
+    "mpn": "SWPA5040S2R2NT",
+    "supplier_part": "C96923",
+    "footprint_uuid": "c3c5147bf4752c90",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "L2",
+    "mpn": "SWPA5040S2R2NT",
+    "supplier_part": "C96923",
+    "footprint_uuid": "c3c5147bf4752c90",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "SW1",
+    "mpn": "TS-1088-AR02016",
+    "supplier_part": "C720477",
+    "footprint_uuid": "ab51f4bfda346648",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "SW2",
+    "mpn": "TS-1088-AR02016",
+    "supplier_part": "C720477",
+    "footprint_uuid": "ab51f4bfda346648",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "J2",
+    "mpn": "HR915310AE",
+    "supplier_part": "C19724785",
+    "footprint_uuid": "e6627d93398e701b",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J3",
+    "mpn": "HR915310AE",
+    "supplier_part": "C19724785",
+    "footprint_uuid": "e6627d93398e701b",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J4",
+    "mpn": "HR915310AE",
+    "supplier_part": "C19724785",
+    "footprint_uuid": "e6627d93398e701b",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "J5",
+    "mpn": "HR915310AE",
+    "supplier_part": "C19724785",
+    "footprint_uuid": "e6627d93398e701b",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C1",
+    "mpn": "GRM32ER61C476KE15L",
+    "supplier_part": "C77101",
+    "footprint_uuid": "750ee6b6e57a848f",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C24",
+    "mpn": "GRM32ER61C476KE15L",
+    "supplier_part": "C77101",
+    "footprint_uuid": "750ee6b6e57a848f",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C25",
+    "mpn": "GRM32ER61C476KE15L",
+    "supplier_part": "C77101",
+    "footprint_uuid": "750ee6b6e57a848f",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C2",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C11",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C21",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C30",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C41",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C51",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C42",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C52",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C43",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C53",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C44",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C54",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": true,
+    "quantity_50": 0
+  },
+  {
+    "reference": "C60",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C61",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C70",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C71",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C72",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C83",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C84",
+    "mpn": "CC0603KRX7R9BB104",
+    "supplier_part": "C14663",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C10",
+    "mpn": "GRM21BR61C106KE15L",
+    "supplier_part": "C77075",
+    "footprint_uuid": "19b45f0ebead4ede",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C20",
+    "mpn": "GRM21BR61C106KE15L",
+    "supplier_part": "C77075",
+    "footprint_uuid": "19b45f0ebead4ede",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C81",
+    "mpn": "GRM21BR61C106KE15L",
+    "supplier_part": "C77075",
+    "footprint_uuid": "19b45f0ebead4ede",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C82",
+    "mpn": "GRM21BR61C106KE15L",
+    "supplier_part": "C77075",
+    "footprint_uuid": "19b45f0ebead4ede",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C12",
+    "mpn": "0603B332K500CT",
+    "supplier_part": "C302028",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C22",
+    "mpn": "0603B332K500CT",
+    "supplier_part": "C302028",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C13",
+    "mpn": "GRM21BR61A226ME51L",
+    "supplier_part": "C77074",
+    "footprint_uuid": "19b45f0ebead4ede",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C23",
+    "mpn": "GRM21BR61A226ME51L",
+    "supplier_part": "C77074",
+    "footprint_uuid": "19b45f0ebead4ede",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C31",
+    "mpn": "GRM21BR61A226ME51L",
+    "supplier_part": "C77074",
+    "footprint_uuid": "19b45f0ebead4ede",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R20",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R22",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R32",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R33",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R34",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R35",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R61",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R83",
+    "mpn": "0603WAF1003T5E",
+    "supplier_part": "C25803",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R21",
+    "mpn": "0603WAF1001T5E",
+    "supplier_part": "C21190",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R60",
+    "mpn": "0603WAF1001T5E",
+    "supplier_part": "C21190",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R30",
+    "mpn": "0603WAF4701T5E",
+    "supplier_part": "C23162",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R31",
+    "mpn": "0603WAF4701T5E",
+    "supplier_part": "C23162",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R41",
+    "mpn": "0603WAF4700T5E",
+    "supplier_part": "C23179",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R42",
+    "mpn": "0603WAF4700T5E",
+    "supplier_part": "C23179",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R43",
+    "mpn": "0603WAF4700T5E",
+    "supplier_part": "C23179",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R44",
+    "mpn": "0603WAF4700T5E",
+    "supplier_part": "C23179",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R70",
+    "mpn": "0603WAF1502T5E",
+    "supplier_part": "C22809",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R80",
+    "mpn": "0603WAF1000T5E",
+    "supplier_part": "C22775",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "C80",
+    "mpn": "CL10B102KB8NNNC",
+    "supplier_part": "C1588",
+    "footprint_uuid": "27ebeb96c769af0c",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R81",
+    "mpn": "0603WAF1002T5E",
+    "supplier_part": "C25804",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": false,
+    "quantity_50": 50
+  },
+  {
+    "reference": "R82",
+    "mpn": "0603WAF1002T5E",
+    "supplier_part": "C25804",
+    "footprint_uuid": "897ed4e386db4c6e",
+    "dnp": true,
+    "quantity_50": 0
+  }
+]

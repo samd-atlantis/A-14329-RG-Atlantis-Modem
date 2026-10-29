@@ -1,0 +1,662 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "control-update32-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660892",
+        "ticket": 660892
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2659.3849999999998,
+        "startY": 2210.0441,
+        "endX": 2660.0,
+        "endY": 2350.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660894",
+        "ticket": 660894
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2660.0,
+        "startY": 2350.0,
+        "endX": 2635.0,
+        "endY": 2430.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660895",
+        "ticket": 660895
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2635.0,
+        "centerY": 2430.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660896",
+        "ticket": 660896
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2635.0,
+        "startY": 2430.0,
+        "endX": 2825.0,
+        "endY": 2430.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660897",
+        "ticket": 660897
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2825.0,
+        "centerY": 2430.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660898",
+        "ticket": 660898
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2825.0,
+        "startY": 2430.0,
+        "endX": 2945.0,
+        "endY": 2430.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660899",
+        "ticket": 660899
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 2945.0,
+        "centerY": 2430.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660900",
+        "ticket": 660900
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 2945.0,
+        "startY": 2430.0,
+        "endX": 3085.0,
+        "endY": 2430.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660901",
+        "ticket": 660901
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3085.0,
+        "startY": 2430.0,
+        "endX": 3125.0,
+        "endY": 2405.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660902",
+        "ticket": 660902
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3125.0,
+        "centerY": 2405.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660903",
+        "ticket": 660903
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3125.0,
+        "startY": 2405.0,
+        "endX": 3240.0,
+        "endY": 2315.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660904",
+        "ticket": 660904
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3240.0,
+        "centerY": 2315.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660905",
+        "ticket": 660905
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3240.0,
+        "startY": 2315.0,
+        "endX": 3330.0,
+        "endY": 2305.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660906",
+        "ticket": 660906
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3330.0,
+        "startY": 2305.0,
+        "endX": 3360.0,
+        "endY": 2285.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660907",
+        "ticket": 660907
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3360.0,
+        "centerY": 2285.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660908",
+        "ticket": 660908
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3360.0,
+        "startY": 2285.0,
+        "endX": 3360.0,
+        "endY": 1785.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660909",
+        "ticket": 660909
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3360.0,
+        "centerY": 1785.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660910",
+        "ticket": 660910
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3360.0,
+        "startY": 1785.0,
+        "endX": 3335.0,
+        "endY": 1715.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660911",
+        "ticket": 660911
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3335.0,
+        "centerY": 1715.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660912",
+        "ticket": 660912
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3335.0,
+        "startY": 1715.0,
+        "endX": 3340.0,
+        "endY": 1700.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660913",
+        "ticket": 660913
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3340.0,
+        "startY": 1700.0,
+        "endX": 3340.0,
+        "endY": 1160.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660914",
+        "ticket": 660914
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 3340.0,
+        "startY": 1160.0,
+        "endX": 3070.0,
+        "endY": 890.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_5V_ISO_C20_standalone_660915",
+        "ticket": 660915
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 3070.0,
+        "centerY": 890.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660916",
+        "ticket": 660916
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3070.0,
+        "startY": 890.0,
+        "endX": 3070.0,
+        "endY": 700.0,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_5V_ISO_C20_standalone_660917",
+        "ticket": 660917
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 3070.0,
+        "startY": 700.0,
+        "endX": 3310,
+        "endY": 395,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      2659.3849999999998,
+      2210.0441
+    ],
+    [
+      1,
+      2660.0,
+      2350.0
+    ],
+    [
+      2,
+      2660.0,
+      2350.0
+    ],
+    [
+      2,
+      2635.0,
+      2430.0
+    ],
+    [
+      1,
+      2635.0,
+      2430.0
+    ],
+    [
+      1,
+      2825.0,
+      2430.0
+    ],
+    [
+      2,
+      2825.0,
+      2430.0
+    ],
+    [
+      2,
+      2945.0,
+      2430.0
+    ],
+    [
+      1,
+      2945.0,
+      2430.0
+    ],
+    [
+      1,
+      3085.0,
+      2430.0
+    ],
+    [
+      1,
+      3125.0,
+      2405.0
+    ],
+    [
+      2,
+      3125.0,
+      2405.0
+    ],
+    [
+      2,
+      3240.0,
+      2315.0
+    ],
+    [
+      1,
+      3240.0,
+      2315.0
+    ],
+    [
+      1,
+      3330.0,
+      2305.0
+    ],
+    [
+      1,
+      3360.0,
+      2285.0
+    ],
+    [
+      2,
+      3360.0,
+      2285.0
+    ],
+    [
+      2,
+      3360.0,
+      1785.0
+    ],
+    [
+      1,
+      3360.0,
+      1785.0
+    ],
+    [
+      1,
+      3335.0,
+      1715.0
+    ],
+    [
+      2,
+      3335.0,
+      1715.0
+    ],
+    [
+      2,
+      3340.0,
+      1700.0
+    ],
+    [
+      2,
+      3340.0,
+      1160.0
+    ],
+    [
+      2,
+      3070.0,
+      890.0
+    ],
+    [
+      1,
+      3070.0,
+      890.0
+    ],
+    [
+      1,
+      3070.0,
+      700.0
+    ],
+    [
+      1,
+      3310,
+      395
+    ]
+  ],
+  "issues": []
+}

@@ -1,0 +1,67 @@
+{
+  "board": "A-14329-MB00",
+  "date": "2026-10-29",
+  "status": "Saved design handoff; exact submitted order files not verified. Older review48 capacitor DNP statements superseded by assembly49.",
+  "files": [
+    {
+      "file": "pcb-assembly49.epro2",
+      "source": "hardware/easyeda/pcb-assembly49.epro2",
+      "bytes": 464572,
+      "sha256": "6c2ec86f674f42a77902b4325106aed0b5708db34972f8ae38958b4818a0f21b"
+    },
+    {
+      "file": "schematic-assembly49.epro2",
+      "source": "hardware/easyeda/schematic-assembly49.epro2",
+      "bytes": 246531,
+      "sha256": "c2b2022c769c984c676438ef41f6a0b3be7781779bda9eb7a530cbc26eeaad84"
+    },
+    {
+      "file": "A14329_BOM.csv",
+      "source": "hardware/easyeda/assembly49/A14329_BOM.csv",
+      "bytes": 1991,
+      "sha256": "7280aa5a69dfe5558b8106706fd9af97396fee08ca5212ea677b3f649aac0eda"
+    },
+    {
+      "file": "A14329_CPL.csv",
+      "source": "hardware/easyeda/assembly49/A14329_CPL.csv",
+      "bytes": 3285,
+      "sha256": "714ab9512368402da2daf10a4ed45386861f4431fe6eacda98e2e7c2350088e7"
+    },
+    {
+      "file": "assembly-review.txt",
+      "source": "hardware/easyeda/assembly49/assembly-review.txt",
+      "bytes": 2306,
+      "sha256": "d5ae6d102002ffa22c40fabe4ad50fe48caed6755982a642f89374670694eda2"
+    },
+    {
+      "file": "validation.json",
+      "source": "hardware/easyeda/assembly49/validation.json",
+      "bytes": 839,
+      "sha256": "820a16809a0b4c6cfa464d54ffdecbb55e7a7431c5ca16cd84dbf045affe0d05"
+    },
+    {
+      "file": "drc-zero.png",
+      "source": "hardware/easyeda/assembly49/drc-zero.png",
+      "bytes": 357864,
+      "sha256": "7716545dd03cdb5166374f8d440b8bd863259f53ef2c16743631f59e5b3fbe7b"
+    },
+    {
+      "file": "modem-height-correction46.txt",
+      "source": "hardware/easyeda/modem-height-correction46.txt",
+      "bytes": 936,
+      "sha256": "3cf159c3a0569deee049761b2fc4c7737dd0014d224c5f88ad108d2450e86e3c"
+    },
+    {
+      "file": "modem-mechanical-dimensions.json",
+      "source": "hardware/easyeda/modem-mechanical-dimensions.json",
+      "bytes": 925,
+      "sha256": "35b536b9c8ed6c8445d7367128fd0db8c1e9b73f5e629f42665bcc259f5a6e87"
+    },
+    {
+      "file": "ethernet-center-tap-review48.txt",
+      "source": "hardware/easyeda/ethernet-center-tap-review48.txt",
+      "bytes": 2431,
+      "sha256": "f34bbcc53fea3707f26e6766434b71b84a1e3089d6d0cf47169442d61031907d"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "number": "B1",
+    "x": 4440,
+    "y": -1200,
+    "net": "GND_ISO"
+  },
+  {
+    "number": "B4",
+    "x": 4440,
+    "y": -1230,
+    "net": "USB_C_VBUS"
+  },
+  {
+    "number": "B5",
+    "x": 4440,
+    "y": -1240,
+    "net": "USB_C_CC2"
+  },
+  {
+    "number": "B6",
+    "x": 4440,
+    "y": -1250,
+    "net": "USB_CONSOLE_DP"
+  },
+  {
+    "number": "B7",
+    "x": 4440,
+    "y": -1260,
+    "net": "USB_CONSOLE_DM"
+  },
+  {
+    "number": "B8",
+    "x": 4440,
+    "y": -1270,
+    "net": null
+  },
+  {
+    "number": "B9",
+    "x": 4440,
+    "y": -1280,
+    "net": "USB_C_VBUS"
+  },
+  {
+    "number": "B12",
+    "x": 4440,
+    "y": -1310,
+    "net": "GND_ISO"
+  },
+  {
+    "number": "1",
+    "x": 4390,
+    "y": -1340,
+    "net": "CHASSIS_PE"
+  },
+  {
+    "number": "A1",
+    "x": 4350,
+    "y": -1310,
+    "net": "GND_ISO"
+  },
+  {
+    "number": "A4",
+    "x": 4350,
+    "y": -1280,
+    "net": "USB_C_VBUS"
+  },
+  {
+    "number": "A5",
+    "x": 4350,
+    "y": -1270,
+    "net": "USB_C_CC1"
+  },
+  {
+    "number": "A6",
+    "x": 4350,
+    "y": -1260,
+    "net": "USB_CONSOLE_DP"
+  },
+  {
+    "number": "A7",
+    "x": 4350,
+    "y": -1250,
+    "net": "USB_CONSOLE_DM"
+  },
+  {
+    "number": "A8",
+    "x": 4350,
+    "y": -1240,
+    "net": null
+  },
+  {
+    "number": "A9",
+    "x": 4350,
+    "y": -1230,
+    "net": "USB_C_VBUS"
+  },
+  {
+    "number": "A12",
+    "x": 4350,
+    "y": -1200,
+    "net": "GND_ISO"
+  },
+  {
+    "number": "3",
+    "x": 4400,
+    "y": -1340,
+    "net": "CHASSIS_PE"
+  },
+  {
+    "number": "4",
+    "x": 4400,
+    "y": -1170,
+    "net": "CHASSIS_PE"
+  },
+  {
+    "number": "2",
+    "x": 4390,
+    "y": -1170,
+    "net": "CHASSIS_PE"
+  }
+]

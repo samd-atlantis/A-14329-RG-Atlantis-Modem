@@ -1,0 +1,651 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648875",
+        "ticket": 648875
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2474.0,
+        "startY": 2918.0,
+        "endX": 2465.0,
+        "endY": 2885.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648876",
+        "ticket": 648876
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2465.0,
+        "startY": 2885.0,
+        "endX": 2380.0,
+        "endY": 2800.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648877",
+        "ticket": 648877
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2380.0,
+        "startY": 2800.0,
+        "endX": 2380.0,
+        "endY": 2720.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648878",
+        "ticket": 648878
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2380.0,
+        "startY": 2720.0,
+        "endX": 2405.0,
+        "endY": 2685.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648879",
+        "ticket": 648879
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2405.0,
+        "startY": 2685.0,
+        "endX": 2405.0,
+        "endY": 2660.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648880",
+        "ticket": 648880
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2405.0,
+        "startY": 2660.0,
+        "endX": 2555.0,
+        "endY": 2510.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648881",
+        "ticket": 648881
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 2555.0,
+        "centerY": 2510.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648882",
+        "ticket": 648882
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2555.0,
+        "startY": 2510.0,
+        "endX": 2705.0,
+        "endY": 2655.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648883",
+        "ticket": 648883
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2705.0,
+        "startY": 2655.0,
+        "endX": 2705.0,
+        "endY": 2935.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648884",
+        "ticket": 648884
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2705.0,
+        "startY": 2935.0,
+        "endX": 2755.0,
+        "endY": 2990.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648885",
+        "ticket": 648885
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 2755.0,
+        "centerY": 2990.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648886",
+        "ticket": 648886
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2755.0,
+        "startY": 2990.0,
+        "endX": 2820.0,
+        "endY": 3070.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648887",
+        "ticket": 648887
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2820.0,
+        "startY": 3070.0,
+        "endX": 2840.0,
+        "endY": 3105.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648888",
+        "ticket": 648888
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2840.0,
+        "startY": 3105.0,
+        "endX": 2840.0,
+        "endY": 3125.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648889",
+        "ticket": 648889
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2840.0,
+        "startY": 3125.0,
+        "endX": 2820.0,
+        "endY": 3145.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648890",
+        "ticket": 648890
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2820.0,
+        "startY": 3145.0,
+        "endX": 2815.0,
+        "endY": 3145.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648891",
+        "ticket": 648891
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 2815.0,
+        "centerY": 3145.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648892",
+        "ticket": 648892
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2815.0,
+        "startY": 3145.0,
+        "endX": 2610.0,
+        "endY": 3220.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648893",
+        "ticket": 648893
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2610.0,
+        "startY": 3220.0,
+        "endX": 1905.0,
+        "endY": 3220.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648894",
+        "ticket": 648894
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 1905.0,
+        "startY": 3220.0,
+        "endX": 1875.0,
+        "endY": 3190.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648895",
+        "ticket": 648895
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 1875.0,
+        "centerY": 3190.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648896",
+        "ticket": 648896
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 1875.0,
+        "startY": 3190.0,
+        "endX": 1830.0,
+        "endY": 3220.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648897",
+        "ticket": 648897
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 1830.0,
+        "centerY": 3220.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_@2474,2918_U1_648898",
+        "ticket": 648898
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 1830.0,
+        "startY": 3220.0,
+        "endX": 1730.3147,
+        "endY": 3234.2469,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      2,
+      2474.0,
+      2918.0
+    ],
+    [
+      2,
+      2465.0,
+      2885.0
+    ],
+    [
+      2,
+      2380.0,
+      2800.0
+    ],
+    [
+      2,
+      2380.0,
+      2720.0
+    ],
+    [
+      2,
+      2405.0,
+      2685.0
+    ],
+    [
+      2,
+      2405.0,
+      2660.0
+    ],
+    [
+      2,
+      2555.0,
+      2510.0
+    ],
+    [
+      1,
+      2555.0,
+      2510.0
+    ],
+    [
+      1,
+      2705.0,
+      2655.0
+    ],
+    [
+      1,
+      2705.0,
+      2935.0
+    ],
+    [
+      1,
+      2755.0,
+      2990.0
+    ],
+    [
+      2,
+      2755.0,
+      2990.0
+    ],
+    [
+      2,
+      2820.0,
+      3070.0
+    ],
+    [
+      2,
+      2840.0,
+      3105.0
+    ],
+    [
+      2,
+      2840.0,
+      3125.0
+    ],
+    [
+      2,
+      2820.0,
+      3145.0
+    ],
+    [
+      2,
+      2815.0,
+      3145.0
+    ],
+    [
+      1,
+      2815.0,
+      3145.0
+    ],
+    [
+      1,
+      2610.0,
+      3220.0
+    ],
+    [
+      1,
+      1905.0,
+      3220.0
+    ],
+    [
+      1,
+      1875.0,
+      3190.0
+    ],
+    [
+      2,
+      1875.0,
+      3190.0
+    ],
+    [
+      2,
+      1830.0,
+      3220.0
+    ],
+    [
+      1,
+      1830.0,
+      3220.0
+    ],
+    [
+      1,
+      1730.3147,
+      3234.2469
+    ]
+  ],
+  "issues": [
+    {
+      "id": "remaining_CONSOLE_RX_@2474,2918_U1_648891",
+      "net": "CONSOLE_RX",
+      "geometry": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 2815.0,
+        "centerY": 3145.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      },
+      "conflicts": [
+        [
+          "VIA remaining_ROUTER_RESET_N_standc42b22cc3e0c81a8",
+          "ROUTER_RESET_N",
+          6.792
+        ]
+      ]
+    }
+  ]
+}

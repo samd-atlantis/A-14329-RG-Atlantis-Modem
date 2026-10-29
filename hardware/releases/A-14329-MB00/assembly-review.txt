@@ -1,0 +1,17 @@
+Assembly update 49 - 2026-10-29
+
+Populated C41-C44 and C51-C54 with YAGEO CC0603KRX7R9BB104, C14663, 100nF 50V X7R 0603. Native BOM now includes 19 C14663 capacitors total. PCB and schematic population attributes synchronized and verified from native exports.
+
+Restored CN1/J15/J16 to DORABO DB142V-5.08-3P-GN, C2898700. JLC chooser stock observed 975 units, versus 150 required for 50 boards; availability is not reserved. Manufacturer UL rating 10A 300V, 14-24AWG. Two solder tails per pole, six holes per connector. Through-hole assembly requires JLC wave/through-hole service selection and their final review.
+
+Footprint: project-local 54563ecdb3b723c2. Saved native export confirms six circular 1.85mm copper lands and 1.40mm round holes, 5.08mm pole pitch. Minimum nominal annulus 0.225mm; pole-to-pole pad gap 3.23mm. The editor normalized the proposed ellipse to round lands. This meets JLC's published 4-layer PTH annulus minimum of 0.20mm. Nine existing short terminal feed traces reduced from 1.8 to 1.7mm to preserve the existing 126mil (3.2004mm) mains clearance rule; main distribution conductors unchanged. Final native DRC: zero errors over 124 checks, including netlist agreement, 10:40:41.
+
+A14329_BOM.csv and A14329_CPL.csv contain exactly matching sets of 101 designators. Native CPL positions/angles preserved; only U20 and MODEM1 removed to match assembly BOM. Those are separately provisioned/sourced items. Use this pair instead of assembly47. PCB geometry changed: regenerate Gerbers from current PCB1; do not combine this BOM/CPL with old WAGO Gerbers.
+
+JLC compatibility checks here cover selected parts, exported designator agreement and published geometry limits. No order submitted or JLC manufacturing approval obtained. Prototype must verify terminal mechanical fit/soldering and 10A temperature rise (including short 1.7mm feed sections), Ethernet performance and existing power/firmware release gates before a 50-unit build. DRC alone does not validate load heating, safety certification or operation.
+
+References:
+https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663
+https://jlcpcb.com/partdetail/Dorabo-DB142V_5_08_3PGN/C2898700
+https://www.nbdibo.com/product/spring-terminal-block/pcb-terminal-db142v-5-08.html
+https://jlcpcb.com/capabilities/pcb-capabilities/

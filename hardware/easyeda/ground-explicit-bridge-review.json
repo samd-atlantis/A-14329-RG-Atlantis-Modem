@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 31000,
+        "id": "ground_explicit_30_1"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 16,
+        "startX": 4110,
+        "startY": 1262.7926,
+        "endX": 4290,
+        "endY": 1262.7926,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": []
+}

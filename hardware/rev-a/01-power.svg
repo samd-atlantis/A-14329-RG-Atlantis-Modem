@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img">
+<rect width="1200" height="760" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b40} .small{font-size:15px} .wire{stroke:#187f73;stroke-width:2;fill:none}</style>
+<text x="30" y="40" font-size="24">01 / AC input and independently controlled DC rails</text>
+<text x="30" y="68" font-size="15" fill="#a34b00">Rev A • Functional schematic • Pin mapping and component ratings unresolved • NOT FOR FABRICATION</text>
+<rect x="30" y="145" width="150" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="42" y="170" font-size="16">J1: AC INPUT</text>
+<text x="42" y="193" font-size="16">L / N</text>
+<text x="42" y="216" font-size="16">PE: enclosure TBD</text>
+<rect x="220" y="145" width="180" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="232" y="170" font-size="16">F1 / surge / EMI</text>
+<text x="232" y="193" font-size="16">Line fuse first</text>
+<text x="232" y="216" font-size="16">Ratings TBD</text>
+<rect x="450" y="145" width="220" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="462" y="170" font-size="16">PS1: IRM-20-5</text>
+<text x="462" y="193" font-size="16">Isolated AC/DC</text>
+<text x="462" y="216" font-size="16">5 V / 20 W candidate</text>
+<rect x="760" y="110" width="220" height="110" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="772" y="135" font-size="16">U2: TPS62132</text>
+<text x="772" y="158" font-size="16">5 V → 3V3_ROUTER</text>
+<text x="772" y="181" font-size="16">L/C per TI reference</text>
+<rect x="760" y="270" width="220" height="110" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="772" y="295" font-size="16">U3: TPS62132</text>
+<text x="772" y="318" font-size="16">5 V → 3V3_MODEM</text>
+<text x="772" y="341" font-size="16">EN = MODEM_PWR_EN</text>
+<rect x="760" y="430" width="220" height="110" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="772" y="455" font-size="16">U7: load switch</text>
+<text x="772" y="478" font-size="16">3V3_ROUTER → 3V3_AUX</text>
+<text x="772" y="501" font-size="16">EN = WIFI_PWR_EN</text>
+<path class="wire" d="M180 180 H220"/><text class="small" x="185" y="170">L/N</text>
+<path class="wire" d="M400 180 H450"/><text class="small" x="402" y="168">AC</text>
+<path class="wire" d="M670 180 H710 V155 H760"/><text class="small" x="678" y="145">5V_ISO</text>
+<path class="wire" d="M710 180 V315 H760"/><text class="small" x="678" y="300">5V_ISO</text>
+<path class="wire" d="M980 155 H1140"/><text class="small" x="990" y="143">U1 router</text>
+<path class="wire" d="M980 315 H1140"/><text class="small" x="990" y="303">U4 modem</text>
+<path class="wire" d="M1010 155 V405 H720 V475 H760"/><text class="small" x="1017" y="400">3V3_ROUTER</text>
+<path class="wire" d="M980 475 H1140"/><text class="small" x="990" y="463">U5 Wi-Fi/BLE</text>
+<text class="small" x="30" y="590">Primary L/N and secondary GND_ISO must remain separated; no implied earth-to-secondary bond.</text>
+<text class="small" x="30" y="614">EN defaults: router on; modem and auxiliary radio controlled with defined safe pull states (values TBD).</text>
+<text class="small" x="30" y="638">Modem output bulk capacitance must satisfy regulator stability/startup limits; simulation is sensitivity only.</text>
+<text class="small" x="30" y="662">Power-stage support components, pin numbers and protection ratings require datasheet-level completion.</text>
+<text class="small" x="30" y="686">20 W candidate passes assumed power screen; enclosure thermal derating still must be verified.</text>
+<text x="30" y="738" font-size="13">Walchem gateway | 120 VAC | EG25-GL | 4 LAN | Wi-Fi + BLE retained | LoRa omitted | 2026-10-27</text></svg>

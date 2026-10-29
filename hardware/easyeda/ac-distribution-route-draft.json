@@ -1,0 +1,732 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624111",
+        "ticket": 624111
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 944.8822999999999,
+        "startY": 110,
+        "endX": 2393.15,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624112",
+        "ticket": 624112
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 944.8822999999999,
+        "startY": 712.5961,
+        "endX": 944.8822999999999,
+        "endY": 389.76610000000005,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624113",
+        "ticket": 624113
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 944.8822999999999,
+        "startY": 389.76610000000005,
+        "endX": 944.8822999999999,
+        "endY": 200,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624114",
+        "ticket": 624114
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 944.8822999999999,
+        "startY": 200,
+        "endX": 944.8822999999999,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624115",
+        "ticket": 624115
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 1668.15,
+        "startY": 711.415,
+        "endX": 1668.15,
+        "endY": 388.58500000000004,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624116",
+        "ticket": 624116
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 1668.15,
+        "startY": 388.58500000000004,
+        "endX": 1668.15,
+        "endY": 200,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624117",
+        "ticket": 624117
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 1668.15,
+        "startY": 200,
+        "endX": 1668.15,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624118",
+        "ticket": 624118
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 2393.15,
+        "startY": 711.415,
+        "endX": 2393.15,
+        "endY": 388.58500000000004,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624119",
+        "ticket": 624119
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 2393.15,
+        "startY": 388.58500000000004,
+        "endX": 2393.15,
+        "endY": 200,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624120",
+        "ticket": 624120
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 2,
+        "startX": 2393.15,
+        "startY": 200,
+        "endX": 2393.15,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624121",
+        "ticket": 624121
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1141.7323,
+        "startY": 110,
+        "endX": 2590.0,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624122",
+        "ticket": 624122
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1141.7323,
+        "startY": 712.5961,
+        "endX": 1141.7323,
+        "endY": 389.76610000000005,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624123",
+        "ticket": 624123
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1141.7323,
+        "startY": 389.76610000000005,
+        "endX": 1141.7323,
+        "endY": 200,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624124",
+        "ticket": 624124
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1141.7323,
+        "startY": 200,
+        "endX": 1141.7323,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624125",
+        "ticket": 624125
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1865.0,
+        "startY": 711.415,
+        "endX": 1865.0,
+        "endY": 388.58500000000004,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624126",
+        "ticket": 624126
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1865.0,
+        "startY": 388.58500000000004,
+        "endX": 1865.0,
+        "endY": 200,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624127",
+        "ticket": 624127
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1865.0,
+        "startY": 200,
+        "endX": 1865.0,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624128",
+        "ticket": 624128
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 2590.0,
+        "startY": 711.415,
+        "endX": 2590.0,
+        "endY": 388.58500000000004,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624129",
+        "ticket": 624129
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 2590.0,
+        "startY": 388.58500000000004,
+        "endX": 2590.0,
+        "endY": 200,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624130",
+        "ticket": 624130
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 2590.0,
+        "startY": 200,
+        "endX": 2590.0,
+        "endY": 110,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624131",
+        "ticket": 624131
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1440,
+        "startY": 1000,
+        "endX": 2786.85,
+        "endY": 1000,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624132",
+        "ticket": 624132
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1338.5822999999998,
+        "startY": 389.76610000000005,
+        "endX": 1338.5822999999998,
+        "endY": 712.5961,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624133",
+        "ticket": 624133
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1338.5822999999998,
+        "startY": 712.5961,
+        "endX": 1338.5822999999998,
+        "endY": 820,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624134",
+        "ticket": 624134
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1338.5822999999998,
+        "startY": 820,
+        "endX": 1440,
+        "endY": 950,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624135",
+        "ticket": 624135
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 1440,
+        "startY": 950,
+        "endX": 1440,
+        "endY": 1000,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624136",
+        "ticket": 624136
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2061.85,
+        "startY": 388.58500000000004,
+        "endX": 2061.85,
+        "endY": 711.415,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624137",
+        "ticket": 624137
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2061.85,
+        "startY": 711.415,
+        "endX": 2061.85,
+        "endY": 900,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624138",
+        "ticket": 624138
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2061.85,
+        "startY": 900,
+        "endX": 2061.85,
+        "endY": 1000,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624139",
+        "ticket": 624139
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2786.85,
+        "startY": 388.58500000000004,
+        "endX": 2786.85,
+        "endY": 711.415,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624140",
+        "ticket": 624140
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2786.85,
+        "startY": 711.415,
+        "endX": 2786.85,
+        "endY": 900,
+        "width": 70.86614173228347,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624141",
+        "ticket": 624141
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 2786.85,
+        "startY": 900,
+        "endX": 2786.85,
+        "endY": 1000,
+        "width": 160.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624142",
+        "ticket": 624142
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 1,
+        "startX": 944.8822999999999,
+        "startY": 712.5961,
+        "endX": 944.8819,
+        "endY": 825,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624143",
+        "ticket": 624143
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_IN",
+        "layerId": 1,
+        "startX": 944.8819,
+        "startY": 825,
+        "endX": 1128.07,
+        "endY": 1025.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624144",
+        "ticket": 624144
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_L_FUSED",
+        "layerId": 1,
+        "startX": 261.93,
+        "startY": 1025.0,
+        "endX": 270.55,
+        "endY": 1349.175,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624145",
+        "ticket": 624145
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1865.0,
+        "startY": 711.415,
+        "endX": 1865,
+        "endY": 1100,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "ac_distribution_624146",
+        "ticket": 624146
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "AC_N",
+        "layerId": 1,
+        "startX": 1865,
+        "startY": 1100,
+        "endX": 1089.45,
+        "endY": 1349.175,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": [],
+  "review": [
+    "Prototype candidate, not a safety certification.",
+    "4.064 mm external buses; 1.8 mm short terminal fanouts; 1.016 mm PSU branch.",
+    "Neutral top and live bottom; no inner copper in primary area.",
+    "Verify 10 A combined load temperature rise and protective-earth fault/ground-bond performance before commercial release."
+  ]
+}

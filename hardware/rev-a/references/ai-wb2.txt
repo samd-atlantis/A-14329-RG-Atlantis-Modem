@@ -1,0 +1,794 @@
+
+=== PDF PAGE 1 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 1 of 22
+Ai-WB2-13 Specification
+Version V1.1.0
+Copyright ©2022
+
+
+=== PDF PAGE 2 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 2 of 22
+Document resume
+Version
+Date
+Develop/revise content
+Edition
+Approve
+V1.1.0
+2022.6.20
+First Edition
+NanNan Yuan
+NingGuan
+
+
+=== PDF PAGE 3 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 3 of 22
+Content
+1. Product Overview.............................................................................................................4
+1.1. Characteristic.............................................................................................................5
+2. Main parameters............................................................................................................... 6
+2.1. Static electricity requirement.....................................................................................6
+2.2. Electrical characteristics............................................................................................7
+2.3. Wi-Fi RF Performance.............................................................................................. 7
+2.4. BLE RF Performance................................................................................................ 8
+2.5. Power.........................................................................................................................8
+3. Appearance Dimensions................................................................................................... 9
+4. Pin Definition................................................................................................................. 10
+5. Schematic....................................................................................................................... 12
+6. Antenna parameters........................................................................................................ 13
+6.1. Schematic diagram of the antenna test prototype....................................................13
+6.2. Antenna S parameter................................................................................................14
+6.3. Antenna Gain and Efficiency...................................................................................14
+6.4. Antenna pattern........................................................................................................15
+7. Design Guidance............................................................................................................ 16
+7.1. Application circuit................................................................................................... 16
+7.2. Antenna layout requirements...................................................................................16
+7.3. Power supply........................................................................................................... 17
+7.4. GPIO........................................................................................................................18
+8. Storage conditions.......................................................................................................... 19
+9. Reflow welding curve diagram...................................................................................... 19
+10. Product related models................................................................................................. 20
+11. Product Packaging Information....................................................................................21
+12. Contact us..................................................................................................................... 21
+Disclaimer and copyright notice.........................................................................................22
+Notice................................................................................................................................. 22
+
+
+=== PDF PAGE 4 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 4 of 22
+1. Product Overview
+Ai-WB2-13 is a Wi-Fi& BT module developed by Shenzhen Ai-Thinker Technology Co., LTD.
+The module is equipped with BL602 chip as the core processor and supports Wi-Fi 802.11b/
+g/n protocol and BLE 5.0 protocol. The BL602 chip has a low-power 32-bit RISC CPU,
+276KB RAM, and a wealth of peripheral interfaces, including SDIO, SPI, UART, I2C, IR
+Remote, PWM, ADC, DAC, PIR and GPIO. It can be widely used in Internet of Things (IoT),
+mobile devices, wearable electronic devices, smart home and other fields.
+Figure 1 Main chip architecture diagram
+
+
+=== PDF PAGE 5 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 5 of 22
+1.1. Characteristic
+
+The package is SMD-18
+
+Support IEEE 802.11 b/g/n protocol
+
+Wi-Fi Security Support WPS/WEP/WPA/WPA2 Personal/WPA2 Enterprise/WPA3
+
+Support 20MHz bandwidth and Max rate is 72.2 Mbps
+
+Bluetooth BLE 5.0,Bluetooth Mesh
+
+Support Station + BLE、Station + SoftAP + BLE
+
+Support 32-bit RISC CPU，276KB RAM
+
+Secure startup, supports mirroring with ECC-256 signature
+
+Support QSPI/SPI Flash On-The-Fly AES Decryption (OTFAD), support AES 128 CTR
+
+Support AES 128/192/256-bit encryption engine
+
+Support SHA-1/224/256
+
+Support true Random number generator (TRNG)
+
+Public key Accelerator (PKA), support large number basic operations, software provides
+signature, verification and other application program interface
+
+Support SDIO，SPI，UART，I2C，IR remote，PWM，ADC，DAC，PIR，GPIO etc
+
+Integrated Wi-Fi MAC/BB/RF/PA/LNA/BT
+
+Support a variety of sleep modes, deep sleep current 12μA
+
+Universal AT instruction for quick start
+
+Support secondary development, integrated Windows, Linux development environment
+
+
+=== PDF PAGE 6 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 6 of 22
+2. Main parameters
+Table 1 Description of the main parameters
+Model
+Ai-WB2-13
+Package
+SMD-18
+Size
+20.0*18.0*3.1(±0.2)mm
+Antenna
+on-board PCB antenna
+Frequency
+2400 ~ 2483.5MHz
+Operating temperature
+-40℃~ 85℃
+Storage temperature
+-40℃~ 125℃, < 90%RH
+Power supply
+Support voltage 2.7V ~ 3.6V,supply current
+≥500mA
+Interface
+UART/GPIO/ADC/PWM/I2C/SPI
+IO
+11
+UART rate
+Default 115200 bps
+Security
+WPS/WEP/WPA/WPA2 Personal/WPA2 Enterprise/WPA3
+Flash
+Default 4MByte，MAX support 16MByte
+2.1. Static electricity requirement
+Ai-WB2-13 is an electrostatic sensitive device. Therefore, you need to take special precautions
+when carrying it.
+Figure 2 ESD preventive measures
+
+
+=== PDF PAGE 7 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 7 of 22
+2.2. Electrical characteristics
+Table 2 Electrical characteristics table
+2.3. Wi-Fi RF Performance
+Table 3 Wi-Fi RF performance table
+Parameters
+Condition
+Min.
+Typical value
+Max.
+Unit
+Voltage Supply
+VDD
+2.7
+3.3
+3.6
+V
+I/O
+VIL
+-
+-
+-
+0.3*VDDIO
+V
+VIH
+-
+0.7*VDDIO
+-
+-
+V
+VOL
+-
+-
+0.1*VDDIO
+-
+V
+VOH
+-
+-
+0.9*VDDIO
+-
+V
+IMAX
+-
+-
+-
+15
+mA
+Description
+Typical value
+Unit
+Frequency range
+2400 ~ 2483.5MHz
+MHz
+Output Power
+Mode
+Min.
+Typical value
+Max.
+Unit
+11n Mode HT20，PA output power
+-
+16
+-
+dBm
+11g Mode, PA output power
+-
+17
+-
+dBm
+11b Mode, PA output power
+-
+19
+-
+dBm
+Receive Sensitivity
+Mode
+Min.
+Typical value
+Max.
+Unit
+11b，1 Mbps
+-
+-98
+-
+dBm
+11b, 11 Mbps
+-
+-90
+-
+dBm
+11g, 6 Mbps
+-
+-93
+-
+dBm
+11g, 54 Mbps
+-
+-76
+-
+dBm
+11n，HT20 (MCS7)
+-
+-73
+-
+dBm
+
+
+=== PDF PAGE 8 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 8 of 22
+2.4. BLE RF Performance
+Table 4 BLE RF performance table
+Description
+Typical value
+Unit
+Frequency range
+2400 ~ 2483.5MHz
+MHz
+Output Power
+Rate Mode
+Min.
+Typical value
+Max.
+Unit
+1Mbps
+-
+9
+15
+dBm
+Receive Sensitivity
+Rate Mode
+Min.
+Typical value
+Max.
+Unit
+1Mbps sensitivity@30.8%PER
+-
+-96
+-
+dBm
+2.5. Power
+The following power consumption data are based on a 3.3V power supply, 25°C ambient
+temperature, and measured using an internal voltage regulator.
+
+All measurements are made at the antenna interface with a filter.
+
+All transmission data are based on 100% duty cycle in continuous transmission mode.
+Table 5 Power consumption
+Mode
+Min.
+AVG
+Max.
+Unit
+Tx 802.11b，11Mbps，POUT=+21dBm
+-
+260
+-
+mA
+Tx802.11g，54Mbps，POUT =+18dBm
+-
+245
+-
+mA
+Tx802.11n，MCS7，POUT =+17dBm
+-
+230
+-
+mA
+Rx 802.11b,packet length 1024 byte
+-
+65
+-
+mA
+Rx 802.11g,packet length 1024 byte
+-
+65
+-
+mA
+Rx 802.11n,Packet length 1024 byte
+-
+65
+-
+mA
+Deep-Sleep
+-
+12
+-
+μA
+
+
+=== PDF PAGE 9 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 9 of 22
+3. Appearance Dimensions
+Figure 3 Appearance diagram (pictures is for reference only,subject to physical objects)
+Figure 4 Dimension diagram
+Front
+Back
+Front
+Back
+
+
+=== PDF PAGE 10 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 10 of 22
+Figure 5. Naming of module information
+4. Pin Definition
+Ai-WB2-13 module is connected with a total of 18 pins, as shown in the pin schematic diagram,
+pin function definition table is the interface definition.
+Figure 6 Schematic diagram of module pins
+Front
+Back
+H/N
+BL
+O/I
+F
+Module temperature version
+H：high temperature
+N：normal temperature
+FLASH
+FLASH type
+O：outside flash chip
+I：inside flash chip
+BL chip（BL602)
+FLASH size（MB)
+x
+
+
+=== PDF PAGE 11 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 11 of 22
+Table 6 Pin function definition table
+No.
+Name
+Function
+1
+3V3
+3.3V power supply; It is recommended that the output current of the
+external power supply be higher than 500mA
+2
+EN/NC
+Default chip enable pin, active-high, cannot be used with RST at the
+same time
+3
+IO14
+GPIO14/SPI_SS/IIC_SCL/PWM_CH4/ADC_CH2
+4
+IO17
+GPIO17/SPI_MOSI/MISO/IIC_SDA/PWM_CH2
+5
+IO3
+GPIO3/SPI_SCLK/IIC_SDA/PWM_CH3
+6
+IO4
+GPIO4/SPI_MOSI/MISO/IIC_SCL/PWM_CH4/ADC_CH4
+7
+IO2
+It is not recommended to use. It is shared with the Flash in the module.
+If you need to use it, please contact Ai-Thinker.
+GPIO2/SPI_SS/IIC_SCL/PWM_CH2
+8
+IO8/NC
+Defaul NC, unavailable
+9
+GND
+Ground
+10
+IO5
+GPIO5/SPI_MOSI/MISO/IIC_SDA/PWM_CH0/ADC_CH4
+11
+RXD
+RXD/GPIO7/SPI_SCLK/IIC_SDA/PWM_CH2
+12
+TXD
+TXD/GPIO16/SPI_MOSI/MISO/IIC_SCL/PWM_CH1
+13
+NC
+Ground
+14
+IO1
+It is not recommended to use. It is shared with the Flash in the module.
+If you need to use it, please contact Ai-Thinker.
+GPIO1/SPI_MOSI/MISO/IIC_SDA/PWM_CH1
+15
+RST/NC
+Default not connect, can be customized to reset pin, active-low, if you
+need to use it, please contact Ai-Thinker
+16
+IO11
+GPIO11/SPI_SCLK/IIC_SDA/ADC_CH10
+17
+IO12
+GPIO12/SPI_MOSI/MISO/IIC_SCL/PWM_CH2/ADC_CH0
+18
+NC
+Ground
+
+
+=== PDF PAGE 12 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 12 of 22
+5. Schematic
+Figure 7 Module schematic
+
+
+=== PDF PAGE 13 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 13 of 22
+6. Antenna parameters
+6.1. Schematic diagram of the antenna test prototype
+Figure 8 Schematic diagram of the antenna test prototype
+
+
+=== PDF PAGE 14 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 14 of 22
+6.2. Antenna S parameter
+Figure 9 Antenna S parameters
+6.3. Antenna Gain and Efficiency
+Table 7 Antenna Gain and efficiency
+Frequency ID
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Frequency(MHz)
+2400
+2410
+2420
+2430
+2440
+2450
+2460
+2470
+2480
+2490
+2500
+Gain (dBi)
+2.36
+2.38
+2.15
+2.25
+2.06
+2.49
+2.46
+2.44
+2.42
+2.13
+2.30
+Efficiency (%)
+70.35
+70.39
+67.97
+69.50
+65.53
+71.32
+70.92
+69.44
+67.91
+61.87
+61.11
+
+
+=== PDF PAGE 15 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 15 of 22
+6.4. Antenna pattern
+Figure 10 Antenna pattern
+
+
+=== PDF PAGE 16 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 16 of 22
+7. Design Guidance
+7.1. Application circuit
+Figure 11 Application circuit diagram
+
+If the IO port is used as PWM, it is recommended to reserve a 4.7K pull-down resistor
+around the module. Especially in the application of light control, it can prevent the flashing
+light phenomenon at the moment of power-on start.
+
+GPIO1/GPIO2/GPIO8/RST pins, which are not available by default.If you need to use it,
+please contact Ai-Thinker.
+7.2. Antenna layout requirements
+
+The following two methods are recommended for the installation position on the
+mainboard:
+Option 1: put the module on the edge of the motherboard, and the antenna area extends out of
+the edge of the motherboard.
+Option 2: put the module on the edge of the motherboard, the edge of the motherboard at the
+antenna position hollowed out an area.
+
+In order to meet the performance of onboard antenna, it is forbidden to place metal parts
+around the antenna and keep away from high frequency devices.
+
+
+=== PDF PAGE 17 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 17 of 22
+Figure 12 Antenna layout diagram
+7.3. Power supply
+
+Recommended 3.3V voltage,peak current over 500mA.
+
+Power supply is recommend to use LDO; if the DC-DC is used, the ripple is recommended
+to be controlled within 30mV
+
+DC-DC power supply circuit proposes to reserve the dynamic response capacitance to
+optimize the output ripple with large load changes.
+
+It is recommended to add ESD devices to the 3.3V power interface.
+Figure 13 DC-DC step-down circuit diagram
+
+
+=== PDF PAGE 18 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 18 of 22
+7.4. GPIO
+
+There are some IO ports on the periphery of the module. If you need to use it, it is
+recommended to connect a 10-100 ohm resistor in series with the IO port. This inhibits
+overshoot and makes both sides level more stable. It is helpful for EMI and ESD.
+
+For special I/O ports to be pulled up and down, refer to the usage instructions in the
+specifications, which may affect the module startup configuration.
+
+The IO port of the module is 3.3V. If the IO level of the main control and the module do
+not match, a level conversion circuit needs to be added.
+
+If the I/O port is directly connected to a peripheral port or terminals, for example, a pin
+row, reserve an ESD device near the terminal of the I/O cable.
+Figure 14 Level convert circuit
+
+
+=== PDF PAGE 19 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 19 of 22
+8. Storage conditions
+Products sealed in moisture-proof bags should be stored in a non-condensing atmosphere of
+<40 ° C /90%RH.
+The module has a moisture sensitivity rating of MSL 3.
+After the vacuum bag is opened, it must be used within 168 hours at 25±5℃/60%RH,
+otherwise it needs to be baked before it can be put on line again.
+9. Reflow welding curve diagram
+Figure 15 Reflow welding diagram
+
+
+=== PDF PAGE 20 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 20 of 22
+10.Product related models
+Table 8 Product related model list
+Model
+Power
+Supply
+Package
+Size
+Antenna
+Ai-WB2-12S
+2.7V ~ 3.6V，
+I≥500mA
+SMD-16
+24.0*16.0*3.1±0.2)mm
+on-board
+PCB
+antenna
+Ai-WB2-12F
+2.7V ~ 3.6V，
+I≥500mA
+SMD-22
+24.0*16.0*3.1±0.2)mm
+on-board
+PCB
+antenna
+Ai-WB2-07S
+2.7V ~ 3.6V，
+I≥500mA
+SMD-22
+17.0*16.0*3.1±0.2)mm
+IPEX interface
+Ai-WB2-13
+2.7V ~ 3.6V，
+I≥500mA
+SMD-18
+20.0*18.0*3.1±0.2)mm
+on-board
+PCB
+antenna
+Ai-WB2-13U
+2.7V ~ 3.6V，
+I≥500mA
+SMD-18
+14.0*18.0*3.1±0.2)mm
+IPEX interface
+Ai-WB2-32S
+2.7V ~ 3.6V，
+I≥500mA
+SMD-38
+25.5*18.0*3.1±0.2)mm
+Default onboard PCB
+antenna/compatible
+IPEX interface
+Ai-WB2-01M
+2.7V ~ 3.6V，
+I≥500mA
+DIP-18
+18.0*18.0*2.8±0.2)mm
+on-board
+PCB
+antenna
+Ai-WB2-12F-Kit
+3.3V or5V,
+I>500mA
+DIP-30
+49.66*25.4(±0.2)mm
+on-board
+PCB
+antenna
+Ai-WB2-13-Kit
+3.3V or 5V,
+I>500mA
+DIP-30
+49.66*25.4(±0.2)mm
+on-board
+PCB
+antenna
+Ai-WB2-32S-Kit
+3.3V or 5V,
+I>500mA
+DIP-38
+55.05*25.4(±0.2)mm
+on-board
+PCB
+antenna
+Product related information : https://docs.ai-thinker.com
+
+
+=== PDF PAGE 21 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 21 of 22
+11.Product Packaging Information
+Ai-WB2-13 module was packaged in a tape, 650pcs/reel.As shown in the below image:
+Figure 15 Package and packing diagram
+12.Contact us
+Ai-Thinker official website
+Office forum
+Develop DOCS
+LinkedIn
+Tmall shop
+Taobao shop
+Alibaba shop
+Technical support email：support@aithinker.com
+Domestic business cooperation：sales@aithinker.com
+Overseas business cooperation：overseas@aithinker.com
+Company Address：Room 403,408-410, Block C, Huafeng Smart Innovation Port, Gushu 2nd
+Road, Xixiang, Baoan District, Shenzhen.
+Tel：+86-0755-29162996
+WeChat mini program
+WeChat official account
+
+
+=== PDF PAGE 22 ===
+Ai-WB2-13 Specification V1.1.0
+Copyright © 2022
+Shenzhen Ai-Thinker Technology Co., Ltd All Rights Reserved
+Page 22 of 22
+Disclaimer and copyright notice
+The information in this article,including the URL address for reference,is subject to change
+without notice.
+The document is provided"as is"without any guarantee responsibility,including any guarantee
+for merchantability,suitability for a specific purpose,or non-infringement,and any guarantee
+mentioned elsewhere in any proposal,specification or sample.This document does not bear any
+responsibility,including the responsibility for infringement of any patent rights arising from the
+use of the information in this document.This document does not grant any license for the use of
+intellectual property rights in estoppel or other ways,whether express or implied.
+The test data obtained in the article are all obtained from Ai-Thinker's laboratory tests,and the
+actual results may vary slightly.
+All brand names,trademarks and registered trademarks mentioned in this article are the
+property of their respective owners,and it is hereby declared.
+The final interpretation right belongs to Shenzhen Ai-Thinker Technology Co.,Ltd.
+Notice
+Due to product version upgrades or other reasons,the contents of this manual may be changed.
+Shenzhen Ai-Thinker Technology Co.,Ltd.reserves the right to modify the contents of this
+manual without any notice or prompt.
+This manual is only used as a guide.Shenzhen Ai-Thinker Technology Co.,Ltd. makes every
+effort to provide accurate information in this manual.However, Shenzhen Ai-Thinker
+Technology Co.,Ltd. does not guarantee that the contents of the manual are completely free of
+errors.All statements and information in this manual And the suggestion does not constitute
+any express or implied guarantee.

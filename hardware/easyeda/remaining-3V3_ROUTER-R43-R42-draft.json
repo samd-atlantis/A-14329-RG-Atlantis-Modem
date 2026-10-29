@@ -1,0 +1,368 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-sequence-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635228",
+        "ticket": 635228
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2529.3951,
+        "startY": 3897.6378,
+        "endX": 2525.0,
+        "endY": 4000.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_R43_R42_635229",
+        "ticket": 635229
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 2525.0,
+        "centerY": 4000.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635230",
+        "ticket": 635230
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2525.0,
+        "startY": 4000.0,
+        "endX": 2440.0,
+        "endY": 3915.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635231",
+        "ticket": 635231
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2440.0,
+        "startY": 3915.0,
+        "endX": 2405.0,
+        "endY": 3895.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635232",
+        "ticket": 635232
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2405.0,
+        "startY": 3895.0,
+        "endX": 2375.0,
+        "endY": 3895.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635233",
+        "ticket": 635233
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2375.0,
+        "startY": 3895.0,
+        "endX": 2335.0,
+        "endY": 3930.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635234",
+        "ticket": 635234
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 2335.0,
+        "startY": 3930.0,
+        "endX": 1925.0,
+        "endY": 4125.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635235",
+        "ticket": 635235
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1925.0,
+        "startY": 4125.0,
+        "endX": 1770.0,
+        "endY": 4145.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635236",
+        "ticket": 635236
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1770.0,
+        "startY": 4145.0,
+        "endX": 1740.0,
+        "endY": 4130.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635237",
+        "ticket": 635237
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1740.0,
+        "startY": 4130.0,
+        "endX": 1730.0,
+        "endY": 4110.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635238",
+        "ticket": 635238
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1730.0,
+        "startY": 4110.0,
+        "endX": 1740.0,
+        "endY": 3985.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635239",
+        "ticket": 635239
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 2,
+        "startX": 1740.0,
+        "startY": 3985.0,
+        "endX": 1770.0,
+        "endY": 3925.0,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_3V3_ROUTER_R43_R42_635240",
+        "ticket": 635240
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 1770.0,
+        "centerY": 3925.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R43_R42_635241",
+        "ticket": 635241
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 1770.0,
+        "startY": 3925.0,
+        "endX": 1781.3636,
+        "endY": 3897.6378,
+        "width": 16.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      2529.3951,
+      3897.6378
+    ],
+    [
+      1,
+      2525.0,
+      4000.0
+    ],
+    [
+      2,
+      2525.0,
+      4000.0
+    ],
+    [
+      2,
+      2440.0,
+      3915.0
+    ],
+    [
+      2,
+      2405.0,
+      3895.0
+    ],
+    [
+      2,
+      2375.0,
+      3895.0
+    ],
+    [
+      2,
+      2335.0,
+      3930.0
+    ],
+    [
+      2,
+      1925.0,
+      4125.0
+    ],
+    [
+      2,
+      1770.0,
+      4145.0
+    ],
+    [
+      2,
+      1740.0,
+      4130.0
+    ],
+    [
+      2,
+      1730.0,
+      4110.0
+    ],
+    [
+      2,
+      1740.0,
+      3985.0
+    ],
+    [
+      2,
+      1770.0,
+      3925.0
+    ],
+    [
+      1,
+      1770.0,
+      3925.0
+    ],
+    [
+      1,
+      1781.3636,
+      3897.6378
+    ]
+  ],
+  "issues": []
+}

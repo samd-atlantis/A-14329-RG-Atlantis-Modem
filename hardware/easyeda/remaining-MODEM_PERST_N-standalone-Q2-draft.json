@@ -1,0 +1,372 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645860",
+        "ticket": 645860
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 1,
+        "startX": 3025,
+        "startY": 2735,
+        "endX": 3060.0,
+        "endY": 2760.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645861",
+        "ticket": 645861
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 1,
+        "startX": 3060.0,
+        "startY": 2760.0,
+        "endX": 3090.0,
+        "endY": 2760.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645862",
+        "ticket": 645862
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 1,
+        "startX": 3090.0,
+        "startY": 2760.0,
+        "endX": 3115.0,
+        "endY": 2735.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645863",
+        "ticket": 645863
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 1,
+        "startX": 3115.0,
+        "startY": 2735.0,
+        "endX": 3100.0,
+        "endY": 2500.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645864",
+        "ticket": 645864
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "ruleName": "",
+        "centerX": 3100.0,
+        "centerY": 2500.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645865",
+        "ticket": 645865
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 2,
+        "startX": 3100.0,
+        "startY": 2500.0,
+        "endX": 3080.0,
+        "endY": 2110.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645866",
+        "ticket": 645866
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 2,
+        "startX": 3080.0,
+        "startY": 2110.0,
+        "endX": 3100.0,
+        "endY": 2090.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645867",
+        "ticket": 645867
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 2,
+        "startX": 3100.0,
+        "startY": 2090.0,
+        "endX": 3100.0,
+        "endY": 2045.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645868",
+        "ticket": 645868
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "ruleName": "",
+        "centerX": 3100.0,
+        "centerY": 2045.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645869",
+        "ticket": 645869
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 1,
+        "startX": 3100.0,
+        "startY": 2045.0,
+        "endX": 3155.0,
+        "endY": 1810.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645870",
+        "ticket": 645870
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "ruleName": "",
+        "centerX": 3155.0,
+        "centerY": 1810.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645871",
+        "ticket": 645871
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 2,
+        "startX": 3155.0,
+        "startY": 1810.0,
+        "endX": 3220.0,
+        "endY": 1695.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645872",
+        "ticket": 645872
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "ruleName": "",
+        "centerX": 3220.0,
+        "centerY": 1695.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_PERST_N_standalone_Q2_645873",
+        "ticket": 645873
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_PERST_N",
+        "layerId": 1,
+        "startX": 3220.0,
+        "startY": 1695.0,
+        "endX": 3149.6064,
+        "endY": 1692.9134,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3025,
+      2735
+    ],
+    [
+      1,
+      3060.0,
+      2760.0
+    ],
+    [
+      1,
+      3090.0,
+      2760.0
+    ],
+    [
+      1,
+      3115.0,
+      2735.0
+    ],
+    [
+      1,
+      3100.0,
+      2500.0
+    ],
+    [
+      2,
+      3100.0,
+      2500.0
+    ],
+    [
+      2,
+      3080.0,
+      2110.0
+    ],
+    [
+      2,
+      3100.0,
+      2090.0
+    ],
+    [
+      2,
+      3100.0,
+      2045.0
+    ],
+    [
+      1,
+      3100.0,
+      2045.0
+    ],
+    [
+      1,
+      3155.0,
+      1810.0
+    ],
+    [
+      2,
+      3155.0,
+      1810.0
+    ],
+    [
+      2,
+      3220.0,
+      1695.0
+    ],
+    [
+      1,
+      3220.0,
+      1695.0
+    ],
+    [
+      1,
+      3149.6064,
+      1692.9134
+    ]
+  ],
+  "issues": []
+}

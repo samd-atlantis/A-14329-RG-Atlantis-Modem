@@ -1,0 +1,12 @@
+.tools/
+**/__pycache__/
+**/*-backups/
+**/*.lck
+**/*.kicad_prl
+**/private/
+firmware/build/
+firmware/dist/
+.env
+.env.*
+*.pem
+*.key

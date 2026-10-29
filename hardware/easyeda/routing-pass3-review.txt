@@ -1,0 +1,6 @@
+Routing checkpoint 2026-10-28. NOT FABRICATION READY.
+Native checkpoint: pcb-routing-pass3.epro2; 735 LINE records, 95 VIA records.
+After ground autoroute and both inner ground pours rebuilt: live DRC 221 items = 207 disconnected objects, 12 same-footprint TH pad clearance failures, 1 modem visual/prohibited region overlap, 1 schematic/PCB metadata mismatch.
+All failed manual Ethernet pair attempts undone; DRC restored to 221. Ethernet/USB pairs and DC/mains power require completion and verification.
+Confirmed terminal issue: CN1/J15/J16 adjacent L-N and N-PE pad edges 109.4mil (2.779mm), rule MAINS_PE_3P2MM requires126mil (3.2mm). Do not suppress without justified redesign.
+Live pair manager and rule dialog show updated assignments/dimensions, but native archive showed older metadata. Resolve/export-verify before fabrication.

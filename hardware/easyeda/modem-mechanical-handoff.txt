@@ -1,0 +1,14 @@
+MODEM MECHANICAL GROUP
+
+EasyEDA PCB1: MODEM_J8_MECHANICAL. Staged to right of preliminary board. Includes J8, mechanical card envelope, card-hole reference circles, 2 x 2.2 mm NPTH host mounting holes, 2 x M2 screw-pillar envelope models, top-side component keepouts, all-layer fastener copper keepouts and annotations.
+
+51 x 30 mm conservative full-size card envelope; hole pitch 24.2 mm, hole axis 48.05 mm from card-edge/socket locating-hole datum. M2 seat target 3.55 mm based on JAE high-profile socket support geometry; 4 mm body envelope. Generic through-hole support SKU/stack is not finalized. The JAE NT4 SMD support is a reference for seat height, not the host mounting footprint selected here.
+
+Reserve 12 mm above PCB for card/RF cable stack plus additional access for insertion tilt, screws and cable service. 15 mm reserved beyond card end and 2 mm at sides. These are design allowances; validate with actual cable plugs, bend radius and enclosure.
+
+All 440 original pad/net assignments and all 81 component identities preserved. J8 moved to staging position and grouped. No routes added or final board outline changed.
+
+PROGRAMMING / PRODUCTION PROPOSAL
+OpenWrt-based router image plus configuration/control service; Quectel modem firmware; Ai-Thinker AT firmware or custom BLE setup integration. Internal USB modem link retained.
+Proposed pogo fixture accesses UARTs, grounds, reset and verified boot controls. Supplier preprogramming where available. Automated serial/credentials provisioning and Ethernet/Wi-Fi/BLE/LTE tests. Optional USB-C with USB-to-UART bridge for development/service. USB-C connector by itself cannot replace UART headers.
+No USB-C circuitry or programming-pad revisions made in this mechanical task. Radio boot/programming access and modem recovery access remain review gates.

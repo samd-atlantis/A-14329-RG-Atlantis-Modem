@@ -1,0 +1,418 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642846",
+        "ticket": 642846
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2490,
+        "startY": 2785,
+        "endX": 2450.0,
+        "endY": 2825.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642847",
+        "ticket": 642847
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2450.0,
+        "startY": 2825.0,
+        "endX": 2430.0,
+        "endY": 2825.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642848",
+        "ticket": 642848
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 2430.0,
+        "centerY": 2825.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642849",
+        "ticket": 642849
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2430.0,
+        "startY": 2825.0,
+        "endX": 2380.0,
+        "endY": 2775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642850",
+        "ticket": 642850
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2380.0,
+        "startY": 2775.0,
+        "endX": 2380.0,
+        "endY": 2720.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642851",
+        "ticket": 642851
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2380.0,
+        "startY": 2720.0,
+        "endX": 2405.0,
+        "endY": 2685.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642852",
+        "ticket": 642852
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2405.0,
+        "startY": 2685.0,
+        "endX": 2405.0,
+        "endY": 2635.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642853",
+        "ticket": 642853
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2405.0,
+        "startY": 2635.0,
+        "endX": 2385.0,
+        "endY": 2605.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642854",
+        "ticket": 642854
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2385.0,
+        "startY": 2605.0,
+        "endX": 2365.0,
+        "endY": 2595.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642855",
+        "ticket": 642855
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2365.0,
+        "startY": 2595.0,
+        "endX": 2315.0,
+        "endY": 2595.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642856",
+        "ticket": 642856
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2315.0,
+        "startY": 2595.0,
+        "endX": 2295.0,
+        "endY": 2605.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642857",
+        "ticket": 642857
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2295.0,
+        "startY": 2605.0,
+        "endX": 2145.0,
+        "endY": 2755.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642858",
+        "ticket": 642858
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2145.0,
+        "startY": 2755.0,
+        "endX": 2145.0,
+        "endY": 2910.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642859",
+        "ticket": 642859
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 2,
+        "startX": 2145.0,
+        "startY": 2910.0,
+        "endX": 1830.0,
+        "endY": 3220.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642860",
+        "ticket": 642860
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 1830.0,
+        "centerY": 3220.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CONSOLE_RX_standalone_U1_642861",
+        "ticket": 642861
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 1830.0,
+        "startY": 3220.0,
+        "endX": 1730.3147,
+        "endY": 3234.2469,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      2490,
+      2785
+    ],
+    [
+      1,
+      2450.0,
+      2825.0
+    ],
+    [
+      1,
+      2430.0,
+      2825.0
+    ],
+    [
+      2,
+      2430.0,
+      2825.0
+    ],
+    [
+      2,
+      2380.0,
+      2775.0
+    ],
+    [
+      2,
+      2380.0,
+      2720.0
+    ],
+    [
+      2,
+      2405.0,
+      2685.0
+    ],
+    [
+      2,
+      2405.0,
+      2635.0
+    ],
+    [
+      2,
+      2385.0,
+      2605.0
+    ],
+    [
+      2,
+      2365.0,
+      2595.0
+    ],
+    [
+      2,
+      2315.0,
+      2595.0
+    ],
+    [
+      2,
+      2295.0,
+      2605.0
+    ],
+    [
+      2,
+      2145.0,
+      2755.0
+    ],
+    [
+      2,
+      2145.0,
+      2910.0
+    ],
+    [
+      2,
+      1830.0,
+      3220.0
+    ],
+    [
+      1,
+      1830.0,
+      3220.0
+    ],
+    [
+      1,
+      1730.3147,
+      3234.2469
+    ]
+  ],
+  "issues": []
+}

@@ -1,0 +1,36 @@
+{
+  "boardWidthMM": 123.952,
+  "boardHeightMM": 123.952,
+  "cornerChamferMM": 4,
+  "mountPitchMM": 107.95,
+  "holeDiameterMM": 6.35,
+  "edgeToHoleMM": 8.001,
+  "reference": "User supplied Integra generic back panel PNLB66PV-104 and 6x6 enclosure drawing",
+  "electricalPreservation": [
+    {
+      "type": "COMPONENT",
+      "unchanged": true
+    },
+    {
+      "type": "PAD_NET",
+      "unchanged": true
+    },
+    {
+      "type": "PAD",
+      "unchanged": true
+    },
+    {
+      "type": "LAYER_PHYS",
+      "unchanged": true
+    },
+    {
+      "type": "NET",
+      "unchanged": true
+    }
+  ],
+  "limitations": [
+    "Envelope follows back panel, not fully dimensioned enclosure inner wall contour. Verify physical enclosure fit and stand-off/screw selection.",
+    "Current board remains unrouted.",
+    "No final enclosure depth or lid/cable clearance verification."
+  ]
+}

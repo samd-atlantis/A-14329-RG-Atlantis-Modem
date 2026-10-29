@@ -1,0 +1,6 @@
+A-14329-MB00 source checks, 2026-10-29
+9 Python tests passed: mocked carrier control and unique provisioning.
+15 JavaScript/form/ACL checks passed.
+Tests required unsandboxed Git Bash/OpenSSL on Windows; initial sandbox failures were process launch failures.
+No cross-compiled OpenWrt image, hardware boot test or final independent hardware audit completed.
+GitHub Actions repeats source tests on Linux.

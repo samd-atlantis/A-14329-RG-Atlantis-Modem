@@ -1,0 +1,14 @@
+{
+  "removedMarkerRecords": 10,
+  "newReference": "e9e3851155f30c48",
+  "position": {
+    "x": 4200,
+    "y": -3950
+  },
+  "uniqueID": "UNIQUEMODEM1",
+  "designator": "MODEM1",
+  "device": "d4607d51cd740cb1",
+  "footprint": "5665faeda5b6b38c",
+  "electricalPins": 0,
+  "BOM": "no"
+}

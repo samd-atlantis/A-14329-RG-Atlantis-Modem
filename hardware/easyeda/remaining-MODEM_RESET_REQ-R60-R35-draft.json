@@ -1,0 +1,64 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_RESET_REQ_R60_R35_654890",
+        "ticket": 654890
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "layerId": 1,
+        "startX": 3070.8661,
+        "startY": 1682.9384,
+        "endX": 3145.0,
+        "endY": 1615.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_RESET_REQ_R60_R35_654891",
+        "ticket": 654891
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "layerId": 1,
+        "startX": 3145.0,
+        "startY": 1615.0,
+        "endX": 3198.6865000000003,
+        "endY": 1496.063,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3070.8661,
+      1682.9384
+    ],
+    [
+      1,
+      3145.0,
+      1615.0
+    ],
+    [
+      1,
+      3198.6865000000003,
+      1496.063
+    ]
+  ],
+  "issues": []
+}

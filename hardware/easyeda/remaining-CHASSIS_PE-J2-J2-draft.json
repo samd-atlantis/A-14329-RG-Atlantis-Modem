@@ -1,0 +1,39 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-pe-proposal-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_634479",
+        "ticket": 634479
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 2,
+        "startX": 730.5118,
+        "startY": 4094.4886999999994,
+        "endX": 594.4918,
+        "endY": 4291.338699999999,
+        "width": 20.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      2,
+      730.5118,
+      4094.4886999999994
+    ],
+    [
+      2,
+      594.4918,
+      4291.338699999999
+    ]
+  ],
+  "issues": []
+}

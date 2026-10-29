@@ -1,0 +1,6 @@
+{
+  "admin/gateway": {"title":"Gateway","order":1,"action":{"type":"firstchild"},"depends":{"acl":["atech-gateway"]}},
+  "admin/gateway/overview": {"title":"Overview","order":1,"action":{"type":"view","path":"gateway/overview"}},
+  "admin/gateway/settings": {"title":"Site & Cellular","order":2,"action":{"type":"view","path":"gateway/settings"}},
+  "admin/gateway/controllers": {"title":"Controllers","order":3,"action":{"type":"view","path":"gateway/controllers"}}
+}

@@ -1,0 +1,342 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "points": [
+    [
+      1,
+      846.4567,
+      3404.8269
+    ],
+    [
+      1,
+      960.0,
+      3360.0
+    ],
+    [
+      1,
+      1045.0,
+      3345.0
+    ],
+    [
+      2,
+      1045.0,
+      3345.0
+    ],
+    [
+      2,
+      1400.0,
+      3325.0
+    ],
+    [
+      2,
+      1450.0,
+      3375.0
+    ],
+    [
+      2,
+      1460.0,
+      3400.0
+    ],
+    [
+      1,
+      1460.0,
+      3400.0
+    ],
+    [
+      1,
+      1476.378,
+      3437.0069
+    ]
+  ],
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626849",
+        "ticket": 626849
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 846.4567,
+        "startY": 3404.8269,
+        "endX": 960.0,
+        "endY": 3360.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626850",
+        "ticket": 626850
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 960.0,
+        "startY": 3360.0,
+        "endX": 1045.0,
+        "endY": 3345.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_trunk_626851",
+        "ticket": 626851
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1045.0,
+        "centerY": 3345.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626852",
+        "ticket": 626852
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1045.0,
+        "startY": 3345.0,
+        "endX": 1400.0,
+        "endY": 3325.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626853",
+        "ticket": 626853
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1400.0,
+        "startY": 3325.0,
+        "endX": 1450.0,
+        "endY": 3375.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626854",
+        "ticket": 626854
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1450.0,
+        "startY": 3375.0,
+        "endX": 1460.0,
+        "endY": 3400.0,
+        "width": 60,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_trunk_626855",
+        "ticket": 626855
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1460.0,
+        "centerY": 3400.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_trunk_626856",
+        "ticket": 626856
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1460.0,
+        "startY": 3400.0,
+        "endX": 1476.378,
+        "endY": 3437.0069,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_parallel_626863",
+        "ticket": 626863
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1020.0,
+        "centerY": 3345.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_626864",
+        "ticket": 626864
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1045.0,
+        "startY": 3345.0,
+        "endX": 1020.0,
+        "endY": 3345.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_626865",
+        "ticket": 626865
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1045.0,
+        "startY": 3345.0,
+        "endX": 1020.0,
+        "endY": 3345.0,
+        "width": 40,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "power_parallel_626866",
+        "ticket": 626866
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "ruleName": "",
+        "centerX": 1485.0,
+        "centerY": 3400.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_626867",
+        "ticket": 626867
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "startX": 1460.0,
+        "startY": 3400.0,
+        "endX": 1485.0,
+        "endY": 3400.0,
+        "width": 60,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "power_parallel_626868",
+        "ticket": 626868
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 1460.0,
+        "startY": 3400.0,
+        "endX": 1485.0,
+        "endY": 3400.0,
+        "width": 60,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": [],
+  "review": "Via ampacity, return paths and native DRC remain required."
+}

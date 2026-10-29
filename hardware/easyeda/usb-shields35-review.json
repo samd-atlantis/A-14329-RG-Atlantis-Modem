@@ -1,0 +1,420 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626811",
+        "ticket": 626811
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 2786.85,
+        "startY": 388.58500000000004,
+        "endX": 3285.0,
+        "endY": 30.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626812",
+        "ticket": 626812
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3285.0,
+        "startY": 30.0,
+        "endX": 3485.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J16_J14_626813",
+        "ticket": 626813
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3485.0,
+        "startY": 40.0,
+        "endX": 3605.51,
+        "endY": 95.355,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe35_J17upper_0",
+        "ticket": 200003
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3985.51,
+        "startY": 95.355,
+        "endX": 3985.51,
+        "endY": 50,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe35_J17upper_1",
+        "ticket": 200004
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 3985.51,
+        "startY": 50,
+        "endX": 4174.49,
+        "endY": 50,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "pe35_J17upper_2",
+        "ticket": 200005
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4174.49,
+        "startY": 50,
+        "endX": 4174.49,
+        "endY": 95.355,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "report": [
+    {
+      "name": "J14upper",
+      "width": 20,
+      "issues": [
+        {
+          "id": "pe35_J14upper_1",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 1,
+            "startX": 3605.51,
+            "startY": 50,
+            "endX": 3794.49,
+            "endY": 50,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "LINE c3ef6b9b8d0a8cd0",
+              "USB_C_VBUS",
+              -9.921
+            ],
+            [
+              "LINE 116e29204add4870",
+              "USB_C_VBUS",
+              -9.921
+            ]
+          ]
+        },
+        {
+          "id": "pe35_J14upper_2",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 1,
+            "startX": 3794.49,
+            "startY": 50,
+            "endX": 3794.49,
+            "endY": 95.355,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "LINE 116e29204add4870",
+              "USB_C_VBUS",
+              -14.921
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "between",
+      "width": 20,
+      "issues": [
+        {
+          "id": "pe35_between_0",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 1,
+            "startX": 3794.49,
+            "startY": 95.355,
+            "endX": 3794.49,
+            "endY": 50,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "LINE 116e29204add4870",
+              "USB_C_VBUS",
+              -14.921
+            ]
+          ]
+        },
+        {
+          "id": "pe35_between_1",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 1,
+            "startX": 3794.49,
+            "startY": 50,
+            "endX": 3985.51,
+            "endY": 50,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "LINE 116e29204add4870",
+              "USB_C_VBUS",
+              -9.921
+            ],
+            [
+              "LINE 12d913c3cafc2fa7",
+              "USB_C_VBUS",
+              -9.921
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "J17upper",
+      "width": 20,
+      "issues": []
+    },
+    {
+      "name": "J141",
+      "width": 20,
+      "issues": [
+        {
+          "id": "pe35_J141_0",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 2,
+            "startX": 3605.51,
+            "startY": 264.645,
+            "endX": 3605.51,
+            "endY": 95.355,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "LINE e19a33cc0be99fd3",
+              "USB_C_CC1",
+              -14.921
+            ],
+            [
+              "LINE fe7134bd934f0874",
+              "USB_C_CC1",
+              -1.14
+            ],
+            [
+              "VIA 5bf0c5c100ef4581",
+              "USB_C_CC1",
+              -6.065
+            ],
+            [
+              "VIA 46ae71ca812935b5",
+              "USB_C_VBUS",
+              3.778
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "J142",
+      "width": 20,
+      "issues": [
+        {
+          "id": "pe35_J142_0",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 2,
+            "startX": 3794.49,
+            "startY": 264.645,
+            "endX": 3794.49,
+            "endY": 95.355,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "VIA bd51daf637e78c55",
+              "USB_C_CC2",
+              3.777
+            ],
+            [
+              "LINE e5eca76d9d79f6a3",
+              "USB_C_VBUS",
+              0.832
+            ],
+            [
+              "VIA c59eedb56d209acf",
+              "USB_C_VBUS",
+              -6.058
+            ],
+            [
+              "LINE 9b379dcd0770fdaf",
+              "USB_C_VBUS",
+              -14.921
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "J171",
+      "width": 20,
+      "issues": [
+        {
+          "id": "pe35_J171_0",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 2,
+            "startX": 3985.51,
+            "startY": 264.645,
+            "endX": 3985.51,
+            "endY": 95.355,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "LINE remaining_USB_C_VBU53fcbec6105dfa28",
+              "USB_C_VBUS",
+              -14.921
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "J172",
+      "width": 20,
+      "issues": [
+        {
+          "id": "pe35_J172_0",
+          "net": "CHASSIS_PE",
+          "geometry": {
+            "partitionId": "",
+            "groupId": 0,
+            "netName": "CHASSIS_PE",
+            "layerId": 2,
+            "startX": 4174.49,
+            "startY": 264.645,
+            "endX": 4174.49,
+            "endY": 95.355,
+            "width": 20,
+            "locked": false,
+            "zIndex": -1
+          },
+          "conflicts": [
+            [
+              "LINE 999a69b763738e3b",
+              "MUSB_CC2",
+              -9.017
+            ],
+            [
+              "LINE d5e749db05bfb2a8",
+              "MUSB_CC2",
+              -14.921
+            ],
+            [
+              "VIA 6370645a0e7e34de",
+              "MUSB_CC2",
+              -6.065
+            ],
+            [
+              "VIA e8f2d96dfd3f7f2a",
+              "MUSB_VBUS",
+              3.786
+            ],
+            [
+              "LINE remaining_MUSB_VBU863c0407151d8399",
+              "MUSB_VBUS",
+              -14.921
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

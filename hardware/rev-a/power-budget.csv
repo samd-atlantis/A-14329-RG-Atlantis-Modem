@@ -1,0 +1,4 @@
+case,modem_A,router_A,wifi_ble_A,output_3V3_W,input_5V_W,input_5V_A,buck_loss_W,headroom_to_assumed_14W
+Idle,0.2,0.25,0.08,1.749,2.487,0.497,0.238,11.512
+Working,1,0.6,0.2,5.94,7.25,1.45,0.81,6.75
+Coincident peak,2,1,0.35,11.055,13.062,2.612,1.508,0.938

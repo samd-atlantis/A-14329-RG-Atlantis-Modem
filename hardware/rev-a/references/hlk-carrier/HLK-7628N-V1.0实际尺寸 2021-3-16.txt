@@ -1,0 +1,5 @@
+单位：毫米（mm）
+WIFI
+PWR
+ANT1
+ANT2

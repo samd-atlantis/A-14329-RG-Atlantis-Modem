@@ -1,0 +1,19 @@
+{
+  "bomCount": 93,
+  "cplCount": 93,
+  "removed": [
+    "C41",
+    "C42",
+    "C43",
+    "C44",
+    "C51",
+    "C52",
+    "C53",
+    "C54",
+    "U20",
+    "MODEM1"
+  ],
+  "missing": [],
+  "source": "EasyEDA PCB1 native BOM and CPL exports 2026-10-29",
+  "note": "Exact designator agreement only. Ethernet center-tap capacitor population remains an unresolved engineering review, not fabrication release."
+}

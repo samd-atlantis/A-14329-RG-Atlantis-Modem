@@ -1,0 +1,39 @@
+#!/bin/sh
+# MCP23008: A2:A0=000 => 0x20; GP0 SIM, GP1 OFF, GP2 reset request.
+# Do not enable until I2C bus, polarity, power-down and SIM paths are bench verified.
+set -eu
+[ "$(uci -q get gateway.main.hardware_validated)" = 1 ] || { echo 'Carrier hardware has not been validated' >&2; exit 1; }
+bus="$(uci -q get gateway.main.i2c_bus)"
+case "$bus" in ''|*[!0-9]*) exit 1;; esac
+slot="${2:-$(uci -q get gateway.main.sim_slot)}"
+case "$slot" in A) value=0;; B) value=1;; *) exit 1;; esac
+# MB00 ships with U20 absent. Never cut power or select an empty SIM path.
+if [ "$slot" = B ] && [ "$(uci -q get gateway.main.esim_populated || echo 0)" != 1 ]; then
+	echo 'SIM B unavailable: onboard eSIM U20 is not populated' >&2
+	exit 1
+fi
+command="${1:-}"
+case "$command" in init|select|powercycle) ;; *) exit 1;; esac
+mkdir /var/lock/gateway-hardware 2>/dev/null || { echo 'Carrier operation already running' >&2; exit 1; }
+cleanup() { rmdir /var/lock/gateway-hardware; }
+trap cleanup EXIT
+# After a failed write, keep network down and report failure. Never pretend success.
+if [ "$command" = init ]; then
+	# Write latch before enabling outputs: SIM chosen, modem enabled, reset deasserted.
+	i2cset -y "$bus" 0x20 0x0a "$value"
+	i2cset -y "$bus" 0x20 0x00 0xf8
+else
+	ifdown cellular
+	# A commanded rail cut is disruptive; no rapid unattended reset loop.
+	current="$(i2cget -y "$bus" 0x20 0x0a)"
+	i2cset -y "$bus" 0x20 0x0a "$(( (current & 1) | 2 ))"
+	sleep 3
+	# SIM lines only change with modem supply disabled.
+	i2cset -y "$bus" 0x20 0x0a "$((value | 2))"
+	sleep 1
+	i2cset -y "$bus" 0x20 0x0a "$value"
+	uci set gateway.main.sim_slot="$slot"
+	uci commit gateway
+	sleep 12
+	ifup cellular
+fi

@@ -1,0 +1,168 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "ground-endpoints34-working-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J9_J9_641806",
+        "ticket": 641806
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 1875.0,
+        "startY": 2208.935,
+        "endX": 1890.0,
+        "endY": 2165.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J9_J9_641807",
+        "ticket": 641807
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 1890.0,
+        "startY": 2165.0,
+        "endX": 1900.0,
+        "endY": 2155.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_GND_ISO_J9_J9_641808",
+        "ticket": 641808
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 1900.0,
+        "centerY": 2155.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J9_J9_641809",
+        "ticket": 641809
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 2,
+        "startX": 1900.0,
+        "startY": 2155.0,
+        "endX": 2145.0,
+        "endY": 2050.0,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_GND_ISO_J9_J9_641810",
+        "ticket": 641810
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "ruleName": "",
+        "centerX": 2145.0,
+        "centerY": 2050.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_GND_ISO_J9_J9_641811",
+        "ticket": 641811
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "startX": 2145.0,
+        "startY": 2050.0,
+        "endX": 2180.51,
+        "endY": 2047.515,
+        "width": 12.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      1875.0,
+      2208.935
+    ],
+    [
+      1,
+      1890.0,
+      2165.0
+    ],
+    [
+      1,
+      1900.0,
+      2155.0
+    ],
+    [
+      2,
+      1900.0,
+      2155.0
+    ],
+    [
+      2,
+      2145.0,
+      2050.0
+    ],
+    [
+      1,
+      2145.0,
+      2050.0
+    ],
+    [
+      1,
+      2180.51,
+      2047.515
+    ]
+  ],
+  "issues": []
+}

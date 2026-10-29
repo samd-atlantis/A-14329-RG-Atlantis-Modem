@@ -1,0 +1,53 @@
+{
+  "native_export_valid": true,
+  "components": 81,
+  "connected_pin_wires": 354,
+  "no_connect_pins": 85,
+  "vertical_ethernet": {
+    "J2": {
+      "mpn": "HR915310AE",
+      "supplier_part": "C19724785",
+      "through_hole_pads": 14
+    },
+    "J3": {
+      "mpn": "HR915310AE",
+      "supplier_part": "C19724785",
+      "through_hole_pads": 14
+    },
+    "J4": {
+      "mpn": "HR915310AE",
+      "supplier_part": "C19724785",
+      "through_hole_pads": 14
+    },
+    "J5": {
+      "mpn": "HR915310AE",
+      "supplier_part": "C19724785",
+      "through_hole_pads": 14
+    }
+  },
+  "dnp": [
+    "J11",
+    "SW2",
+    "C41",
+    "C51",
+    "C42",
+    "C52",
+    "C43",
+    "C53",
+    "C44",
+    "C54",
+    "R82"
+  ],
+  "schematic_drc": {
+    "errors": 0,
+    "warnings": 0,
+    "info": "Ai-WB2-13U pad 19 absent from symbol"
+  },
+  "release_gates": [
+    "Verify Ai-WB2-13U pad 19 land pattern",
+    "Resolve PHY center tap bias",
+    "Mains protection / isolation / PE review",
+    "Modem power transient and thermal validation",
+    "Firmware / carrier integration"
+  ]
+}

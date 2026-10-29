@@ -1,0 +1,29 @@
+Routing checkpoint 2026-10-28
+
+Saved live EasyEDA PCB1 and native export pcb-routing-pass1.epro2.
+Backup pcb-before-routing-20261028.epro-source preserves user placement.
+261 native top-layer LINE track segments; no vias or planes added in this pass.
+Local signal/ground width 0.25 mm; selected local 3V3_ROUTER links 0.30 mm.
+No mains, switch-node or USB/Ethernet differential traces added. Existing routing rules retained.
+
+Placement changes (native coordinates mil):
+C92 3440,555,180; R95 3420,655,180; R96 3420,605,0
+U15 4080,325,-90; R92 3975,350,0
+R97 4340,580,90; R98 4340,690,90
+C94 4340,800,180; R99 4470,800,-90
+U8 3310,650,0; C60 3400,750,90; U9 4140,850,0
+USB mux removed from copper-exclusion band; continuous reference plane still needs creation and validation.
+Main connectors, mains section, outline, enclosure holes and modem geometry retained.
+
+Native DRC baseline 470: 456 disconnected-pad reports, 12 same-footprint TH clearance flags, 1 mechanical modem model prohibited-region flag, 1 schematic comparison flag.
+Final DRC 360: 346 disconnected-pad reports, same 12 TH flags, same 1 mechanical flag and 1 comparison flag.
+No new pad/track clearance violations. No SMD-to-SMD violations after placement adjustments.
+Net pad maps preserved. ECO report proposes metadata/channel ID updates, PCB-only MODEM1 removal, and rule changes; no pin-net changes. Do not bulk-apply removal or delete PCB-specific routing constraints.
+
+Remaining work:
+- Manufacturer/fabricator-confirmed 4-layer stack and 90-ohm USB / 100-ohm Ethernet pair geometry, reference planes, matched routing and return stitching.
+- Route remaining low-voltage signals and power with short buck hot loops, feedback separation and modem transient-current paths.
+- 10 A L/N/PE distribution copper, thermal/fault/protection analysis and isolation review. No narrow starter routes on mains.
+- Resolve terminal duplicate TH pad flags in verified footprints, distinguish mechanical model warning from true clearance faults, and synchronize schematic metadata carefully.
+- Validate full component-body/cable clearance, enclosure fit and modem retention hardware; prior underside-nut/clamped-standoff alternative has not replaced existing NT4 geometry.
+- Final DRC/ERC/manufacturing review and prototype testing. This is a partial routing checkpoint, not fabrication release.

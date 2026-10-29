@@ -1,0 +1,40 @@
+#!/bin/sh
+. /usr/share/libubox/jshn.sh
+case "$1" in
+list)
+	echo '{"status":{},"select_sim":{"slot":""},"powercycle":{}}'
+	;;
+call)
+	case "$2" in
+	status)
+		json_init
+		json_add_string serial "$(uci -q get gateway.main.serial)"
+		json_add_string site "$(uci -q get gateway.main.site_name)"
+		json_add_string sim "$(uci -q get gateway.main.sim_slot)"
+		json_add_boolean hardware_validated "$(uci -q get gateway.main.hardware_validated || echo 0)"
+		json_add_boolean modem_present "$([ -c /dev/cdc-wdm0 ] && echo 1 || echo 0)"
+		json_add_string version '0.1.0-dev'
+		json_dump
+		;;
+	select_sim|powercycle)
+		read -r request
+		json_load "$request"
+		if [ "$2" = select_sim ]; then
+			json_get_var slot slot
+			case "$slot" in A|B) ;; *) echo '{"ok":false,"message":"Invalid SIM slot"}'; exit 0;; esac
+			op=select
+		else
+			slot="$(uci -q get gateway.main.sim_slot)"
+			op=powercycle
+		fi
+		if result="$(/usr/sbin/gateway-hardware "$op" "$slot" 2>&1)"; then
+			json_init; json_add_boolean ok 1; json_add_string message 'Modem restarted; cellular reconnection requested'
+		else
+			json_init; json_add_boolean ok 0; json_add_string message "$result"
+		fi
+		json_dump
+		;;
+	*) echo '{}';;
+	esac
+	;;
+esac

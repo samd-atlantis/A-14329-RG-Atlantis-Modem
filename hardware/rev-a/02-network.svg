@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img">
+<rect width="1200" height="760" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b40} .small{font-size:15px} .wire{stroke:#187f73;stroke-width:2;fill:none}</style>
+<text x="30" y="40" font-size="24">02 / Four-port LAN, cellular and Wi-Fi/Bluetooth</text>
+<text x="30" y="68" font-size="15" fill="#a34b00">Rev A • Functional schematic • Pin mapping and component ratings unresolved • NOT FOR FABRICATION</text>
+<rect x="40" y="120" width="280" height="145" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="52" y="145" font-size="16">U1: HLK-7628N</text>
+<text x="52" y="168" font-size="16">128 MB / 32 MB candidate</text>
+<text x="52" y="191" font-size="16">USB host + integrated switch</text>
+<text x="52" y="214" font-size="16">Native Wi-Fi: IP networking</text>
+<rect x="450" y="100" width="310" height="120" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="462" y="125" font-size="16">J2–J5: four 10/100 MagJacks</text>
+<text x="462" y="148" font-size="16">MDI pairs, matching magnetics</text>
+<text x="462" y="171" font-size="16">ESD / chassis network TBD</text>
+<rect x="450" y="285" width="310" height="120" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="462" y="310" font-size="16">U4: EG25-GL Mini PCIe</text>
+<text x="462" y="333" font-size="16">USB 2.0 + modem power</text>
+<text x="462" y="356" font-size="16">SIM interface → sheet 03</text>
+<rect x="450" y="460" width="310" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="462" y="485" font-size="16">U5: Ai-WB2-13</text>
+<text x="462" y="508" font-size="16">Wi-Fi / Bluetooth LE retained</text>
+<text x="462" y="531" font-size="16">UART provisioning endpoint</text>
+<rect x="875" y="285" width="280" height="120" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="887" y="310" font-size="16">ANT1 / ANT2</text>
+<text x="887" y="333" font-size="16">LTE main + diversity</text>
+<text x="887" y="356" font-size="16">Matched coax and SMA</text>
+<rect x="875" y="460" width="280" height="100" rx="5" fill="#eef5fa" stroke="#172b40"/>
+<text x="887" y="485" font-size="16">2.4 GHz antenna provisions</text>
+<text x="887" y="508" font-size="16">U1: antenna per module guide</text>
+<text x="887" y="531" font-size="16">U5: PCB antenna keepout</text>
+<path class="wire" d="M320 160 H450"/><text class="small" x="335" y="148">LAN1–LAN4</text>
+<path class="wire" d="M320 205 H370 V330 H450"/><text class="small" x="335" y="315">USB D+/D−</text>
+<path class="wire" d="M320 240 H350 V505 H450"/><text class="small" x="355" y="493">UART TX/RX + CTRL</text>
+<path class="wire" d="M760 335 H875"/><text class="small" x="775" y="323">50 ohm RF</text>
+<path class="wire" d="M760 505 H875"/><text class="small" x="770" y="493">RF provisions</text>
+<text class="small" x="30" y="590">Native router Wi-Fi is the candidate IP path for controllers; Ai-WB2-13 retains BLE / Wi-Fi provisioning.</text>
+<text class="small" x="30" y="614">UART transparent data is not an automatic IP bridge. Wi-Fi topology and firmware must be demonstrated.</text>
+<text class="small" x="30" y="638">Separate UART service console required; pin mux and logic levels remain unresolved.</text>
+<text class="small" x="30" y="662">USB: short 90-ohm differential layout target; PHY guidance and exact modem connector pinout control final design.</text>
+<text class="small" x="30" y="686">No LoRa device or antenna is included. Wi-Fi/Bluetooth are explicitly retained.</text>
+<text x="30" y="738" font-size="13">Walchem gateway | 120 VAC | EG25-GL | 4 LAN | Wi-Fi + BLE retained | LoRa omitted | 2026-10-27</text></svg>

@@ -1,0 +1,3725 @@
+
+=== PDF PAGE 1 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 1
+MCP23008/MCP23S08
+Features
+• AEC-Q100 Qualified
+• 8-Bit Remote Bidirectional I/O Port (Pin GP7 is 
+output only for MCP23008)
+- I/O pins default to input
+• High-Speed I2C Interface (MCP23008)
+- 100 kHz
+- 400 kHz
+- 1.7 MHz
+• High-Speed SPI Interface (MCP23S08)
+- 10 MHz
+• Hardware Address Pins
+- Three for the MCP23008 to allow up to eight 
+devices on the bus
+- Two for the MCP23S08 to allow up to four 
+devices using the same Chip Select
+• Configurable Interrupt Output Pin
+- Configurable as active-high, active-low or 
+open-drain
+• Configurable Interrupt Source
+- Interrupt-on-change from configured defaults 
+or pin change
+• Polarity Inversion Register to Configure the 
+Polarity of the Input Port Data
+• External Reset Input
+• Low Standby Current: 1 µA (max.)
+• Operating Voltage:
+- 1.8V to 5.5V at -40°C to +85°C
+I2C at 100 kHz
+SPI at 5 MHz
+- 2.7V to 5.5V at -40°C to +85°C
+I2C at 400 kHz
+SPI at 10 MHz
+- 4.5V to 5.5V at -40°C to +125°C
+I2C at 1.7 MHz
+SPI at 10 MHz
+Packages
+• 18-pin PDIP (300 mil)
+• 18-pin SOIC (300 mil)
+• 20-pin SSOP
+• 20-pin QFN
+Block Diagram
+GP0
+GP1
+GP2
+GP3
+GP4
+GP5
+GP6
+GP7
+Serial
+Control
+GPIO
+SCL
+SDA
+RESET
+INT
+8
+Configuration/
+8
+A2:A0
+3
+Control
+Registers
+Serializer/
+Deserializer
+Interrupt
+Logic 
+VDD
+VSS
+POR
+Decode 
+Interface 
+SCK
+SI
+SO
+MCP23S08
+MCP23008
+A1:A0
+MCP23S08
+8-Bit I/O Expander with Serial Interface
+
+
+=== PDF PAGE 2 ===
+MCP23008/MCP23S08
+DS20001919I-page 2
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+Package Types
+SDA
+SCL
+NC
+INT
+RESET
+A1
+GP4
+VDD
+GP7
+GP6
+GP5
+GP3
+GP2
+1
+2
+3
+4
+5
+6
+7
+18
+17
+16
+15
+14
+13
+12
+PDIP/SOIC
+8
+9
+11
+10
+GP1
+GP0
+A0
+A2
+VSS
+MCP23008
+MCP23008
+MCP23008
+13
+12
+1
+2
+3
+4
+5
+6
+7
+8
+9
+20
+19
+18
+17
+16
+15
+14
+11
+10
+GP3
+VDD
+GP7
+GP6
+GP5
+GP2
+GP1
+GP0
+N/C
+GP4
+SDA
+SCL
+VSS
+A0
+N/C
+A1
+RESET
+A2
+NC
+INT
+ SSOP
+MCP23008
+20
+19
+18
+17
+16
+6
+7
+8
+9
+10
+15
+14
+13
+12
+11
+1
+2
+3
+4
+5
+QFN
+SCL
+SDA
+VSS
+A0
+N/C
+A1
+RESET
+A2
+NC
+INT
+GP3
+VDD
+GP7
+GP6
+GP5
+GP2
+GP1
+GP0
+N/C
+GP4
+
+
+=== PDF PAGE 3 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 3
+MCP23008/MCP23S08
+Package Types: (Continued)
+SI
+SCK
+CS
+INT
+RESET
+A1
+GP4
+VDD
+GP7
+GP6
+GP5
+GP3
+GP2
+1
+2
+3
+4
+5
+6
+7
+18
+17
+16
+15
+14
+13
+12
+PDIP/SOIC
+8
+9
+11
+10
+GP1
+GP0
+A0
+SO
+VSS
+MCP23S08
+MCP23S08
+MCP23S08
+13
+12
+1
+2
+3
+4
+5
+6
+7
+8
+9
+20
+19
+18
+17
+16
+15
+14
+11
+10
+GP3
+VDD
+GP7
+GP6
+GP5
+GP2
+GP1
+GP0
+N/C
+GP4
+SI
+SCK
+VSS
+A0
+N/C
+A1
+RESET
+SO
+CS
+INT
+ SSOP
+QFN
+MCP23S08
+20
+19
+18
+17
+16
+6
+7
+8
+9
+10
+15
+14
+13
+12
+11
+1
+2
+3
+4
+5
+SCK
+SI
+VSS
+A0
+N/C
+A1
+RESET
+SO
+CS
+INT
+GP3
+VDD
+GP7
+GP6
+GP5
+GP2
+GP1
+GP0
+N/C
+GP4
+
+
+=== PDF PAGE 4 ===
+MCP23008/MCP23S08
+DS20001919I-page 4
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.0
+DEVICE OVERVIEW
+MCP23X08 device provides 8-bit, general purpose,
+parallel I/O expansion for I2C bus or SPI applications.
+The two devices differ in the number of hardware
+address pins and the serial interface:
+• MCP23008 – I2C interface; three address pins
+• MCP23S08 – SPI interface; two address pins
+MCP23X08 consists of multiple 8-bit Configuration
+registers for input, output and polarity selection. The
+system host can enable the I/Os as either inputs or out-
+puts by writing the I/O Configuration bits. The data for
+each input or output is kept in the corresponding Input
+or Output register. The polarity of the Input Port register
+can be inverted with the Polarity Inversion register. All
+registers can be read by the system host.
+The interrupt output can be configured to activate
+under two conditions (mutually exclusive):
+1.
+When 
+any 
+input 
+state 
+differs 
+from 
+its
+corresponding Input Port register state, this is
+used to indicate to the system host that an input
+state has changed.
+2.
+When an input state differs from a preconfigured
+register value (DEFVAL register).
+The Interrupt Capture register captures port values at
+the time of the interrupt, thereby saving the condition
+that caused the interrupt.
+The Power-on Reset (POR) sets the registers to their
+default values and initializes the device state machine.
+The hardware address pins are used to determine the
+device address.
+1.1
+Pin Descriptions
+TABLE 1-1:
+PINOUT DESCRIPTION
+Pin
+Name
+PDIP/
+SOIC
+QFN
+SSOP
+Pin
+Type
+Function
+SCL/SCK
+1
+19
+1
+I
+Serial clock input.
+SDA/SI
+2
+20
+2
+I/O
+Serial data I/O (MCP23008)/Serial data input (MCP23S08).
+A2/SO
+3
+1
+3
+I/O
+Hardware address input (MCP23008)/
+Serial data output (MCP23S08). 
+A2 must be biased externally.
+A1
+4
+2
+4
+I
+Hardware address input. Must be biased externally.
+A0
+5
+3
+5
+I
+Hardware address input. Must be biased externally.
+RESET
+6
+4
+6
+I
+External Reset input. Must be biased externally.
+NC/CS
+7
+5
+7
+I
+No connect (MCP23008)/External Chip Select input (MCP23S08).
+INT
+8
+7
+8
+O
+Interrupt output. Can be configured for active-high, active-low or 
+open-drain.
+VSS
+9
+17
+9
+P
+Ground.
+GP0
+10
+9
+12
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.
+GP1
+11
+10
+13
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.
+GP2
+12
+11
+14
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.
+GP3
+13
+12
+15
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.
+GP4
+14
+13
+16
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.
+GP5
+15
+14
+17
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.
+GP6
+16
+15
+18
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.
+GP7
+17
+16
+19
+I/O
+Bidirectional I/O pin. Can be enabled for interrupt-on-change and/or 
+internal weak pull-up resistor.(MCP23S08)/
+Output Only (MCP23008).
+VDD
+18
+18
+20
+P
+Power.
+N/C
+—
+6, 8
+10, 11
+—
+—
+
+
+=== PDF PAGE 5 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 5
+MCP23008/MCP23S08
+1.2
+Power-on Reset (POR)
+The on-chip POR circuit holds the device in Reset until
+VDD has reached a high enough voltage to deactivate
+the POR circuit (i.e., release the device from Reset).
+The maximum VDD rise time is specified in
+Section 2.0, Electrical Characteristics.
+When the device exits the POR condition (releases
+Reset), device operating parameters (i.e., voltage,
+temperature, serial bus frequency, etc.) must be met to
+ensure proper operation.
+1.3
+Serial Interface
+This block handles the functionality of the I2C
+(MCP23008) or SPI (MCP23S08) interface protocol.
+The MCP23X08 contains eleven registers that can be
+addressed 
+through 
+the 
+serial 
+interface 
+block
+(Table 1-2):
+TABLE 1-2:
+REGISTER ADDRESSES
+1.3.1
+SEQUENTIAL OPERATION BIT
+The Sequential Operation (SEQOP) bit (IOCON
+register) controls the operation of the Address Pointer.
+The Address Pointer can either be enabled (default) to
+allow the Address Pointer to increment automatically
+after each data transfer, or it can be disabled.
+When operating in Sequential mode (IOCON.SEQOP
+= 0), the Address Pointer automatically increments to
+the next address after each byte is clocked.
+When operating in Byte mode (IOCON.SEQOP = 1),
+the MCP23X08 does not increment its address counter
+after each byte during the data transfer. This gives the
+ability to continually read the same address by
+providing extra clocks (without additional control
+bytes). This is useful for polling the GPIO register for
+data changes.
+1.3.2
+I2C INTERFACE
+1.3.2.1
+I2C Write Operation
+The I2C Write operation includes the control byte and
+register address sequence, as shown in the bottom of
+Figure 1-1. This sequence is followed by eight bits of
+data from the host and an Acknowledge (ACK) from the
+MCP23008. The operation is ended with a STOP or
+RESTART condition being generated by the host.
+Data is written to the MCP23008 after every byte trans-
+fer. If a STOP or RESTART condition is generated
+during a data transfer, the data will not be written to the
+MCP23008.
+Byte writes and sequential writes are both supported by
+the MCP23008. The MCP23008 increments its
+address counter after each ACK during the data
+transfer.
+1.3.2.2
+I2C Read Operation
+The I2C Read operation includes the control byte
+sequence, as shown in the bottom of Figure 1-1. This
+sequence is followed by another control byte (including
+the START condition and ACK) with the R/W bit equal
+to a logic ‘1’ (R/W = 1). The MCP23008 then transmits
+the data contained in the addressed register. The
+sequence is ended with the host generating a STOP or
+RESTART condition.
+1.3.2.3
+I2C Sequential Write/Read
+For sequential operations (Write or Read), instead of
+transmitting a STOP or RESTART condition after the
+data transfer, the host clocks the next byte pointed to by
+the Address Pointer (see Section 1.3.1 “Sequential
+Operation Bit” for details regarding sequential
+operation control).
+The sequence ends with the host sending a STOP or
+RESTART condition.
+The MCP23008 Address Pointer will roll over to
+address zero after reaching the last register address.
+Refer to Figure 1-1.
+1.3.3
+SPI INTERFACE
+1.3.3.1
+SPI Write Operation
+The SPI Write operation is started by lowering CS. The
+Write command (client address with R/W bit cleared) is
+then clocked into the device. The opcode is followed by
+an address and at least one data byte.
+1.3.3.2
+SPI Read Operation
+The SPI Read operation is started by lowering CS. The
+SPI Read command (client address with R/W bit set) is
+then clocked into the device. The opcode is followed by
+an address, with at least one data byte being clocked
+out of the device.
+Address
+Access to:
+00h
+IODIR
+01h
+IPOL
+02h
+GPINTEN
+03h
+DEFVAL
+04h
+INTCON
+05h
+IOCON
+06h
+GPPU
+07h
+INTF
+08h
+INTCAP (Read-only)
+09h
+GPIO
+0Ah
+OLAT
+
+
+=== PDF PAGE 6 ===
+MCP23008/MCP23S08
+DS20001919I-page 6
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+FIGURE 1-1:
+MCP23008 I2C Device Protocol.
+1.3.3.3
+SPI Sequential Write/Read
+For sequential operations, instead of deselecting the
+device by raising CS, the host clocks the next byte
+pointed to by the Address Pointer.
+The sequence ends by the raising of CS.
+The MCP23S08 Address Pointer will roll over to
+address zero after reaching the last register address.
+1.4
+Hardware Address Decoder
+The hardware address pins are used to determine the
+device 
+address. 
+To 
+address 
+a 
+device, 
+the
+corresponding address bits in the control byte must
+match the pin state.
+• MCP23008 has address pins A2, A1 and A0.
+• MCP23S08 has address pins A1 and A0.
+The pins must be biased externally.
+S
+P
+SR
+w
+R
+OP
+ADDR
+DOUT
+DIN
+- START
+- RESTART
+- STOP
+- Write
+- Read
+- Device opcode
+- Device address
+- Data out from MCP23008
+- Data into MCP23008
+S
+P
+SR
+W
+R
+OP
+ADDR
+DIN
+DIN
+....
+S
+P
+W
+R
+OP
+ADDR
+DOUT
+DOUT
+....
+P
+SR
+W
+OP
+DIN
+DIN
+....
+P
+P
+SR
+R
+DOUT
+DOUT
+....
+P
+OP
+DOUT
+DOUT
+....
+P
+SR
+OP
+DIN
+....
+P
+OP
+DIN
+S
+P
+W
+OP
+ADDR
+DIN
+DIN
+....
+Byte and Sequential Write
+SR
+R
+OP
+DOUT
+DOUT
+....
+P
+Byte and Sequential Read
+S
+W
+OP
+ADDR
+DIN
+P
+SR
+R
+OP
+DOUT
+P
+Byte
+Sequential
+Byte
+Sequential
+S
+W
+OP
+ADDR
+S
+W
+OP
+ADDR
+
+
+=== PDF PAGE 7 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 7
+MCP23008/MCP23S08
+1.4.1
+ADDRESSING I2C DEVICES 
+(MCP23008)
+The MCP23008 is a client I2C device that supports 7-bit
+client addressing, with the read/write bit filling out the
+control byte. The client address contains four fixed bits
+and three user-defined hardware address bits (pins A2,
+A1 and A0). Figure 1-2 shows the control byte format.
+1.4.2
+ADDRESSING SPI DEVICES 
+(MCP23S08)
+The MCP23S08 is a client SPI device. The client
+address contains five fixed bits and two user-defined
+hardware address bits (pins A1 and A0), with the
+read/write bit filling out the control byte. Figure 1-3
+shows the control byte format.
+FIGURE 1-2:
+I2C Control Byte Format.
+FIGURE 1-3:
+SPI Control Byte Format.
+FIGURE 1-4:
+I2C Addressing Registers.
+FIGURE 1-5:
+SPI Addressing Registers.
+S
+0
+1
+0
+0
+A2
+A1
+A0
+R/W
+ACK
+Start
+bit
+Client Address
+R/W bit
+ACK bit
+Control Byte
+R/W = 0 = write
+R/W = 1 = read
+0
+1
+0
+0
+0
+A1
+A0
+R/W
+Client Address
+R/W bit
+Control Byte
+R/W = 0 = write
+R/W = 1 = read
+CS
+S
+0
+1
+0
+0
+A2
+A1
+A0
+0
+ACK
+A7
+A6
+A5
+A4
+A3
+A2
+A1
+A0
+ACK
+Device Opcode
+Register Address
+R/W = 0
+The ACKs are provided by the MCP23008.
+0
+1
+0
+0
+0
+A1
+A0
+R/W
+A7
+A6
+A5
+A4
+A3
+A2
+A1
+A0
+Device Opcode
+Register Address
+CS
+
+
+=== PDF PAGE 8 ===
+MCP23008/MCP23S08
+DS20001919I-page 8
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.5
+GPIO Port
+The GPIO module contains the data port (GPIO),
+internal pull-up resistors and the Output Latches
+(OLAT).
+Reading the GPIO register reads the value on the port.
+Reading the OLAT register only reads the OLAT, not
+the actual value on the port.
+Writing to the GPIO register actually causes a write to
+the OLAT. Writing to the OLAT register forces the
+associated output drivers to drive to the level in OLAT.
+Pins configured as inputs turn off the associated output
+driver and put it in high-impedance.
+1.6
+Configuration and Control 
+Registers
+The Configuration and Control blocks contain the
+registers as shown in Table 1-3.
+TABLE 1-3:
+CONFIGURATION AND CONTROL REGISTERS
+Register 
+Name
+Address 
+(hex)
+bit 7
+bit 6
+bit 5
+bit 4
+bit 3
+bit 2
+bit 1
+bit 0
+POR/RST 
+value
+IODIR
+00
+IO7
+IO6
+IO5
+IO4
+IO3
+IO2
+IO1
+IO0
+1111 1111
+IPOL
+01
+IP7
+IP6
+IP5
+IP4
+IP3
+IP2
+IP1
+IP0
+0000 0000
+GPINTEN
+02
+GPINT7
+GPINT6
+GPINT5
+GPINT4
+GPINT3
+GPINT2
+GPINT1
+GPINT0
+0000 0000
+DEFVAL
+03
+DEF7
+DEF6
+DEF5
+DEF4
+DEF3
+DEF2
+DEF1
+DEF0
+0000 0000
+INTCON
+04
+IOC7
+IOC6
+IOC5
+IOC4
+IOC3
+IOC2
+IOC1
+IOC0
+0000 0000
+IOCON
+05
+—
+—
+SREAD
+DISSLW
+HAEN*
+ODR
+INTPOL
+—
+--00 000-
+GPPU
+06
+PU7
+PU6
+PU5
+PU4
+PU3
+PU2
+PU1
+PU0
+0000 0000
+INTF
+07
+INT7
+INT6
+INT5
+INT4
+INT3
+INT2
+INT1
+INTO
+0000 0000
+INTCAP
+08
+ICP7
+ICP6
+ICP5
+ICP4
+ICP3
+ICP2
+ICP1
+ICP0
+0000 0000
+GPIO
+09
+GP7
+GP6
+GP5
+GP4
+GP3
+GP2
+GP1
+GP0
+0000 0000
+OLAT
+0A
+OL7
+OL6
+OL5
+OL4
+OL3
+OL2
+OL1
+OL0
+0000 0000
+* Not used on the MCP23008.
+
+
+=== PDF PAGE 9 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 9
+MCP23008/MCP23S08
+1.6.1
+I/O DIRECTION (IODIR) REGISTER
+Controls the direction of the data I/O.
+When a bit is set, the corresponding pin becomes an
+input. When a bit is clear, the corresponding pin
+becomes an output.
+Note:
+For MCP23008, IO7 must be set via I2C interface to "0" (output).
+REGISTER 1-1:
+IODIR – I/O DIRECTION REGISTER (ADDR 0x00)
+R/W-1
+R/W-1
+R/W-1
+R/W-1
+R/W-1
+R/W-1
+R/W-1
+R/W-1
+IO7
+IO6
+IO5
+IO4
+IO3
+IO2
+IO1
+IO0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+IO7:IO0: These bits control the direction of data I/O [7:0]
+1 = Pin is configured as an input
+0 = Pin is configured as an output
+
+
+=== PDF PAGE 10 ===
+MCP23008/MCP23S08
+DS20001919I-page 10
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.6.2
+INPUT POLARITY (IPOL) REGISTER
+The IPOL register allows the user to configure the
+polarity on the corresponding GPIO port bits.
+If a bit is set, the corresponding GPIO register bit will
+reflect the inverted value on the pin.
+REGISTER 1-2:
+IPOL – INPUT POLARITY PORT REGISTER (ADDR 0x01)
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+IP7
+IP6
+IP5
+IP4
+IP3
+IP2
+IP1
+IP0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+IP7:IP0: These bits control the polarity inversion of the input pins [7:0]
+1 = GPIO register bit will reflect the opposite logic state of the input pin
+0 = GPIO register bit will reflect the same logic state of the input pin
+
+
+=== PDF PAGE 11 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 11
+MCP23008/MCP23S08
+1.6.3
+INTERRUPT-ON-CHANGE 
+CONTROL (GPINTEN) REGISTER
+The 
+GPINTEN 
+register 
+controls 
+the 
+interrupt-
+on-change feature for each pin.
+If a bit is set, the corresponding pin is enabled for
+interrupt-on-change. The DEFVAL and INTCON
+registers must also be configured if any pins are
+enabled for interrupt-on-change.
+REGISTER 1-3:
+GPINTEN – INTERRUPT-ON-CHANGE PINS (ADDR 0x02)
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+GPINT7
+GPINT6
+GPINT5
+GPINT4
+GPINT3
+GPINT2
+GPINT1
+GPINT0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+GPINT7:GPINT0: General Purpose I/O Interrupt-on-Change [7:0]
+1 = Enable GPIO input pin for interrupt-on-change event
+0 = Disable GPIO input pin for interrupt-on-change event
+Refer to INTCON and GPINTEN.
+
+
+=== PDF PAGE 12 ===
+MCP23008/MCP23S08
+DS20001919I-page 12
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.6.4
+DEFAULT COMPARE (DEFVAL) 
+REGISTER FOR 
+INTERRUPT-ON-CHANGE 
+The default comparison value is configured in the
+DEFVAL register. If enabled (via GPINTEN and
+INTCON) to compare against the DEFVAL register, an
+opposite value on the associated pin will cause an
+interrupt to occur.
+REGISTER 1-4:
+DEFVAL – DEFAULT VALUE REGISTER (ADDR 0x03)
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+DEF7
+DEF6
+DEF5
+DEF4
+DEF3
+DEF2
+DEF1
+DEF0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+DEF7:DEF0: These bits set the compare value for pins configured for interrupt-on-change from 
+defaults [7:0]. Refer to INTCON.
+If the associated pin level is the opposite from the register bit, an interrupt occurs.
+Refer to INTCON and GPINTEN.
+
+
+=== PDF PAGE 13 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 13
+MCP23008/MCP23S08
+1.6.5
+INTERRUPT CONTROL (INTCON) 
+REGISTER 
+The INTCON register controls how the associated pin
+value is compared for the interrupt-on-change feature.
+If a bit is set, the corresponding I/O pin is compared
+against the associated bit in the DEFVAL register. If a
+bit value is clear, the corresponding I/O pin is compared
+against the previous value.
+REGISTER 1-5:
+INTCON – INTERRUPT-ON-CHANGE CONTROL REGISTER (ADDR 0x04)
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+IOC7
+IOC6
+IOC5
+IOC4
+IOC3
+IOC2
+IOC1
+IOC0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+IOC7:IOC0: These bits control how the associated pin value is compared for interrupt-on-change [7:0]
+1 = Controls how the associated pin value is compared for interrupt-on-change
+0 = Pin value is compared against the previous pin value
+Refer to INTCON and GPINTEN.
+
+
+=== PDF PAGE 14 ===
+MCP23008/MCP23S08
+DS20001919I-page 14
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.6.6
+CONFIGURATION (IOCON) 
+REGISTER 
+The IOCON register contains several bits for
+configuring the device:
+• The Sequential Operation (SEQOP) controls the 
+incrementing function of the Address Pointer. If 
+the Address Pointer is disabled, the Address 
+Pointer does not automatically increment after 
+each byte is clocked during a serial transfer. This 
+feature is useful when it is desired to continuously 
+poll (read) or modify (write) a register.
+• The Slew Rate (DISSLW) bit controls the slew 
+rate function on the SDA pin. If enabled, the SDA 
+slew rate will be controlled when driving from a 
+high to a low.
+• The Hardware Address Enable (HAEN) control bit 
+enables/disables the hardware address pins (A1, 
+A0) on the MCP23S08. This bit is not used on the 
+MCP23008. The address pins are always enabled 
+on the MCP23008.
+• The Open-Drain (ODR) control bit 
+enables/disables the INT pin for open-drain 
+configuration.
+• The Interrupt Polarity (INTPOL) control bit sets 
+the polarity of the INT pin. This bit is functional 
+only when the ODR bit is cleared, configuring the 
+INT pin as active push-pull.
+REGISTER 1-6:
+IOCON – I/O EXPANDER CONFIGURATION REGISTER (ADDR 0x05)
+U-0
+U-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+U-0
+—
+—
+SEQOP
+DISSLW
+HAEN
+ODR
+INTPOL
+—
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-6
+Unimplemented: Read as ‘0’
+bit 5
+SEQOP: Sequential Operation Mode
+1 = Sequential operation disabled, Address Pointer does not increment
+0 =  Sequential operation enabled, Address Pointer increments
+bit 4
+DISSLW: Slew Rate Control Bit for SDA Output
+1 = Slew rate disabled
+0 =  Slew rate enabled
+bit 3
+HAEN: Hardware Address Enable (MCP23S08 only)
+Address pins are always enabled on MCP23008.
+1 = Enables the MCP23S08 address pins
+0 =  Disables the MCP23S08 address pins
+bit 2
+ODR: This bit configures the INT pin as an open-drain output
+1 = Open-drain output (overrides the INTPOL bit)
+0 =  Active driver output (INTPOL bit sets the polarity)
+bit 1
+INTPOL: This bit sets the polarity of the INT output pin
+1 = Active-high
+0 =  Active-low
+bit 0
+Unimplemented: Read as ‘0’
+
+
+=== PDF PAGE 15 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 15
+MCP23008/MCP23S08
+1.6.7
+PULL-UP RESISTOR 
+CONFIGURATION (GPPU) 
+REGISTER 
+The GPPU register controls the pull-up resistors for the
+PORT pins. If a bit is set and the corresponding pin is
+configured as an input, the corresponding PORT pin is
+internally pulled up with a 100 k resistor.
+REGISTER 1-7:
+GPPU – GPIO PULL-UP RESISTOR REGISTER (ADDR 0x06)
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+PU7
+PU6
+PU5
+PU4
+PU3
+PU2
+PU1
+PU0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+PU7:PU0: These bits control the weak pull-up resistors on each pin (when configured as an input) [7:0]
+1 = Pull-up enabled
+0 = Pull-up disabled
+
+
+=== PDF PAGE 16 ===
+MCP23008/MCP23S08
+DS20001919I-page 16
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.6.8
+INTERRUPT FLAG (INTF) 
+REGISTER 
+The INTF register reflects the interrupt condition on the
+PORT pins of any pin that is enabled for interrupts via
+the GPINTEN register. A ‘set’ bit indicates that the
+associated pin caused the interrupt.
+This register is ‘read-only’. Writes to this register will be
+ignored.
+Note:
+INTF will always reflect the pin(s) that
+have an interrupt condition. For example,
+one pin causes an interrupt to occur and is
+captured in INTCAP and INF. If before
+clearing 
+the 
+interrupt 
+another 
+pin
+changes, which would normally cause an
+interrupt, it will be reflected in INTF, but
+not INTCAP.
+REGISTER 1-8:
+INTF – INTERRUPT FLAG REGISTER (ADDR 0x07)
+R-0
+R-0
+R-0
+R-0
+R-0
+R-0
+R-0
+R-0
+INT7
+INT6
+INT5
+INT4
+INT3
+INT2
+INT1
+INT0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+INT7:INT0: These bits reflect the interrupt condition on the port. Will reflect the change only if interrupts 
+are enabled (GPINTEN) [7:0].
+1 = Pin caused interrupt
+0 = Interrupt not pending
+
+
+=== PDF PAGE 17 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 17
+MCP23008/MCP23S08
+1.6.9
+INTERRUPT CAPTURE (INTCAP) 
+REGISTER
+The INTCAP register captures the GPIO port value at
+the time the interrupt occurred. The register is
+‘read-only’ and is updated only when an interrupt
+occurs. The register will remain unchanged until the
+interrupt is cleared via a read of INTCAP or GPIO.
+REGISTER 1-9:
+INTCAP – INTERRUPT CAPTURED VALUE FOR PORT REGISTER (ADDR 0x08)
+R-x
+R-x
+R-x
+R-x
+R-x
+R-x
+R-x
+R-x
+ICP7
+ICP6
+ICP5
+ICP4
+ICP3
+ICP2
+ICP1
+ICP0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+ICP7:ICP0: These bits reflect the logic level on the PORT pins at the time of interrupt due to pin 
+change [7:0]
+1 = Logic-high
+0 = Logic-low
+
+
+=== PDF PAGE 18 ===
+MCP23008/MCP23S08
+DS20001919I-page 18
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.6.10
+PORT (GPIO) REGISTER
+The GPIO register reflects the value on the port.
+Reading from this register reads the port. Writing to this
+register modifies the Output Latch (OLAT) register.
+REGISTER 1-10:
+GPIO – GENERAL PURPOSE I/O PORT REGISTER (ADDR 0x09)
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+GP7
+GP6
+GP5
+GP4
+GP3
+GP2
+GP1
+GP0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+GP7:GP0: These bits reflect the logic level on the pins [7:0]
+1 = Logic-high
+0 = Logic-low
+
+
+=== PDF PAGE 19 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 19
+MCP23008/MCP23S08
+1.6.11
+OUTPUT LATCH REGISTER (OLAT)
+The OLAT register provides access to the output
+latches. A read from this register results in a read of the
+OLAT and not the port itself. A write to this register
+modifies the output latches that modify the pins
+configured as outputs.
+REGISTER 1-11:
+OLAT – OUTPUT LATCH REGISTER 0 (ADDR 0x0A)
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+R/W-0
+OL7
+OL6
+OL5
+OL4
+OL3
+OL2
+OL1
+OL0
+bit 7
+bit 0
+Legend:
+R = Readable bit
+W = Writable bit
+U = Unimplemented bit, read as ‘0’
+-n = Value at POR
+‘1’ = Bit is set
+‘0’ = Bit is cleared
+x = Bit is unknown
+bit 7-0
+OL7:OL0: These bits reflect the logic level on the output latch [7:0]
+1 = Logic-high
+0 = Logic-low
+
+
+=== PDF PAGE 20 ===
+MCP23008/MCP23S08
+DS20001919I-page 20
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+1.7
+Interrupt Logic
+The interrupt output pin will activate if an internal
+interrupt occurs. The interrupt block is configured by
+the following registers:
+• GPINTEN – enables the individual inputs
+• DEFVAL – holds the values that are compared 
+against the associated input port values
+• INTCON – controls if the input values are 
+compared against DEFVAL or the previous values 
+on the port
+• IOCON (ODR and INPOL) – configures the INT 
+pin as push-pull, open-drain and active-level
+Only pins configured as inputs can cause interrupts.
+Pins configured as outputs have no affect on INT.
+Interrupt activity on the port will cause the port value to
+be captured and copied into INTCAP. The interrupt will
+remain active until the INTCAP or GPIO register is
+read. Writing to these registers will not affect the
+interrupt.
+The first interrupt event will cause the port contents to
+be copied into the INTCAP register. Subsequent
+interrupt conditions on the port will not cause an
+interrupt to occur as long as the interrupt is not cleared
+by a read of INTCAP or GPIO.
+1.7.1
+INTERRUPT CONDITIONS
+There are two possible configurations to cause
+interrupts (configured via INTCON):
+1.
+Pins configured for interrupt-on-pin-change
+will cause an interrupt to occur if a pin changes
+to the opposite state. The default state is reset
+after an interrupt occurs. For example, an
+interrupt occurs by an input changing from ‘1’ to
+‘0’. The new initial state for the pin is a logic ‘0’.
+2.
+Pins configured for interrupt-on-change from
+register value will cause an interrupt to occur if
+the corresponding input pin differs from the
+register bit. The interrupt condition will remain as
+long as the condition exists, regardless if the
+INTAP or GPIO is read.
+See Figure 1-6 and Figure 1-7 for more information on
+interrupt operations.
+FIGURE 1-6:
+Interrupt-on-Pin-Change.
+FIGURE 1-7:
+Interrupt-on-Change from 
+Register Default.
+GPx
+INT
+ACTIVE
+ACTIVE
+Port value
+is captured
+into INTCAP
+Read GPIU
+or INTCAP
+Port value
+is captured
+into INTCAP
+INT
+Port value
+is captured
+into INTCAP
+Read GPIU
+or INTCAP
+DEFVAL
+X
+X
+X
+X
+X
+0
+X
+X
+GP2
+7
+6
+5
+4
+3
+2
+1
+0
+GP:
+ACTIVE
+ACTIVE
+(INT clears only if interrupt
+condition does not exist.)
+
+
+=== PDF PAGE 21 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 21
+MCP23008/MCP23S08
+2.0
+ELECTRICAL CHARACTERISTICS
+Absolute Maximum Ratings †
+Ambient temperature under bias.............................................................................................................-40°C to +125°C
+Storage temperature .............................................................................................................................. -65°C to +150°C
+Voltage on VDD with respect to VSS ......................................................................................................... -0.3V to +5.5V
+Voltage on all other pins with respect to VSS (except VDD)............................................................. -0.6V to (VDD + 0.6V)
+Total power dissipation (Note) .............................................................................................................................700 mW
+Maximum current out of VSS pin ...........................................................................................................................150 mA
+Maximum current into VDD pin ..............................................................................................................................125 mA
+Input clamp current, IIK (VI < 0 or VI > VDD)20 mA
+Output clamp current, IOK (VO < 0 or VO > VDD)20 mA
+Maximum output current sunk by any output pin ....................................................................................................25 mA
+Maximum output current sourced by any output pin ...............................................................................................25 mA
+Note:
+Power dissipation is calculated as follows: 
+PDIS = VDD x {IDD -  IOH} +  {(VDD-VOH) x IOH} + (VOL x IOL)
+†
+Notice: Stresses above those listed under “Absolute Maximum Ratings” may cause permanent damage 
+to the device. This is a stress rating only and functional operation of the device at those or any other 
+conditions above those indicated in the operation listings of this specification is not implied. Exposure to 
+maximum rating conditions for extended periods may affect device reliability.
+TABLE 2-1:
+DC Characteristics
+DC Characteristics
+Operating Conditions (unless otherwise indicated):
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+Param 
+No.
+Characteristic
+Sym.
+Min.
+Typ.
+Max.
+Units
+Conditions
+D001
+Supply Voltage
+VDD
+1.8
+—
+5.5
+V
+D002
+VDD Start Voltage to 
+Ensure Power-on 
+Reset
+VPOR
+—
+VSS
+—
+V
+D003
+VDD Rise Rate to 
+Ensure Power-on 
+Reset
+SVDD
+0.05
+—
+—
+V/ms
+Design guidance only.
+Not tested.
+D004
+Supply Current
+IDD
+—
+—
+1
+mA
+SCL/SCK = 1 MHz
+D005
+Standby current
+IDDS
+—
+—
+1
+µA
+—
+—
+2
+µA
+4.5V - 5.5V @ +125C 
+(Note 1)
+Input Low-Voltage
+D030
+A0, A1 (TTL buffer)
+VIL
+VSS
+—
+0.15 VDD
+V
+D031
+CS, GPIO, SCL/SCK, 
+SDA, A2, RESET
+(Schmitt Trigger)
+VSS
+—
+0.2 VDD
+V
+Note 1:
+This parameter is characterized, not 100% tested.
+
+
+=== PDF PAGE 22 ===
+MCP23008/MCP23S08
+DS20001919I-page 22
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+FIGURE 2-1:
+Load Conditions for Device Timing Specifications.
+Input High-Voltage
+D040
+A0, A1
+(TTL buffer)
+VIH
+0.25 VDD + 0.8
+—
+VDD
+V
+D041
+CS, GPIO, SCL/SCK, 
+SDA, A2, RESET
+(Schmitt Trigger)
+0.8 VDD
+—
+VDD
+V
+For entire VDD range.
+Input Leakage Current
+D060
+I/O PORT pins
+IIL
+—
+—
+±1
+µA
+VSS VPIN VDD
+Output Leakage Current
+D065
+I/O PORT pins
+ILO
+—
+—
+±1
+µA
+VSS VPIN VDD
+D070
+GPIO weak pull-up 
+current 
+ IPU
+40
+75
+115
+µA
+VDD = 5V, GP Pins = VSS
+-40°C  TA  +85°C
+Output Low-Voltage
+D080
+GPIO
+VOL
+—
+—
+0.6
+V
+IOL = 8.5 mA, VDD = 4.5V 
+INT
+—
+—
+0.6
+V
+IOL = 1.6 mA, VDD = 4.5V
+SO, SDA
+—
+—
+0.6
+V
+IOL = 3.0 mA, VDD = 1.8V
+SDA
+—
+—
+0.8
+V
+IOL = 3.0 mA, VDD = 4.5V
+Output High-Voltage
+D090
+GPIO, INT, SO
+VOH
+VDD – 0.7
+—
+—
+V
+IOH = -3.0 mA, VDD = 4.5V
+VDD – 0.7
+—
+—
+IOH = -400 µA, VDD = 1.8V 
+Capacitive Loading Specs on Output Pins
+D101
+GPIO, SO, INT
+CIO
+—
+—
+50
+pF
+D102
+SDA
+CB
+—
+—
+400
+pF
+TABLE 2-1:
+DC Characteristics (CONTINUED)
+DC Characteristics
+Operating Conditions (unless otherwise indicated):
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+Param 
+No.
+Characteristic
+Sym.
+Min.
+Typ.
+Max.
+Units
+Conditions
+Note 1:
+This parameter is characterized, not 100% tested.
+135 pF
+1 k 
+VDD
+SCL and
+SDA pin
+MCP23008
+50 pF
+Pin
+
+
+=== PDF PAGE 23 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 23
+MCP23008/MCP23S08
+FIGURE 2-2:
+RESET and Device Reset Timer Timing.
+TABLE 2-2:
+DEVICE RESET SPECIFICATIONS
+FIGURE 2-3:
+I2C Bus Start/Stop Bits Timing.
+AC Characteristics
+Operating Conditions (unless otherwise indicated):
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+Param
+No.
+Characteristic
+Sym.
+Min.
+Typ.(1)
+Max.
+Units
+Conditions
+30
+RESET Pulse Width 
+(Low)
+TRSTL
+1
+—
+—
+µs
+32
+Device Active After 
+RESET high
+THLD
+—
+0
+—
+µs
+VDD = 5.0V
+34
+Output High-Impedance 
+from RESET Low
+TIOZ
+—
+—
+1
+µs
+Note 1:
+This parameter is characterized, not 100% tested.
+VDD
+RESET
+Internal
+RESET
+34
+Output pin
+32
+30
+91
+93
+SCL
+SDA
+START
+Condition
+STOP
+Condition
+90
+92
+
+
+=== PDF PAGE 24 ===
+MCP23008/MCP23S08
+DS20001919I-page 24
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+FIGURE 2-4:
+I2C Bus Data Timing.
+90
+91
+92
+100
+101
+103
+106
+107
+109
+109
+110
+102
+SCL
+SDA
+In
+SDA
+Out
+TABLE 2-3:
+I2C BUS DATA REQUIREMENTS
+I2C AC Characteristics
+Operating Conditions (unless otherwise indicated):
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+RPU (SCL, SDA) = 1 k, CL (SCL, SDA) = 135 pF
+Param 
+No.
+Characteristic
+Sym.
+Min.
+Typ.
+Max.
+Units
+Conditions
+100
+Clock High Time:
+THIGH
+100 kHz mode
+4.0
+—
+—
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+0.6
+—
+—
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+0.12
+—
+—
+µs
+4.5V – 5.5V (E-Temp)
+101
+Clock Low Time:
+TLOW
+100 kHz mode
+4.7
+—
+—
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+1.3
+—
+—
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+0.32
+—
+—
+µs
+4.5V – 5.5V (E-Temp)
+102
+SDA and SCL Rise Time:
+TR
+(Note 1)
+100 kHz mode 
+—
+—
+1000
+ns
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+20 + 0.1 CB(2)
+—
+300
+ns
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+20
+—
+160
+ns
+4.5V – 5.5V (E-Temp)
+103
+SDA and SCL Fall Time:
+TF
+(Note 1)
+100 kHz mode 
+—
+—
+300
+ns
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+20 + 0.1 CB(2)
+—
+300
+ns
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+20
+—
+80
+ns
+4.5V – 5.5V (E-Temp)
+90
+START Condition Setup Time:
+TSU:STA
+100 kHz mode
+4.7
+—
+—
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+0.6
+—
+—
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+0.16
+—
+—
+µs
+4.5V – 5.5V (E-Temp)
+91
+START Condition Hold Time:
+THD:STA
+100 kHz mode
+4.0
+—
+—
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+0.6
+—
+—
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+0.16
+—
+—
+µs
+4.5V – 5.5V (E-Temp)
+106
+Data Input Hold Time:
+THD:DAT
+100 kHz mode 
+0
+—
+3.45
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+0
+—
+0.9
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+0
+—
+0.15
+µs
+4.5V – 5.5V (E-Temp)
+Note 1:
+This parameter is characterized, not 100% tested.
+2:
+CB is specified to be from 10 to 400 pF.
+
+
+=== PDF PAGE 25 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 25
+MCP23008/MCP23S08
+FIGURE 2-5:
+SPI Input Timing.
+107
+Data Input Setup Time:
+TSU:DAT
+100 kHz mode
+250
+—
+—
+ns
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+100
+—
+—
+ns
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+0.01
+—
+—
+µs
+4.5V – 5.5V (E-Temp)
+92
+STOP Condition Setup Time:
+TSU:STO
+100 kHz mode
+4.0
+—
+—
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+0.6
+—
+—
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+0.16
+—
+—
+µs
+4.5V – 5.5V (E-Temp)
+109
+Output Valid From Clock:
+TAA
+100 kHz mode
+—
+—
+3.45
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+—
+—
+0.9
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+—
+—
+0.18
+µs
+4.5V – 5.5V (E-Temp)
+110
+Bus Free Time:
+TBUF
+100 kHz mode
+4.7
+—
+—
+µs
+1.8V – 5.5V (I-Temp)
+400 kHz mode
+1.3
+—
+—
+µs
+2.7V – 5.5V (I-Temp)
+1.7 MHz mode
+N/A
+—
+N/A
+µs
+4.5V – 5.5V (E-Temp)
+Bus Capacitive Loading:
+CB
+100 kHz and 400 kHz
+—
+—
+ 400
+pF 
+(Note 1)
+1.7 MHz
+—
+—
+100
+pF
+(Note 1)
+Input Filter Spike 
+Suppression: (SDA and SCL)
+TSP
+100 kHz and 400 kHz
+—
+—
+50
+ns
+1.7 MHz
+—
+—
+10
+ns
+Spike suppression off
+TABLE 2-3:
+I2C BUS DATA REQUIREMENTS (CONTINUED)
+I2C AC Characteristics
+Operating Conditions (unless otherwise indicated):
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+RPU (SCL, SDA) = 1 k, CL (SCL, SDA) = 135 pF
+Param 
+No.
+Characteristic
+Sym.
+Min.
+Typ.
+Max.
+Units
+Conditions
+Note 1:
+This parameter is characterized, not 100% tested.
+2:
+CB is specified to be from 10 to 400 pF.
+CS
+SCK
+SI
+SO
+1
+5
+4
+7
+6
+3
+10
+2
+LSb in
+MSb in
+high-impedance
+11
+Mode 1,1
+Mode 0,0
+
+
+=== PDF PAGE 26 ===
+MCP23008/MCP23S08
+DS20001919I-page 26
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+FIGURE 2-6:
+SPI Output Timing.
+TABLE 2-4:
+SPI INTERFACE AC CHARACTERISTICS
+SPI Interface AC Characteristics
+Operating Conditions (unless otherwise indicated): 
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+Param
+No.
+Characteristic
+Sym.
+Min.
+Typ.
+Max.
+Units
+Conditions
+Clock Frequency
+FCLK
+—
+—
+5
+MHz
+1.8V – 5.5V (I-Temp)
+—
+—
+10
+MHz
+2.7V – 5.5V (I-Temp)
+—
+—
+10
+MHz
+4.5V – 5.5V (E-Temp)
+1
+CS Setup Time
+TCSS
+50
+—
+—
+ns
+2
+CS Hold Time
+TCSH
+100
+—
+—
+ns
+1.8V – 5.5V (I-Temp)
+50
+—
+—
+ns
+2.7V – 5.5V (I-Temp)
+50
+—
+—
+ns
+4.5V – 5.5V (E-Temp)
+3
+CS Disable Time
+TCSD
+100
+—
+—
+ns
+1.8V – 5.5V (I-Temp)
+50
+—
+—
+ns
+2.7V – 5.5V (I-Temp)
+50
+—
+—
+ns
+4.5V – 5.5V (E-Temp)
+4
+Data Setup Time
+TSU
+20
+—
+—
+ns
+1.8V – 5.5V (I-Temp)
+10
+—
+—
+ns
+2.7V – 5.5V (I-Temp)
+10
+—
+—
+ns
+4.5V – 5.5V (E-Temp)
+5
+Data Hold Time
+THD
+20
+—
+—
+ns
+1.8V – 5.5V (I-Temp)
+10
+—
+—
+ns
+2.7V – 5.5V (I-Temp)
+10
+—
+—
+ns
+4.5V – 5.5V (E-Temp)
+6
+CLK Rise Time
+TR
+—
+—
+2
+µs
+Note 1
+7
+CLK Fall Time
+TF
+—
+—
+2
+µs
+Note 1
+8
+Clock High Time
+THI
+90
+—
+—
+ns
+1.8V – 5.5V (I-Temp)
+45
+—
+—
+ns
+2.7V – 5.5V (I-Temp)
+45
+—
+—
+ns
+4.5V – 5.5V (E-Temp)
+Note 1:
+This parameter is characterized, not 100% tested.
+2:
+TV = 90 ns (max) when Address Pointer rolls over from address 0x0A to 0x00.
+CS
+SCK
+SO
+8
+13
+MSb out
+LSb out
+2
+14
+don’t care
+SI
+Mode 1,1
+Mode 0,0
+9
+12
+
+
+=== PDF PAGE 27 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 27
+MCP23008/MCP23S08
+FIGURE 2-7:
+GPIO and INT Timing.
+9
+Clock Low Time
+TLO
+90
+—
+—
+ns
+1.8V – 5.5V (I-Temp)
+45
+—
+—
+ns
+2.7V – 5.5V (I-Temp)
+45
+—
+—
+ns
+4.5V – 5.5V (E-Temp)
+10
+Clock Delay Time
+TCLD
+50
+—
+—
+ns
+11
+Clock Enable Time
+TCLE
+50
+—
+—
+ns
+12(2)
+Output Valid from Clock Low
+TV
+—
+—
+90
+ns
+1.8V – 5.5V (I-Temp)
+—
+—
+45
+ns
+2.7V – 5.5V (I-Temp)
+—
+—
+45
+ns
+4.5V – 5.5V (E-Temp)
+13
+Output Hold Time
+THO
+0
+—
+—
+ns
+14
+Output Disable Time
+TDIS
+—
+—
+100
+ns
+TABLE 2-4:
+SPI INTERFACE AC CHARACTERISTICS (CONTINUED)
+SPI Interface AC Characteristics
+Operating Conditions (unless otherwise indicated): 
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+Param
+No.
+Characteristic
+Sym.
+Min.
+Typ.
+Max.
+Units
+Conditions
+Note 1:
+This parameter is characterized, not 100% tested.
+2:
+TV = 90 ns (max) when Address Pointer rolls over from address 0x0A to 0x00.
+50
+SCL/SCK
+SDA/SI
+In
+GPn
+Pin
+D0
+D1
+LSb of data byte zero
+during a Write or Read
+INT
+Pin
+INT pin active
+51
+command, depending
+on parameter.
+Output
+GPn
+Pin
+Input
+inactive
+53
+52
+Register
+Loaded
+
+
+=== PDF PAGE 28 ===
+MCP23008/MCP23S08
+DS20001919I-page 28
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+TABLE 2-5:
+GP AND INT PINS
+AC Characteristics
+Operating Conditions (unless otherwise indicated): 
+1.8V  VDD  5.5V at -40C  TA  +85C (I-Temp)
+4.5V VDD  5.5V at -40C  TA  +125C (E-Temp) (Note 1)
+Param
+No.
+Characteristic
+Sym.
+Min.
+Typ.
+Max.
+Units
+Conditions
+50
+Serial data to output valid
+TGPOV
+—
+—
+500
+ns
+51
+Interrupt pin disable time
+TINTD
+—
+—
+600
+ns
+52
+GP input change to register 
+valid
+TGPIV
+—
+—
+450
+ns
+53
+IOC event to INT active
+TGPINT
+—
+—
+600
+ns
+Glitch Filter on GP Pins
+TGLITCH
+—
+—
+150
+ns
+Note 1:
+This parameter is characterized, not 100% tested
+
+
+=== PDF PAGE 29 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 29
+MCP23008/MCP23S08
+3.0
+PACKAGING INFORMATION
+3.1
+Package Marking Information
+18-Lead PDIP (300 mil)
+18-Lead SOIC (300 mil)
+20-Lead SSOP
+Example:
+Example:
+Example:
+MCP23008-E/P^^
+0634256
+20-Lead QFN
+Example:
+MCP23008-E/P
+3
+e
+1912256
+MCP23008
+    E/SO
+3
+e
+1912256
+23S08
+E/ML
+1912
+256
+3
+e
+MCP23S08
+       E/SS
+3
+e
+1912256
+Legend:
+XX...X
+Product code or customer-specific information
+Y
+Year code (last digit of calendar year)
+YY
+Year code (last 2 digits of calendar year)
+WW
+Week code (week of January 1 is week ‘01’)
+NNN
+Alphanumeric traceability code
+  
+Pb-free JEDEC® designator for Matte Tin (Sn)
+*
+This package is Pb-free. The Pb-free JEDEC designator (     )
+can be found on the outer packaging for this package.
+●, ▲, ▼Pin one index is identified by a dot, delta up, or delta down (triangle mark).
+Note:
+In the event the full Microchip part number cannot be marked on one line, it will be carried
+over to the next line, thus limiting the number of available characters for customer-specific
+information. Package may or may not include the corporate logo.
+Underbar (_) and/or Overbar (‾) symbol may not be to scale.
+3
+e
+3
+e
+
+
+=== PDF PAGE 30 ===
+MCP23008/MCP23S08
+DS20001919I-page 30
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+=D3dêÜè nóÜ§•îé V¶Üó aü3dîüê .n/  ?66 ûîó T†è∞ ÄnVanÇ
+ 
+f†•ê§F
+=4 nîü = ßî§¶Üó îüèêØ ëêÜ•¶£ê ûÜ∞ ßÜ£∞2 á¶• û¶§• áê ó†éÜ•êè Æî•ìîü •ìê ìÜ•éìêè Ü£êÜ4
+>4 + qîíüîëîéÜü• UìÜ£Üé•ê£î§•îé4
+?4 Vîûêü§î†ü§ V Üüè ]= è† ü†• îüéó¶èê û†óè ëóÜ§ì †£ °£†•£¶§î†ü§4 e†óè ëóÜ§ì †£ °£†•£¶§î†ü§ §ìÜóó ü†• êØéêêè 46=6" °ê£ §îèê4
+@4 Vîûêü§î†üîüí Üüè •†óê£Üüéîüí °ê£ Sqe] }=@4Ae4
+TqUF TÜ§îé Vîûêü§î†ü4 rìê†£ê•îéÜóó∞ êØÜé• ßÜó¶ê §ì†Æü Æî•ì†¶• •†óê£Üüéê§4
+f†•êF
+^†£ •ìê û†§• é¶££êü• °ÜéñÜíê è£ÜÆîüí§2 °óêÜ§ê §êê •ìê eîé£†éìî° nÜéñÜíîüí q°êéîëîéÜ•î†ü ó†éÜ•êè Ü• 
+ì••°F55ÆÆÆ4ûîé£†éìî°4é†û5°ÜéñÜíîüí
+süî•§
+afU`]q
+Vîûêü§î†ü dîûî•§
+eaf
+fme
+eSv
+f¶ûáê£ †ë nîü§
+f
+=D
+nî•éì
+ê
+4=66 TqU
+r†° •† qêÜ•îüí nóÜüê
+S
+=
+=
+4>=6
+e†óèêè nÜéñÜíê rìîéñüê§§
+S>
+4==A
+4=?6
+4=EA
+TÜ§ê •† qêÜ•îüí nóÜüê
+S=
+46=A
+=
+=
+qì†¶óèê£ •† qì†¶óèê£ uîè•ì
+]
+4?66
+4?=6
+4?>A
+e†óèêè nÜéñÜíê uîè•ì
+]=
+4>@6
+4>A6
+4>D6
+mßê£Üóó dêüí•ì
+V
+4DD6
+4E66
+4E>6
+rî° •† qêÜ•îüí nóÜüê
+d
+4==A
+4=?6
+4=A6
+dêÜè rìîéñüê§§
+é
+466D
+46=6
+46=@
+s°°ê£ dêÜè uîè•ì
+á=
+46@A
+46B6
+46C6
+d†Æê£ dêÜè uîè•ì
+á
+46=@
+46=D
+46>>
+mßê£Üóó p†Æ q°Üéîüí  +
+êT
+=
+=
+4@?6
+NOTE 1
+N
+E1
+D
+1
+2
+3
+A
+A1
+A2
+L
+E
+eB
+c
+e
+b1
+b
+eîé£†éìî° rêéìü†ó†í∞V£ÜÆîüí U6@366CT
+
+
+=== PDF PAGE 31 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 31
+MCP23008/MCP23S08
+B
+A
+0.20 C A
+0.33 C A B
+0.25
+C A B
+(DATUM B)
+(DATUM A)
+C
+SEATING
+PLANE
+1
+2
+N
+2X 18 TIPS
+TOP VIEW
+END VIEW
+SIDE VIEW
+NOTE 1
+0.10 C
+0.08 C
+Microchip Technology Drawing  C04-051E Sheet 1 of 2
+2X
+18X
+For the most current package drawings, please see the Microchip Packaging Specification located at
+http://www.microchip.com/packaging
+Note:
+18-Lead Plastic Small Outline (SO, F2X, FJX, FKX) - Wide, 7.50 mm (.300 In.) Body [SOIC]
+D
+E
+E1
+e
+18X b
+A
+A2
+A1
+0.10 C B
+2X
+DETAIL A
+h
+h
+c
+
+
+=== PDF PAGE 32 ===
+MCP23008/MCP23S08
+DS20001919I-page 32
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+18-Lead Plastic Small Outline (SO, F2X, FJX, FKX) - Wide, 7.50 mm (.300 In.) Body [SOIC]
+For the most current package drawings, please see the Microchip Packaging Specification located at
+http://www.microchip.com/packaging
+Note:
+Foot Angle
+0°
+-
+8°
+15°
+-
+5°
+Mold Draft Angle Bottom
+15°
+-
+5°
+Mold Draft Angle Top
+0.51
+-
+0.31
+b
+Lead Width
+0.33
+-
+0.20
+c
+Lead Thickness
+1.27
+-
+0.40
+L
+Foot Length
+0.75
+-
+0.25
+h
+Chamfer (Optional)
+11.55 BSC
+D
+Overall Length
+7.50 BSC
+E1
+Molded Package Width
+10.30 BSC
+E
+Overall Width
+0.30
+-
+0.10
+A1
+Standoff
+-
+-
+2.05
+A2
+Molded Package Thickness
+2.65
+-
+-
+A
+Overall Height
+1.27 BSC
+e
+Pitch
+18
+N
+Number of Pins
+MAX
+NOM
+MIN
+Dimension Limits
+MILLIMETERS
+Units
+Footprint
+1.40 REF
+L1
+§
+Microchip Technology Drawing No. C04-051E Sheet 2 of 2
+or protrusion, which shall not exceed 0.25 mm per side.
+3.
+REF: Reference Dimension, usually without tolerance, for information purposes only.
+BSC: Basic Dimension. Theoretically exact value shown without tolerances.
+1.
+2.
+4.
+Notes:
+Dimension D does not include mold flash, protrusions or gate burrs, which shall
+Pin 1 visual index feature may vary, but must be located within the hatched area.
+§ Significant Characteristic
+Dimensioning and tolerancing per ASME Y14.5M
+not exceed 0.15 mm per end.  Dimension E1 does not include interlead flash
+Lead Angle
+0°
+-
+-
+L
+(L1)
+DETAIL A
+
+
+=== PDF PAGE 33 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 33
+MCP23008/MCP23S08
+RECOMMENDED LAND PATTERN
+Dimension Limits
+Units
+Contact Pad Spacing
+Contact Pitch
+MILLIMETERS
+1.27 BSC
+MIN
+E
+MAX
+Contact Pad Length (X18)
+Contact Pad Width (X18)
+Y
+X
+1.90
+0.60
+Microchip Technology Drawing C04-2051E
+NOM
+18-Lead Plastic Small Outline (SO,F2X, FJX, FKX) - Wide, 7.50 mm (.300 In.) Body [SOIC]
+1
+2
+18
+C
+Contact Pad Spacing
+9.40
+BSC: Basic Dimension. Theoretically exact value shown without tolerances.
+Notes:
+Dimensioning and tolerancing per ASME Y14.5M
+1.
+For the most current package drawings, please see the Microchip Packaging Specification located at
+http://www.microchip.com/packaging
+Note:
+C
+X
+Y
+E
+SILK SCREEN
+
+
+=== PDF PAGE 34 ===
+MCP23008/MCP23S08
+DS20001919I-page 34
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+B
+A
+0.15 C
+0.15 C
+0.10
+C A B
+0.05
+C
+(DATUM B)
+(DATUM A)
+C
+SEATING
+PLANE
+NOTE 1
+N
+2X
+TOP VIEW
+SIDE VIEW
+BOTTOM VIEW
+NOTE 1
+1
+2
+N
+0.10
+C A B
+0.10
+C A B
+0.10 C
+0.08 C
+Microchip Technology Drawing  C04-126-G4 Rev D Sheet 1 of 2
+D
+E
+A
+(A3)
+20X b
+e
+2X
+D2
+E2
+K
+L
+20X
+A1
+For the most current package drawings, please see the Microchip Packaging Specification located at
+http://www.microchip.com/packaging
+Note:
+20-Lead Plastic Quad Flat, No Lead Package (G4) - 4x4 mm Body [QFN]
+Also called VQFN
+1
+2
+
+
+=== PDF PAGE 35 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 35
+MCP23008/MCP23S08
+Microchip Technology Drawing  C04-126-G4 Rev D Sheet 2 of 2
+Number of Terminals
+Overall Height
+Terminal Width
+Overall Width
+Terminal Length
+Exposed Pad Width
+Terminal Thickness
+Pitch
+Standoff
+Units
+Dimension Limits
+A1
+A
+b
+E2
+A3
+e
+L
+E
+N
+0.50 BSC
+0.20 REF
+2.60
+0.30
+0.18
+0.80
+0.00
+0.25
+0.40
+2.70
+0.90
+0.02
+4.00 BSC
+MILLIMETERS
+MIN
+NOM
+20
+2.80
+0.50
+0.30
+1.00
+0.05
+MAX
+K
+-
+0.20
+-
+REF: Reference Dimension, usually without tolerance, for information purposes only.
+BSC: Basic Dimension. Theoretically exact value shown without tolerances.
+1.
+2.
+3.
+Notes:
+Pin 1 visual index feature may vary, but must be located within the hatched area.
+Package is saw singulated
+Dimensioning and tolerancing per ASME Y14.5M
+Terminal-to-Exposed-Pad
+20-Lead Plastic Quad Flat, No Lead Package (G4) - 4x4 mm Body [QFN]
+For the most current package drawings, please see the Microchip Packaging Specification located at
+http://www.microchip.com/packaging
+Note:
+Also called VQFN
+Overall Length
+Exposed Pad Length
+D
+D2
+2.60
+4.00 BSC
+2.70
+2.80
+
+
+=== PDF PAGE 36 ===
+MCP23008/MCP23S08
+DS20001919I-page 36
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+RECOMMENDED LAND PATTERN
+Dimension Limits
+Units
+C2
+Optional Center Pad Width
+Contact Pad Spacing
+Optional Center Pad Length
+Contact Pitch
+Y2
+X2
+2.80
+2.80
+MILLIMETERS
+0.50 BSC
+MIN
+E
+MAX
+4.00
+Contact Pad Length (X20)
+Contact Pad Width (X20)
+Y1
+X1
+0.80
+0.30
+NOM
+20-Lead Plastic Quad Flat, No Lead Package (G4) - 4x4 mm Body [QFN]
+SILK SCREEN
+1
+2
+20
+C1
+C2
+E
+X1
+Y1
+G1
+Y2
+X2
+C1
+Contact Pad Spacing
+4.00
+Contact Pad to Center Pad (X16)
+G1
+0.20
+Thermal Via Diameter
+V
+Thermal Via Pitch
+EV
+0.30
+1.00
+ØV
+EV
+EV
+BSC: Basic Dimension. Theoretically exact value shown without tolerances.
+Notes:
+Dimensioning and tolerancing per ASME Y14.5M
+For best soldering results, thermal vias, if used, should be filled or tented to avoid solder loss during
+reflow process
+1.
+2.
+For the most current package drawings, please see the Microchip Packaging Specification located at
+http://www.microchip.com/packaging
+Note:
+Also called VQFN
+Microchip Technology Drawing C04-2126-G4 Rev D
+
+
+=== PDF PAGE 37 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 37
+MCP23008/MCP23S08
+0LFURFKLS7HFKQRORJ\'UDZLQJ&5HY&6KHHWRI
+)RUWKHPRVWFXUUHQWSDFNDJHGUDZLQJVSOHDVHVHHWKH0LFURFKLS3DFNDJLQJ6SHFLILFDWLRQORFDWHGDW
+KWWSZZZPLFURFKLSFRPSDFNDJLQJ
+1RWH
+/HDG3ODVWLF6KULQN6PDOO2XWOLQH66PP%RG\>6623@
+%
+$
+'$780%
+'$780$
+
+
+1
+7239,(:
+6,'(9,(:
+(
+
+& $ %
+&
+6($7,1*
+3/$1(
+'
+$
+;E
+(
+H
+$
+$
+$
+ &
+;
+$
+9,(:$$
+/
++
+/
+F
+
+
+=== PDF PAGE 38 ===
+MCP23008/MCP23S08
+DS20001919I-page 38
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+0LFURFKLS7HFKQRORJ\'UDZLQJ&5HY&6KHHWRI
+/HDG3ODVWLF6KULQN6PDOO2XWOLQH66PP%RG\>6623@
+)RUWKHPRVWFXUUHQWSDFNDJHGUDZLQJVSOHDVHVHHWKH0LFURFKLS3DFNDJLQJ6SHFLILFDWLRQORFDWHGDW
+KWWSZZZPLFURFKLSFRPSDFNDJLQJ
+1RWH
+
+
+
+E
+/HDG:LGWK
+
+
+
+)RRW$QJOH
+
+
+
+F
+/HDG7KLFNQHVV
+
+
+
+/
+)RRW/HQJWK
+
+
+
+'
+2YHUDOO/HQJWK
+
+
+
+(
+0ROGHG3DFNDJH:LGWK
+
+
+
+(
+2YHUDOO:LGWK
+
+
+
+$
+6WDQGRII
+
+
+
+$
+0ROGHG3DFNDJH7KLFNQHVV
+
+
+
+$
+2YHUDOO+HLJKW
+%6&
+H
+3LWFK
+
+1
+1XPEHURI3LQV
+0$;
+120
+0,1
+'LPHQVLRQ/LPLWV
+0,//,0(7(56
+8QLWV
+3LQYLVXDOLQGH[IHDWXUHPD\YDU\EXWPXVWEHORFDWHGZLWKLQWKHKDWFKHGDUHD
+'LPHQVLRQLQJDQGWROHUDQFLQJSHU$60(<0
+%6&%DVLF'LPHQVLRQ7KHRUHWLFDOO\H[DFWYDOXHVKRZQZLWKRXWWROHUDQFHV
+5()5HIHUHQFH'LPHQVLRQXVXDOO\ZLWKRXWWROHUDQFHIRULQIRUPDWLRQSXUSRVHVRQO\
+'LPHQVLRQV'DQG(GRQRWLQFOXGHPROGIODVKRUSURWUXVLRQV0ROGIODVKRU
+SURWUXVLRQVVKDOOQRWH[FHHGPPSHUVLGH
+Notes:
+)RRWSULQW
+/
+5()
+
+
+=== PDF PAGE 39 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 39
+MCP23008/MCP23S08
+5(&200(1'('/$1'3$77(51
+'LPHQVLRQ/LPLWV
+8QLWV
+&RQWDFW3LWFK
+0,//,0(7(56
+%6&
+0,1
+(
+0$;
+&RQWDFW3DG/HQJWK;
+&RQWDFW3DG:LGWK;
+<
+;
+
+
+0LFURFKLS7HFKQRORJ\'UDZLQJ&5HY&
+120
+/HDG3ODVWLF6KULQN6PDOO2XWOLQH66PP%RG\>6623@
+6,/.6&5((1
+
+
+
+&
+(
+;
+<
+*
+&
+&RQWDFW3DG6SDFLQJ
+
+&RQWDFW3DGWR&HQWHU3DG;
+*
+
+%6&%DVLF'LPHQVLRQ7KHRUHWLFDOO\H[DFWYDOXHVKRZQZLWKRXWWROHUDQFHV
+1RWHV
+'LPHQVLRQLQJDQGWROHUDQFLQJSHU$60(<0
+)RUEHVWVROGHULQJUHVXOWVWKHUPDOYLDVLIXVHGVKRXOGEHILOOHGRUWHQWHGWRDYRLGVROGHUORVVGXULQJ
+UHIORZSURFHVV
+
+
+)RUWKHPRVWFXUUHQWSDFNDJHGUDZLQJVSOHDVHVHHWKH0LFURFKLS3DFNDJLQJ6SHFLILFDWLRQORFDWHGDW
+KWWSZZZPLFURFKLSFRPSDFNDJLQJ
+1RWH
+
+
+=== PDF PAGE 40 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 40
+MCP23008/MCP23S08
+APPENDIX A:
+REVISION HISTORY
+Revision I (February 2026)
+• Corrected Byte and Sequential Read in 
+Figure 1-1.
+Revision H (November 2025)
+• Corrected drawings for MCP23008 (QFN only) 
+and MCP23S008 (QFN only) in Section 
+Package Types.
+• Updated Package Outline Drawing for the SOIC 
+package in Section 3.0 “Packaging 
+Information”.
+Revision G (June 2022)
+• Updated description in Section “Features”.
+• Updated Table 1-1.
+• Corrected drawings for MCP23008 in Section 
+Package Types.
+• Corrected Section 1.6.1 “I/O Direction (IODIR) 
+Register”
+• Corrected packages drawings in Section 3.0 
+“Packaging Information”.
+• Updated Section “Product Identification 
+System”, with Automotive Qualified devices.
+• Minor text and format changes throughout.
+Revision F (March 2019)
+• Updated the QFN package drawing in Section 
+Package Types.
+• Updated Section 3.0 “Packaging Information”.
+• Minor typographical edits.
+Revision E (August 2007)
+• Section 3.0 “Packaging Information”: Updated 
+package outline drawings.
+Revision D (February 2007)
+• Changed Byte and Sequential Read in Figure 1-1 
+from “R” to “W”.
+• Table 2-4, Param No. 51 and 53: Changed from 
+450 to 600 and 500 to 600, respectively.
+• Added disclaimer to package outline drawings.
+• Updated package outline drawings.
+Revision C (October 2006)
+• Added 20-pin QFN package information 
+throughout document.
+• Added disclaimer to package outline drawings.
+Revision B (February 2005)
+• Section 1.6 “Configuration and Control 
+Registers”. Added Hardware Address Enable 
+(HAEN) bit to Table 1-3.
+• Section 1.6.6 “Configuration (IOCON) 
+Register”. Added Hardware Address Enable 
+(HAEN) bit to Register 1-6.
+Revision A (December 2004)
+• Original release of this document.
+
+
+=== PDF PAGE 41 ===
+MCP23008/MCP23S08
+DS20001919I-page 41
+ 2004-2026 Microchip Technology Inc.and its subsidiaries
+PRODUCT IDENTIFICATION SYSTEM
+To order or obtain information, e.g., on pricing or delivery, refer to the factory or the listed sales office.
+Device:
+MCP23008:
+8-Bit I/O Expander w/ I2C Interface
+MCP23S08:
+8-Bit I/O Expander w/ SPI Interface
+Tape and Reel
+Option:
+T
+=
+Tape and Reel (1)
+Blank
+=
+Tube
+Temperature 
+Range:
+E
+=
+ -40°C to +125°C (Extended) *
+* While these devices are only offered in the “E” temperature 
+range, the device will operate at different voltages and 
+temperatures as identified in Section 2.0 “Electrical 
+Characteristics”.
+Package:
+ML
+=
+Plastic Quad Flat, No Lead Package
+4x4x0.9 mm Body (QFN), 20-Lead
+P
+=
+Plastic DIP (300 mil Body), 18-Lead
+SO
+=
+Plastic SOIC (300 mil Body), 18-Lead
+SS
+=
+SSOP, (209 mil Body, 5.30 mm), 20-Lead
+Qualification:
+<Blank> =
+Standard Part
+VAO
+=
+Automotive AEC-Q100 Qualified
+PART NO.
+-X
+/XX
+Package
+Temperature
+Range
+Device
+Examples:
+a)
+MCP23008-E/P:
+Extended Temperature,
+18-Lead PDIP package
+b)
+MCP23008-E/SO:
+Extended Temperature,
+18-Lead SOIC package
+c)
+MCP23008T-E/SO:
+Tape and Reel,
+Extended Temperature,
+18-Lead SOIC package
+d)
+MCP23008-E/SS:
+Extended Temperature,
+20-Lead SSOP package
+e)
+MCP23008T-E/SS:
+Tape and Reel,
+Extended Temperature,
+20-Lead SSOP package
+f)
+MCP23008-E/SSVAO:
+Extended Temperature,
+20-Lead SSOP package,
+Automotive Qualified
+g)
+MCP23008T-E/SSVAO:
+Tape and Reel,
+Extended Temperature,
+20-Lead SSOP package,
+Automotive Qualified
+h)
+MCP23008-E/ML:
+Extended Temperature, 
+20-Lead QFN package
+i)
+MCP23S08-E/P:
+Extended Temperature,
+18-Lead PDIP package
+j)
+MCP23S08-E/SO:
+Extended Temperature,
+18-Lead SOIC package
+k)
+MCP23S08T-E/SO:
+Tape and Reel,
+Extended Temperature,
+18-Lead SOIC package
+l)
+MCP23S08-E/SOVAO:
+Extended Temperature,
+18-Lead SOIC package
+m)
+MCP23S08T-E/SOVAO:
+Tape and Reel,
+Extended Temperature,
+18-Lead SOIC package
+n)
+MCP23S08-E/SS:
+Extended Temperature,
+20-Lead SSOP package
+o)
+MCP23S08T-E/SS:
+Tape and Reel,
+Extended Temperature,
+20-Lead SSOP package
+p)
+MCP23S08T-E/MF:
+Tape and Reel,
+Extended Temperature,
+20-Lead QFN package
+Note
+1:
+Tape and Reel identifier only appears in the 
+catalog part number description. This 
+identifier is used for ordering purposes and is 
+not printed on the device package. Check with 
+your Microchip Sales Office for package 
+availability with the Tape and Reel option.
+[ X] (1)
+Tape and Reel
+Option
+XXX
+Qualification
+
+
+=== PDF PAGE 42 ===
+ 2004-2026 Microchip Technology Inc. and its subsidiaries
+DS20001919I-page 42
+Microchip Information
+Trademarks
+The “Microchip” name and logo, the “M” logo, and other names, logos, and brands are registered and 
+unregistered trademarks of Microchip Technology Incorporated or its affiliates and/or subsidiaries in the 
+United States and/or other countries (“Microchip Trademarks”). Information regarding Microchip 
+Trademarks can be found at https://www.microchip.com/en-us/about/legal-information/microchip-
+trademarks.
+ISBN: 979-8-3371-2748-4
+Legal Notice
+This publication and the information herein may be used only with Microchip products, including to design, 
+test, and integrate Microchip products with your application. Use of this information in any other manner 
+violates these terms. Information regarding device applications is provided only for your convenience and 
+may be superseded by updates. It is your responsibility to ensure that your application meets with your 
+specifications. Contact your local Microchip sales office for additional support or, obtain additional support 
+at www.microchip.com/en-us/support/design-help/client-support-services.
+THIS INFORMATION IS PROVIDED BY MICROCHIP "AS IS". MICROCHIP MAKES NO 
+REPRESENTATIONS OR WARRANTIES OF ANY KIND WHETHER EXPRESS OR IMPLIED, WRITTEN 
+OR ORAL, STATUTORY OR OTHERWISE, RELATED TO THE INFORMATION INCLUDING BUT NOT 
+LIMITED TO ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND 
+FITNESS FOR A PARTICULAR PURPOSE, OR WARRANTIES RELATED TO ITS CONDITION, 
+QUALITY, OR PERFORMANCE.
+IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL, 
+OR CONSEQUENTIAL LOSS, DAMAGE, COST, OR EXPENSE OF ANY KIND WHATSOEVER 
+RELATED TO THE INFORMATION OR ITS USE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS 
+BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE FULLEST 
+EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN ANY WAY 
+RELATED TO THE INFORMATION OR ITS USE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY, 
+THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THE INFORMATION.
+Use of Microchip devices in life support and/or safety applications is entirely at the buyer's risk, and the 
+buyer agrees to defend, indemnify and hold harmless Microchip from any and all damages, claims, suits, 
+or expenses resulting from such use. No licenses are conveyed, implicitly or otherwise, under any 
+Microchip intellectual property rights unless otherwise stated.
+Microchip Devices Code Protection Feature
+Note the following details of the code protection feature on Microchip products:
+• Microchip products meet the specifications contained in their particular Microchip Data Sheet.
+• Microchip believes that its family of products is secure when used in the intended manner, within 
+operating specifications, and under normal conditions.
+• Microchip values and aggressively protects its intellectual property rights. Attempts to breach the code 
+protection features of Microchip product is strictly prohibited and may violate the Digital Millennium 
+Copyright Act.
+• Neither Microchip nor any other semiconductor manufacturer can guarantee the security of its code. 
+Code protection does not mean that we are guaranteeing the product is “unbreakable”. Code 
+protection is constantly evolving. Microchip is committed to continuously improving the code protection 
+features of our products.

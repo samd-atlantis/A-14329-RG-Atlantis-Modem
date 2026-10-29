@@ -1,0 +1,30 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "centerline": [
+    [
+      2910.0,
+      2910.0
+    ],
+    [
+      2945.0,
+      2945.0
+    ],
+    [
+      3035.0,
+      2945.0
+    ],
+    [
+      3475.0,
+      2505.0
+    ],
+    [
+      3475.0,
+      1150.0
+    ]
+  ],
+  "width_mil": 9.74,
+  "gap_mil": 6,
+  "limitations": [
+    "Fanouts, exact offsets, matching, return vias and native DRC remain required."
+  ]
+}

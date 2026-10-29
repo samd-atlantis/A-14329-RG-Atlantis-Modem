@@ -1,0 +1,243 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648874",
+        "ticket": 648874
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 2925,
+        "startY": 2785,
+        "endX": 2885.0,
+        "endY": 2825.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648875",
+        "ticket": 648875
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "ruleName": "",
+        "centerX": 2885.0,
+        "centerY": 2825.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648876",
+        "ticket": 648876
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 2,
+        "startX": 2885.0,
+        "startY": 2825.0,
+        "endX": 2815.0,
+        "endY": 2775.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648877",
+        "ticket": 648877
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 2,
+        "startX": 2815.0,
+        "startY": 2775.0,
+        "endX": 2815.0,
+        "endY": 2725.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648878",
+        "ticket": 648878
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 2,
+        "startX": 2815.0,
+        "startY": 2725.0,
+        "endX": 2935.0,
+        "endY": 2605.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648879",
+        "ticket": 648879
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 2,
+        "startX": 2935.0,
+        "startY": 2605.0,
+        "endX": 3030.0,
+        "endY": 2160.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648880",
+        "ticket": 648880
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "ruleName": "",
+        "centerX": 3030.0,
+        "centerY": 2160.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648881",
+        "ticket": 648881
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3030.0,
+        "startY": 2160.0,
+        "endX": 3015.0,
+        "endY": 2155.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MODEM_BUCK_EN_standalone_R20_648882",
+        "ticket": 648882
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 3015.0,
+        "startY": 2155.0,
+        "endX": 2844.6205999999997,
+        "endY": 2145.7087,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      2925,
+      2785
+    ],
+    [
+      1,
+      2885.0,
+      2825.0
+    ],
+    [
+      2,
+      2885.0,
+      2825.0
+    ],
+    [
+      2,
+      2815.0,
+      2775.0
+    ],
+    [
+      2,
+      2815.0,
+      2725.0
+    ],
+    [
+      2,
+      2935.0,
+      2605.0
+    ],
+    [
+      2,
+      3030.0,
+      2160.0
+    ],
+    [
+      1,
+      3030.0,
+      2160.0
+    ],
+    [
+      1,
+      3015.0,
+      2155.0
+    ],
+    [
+      1,
+      2844.6205999999997,
+      2145.7087
+    ]
+  ],
+  "issues": []
+}

@@ -1,0 +1,368 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-sequence-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647287",
+        "ticket": 647287
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4129.21,
+        "startY": 214.055,
+        "endX": 4125.0,
+        "endY": 295.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MUSB_VBUS_J17_C94_647288",
+        "ticket": 647288
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "ruleName": "",
+        "centerX": 4125.0,
+        "centerY": 295.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647289",
+        "ticket": 647289
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 2,
+        "startX": 4125.0,
+        "startY": 295.0,
+        "endX": 4125.0,
+        "endY": 185.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647290",
+        "ticket": 647290
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 2,
+        "startX": 4125.0,
+        "startY": 185.0,
+        "endX": 4145.0,
+        "endY": 170.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647291",
+        "ticket": 647291
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 2,
+        "startX": 4145.0,
+        "startY": 170.0,
+        "endX": 4215.0,
+        "endY": 145.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "remaining_MUSB_VBUS_J17_C94_647292",
+        "ticket": 647292
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "ruleName": "",
+        "centerX": 4215.0,
+        "centerY": 145.0,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647293",
+        "ticket": 647293
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4215.0,
+        "startY": 145.0,
+        "endX": 4245.0,
+        "endY": 155.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647294",
+        "ticket": 647294
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4245.0,
+        "startY": 155.0,
+        "endX": 4255.0,
+        "endY": 165.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647295",
+        "ticket": 647295
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4255.0,
+        "startY": 165.0,
+        "endX": 4255.0,
+        "endY": 405.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647296",
+        "ticket": 647296
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4255.0,
+        "startY": 405.0,
+        "endX": 4405.0,
+        "endY": 560.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647297",
+        "ticket": 647297
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4405.0,
+        "startY": 560.0,
+        "endX": 4505.0,
+        "endY": 750.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647298",
+        "ticket": 647298
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4505.0,
+        "startY": 750.0,
+        "endX": 4505.0,
+        "endY": 790.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647299",
+        "ticket": 647299
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4505.0,
+        "startY": 790.0,
+        "endX": 4500.0,
+        "endY": 800.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_MUSB_VBUS_J17_C94_647300",
+        "ticket": 647300
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MUSB_VBUS",
+        "layerId": 1,
+        "startX": 4500.0,
+        "startY": 800.0,
+        "endX": 4367.56,
+        "endY": 800.0,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      4129.21,
+      214.055
+    ],
+    [
+      1,
+      4125.0,
+      295.0
+    ],
+    [
+      2,
+      4125.0,
+      295.0
+    ],
+    [
+      2,
+      4125.0,
+      185.0
+    ],
+    [
+      2,
+      4145.0,
+      170.0
+    ],
+    [
+      2,
+      4215.0,
+      145.0
+    ],
+    [
+      1,
+      4215.0,
+      145.0
+    ],
+    [
+      1,
+      4245.0,
+      155.0
+    ],
+    [
+      1,
+      4255.0,
+      165.0
+    ],
+    [
+      1,
+      4255.0,
+      405.0
+    ],
+    [
+      1,
+      4405.0,
+      560.0
+    ],
+    [
+      1,
+      4505.0,
+      750.0
+    ],
+    [
+      1,
+      4505.0,
+      790.0
+    ],
+    [
+      1,
+      4500.0,
+      800.0
+    ],
+    [
+      1,
+      4367.56,
+      800.0
+    ]
+  ],
+  "issues": []
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "Gateway.pretty\\7628N.kicad_mod",
+    "pads": 58
+  },
+  {
+    "file": "Gateway.pretty\\AiWB2_13.kicad_mod",
+    "pads": 18
+  },
+  {
+    "file": "Gateway.pretty\\HLK7628N_56.kicad_mod",
+    "pads": 59
+  },
+  {
+    "file": "footprints\\Button_Switch_SMD.pretty\\SW_SPST_TL3342.kicad_mod",
+    "pads": 4
+  },
+  {
+    "file": "footprints\\Capacitor_SMD.pretty\\C_0603_1608Metric.kicad_mod",
+    "pads": 2
+  },
+  {
+    "file": "footprints\\Capacitor_SMD.pretty\\C_0805_2012Metric.kicad_mod",
+    "pads": 2
+  },
+  {
+    "file": "footprints\\Capacitor_SMD.pretty\\C_1210_3225Metric.kicad_mod",
+    "pads": 2
+  },
+  {
+    "file": "footprints\\Connector_PinHeader_2.54mm.pretty\\PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "pads": 3
+  },
+  {
+    "file": "footprints\\Connector_PinHeader_2.54mm.pretty\\PinHeader_1x04_P2.54mm_Vertical.kicad_mod",
+    "pads": 4
+  },
+  {
+    "file": "footprints\\Connector_RJ.pretty\\RJ45_Wuerth_7499010121A_Horizontal.kicad_mod",
+    "pads": 16
+  },
+  {
+    "file": "footprints\\Converter_ACDC.pretty\\Converter_ACDC_MeanWell_IRM-20-xx_THT.kicad_mod",
+    "pads": 4
+  },
+  {
+    "file": "footprints\\Inductor_SMD.pretty\\L_Coilcraft_XxL4020.kicad_mod",
+    "pads": 2
+  },
+  {
+    "file": "footprints\\Package_DFN_QFN.pretty\\VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias.kicad_mod",
+    "pads": 26
+  },
+  {
+    "file": "footprints\\Package_SO.pretty\\SOIC-18W_7.5x11.6mm_P1.27mm.kicad_mod",
+    "pads": 18
+  },
+  {
+    "file": "footprints\\Package_SO.pretty\\TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+    "pads": 16
+  },
+  {
+    "file": "footprints\\Package_SO.pretty\\VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+    "pads": 8
+  },
+  {
+    "file": "footprints\\Package_TO_SOT_SMD.pretty\\SOT-23-6.kicad_mod",
+    "pads": 6
+  },
+  {
+    "file": "footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod",
+    "pads": 3
+  },
+  {
+    "file": "footprints\\Package_TO_SOT_SMD.pretty\\Texas_DRT-3.kicad_mod",
+    "pads": 3
+  },
+  {
+    "file": "footprints\\Resistor_SMD.pretty\\R_0603_1608Metric.kicad_mod",
+    "pads": 2
+  }
+]

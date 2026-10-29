@@ -1,0 +1,1060 @@
+Browser tab: 1, Title: "A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209", URL: "https://pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4|12de2a08187ded60@9350624465b744b1a24fb48be3d774f4|279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c|*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c|2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c|!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d|!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d|!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c".
+1 AXWebArea A-14329 AIO Modem | PCB1 | EasyEDA Pro - V3.2.209, URL: pro.easyeda.com/editor#id=10cda219a11d4728af9b80718a4aa61c,tab=8b13c775c587e59b@9350624465b744b1a24fb48be3d774f4%7C12de2a08187ded60@9350624465b744b1a24fb48be3d774f4%7C279e02b1d2c42f54@10cda219a11d4728af9b80718a4aa61c%7C*db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c%7C2c16e491cd677b8c@10cda219a11d4728af9b80718a4aa61c%7C!25fa805030154049aa9373bb6d71bca9@885384f8a5084b689f475ebbcafe966d%7C!c3fcdcc5d63b4fcea60dfbe6bce28dc9(device)5714db73660b4fb1a3412072ec80414a@885384f8a5084b689f475ebbcafe966d%7C!3537bcc0e37eaf32@10cda219a11d4728af9b80718a4aa61c
+	2 container
+		3 image svg-work-space
+		4 image canvas-work-space
+		5 container top-bar-react
+			6 container toolbar-common
+				7 link Value: pro.easyeda.com/editor#, ID: modelogo
+				2959 container
+					2960 text File (F)
+				2961 container
+					2962 text Edit (E)
+				2963 container
+					2964 text View (V)
+				2965 container
+					2966 text Place (P)
+				8617 container
+					8618 text Design (D)
+				3115 container
+					3116 text Route (U)
+				2971 container
+					2972 text Layout (O)
+				2973 container
+					2974 text Tools (T)
+				8619 container
+					8620 text Export (R)
+				2977 container
+					2978 text Advanced (A)
+				2979 container
+					2980 text Settings (I)
+				2981 container
+					2982 text Help (H)
+			20 container userbar
+				21 text V3.2.209
+				95 text Personal
+				22 text EN
+				23 link Notifications
+				96 link Description: Avatar powerturn, Help: Homepage
+					97 image Avatar
+					98 container loginUsername
+						99 text powerturn
+		100 container
+			9893 container Switch Brightness
+				9894 text Normal Brightness
+			9895 container Unit
+				9896 text mil
+			9897 container Routing Corner
+				9898 text Line 45°
+		26 container main
+			27 container layoutLeft
+				28 container
+					29 container All Projects
+						30 text A l l P r o j e c t s
+					107 container Project Design
+						108 text P r o j e c t D e s i g n
+					31 container Common Library
+						32 text C o m m o n L i b r a r y
+				109 container left-panel-projectAndLib-design
+					8575 container
+						8576 text Page Net Component Object
+					10763 container treeMyDesignNetPage
+						10764 container
+							10765 text field (settable) CONSOLE_RX
+						10766 container netClassification
+							10767 text Net
+							10768 text Component
+						10769 content list
+							11870 container
+								12932 container
+									12933 text Nets (94)
+								12934 container
+									12935 text CONSOLE_RX (4083mil)
+								12936 container
+									12937 text Net Classes (0)
+								12938 container
+									12939 text Ratlines (10)
+								12940 container
+									12941 text ROUTER_GPIO0_N
+								12942 container
+									12943 text 3V3_ROUTER
+								12944 container
+									12945 text MUSB_VBUS
+								12946 container
+									12947 text SIM_A_VCC
+								12948 container
+									12949 text MODEM_BUCK_EN
+								12950 container
+									12951 text MODEM_PERST_N
+								12952 container
+									12953 text ROUTER_RESET_N
+								12954 container
+									12955 text MODEM_OFF
+								12956 container
+									12957 text GND_ISO
+								12958 container
+									12959 text CONSOLE_RX
+								12960 container
+									12961 text Differential Pair (12)
+								12962 container
+									12963 text Equal Length Group (0)
+								12964 container
+									12965 text Pads Pair Group (0)
+			37 container editorTabbar
+				132 container
+					133 text Start Page EG25_MINIPCIE_MECHANICAL_ONLY EG25_REMOVABLE_CARD_MECHANICAL PCB1 P1.Schematic1 PCB2 CONN-TH_2604-1103
+				9818 container
+					9819 image rulerh_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					9820 image rulerv_db5b9a525aa93bb0@10cda219a11d4728af9b80718a4aa61c
+					9821 AXWebArea EasyEDA PCB, URL: pro.easyeda.com/editor?entry=pcb
+					9822 container
+						9823 text Top Inner1 Inner2 Bottom Top Silkscreen Bottom Silkscreen Top Solder Mask Bottom Solder Mask Top Paste Mask Bottom Paste Mask Top Assembly Bottom Assembly Board Outline Multi Document Mechanical 3D Shell Outline 3D Shell Top 3D Shell Bottom Drill Drawing Ratline
+					9824 text X:
+					9904 text 3135
+					9825 text Y:
+					9905 text -830
+					9826 text dX:
+					9906 text 485
+					9827 text dY:
+					9907 text -4720
+					9828 container
+						9829 text field (settable) 198%
+					9830 container
+						9831 text field (settable) 5.0
+					9832 container
+						9833 text mil
+			154 container layoutRight
+				155 container
+					3029 container Layer
+						3030 text L a y e r
+					3031 container Filter
+						3032 text F i l t e r
+					10741 container Properties
+						10742 text P r o p e r t i e s
+				3035 container pcb-attribute-manager
+					10787 container pcb_property_panel
+						10788 text PAD
+						10789 container
+							10790 text Selected Objects 3
+						10806 container Property
+							10807 text Property
+						13020 text Layer
+						13021 container
+							13022 container
+								13023 text Top Layer
+						13024 text Number
+						13025 text field (disabled) <...>
+						13026 text Net
+						13027 container
+							13028 container
+								13029 text field (settable) CONSOLE_RX
+						13030 text Net Length
+						13031 text field (disabled) 4083mil
+						13032 text ID
+						13033 text field (disabled) <...>
+						11798 container Size
+							11799 text Size
+						13034 text General
+						13035 text Shape
+						13036 container
+							13037 text <...>
+						13038 text Width
+						13039 text field (settable) <...>mil
+						13040 text Height
+						13041 text field (settable) <...>mil
+						11808 container Location
+							11809 text Location
+						13042 text Center X
+						13043 text field (settable) <...>mil
+						13044 text Center Y
+						13045 text field (settable) <...>mil
+						13046 text Rotation
+						13047 text field (settable) <...>
+						13048 text Locked
+						13049 container
+							13050 text No
+						11819 container Solder/Paste_Mask Expansion
+							11820 text Solder/Paste Mask Expansion
+						13051 container
+							13052 radio button (settable, integer) Description: General, Value: 0
+							13053 text General
+							13054 radio button (settable, integer) Description: Custom, Value: 0
+							13055 text Custom
+						13056 text Solder Mask Expansion
+						13057 text field (disabled) <...>
+						13058 text Paste Mask Expansion
+						13059 text field (disabled) <...>
+						11830 container Thermals
+							11831 text Thermals
+						13060 container
+							13061 radio button (settable, integer) Description: General, Value: 1
+							13062 text General
+							13063 radio button (settable, integer) Description: Custom, Value: 0
+							13064 text Custom
+						13065 text Pad Connection
+						13066 container
+							13067 text Follow Rule
+						11840 container Pin_Delay
+							11841 text Pin Delay
+						13068 text Pin length
+						13069 text field (settable) 0mil
+						11844 container More_Properties
+							11845 text More Properties
+						11846 container
+							11847 text Add Property
+			77 container layoutBottom
+				78 container
+					79 text Library
+					80 text Log
+					8636 text Device Standardization
+					8637 text DRC
+					184 text Find Results
+				9712 container drcResult
+					9713 button Check DRC, ID: checkDRC
+					9714 button Clear Errors, ID: clearErrors
+					9909 content list
+						13070 container
+							13071 container
+								13072 text All (73)
+							13073 container
+								13074 text Clearance Error (6)
+							13075 container
+								13076 text Device to Prohibited Region (1)
+							13077 container
+								13078 text Track to Track (1)
+							13079 container
+								13080 text TH Pad to Track (1)
+							13081 container
+								13082 text Hole to Track (1)
+							13083 container
+								13084 text Track to Via (2)
+							13085 container
+								13086 text Differential Pair Error (1)
+							13087 container
+								13088 text Track to Track (1)
+							13089 container
+								13090 text Connection Error (65)
+							13091 container
+								13092 text GND_ISO (14)
+							13093 container
+								13094 text 3V3_ROUTER (8)
+							13095 container
+								13096 text USB_C_VBUS (2)
+							13097 container
+								13098 text MODEM_OFF (2)
+							13099 container
+								13100 text MUSB_VBUS (2)
+							13101 container
+								13102 text MODEM_BUCK_EN (4)
+							13103 container
+								13104 text ROUTER_GPIO0_N (3)
+							13105 container
+								13106 text MODEM_PERST_N (2)
+							13107 container
+								13108 text CONSOLE_RX (2)
+							13109 container
+								13110 text ROUTER_RESET_N (2)
+							13111 container
+								13112 text SIM_A_VCC (2)
+							13113 container
+								13114 text CHASSIS_PE (22)
+							13115 container
+								13116 text Netlist Error (1)
+							13117 container
+								13118 text Netlist Error (1)
+					13119 container drcTable
+						13120 container
+							13121 table
+								13122 row
+									13123 cell
+										13124 text No.
+									13125 cell
+										13126 text Display
+									13127 cell
+										13128 text Error Type
+									13129 cell
+										13130 text Error Object
+									13131 cell
+										13132 text Rule Name
+									13133 cell
+										13134 text Object 1
+									13135 cell
+										13136 text Object 2
+									13137 cell
+										13138 text Layer
+									13139 cell
+										13140 text Explanation
+							13141 table
+								13142 row
+									13143 cell
+										13144 text 1
+									13145 cell
+										13146 text Netlist Error
+									13147 cell
+										13148 text Netlist Error
+									13149 cell
+										13150 text Import Changes
+									13151 cell
+										13152 text Schematic Netlist
+									13153 cell
+										13154 text PCB Netlist
+									13155 cell
+										13156 text -
+									13157 cell
+										13158 text PCB and schematic netlist does not match. You can click on the rule name "Import Changes" to view the difference.
+								13159 row
+									13160 cell
+										13161 text 2
+									13162 cell
+										13163 text Connection Error
+									13164 cell
+										13165 text TH Pad
+									13166 cell
+										13167 text Common
+									13168 cell
+										13169 text TH Pad (CHASSIS_PE): J3_14
+									13170 cell
+										13171 text -
+									13172 cell
+										13173 text Object 1 is disconnected from other objects of the same network
+								13174 row
+									13175 cell
+										13176 text 3
+									13177 cell
+										13178 text Connection Error
+									13179 cell
+										13180 text TH Pad
+									13181 cell
+										13182 text Common
+									13183 cell
+										13184 text TH Pad (CHASSIS_PE): J4_13
+									13185 cell
+										13186 text -
+									13187 cell
+										13188 text Object 1 is disconnected from other objects of the same network
+								13189 row
+									13190 cell
+										13191 text 4
+									13192 cell
+										13193 text Connection Error
+									13194 cell
+										13195 text TH Pad
+									13196 cell
+										13197 text Common
+									13198 cell
+										13199 text TH Pad (CHASSIS_PE): J4_14
+									13200 cell
+										13201 text -
+									13202 cell
+										13203 text Object 1 is disconnected from other objects of the same network
+								13204 row
+									13205 cell
+										13206 text 5
+									13207 cell
+										13208 text Connection Error
+									13209 cell
+										13210 text TH Pad
+									13211 cell
+										13212 text Common
+									13213 cell
+										13214 text TH Pad (CHASSIS_PE): J5_13
+									13215 cell
+										13216 text -
+									13217 cell
+										13218 text Object 1 is disconnected from other objects of the same network
+								13219 row
+									13220 cell
+										13221 text 6
+									13222 cell
+										13223 text Connection Error
+									13224 cell
+										13225 text TH Pad
+									13226 cell
+										13227 text Common
+									13228 cell
+										13229 text TH Pad (CHASSIS_PE): J2_14
+									13230 cell
+										13231 text -
+									13232 cell
+										13233 text Object 1 is disconnected from other objects of the same network
+								13234 row
+									13235 cell
+										13236 text 7
+									13237 cell
+										13238 text Connection Error
+									13239 cell
+										13240 text TH Pad
+									13241 cell
+										13242 text Common
+									13243 cell
+										13244 text TH Pad (CHASSIS_PE): J3_13
+									13245 cell
+										13246 text -
+									13247 cell
+										13248 text Object 1 is disconnected from other objects of the same network
+								13249 row
+									13250 cell
+										13251 text 8
+									13252 cell
+										13253 text Connection Error
+									13254 cell
+										13255 text TH Pad
+									13256 cell
+										13257 text Common
+									13258 cell
+										13259 text TH Pad (CHASSIS_PE): J14_3
+									13260 cell
+										13261 text -
+									13262 cell
+										13263 text Object 1 is disconnected from other objects of the same network
+								13264 row
+									13265 cell
+										13266 text 9
+									13267 cell
+										13268 text Connection Error
+									13269 cell
+										13270 text TH Pad
+									13271 cell
+										13272 text Common
+									13273 cell
+										13274 text TH Pad (CHASSIS_PE): J14_1
+									13275 cell
+										13276 text -
+									13277 cell
+										13278 text Object 1 is disconnected from other objects of the same network
+								13279 row
+									13280 cell
+										13281 text 10
+									13282 cell
+										13283 text Connection Error
+									13284 cell
+										13285 text TH Pad
+									13286 cell
+										13287 text Common
+									13288 cell
+										13289 text TH Pad (CHASSIS_PE): J17_3
+									13290 cell
+										13291 text -
+									13292 cell
+										13293 text Object 1 is disconnected from other objects of the same network
+								13294 row
+									13295 cell
+										13296 text 11
+									13297 cell
+										13298 text Connection Error
+									13299 cell
+										13300 text TH Pad
+									13301 cell
+										13302 text Common
+									13303 cell
+										13304 text TH Pad (CHASSIS_PE): J17_1
+									13305 cell
+										13306 text -
+									13307 cell
+										13308 text Object 1 is disconnected from other objects of the same network
+								13309 row
+									13310 cell
+										13311 text 12
+									13312 cell
+										13313 text Connection Error
+									13314 cell
+										13315 text TH Pad
+									13316 cell
+										13317 text Common
+									13318 cell
+										13319 text TH Pad (CHASSIS_PE): J14_4
+									13320 cell
+										13321 text -
+									13322 cell
+										13323 text Object 1 is disconnected from other objects of the same network
+								13324 row
+									13325 cell
+										13326 text 13
+									13327 cell
+										13328 text Connection Error
+									13329 cell
+										13330 text TH Pad
+									13331 cell
+										13332 text Common
+									13333 cell
+										13334 text TH Pad (CHASSIS_PE): J14_2
+									13335 cell
+										13336 text -
+									13337 cell
+										13338 text Object 1 is disconnected from other objects of the same network
+								13339 row
+									13340 cell
+										13341 text 14
+									13342 cell
+										13343 text Connection Error
+									13344 cell
+										13345 text TH Pad
+									13346 cell
+										13347 text Common
+									13348 cell
+										13349 text TH Pad (CHASSIS_PE): J17_4
+									13350 cell
+										13351 text -
+									13352 cell
+										13353 text Object 1 is disconnected from other objects of the same network
+								13354 row
+									13355 cell
+										13356 text 15
+									13357 cell
+										13358 text Connection Error
+									13359 cell
+										13360 text TH Pad
+									13361 cell
+										13362 text Common
+									13363 cell
+										13364 text TH Pad (CHASSIS_PE): J17_2
+									13365 cell
+										13366 text -
+									13367 cell
+										13368 text Object 1 is disconnected from other objects of the same network
+								13369 row
+									13370 cell
+										13371 text 16
+									13372 cell
+										13373 text Connection Error
+									13374 cell
+										13375 text TH Pad
+									13376 cell
+										13377 text Common
+									13378 cell
+										13379 text TH Pad (CHASSIS_PE): J5_8
+									13380 cell
+										13381 text -
+									13382 cell
+										13383 text Object 1 is disconnected from other objects of the same network
+								13384 row
+									13385 cell
+										13386 text 17
+									13387 cell
+										13388 text Connection Error
+									13389 cell
+										13390 text TH Pad
+									13391 cell
+										13392 text Common
+									13393 cell
+										13394 text TH Pad (CHASSIS_PE): J4_8
+									13395 cell
+										13396 text -
+									13397 cell
+										13398 text Object 1 is disconnected from other objects of the same network
+								13399 row
+									13400 cell
+										13401 text 18
+									13402 cell
+										13403 text Connection Error
+									13404 cell
+										13405 text TH Pad
+									13406 cell
+										13407 text Common
+									13408 cell
+										13409 text TH Pad (CHASSIS_PE): J2_13
+									13410 cell
+										13411 text -
+									13412 cell
+										13413 text Object 1 is disconnected from other objects of the same network
+								13414 row
+									13415 cell
+										13416 text 19
+									13417 cell
+										13418 text Connection Error
+									13419 cell
+										13420 text TH Pad
+									13421 cell
+										13422 text Common
+									13423 cell
+										13424 text TH Pad (CHASSIS_PE): J2_8
+									13425 cell
+										13426 text -
+									13427 cell
+										13428 text Object 1 is disconnected from other objects of the same network
+								13429 row
+									13430 cell
+										13431 text 20
+									13432 cell
+										13433 text Connection Error
+									13434 cell
+										13435 text TH Pad
+									13436 cell
+										13437 text Common
+									13438 cell
+										13439 text TH Pad (CHASSIS_PE): J3_8
+									13440 cell
+										13441 text -
+									13442 cell
+										13443 text Object 1 is disconnected from other objects of the same network
+								13444 row
+									13445 cell
+										13446 text 21
+									13447 cell
+										13448 text Connection Error
+									13449 cell
+										13450 text TH Pad
+									13451 cell
+										13452 text Common
+									13453 cell
+										13454 text TH Pad (CHASSIS_PE): J5_14
+									13455 cell
+										13456 text -
+									13457 cell
+										13458 text Object 1 is disconnected from other objects of the same network
+								13459 row
+									13460 cell
+										13461 text 22
+									13462 cell
+										13463 text Connection Error
+									13464 cell
+										13465 text TH Pad
+									13466 cell
+										13467 text Common
+									13468 cell
+										13469 text TH Pad (CHASSIS_PE): J16_3
+									13470 cell
+										13471 text -
+									13472 cell
+										13473 text Object 1 is disconnected from other objects of the same network
+								13474 row
+									13475 cell
+										13476 text 23
+									13477 cell
+										13478 text Connection Error
+									13479 cell
+										13480 text Track
+									13481 cell
+										13482 text Common
+									13483 cell
+										13484 text Track (CHASSIS_PE): e10982
+									13485 cell
+										13486 text -
+									13487 cell
+										13488 text Object 1 is disconnected from other objects of the same network
+								13489 row
+									13490 cell
+										13491 text 24
+									13492 cell
+										13493 text Connection Error
+									13494 cell
+										13495 text Via
+									13496 cell
+										13497 text Common
+									13498 cell
+										13499 text Via (SIM_A_VCC): e371
+									13500 cell
+										13501 text -
+									13502 cell
+										13503 text Object 1 is disconnected from other objects of the same network
+								13504 row
+									13505 cell
+										13506 text 25
+									13507 cell
+										13508 text Connection Error
+									13509 cell
+										13510 text SMD Pad
+									13511 cell
+										13512 text Common
+									13513 cell
+										13514 text SMD Pad (SIM_A_VCC): U14_5
+									13515 cell
+										13516 text -
+									13517 cell
+										13518 text Object 1 is disconnected from other objects of the same network
+								13519 row
+									13520 cell
+										13521 text 26
+									13522 cell
+										13523 text Connection Error
+									13524 cell
+										13525 text SMD Pad
+									13526 cell
+										13527 text Common
+									13528 cell
+										13529 text SMD Pad (ROUTER_RESET_N): R36_2
+									13530 cell
+										13531 text -
+									13532 cell
+										13533 text Object 1 is disconnected from other objects of the same network
+								13534 row
+									13535 cell
+										13536 text 27
+									13537 cell
+										13538 text Connection Error
+									13539 cell
+										13540 text SMD Pad
+									13541 cell
+										13542 text Common
+									13543 cell
+										13544 text SMD Pad (ROUTER_RESET_N): e19
+									13545 cell
+										13546 text -
+									13547 cell
+										13548 text Object 1 is disconnected from other objects of the same network
+								13549 row
+									13550 cell
+										13551 text 28
+									13552 cell
+										13553 text Connection Error
+									13554 cell
+										13555 text Via
+									13556 cell
+										13557 text Common
+									13558 cell
+										13559 text Via (CONSOLE_RX): e437
+									13560 cell
+										13561 text -
+									13562 cell
+										13563 text Object 1 is disconnected from other objects of the same network
+								13564 row
+									13565 cell
+										13566 text 29
+									13567 cell
+										13568 text Connection Error
+									13569 cell
+										13570 text SMD Pad
+									13571 cell
+										13572 text Common
+									13573 cell
+										13574 text SMD Pad (CONSOLE_RX): e18
+									13575 cell
+										13576 text -
+									13577 cell
+										13578 text Object 1 is disconnected from other objects of the same network
+								13579 row
+									13580 cell
+										13581 text 30
+									13582 cell
+										13583 text Connection Error
+									13584 cell
+										13585 text SMD Pad
+									13586 cell
+										13587 text Common
+									13588 cell
+										13589 text SMD Pad (MODEM_PERST_N): Q2_3
+									13590 cell
+										13591 text -
+									13592 cell
+										13593 text Object 1 is disconnected from other objects of the same network
+								13594 row
+									13595 cell
+										13596 text 31
+									13597 cell
+										13598 text Connection Error
+									13599 cell
+										13600 text SMD Pad
+									13601 cell
+										13602 text Common
+									13603 cell
+										13604 text SMD Pad (MODEM_PERST_N): e30
+									13605 cell
+										13606 text -
+									13607 cell
+										13608 text Object 1 is disconnected from other objects of the same network
+								13609 row
+									13610 cell
+										13611 text 32
+									13612 cell
+										13613 text Connection Error
+									13614 cell
+										13615 text Track
+									13616 cell
+										13617 text Common
+									13618 cell
+										13619 text Track (ROUTER_GPIO0_N): e10712
+									13620 cell
+										13621 text -
+									13622 cell
+										13623 text Object 1 is disconnected from other objects of the same network
+								13624 row
+									13625 cell
+										13626 text 33
+									13627 cell
+										13628 text Connection Error
+									13629 cell
+										13630 text Track
+									13631 cell
+										13632 text Common
+									13633 cell
+										13634 text Track (ROUTER_GPIO0_N): e10710
+									13635 cell
+										13636 text -
+									13637 cell
+										13638 text Object 1 is disconnected from other objects of the same network
+								13639 row
+									13640 cell
+										13641 text 34
+									13642 cell
+										13643 text Connection Error
+									13644 cell
+										13645 text SMD Pad
+									13646 cell
+										13647 text Common
+									13648 cell
+										13649 text SMD Pad (ROUTER_GPIO0_N): e20
+									13650 cell
+										13651 text -
+									13652 cell
+										13653 text Object 1 is disconnected from other objects of the same network
+								13654 row
+									13655 cell
+										13656 text 35
+									13657 cell
+										13658 text Connection Error
+									13659 cell
+										13660 text SMD Pad
+									13661 cell
+										13662 text Common
+									13663 cell
+										13664 text SMD Pad (MODEM_BUCK_EN): R20_2
+									13665 cell
+										13666 text -
+									13667 cell
+										13668 text Object 1 is disconnected from other objects of the same network
+								13669 row
+									13670 cell
+										13671 text 36
+									13672 cell
+										13673 text Connection Error
+									13674 cell
+										13675 text SMD Pad
+									13676 cell
+										13677 text Common
+									13678 cell
+										13679 text SMD Pad (MODEM_BUCK_EN): U3_13
+									13680 cell
+										13681 text -
+									13682 cell
+										13683 text Object 1 is disconnected from other objects of the same network
+								13684 row
+									13685 cell
+										13686 text 37
+									13687 cell
+										13688 text Connection Error
+									13689 cell
+										13690 text Via
+									13691 cell
+										13692 text Common
+									13693 cell
+										13694 text Via (MODEM_BUCK_EN): e434
+									13695 cell
+										13696 text -
+									13697 cell
+										13698 text Object 1 is disconnected from other objects of the same network
+								13699 row
+									13700 cell
+										13701 text 38
+									13702 cell
+										13703 text Connection Error
+									13704 cell
+										13705 text SMD Pad
+									13706 cell
+										13707 text Common
+									13708 cell
+										13709 text SMD Pad (MODEM_BUCK_EN): e31
+									13710 cell
+										13711 text -
+									13712 cell
+										13713 text Object 1 is disconnected from other objects of the same network
+								13714 row
+									13715 cell
+										13716 text 39
+									13717 cell
+										13718 text Connection Error
+									13719 cell
+										13720 text Via
+									13721 cell
+										13722 text Common
+									13723 cell
+										13724 text Via (MUSB_VBUS): e443
+									13725 cell
+										13726 text -
+									13727 cell
+										13728 text Object 1 is disconnected from other objects of the same network
+								13729 row
+									13730 cell
+										13731 text 40
+									13732 cell
+										13733 text Connection Error
+									13734 cell
+										13735 text SMD Pad
+									13736 cell
+										13737 text Common
+									13738 cell
+										13739 text SMD Pad (MUSB_VBUS): C94_1
+									13740 cell
+										13741 text -
+									13742 cell
+										13743 text Object 1 is disconnected from other objects of the same network
+								13744 row
+									13745 cell
+										13746 text 41
+									13747 cell
+										13748 text Connection Error
+									13749 cell
+										13750 text SMD Pad
+									13751 cell
+										13752 text Common
+									13753 cell
+										13754 text SMD Pad (MODEM_OFF): R21_1
+									13755 cell
+										13756 text -
+									13757 cell
+										13758 text Object 1 is disconnected from other objects of the same network
+								13759 row
+									13760 cell
+										13761 text 42
+									13762 cell
+										13763 text Connection Error
+									13764 cell
+										13765 text SMD Pad
+									13766 cell
+										13767 text Common
+									13768 cell
+										13769 text SMD Pad (MODEM_OFF): U8_6
+									13770 cell
+										13771 text -
+									13772 cell
+										13773 text Object 1 is disconnected from other objects of the same network
+								13774 row
+									13775 cell
+										13776 text 43
+									13777 cell
+										13778 text Connection Error
+									13779 cell
+										13780 text SMD Pad
+									13781 cell
+										13782 text Common
+									13783 cell
+										13784 text SMD Pad (USB_C_VBUS): C90_1
+									13785 cell
+										13786 text -
+									13787 cell
+										13788 text Object 1 is disconnected from other objects of the same network
+								13789 row
+									13790 cell
+										13791 text 44
+									13792 cell
+										13793 text Connection Error
+									13794 cell
+										13795 text Via
+									13796 cell
+										13797 text Common
+									13798 cell
+										13799 text Via (USB_C_VBUS): e347
+									13800 cell
+										13801 text -
+									13802 cell
+										13803 text Object 1 is disconnected from other objects of the same network
+								13804 row
+									13805 cell
+										13806 text 45
+									13807 cell
+										13808 text Connection Error
+									13809 cell
+										13810 text Track
+									13811 cell
+										13812 text Common
+									13813 cell
+										13814 text Track (3V3_ROUTER): e10897
+									13815 cell
+										13816 text -
+									13817 cell
+										13818 text Object 1 is disconnected from other objects of the same network
+								13819 row
+									13820 cell
+										13821 text 46
+									13822 cell
+										13823 text Connection Error
+									13824 cell
+										13825 text SMD Pad
+									13826 cell
+										13827 text Common
+									13828 cell
+										13829 text SMD Pad (3V3_ROUTER): e21
+									13830 cell
+										13831 text -
+									13832 cell
+										13833 text Object 1 is disconnected from other objects of the same network
+								13834 row
+									13835 cell
+										13836 text 47
+									13837 cell
+										13838 text Connection Error
+									13839 cell
+										13840 text SMD Pad
+									13841 cell
+										13842 text Common
+									13843 cell
+										13844 text SMD Pad (3V3_ROUTER): R103_1
+									13845 cell
+										13846 text -
+									13847 cell
+										13848 text Object 1 is disconnected from other objects of the same network
+								13849 row
+									13850 cell
+										13851 text 48
+									13852 cell
+										13853 text Connection Error
+									13854 cell
+										13855 text SMD Pad
+									13856 cell
+										13857 text Common
+									13858 cell
+										13859 text SMD Pad (3V3_ROUTER): C93_1
+									13860 cell
+										13861 text -
+									13862 cell
+										13863 text Object 1 is disconnected from other objects of the same network
+								13864 row
+									13865 cell
+										13866 text 49
+									13867 cell
+										13868 text Connection Error
+									13869 cell
+										13870 text SMD Pad
+									13871 cell
+										13872 text Common
+									13873 cell
+										13874 text SMD Pad (3V3_ROUTER): R42_1
+									13875 cell
+										13876 text -
+									13877 cell
+										13878 text Object 1 is disconnected from other objects of the same network
+								13879 row
+									13880 cell
+										13881 text 50
+									13882 cell
+										13883 text Connection Error
+									13884 cell
+										13885 text SMD Pad
+									13886 cell
+										13887 text Common
+									13888 cell
+										13889 text SMD Pad (3V3_ROUTER): R43_1
+									13890 cell
+										13891 text -
+									13892 cell
+										13893 text Object 1 is disconnected from other objects of the same network
+						13894 content list
+							13895 text 1
+							13896 container
+								13897 text Total 73 Items | 2 pages
+							13898 container
+								13899 text 50 /page
+		81 container jlcIMDragger
+			82 text Online Chat
+			13019 text 
+		994 container
+			995 text Floating Tool
+		996 container
+			997 text Floating Tool
+		998 container
+			999 text Table Setting
+			1000 container
+				1001 text Border Color
+				1002 text field
+				1003 text #A00000
+
+The focused UI element is 9713 button Check DRC, ID: checkDRC

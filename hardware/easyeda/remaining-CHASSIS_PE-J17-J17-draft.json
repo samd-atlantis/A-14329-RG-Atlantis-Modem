@@ -1,0 +1,89 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-usb-shields-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_632817",
+        "ticket": 632817
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4174.49,
+        "startY": 95.355,
+        "endX": 4115.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_632818",
+        "ticket": 632818
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4115.0,
+        "startY": 40.0,
+        "endX": 4055.0,
+        "endY": 40.0,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_CHASSIS_PE_J17_J17_632819",
+        "ticket": 632819
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CHASSIS_PE",
+        "layerId": 1,
+        "startX": 4055.0,
+        "startY": 40.0,
+        "endX": 3985.51,
+        "endY": 95.355,
+        "width": 40.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      4174.49,
+      95.355
+    ],
+    [
+      1,
+      4115.0,
+      40.0
+    ],
+    [
+      1,
+      4055.0,
+      40.0
+    ],
+    [
+      1,
+      3985.51,
+      95.355
+    ]
+  ],
+  "issues": []
+}

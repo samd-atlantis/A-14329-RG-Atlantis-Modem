@@ -1,0 +1,28 @@
+[
+  {
+    "file": "magjack.pdf",
+    "url": "https://katalog.we-online.de/pbs/datasheet/7499010121A.pdf",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "file": "magjack-new.pdf",
+    "url": "https://www.we-online.com/components/products/datasheet/7499010121A.pdf?download=1",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "euicc.pdf",
+    "url": "https://www.st.com.cn/resource/en/data_brief/st4sim-200m.pdf",
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "quectel-hardware.pdf",
+    "url": "https://device.report/m/311c951a2cf5843f28bb2bfcc81a5a51f3287ed1bcb47fe0ad69a75262283fe3.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "quectel-evb.pdf",
+    "url": "https://www.quectel.com/content/uploads/2024/03/quectel_mini_pcie_evb_user_guide_v1-1.pdf",
+    "bytes": 1296892,
+    "sha256": "16a1114652735f8a994613a5955166548b0c8a970dc5aabe972272fb34b044bd"
+  }
+]

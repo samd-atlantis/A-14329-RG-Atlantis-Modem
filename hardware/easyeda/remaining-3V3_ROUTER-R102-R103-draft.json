@@ -1,0 +1,89 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "source": "routing-offline-escapes-complete-docs.json",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R102_R103_657889",
+        "ticket": 657889
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3592.3872,
+        "startY": 1062.9921,
+        "endX": 3630.0,
+        "endY": 1030.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R102_R103_657890",
+        "ticket": 657890
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3630.0,
+        "startY": 1030.0,
+        "endX": 3730.0,
+        "endY": 1035.0,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "remaining_3V3_ROUTER_R102_R103_657891",
+        "ticket": 657891
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3730.0,
+        "startY": 1035.0,
+        "endX": 3789.2376,
+        "endY": 1062.9921,
+        "width": 8.0,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "points": [
+    [
+      1,
+      3592.3872,
+      1062.9921
+    ],
+    [
+      1,
+      3630.0,
+      1030.0
+    ],
+    [
+      1,
+      3730.0,
+      1035.0
+    ],
+    [
+      1,
+      3789.2376,
+      1062.9921
+    ]
+  ],
+  "issues": []
+}

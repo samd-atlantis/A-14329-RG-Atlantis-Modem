@@ -1,0 +1,32 @@
+A-14329 Rev A4 USB-C service path
+
+J14 is a USB 2.0 device port connected through CH340C to HLK UART0.
+It is a serial console/programming connection, not the HLK native USB host port.
+USB VBUS powers only the USB bridge. Power the gateway from its normal supply or
+the isolated low-voltage fixture. Never connect fixture 5V while AC is energized.
+The UART buffer disables its outputs when USB is absent and supports Ioff when
+the router rail is absent. Do not drive J7 RX from a fixture while USB is attached.
+Keep SW1 reset and SW3 firmware recovery request accessible.
+
+PC workflow after a compatible OpenWrt image is installed:
+1. Use a USB-C data cable and the WCH CH340 driver if required by the PC.
+2. Open the COM port with a terminal supporting XMODEM/ZMODEM. Upstream HLK
+   console default is 57600 baud, 8 data bits, no parity, 1 stop bit, no flow
+   control. Verify this against the installed bootloader/image before production.
+3. Authenticate to the router shell. The development package now includes lrzsz.
+4. Run: rx /tmp/gateway.bin
+   Then use the PC terminal's XMODEM Send File operation to send the approved
+   sysupgrade image. This transfers over USB serial without Ethernet.
+5. Compare sha256sum /tmp/gateway.bin against the approved release hash.
+6. Run sysupgrade -T /tmp/gateway.bin to validate image compatibility.
+7. Only after validation and an approved maintenance window, use the normal
+   sysupgrade procedure. Interrupted power during flashing can require recovery.
+
+Serial loading is slower than Ethernet. For 50 units, prefer USB-C console/reset
+plus Ethernet bulk image transfer on the fixture; validate a higher serial baud
+only on prototypes. Initial OEM installation and erased-bootloader recovery are
+bootloader-specific; this connector does not add a silicon USB DFU boot mode.
+EG25 modem firmware service remains on J12 and is separate from the router UART.
+
+These are implementation instructions for the development design. No physical
+USB enumeration, file transfer, bootloader recovery or flash test has been run.

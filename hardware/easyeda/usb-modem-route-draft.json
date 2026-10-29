@@ -1,0 +1,1049 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620696",
+        "ticket": 620696
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 3490.16,
+        "startY": 1076.58,
+        "endX": 3488.5,
+        "endY": 1085,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620697",
+        "ticket": 620697
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 3488.5,
+        "startY": 1085,
+        "endX": 3488.5,
+        "endY": 1098,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620698",
+        "ticket": 620698
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 3488.5,
+        "startY": 1098,
+        "endX": 3475,
+        "endY": 1111,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620699",
+        "ticket": 620699
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 3475,
+        "startY": 1111,
+        "endX": 3475,
+        "endY": 1140,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620700",
+        "ticket": 620700
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 3475,
+        "startY": 1140,
+        "endX": 3530,
+        "endY": 1140,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620701",
+        "ticket": 620701
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 1,
+        "startX": 3509.84,
+        "startY": 1076.58,
+        "endX": 3510,
+        "endY": 1110,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620702",
+        "ticket": 620702
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 3530,
+        "startY": 1140,
+        "endX": 3530,
+        "endY": 1200,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620703",
+        "ticket": 620703
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 3530,
+        "startY": 1200,
+        "endX": 3522.87,
+        "endY": 1220.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620704",
+        "ticket": 620704
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 3522.87,
+        "startY": 1220.0,
+        "endX": 3522.87,
+        "endY": 1232.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620705",
+        "ticket": 620705
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 3522.87,
+        "startY": 1232.13,
+        "endX": 4076.7401392641236,
+        "endY": 1232.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620706",
+        "ticket": 620706
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4076.7401392641236,
+        "startY": 1232.13,
+        "endX": 4132.13,
+        "endY": 1176.7401392641239,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620707",
+        "ticket": 620707
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4132.13,
+        "startY": 1176.7401392641239,
+        "endX": 4132.13,
+        "endY": 862.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620708",
+        "ticket": 620708
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4132.13,
+        "startY": 862.13,
+        "endX": 4160.0,
+        "endY": 862.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620709",
+        "ticket": 620709
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4160.0,
+        "startY": 862.13,
+        "endX": 4200,
+        "endY": 850,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620710",
+        "ticket": 620710
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3510,
+        "startY": 1110,
+        "endX": 3502,
+        "endY": 1110,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620711",
+        "ticket": 620711
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3502,
+        "startY": 1110,
+        "endX": 3502,
+        "endY": 1200,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620712",
+        "ticket": 620712
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3502,
+        "startY": 1200,
+        "endX": 3507.13,
+        "endY": 1220.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620713",
+        "ticket": 620713
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3507.13,
+        "startY": 1220.0,
+        "endX": 3507.13,
+        "endY": 1247.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620714",
+        "ticket": 620714
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3507.13,
+        "startY": 1247.87,
+        "endX": 3750,
+        "endY": 1247.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620715",
+        "ticket": 620715
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3750,
+        "startY": 1247.87,
+        "endX": 3821.0877607654566,
+        "endY": 1318.9577607654564,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620716",
+        "ticket": 620716
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3821.0877607654566,
+        "startY": 1318.9577607654564,
+        "endX": 3900,
+        "endY": 1318.9577607654564,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620717",
+        "ticket": 620717
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3900,
+        "startY": 1318.9577607654564,
+        "endX": 3971.0877607654566,
+        "endY": 1247.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620718",
+        "ticket": 620718
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 3971.0877607654566,
+        "startY": 1247.87,
+        "endX": 4083.2598607358764,
+        "endY": 1247.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620719",
+        "ticket": 620719
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4083.2598607358764,
+        "startY": 1247.87,
+        "endX": 4147.87,
+        "endY": 1183.2598607358761,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620720",
+        "ticket": 620720
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4147.87,
+        "startY": 1183.2598607358761,
+        "endX": 4147.87,
+        "endY": 877.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620721",
+        "ticket": 620721
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4147.87,
+        "startY": 877.87,
+        "endX": 4160.0,
+        "endY": 877.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620722",
+        "ticket": 620722
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4160.0,
+        "startY": 877.87,
+        "endX": 4200,
+        "endY": 890,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620723",
+        "ticket": 620723
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 4200,
+        "startY": 850,
+        "endX": 4180,
+        "endY": 836.22,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620724",
+        "ticket": 620724
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 4180,
+        "startY": 836.22,
+        "endX": 4159.685,
+        "endY": 836.22,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620725",
+        "ticket": 620725
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 1,
+        "startX": 4200,
+        "startY": 890,
+        "endX": 4170,
+        "endY": 863.78,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620726",
+        "ticket": 620726
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 1,
+        "startX": 4170,
+        "startY": 863.78,
+        "endX": 4159.685,
+        "endY": 863.78,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620727",
+        "ticket": 620727
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4200,
+        "startY": 850,
+        "endX": 4240.0,
+        "endY": 862.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620728",
+        "ticket": 620728
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4240.0,
+        "startY": 862.13,
+        "endX": 4257.87,
+        "endY": 862.13,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620729",
+        "ticket": 620729
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4257.87,
+        "startY": 862.13,
+        "endX": 4257.87,
+        "endY": 1303.2598607358764,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620730",
+        "ticket": 620730
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4257.87,
+        "startY": 1303.2598607358764,
+        "endX": 4178.849999999999,
+        "endY": 1382.2798607358764,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620731",
+        "ticket": 620731
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4178.849999999999,
+        "startY": 1382.2798607358764,
+        "endX": 4178.849999999999,
+        "endY": 1410.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620732",
+        "ticket": 620732
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 2,
+        "startX": 4178.849999999999,
+        "startY": 1410.0,
+        "endX": 4186.7278,
+        "endY": 1450,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620733",
+        "ticket": 620733
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4200,
+        "startY": 890,
+        "endX": 4240.0,
+        "endY": 877.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620734",
+        "ticket": 620734
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4240.0,
+        "startY": 877.87,
+        "endX": 4242.13,
+        "endY": 877.87,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620735",
+        "ticket": 620735
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4242.13,
+        "startY": 877.87,
+        "endX": 4242.13,
+        "endY": 1296.7401392641236,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620736",
+        "ticket": 620736
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4242.13,
+        "startY": 1296.7401392641236,
+        "endX": 4163.11,
+        "endY": 1375.7601392641236,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620737",
+        "ticket": 620737
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4163.11,
+        "startY": 1375.7601392641236,
+        "endX": 4163.11,
+        "endY": 1410.0,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620738",
+        "ticket": 620738
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 2,
+        "startX": 4163.11,
+        "startY": 1410.0,
+        "endX": 4155.2378,
+        "endY": 1450,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620739",
+        "ticket": 620739
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "layerId": 1,
+        "startX": 4186.7278,
+        "startY": 1450,
+        "endX": 4186.7278,
+        "endY": 1525.6326,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "id": "modem_draft_620740",
+        "ticket": 620740
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "layerId": 1,
+        "startX": 4155.2378,
+        "startY": 1450,
+        "endX": 4155.2378,
+        "endY": 1525.6326,
+        "width": 9.74,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_draft_620741",
+        "ticket": 620741
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "ruleName": "",
+        "centerX": 3530,
+        "centerY": 1140,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_draft_620742",
+        "ticket": 620742
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "ruleName": "",
+        "centerX": 4200,
+        "centerY": 850,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_draft_620743",
+        "ticket": 620743
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DP",
+        "ruleName": "",
+        "centerX": 4186.7278,
+        "centerY": 1450,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_draft_620744",
+        "ticket": 620744
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "ruleName": "",
+        "centerX": 3510,
+        "centerY": 1110,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_draft_620745",
+        "ticket": 620745
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "ruleName": "",
+        "centerX": 4200,
+        "centerY": 890,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "id": "modem_draft_620746",
+        "ticket": 620746
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_MODEM_DM",
+        "ruleName": "",
+        "centerX": 4155.2378,
+        "centerY": 1450,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    }
+  ],
+  "issues": [],
+  "lengths_mil": {
+    "USB_MODEM_DP": 2035.4423043648292,
+    "USB_MODEM_DM": 2040.9979841763952
+  },
+  "through_lengths_mil": {
+    "USB_MODEM_DP": 1990.8396861201354,
+    "USB_MODEM_DM": 1990.8396861201354
+  },
+  "limitations": [
+    "Native DRC, branch electrical lengths and return via placement remain required."
+  ]
+}

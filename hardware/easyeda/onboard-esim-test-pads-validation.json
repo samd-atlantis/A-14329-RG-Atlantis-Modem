@@ -1,0 +1,212 @@
+{
+  "schematicDRC": {
+    "fatal": 0,
+    "error": 0,
+    "warning": 0
+  },
+  "pcbDRC": {
+    "total": 424,
+    "unrouted": 412,
+    "terminalFootprintClearance": 12
+  },
+  "testPads": [
+    {
+      "h": {
+        "type": "PAD",
+        "ticket": 588,
+        "id": "ed28120000000002"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "num": "1",
+        "centerX": 3310,
+        "centerY": 95,
+        "padAngle": 0,
+        "hole": null,
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 70.8661,
+          "height": 70.8661
+        },
+        "specialPad": [],
+        "padOffsetX": 0,
+        "padOffsetY": 0,
+        "relativeAngle": null,
+        "plated": false,
+        "padType": "NORMAL",
+        "topSolderExpansion": 3.937,
+        "bottomSolderExpansion": 0,
+        "topPasteExpansion": -36,
+        "bottomPasteExpansion": -36,
+        "locked": false,
+        "zIndex": 13,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "unusedInnerLayers": [],
+        "padLen": 0,
+        "attrsMap": {}
+      }
+    },
+    {
+      "h": {
+        "type": "PAD",
+        "ticket": 589,
+        "id": "ed28120000000003"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "GND_ISO",
+        "layerId": 1,
+        "num": "2",
+        "centerX": 3310,
+        "centerY": 195,
+        "padAngle": 0,
+        "hole": null,
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 70.8661,
+          "height": 70.8661
+        },
+        "specialPad": [],
+        "padOffsetX": 0,
+        "padOffsetY": 0,
+        "relativeAngle": null,
+        "plated": false,
+        "padType": "NORMAL",
+        "topSolderExpansion": 3.937,
+        "bottomSolderExpansion": 0,
+        "topPasteExpansion": -36,
+        "bottomPasteExpansion": -36,
+        "locked": false,
+        "zIndex": 13,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "unusedInnerLayers": [],
+        "padLen": 0,
+        "attrsMap": {}
+      }
+    },
+    {
+      "h": {
+        "type": "PAD",
+        "ticket": 590,
+        "id": "ed28120000000004"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "num": "3",
+        "centerX": 3310,
+        "centerY": 295,
+        "padAngle": 0,
+        "hole": null,
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 70.8661,
+          "height": 70.8661
+        },
+        "specialPad": [],
+        "padOffsetX": 0,
+        "padOffsetY": 0,
+        "relativeAngle": null,
+        "plated": false,
+        "padType": "NORMAL",
+        "topSolderExpansion": 3.937,
+        "bottomSolderExpansion": 0,
+        "topPasteExpansion": -36,
+        "bottomPasteExpansion": -36,
+        "locked": false,
+        "zIndex": 13,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "unusedInnerLayers": [],
+        "padLen": 0,
+        "attrsMap": {}
+      }
+    },
+    {
+      "h": {
+        "type": "PAD",
+        "ticket": 591,
+        "id": "ed28120000000005"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 1,
+        "num": "4",
+        "centerX": 3310,
+        "centerY": 395,
+        "padAngle": 0,
+        "hole": null,
+        "defaultPad": {
+          "padType": "ELLIPSE",
+          "width": 70.8661,
+          "height": 70.8661
+        },
+        "specialPad": [],
+        "padOffsetX": 0,
+        "padOffsetY": 0,
+        "relativeAngle": null,
+        "plated": false,
+        "padType": "NORMAL",
+        "topSolderExpansion": 3.937,
+        "bottomSolderExpansion": 0,
+        "topPasteExpansion": -36,
+        "bottomPasteExpansion": -36,
+        "locked": false,
+        "zIndex": 13,
+        "connectMode": null,
+        "spokeSpace": null,
+        "spokeWidth": null,
+        "spokeAngle": null,
+        "unusedInnerLayers": [],
+        "padLen": 0,
+        "attrsMap": {}
+      }
+    }
+  ],
+  "esim": {
+    "reference": "U20",
+    "DNP": true,
+    "provider": "TBD",
+    "map": {
+      "1": "GND_ISO",
+      "3": "SIM_B_IO",
+      "6": "SIM_B_CLK",
+      "7": "SIM_B_RST",
+      "8": "SIM_B_VCC"
+    },
+    "NC": [
+      2,
+      4,
+      5,
+      9
+    ],
+    "footprint": "f3a4fce2c34bd0c1",
+    "centerMM": [
+      52.2,
+      45
+    ],
+    "C72CenterMM": [
+      52.2,
+      49.1
+    ],
+    "physicalSIM": "J9 retained",
+    "externalAdapter": "J11 removed"
+  },
+  "synchronization": "Only U20 Manufacturer, Name and Channel ID updated; no electrical or component changes proposed"
+}

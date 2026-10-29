@@ -1,0 +1,52 @@
+[
+  {
+    "args": [
+      "version"
+    ],
+    "returncode": 0,
+    "stdout": "9.0.7\n",
+    "stderr": "08:42:14: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n08:42:14: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "erc",
+      "--format",
+      "json",
+      "--output",
+      "C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\erc.json",
+      "C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\walchem_gateway.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "Found 0 violations\nSaved ERC Report to C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\erc.json\n",
+    "stderr": "08:42:14: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n08:42:14: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "netlist",
+      "--format",
+      "kicadxml",
+      "--output",
+      "C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\netlist.xml",
+      "C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\walchem_gateway.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "08:42:16: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n08:42:16: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  },
+  {
+    "args": [
+      "sch",
+      "export",
+      "svg",
+      "--output",
+      "C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports",
+      "C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\walchem_gateway.kicad_sch"
+    ],
+    "returncode": 0,
+    "stdout": "Plotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway.svg'.\nPlotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway-01 - 120 VAC input and isolated 5 V supply.svg'.\nPlotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway-03 - Router module and I2C management.svg'.\nPlotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway-05 - EG25-GL socket, USB isolation and reset.svg'.\nPlotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway-07 - Ai-WB2-13 Wi-Fi_BLE and isolated UART.svg'.\nPlotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway-02 - Separate 3.3 V router and modem supplies.svg'.\nPlotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway-04 - Four 10_100 LAN ports with integrated magnetics.svg'.\nPlotted to 'C:\\Users\\samd.ATECHLLC\\Documents\\ChatGPT\\PSU\\hardware\\rev-a\\kicad\\exports\\walchem_gateway-06 - Switched physical SIM and eUICC (one active).svg'.\nDone.\n",
+    "stderr": "08:42:17: Error: Can't create registry key 'HKCU\\Software\\kicad-cli' (error 5: Access is denied.)\n08:42:17: Error: Can't open registry key 'HKCU\\Software\\kicad-cli' (error 2: The system cannot find the file specified.)\n"
+  }
+]

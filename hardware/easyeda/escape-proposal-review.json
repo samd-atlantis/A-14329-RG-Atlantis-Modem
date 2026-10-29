@@ -1,0 +1,748 @@
+{
+  "status": "OFFLINE_NOT_APPLIED",
+  "removedIds": [
+    "1af12dcbf4129e66",
+    "2bcc3fb5f2160d00",
+    "42fc7672480f5a9d",
+    "6d211bfeffad695c",
+    "754d7cf6c859b83c",
+    "9b7ed4bcc2c42015",
+    "a9e698acbd9c52ae",
+    "bc789f4bbb67f294",
+    "bdf6c64a2617bdf3",
+    "cfe468ef33b325d3",
+    "d34a7c9a4d1f3fee",
+    "e365dee958de6ca2",
+    "remaining_5V_ISO_C20_s1baffc3de0f5bfbd",
+    "remaining_5V_ISO_C20_s1f2d3f8c3c0b8173",
+    "remaining_5V_ISO_C20_s33e6755c23ec70ef",
+    "remaining_5V_ISO_C20_s35240113ff294192",
+    "remaining_5V_ISO_C20_s9a305f2ea61c97c3",
+    "remaining_5V_ISO_C20_sa90ec62a9643d830",
+    "remaining_5V_ISO_C20_sb132b8f88ca554a2",
+    "remaining_5V_ISO_C20_sb69cbbf53c7498ce",
+    "remaining_5V_ISO_C20_sbca5a835b5eb767f",
+    "remaining_5V_ISO_C20_sc554431a31b8e232",
+    "remaining_5V_ISO_C20_see364f5e57b0088b",
+    "remaining_5V_ISO_C20_sf2b9eb0010e1b66a",
+    "remaining_MODEM_BUCK_EN_stand1ba86aeeeb80acfb",
+    "remaining_MODEM_BUCK_EN_stand2d7aca9bb87a114f",
+    "remaining_MODEM_BUCK_EN_stand381bdb293af679eb",
+    "remaining_MODEM_BUCK_EN_stand7b06e6eabea5a831",
+    "remaining_MODEM_BUCK_EN_stand8d06499f97ddb472",
+    "remaining_MODEM_BUCK_EN_standa032305494868539",
+    "remaining_MODEM_BUCK_EN_standa12c3b44a7c784c2",
+    "remaining_MODEM_BUCK_EN_standa9607f5bf15a3beb",
+    "remaining_MODEM_BUCK_EN_standc4f326cbd87280bf",
+    "remaining_MODEM_BUCK_EN_standfd0bb0256e2b1cff",
+    "route2810_00000090",
+    "route2810_00000091",
+    "route2810_00000092",
+    "route2810_000000ea",
+    "route2810_000000eb",
+    "route2810_000000ec"
+  ],
+  "changedRecords": [
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 623556,
+        "id": "e0a49dfa4a1492b8"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2700,
+        "startY": 2225,
+        "endX": 2740.5681,
+        "endY": 2240,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 623557,
+        "id": "92a7f09ca1f4e400"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "5V_ISO",
+        "layerId": 2,
+        "startX": 2740.5681,
+        "startY": 2240,
+        "endX": 2890,
+        "endY": 2170,
+        "width": 20,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "records": [
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633811,
+        "id": "escape29_633811"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2590,
+        "startY": 2735,
+        "endX": 2620,
+        "endY": 2760,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633812,
+        "id": "escape29_633812"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 1,
+        "startX": 2620,
+        "startY": 2760,
+        "endX": 2660,
+        "endY": 2760,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633813,
+        "id": "escape29_633813"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "ruleName": "",
+        "centerX": 2660,
+        "centerY": 2760,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633814,
+        "id": "escape29_633814"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "layerId": 1,
+        "startX": 2677.1654,
+        "startY": 2151.5786,
+        "endX": 2677.1654,
+        "endY": 2128,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633815,
+        "id": "escape29_633815"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "layerId": 1,
+        "startX": 2677.1654,
+        "startY": 2128,
+        "endX": 2640,
+        "endY": 2105,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633816,
+        "id": "escape29_633816"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIM_A_VCC",
+        "ruleName": "",
+        "centerX": 2640,
+        "centerY": 2105,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633817,
+        "id": "escape29_633817"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 1,
+        "startX": 3529.53,
+        "startY": 1076.58,
+        "endX": 3540,
+        "endY": 1090,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633818,
+        "id": "escape29_633818"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "layerId": 1,
+        "startX": 3540,
+        "startY": 1090,
+        "endX": 3590,
+        "endY": 1120,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633819,
+        "id": "escape29_633819"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_OFF",
+        "ruleName": "",
+        "centerX": 3590,
+        "centerY": 1120,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633820,
+        "id": "escape29_633820"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 2726.4055,
+        "startY": 2228.4039000000002,
+        "endX": 2710,
+        "endY": 2212,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633821,
+        "id": "escape29_633821"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "layerId": 1,
+        "startX": 2710,
+        "startY": 2212,
+        "endX": 2707,
+        "endY": 2195,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633822,
+        "id": "escape29_633822"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_BUCK_EN",
+        "ruleName": "",
+        "centerX": 2707,
+        "centerY": 2195,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633823,
+        "id": "escape29_633823"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2490,
+        "startY": 2785,
+        "endX": 2490,
+        "endY": 2880,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633824,
+        "id": "escape29_633824"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "layerId": 1,
+        "startX": 2490,
+        "startY": 2880,
+        "endX": 2474,
+        "endY": 2918,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633825,
+        "id": "escape29_633825"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "CONSOLE_RX",
+        "ruleName": "",
+        "centerX": 2474,
+        "centerY": 2918,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633826,
+        "id": "escape29_633826"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 2440,
+        "startY": 2785,
+        "endX": 2440,
+        "endY": 2905,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633827,
+        "id": "escape29_633827"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 2440,
+        "centerY": 2905,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633828,
+        "id": "escape29_633828"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "layerId": 1,
+        "startX": 3592.3872,
+        "startY": 1062.9921,
+        "endX": 3592.3872,
+        "endY": 1030,
+        "width": 12,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633829,
+        "id": "escape29_633829"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "3V3_ROUTER",
+        "ruleName": "",
+        "centerX": 3592.3872,
+        "centerY": 1030,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633830,
+        "id": "escape29_bridge_633830"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 16,
+        "startX": 2660.0,
+        "startY": 2760.0,
+        "endX": 2607.5,
+        "endY": 2760.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633831,
+        "id": "escape29_bridge_633831"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 16,
+        "startX": 2607.5,
+        "startY": 2760.0,
+        "endX": 2592.5,
+        "endY": 2775.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633832,
+        "id": "escape29_bridge_633832"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 16,
+        "startX": 2592.5,
+        "startY": 2775.0,
+        "endX": 2550.0,
+        "endY": 2775.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633833,
+        "id": "escape29_bridge_633833"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 16,
+        "startX": 2550.0,
+        "startY": 2775.0,
+        "endX": 2370.0,
+        "endY": 2917.5,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633834,
+        "id": "escape29_bridge_633834"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 16,
+        "startX": 2370.0,
+        "startY": 2917.5,
+        "endX": 2345.0,
+        "endY": 2925.0,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633835,
+        "id": "escape29_bridge_633835"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "ROUTER_GPIO0_N",
+        "layerId": 16,
+        "startX": 2345.0,
+        "startY": 2925.0,
+        "endX": 2117.7871,
+        "endY": 2892.258,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633836,
+        "id": "escape29_resetvia_633836"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "ruleName": "",
+        "centerX": 2555,
+        "centerY": 2333.3918000000003,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "VIA",
+        "ticket": 633837,
+        "id": "escape29_resetvia_633837"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "ruleName": "",
+        "centerX": 2840,
+        "centerY": 2048.3918000000003,
+        "holeDiameter": 11.811,
+        "viaDiameter": 23.622,
+        "viaType": "NORMAL",
+        "topSolderExpansion": null,
+        "bottomSolderExpansion": null,
+        "locked": false,
+        "unusedInnerLayers": []
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633838,
+        "id": "escape29_bridge_633838"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "layerId": 2,
+        "startX": 2265.3537,
+        "startY": 2623.0381,
+        "endX": 2555,
+        "endY": 2333.3918000000003,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633839,
+        "id": "escape29_bridge_633839"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "layerId": 16,
+        "startX": 2555.0,
+        "startY": 2333.3918000000003,
+        "endX": 2685.0,
+        "endY": 2180.8918000000003,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633840,
+        "id": "escape29_bridge_633840"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "layerId": 16,
+        "startX": 2685.0,
+        "startY": 2180.8918000000003,
+        "endX": 2790.0,
+        "endY": 2098.3918000000003,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633841,
+        "id": "escape29_bridge_633841"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "layerId": 16,
+        "startX": 2790.0,
+        "startY": 2098.3918000000003,
+        "endX": 2840,
+        "endY": 2048.3918000000003,
+        "width": 8,
+        "locked": false,
+        "zIndex": -1
+      }
+    },
+    {
+      "h": {
+        "type": "LINE",
+        "ticket": 633842,
+        "id": "escape29_bridge_633842"
+      },
+      "b": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "MODEM_RESET_REQ",
+        "layerId": 2,
+        "startX": 2840,
+        "startY": 2048.3918000000003,
+        "endX": 3042.9112,
+        "endY": 1845.4806,
+        "width": 9.8425,
+        "locked": false,
+        "zIndex": -1
+      }
+    }
+  ],
+  "issues": []
+}
