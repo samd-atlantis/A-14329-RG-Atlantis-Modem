@@ -4,13 +4,16 @@ START HERE
 PROGRAMMING-MB00.txt: first-board identification, backup, programming and setup.
 FACTORY-PROVISIONING.txt: common-image/per-unit-bundle candidate for a 50-unit fixture.
 VALIDATION-MB00.txt: actual test/build status; source checks do not prove hardware.
+HLK-FACTORY-RECOVERY.txt: sourced, conditional OEM installation/recovery paths.
 ../hardware/audits/: independent electrical and current-geometry KiCad audit.
 
 TARGET
-HLK-7628N router (BOM C209920), provisional 32 MB flash profile. Verify actual flash,
-RAM, bootloader and partition offsets before programming; family name alone does
-not establish memory size. Ordered modem is Quectel EC25AFFA-MINIPCIE. It keeps
-its own Quectel firmware. No extra Bluetooth/LoRa radio firmware is required.
+HLK-7628N router (BOM C209920). The C209920-linked manufacturer datasheet specifies
+32 MB flash / 128 MB RAM as the default, supporting the chosen 32 MB flash profile.
+It also allows custom memory options. Verify actual flash, RAM, bootloader and
+partition offsets before programming; see ../hardware/audits/hlk-memory-evidence.txt.
+Ordered modem is Quectel EC25AFFA-MINIPCIE. It keeps its own Quectel firmware.
+No extra Bluetooth/LoRa radio firmware is required.
 Physical hinged J9 socket takes a nano-SIM. U20 eSIM is absent and not needed.
 
 LOCAL SETUP AFTER A PROVISIONED IMAGE BOOTS
@@ -48,6 +51,10 @@ Never clone another module's bootloader, RF-calibration, MAC or unit credentials
 
 GitHub Actions -> OpenWrt MB00 cross-build -> Run workflow compiles an unprovisioned
 validation image without secrets. Check its actual run result and artifact manifest.
+After a successful main-branch build, MB00 compiled-image checks independently
+inspects the actual filesystem against that build's package source. Both workflow
+results must pass. It verifies packaged files and defaults without executing them;
+this still does not prove hardware operation.
 It locks network login and disables Wi-Fi setup; the physical console remains
 available for fixture work. Do not program that image alone to a customer unit.
 FACTORY-PROVISIONING.txt explains a separate private unit-config bundle candidate.
@@ -77,6 +84,13 @@ From repository root:
   python3 -m unittest discover -s firmware/tests -p 'test_*.py' -v
   node firmware/tests/check.js
 Tests cover source/mocked behavior, not RF, USB timing, regulators or actual flash.
+tools/inspect_rootfs.py can inspect a validation sysupgrade image using an existing
+7-Zip executable. Supply --image, --manifest and a new --output-dir below firmware/dist;
+--sevenzip selects the executable when it is not on PATH or in .tools/7zip-full.
+It checks actual SquashFS files, packages, modules, service links and carrier defaults.
+It does not execute first boot or authorize programming. Per-unit images are excluded.
+Use only reviewed MB00 builds for updates. Stock OpenWrt and Attended Sysupgrade
+images omit our carrier changes; the upstream HLK profile name is insufficient.
 Use acceptance-template.json for real first-board/fixture results, saved privately.
 For a visual concept only:
   python -m http.server 8765 --bind 127.0.0.1 --directory firmware/preview

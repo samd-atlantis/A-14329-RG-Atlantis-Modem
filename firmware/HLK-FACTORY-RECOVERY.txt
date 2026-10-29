@@ -1,0 +1,133 @@
+HLK-7628N factory installation and recovery evidence
+A-14329-MB00 / router BOM C209920 / reviewed 2026-10-29
+
+STATUS
+This is a conditional first-board decision tree, not a tested flashing recipe.
+Read PROGRAMMING-MB00.txt first. Hi-Link documents web updates and recovery with
+a working U-Boot. The actual module's bootloader, image acceptance rules, console
+baud and Ethernet port selection still need to be recorded on the first board.
+No vendor executable was installed or run, and no hardware was programmed.
+
+WHAT THE PRIMARY SOURCES ESTABLISH
+1. Hi-Link's application manual, section 10, printed pages 46-47, describes an
+   Ethernet web firmware update using the appropriate firmware and uninterrupted
+   power. Its example takes about 1.5 minutes. The listed factory network and
+   credentials belong to that documented firmware, not necessarily this lot.
+   It does not identify our OpenWrt sysupgrade image as an accepted OEM upload.
+   The manual's 57600 baud entry is C2_uart configuration, not a bootloader baud
+   specification. [S1]
+
+2. Hi-Link's 2020 FAQ distinguishes transparent serial firmware from its OpenWrt
+   firmware; it identifies UART0 for OpenWrt logs. Its factory-reset behavior is
+   firmware dependent, not a universal ROM downloader. [S2]
+
+3. Hi-Link technical support, Engineer Chen, says recovery through serial is
+   possible while U-Boot works; resetting settings cannot restore missing
+   firmware. The answer does not specify XMODEM or a serial image format. [S3]
+
+4. The original upstream OpenWrt HLK-7628N support commit documents a Ralink-SDK
+   U-Boot procedure: connect UART0, prepare a PC/TFTP server, then use the
+   bootloader's firmware-download menu and its IP/filename prompts. That version
+   used menu 2 and wrote firmware to flash. UART supplies the commands; Ethernet
+   carries the TFTP image. This is upstream installation evidence, not proof of
+   the bootloader shipped in our C209920 lot. [S4]
+
+5. A human answer by Hi-Link forum certified expert "manro" describes another
+   version: hold the test-kit factory-reset button at power-up, wait about ten
+   seconds for UART0 output, then select a TFTP upgrade entry numbered 9. The
+   differing menu number is a reason to read the actual menu instead of blindly
+   pressing 2 or 9. This is a manufacturer-hosted expert answer, not a formal
+   specification of the MB00 carrier. The page's AI reply was not used. [S5]
+
+CONNECTIONS ON MB00
+J14 USB-C is the CH340C connection to router UART0. It is a serial console, not
+a native USB-DFU port. The router USB host is a different interface.
+J17 USB-C services the Quectel modem and does not program the HLK router.
+Power the carrier using the qualified supply procedure; USB does not power it.
+SW1 drives hardware PORST_N. SW3 drives module pin 30 / SoC GPIO11. Module pin 8
+WDT_RST_N is unconnected. Do not translate a Hi-Link test-kit button name into
+an MB00 button sequence without checking the actual firmware's input behavior.
+Our modified OpenWrt profile does not assign SW3 a factory-reset action.
+
+CONDITIONAL FIRST-BOARD PROCEDURE
+A. Establish a readable console and identify the software.
+   Use J14 with terminal logging enabled. Start at 57600 baud, 8N1, no flow
+   control for the upstream Linux console used by our build. This is not a
+   verified factory U-Boot baud. If output is garbled, determine the actual baud
+   from the module's documentation or a measured UART waveform before sending
+   commands. A transparent firmware variant may not print ordinary UART0 logs.
+   Record the module markings, bootloader banner/menu, RAM/flash detection and
+   software revision. Capture settings without modifying flash or environment.
+
+B. If a compatible OpenWrt installation already boots:
+   Use the identification, private backup, preflight and sysupgrade -T checks in
+   PROGRAMMING-MB00.txt. Preserve each unit's own factory/RF/MAC information.
+   Do not bypass image compatibility with sysupgrade -F. Use only this project's
+   reviewed carrier build; a stock image omits our hardware-specific changes.
+
+C. If the factory web interface boots:
+   Identify its firmware revision and actual LAN addressing/credentials before
+   following the corresponding Hi-Link manual. An isolated Ethernet connection
+   is suitable for this examination. Save configuration and a verified flash
+   backup using a method supported by that installation.
+   The documented web-update feature does not prove it accepts our image.
+   Confirm the required header, partition destination and size before uploading.
+   Do not treat a bootloader-update operation as a Linux firmware update.
+   If the format is unknown, retain the factory image and examine U-Boot first.
+
+D. If U-Boot responds but Linux or the web interface does not:
+   Record the available commands/menu and expected image type. A verified TFTP
+   firmware menu can be used only after its target partition and file format
+   match the reviewed image and a usable backup/recovery path exists.
+   Configure the PC/server and filename to the actual bootloader prompts; there
+   is no assumed server IP, firmware name, flash address or universal menu key.
+   Test whether U-Boot can reach a PC through a populated MB00 Ethernet socket.
+   MB00 exposes PHY1-4; PHY0 is unused. The sources do not establish which PHYs
+   this supplier's bootloader enables. Linux LAN operation would not prove that
+   pre-Linux TFTP works through the same socket.
+   Prefer a verified RAM-only test boot when that bootloader supports it. Do
+   not use a flash-writing TFTP menu for an initramfs image merely to test it.
+   If no documented compatible RAM/flash path exists, stop before erase/write
+   and obtain the procedure for the identified bootloader revision.
+
+E. If UART0 is silent or U-Boot is damaged:
+   Check carrier power, CH340 enumeration, UART signal levels and the MB00
+   console path before concluding that the bootloader is corrupt. The kit
+   power-on button method in [S5] is a diagnostic lead only after the intended
+   module input and factory firmware are identified; it is not a promised SW1
+   or SW3 recovery sequence. If U-Boot truly cannot run, normal settings reset
+   will not recreate it. A qualified external-flash recovery procedure using
+   the unit's verified backup or an exact vendor recovery image is a separate
+   engineering task. Never substitute another unit's calibration/MAC data.
+
+IMAGE AND USB-ONLY LIMITS
+The repository's initramfs-kernel.bin is a RAM-test artifact only with a verified
+RAM-boot method. Its squashfs-sysupgrade.bin is for a matching OpenWrt upgrade
+path. Neither filename alone proves OEM web or U-Boot compatibility.
+No reviewed manufacturer source establishes factory-bootloader XMODEM support
+or native USB DFU for the shipped lot. The rx/XMODEM procedure in
+PROGRAMMING-MB00.txt transfers a file after compatible Linux has booted; it does
+not prove USB-only installation or recovery from erased Linux. Routine Ethernet
+updates can be qualified after the first compatible installation succeeds.
+
+FIRST-BOARD RECORD TO CLOSE THIS PROCEDURE
+Capture: actual bootloader revision and baud; complete original backup hashes;
+flash/RAM and partition map; image header accepted by the selected operation;
+working pre-Linux Ethernet socket; verified RAM boot if supported; restoration
+test; and final project image hash. Convert only the demonstrated branch into
+the production fixture instruction. Keep credentials and backups private.
+
+SOURCES
+[S1] Shenzhen Hi-Link Electronic Co., Ltd., HLK-7628N user manual, section 10
+     and factory-settings table; manufacturer-authored FCC exhibit copy:
+https://fccid.io/2AD56HLK-7628N/User-Manual/15-HLK-7628N-UserMan-4078901.pdf
+[S2] Hi-Link support FAQ, 2020-11-11, questions 5, 6 and 8:
+https://h.hlktech.com/Knowledge/KnowledgeDetails/37.html
+[S3] Hi-Link technical support answer, 2024-07-05 and 2024-07-10:
+https://ask.hlktech.com/question/276166.html
+[S4] OpenWrt original HLK-7628N support commit, installation instructions:
+https://github.com/openwrt/openwrt/commit/671c9d16e382bcace441d8ad07816f8ceeed3612
+[S5] Hi-Link-hosted certified-expert answer, manro, 2022-11-23:
+https://ask.hlktech.com/question/1078.html
+Local carrier pin evidence: hardware/audits/mb00-electrical/electrical-audit.txt
+Memory/SKU evidence: hardware/audits/hlk-memory-evidence.txt

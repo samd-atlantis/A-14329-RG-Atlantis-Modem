@@ -2,9 +2,10 @@ A-14329-MB00 programming and first-board commissioning
 2026-10-29 - development procedure, not yet demonstrated on hardware
 
 HARDWARE THIS PROCEDURE TARGETS
-Router: HLK-7628N, BOM C209920. Verify the installed flash/RAM and partition map;
-the same family includes more than one memory variant. Current image targets 32 MB
-flash only.
+Router: HLK-7628N, BOM C209920. Its supplier-linked manufacturer datasheet specifies
+32 MB flash / 128 MB RAM as the default, supporting the chosen 32 MB flash profile.
+The same document allows custom memory options. Verify the actual fitted memory,
+bootloader and partition map before flashing; see hardware/audits/hlk-memory-evidence.txt.
 Modem: Quectel EC25AFFA-MINIPCIE, as confirmed by the purchaser.
 SIM: physical NANO-SIM in J9 hinged holder. U20 eSIM is absent and not required.
 
@@ -85,6 +86,11 @@ FAST ROUTINE UPDATE AFTER A COMPATIBLE OPENWRT INSTALL IS PROVEN
    Do not use -F to override compatibility. Preserve site config for routine updates.
 6. Reconnect and verify the build, unique identity, saved site/APN/LAN settings and
    all acceptance items. A successful file transfer is not a successful commissioning.
+
+Use only images produced by this repository's pinned MB00 build and reviewed for
+the unit. Do not install stock OpenWrt images or use Attended Sysupgrade to generate
+a replacement: the upstream HLK profile lacks our carrier device-tree changes and
+custom gateway package. A matching profile name alone does not establish compatibility.
 
 USB-ONLY FILE TRANSFER (SLOWER)
 Once a compatible image boots and you can authenticate over J14:

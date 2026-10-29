@@ -1,0 +1,72 @@
+A-14329-MB00 LOCAL EXPORT TRACEABILITY CHECK
+Date: 2026-10-29
+
+Result: the identified October 29 local BOM/CPL exports are consistent with
+the frozen assembly49 BOM and placements. This does NOT establish which files
+were submitted to JLCPCB or which manufacturing revision is on the order.
+No source export, native design or frozen release file was changed.
+
+FROZEN RELEASE
+hardware/releases/A-14329-MB00/manifest.json lists ten artifacts. All ten match
+their recorded byte counts and SHA256 hashes, and are byte-identical to the
+workspace sources recorded in that manifest. Its status explicitly says the
+exact submitted order files are not verified. The release contains native PCB
+and schematic archives, BOM/CPL, review/evidence files and the manifest; it
+does not contain an identified Gerber/drill manufacturing set.
+
+Frozen BOM: A14329_BOM.csv (1,991 bytes, 101 populated references)
+SHA256 7280aa5a69dfe5558b8106706fd9af97396fee08ca5212ea677b3f649aac0eda
+Frozen CPL: A14329_CPL.csv (3,285 bytes, 101 placement references)
+SHA256 714ab9512368402da2daf10a4ed45386861f4431fe6eacda98e2e7c2350088e7
+Frozen PCB: pcb-assembly49.epro2
+SHA256 6c2ec86f674f42a77902b4325106aed0b5708db34972f8ae38958b4818a0f21b
+Frozen schematic: schematic-assembly49.epro2
+SHA256 c2b2022c769c984c676438ef41f6a0b3be7781779bda9eb7a530cbc26eeaad84
+
+IDENTIFIED LOCAL EXPORTS
+Directory: C:/Users/samd.ATECHLLC/Downloads/
+Only these four specifically related October 29 files were read for comparison.
+
+BOM_Board1_PCB1_2026-10-29.csv
+BOM_Board1_PCB1_2026-10-29 (1).csv
+Both 3,941 bytes; byte-identical copies, SHA256:
+74200d21991dca24b847701388ce6f71ea281ebf1648ea2103f9494276f2a645
+
+Both raw BOMs match all 101 frozen BOM references, with no missing or additional
+references and no difference in comment, footprint or LCSC supplier part number.
+The raw export has extra columns; its file hash therefore differs from the
+normalized four-column frozen BOM.
+
+PickAndPlace_PCB1_2026_10_29.csv (26,384 bytes)
+SHA256 5ab6830de8f6c1e01e7ce1417f2a9248ba3e580dd4612c1ba0a3cddf256431c5
+PickAndPlace_PCB1_2026_10_29 (1).csv (26,384 bytes)
+SHA256 d55e039d482204b18d1da48a12b4757a5ddee70bb5b7c455c5f573c475e57530
+
+Both raw CPLs contain 103 unique references. All 101 frozen CPL references
+match exactly in numeric Mid X, Mid Y, rotation and board side. The two extra
+references are MODEM1 and U20, which are deliberately excluded from the frozen
+101-part assembly files. The two raw CPLs differ in row order; every parsed
+field for every reference matches between them. They are UTF-16 tab-delimited
+exports, whereas the frozen CPL is a normalized CSV with Top/Bottom labels.
+
+COMPARISON METHOD
+Parsed BOM rows with Python csv.DictReader, expanded comma-separated references,
+then compared Comment, Footprint and Supplier Part against the frozen LCSC
+Part # field for each reference. Parsed the raw CPL with UTF-16 and tab delimiter,
+normalized T/B to Top/Bottom, and compared numeric X/Y and rotation modulo 360.
+There were no duplicate reference rows in either 103-reference raw CPL.
+Raw CPLs were also compared by reference across every exported field.
+
+GERBER / ORDER LIMIT
+A filename-only Downloads check identified Gerber_PCB1_2026-10-27.zip.
+Its contents were not inspected or hashed during this task, and its date/name
+does not prove it was submitted, nor that it represents this ordered revision.
+No identified submitted manufacturing set was found in the scoped workspace
+release/archive inventory. Direct ordering through EasyEDA could also have
+used files that are not present as a local download.
+
+The user's four-layer, 1.6 mm, 1 oz outer copper, JLC04161H-7628 confirmation is
+recorded order intent, not an independently retrieved supplier order record.
+Closing traceability requires the actual order-linked Gerber/drill/BOM/CPL and
+fabrication stackup, compared to this frozen release. These local exports alone
+cannot close that gate.

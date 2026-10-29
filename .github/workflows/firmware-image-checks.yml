@@ -1,0 +1,71 @@
+name: MB00 compiled-image checks
+on:
+  workflow_run:
+    workflows: [OpenWrt MB00 cross-build]
+    types: [completed]
+    branches: [main]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  inspect-image:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'workflow_dispatch' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      BUILD_RUN_ID: ${{ github.event.workflow_run.id }}
+      BUILD_SHA: ${{ github.event.workflow_run.head_sha }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Read package source from the exact build revision
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          path: build-source
+          sparse-checkout: firmware/package
+          persist-credentials: false
+      - name: Install filesystem reader
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y 7zip
+          test -x /usr/bin/7z
+          /usr/bin/7z i | grep -q SquashFS
+      - name: Download this run's credential-free image
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [[ "$BUILD_RUN_ID" =~ ^[0-9]+$ ]]
+          [[ "$BUILD_SHA" =~ ^[0-9a-f]{40}$ ]]
+          gh run download "$BUILD_RUN_ID" --repo "$GITHUB_REPOSITORY" --name A-14329-MB00-UNPROVISIONED-VALIDATION --dir firmware/dist/incoming
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          manifest = json.loads(Path('firmware/dist/incoming/manifest.json').read_text())
+          if manifest.get('source_revision') != os.environ['BUILD_SHA']:
+              raise SystemExit('Artifact source revision does not match its triggering build')
+          if manifest.get('mode') != 'unprovisioned-validation':
+              raise SystemExit('Only credential-free validation artifacts are accepted')
+          PY
+      - name: Inspect actual kernel and filesystem contents
+        run: |
+          images=(firmware/dist/incoming/*-squashfs-sysupgrade.bin)
+          [[ ${#images[@]} -eq 1 && -f "${images[0]}" ]]
+          python3 firmware/tools/inspect_rootfs.py --image "${images[0]}" --manifest firmware/dist/incoming/manifest.json --sevenzip /usr/bin/7z --package-source build-source/firmware/package/atech-gateway/files --output-dir firmware/dist/rootfs-audit
+      - name: Preserve inspection evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: A-14329-MB00-IMAGE-CHECKS-${{ github.event.workflow_run.id }}
+          path: |
+            firmware/dist/rootfs-audit/rootfs-inspection.json
+            firmware/dist/rootfs-audit/inventory.txt
+            firmware/dist/incoming/*.inspection.json
+          if-no-files-found: warn
+          retention-days: 30

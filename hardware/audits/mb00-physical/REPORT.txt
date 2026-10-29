@@ -141,7 +141,14 @@ Modem support centers are 24.2 mm apart; host relief holes 2.2 mm. NT4 top coppe
 ring is 4.5 mm outside / 2.7 mm inside diameter, with mask opening and segmented
 paste apertures present. JAE drawing supports shoulder 3.55 mm, pilot top 4.15 mm,
 body OD 4 mm, pilot OD 2.3 mm and M2 x 0.4 thread. The socket housing height
-of 5.9 mm is not the support height. Two NT4R1600 supports plus two M2 x 3 screws are separate assembly items:
+of 5.9 mm is not the support height. The intended orientation is the pilot upward
+into the modem mounting hole/notch, with the flat 4 mm body base soldered to the
+host land; the 2.2 mm host hole is screw relief, not a pilot-fit hole. This is
+consistent with the JAE pairing table (page 2), nut dimensions (page 7) and
+2.6 mm module holes (page 8), but the brochure does not show an assembled NT4
+cross-section. Its page 9 mounting diagram is for the separate plastic latch.
+Confirm this mechanical stack on the purchased parts before tightening screws.
+Two NT4R1600 supports plus two M2 x 3 screws are separate assembly items:
 ST1/ST2 are NOT actual components in the saved 101-part JLC BOM/CPL, despite
 their lands/paste and notes. Do not assume JLC automatically fitted them.
 Check the selected EC25-AF Mini PCIe sample fit, antenna leads and card removal.

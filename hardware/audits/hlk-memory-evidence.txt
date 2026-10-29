@@ -1,0 +1,40 @@
+HLK-7628N C209920 memory evidence - 2026-10-29
+
+The chosen 32 MB flash profile is supported by the exact C209920-linked datasheet's
+default specification: 32 MB flash and 128 MB DDR2 RAM. This is the expected
+configuration, not conclusive evidence of the memory fitted to the ordered lot.
+
+The LCSC C209920 listing links to /datasheet/C209920.pdf. Its embedded manufacturer
+PDF is Hi-Link hardware manual V1.0, cover dated 2017-07-06. Printed page 4
+(PDF page 7), section 2.2, gives these parameter and note pairs:
+  RAM:   DDR2 128 MB; customizable DDR2 64/32 MB.
+  Flash: 32 MB; customizable 16/8 MB.
+Printed page 2 also depicts alternative memory densities. Neither JLC nor LCSC's
+public C209920 attribute table supplies a separate memory-capacity field or a
+memory-specific ordering suffix. Thus default support is established, while
+first-board flash/RAM, bootloader and partition-map verification remains necessary.
+
+Exact supplier-linked PDF:
+https://datasheet.lcsc.com/datasheet/pdf/d70155bfd46d9fd7c5af7c4e7ef9a320.pdf?productCode=C209920
+SHA256: eb5180ef83882250d4d7ebdb566d6a884940fb27503f1e88560964583a574081
+Downloaded size: 1,066,459 bytes. PDF retained only in OS temporary storage.
+
+SKU-to-PDF link chain:
+https://www.lcsc.com/product-detail/WiFi-Modules_HI-span-style-background-color-ff0-LINK-span-HLK-7628N_C209920.html
+https://www.lcsc.com/datasheet/C209920.pdf
+https://jlcpcb.com/partdetail/hilink-HLK7628N/C209920
+
+Manufacturer corroboration: the product page presents the same default/custom
+options; the support FAQ dated 2020-11-11 describes both 32 MB flash / 128 MB RAM
+and 16 MB flash / 64 MB RAM variants.
+https://www.hlktech.net/index.php?cateid=714&id=434
+https://h.hlktech.com/Knowledge/KnowledgeDetails/37.html
+
+Pin 30: the SKU-linked V1.0 manual, printed page 8, identifies module GPIO0 as
+SoC GPIO#11, agreeing with MB00's SW3 mapping. The newer manufacturer-hosted
+manual's appendix, printed page 15, gives the same mapping. Its filename says
+V2.6, indexed title V2.3, and cover V2.2 dated 2021-11-16; cite the actual content
+and pages rather than treating the URL filename as a revision declaration.
+https://h.hlktech.com/download/HLK-7628N/1/HLK-7628N%E7%A1%AC%E4%BB%B6%E6%89%8B%E5%86%8CV2.6.pdf
+
+No supplier was contacted. No PDF, credentials or unit-specific data was committed.
