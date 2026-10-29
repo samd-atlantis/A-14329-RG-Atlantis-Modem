@@ -1,0 +1,92 @@
+{
+  "status": "NOMINAL_MANUFACTURER_DRAWING_MATCH;TOLERANCE_AND_ORDER_ACCEPTANCE_OPEN",
+  "date": "2026-10-29",
+  "native_sha256": "6c2ec86f674f42a77902b4325106aed0b5708db34972f8ae38958b4818a0f21b",
+  "footprint_uuid": "54563ecdb3b723c2",
+  "references": [
+    "CN1",
+    "J15",
+    "J16"
+  ],
+  "pad_records": [
+    {
+      "id": "e18",
+      "pin": "1",
+      "x_mm": -5.08,
+      "y_mm": -3.81,
+      "hole_mm": 1.39999974,
+      "land_mm": 1.85000138,
+      "plated": true
+    },
+    {
+      "id": "e19",
+      "pin": "2",
+      "x_mm": 0.0,
+      "y_mm": -3.81,
+      "hole_mm": 1.39999974,
+      "land_mm": 1.85000138,
+      "plated": true
+    },
+    {
+      "id": "e20",
+      "pin": "3",
+      "x_mm": 5.08,
+      "y_mm": -3.81,
+      "hole_mm": 1.39999974,
+      "land_mm": 1.85000138,
+      "plated": true
+    },
+    {
+      "id": "e21",
+      "pin": "3",
+      "x_mm": 5.08,
+      "y_mm": 3.81,
+      "hole_mm": 1.39999974,
+      "land_mm": 1.85000138,
+      "plated": true
+    },
+    {
+      "id": "e22",
+      "pin": "2",
+      "x_mm": 0.0,
+      "y_mm": 3.81,
+      "hole_mm": 1.39999974,
+      "land_mm": 1.85000138,
+      "plated": true
+    },
+    {
+      "id": "e23",
+      "pin": "1",
+      "x_mm": -5.08,
+      "y_mm": 3.81,
+      "hole_mm": 1.39999974,
+      "land_mm": 1.85000138,
+      "plated": true
+    }
+  ],
+  "manufacturer_drawing": {
+    "title": "DB142V-5.08-XXP-C",
+    "revision": "T0-1",
+    "date": "2022-11-24",
+    "pin_section_mm": [
+      1.0,
+      0.5
+    ],
+    "pcb_hole_mm": 1.4,
+    "pole_pitch_mm": 5.08,
+    "row_pitch_mm": 7.62,
+    "general_linear_tolerance_up_to_6mm": 0.2,
+    "separate_metal_lead_tolerance_found": false
+  },
+  "calculation": {
+    "nominal_pin_diagonal_mm": 1.118033988749895,
+    "nominal_diametral_allowance_mm": 0.281966011250105,
+    "broad_general_tolerance_conditional_max_diagonal_mm": 1.3892443989449803,
+    "jlc_min_finished_hole_mm": 1.3199999999999998,
+    "conditional_deficit_mm": 0.06924439894498047
+  },
+  "jlc_stock_part_wave_soldering_supported": true,
+  "jlc_order_specific_custom_footprint_acceptance_found": false,
+  "actual_fit_failure_claimed": false,
+  "frozen_design_changed": false
+}

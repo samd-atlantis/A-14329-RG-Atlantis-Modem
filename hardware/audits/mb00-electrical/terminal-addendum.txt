@@ -1,0 +1,90 @@
+A-14329-MB00 terminal footprint review - 2026-10-29
+
+Conclusion: the 1.40 mm holes match Dorabo's published nominal PCB layout for
+DB142V-5.08. The actual published pin section is 1.00 x 0.50 mm, not the suspected
+1.20 x 0.80 mm. This closes the nominal-size concern; it does not establish a
+worst-case fit across every terminal/PCB tolerance or prove JLC accepted the
+project's smaller copper lands. No frozen design files were changed.
+
+PRIMARY PHYSICAL EVIDENCE
+Dorabo customer drawing DB142V-5.08-XXP-C, REV T0-1, dated 2022-11-24, sheet 1/1,
+shows pin dimensions 0.50 x 1.00 mm and PCB hole diameter 1.40 mm. Pole pitch is
+5.08 mm; the side view shows 7.62 mm between the two solder-tail rows. Its table
+lists 10 A / 300 V under UL/CUL groups B and D and wire range 24-14 AWG.
+The manufacturer's product page independently specifies the same pin section and
+hole diameter. Sources [1] and [2]. The drawing was rendered and visually checked.
+
+SAVED BOARD COMPARISON
+The frozen PCB uses project footprint 54563ecdb3b723c2 for CN1, J15 and J16.
+Records e18-e23 specify six plated round holes of 1.399999994 mm, circular lands
+of 1.850000110 mm, a 5.08 mm pole pitch and 7.62 mm row separation. The duplicated
+pad numbers are 1/2/3 in both rows, consistent with two solder tails per pole.
+The earlier footprint had approximately 1.50 mm holes and 2.30 mm lands.
+Thus reducing the holes to 1.40 mm restored the drawing's nominal recommendation;
+the 1.85 mm land diameter remains a project-specific change.
+
+At nominal lead dimensions, sqrt(1.00^2 + 0.50^2) = 1.118 mm. A centered lead
+therefore has 0.282 mm diametral geometric allowance in a nominal 1.40 mm hole.
+This arithmetic does not include positional error, lead burrs, plating variation,
+solder coating, insertion angle or a solder-filling allowance.
+
+TOLERANCE LIMIT
+The drawing's general linear tolerance for dimensions up to 6 mm is +/-0.20 mm,
+referencing GB/T 14486-2008. It provides no separate tight tolerance at the metal
+lead dimensions. Do not silently assume a +/-0.05 mm lead tolerance.
+
+If the broad general tolerance is conservatively applied to both lead dimensions,
+the maximum rectangle is 1.20 x 0.70 mm, whose diagonal is 1.389 mm. JLC publishes
++0.13/-0.08 mm for finished through holes: a 1.40 mm callout can finish at 1.32 mm.
+That minimum hole is 0.069 mm smaller than the conservative maximum diagonal,
+even before positional tolerances. Sources [1] and [3]. This is a conditional
+tolerance-stack concern, not proof that the supplied terminals have those maximum
+dimensions or that the manufacturer's recommended footprint is unusable.
+
+The defensible disposition is: nominal drawing match confirmed; full tolerance
+closure unresolved. Close it with actual lot pin dimensions plus finished-hole
+gauging/assembly evidence, or a manufacturer clarification of solder-tail and
+position tolerances. No automatic drilling or replacement footprint is authorized
+by this finding. Enlarging completed plated holes would damage the barrel, and
+changing future hole/land sizes requires another annulus and mains-clearance review.
+
+JLC ASSEMBLY STATUS
+JLC lists C2898700 as wave-soldered and supported by Economic and Standard PCBA.
+That establishes service availability for the stock part, not acceptance of this
+custom footprint. JLC's matching rules state that only selected components are
+assembled. Sources [4] and [5].
+
+The saved assembly49/assembly-review.txt explicitly records that no JLC
+manufacturing approval had been obtained at the time of that export. It documents
+part selection, BOM/CPL agreement and geometry checks, not an assembler response.
+No order-specific acceptance of the six 1.40 mm holes / 1.85 mm lands was located
+in the reviewed files. The current order may have later review records that are
+not in this repository.
+
+For the order record or first-article check, identify CN1/J15/J16 and C2898700;
+confirm six finished plated holes at 1.40 mm nominal, 5.08 mm pole pitch and
+7.62 mm row pitch on the 1.6 mm four-layer board. Retain evidence that the actual
+lot seats without forcing, all six tails are soldered with acceptable hole fill,
+and no pad/barrel damage occurred. Confirm these three parts were selected for
+through-hole assembly. This is the remaining evidence request, not a message
+already sent to JLC and not a claim that JLC refuses custom footprints.
+
+TRACEABILITY
+Native: hardware/releases/A-14329-MB00/pcb-assembly49.epro2
+Before/after: hardware/easyeda/DB142V-custom-pad49-before.txt and -after.txt
+Drawing: terminal-evidence/lcsc-C2898700.pdf
+Drawing SHA256: cf9449412a66ef2a938cee868f2b1e648aff8206ff329bf0d2042e6a99a13b8a
+Visual evidence: terminal-evidence/drawing-p1.png
+Arithmetic and extracted pad data: terminal-fit-evidence.json
+
+[1] Dorabo manufacturer customer drawing, hosted by LCSC:
+https://atta.szlcsc.com/upload/public/pdf/source/20230718/15744D468FDBE01287DBB57475A31300.pdf
+[2] Dorabo product specifications and manufacturer drawing link:
+https://www.nbdibo.com/product/spring-terminal-block/pcb-terminal-db142v-5-08.html
+https://www.nbdibo.com/wp-content/uploads/2020/06/DB142V-5.08-XXP-C.pdf
+[3] JLC PCB capabilities, Drilling / Hole size Tolerance:
+https://jlcpcb.com/capabilities/pcb-capabilities/
+[4] JLC C2898700 part and wave-soldering service listing:
+https://jlcpcb.com/partdetail/Dorabo-DB142V_5_08_3PGN/C2898700
+[5] JLC component matching guidelines:
+https://jlcpcb.com/help/article/component-matching-guidelines-for-pcba-orders

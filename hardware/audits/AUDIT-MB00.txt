@@ -6,52 +6,75 @@ The source is frozen assembly49, not the obsolete hardware/rev-a KiCad concept.
 No frozen release or actual order data was changed. All release manifest hashes match.
 
 ELECTRICAL: mb00-electrical/electrical-audit.txt
-285 explicit critical pin/net checks passed. All544 schematic pin keys exist on the
-PCB. Original schematic has542 unambiguous agreements plus twoQ3 ambiguities from
+285 explicit critical pin/net checks passed. All 544 schematic pin keys exist on the
+PCB. Original schematic has 542 unambiguous agreements plus two Q3 ambiguities from
 overlapping wires. The PCB assignments are correct. A separate four-record Q3
-schematic correction candidate produces544/544 matches. It is not applied to the
+schematic correction candidate produces 544/544 matches. It is not applied to the
 live EasyEDA project; review and native ERC remain needed before future sync.
 
 ROUTING: mb00-physical/REPORT.txt
-Current native copper was converted into an audit-only KiCad9.0.7 board, with
+Current native copper was converted into an audit-only KiCad 9.0.7 board, with
 explicit translation limits. Do NOT fabricate this audit copy. Zero copper-short,
-clearance or drill errors were found under its translated rules.17 warnings and
+clearance or drill errors were found under its translated rules. 17 warnings and
 four unconnected reports are explained: three need the native pours omitted from
 KiCad, and one is a microscopic isolated USB fragment with no pad attached.
-Independent native geometry joins all92 non-ground pad-bearing nets and allground
-groups through the cached inner planes; no track/via keepout intersections found.
+Independent native geometry checks find all 92 non-ground pad-bearing nets
+connected. The cached inner planes join all ground groups. No track/via keepout
+intersections were found.
 This does not replace actual signal/thermal/isolation tests or a native pour rebuild.
+
+POUR CLEARANCE: mb00-physical/POUR-CLEARANCE-ADDENDUM.txt
+Full copper-shape measurements against native cached ground pours give a
+minimum primary-to-ground spacing of 8.01084 mm. That meets the nominal 8 mm
+CAD target with only 0.01084 mm margin; it is not a fabrication-tolerance or
+safety-certification guarantee. No explicit primary/GND_ISO rule selectors
+exist, so add them and more manufacturing margin in a future revision.
+Same-layer PE-to-ground spacing is at least 0.35413 mm. All 48 applicable
+pour/keepout comparisons found no overlap above the numerical threshold.
+An identical self-touching hole contour in both fills was normalized only
+for analysis and logged. The primary-spacing result also matches a separate
+conservative calculation against valid outer contours, independent of that
+normalization. Actual submitted files remain unverified.
 
 CONFIRMED PARTS / ORDER INTENT
 User ordered EC25AFFA-MINIPCIE and HLK-7628N as BOM C209920. Modem's used pinout
 matches this carrier. HLK memory variant still requires reading the arriving part.
-PhysicalSIM is nano-SIM; U20 not populated. Software defaults to physicalSIM A.
-User confirmed4layers/1.6mm/1ozouter/JLC04161H-7628, matching calculator geometry.
+Physical SIM is nano-SIM; U20 not populated. Software defaults to physical SIM A.
+User confirmed the order intent: four layers, 1.6 mm board thickness,
+1 oz outer copper and JLC04161H-7628, matching the calculator geometry.
 This is order-intent confirmation, not a hash comparison of the manufacturing files.
 
 CORRECTED IN FIRMWARE
 Removed inherited reset-key GPIO38 and LED GPIO44, which are unwired on MB00.
-SW1 is hardwarePORST_N; SW3 is modulepin30/SoCGPIO11, not a verified ROM boot key.
+SW1 is hardware PORST_N. SW3 is module pin 30 / SoC GPIO11, not a verified
+ROM boot key.
 Enabled carrier I2C pinmux while preserving upstream flash/calibration partitions.
-Startup refuses to hot-switch a live SIM; GPIO and emergency powercut actions remain
-separately gated. Unit provisioning and console authentication are tested in mocks.
+Startup refuses to hot-switch a live SIM. GPIO and emergency power-cut actions
+remain separately gated. Unit provisioning and console authentication are
+tested in mocks.
 
 PROTOTYPE HOLD POINTS / SPECIFIC ACTIONS
-1. Modem power:116uF nominal fitted versus Quectel>=470uF recommendation. Existing
-   2.2uH TPS62132 output network does not justify blind470uF addition. Start with the
-   stock-first loadstep plan and engineering disposition in power-addendum.txt.
-2. Mains: mainbuses4.064mm, terminalstems1.7mm. DRC does not establish10A rating.
+1. Modem power: 116 uF nominal fitted versus Quectel's >= 470 uF recommendation.
+   The existing 2.2 uH TPS62132 output network does not justify adding 470 uF
+   without further validation. Start with the stock-first load-step plan and
+   engineering disposition in mb00-electrical/power-addendum.txt.
+2. Mains: main buses are 4.064 mm wide; terminal stems are 1.7 mm wide.
+   DRC does not establish a 10 A rating.
    Measure temperature rise/contact heating for worst loading and closed enclosure;
-   verify PE, upstreamprotection and isolation. F1 protects only thePSUbranch.
-3. USB/Ethernet: calculator widths match confirmed intendedstackup. Unequal vias/
+   verify PE, upstream protection and isolation. F1 protects only the PSU branch.
+3. USB/Ethernet: calculator widths match confirmed intended stackup. Unequal vias/
    connector breakouts need real high-speed USB and all-port traffic/soak testing.
-4. Assembly/mechanical: NT4R1600 modem supports and M2x3screws are separate items;
-   ST1/ST2 are absent from JLC assembly BOM/CPL. Verify installation, terminallead
-   fit, modem seating/height, antennas, enclosureholes and cableclearances.
+4. Assembly/mechanical: NT4R1600 modem supports and M2 x 3 screws are separate items;
+   ST1/ST2 are absent from JLC assembly BOM/CPL. Verify installation, terminal lead
+   fit, modem seating/height, antennas, enclosure holes and cable clearances.
+   The manufacturer drawing confirms nominal terminal hole/pin compatibility;
+   worst-case tolerance and order-specific JLC acceptance remain open. See
+   mb00-electrical/terminal-addendum.txt.
 5. As-ordered reconciliation: retain actual submitted Gerbers/drills/assembly
-   selections/orderconfirmation and compare with frozen49 before closing thisitem.
+   selections/order confirmation and compare with frozen assembly49 before
+   closing this item.
 6. Programming: identify memory/bootloader, preserve own calibration/MAC/flash,
-   prove recovery, then qualify firstprogramming and the per-unit fixture. Use
+   prove recovery, then qualify first programming and the per-unit fixture. Use
    firmware/PROGRAMMING-MB00.txt and acceptance-template.json.
 
 No physical rail measurements, SPICE switching simulation, EMC/radio qualification,

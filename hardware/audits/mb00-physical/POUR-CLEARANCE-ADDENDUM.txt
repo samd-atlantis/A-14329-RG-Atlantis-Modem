@@ -1,0 +1,85 @@
+A-14329-MB00 native ground-pour clearance addendum — 2026-10-29
+
+This closes the ground-pour geometry omission in the audit-only KiCad copy.
+The frozen assembly49 source hash is unchanged:
+6c2ec86f674f42a77902b4325106aed0b5708db34972f8ae38958b4818a0f21b.
+No native layout, release file or ordered manufacturing file was changed.
+
+PRIMARY COPPER TO GND_ISO
+Full copper-shape distances were measured to both cached inner ground fills,
+including primary tracks, terminal pads, fuse pads and PSU input pads. The
+primary nets contain no vias. All-layer XY projections were checked, so a
+track being on an outer layer did not exempt it from this conservative screen.
+
+Net          Minimum distance    Closest primary feature
+AC_L_IN      18.148938 mm        F1 pad 1
+AC_L_FUSED   35.521391 mm        PS1 pad 2
+AC_N          8.010838 mm        Diagonal neutral branch to PS1
+
+The controlling AC_N track is ac_dis22d4426c19829142, 1.016 mm wide. Its
+nearest copper edge is at (40.831181, 30.574742) mm. The ground corner is at
+(43.281600, 38.201600) mm, in native board XY coordinates. A separate analytic
+point-to-segment calculation, subtracting half the trace width, reproduces
+the 8.010838 mm result. Thus the saved geometry meets the nominal 8 mm target.
+
+The narrowest margin is only 0.010838 mm beyond 8 mm. This is a nominal CAD
+result, not a guarantee that manufacturing tolerances preserve 8 mm. Confirm
+the actual submitted Gerbers and JLC process allowances. For a future revision,
+give this diagonal-to-ground-corner spacing more manufacturing margin.
+
+RULE COVERAGE GAP
+The native PRIMARY_SECONDARY_8MM rule has many primary/secondary selectors,
+but no explicit AC_L_IN, AC_L_FUSED or AC_N selector against GND_ISO. The only
+GND_ISO selector is an empty single-net selector. Consequently, native zero-DRC
+alone did not establish the primary-to-ground-pour spacing. The measurements
+above check it independently. Add explicit primary/GND selectors in a future
+revision before rebuilding pours and running native DRC.
+
+PROTECTIVE EARTH TO GROUND
+Minimum PE-to-GND distance on the SAME copper layer is 0.354130 mm, between
+J14 shield pad 4 and the layer 16 ground fill. This exceeds the general 0.2 mm
+clearance floor. There is no dedicated PE/GND spacing selector. This result
+does not establish a safety-isolation classification between PE and GND.
+Some outer-layer PE traces overlap ground planes in XY projection; their
+layer separation is through PCB dielectric. That projection overlap is not
+a same-layer electrical short and was not treated as one.
+
+POUR / KEEPOUT INTERSECTIONS
+All 48 applicable comparisons of the two ground fills against regions that
+prohibit COPPER, FILL or PLANE were checked using full areas. No overlap above
+0.0001 square millimeter was found. This includes enclosure-mounting, modem-
+support and Tag-Connect hole clearance regions, plus the isolation rectangles.
+Component-only and TRACK-only regions were not misinterpreted as pour bans.
+The earlier zero track/via keepout result is a separate check.
+
+GEOMETRY METHOD AND LIMITS
+audit_pour_clearance.py uses Shapely 2.1.2 / GEOS. Rectangles are full polygons;
+round pads and vias are circles; tracks and oval pads are stadium shapes.
+For a stadium, distance(axis, filled polygon) minus the radius gives its full
+copper-edge separation; the reported values are not centerline clearances.
+Native cached-fill coordinates are scaled by 10 native mil per cached unit.
+Circular fill arcs are tessellated with at most 0.00001 mm chord sagitta.
+
+Both cached fills contain the same self-touching hole contour near
+(101.699029, 13.139398) mm. GEOS make_valid normalizes that hole for analysis;
+the area change is less than 5e-16 square millimeter. This is logged in
+pour-clearance.json, not silently changed in the source. Both outer contours
+are valid. Independently measuring primary spacing against those outer
+contours while ignoring ALL holes produces the same minimum distances.
+Ignoring holes treats the whole outer contour as copper and can only reduce
+or preserve spacing. The matching primary-spacing result therefore does not
+depend on the normalization.
+
+The closest PE feature and keepout regions do not lie at the normalized
+self-touching contour. Nevertheless, regenerate and inspect native pours in
+the next layout revision. This analysis does not validate dielectric withstand,
+surface creepage under a selected safety standard, field performance, or the
+actual ordered Gerber data.
+
+REPRODUCE (from repository root)
+python -m pip install --target hardware/audits/mb00-physical/.deps -r hardware/audits/mb00-physical/requirements-geometry.txt
+python hardware/audits/mb00-physical/audit_pour_clearance.py
+
+Output: hardware/audits/mb00-physical/pour-clearance.json. The local .deps folder
+is ignored by Git. Shapely geometry documentation:
+https://shapely.readthedocs.io/en/stable/manual.html

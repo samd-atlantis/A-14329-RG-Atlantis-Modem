@@ -2458,7 +2458,7 @@
       ]
     }
   ],
-  "plane_polygon_limits": "Native cached filled paths decoded at 0.1mil units; arc tessellation2degrees; point-in-filled-polygon test at via centers ONLY, not full-plane continuity/impedance proof.",
+  "plane_polygon_limits": "Native cached filled paths decoded at 10 native mil per cached unit; arc tessellation2degrees; point-in-filled-polygon test at via centers ONLY, not full-plane continuity/impedance proof.",
   "stackup": [
     {
       "h": {

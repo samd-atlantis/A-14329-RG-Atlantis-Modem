@@ -1,72 +1,97 @@
 A-14329-MB00 electrical audit - 2026-10-29
 
-Disposition: offline electrical review completed with identified exceptions. This is
+Disposition: offline electrical review completed with identified exceptions. This
+is
 not a functional or safety signoff, and no ordered manufacturing file was changed.
-The reviewed snapshot is assembly49. Matching it to the exact JLC order remains open.
+The reviewed snapshot is assembly49. Matching it to the exact JLC order remains
+open.
 
 REPRODUCIBLE RESULTS
 Run: python hardware/audits/mb00-electrical/audit.py
-The script reads the frozen EPRO2 archives directly, not the obsolete KiCad concept.
+The script reads the frozen EPRO2 archives directly, not the obsolete KiCad
+concept.
 544 distinct schematic pin keys map to 553 physical PCB pads (the three terminals
 have duplicated pad numbers). No absent or extra pin numbers were found. 542 keys
 agree unambiguously. Two Q3 pins have conflicting schematic wire labels, below.
-285 explicit critical PCB pin/net expectations pass. These assertions implement the
+285 explicit critical PCB pin/net expectations pass. These assertions implement
+the
 reviewed design contract; they do not establish routed-copper continuity or signal
 integrity. JSON files retain every pin, source hashes, exceptions and checks.
 
 E01 - Q3 SCHEMATIC WIRE OVERLAP: CORRECTION PREPARED
-Q3.3 drain is at (5710,-970); its USB_UART_OE_N wire runs downward to -870.
-Q3.2 source is at (5710,-930); its GND_ISO wire runs upward to -1030.
+Q3.3 drain is at (5710, -970); its USB_UART_OE_N wire runs downward to -870.
+Q3.2 source is at (5710, -930); its GND_ISO wire runs upward to -1030.
 These two collinear wires overlap and cross the opposite transistor terminals.
-The saved PCB is correctly assigned Q3.3=USB_UART_OE_N, Q3.2=GND_ISO.
+The saved PCB is correctly assigned Q3.3 = USB_UART_OE_N, Q3.2 = GND_ISO.
 This is a schematic ambiguity; it is not evidence of an actual copper short.
 
 create_q3_candidate.py creates a separate proposed native schematic with the drain
-wire going upward to -1070 and the source wire downward to -830. Net labels follow.
+wire going upward to -1070 and the source wire downward to -830. Net labels
+follow.
 q3-correction-plan.json contains exact old/new records. Only four final records
-change. Re-extracting the candidate gives all 544 pin keys matching the frozen PCB,
-zero label conflicts, and no absent pin numbers. The original release is unchanged.
+change. Re-extracting the candidate gives all 544 pin keys matching the frozen
+PCB,
+zero label conflicts, and no absent pin numbers. The original release is
+unchanged.
 Candidate: schematic-mb00-Q3-proposed.epro2. Before future schematic-to-PCB sync,
-review this change in EasyEDA and rerun native ERC/netlist comparison. The candidate
-is not automatically installed in the live project and is not the as-ordered archive.
+review this change in EasyEDA and rerun native ERC/netlist comparison. The
+candidate
+is not automatically installed in the live project and is not the as-ordered
+archive.
 
 E02 - MODEM POWER RESERVE: BENCH HOLD / POSSIBLE HARDWARE ECO
 See power-addendum.txt for the completed TPS62132 stability and PSU headroom
-review. It specifically rejects automatic 470uF addition and defines an unapproved
+review. It specifically rejects automatic 470 uF addition and defines an
+unapproved
 single-board contingency plus measurements. The as-ordered hardware is unchanged.
 
-The ordered modem is EC25AFFA-MINIPCIE. J8's used power, ground, SIM, USB and reset
-contacts agree with Quectel's EC25 Mini PCIe interface. No required pin reassignment
-was found. The board feeds all four 3.3V contacts and all fourteen ground contacts.
+The ordered modem is EC25AFFA-MINIPCIE. J8's used power, ground, SIM, USB and
+reset
+contacts agree with Quectel's EC25 Mini PCIe interface. No required pin
+reassignment
+was found. The board feeds all four 3.3 V contacts and all fourteen ground
+contacts.
 
-Quectel's Mini PCIe guide specifies a 3.0-3.6V input, >=2.7A supply and >=470uF low-ESR
-bypass; its explanation refers to 2G bursts. The AF-specific table gives 700-816mA
+Quectel's Mini PCIe guide specifies a 3.0-3.6 V input, >= 2.7 A supply and >= 470
+uF low-ESR
+bypass; its explanation refers to 2G bursts. The AF-specific table gives 700-816
+mA
 TYPICAL LTE data current, not a transient maximum or a reduced-capacitance waiver.
-The 100uF guidance for bare LGA EC25 modules is a different power interface and
-cannot be substituted. Reference [1], sections3.5 and6.6.7, pages27 and70-71.
+The 100 uF guidance for bare LGA EC25 modules is a different power interface and
+cannot be substituted. Reference [1], sections 3.5 and 6.6.7, pages 27 and 70-71.
 
-Actual board: U3 TPS62132 (3.3V,3A), L2 SWPA5040S2R2NT (native metadata5.5A Isat),
-C23=22uF plus C24+C25=47uF each plus small bypasses. Total bulk nominal116uF, less
-after MLCC DC bias/tolerance. This differs from the published Mini PCIe guidance.
-It does not prove the AF card will fail, but it prevents an unconditional power pass.
+Actual board: U3 TPS62132 (3.3 V, 3 A), L2 SWPA5040S2R2NT (native metadata: 5.5 A
+Isat),
+C23 = 22 uF plus C24 + C25 = 47 uF each plus small bypasses. Total bulk
+capacitance is nominally 116 uF, reduced
+by MLCC DC bias and tolerance. This differs from the published Mini PCIe guidance.
+It does not prove the AF card will fail, but it prevents an unconditional power
+pass.
 
 Bring-up disposition:
-- Scope 3V3_MODEM at J8 and5V_ISO during cold start, attach, maximum-power LTE upload,
-  reconnect, simultaneous Ethernet/WiFi load and warm-enclosure operation.
-- Modem input must stay within3.0-3.6V throughout, without brownout or USB resets.
+- Scope 3V3_MODEM at J8 and 5V_ISO during cold start, attach, maximum-power LTE
+  upload,
+  reconnect, simultaneous Ethernet/Wi-Fi load and warm-enclosure operation.
+- Modem input must stay within 3.0-3.6 V after startup, without brownout or USB
+  resets.
   Check ripple, regulator/inductor temperature, startup and load-step stability.
-- Close the deviation with Quectel approval for measured lower-capacitance operation,
-  or validate a hardware ECO adding local low-ESR bulk capacitance. A470uF/10V
-  capacitor near J8 is an ECO candidate, not an approved blind substitution.
-  Added capacitance must be checked against U3 control-loop stability/inrush/soft-start
-  and physical card/enclosure clearances; do not just bridge a large capacitor across
-  small pads and call it production-ready. Rework design and polarity need approval
-  from the measured prototype results before applying across the batch.
+- Close the deviation through documented engineering acceptance of measured
+  lower-capacitance operation, seeking vendor concurrence where useful, or through
+  a validated hardware ECO. A 470 uF / 10 V capacitor near J8 is only a test
+  candidate; see power-addendum.txt for the stability concerns and L2/SS
+  contingency.
+  Added capacitance must be checked against U3 control-loop
+  stability/inrush/soft-start
+  and physical card/enclosure clearances; do not just bridge a large capacitor
+  across
+  small pads and call it production-ready. Validate the rework design and polarity
+  against measured prototype results before applying it across the batch.
 - Existing board has no dedicated footprint for that extra bulk capacitor.
 
 CONTROL / SERVICE CHECKS
-U6 MCP23008 has address0x20 (A0/A1/A2 low). GP0(pin10)=SIM_SELECT,
-GP1(pin11)=MODEM_OFF, GP2(pin12)=MODEM_RESET_REQ. Reset pin6 follows router reset.
+U6 MCP23008 has address 0x20 (A0/A1/A2 low). GP0 (pin 10) = SIM_SELECT,
+GP1 (pin 11) = MODEM_OFF, GP2 (pin 12) = MODEM_RESET_REQ. Reset pin 6 follows
+router reset.
 GP0 low selects U10 NC contacts: physical SIM A VCC/CLK/RST/IO. R32 pulls low.
 U20 is not needed to use SIM A. It is DNP in the assembly pair. The actual J9 is
 XKNANO-1306 / C381072, a hinged NANO-SIM holder, not a micro-SIM holder.
@@ -74,91 +99,119 @@ XKNANO-1306 / C381072, a hinged NANO-SIM holder, not a micro-SIM holder.
 MODEM_OFF high drives Q1, grounding U3 EN and disabling U8 USB switch. Default
 pulldowns keep this low and R20 pulls EN high: the modem starts before firmware.
 Thus initial firmware must not change SIM_SELECT on a live modem. A warm router
-restart may retain expander state. Read/validate state before making outputs active.
-Never use a rail cut as the normal shutdown sequence without a modem graceful
+restart may retain expander state. Read/validate state before making outputs
+active.
+Never use a rail cut as the normal shutdown sequence without a graceful modem
 shutdown; keep forced power-cycle as an explicit recovery action.
 
 MODEM_RESET_REQ high drives Q2 and pulls J8.22 PERST# low. Q2 is open-drain; it
-does not impose a router3.3V high level onto the modem. SW4 manually grounds this
-net. Use a150-460ms pulse for EC25, then release; do not treat it as a held boot pin.
-J8.44 SIM detect is unused; hot-plug detection must remain disabled and SIM removal
+does not impose a router 3.3 V high level onto the modem. SW4 manually grounds
+this
+net. Use a 150-460 ms pulse for EC25, then release; do not treat it as a held boot
+pin.
+J8.44 SIM detect is unused; hot-plug detection must remain disabled and SIM
+removal
 requires power off. DTR is unused: leave automatic modem sleep disabled initially.
 These interface facts were checked against [1]/[2].
 
-USB mux U8 mapping is correct: D common(pin8+/7-) to modem, channel1(pin1+/2-)
-to HLK, channel2(pin3+/4-) to J17. Q4/Q5 select channel1 without modem-service VBUS
-and channel2 when service VBUS is present. This removes the HLK host while a PC
-is connected. MODEM_OFF high disables both channels. Verify this transition on bench.
-No USB-C VBUS net is tied to5V_ISO: neither USB connector powers the entire board.
+USB mux U8 mapping is correct: common pins 8 (D+) and 7 (D-) connect to the modem.
+Channel 1, pins 1 (D+) and 2 (D-), connects to the HLK. Channel 2, pins 3 (D+)
+and 4 (D-), connects to J17. Q4/Q5 select channel 1 without modem-service VBUS
+and channel 2 when service VBUS is present. This disconnects the HLK host while
+a PC is connected. MODEM_OFF high disables both channels. Verify this transition
+on the bench.
+No USB-C VBUS net is tied to 5V_ISO: neither USB connector powers the entire
+board.
 
-Router console: U16 CH340C TX -> R95 -> U18.2 -> U18.6 -> HLK RX(pin32).
-HLK TX(pin31) -> U18.5 -> U18.3 -> R96 -> U16 RX. SN74LVC2G125 pin3 is2Y and
-pin6 is1Y; the asymmetric pin ordering is correct. Q3 enables the buffer only when
+Router console: U16 CH340C TX -> R95 -> U18.2 -> U18.6 -> HLK RX (pin 32).
+HLK TX (pin 31) -> U18.5 -> U18.3 -> R96 -> U16 RX. SN74LVC2G125 pin 3 is 2Y and
+pin 6 is 1Y; the asymmetric pin ordering is correct. Q3 enables the buffer only
+when
 J14 VBUS is present. VCC and V3 of CH340C share USB_UART_3V3. J14/J17 duplicate
-USB2 contacts are tied appropriately and each has two separate5.1k CC pulldowns.
+USB 2.0 contacts are tied appropriately and each has two separate 5.1 kohm CC
+pulldowns.
 Test enumeration and serial communication with both connector orientations.
 TC2050 H1/J12 pin assignments match the schematic; these are custom recovery
 pinouts, NOT an ARM debugger pinout. Use the documented adapter wiring.
 
 ROUTER / ETHERNET / POWER CHECKS
-The upstream HLK GPIO38 reset-key definition does not match MB00. U1 pin8
-(WDT_RST_N/GPIO38) is NC. SW3 is pin30, namedGPIO0 on the module but MT7628
-GPIO11. SW1 is hardware reset PORST_N pin14. WiFi LED pin33/GPIO44 is also NC.
+The upstream HLK GPIO38 reset-key definition does not match MB00. U1 pin 8
+(WDT_RST_N/GPIO38) is NC. SW3 is pin 30, named GPIO0 on the module but MT7628
+GPIO11. SW1 is hardware reset PORST_N pin 14. Wi-Fi LED pin 33 / GPIO44 is also
+NC.
 Remove inherited GPIO38 reset-key and unused GPIO44 LED assignments from the
 MB00 device tree; otherwise an unrelated input could invoke reset behavior.
 
-U1 pins24/25 correctly carry I2C SCL/SDA; OpenWrt pinmux must enable I2C. Pins31/32
-are UART0, not UART1. Pins38-53 map to PHY1-4 in manufacturer order, including
-port2/4 RX-before-TX ordering. RJ45 TX/RX and CT pins agree with the HanRun drawing.
-Four green LEDs have470-ohm current resistors to3V3_ROUTER. All eight CT capacitors
+U1 pins 24/25 correctly carry I2C SCL/SDA; OpenWrt pinmux must enable I2C. Pins
+31/32
+are UART0, not UART1. Pins 38-53 map to PHY1-4 in manufacturer order, including
+port 2/4 RX-before-TX ordering. RJ45 TX/RX and CT pins agree with the HanRun
+drawing.
+Four green LEDs have 470-ohm current resistors to 3V3_ROUTER. All eight CT
+capacitors
 are now populated in BOM and connect their individual CT nets to GND_ISO.
 
 CT population remains an engineering choice pending PHY vendor confirmation and
-10/100 link/traffic/EMC tests: the Hi-Link kit leaves taps floating while the Onion
+10/100 link/traffic/EMC tests: the Hi-Link kit leaves taps floating while the
+Onion
 MT7688-family reference AC-couples them. These are not identical references for
-our complete assembly. No direct3.3V or DC-ground CT connection has been introduced.
+our complete assembly. No direct 3.3 V or DC-ground CT connection has been
+introduced.
 
 Both TPS62132 pin maps follow [5]: VOS on the output, SW through inductors,
-AVIN/PVIN from5V, FB/AGND/PGND/exposed pads grounded. FSW and DEF are low:
-nominal3.3V at approximately2.5MHz (not1.25MHz). SS is3.3nF. Stability/layout and
+AVIN/PVIN from 5 V, FB/AGND/PGND/exposed pads grounded. FSW and DEF are low:
+nominal 3.3 V at approximately 2.5 MHz (not 1.25 MHz). SS is 3.3 nF.
+Stability/layout and
 thermal tests remain required; nominal component values alone are insufficient.
 
-CN1,J15,J16 L/N/PE are parallel; F1 protects only the PSU branch. Both controller
-feeds are ahead of F1. Do not interpret the1A PSU fuse as10A distribution protection.
-The installed fuse cartridge is a separately fitted item; C3131 is only the holder.
-PE continuity/fault current, mains isolation, terminal soldering,10A temperature rise
-and the actual JLC copper stack/weights require the physical audit and bench tests.
+CN1, J15, J16 L/N/PE are parallel; F1 protects only the PSU branch. Both
+controller
+feeds are ahead of F1. Do not interpret the 1 A PSU fuse as 10 A distribution
+protection.
+The installed fuse cartridge is a separately fitted item; C3131 is only the
+holder.
+PE continuity/fault current, mains isolation, terminal soldering, 10 A temperature
+rise
+and the actual JLC copper stack/weights require the physical audit and bench
+tests.
 
-U1 BOM is HLK-7628N C209920. Hi-Link documents both32MBflash/128MBRAM and
-16MBflash/64MBRAM versions under this family [6]. C209920's saved attributes do
-not identify memory capacity. Read the fitted part/boot log and back up flash before
-choosing/programming an image. A32MB image must not be assumed safe for16MB.
+U1 BOM is HLK-7628N C209920. Hi-Link documents both 32 MB flash / 128 MB RAM and
+16 MB flash / 64 MB RAM versions under this family [6]. C209920's saved attributes
+do
+not identify memory capacity. Read the fitted part/boot log and back up flash
+before
+choosing/programming an image. A 32 MB image must not be assumed safe for 16 MB.
 
 SCOPE AND RELEASE GATES
-Complete here: latest-file pin extraction/comparison, explicit critical net checks,
+Complete here: latest-file pin extraction/comparison, explicit critical net
+checks,
 source-level Q3 correction candidate, modem/control/USB/SIM/Ethernet/power review.
 Still needed: native ERC of the Q3 candidate, routed-copper/clearance review,
 exact as-ordered artifact reconciliation, solder/mounting inspection, bootloader/
-flash verification, power/USB/SIM/link tests,RF/EMC and10A thermal/isolation validation.
+flash verification, power/USB/SIM/link tests, RF/EMC and 10 A thermal/isolation
+validation.
 No SPICE or physical measurements are claimed in this electrical review.
 
 PRIMARY REFERENCES
-[1] Quectel EC25 Series Mini PCIe Hardware Design V2.6,2023-08-25, manufacturer PDF:
+[1] Quectel EC25 Series Mini PCIe Hardware Design V2.6, 2023-08-25, manufacturer
+PDF:
 https://forums.quectel.com/uploads/short-url/hOpbQpopPcLwn4bwSMFRSpJa2kk.pdf
-[2] Quectel EC25 Mini PCIe Hardware Design V2.4, especially pins20-23,reset34-35:
+[2] Quectel EC25 Mini PCIe Hardware Design V2.4, pin descriptions on pages 20-23
+and reset on pages 34-35:
 https://quectel.com/content/uploads/2024/02/Quectel_EC25_Mini_PCIe_Hardware_Design_V2.4-2.pdf
-[3] TI TS3A44159 PW pins and low=NC selection:
+[3] TI TS3A44159 PW pins and low = NC selection:
 https://www.ti.com/lit/ds/symlink/ts3a44159.pdf
 [4] TI USB mux and UART buffer:
 https://www.ti.com/lit/ds/symlink/ts3usb221a.pdf
 https://www.ti.com/lit/ds/symlink/sn74lvc2g125.pdf
-[5] TI TPS62132 pins3 and LC design13-17:
+[5] TI TPS62132 pin map on page 3 and LC design on pages 13-17:
 https://www.ti.com/lit/ds/symlink/tps62132.pdf
 [6] Hi-Link hardware manual and memory variants:
 https://h.hlktech.com/download/HLK-7628N/1/HLK-7628N%E7%A1%AC%E4%BB%B6%E6%89%8B%E5%86%8CV2.6.pdf
 https://h.hlktech.com/Knowledge/KnowledgeDetails/37.html
 [7] Saved manufacturer HanRun drawing: hardware/easyeda/HR915310AE-review48.pdf
-and context: hardware/easyeda/ethernet-center-tap-review48.txt (DNP text superseded).
+and context: hardware/easyeda/ethernet-center-tap-review48.txt (DNP text
+superseded).
 [8] TI SIM and USB ESD pin assignments:
 https://www.ti.com/lit/ds/symlink/tpd4e001.pdf
 https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf

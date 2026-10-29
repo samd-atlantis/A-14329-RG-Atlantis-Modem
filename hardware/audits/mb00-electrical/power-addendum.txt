@@ -29,18 +29,21 @@ high frequency, with effective ceramic capacitance estimated at half nominal.
 For 2.2 uH it marks 200 uF effective stable but 400/800 uF effective unstable.
 For 1 uH it marks 400 uF effective stable outside its recommended range, and
 800 uF effective unstable. Those are test points, not a guarantee between them
-or for this board's 5 V input and mixed capacitor technology. Source [2], pages 1-2.
+or for this board's 5 V input and mixed capacitor technology. Source [2], pages
+1-2.
 
 An illustrative 470 uF electrolytic plus 58 uF effective existing ceramics totals
 528 uF effective. Electrolytics must not be given the ceramic 50% DC-bias factor.
 With 2.2 uH, this is near published unstable test cases. Different ESR can change
 the result, so this is a concrete reason for measurement, not proof it will fail.
 
-The Quectel Mini PCIe guide's >=470 uF low-ESR recommendation and >=2.7 A supply
+The Quectel Mini PCIe guide's >= 470 uF low-ESR recommendation and >= 2.7 A supply
 remain relevant to the card interface. AF's typical LTE-current table does not
 provide a replacement transient maximum or explicit reduced-capacitance waiver.
 The bare LGA EC25's 100 uF recommendation is for a different interface. See [4]
-and the main electrical-audit.txt. This review found no justified paper-only waiver.
+and the main electrical-audit.txt. Measured operation must support documented
+engineering acceptance of this deviation, with vendor concurrence where useful,
+or a validated hardware ECO. This desk review alone does not close the deviation.
 
 BOUNDED CONTINGENCY IF THE STOCK RAIL DROOPS
 Candidate P1, on one engineering board only: L2 1.0 uH (+/-20% or better), add a
@@ -51,7 +54,7 @@ test candidate, NOT a verified or production-approved component substitution.
 At an assumed 5.25 V input, 3.3 V output, 0.8 uH effective L, and typical 2.5 MHz,
 the calculated inductor ripple is 0.613 A peak-to-peak. Peak is 3.006 A at 2.7 A
 load, or 3.306 A at 3 A load. A 20% allowance at 3 A calls for at least 3.97 A
-saturation capability: use >=4 A as a screening floor, plus verified inductance
+saturation capability: use >= 4 A as a screening floor, plus verified inductance
 versus current, RMS heating, DCR, dimensions and actual frequency. These are
 conditional calculations, not worst-case current-limit or thermal qualification.
 The TI minimum current-limit test is specified at 12 V; do not call this a
@@ -101,11 +104,13 @@ FIRST-BOARD TEST PLAN
    the intended temperature range and intended 120 VAC tolerance. Record local
    PSU ambient and regulator/inductor temperatures. Obtain stability evidence
    across load/temperature, ideally a measured loop response, before releasing an
-   ECO. A single successful LTE session or a nominal-value simulation is insufficient.
+   ECO. A single successful LTE session or a nominal-value simulation is
+   insufficient.
 
 5 V POWER HEADROOM
 Source [3] rates PS1 at 20 W, 4 A. At 120 VAC its line-voltage curve allows full
-output. The 5 V thermal curve begins derating above 45 C LOCAL ambient; approximate
+output. The 5 V thermal curve begins derating above 45 C LOCAL ambient;
+approximate
 readings are 18 W at 50 C, 14 W at 60 C and 10 W at 70 C, horizontal mounting.
 Local ambient is the air around the supply inside the enclosure, not room air.
 
@@ -125,9 +130,11 @@ Measure PS1 output power and temperature; do not confuse its AC efficiency with
 the two bucks' efficiencies or subtract the 120 VAC pass-through feed from 20 W.
 
 REPRODUCIBILITY AND SOURCES
-power-calculations.py emits power-calculations.json with the conditional arithmetic.
+power-calculations.py emits power-calculations.json with the conditional
+arithmetic.
 Rendered evidence pages in power-evidence were visually inspected. Native design
-files, frozen releases and the live EasyEDA project were not edited by this review.
+files, frozen releases and the live EasyEDA project were not edited by this
+review.
 
 [1] TI TPS6213x datasheet SLVSAG7F, November 2021:
 https://www.ti.com/lit/ds/symlink/tps62132.pdf

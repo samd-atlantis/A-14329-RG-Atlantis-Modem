@@ -1,6 +1,8 @@
 .kicad-config/
 .kicad-documents/
 .native-docs.json
+.pour-native-docs.json
 *.kicad_prl
 *.lck
 __pycache__/
+.deps/
