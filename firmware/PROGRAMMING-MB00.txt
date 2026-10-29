@@ -22,8 +22,10 @@ the qualified low-voltage fixture; never drive the fixture rail with AC energize
 
 FIRST BOARD: DO THESE BEFORE FLASHING
 1. Reconcile the order Gerbers/BOM/CPL/stackup with the frozen assembly49 archive.
-   Inspect assembly, polarity, terminal pads and solder joints. Fit the separately
-   sourced NT4R1600 supports/screws and modem. Fit appropriate external antennas.
+   Inspect assembly, polarity, terminal pads and solder joints. Check the separately
+   sourced NT4R1600 supports/screws and modem fit while unpowered, then remove the
+   modem for the initial rail tests. Fit appropriate antennas before a powered
+   modem test.
 2. Complete the power checks in hardware/audits/mb00-electrical/electrical-audit.txt.
    Existing modem bulk is 116 uF nominal; Quectel Mini PCIe guidance calls for at
    least 470 uF with low ESR.

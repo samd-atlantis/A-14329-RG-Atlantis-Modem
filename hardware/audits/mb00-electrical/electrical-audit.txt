@@ -175,6 +175,17 @@ rise
 and the actual JLC copper stack/weights require the physical audit and bench
 tests.
 
+The Dorabo DB142V-5.08 terminals (C2898700) have a documented UL/CUL rating of
+10 A [10]. CN1 carries the TOTAL input current for J15, J16 and the gateway's
+PS1 supply; its rating is not 10 A of controller output plus the gateway load.
+Do not promise the full requested 10 A external load on this input terminal.
+Derate the combined controller-feed allowance after measuring true-RMS CN1
+current and terminal/copper temperature rise with worst-case gateway operation,
+line voltage and enclosure temperature. Verify upstream fault protection too.
+The PSU's typical AC current is not a guaranteed maximum, and real power divided
+by line voltage does not establish RMS current for these loads. No fixed 9.5 A
+or other external-feed guarantee is established here; see power-addendum.txt.
+
 U1 BOM is HLK-7628N C209920. Hi-Link documents both 32 MB flash / 128 MB RAM and
 16 MB flash / 64 MB RAM versions under this family [6]. C209920's saved attributes
 do
@@ -217,3 +228,5 @@ https://www.ti.com/lit/ds/symlink/tpd4e001.pdf
 https://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
 [9] WCH CH340 datasheet:
 https://www.wch-ic.com/downloads/CH340DS1_PDF.html
+[10] Dorabo DB142V-5.08 technical data, UL/CUL 10 A (IEC rating is separate):
+https://www.nbdibo.com/product/spring-terminal-block/pcb-terminal-db142v-5-08.html

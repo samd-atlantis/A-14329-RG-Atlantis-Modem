@@ -20,6 +20,10 @@
     "modem_supply_max_v": null,
     "rail_5v_min_v": null,
     "full_load_current_a": null,
+    "total_input_current_rms_a": null,
+    "controller_feed1_current_rms_a": null,
+    "controller_feed2_current_rms_a": null,
+    "gateway_psu_input_current_rms_a": null,
     "terminal_temperature_rise_c": null,
     "ambient_c": null,
     "soak_hours": null
@@ -47,6 +51,7 @@
     "brownout_and_power_failure_recovery": "NOT_TESTED",
     "controller_web_access": "NOT_TESTED",
     "10a_combined_feed_thermal": "NOT_TESTED",
+    "10a_total_input_limit_includes_gateway_psu": "NOT_TESTED",
     "enclosure_antenna_and_clearances": "NOT_TESTED"
   },
   "notes": "Keep filled records and device backups private. This blank template is not acceptance evidence."

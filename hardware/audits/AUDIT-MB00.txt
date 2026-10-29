@@ -60,6 +60,9 @@ PROTOTYPE HOLD POINTS / SPECIFIC ACTIONS
    engineering disposition in mb00-electrical/power-addendum.txt.
 2. Mains: main buses are 4.064 mm wide; terminal stems are 1.7 mm wide.
    DRC does not establish a 10 A rating.
+   CN1's UL/CUL 10 A limit includes the gateway PSU, so derate external controller
+   feeds using measured total input RMS current/thermal results and verified
+   fault protection; 10 A outputs plus gateway consumption are not established.
    Measure temperature rise/contact heating for worst loading and closed enclosure;
    verify PE, upstream protection and isolation. F1 protects only the PSU branch.
 3. USB/Ethernet: calculator widths match confirmed intended stackup. Unequal vias/

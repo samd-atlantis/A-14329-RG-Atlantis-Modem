@@ -17,6 +17,16 @@ capacitance must be obtained from the fitted capacitor curves or measurement.
 U2 is a separate TPS62132 for the router; neither buck's 3 A rating is its load.
 The downstream 120 VAC controller terminals bypass the 20 W supply.
 
+They still share CN1 with the PSU input: the DB142V-5.08 terminal's documented
+UL/CUL 10 A limit [5] applies to TOTAL input current, including gateway PS1.
+It does not permit promising 10 A of external controller loads plus the gateway.
+Mean Well [3], page 2, gives 0.6 A at 115 VAC as typical AC current, not a maximum
+or a 120 VAC load allowance. Neither that value nor watts divided by volts
+establishes a fixed external-feed rating. Measure true-RMS CN1 current, gateway
+input current, terminal/copper heating and inrush with the intended loads,
+line range and closed enclosure. Establish upstream fault protection and derate
+the combined J15/J16 allowance accordingly; no fixed 9.5 A guarantee is made.
+
 CONTROL-LOOP REVIEW
 TI Table 9-2 checks 2.2 uH with nominal ceramic 10/22/47/100/200 uF, not 400 uF.
 It permits 1 uH at high frequency. Equation 10 gives tSS = 1.25 V * CSS / 2.5 uA.
@@ -144,3 +154,5 @@ https://www.ti.com/lit/an/slva463a/slva463a.pdf
 https://www.meanwell.com/Upload/PDF/IRM-20/IRM-20-SPEC.PDF
 [4] Quectel EC25 Mini PCIe Hardware Design V2.6, pages 27 and 70-71:
 https://forums.quectel.com/uploads/short-url/hOpbQpopPcLwn4bwSMFRSpJa2kk.pdf
+[5] Dorabo DB142V-5.08 technical data, UL/CUL 10 A (IEC rating is separate):
+https://www.nbdibo.com/product/spring-terminal-block/pcb-terminal-db142v-5-08.html
