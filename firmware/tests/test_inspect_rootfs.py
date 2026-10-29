@@ -142,7 +142,11 @@ class RootfsTests(unittest.TestCase):
     def test_inventory_windows_normalization_and_path_safety(self):
         result = audit.parse_inventory('Path = etc\\shadow\r\nFolder = -\r\nSize = 20\r\nMode = -rw-------\r\n')
         self.assertIn('etc/shadow', result)
-        for path in ('../outside', '/outside', 'C:\\outside', 'etc//file', './file'):
+        for path in ('lib/network/wwan/0421:03a7', 'lib\\network\\wwan\\2c7c:0125'):
+            self.assertIn(path.replace('\\', '/'), audit.parse_inventory('Path = ' + path + '\n'))
+        for path in ('../outside', '/outside', 'C:\\outside', 'etc//file', './file',
+                     'etc/shadow:stream', 'lib/network/wwan/2c7c:0125:stream',
+                     'lib/network/wwan/../2c7c:0125', 'lib/network/wwan/C:outside'):
             with self.subTest(path=path), self.assertRaises(audit.InspectionError):
                 audit.parse_inventory('Path = ' + path + '\n')
         with self.assertRaises(audit.InspectionError):

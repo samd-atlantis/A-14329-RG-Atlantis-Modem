@@ -49,7 +49,10 @@ def parse_inventory(text):
     for line in text.replace('\r', '').splitlines():
         if line.startswith('Path = '):
             name = line[7:].replace('\\', '/')
-            require(name and not name.startswith('/') and ':' not in name and
+            # WWAN device matching uses literal USB VID:PID filenames. These
+            # are archive names read to stdout, never Windows filesystem paths.
+            usb_id = re.fullmatch(r'lib/network/wwan/[0-9a-fA-F]{4}:[0-9a-fA-F]{4}', name)
+            require(name and not name.startswith('/') and (':' not in name or usb_id) and
                     all(p not in ('.', '..', '') for p in name.split('/')),
                     'Unsafe path in SquashFS inventory')
             require(name not in entries, 'Duplicate path in SquashFS inventory')
