@@ -13,10 +13,27 @@ sourcing cases, including failed JSON/settings/final commits and console recover
 
 CURRENT CANDIDATE
 Run 40946542802 builds 62b465179c766924cc7306eebf1fdfbb9906cb28, carrier package
-0.1.0-r7, with all review fixes below. It started at 2026-10-29 20:09:50 UTC and
-is in progress at this record's update. There is no completed current image yet.
-The compiled-image workflow will automatically inspect its artifact if it succeeds.
+0.1.0-r7, with all review fixes below. Compilation and artifact upload PASSED at
+2026-10-29 21:28 UTC. The resulting common development image is now available.
 https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40946542802
+Compiled-image inspection PASSED on attempt 2 at 21:35 UTC:
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40958079191/attempts/2
+The initial inspection rejected legitimate lib/network/wwan/VID:PID filenames.
+Checker e37ee3be915d63fe99d0af5ad697e68307e10f54 permits only that exact USB-ID
+filename pattern while retaining traversal/drive/stream rejection. The same
+firmware binary passed after this inspector-only correction; no rebuild was needed.
+The corrected checker also passed the Linux source suite:
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40958997907
+
+Independent local image and filesystem inspections also passed, with no failures
+or warnings. Both binary sizes and SHA256 hashes match the build manifest; all
+11 custom package files match the exact built source, verified unchanged since
+62b4651. The filesystem inventory contains 158 packages and 71 kernel modules.
+Compact manifest/kernel/filesystem evidence is committed under
+validation/2026-10-29-62b4651/. See HANDOFF-MB00.txt for files and first-board steps.
+This completes offline build validation; hardware_tested and production_approved
+remain false. The modem supply deviation and initial OEM installation/recovery
+procedure still require the arriving hardware.
 
 The independent hardware desk audit is complete with documented exceptions. See
 hardware/audits/AUDIT-MB00.txt. Frozen release hashes still match the original
@@ -37,15 +54,15 @@ driver-file and autoload checks remain required. All other direct dependencies
 were matched to the pinned package definitions and that run's built APK records.
 https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40930865153
 An early guard now requires every direct carrier dependency to be selected for
-installation after defconfig, before starting the long compilation. No completed
-current image is claimed by this record; the corrected cross-build must pass.
+installation after defconfig, before starting the long compilation. That guard
+and the corrected cross-build passed for the current candidate above.
 Replacement run 40944786722, source e40b98cd779f0fac846e862738054560af8cd671,
 was deliberately cancelled after a separate first-boot error-handling defect was
 reproduced. OpenWrt sources defaults in a conditional subshell, suppressing shell
 errexit. Required operations now explicitly exit on failure, remove any pending
 success marker, lock network access and retain the unprovisioned fixture console.
 Successful provisioning still requires console authentication; provisioned units'
-upgrade path remains unchanged. This runtime correction requires a new build.
+upgrade path remains unchanged. The current successful build includes this fix.
 https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40944786722
 Run 40946264631 was also deliberately superseded shortly after starting so the
 final controller-link correction could be included: IPv4 leading zeros are

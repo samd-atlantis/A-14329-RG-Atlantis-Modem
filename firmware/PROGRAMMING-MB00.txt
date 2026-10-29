@@ -1,6 +1,9 @@
 A-14329-MB00 programming and first-board commissioning
 2026-10-29 - development procedure, not yet demonstrated on hardware
 
+The current compiled and statically inspected candidate is identified in
+HANDOFF-MB00.txt, including download link, hashes and remaining first-board steps.
+
 HARDWARE THIS PROCEDURE TARGETS
 Router: HLK-7628N, BOM C209920. Its supplier-linked manufacturer datasheet specifies
 32 MB flash / 128 MB RAM as the default, supporting the chosen 32 MB flash profile.

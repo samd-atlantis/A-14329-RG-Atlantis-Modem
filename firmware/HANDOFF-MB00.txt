@@ -1,0 +1,57 @@
+A-14329-MB00 firmware candidate handoff - 2026-10-29
+
+The common OpenWrt 25.12.6 candidate compiled successfully and passed compiled
+kernel/device-tree and filesystem inspection on GitHub and independently locally.
+This is the software candidate for first-board commissioning. It has not booted
+on our carrier, and the initial OEM installation path remains to be qualified.
+
+FILES
+Build source: 62b465179c766924cc7306eebf1fdfbb9906cb28
+Carrier package: atech-gateway 0.1.0-r7
+Build/download: https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40946542802
+Artifact name: A-14329-MB00-UNPROVISIONED-VALIDATION
+GitHub retention: 30 days from upload. Local files are retained under
+firmware/dist/validation-run-40946542802/. Download/archive them before expiry.
+
+openwrt-ramips-mt76x8-hilink_hlk-7628n-squashfs-sysupgrade.bin
+  Size: 5898513 bytes
+  SHA256: d84ce09c22e8380ad5fb9555f0a937624419405e0fdd07c9b86b5840b3e012fd
+  Use only with an already qualified compatible OpenWrt upgrade path.
+openwrt-ramips-mt76x8-hilink_hlk-7628n-initramfs-kernel.bin
+  Size: 5819722 bytes
+  SHA256: 6e3b3f3a891f56d7ed6df461a21bab6ecf6da5630b462c7096adcda54399f2c8
+  RAM-boot candidate only after confirming the actual bootloader's RAM-boot method.
+
+Keep manifest.json, SHA256SUMS, build.config, feeds.txt, build-lock.json and
+carrier-dts.patch with these binaries. Committed compact evidence is under
+validation/2026-10-29-62b4651/. It checks 158 installed packages, 71 kernel modules,
+required autoload/services, locked root, carrier defaults and all 11 gateway files.
+Image-check run: https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40958079191/attempts/2
+
+WHEN THE FIRST BOARD ARRIVES
+1. Follow PROGRAMMING-MB00.txt and hardware/audits/AUDIT-MB00.txt. Inspect the
+   assembly/supports while unpowered; start rail tests without the modem. Resolve
+   the modem supply/bulk-capacitor deviation before full modem commissioning.
+   The 10 A distribution and closed-enclosure thermal tests remain separate.
+2. Connect J14 USB-C for the router serial console and identify the actual HLK
+   flash/RAM, bootloader and partition map. Preserve that unit's own complete
+   flash, MAC/RF calibration and recovery backup. Establish recovery before writes.
+   HLK-FACTORY-RECOVERY.txt lists the conditional OEM installation branches.
+   The sysupgrade image has not been qualified as an OEM web-update upload.
+3. Once compatible OpenWrt installation/recovery is proven, use the common-image
+   per-unit bundle procedure in FACTORY-PROVISIONING.txt. Generate unique records
+   privately using tools/provision.py, then tools/make_factory_bundle.py. Verify
+   identity, hashes and sysupgrade -T before the qualified installation operation.
+   The bare CI image intentionally has locked network login and no setup Wi-Fi;
+   supplying the per-unit record is required for customer setup.
+4. After successful provisioning, use Ethernet DHCP or ATECH-<serial> Wi-Fi and
+   https://192.168.50.1 with the unit's unique admin password. Enter the carrier
+   APN, then enable cellular. Leave J17 modem-service USB unplugged during normal
+   cellular operation. U20 is absent; use physical nano-SIM A.
+5. Complete acceptance-template.json with measured results, including every LAN
+   jack, Wi-Fi/controller access, both USB orientations, LTE reconnect/load tests,
+   saved configuration, unique authentication and recovery. Keep GPIO-control
+   validation gates at zero until the corresponding bench work has passed.
+
+The normal setup interface and modem drivers are included. An RMS replacement,
+fleet VPN/cloud service and eSIM profile downloader are still future work.
