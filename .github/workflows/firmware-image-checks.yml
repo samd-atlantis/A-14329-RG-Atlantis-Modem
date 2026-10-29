@@ -36,7 +36,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y 7zip
           test -x /usr/bin/7z
-          /usr/bin/7z i | grep -q SquashFS
+          /usr/bin/7z i | grep SquashFS
       - name: Download this run's credential-free image
         env:
           GH_TOKEN: ${{ github.token }}

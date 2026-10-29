@@ -25,6 +25,8 @@ node firmware/tests/check.js
 
 GitHub Actions runs these checks on Linux. They exercise mocked carrier control and UI behavior, not RF performance or physical hardware. The OpenWrt image build is a separate Linux build described in `firmware/README.txt`.
 
+The build now pins OpenWrt **25.12.6**. After compilation, separate image checks inspect the actual kernel/device tree and installed filesystem against the exact build source. Check both workflow results; passing source tests alone does not establish a usable firmware image. The [factory recovery notes](firmware/HLK-FACTORY-RECOVERY.txt) distinguish USB serial console access from the arriving module's still-to-be-qualified initial loading procedure.
+
 ## Bring-up and release status
 
 - Ordered modem is **EC25AFFA-MINIPCIE**. Its used interface pins match the carrier. J9 takes a **nano-SIM**; U20 remains absent. Actual carrier activation and modem firmware still need bench verification.

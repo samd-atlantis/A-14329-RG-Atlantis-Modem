@@ -1,10 +1,13 @@
 A-14329-MB00 validation record - 2026-10-29
 
-Local provisioning, first-boot, carrier-control, build/preflight, private factory
-bundle and binary image-inspection tests pass. JavaScript/form/ACL and shell syntax
-checks pass. Windows tests use Git Bash/OpenSSL outside the sandbox because of
-its process-launch limitations. Linux GitHub source checks also passed for the
-earlier firmware changes committed today; each new push runs them again.
+58 Python tests and 27 JavaScript/form/ACL checks passed on Linux for commit
+044dcc02ff0939ba17985ff3eeef06cc676a4d9c; shell syntax checks passed too.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40934327280
+Coverage includes provisioning, first boot, carrier-control interlocks, image
+preflight, private factory bundles, binary parsing and static filesystem checks.
+These are source/mocked/parser tests, not router execution or hardware tests.
+Local Windows checks also passed using Git Bash/OpenSSL outside the sandbox
+because of its process-launch limitations.
 
 The independent hardware desk audit is complete with documented exceptions. See
 hardware/audits/AUDIT-MB00.txt. Frozen release hashes still match the original
@@ -16,10 +19,21 @@ incompatible with OpenWrt's mandatory 022. This is corrected without bypassing
 the prerequisite. The later unfinished 24.10.7 runs 40924364866 and 40927702703
 were cancelled when that baseline was found to lack current security fixes.
 
-The current build locks OpenWrt 25.12.6 and its published feed revisions. A fresh
-cross-build must finish before an image is accepted as the current development
-artifact. The workflow also checks the actual sysupgrade binary's metadata and
-carrier device tree before uploading it. See SECURITY-BASELINE.txt.
+The current build locks OpenWrt 25.12.6 and its published feed revisions. Run
+40930865153, from fd9943582c3bb7b1a5d44c46aba2a4da8a4b6e63, is still compiling at
+this record's update. No completed current image is claimed by this record.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40930865153
+Later commits add audit/checker documentation and tools, without changing that
+run's runtime package, build configuration or carrier DTS patch.
+
+The cross-build checks the actual sysupgrade metadata and carrier device tree
+before uploading it. After a successful main-branch build, the separate
+MB00 compiled-image checks workflow downloads that exact run's artifact and
+compares its filesystem with the exact built package source. Both workflows
+must pass. The latter checks installed packages, modules/autoload, executables,
+service links, locked root, control defaults and unit-record preservation.
+It archives static inspection evidence and never boots or flashes the image.
+See SECURITY-BASELINE.txt and firmware-image-checks.yml.
 
 Unprovisioned CI images alone are not customer-ready firmware. They have no unit
 credentials, no working setup AP and no hardware acceptance record. The first
