@@ -1,15 +1,13 @@
 A-14329-MB00 validation record - 2026-10-29
 
-58 Python tests and 27 JavaScript/form/ACL checks passed on Linux for commit
-044dcc02ff0939ba17985ff3eeef06cc676a4d9c; shell syntax checks passed too.
-https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40934327280
+63 Python tests and 27 JavaScript/form/ACL checks passed on Linux for commit
+e40b98cd779f0fac846e862738054560af8cd671; shell syntax checks passed too.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40944769073
 Coverage includes provisioning, first boot, carrier-control interlocks, image
 preflight, private factory bundles, binary parsing and static filesystem checks.
 These are source/mocked/parser tests, not router execution or hardware tests.
 Local Windows checks also passed using Git Bash/OpenSSL outside the sandbox
 because of its process-launch limitations.
-The dependency correction and expanded compiled-device-tree checks subsequently
-passed 63 Python tests, 27 JavaScript checks and build-shell syntax locally.
 
 The independent hardware desk audit is complete with documented exceptions. See
 hardware/audits/AUDIT-MB00.txt. Frozen release hashes still match the original
@@ -32,6 +30,9 @@ https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40930865
 An early guard now requires every direct carrier dependency to be selected for
 installation after defconfig, before starting the long compilation. No completed
 current image is claimed by this record; the corrected cross-build must pass.
+Replacement run 40944786722 builds e40b98cd779f0fac846e862738054560af8cd671.
+It was started at 2026-10-29 19:58 UTC and is in progress at this record's update.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40944786722
 
 The cross-build checks the actual sysupgrade metadata and carrier device tree
 before uploading it. After a successful main-branch build, the separate
