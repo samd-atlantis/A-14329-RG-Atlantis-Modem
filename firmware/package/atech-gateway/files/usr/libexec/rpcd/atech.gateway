@@ -12,6 +12,8 @@ call)
 		json_add_string site "$(uci -q get gateway.main.site_name)"
 		json_add_string sim "$(uci -q get gateway.main.sim_slot)"
 		json_add_boolean hardware_validated "$(uci -q get gateway.main.hardware_validated || echo 0)"
+		json_add_boolean powercut_validated "$(uci -q get gateway.main.powercut_validated || echo 0)"
+		json_add_boolean esim_populated "$(uci -q get gateway.main.esim_populated || echo 0)"
 		json_add_boolean modem_present "$([ -c /dev/cdc-wdm0 ] && echo 1 || echo 0)"
 		json_add_string version '0.1.0-dev'
 		json_dump
@@ -28,7 +30,7 @@ call)
 			op=powercycle
 		fi
 		if result="$(/usr/sbin/gateway-hardware "$op" "$slot" 2>&1)"; then
-			json_init; json_add_boolean ok 1; json_add_string message 'Modem restarted; cellular reconnection requested'
+			json_init; json_add_boolean ok 1; json_add_string message 'Modem rail cycle completed; cellular reconnects only when enabled'
 		else
 			json_init; json_add_boolean ok 0; json_add_string message "$result"
 		fi

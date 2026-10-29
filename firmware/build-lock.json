@@ -1,0 +1,17 @@
+{
+  "release": "v24.10.7",
+  "repository": "https://git.openwrt.org/openwrt/openwrt.git",
+  "tag_object": "4100c39a94da53ea1afe038f87fc0bf83d2e51f9",
+  "target": "ramips/mt76x8",
+  "profile": "hilink_hlk-7628n",
+  "flash_bytes": 33554432,
+  "firmware_partition_offset": 327680,
+  "firmware_partition_bytes": 33226752,
+  "feeds_source": "https://downloads.openwrt.org/releases/24.10.7/targets/ramips/mt76x8/feeds.buildinfo",
+  "feeds": {
+    "packages": {"url": "https://git.openwrt.org/feed/packages.git", "commit": "0c8f5f2ed91600b04ba639ef9c4c5ced3286cb3b"},
+    "luci": {"url": "https://git.openwrt.org/project/luci.git", "commit": "3cf713a30bf456af74f9393096c2f7eb770b3ae2"},
+    "routing": {"url": "https://git.openwrt.org/feed/routing.git", "commit": "cd05be684e670095d20663d1c41766cf8b54de61"},
+    "telephony": {"url": "https://git.openwrt.org/feed/telephony.git", "commit": "92892fa285360b8981f62bf4e0a097e6449e7e33"}
+  }
+}

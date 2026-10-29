@@ -1,6 +1,7 @@
 """Enable the carrier I2C controller; retain upstream flash/calibration partitions."""
 from pathlib import Path
 import sys
+import subprocess
 
 path = Path(sys.argv[1]) / "target/linux/ramips/dts/mt7628an_hilink_hlk-7628n.dts"
 text = path.read_text()
@@ -17,8 +18,13 @@ new = '''/* A-14329 carrier: I2C on module pins 24/25, MCP23008 at 0x20.
 &i2c {
 	status = "okay";
 };'''
-if old not in text:
-    if new in text:
-        sys.exit(0)
+baseline = subprocess.check_output([
+    'git', '-C', sys.argv[1], 'show',
+    'HEAD:target/linux/ramips/dts/mt7628an_hilink_hlk-7628n.dts'
+], text=True)
+if baseline.count(old) != 1:
     raise SystemExit("Upstream DTS changed: inspect pinmux before patching")
-path.write_text(text.replace(old, new))
+expected = baseline.replace(old, new)
+if text not in (baseline, expected):
+    raise SystemExit("DTS has unrelated edits; refusing to preserve unreviewed partition/pinmux changes")
+path.write_text(expected)

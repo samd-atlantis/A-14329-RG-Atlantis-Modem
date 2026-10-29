@@ -14,18 +14,39 @@ if [ "$slot" = B ] && [ "$(uci -q get gateway.main.esim_populated || echo 0)" !=
 fi
 command="${1:-}"
 case "$command" in init|select|powercycle) ;; *) exit 1;; esac
+if [ "$command" != init ] && [ "$(uci -q get gateway.main.powercut_validated || echo 0)" != 1 ]; then
+	echo 'Emergency rail cycling is locked pending modem shutdown and power sequencing validation' >&2
+	exit 1
+fi
 mkdir /var/lock/gateway-hardware 2>/dev/null || { echo 'Carrier operation already running' >&2; exit 1; }
 cleanup() { rmdir /var/lock/gateway-hardware; }
 trap cleanup EXIT
+trap 'exit 1' HUP INT TERM
+# Reject malformed reads before arithmetic or any output write.
+read_register() {
+	register="$(i2cget -y "$bus" 0x20 "$1")"
+	case "$register" in 0x[0-9a-fA-F][0-9a-fA-F]) ;; *) echo 'Invalid MCP23008 register read' >&2; return 1;; esac
+}
 # After a failed write, keep network down and report failure. Never pretend success.
 if [ "$command" = init ]; then
-	# Write latch before enabling outputs: SIM chosen, modem enabled, reset deasserted.
+	# Modem power is already ON through the MB00 resistor defaults. Never change
+	# SIM, power or reset levels while claiming GPIOs, including warm reboots.
+	read_register 0x09
+	[ "$((register & 7))" -eq "$value" ] || {
+		echo 'Live carrier control levels differ from configured SIM; leave controls unchanged and investigate on bench' >&2
+		exit 1
+	}
 	i2cset -y "$bus" 0x20 0x0a "$value"
 	i2cset -y "$bus" 0x20 0x00 0xf8
 else
+	# Refuse recovery if outputs have not been initialized. Read before disconnect.
+	read_register 0x00
+	[ "$((register & 7))" -eq 0 ] || { echo 'Carrier outputs have not been initialized' >&2; exit 1; }
+	read_register 0x0a
+	current="$register"
+	reconnect="$(uci -q get network.cellular.auto || echo 0)"
 	ifdown cellular
 	# A commanded rail cut is disruptive; no rapid unattended reset loop.
-	current="$(i2cget -y "$bus" 0x20 0x0a)"
 	i2cset -y "$bus" 0x20 0x0a "$(( (current & 1) | 2 ))"
 	sleep 3
 	# SIM lines only change with modem supply disabled.
@@ -34,6 +55,9 @@ else
 	i2cset -y "$bus" 0x20 0x0a "$value"
 	uci set gateway.main.sim_slot="$slot"
 	uci commit gateway
-	sleep 12
-	ifup cellular
+	# A disabled interface must stay disabled. Netifd handles enabled-session setup.
+	if [ "$reconnect" = 1 ]; then
+		sleep 12
+		ifup cellular
+	fi
 fi

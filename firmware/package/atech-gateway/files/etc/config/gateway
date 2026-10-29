@@ -2,7 +2,7 @@ config gateway 'main'
 	option site_name 'Walchem Gateway'
 	option serial 'UNPROVISIONED'
 	option hardware_validated '0'
+	option powercut_validated '0'
 	option i2c_bus '0'
 	option sim_slot 'A'
 	option esim_populated '0'
-

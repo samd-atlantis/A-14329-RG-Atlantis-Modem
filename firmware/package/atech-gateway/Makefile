@@ -16,6 +16,11 @@ endef
 define Build/Compile
 endef
 
+define Package/atech-gateway/conffiles
+/etc/config/gateway
+/etc/gateway/unit.json
+endef
+
 define Package/atech-gateway/install
 	$(CP) ./files/* $(1)/
 	chmod 0755 $(1)/etc/uci-defaults/99-atech-gateway

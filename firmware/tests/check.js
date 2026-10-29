@@ -3,10 +3,15 @@ const root=path.resolve(__dirname,'..');
 let checks=0;
 const form={Map:class{
  constructor(name){this.name=name;this.sections=[];this.data={get:()=>undefined};}
- section(type,name){const s={name,options:[],option(type,name){const o={name,values:[],value(v){this.values.push(v);}};this.options.push(o);return o;}};this.sections.push(s);return s;}
+ section(type,name){const s={name,options:[],formvalue(){return '0';},option(type,name){const o={name,values:[],value(v){this.values.push(v);}};this.options.push(o);return o;}};this.sections.push(s);return s;}
  render(){return Promise.resolve(this);}
 }};
 function E(tag,attrs,children){return {tag,attrs,children};}
+function findButton(node,caption){
+ if(node&&node.tag==='button'&&node.children===caption)return node;
+ for(const child of node&&Array.isArray(node.children)?node.children:[]){const result=findButton(child,caption);if(result)return result;}
+ return null;
+}
 async function main(){
  const dir=path.join(root,'package/atech-gateway/files/www/luci-static/resources/view/gateway');
  for(const file of fs.readdirSync(dir)){
@@ -19,12 +24,28 @@ async function main(){
    assert(options.find(o=>o.name==='pincode').password);
    assert(options.find(o=>o.name==='password').password);
    assert(options.find(o=>o.name==='auto'));checks+=4;
+   const apn=options.find(o=>o.name==='apn'),section=maps[1].sections[0];
+   assert.equal(apn.validate('cellular',''),true);
+   section.formvalue=()=> '1';assert.notEqual(apn.validate('cellular',''),true);
+   assert.equal(apn.validate('cellular','carrier.apn'),true);
+   assert.deepEqual(Array.from(options.find(o=>o.name==='pdptype').values),['ipv4']);checks+=4;
   }else if(file==='controllers.js'){
    const map=await view.render();const open=map.sections[0].options.find(o=>o.name==='open');
    map.data.get=(_,s,k)=>({address:'javascript:alert(1)',scheme:'http'})[k];assert.equal(open.cfgvalue('x'),'—');
    map.data.get=(_,s,k)=>({address:'192.168.50.101',scheme:'https'})[k];assert.equal(open.cfgvalue('x').attrs.href,'https://192.168.50.101');checks+=2;
+   map.data.get=(_,s,k)=>({address:'999.168.50.101',scheme:'https'})[k];assert.equal(open.cfgvalue('x'),'—');
+   map.data.get=(_,s,k)=>({address:'192.168.50.101',scheme:'javascript'})[k];assert.equal(open.cfgvalue('x'),'—');checks+=2;
   }else{
    const node=view.render(await view.load());assert(node.children.length>3);assert(calls.some(c=>c.method==='powercycle'));checks+=2;
+   assert(findButton(node,'Emergency modem power cycle').attrs.disabled);
+   assert(findButton(node,'Switch SIM').attrs.disabled);
+   const controlled=view.render([{hardware_validated:true,powercut_validated:false,esim_populated:false},{}]);
+   assert(findButton(controlled,'Emergency modem power cycle').attrs.disabled);
+   const physicalSIM=view.render([{hardware_validated:true,powercut_validated:true,esim_populated:false},{}]);
+   assert.equal(findButton(physicalSIM,'Emergency modem power cycle').attrs.disabled,false);
+   assert(findButton(physicalSIM,'Switch SIM').attrs.disabled);
+   const bothSIMs=view.render([{hardware_validated:true,powercut_validated:true,esim_populated:true},{}]);
+   assert.equal(findButton(bothSIMs,'Switch SIM').attrs.disabled,false);checks+=6;
   }
  }
  for(const file of ['usr/share/luci/menu.d/atech-gateway.json','usr/share/rpcd/acl.d/atech-gateway.json']){JSON.parse(fs.readFileSync(path.join(root,'package/atech-gateway/files',file)));checks++;}

@@ -9,7 +9,7 @@ return view.extend({
   o=s.option(form.Value,'address',_('IPv4 address'));o.datatype='ip4addr';o.rmempty=false;
   o=s.option(form.ListValue,'scheme',_('Web protocol'));o.value('http','HTTP');o.value('https','HTTPS');o.default='http';
   o=s.option(form.DummyValue,'open',_('Local web page'));
-  o.cfgvalue=function(section){var ip=m.data.get('gateway',section,'address'),scheme=m.data.get('gateway',section,'scheme')||'http';if(!/^(?:\d{1,3}\.){3}\d{1,3}$/.test(ip||'')||!['http','https'].includes(scheme))return '—';return E('a',{href:scheme+'://'+ip,target:'_blank',rel:'noopener noreferrer'},_('Open controller'));};
+  o.cfgvalue=function(section){var ip=m.data.get('gateway',section,'address'),scheme=m.data.get('gateway',section,'scheme')||'http';if(!/^(?:\d{1,3}\.){3}\d{1,3}$/.test(ip||'')||ip.split('.').some(function(octet){return +octet>255;})||!['http','https'].includes(scheme))return '—';return E('a',{href:scheme+'://'+ip,target:'_blank',rel:'noopener noreferrer'},_('Open controller'));};
   return m.render();
  }
 });

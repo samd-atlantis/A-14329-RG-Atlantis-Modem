@@ -1,0 +1,29 @@
+name: OpenWrt MB00 cross-build
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/firmware-build.yml'
+permissions:
+  contents: read
+jobs:
+  cross-build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build prerequisites
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential clang flex bison g++ gawk gcc-multilib gettext git libncurses-dev libssl-dev python3 python3-setuptools rsync swig unzip zlib1g-dev file wget curl xz-utils zstd
+      - name: Compile pinned OpenWrt with MB00 carrier package
+        env:
+          JOBS: '2'
+        run: bash firmware/build.sh --validation
+      - name: Archive validation images and build manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: A-14329-MB00-UNPROVISIONED-VALIDATION
+          path: firmware/dist/validation/
+          retention-days: 30
+          if-no-files-found: error

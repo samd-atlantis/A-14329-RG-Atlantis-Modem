@@ -18,7 +18,9 @@ class CarrierTest(unittest.TestCase):
         if os.name == 'nt':
             self.posix = '/' + self.posix[0].lower() + self.posix[2:]
         self.env = os.environ.copy()
-        self.env.update(VALIDATED='1', FAIL_WRITE='0', ESIM_POPULATED='1')
+        self.env.update(VALIDATED='1', FAIL_WRITE='0', ESIM_POPULATED='1',
+                        POWERCUT_VALIDATED='1', CELLULAR_AUTO='1',
+                        GPIO='0x00', IODIR='0xf8', OLAT='0x00')
         self.script = self.dir / 'harness.sh'
         text = (ROOT/'package/atech-gateway/files/usr/sbin/gateway-hardware').read_text()
         text = text.replace('/var/lock/gateway-hardware', self.posix+'/lock')
@@ -26,14 +28,22 @@ class CarrierTest(unittest.TestCase):
 uci() {
  case "$*" in
   *hardware_validated*) echo "$VALIDATED";;
+  *powercut_validated*) echo "$POWERCUT_VALIDATED";;
   *esim_populated*) echo "$ESIM_POPULATED";;
   *i2c_bus*) echo 0;;
+  *network.cellular.auto*) echo "$CELLULAR_AUTO";;
   '-q get gateway.main.sim_slot') echo A;;
   *) echo "uci $*" >> "$TEST_LOG";;
  esac
 }
 i2cset() { echo "i2cset $*" >> "$TEST_LOG"; [ "$FAIL_WRITE" != 1 ]; }
-i2cget() { echo 0x00; }
+i2cget() {
+ case "$4" in
+  0x00) echo "$IODIR";;
+  0x09) echo "$GPIO";;
+  0x0a) echo "$OLAT";;
+ esac
+}
 ifdown() { echo down >> "$TEST_LOG"; }
 ifup() { echo up >> "$TEST_LOG"; }
 sleep() { echo "sleep $*" >> "$TEST_LOG"; }
@@ -60,6 +70,44 @@ sleep() { echo "sleep $*" >> "$TEST_LOG"; }
         p,log=self.run_script('init')
         self.assertEqual(p.returncode,0,p.stderr)
         self.assertLess(log.index('0x0a 0'),log.index('0x00 0xf8'))
+
+    def test_init_never_hot_switches_an_already_powered_modem(self):
+        p,log=self.run_script('init','B')
+        self.assertNotEqual(p.returncode,0)
+        self.assertIn('Live carrier control levels differ',p.stderr)
+        self.assertEqual(log,'')
+
+    def test_init_preserves_live_b_selection_after_warm_reboot(self):
+        self.env['GPIO']='0x01'
+        p,log=self.run_script('init','B')
+        self.assertEqual(p.returncode,0,p.stderr)
+        self.assertIn('0x0a 1',log)
+
+    def test_init_never_releases_asserted_off_or_reset_controls(self):
+        for gpio in ['0x02','0x04']:
+            with self.subTest(gpio=gpio):
+                self.env['GPIO']=gpio
+                p,log=self.run_script('init','A')
+                self.assertNotEqual(p.returncode,0)
+                self.assertEqual(log,'')
+
+    def test_unvalidated_powercut_never_disconnects(self):
+        self.env['POWERCUT_VALIDATED']='0'
+        p,log=self.run_script('powercycle','A')
+        self.assertNotEqual(p.returncode,0)
+        self.assertEqual(log,'')
+
+    def test_uninitialized_outputs_never_disconnect(self):
+        self.env['IODIR']='0xff'
+        p,log=self.run_script('select','B')
+        self.assertNotEqual(p.returncode,0)
+        self.assertEqual(log,'')
+
+    def test_invalid_i2c_read_never_disconnects(self):
+        self.env['OLAT']='invalid'
+        p,log=self.run_script('powercycle','A')
+        self.assertNotEqual(p.returncode,0)
+        self.assertEqual(log,'')
 
     def test_mb00_absent_esim_cannot_switch(self):
         self.env['ESIM_POPULATED']='0'
@@ -89,6 +137,20 @@ sleep() { echo "sleep $*" >> "$TEST_LOG"; }
         self.assertNotIn('0x0a 3',log)
         self.assertNotIn('\nup',log)
         self.assertFalse((self.dir/'lock').exists())
+
+    def test_disabled_cellular_stays_disabled_after_recovery(self):
+        self.env['CELLULAR_AUTO']='0'
+        p,log=self.run_script('powercycle','A')
+        self.assertEqual(p.returncode,0,p.stderr)
+        self.assertIn('down',log)
+        self.assertNotIn('\nup',log)
+
+    def test_overlapping_recovery_does_not_touch_hardware(self):
+        (self.dir/'lock').mkdir()
+        p,log=self.run_script('powercycle','A')
+        self.assertNotEqual(p.returncode,0)
+        self.assertIn('already running',p.stderr)
+        self.assertEqual(log,'')
 
     def test_invalid_slot_rejected(self):
         p,log=self.run_script('select','B; echo unsafe')
