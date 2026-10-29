@@ -114,6 +114,11 @@ Enter carrier APN and enable cellular. With a PC on J17, modem data is unavailab
 to the router by design. Keep SIM hotplug and automatic DTR sleep disabled until
 validated because the corresponding Mini PCIe pins are unused on MB00.
 
+For a standard set of four fixed controller IPs on the default LAN, use distinct
+addresses 192.168.50.10-.13 with mask 255.255.255.0 and gateway/DNS 192.168.50.1.
+The default dynamic pool is .100-.199. Configure addresses on the controllers
+or add appropriate DHCP reservations; the gateway's directory only saves links.
+
 Carrier defaults select physical SIM A and power the modem without software GPIOs.
 hardware_validated=0 and powercut_validated=0 stay set until bench acceptance.
 The first gate permits controlled expander initialization after bus/polarity review;

@@ -76,7 +76,6 @@ CONFIG_TARGET_ramips_mt76x8_DEVICE_hilink_hlk-7628n=y
 CONFIG_TARGET_ROOTFS_INITRAMFS=y
 CONFIG_PACKAGE_atech-gateway=y
 CONFIG_PACKAGE_kmod-i2c-core=y
-CONFIG_PACKAGE_kmod-i2c-dev=y
 CONFIG_PACKAGE_kmod-i2c-mt7628=y
 CONFIG_PACKAGE_i2c-tools=y
 CONFIG_PACKAGE_luci=y
@@ -90,9 +89,7 @@ CONFIG_PACKAGE_kmod-usb-serial-option=y
 CONFIG_PACKAGE_wpad-basic-mbedtls=y
 CONFIG
 make defconfig
-for config in TARGET_ramips_mt76x8_DEVICE_hilink_hlk-7628n PACKAGE_atech-gateway PACKAGE_kmod-i2c-mt7628 PACKAGE_kmod-usb-net-qmi-wwan; do
-  grep -qx "CONFIG_${config}=y" .config
-done
+python3 "$HERE/tools/build_support.py" verify-selection .config "$HERE/package/atech-gateway/Makefile"
 make download -j8
 make -j"${JOBS:-$(nproc)}" V=s
 mkdir -p "$OUT"

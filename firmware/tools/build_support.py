@@ -33,6 +33,25 @@ def lock():
     return json.loads((HERE / "build-lock.json").read_text())
 
 
+def verify_selection(config, package_makefile):
+    """Fail before compilation if defconfig dropped a direct runtime dependency."""
+    source = package_makefile.read_text().replace("\\\n", " ")
+    matches = re.findall(r"^\s*DEPENDS\s*:=\s*(.+)$", source, re.M)
+    if len(matches) != 1:
+        raise ValueError("Expected one explicit carrier DEPENDS list")
+    tokens = matches[0].split()
+    if not tokens or any(not re.fullmatch(r"\+[A-Za-z0-9_.+-]+", token) for token in tokens):
+        raise ValueError("Unsupported dependency expression; update the selection verifier explicitly")
+    required = {"CONFIG_PACKAGE_" + token[1:] + "=y" for token in tokens}
+    required.update({"CONFIG_PACKAGE_atech-gateway=y",
+                     "CONFIG_TARGET_ramips_mt76x8_DEVICE_hilink_hlk-7628n=y",
+                     "CONFIG_PACKAGE_wpad-basic-mbedtls=y"})
+    selected = set(config.read_text().splitlines())
+    missing = sorted(required - selected)
+    if missing:
+        raise ValueError("Required packages/target absent after defconfig (check names and dependencies): " + ", ".join(missing))
+
+
 def verify_sources(tree):
     data = lock()
     if git(tree, "rev-parse", "refs/tags/" + data["release"]) != data["tag_object"]:
@@ -81,6 +100,9 @@ def main():
     f.add_argument("file", type=Path)
     s = sub.add_parser("verify-sources")
     s.add_argument("tree", type=Path)
+    c = sub.add_parser("verify-selection")
+    c.add_argument("config", type=Path)
+    c.add_argument("package_makefile", type=Path)
     m = sub.add_parser("manifest")
     m.add_argument("tree", type=Path)
     m.add_argument("output", type=Path)
@@ -94,6 +116,8 @@ def main():
                                      for n, f in lock()["feeds"].items()))
     elif args.command == "verify-sources":
         verify_sources(args.tree)
+    elif args.command == "verify-selection":
+        verify_selection(args.config, args.package_makefile)
     else:
         collect_manifest(args.tree, args.output, args.mode, args.source_revision)
 

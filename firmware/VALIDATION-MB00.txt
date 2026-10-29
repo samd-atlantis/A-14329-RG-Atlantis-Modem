@@ -8,6 +8,8 @@ preflight, private factory bundles, binary parsing and static filesystem checks.
 These are source/mocked/parser tests, not router execution or hardware tests.
 Local Windows checks also passed using Git Bash/OpenSSL outside the sandbox
 because of its process-launch limitations.
+The dependency correction and expanded compiled-device-tree checks subsequently
+passed 63 Python tests, 27 JavaScript checks and build-shell syntax locally.
 
 The independent hardware desk audit is complete with documented exceptions. See
 hardware/audits/AUDIT-MB00.txt. Frozen release hashes still match the original
@@ -20,11 +22,16 @@ the prerequisite. The later unfinished 24.10.7 runs 40924364866 and 40927702703
 were cancelled when that baseline was found to lack current security fixes.
 
 The current build locks OpenWrt 25.12.6 and its published feed revisions. Run
-40930865153, from fd9943582c3bb7b1a5d44c46aba2a4da8a4b6e63, is still compiling at
-this record's update. No completed current image is claimed by this record.
+40930865153, from fd9943582c3bb7b1a5d44c46aba2a4da8a4b6e63, failed at package
+installation after compiling the toolchain and packages. The carrier requested
+kmod-i2c-dev, which is not a package in this release. Its i2c-dev.ko driver is
+already included in kmod-i2c-core. The dependency is corrected to that package;
+driver-file and autoload checks remain required. All other direct dependencies
+were matched to the pinned package definitions and that run's built APK records.
 https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40930865153
-Later commits add audit/checker documentation and tools, without changing that
-run's runtime package, build configuration or carrier DTS patch.
+An early guard now requires every direct carrier dependency to be selected for
+installation after defconfig, before starting the long compilation. No completed
+current image is claimed by this record; the corrected cross-build must pass.
 
 The cross-build checks the actual sysupgrade metadata and carrier device tree
 before uploading it. After a successful main-branch build, the separate

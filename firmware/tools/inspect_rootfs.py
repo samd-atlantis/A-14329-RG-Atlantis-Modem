@@ -22,7 +22,7 @@ PACKAGE = FIRMWARE / 'package/atech-gateway/files'
 DIST = FIRMWARE / 'dist'
 REQUIRED_PACKAGES = (
     'atech-gateway', 'luci-ssl', 'luci-proto-qmi', 'uqmi', 'i2c-tools', 'lrzsz',
-    'kmod-i2c-mt7628', 'kmod-i2c-dev', 'kmod-usb-net-qmi-wwan',
+    'kmod-i2c-mt7628', 'kmod-i2c-core', 'kmod-usb-net-qmi-wwan',
     'kmod-usb-serial-option', 'kmod-usb2', 'wpad-basic-mbedtls',
     'rpcd', 'rpcd-mod-file', 'rpcd-mod-luci', 'jsonfilter', 'px5g-mbedtls',
     'firewall4', 'dnsmasq', 'dropbear', 'uhttpd', 'uhttpd-mod-ubus',
@@ -221,6 +221,7 @@ def inspect_rootfs(image, manifest, sevenzip, output, package_source=PACKAGE):
                   reviewed_package_source=str(package_source.resolve()),
                   carrier_image_checks_passed=result['carrier_checks_passed'],
                   carrier_image_failures=result['failures'],
+                  compiled_dtb=result['dtb'],
                   squashfs=result['squashfs'], programming_authorization=False, hardware_tested=False,
                   limitations=['Static inspection does not execute first boot, authenticate a build signature, or prove hardware operation.',
                                'Matching firstboot content links to source tests; it does not prove runtime fail-closed behavior.',

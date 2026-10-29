@@ -28,7 +28,8 @@ def cell(*values):
 
 
 def fdt(i2c='okay', extra_nodes=False, pin_function='i2c', firmware_offset=0x50000,
-        board='hilink,hlk-7628n', conflicting_gpio=False):
+        board='hilink,hlk-7628n', conflicting_gpio=False, usb=None, usb_phy=None,
+        usb_parent=None, ethernet=None, wifi='okay', phy_reference=2):
     # FDT v17: real structure tokens, property strings, and phandle references.
     partitions = []
     for name, offset, size, ro in [('u-boot', 0, 0x30000, True),
@@ -39,6 +40,8 @@ def fdt(i2c='okay', extra_nodes=False, pin_function='i2c', firmware_offset=0x500
         if ro:
             props['read-only'] = b''
         partitions.append(('partition@' + format(offset, 'x'), props, []))
+    def optional_status(value):
+        return {'status': cstr(value)} if value is not None else {}
     children = [
         ('palmbus@10000000', {}, [
             ('i2c@900', {'compatible': cstr('mediatek,mt7621-i2c'),
@@ -48,6 +51,14 @@ def fdt(i2c='okay', extra_nodes=False, pin_function='i2c', firmware_offset=0x500
         ('pinctrl', {}, [('i2c_pins', {'phandle': cell(1)}, [
             ('i2c', {'groups': cstr('i2c'), 'function': cstr(pin_function)}, []),
         ])]),
+        ('usb-bus', optional_status(usb_parent), [
+            ('usbphy@10120000', dict(optional_status(usb_phy), **{
+                'compatible': cstr('mediatek,mt7628-usbphy'), 'phandle': cell(2), '#phy-cells': cell(0)}), []),
+            ('ehci@101c0000', dict(optional_status(usb), **{
+                'compatible': cstr('generic-ehci'), 'phys': cell(phy_reference)}), []),
+        ]),
+        ('ethernet@10100000', dict(optional_status(ethernet), compatible=cstr('ralink,rt5350-eth')), []),
+        ('wmac@10300000', dict(optional_status(wifi), compatible=cstr('mediatek,mt7628-wmac')), []),
     ]
     if extra_nodes:
         children.extend([('keys', {'compatible': cstr('gpio-keys')}, []),
@@ -132,6 +143,33 @@ class ImageInspectionTest(unittest.TestCase):
         self.assertEqual(report['uimage']['architecture'], 'MIPS')
         self.assertEqual(report['openwrt_metadata']['version']['version'], '25.12.6')
         self.assertEqual(report['dtb']['partitions']['factory']['offset'], 0x40000)
+        self.assertTrue(report['dtb']['peripherals']['usb_ehci']['enabled'])
+        self.assertTrue(report['dtb']['peripherals']['usb_ehci']['phy_reference_valid'])
+        self.assertTrue(report['dtb']['peripherals']['usb_phy']['status_defaulted'])
+
+    def test_disabled_usb_or_phy_fails(self):
+        for option, label in [('usb', 'USB EHCI host'), ('usb_phy', 'USB PHY')]:
+            with self.subTest(option=option):
+                report = self.inspect_bytes(image_bytes(fdt(**{option: 'disabled'})))
+                self.assertIn(label + ' or its ancestor is not enabled', report['failures'])
+
+    def test_disabled_parent_blocks_enabled_usb_children(self):
+        report = self.inspect_bytes(image_bytes(fdt(usb='okay', usb_phy='okay', usb_parent='disabled')))
+        self.assertFalse(report['dtb']['peripherals']['usb_ehci']['enabled'])
+        self.assertFalse(report['dtb']['peripherals']['usb_phy']['enabled'])
+        self.assertEqual(report['dtb']['peripherals']['usb_ehci']['blocking_nodes'], ['/usb-bus'])
+
+    def test_usb_must_reference_the_correct_phy(self):
+        for handle in (1, 123):
+            with self.subTest(handle=handle):
+                report = self.inspect_bytes(image_bytes(fdt(phy_reference=handle)))
+                self.assertIn('USB EHCI host does not reference the expected MT7628 USB PHY', report['failures'])
+
+    def test_disabled_ethernet_or_wifi_fails(self):
+        for option, label in [('ethernet', 'Ethernet controller'), ('wifi', 'Wi-Fi controller')]:
+            with self.subTest(option=option):
+                report = self.inspect_bytes(image_bytes(fdt(**{option: 'disabled'})))
+                self.assertIn(label + ' or its ancestor is not enabled', report['failures'])
 
     def test_upstream_carrier_omissions_are_reported(self):
         report = self.inspect_bytes(image_bytes(fdt(i2c='disabled', extra_nodes=True)))

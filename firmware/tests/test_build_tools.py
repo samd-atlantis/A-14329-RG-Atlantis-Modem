@@ -20,6 +20,27 @@ preflight = module('preflight')
 
 
 class BuildToolsTest(unittest.TestCase):
+    def test_selection_rejects_missing_or_module_only_runtime_dependency(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            recipe = root / 'Makefile'
+            recipe.write_text('  DEPENDS:=+kmod-i2c-core +uqmi\n')
+            config = root / '.config'
+            selected = ('CONFIG_TARGET_ramips_mt76x8_DEVICE_hilink_hlk-7628n=y\n'
+                        'CONFIG_PACKAGE_atech-gateway=y\n'
+                        'CONFIG_PACKAGE_wpad-basic-mbedtls=y\n'
+                        'CONFIG_PACKAGE_kmod-i2c-core=y\nCONFIG_PACKAGE_uqmi=y\n')
+            config.write_text(selected)
+            build.verify_selection(config, recipe)
+            for replacement in ('', 'CONFIG_PACKAGE_uqmi=m\n'):
+                config.write_text(selected.replace('CONFIG_PACKAGE_uqmi=y\n', replacement))
+                with self.assertRaisesRegex(ValueError, 'CONFIG_PACKAGE_uqmi=y'):
+                    build.verify_selection(config, recipe)
+            config.write_text(selected)
+            recipe.write_text('  DEPENDS:=+kmod-i2c-dev +uqmi\n')
+            with self.assertRaisesRegex(ValueError, 'kmod-i2c-dev'):
+                build.verify_selection(config, recipe)
+
     def test_unit_validation_rejects_injection_or_mismatched_identity(self):
         unit = dict(serial='TEST-0001', ssid='ATECH-TEST-0001',
                     wifi_password='a' * 24, root_hash='$6$salt$' + 'A' * 86)

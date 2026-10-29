@@ -29,6 +29,13 @@ All four jacks use module PHY1..4; PHY0 is unused. This is a setup/controller AP
 not automatic Wi-Fi-uplink failover. Keep modem-service J17 USB unplugged in normal
 use so the router is the modem's USB host. J14 is the router serial console.
 
+For four controllers with manually fixed addresses, a suggested default is
+192.168.50.10 through 192.168.50.13, mask 255.255.255.0, gateway/DNS 192.168.50.1.
+These are outside the default DHCP pool (.100-.199). Configure each controller
+itself, or use distinct DHCP reservations for DHCP clients. Directory entries
+are bookmarks; they do not assign an address. Adjust this plan if changing the
+gateway LAN subnet or integrating with another existing network.
+
 WHAT IS IMPLEMENTED
 Authenticated LuCI pages; QMI cellular networking; four-port LAN/DHCP/NAT; LAN-only
 administration; per-unit credential generation; guarded MCP23008 controls; source

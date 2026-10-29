@@ -63,6 +63,21 @@ def cells(value):
     return struct.unpack('>' + 'I' * (len(value) // 4), value)
 
 
+def node_availability(nodes, path):
+    """An absent status is enabled, but a disabled ancestor still blocks probing."""
+    blocked, ancestor = [], path
+    while True:
+        status = string_list(nodes[ancestor].get('status', b'okay\0'))
+        if status not in (['okay'], ['ok']):
+            blocked.append(ancestor)
+        if ancestor == '/':
+            break
+        ancestor = ancestor.rsplit('/', 1)[0] or '/'
+    return {'node': path, 'status': string_list(nodes[path].get('status', b'okay\0')),
+            'status_defaulted': 'status' not in nodes[path],
+            'enabled': not blocked, 'blocking_nodes': blocked}
+
+
 def parse_fdt(data):
     require(len(data) >= 40, 'Truncated FDT header')
     magic, total, structure, strings, reserve, version, compatible, cpu, strings_size, structure_size = struct.unpack_from('>10I', data)
@@ -220,7 +235,7 @@ def inspect(image, manifest, expected_version=None):
     require(len(i2c_nodes) == 1, 'Expected exactly one MT7628 I2C controller')
     i2c_path, i2c = i2c_nodes[0]
     status = string_list(i2c.get('status', b'okay\0'))
-    if status not in (['okay'], ['ok']):
+    if not node_availability(nodes, i2c_path)['enabled']:
         failures.append('Carrier I2C controller is not enabled')
     handles = {}
     for path, props in nodes.items():
@@ -229,6 +244,28 @@ def inspect(image, manifest, expected_version=None):
             require(len(handle) == 1 and handle[0] not in (0, 0xffffffff) and handle[0] not in handles,
                     'Invalid or duplicate FDT phandle')
             handles[handle[0]] = (path, props)
+    peripherals = {}
+    for name, compatible, label in (
+        ('usb_ehci', 'generic-ehci', 'USB EHCI host'),
+        ('usb_phy', 'mediatek,mt7628-usbphy', 'USB PHY'),
+        ('ethernet', 'ralink,rt5350-eth', 'Ethernet controller'),
+        ('wifi', 'mediatek,mt7628-wmac', 'Wi-Fi controller'),
+    ):
+        matches = [p for p, props in nodes.items() if compatible in string_list(props.get('compatible', b''))]
+        require(len(matches) == 1, 'Expected exactly one ' + label + ' device-tree node')
+        peripherals[name] = node_availability(nodes, matches[0])
+        if not peripherals[name]['enabled']:
+            failures.append(label + ' or its ancestor is not enabled')
+    ehci = nodes[peripherals['usb_ehci']['node']]
+    phy_path = peripherals['usb_phy']['node']
+    phy_specifier = cells(ehci.get('phys', b''))
+    phy_reference_valid = (len(phy_specifier) == 1 and phy_specifier[0] in handles and
+                           handles[phy_specifier[0]][0] == phy_path and
+                           cells(nodes[phy_path].get('#phy-cells', b'')) == (0,))
+    peripherals['usb_ehci']['phy_reference_valid'] = phy_reference_valid
+    peripherals['usb_ehci']['phy_node'] = phy_path if phy_reference_valid else None
+    if not phy_reference_valid:
+        failures.append('USB EHCI host does not reference the expected MT7628 USB PHY')
     pin_groups = []
     for handle in cells(i2c.get('pinctrl-0', b'')):
         require(handle in handles, 'I2C pinctrl references an unknown phandle')
@@ -266,7 +303,7 @@ def inspect(image, manifest, expected_version=None):
         'openwrt_metadata': metadata, 'fwtool_chunks': chunks, 'uimage': header,
         'dtb': dict(dtb, compatible=string_list(nodes['/'].get('compatible', b'')),
                     i2c_node=i2c_path, i2c_status=status, keys_present='/keys' in nodes,
-                    leds_present='/leds' in nodes, partitions=partitions),
+                    leds_present='/leds' in nodes, partitions=partitions, peripherals=peripherals),
         'squashfs': {'offset': kernel_end, 'bytes_used': squashfs[12], 'compression_id': squashfs[5]},
         'carrier_checks_passed': not failures, 'failures': failures,
         'programming_authorization': False, 'hardware_tested': False,
