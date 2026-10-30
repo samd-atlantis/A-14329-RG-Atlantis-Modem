@@ -10,6 +10,8 @@ The earlier r8 build 41059927653 was cancelled to include these user changes.
 Local checks passed 85 Python tests and 31 JavaScript/form/ACL checks. Coverage
 includes radio MAC validation/matching and DHCP exclusion of all four controller
 addresses. These are mocked/source checks; first-board Wi-Fi/traffic tests remain.
+Current rebuild: 41062300294, source bdfa1d718684602ea6f9def5bbfe3447e462e3ff.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41062300294
 
 2026-10-30 UI revision: package 0.1.0-r8 adds the supplied Atlantis SVG and a
 home dashboard using short labels, icons and large actions. Preview branding is
