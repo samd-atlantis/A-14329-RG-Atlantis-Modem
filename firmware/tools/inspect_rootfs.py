@@ -26,18 +26,21 @@ REQUIRED_PACKAGES = (
     'kmod-usb-serial-option', 'kmod-usb2', 'wpad-basic-mbedtls',
     'rpcd', 'rpcd-mod-file', 'rpcd-mod-luci', 'jsonfilter', 'px5g-mbedtls',
     'firewall4', 'dnsmasq', 'dropbear', 'uhttpd', 'uhttpd-mod-ubus',
+    'kmod-wireguard', 'wireguard-tools', 'luci-proto-wireguard',
 )
 REQUIRED_MODULES = ('i2c-mt7621.ko', 'i2c-dev.ko', 'qmi_wwan.ko', 'cdc-wdm.ko',
                     'usbnet.ko', 'option.ko', 'usb_wwan.ko', 'usbserial.ko',
-                    'ehci-hcd.ko', 'ehci-platform.ko', 'mt7603e.ko', 'mt76.ko')
+                    'ehci-hcd.ko', 'ehci-platform.ko', 'mt7603e.ko', 'mt76.ko', 'wireguard.ko')
 REQUIRED_AUTOLOAD = ('i2c-mt7621', 'i2c-dev', 'qmi_wwan', 'option',
-                     'ehci-platform', 'mt7603e')
+                     'ehci-platform', 'mt7603e', 'wireguard')
 REQUIRED_EXECUTABLES = (
     'sbin/uqmi', 'usr/sbin/i2cget', 'usr/sbin/i2cset', 'usr/bin/lrz',
     'sbin/rpcd', 'sbin/netifd', 'sbin/uci', 'bin/ubus', 'usr/bin/jsonfilter',
     'usr/sbin/uhttpd', 'usr/sbin/dropbear', 'usr/sbin/hostapd',
+    'usr/bin/wg',
 )
 REQUIRED_FILES = ('lib/netifd/proto/qmi.sh', 'usr/lib/rpcd/file.so',
+                  'lib/netifd/proto/wireguard.sh',
                   'lib/firmware/mt7628_e1.bin', 'lib/firmware/mt7628_e2.bin')
 SERVICES = ('rpcd', 'dnsmasq', 'dropbear', 'firewall', 'wpad', 'uhttpd',
             'network', 'gateway-hardware')
@@ -188,6 +191,8 @@ def check_contents(archive, package_source=PACKAGE):
         defaults[option] = match[0] if len(match) == 1 else None
     check(defaults == {'hardware_validated': '0', 'powercut_validated': '0', 'esim_populated': '0',
                        'sim_slot': 'A', 'serial': 'UNPROVISIONED'}, 'Carrier default gates/SIM state differ from validation defaults')
+    remote = re.search(r"config remote 'remote'\s+option enabled '0'", gateway)
+    check(remote is not None, 'Remote access is not explicitly disabled in the default image')
     keep = read('lib/upgrade/keep.d/atech-gateway')
     check(b'/etc/gateway/unit.json' in keep.splitlines(), 'Sysupgrade preservation list omits unit.json')
 

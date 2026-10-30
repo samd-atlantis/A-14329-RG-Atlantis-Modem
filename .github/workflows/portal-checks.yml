@@ -1,0 +1,19 @@
+name: Atlantis portal checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  portal-tests:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - name: Fetch pinned official proxy validator
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 portal/tools/get_caddy.py
+      - name: Portal isolation and actual proxy HTTP/TLS tests
+        env:
+          CADDY_BIN: .tools/caddy/caddy
+        run: python3 -m unittest discover -s portal/tests -v
+      - name: Frontend syntax
+        run: node --check portal/static/app.js

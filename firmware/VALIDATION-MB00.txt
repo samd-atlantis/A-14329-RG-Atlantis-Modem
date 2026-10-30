@@ -1,5 +1,21 @@
 A-14329-MB00 validation record - 2026-10-29
 
+2026-10-30 CURRENT DEVELOPMENT: package 0.1.0-r10 adds kmod-wireguard,
+wireguard-tools and luci-proto-wireguard, disabled remote defaults, a remote
+feature marker and remote-aware controller bookmarks. All r9 LAN/SSID and
+Atlantis branding changes are retained. The local portal prototype is in
+../portal/README.md; hosting is deferred by the user. Staged per-unit configs
+restrict gateway HTTPS and four controller mappings to the authenticated hub.
+No actual router/server/public access was enabled. The r9 build below is
+superseded to include this requested feature; a new cross-build is required.
+Local checks passed 85 firmware Python tests, 33 interface/ACL checks and
+14 portal tests including actual Caddy HTTP/TLS proxy fixtures. They verify
+tenant filtering, spoofed-header rejection, original device login challenges,
+POST/Authorization preservation, SSO-cookie removal, private-IP redirects,
+log redaction and rejection of a gateway with the wrong TLS certificate.
+Actual Authelia account/MFA deployment, a real WireGuard handshake, hardware
+boot and real-controller UI behavior remain untested.
+
 2026-10-30 CURRENT SOURCE: package 0.1.0-r9 incorporates the Atlantis dashboard,
 MAC-derived SSID Atlantis-XXXX, and corrected Walchem LAN defaults. Gateway is
 10.0.100.7/23 (255.255.254.0), controller HTTP bookmarks .101-.104, DHCP .150-.199.

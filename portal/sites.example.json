@@ -1,0 +1,8 @@
+{
+  "domain": "access.example.test",
+  "sites": [
+    {"id":"north-plant","name":"North Plant","serial":"AG26-0001","groups":["customer-demo"],"tunnel_ip":"10.203.0.2","router_public_key":null,"gateway_tls_name":"OpenWrt","controllers":[true,true,true,true]},
+    {"id":"south-plant","name":"South Plant","serial":"AG26-0002","groups":["customer-demo"],"tunnel_ip":"10.203.0.3","router_public_key":null,"gateway_tls_name":"OpenWrt","controllers":[true,true,false,false]},
+    {"id":"other-customer","name":"Other Customer","serial":"AG26-0003","groups":["customer-other"],"tunnel_ip":"10.203.0.4","router_public_key":null,"gateway_tls_name":"OpenWrt","controllers":[true,false,false,false]}
+  ]
+}

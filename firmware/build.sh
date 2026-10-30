@@ -87,6 +87,9 @@ CONFIG_PACKAGE_kmod-usb2=y
 CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=y
 CONFIG_PACKAGE_kmod-usb-serial-option=y
 CONFIG_PACKAGE_wpad-basic-mbedtls=y
+CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG
 make defconfig
 python3 "$HERE/tools/build_support.py" verify-selection .config "$HERE/package/atech-gateway/Makefile"

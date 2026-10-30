@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=atech-gateway
 PKG_VERSION:=0.1.0
-PKG_RELEASE:=9
+PKG_RELEASE:=10
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -10,7 +10,7 @@ define Package/atech-gateway
   SECTION:=net
   CATEGORY:=Network
   TITLE:=ATECH Walchem gateway interface and carrier control
-  DEPENDS:=+luci +luci-ssl +luci-proto-qmi +uqmi +kmod-usb-net-qmi-wwan +kmod-usb-serial-option +kmod-usb2 +kmod-i2c-mt7628 +kmod-i2c-core +i2c-tools +rpcd +jsonfilter +lrzsz
+  DEPENDS:=+luci +luci-ssl +luci-proto-qmi +uqmi +kmod-usb-net-qmi-wwan +kmod-usb-serial-option +kmod-usb2 +kmod-i2c-mt7628 +kmod-i2c-core +i2c-tools +rpcd +jsonfilter +lrzsz +kmod-wireguard +wireguard-tools +luci-proto-wireguard
 endef
 
 define Build/Compile

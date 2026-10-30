@@ -23,9 +23,13 @@ these checks do not establish that the firmware boots on the purchased module.
 Actual flash capacity, bootloader, protected partition backups, first boot,
 network access controls and recovery still need the first-board acceptance run.
 
-The gateway exposes administration only to its local LAN/Wi-Fi. Customer remote
-access, signed update delivery, fleet identity/certificate lifecycle and an RMS
-replacement are not implemented by this development package.
+The default gateway exposes administration only to its local LAN/Wi-Fi. Package
+r10 adds WireGuard dependencies with remote access disabled. The local portal
+prototype and reviewed/staged hub/router configuration are in ../portal/README.md.
+Enabling a qualified deployment permits only the hub tunnel IP to use gateway
+HTTPS and four fixed controller mappings; native device logins remain required.
+Hosting, actual identity-provider/MFA setup, fleet key/certificate lifecycle and
+real-controller acceptance remain pending. Signed update delivery is not included.
 
 First-boot error handling must be tested using the actual OpenWrt invocation:
 the boot service sources each defaults file in a conditional subshell. Shell

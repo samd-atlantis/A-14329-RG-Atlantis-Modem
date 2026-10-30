@@ -93,9 +93,11 @@ function or Linux factory-reset action is assumed. TC2050 controls are custom.
 
 REMOTE ACCESS
 No WAN administration or controller port forwarding is enabled. Outbound cellular
-internet alone does not make private controller IPs remotely reachable. A secure
-outbound VPN/cloud fleet-management replacement for RMS remains unimplemented.
-Do not deploy customer remote access based on this starter's local UI alone.
+internet alone does not make private controller IPs remotely reachable. Package
+r10 adds WireGuard drivers/tools and a local Atlantis portal prototype under
+../portal/. Its staged configuration keeps remote access disabled until a hub,
+keys, certificate pins and customer permissions are enrolled. Native gateway
+and controller logins remain required. Actual hosting and device tests are pending.
 
 VALIDATION AND PREVIEW
 From repository root:

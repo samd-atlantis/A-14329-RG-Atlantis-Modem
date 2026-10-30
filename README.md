@@ -36,6 +36,6 @@ The build now pins OpenWrt **25.12.6**. After compilation, separate image checks
 - Validate physical-SIM default, USB host selection, regulator stability, LTE transmit supply droop, Ethernet center taps, all ports, Wi-Fi and recovery access.
 - User confirmed 4 layers, 1.6 mm, 1 oz outer copper and JLC04161H-7628. Actual submitted Gerbers/BOM/CPL are still not reconciled. Verify 10 A temperature rise, terminal soldering/fit, isolation and enclosure fit before production release; the mains buses measure 4.064 mm with 1.7 mm terminal stems.
 - ST1/ST2 JAE NT4R1600 supports are currently separate-source mechanical hardware, absent from JLC assembly BOM/CPL. Their conversion into actual assembly components is outstanding.
-- Remote fleet management/VPN equivalent to RMS is planned, not implemented. No WAN administration or controller port forwarding is enabled by the starter.
+- [Atlantis portal](portal/README.md) now has a local customer preview, server-side site permissions, proxy configuration and staged WireGuard enrollment. Firmware source includes WireGuard; remote access remains disabled until a hub and unit keys are configured. No public WAN device ports are opened. Hosting, actual account/MFA enrollment and real-controller acceptance remain pending.
 
 Keep per-unit passwords, SIM credentials, VPN keys, RF-calibration backups and provisioned images private. They are not repository deliverables. Third-party datasheets and libraries retain their original owners' rights; no blanket redistribution license is asserted.

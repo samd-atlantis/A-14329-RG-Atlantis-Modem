@@ -39,6 +39,10 @@ async function main(){
    map.data.get=(_,s,k)=>({address:'192.168.050.010',scheme:'http'})[k];const href=open.cfgvalue('x').attrs.href;
    assert.equal(href,'http://192.168.50.10');assert.equal(new URL(href).hostname,'192.168.50.10');
    map.data.get=(_,s,k)=>({address:'192.168.50.10/24',scheme:'http'})[k];assert.equal(open.cfgvalue('x'),'—');checks+=4;
+   context.window={location:{hostname:'north-plant-gateway.access.example.test'}};
+   map.data.get=(_,s,k)=>s==='remote'?({enabled:'1',gateway_host:'north-plant-gateway.access.example.test',controller2_host:'north-plant-c2.access.example.test'})[k]:({address:'10.0.100.102',scheme:'http'})[k];
+   assert.equal(open.cfgvalue('x').attrs.href,'https://north-plant-c2.access.example.test');
+   context.window.location.hostname='10.0.100.7';assert.equal(open.cfgvalue('x').attrs.href,'http://10.0.100.102');checks+=2;
   }else{
    const node=view.render(await view.load());assert(node.children.length>3);assert(calls.some(c=>c.method==='powercycle'));checks+=2;
    assert(findButton(node,'Emergency modem power cycle').attrs.disabled);

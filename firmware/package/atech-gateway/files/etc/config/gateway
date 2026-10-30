@@ -7,6 +7,9 @@ config gateway 'main'
 	option sim_slot 'A'
 	option esim_populated '0'
 
+config remote 'remote'
+	option enabled '0'
+
 config controller 'controller1'
 	option name 'Controller 1'
 	option address '10.0.100.101'

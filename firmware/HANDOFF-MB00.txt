@@ -1,6 +1,6 @@
 A-14329-MB00 firmware candidate handoff - 2026-10-29
 
-2026-10-30: Atlantis dashboard, MAC-based SSID and Walchem-network revision r9 is pending a new
+2026-10-30: Atlantis dashboard, MAC-based SSID, Walchem-network and WireGuard r10 is pending a new
 compiled-image validation. The r7 download and hashes below describe the prior
 candidate and do not contain the new dashboard. See VALIDATION-MB00.txt for the
 replacement build; its handoff will supersede these files after checks pass.
@@ -61,5 +61,7 @@ WHEN THE FIRST BOARD ARRIVES
    saved configuration, unique authentication and recovery. Keep GPIO-control
    validation gates at zero until the corresponding bench work has passed.
 
-The normal setup interface and modem drivers are included. An RMS replacement,
-fleet VPN/cloud service and eSIM profile downloader are still future work.
+The normal setup interface and modem drivers are included. Current r10 source
+adds WireGuard and the local portal prototype in ../portal/README.md. Remote
+access stays disabled until enrolled and qualified; hosting and real-device
+tests remain pending. An eSIM profile downloader is still future work.
