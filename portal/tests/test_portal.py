@@ -80,6 +80,8 @@ class PortalTest(unittest.TestCase):
         self.assertTrue(all(s['status'] == 'demo' for s in json.loads(body)['sites']))
         result, _ = request(app, '/api/sites', REMOTE_ADDR='192.0.2.10')
         self.assertEqual(result['status'], 403)
+        result, _ = request(app, '/api/sites', HTTP_X_FORWARDED_HOST='portal.example.test')
+        self.assertEqual(result['status'], 403)
 
     def test_stale_status_is_unknown_not_online(self):
         path = self.root/'status.json'
@@ -90,6 +92,8 @@ class PortalTest(unittest.TestCase):
         path.write_text(json.dumps({'collected_at': time.time(),
                                    'peers': {'north-plant': time.time()-10}}))
         self.assertEqual(self.app.status(self.data['sites'][0]), 'online')
+        path.write_text(json.dumps({'collected_at': time.time(), 'peers': []}))
+        self.assertEqual(self.app.status(self.data['sites'][0]), 'unknown')
 
     def test_no_proxy_url_or_filesystem_traversal_endpoint(self):
         for path in ('/../sites.example.json', '/%2e%2e/sites.example.json',

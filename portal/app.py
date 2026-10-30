@@ -32,6 +32,8 @@ class Portal:
             if path.stat().st_size > 1024 * 1024:
                 return 'unknown'
             data = json.loads(path.read_text())
+            if not isinstance(data, dict) or not isinstance(data.get('peers'), dict):
+                return 'unknown'
             age = time.time() - data['collected_at']
             if not 0 <= age <= 90:
                 return 'unknown'
@@ -54,7 +56,9 @@ class Portal:
         if env.get('REQUEST_METHOD', 'GET') != 'GET':
             return respond('405 Method Not Allowed', {'error': 'Read-only portal'})
         if self.demo:
-            if env.get('REMOTE_ADDR') not in ('127.0.0.1', '::1'):
+            if env.get('REMOTE_ADDR') not in ('127.0.0.1', '::1') or any(env.get(h) for h in (
+                    'HTTP_X_FORWARDED_FOR', 'HTTP_X_FORWARDED_HOST', 'HTTP_X_FORWARDED_PROTO',
+                    'HTTP_FORWARDED', 'HTTP_X_ATLANTIS_EDGE')):
                 return respond('403 Forbidden', {'error': 'Loopback preview only'})
             user, groups = 'Demo customer', {'customer-demo'}
         else:
