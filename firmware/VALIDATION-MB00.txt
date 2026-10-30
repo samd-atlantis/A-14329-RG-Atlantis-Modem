@@ -15,6 +15,10 @@ POST/Authorization preservation, SSO-cookie removal, private-IP redirects,
 log redaction and rejection of a gateway with the wrong TLS certificate.
 Actual Authelia account/MFA deployment, a real WireGuard handshake, hardware
 boot and real-controller UI behavior remain untested.
+Current r10 cross-build: 41067820915, source 8a2519687a32ab4e683d93b74662811606761bbf.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41067820915
+Portal Linux/proxy checks: 41067819639; firmware source checks: 41067819432.
+The r9 build 41062300294 was deliberately cancelled to include WireGuard.
 
 2026-10-30 CURRENT SOURCE: package 0.1.0-r9 incorporates the Atlantis dashboard,
 MAC-derived SSID Atlantis-XXXX, and corrected Walchem LAN defaults. Gateway is
