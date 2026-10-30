@@ -17,8 +17,8 @@ No extra Bluetooth/LoRa radio firmware is required.
 Physical hinged J9 socket takes a nano-SIM. U20 eSIM is absent and not needed.
 
 LOCAL SETUP AFTER A PROVISIONED IMAGE BOOTS
-Use DHCP on any of the four Ethernet jacks, or join ATECH-<serial> with the unit's
-unique Wi-Fi password. Open https://192.168.50.1 and sign in as root using the
+Use DHCP on any of the four Ethernet jacks, or join Atlantis-<MAC4> with the unit's
+unique Wi-Fi password. Open https://10.0.100.7 and sign in as root using the
 unique administrator password on its private label. Development HTTPS uses a
 locally generated certificate. Production certificate management remains a task.
 Gateway -> Site & Cellular sets carrier APN and enables cellular; it starts disabled.
@@ -30,11 +30,22 @@ not automatic Wi-Fi-uplink failover. Keep modem-service J17 USB unplugged in nor
 use so the router is the modem's USB host. J14 is the router serial console.
 
 For four controllers with manually fixed addresses, a suggested default is
-192.168.50.10 through 192.168.50.13, mask 255.255.255.0, gateway/DNS 192.168.50.1.
-These are outside the default DHCP pool (.100-.199). Configure each controller
+10.0.100.101 through 10.0.100.104, mask 255.255.254.0, gateway/DNS 10.0.100.7.
+These are outside the default DHCP pool (.150-.199). Configure each controller
 itself, or use distinct DHCP reservations for DHCP clients. Directory entries
 are bookmarks; they do not assign an address. Adjust this plan if changing the
 gateway LAN subnet or integrating with another existing network.
+
+The default controller directory contains four HTTP bookmarks for those addresses.
+Set controllers 2-4 to .102, .103 and .104 before connecting them together; factory
+controllers sharing .101 cannot coexist on this LAN. A bookmark does not change
+the controller's settings. The router LAN is 10.0.100.7/23; DHCP is .150-.199.
+
+Wi-Fi name: Atlantis- plus the final four uppercase hexadecimal characters of the
+internal Wi-Fi radio MAC, without colons (00:11:22:33:A1:B2 -> Atlantis-A1B2).
+First boot reads phy0's permanent MAC and uses it as the setup AP BSSID. Missing
+or invalid MAC data leaves provisioning locked for fixture recovery. Previously
+provisioned site settings are preserved on routine upgrades.
 
 WHAT IS IMPLEMENTED
 Authenticated LuCI pages; QMI cellular networking; four-port LAN/DHCP/NAT; LAN-only

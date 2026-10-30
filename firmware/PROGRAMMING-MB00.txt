@@ -108,8 +108,8 @@ MODEM AND LOCAL SETUP
 The EC25 card normally keeps its Quectel firmware; router firmware is a separate
 image. Record ATI/firmware revision and use only an exact vendor-approved modem
 update through J17 if needed. No modem firmware is bundled here.
-On first provisioned boot, Ethernet DHCP or ATECH-<serial> Wi-Fi reaches
-https://192.168.50.1. Sign in with the unique admin password from the private label.
+On first provisioned boot, Ethernet DHCP or Atlantis-<MAC4> Wi-Fi reaches
+https://10.0.100.7. Sign in with the unique admin password from the private label.
 The provisioned J14 USB/UART console also requires that password. An unprovisioned
 validation image retains local fixture-console access, while network login is
 locked and Wi-Fi setup is disabled.
@@ -118,8 +118,8 @@ to the router by design. Keep SIM hotplug and automatic DTR sleep disabled until
 validated because the corresponding Mini PCIe pins are unused on MB00.
 
 For a standard set of four fixed controller IPs on the default LAN, use distinct
-addresses 192.168.50.10-.13 with mask 255.255.255.0 and gateway/DNS 192.168.50.1.
-The default dynamic pool is .100-.199. Configure addresses on the controllers
+addresses 10.0.100.101-.104 with mask 255.255.254.0 and gateway/DNS 10.0.100.7.
+The default dynamic pool is .150-.199. Configure addresses on the controllers
 or add appropriate DHCP reservations; the gateway's directory only saves links.
 
 Carrier defaults select physical SIM A and power the modem without software GPIOs.

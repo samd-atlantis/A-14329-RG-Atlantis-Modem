@@ -6,3 +6,23 @@ config gateway 'main'
 	option i2c_bus '0'
 	option sim_slot 'A'
 	option esim_populated '0'
+
+config controller 'controller1'
+	option name 'Controller 1'
+	option address '10.0.100.101'
+	option scheme 'http'
+
+config controller 'controller2'
+	option name 'Controller 2'
+	option address '10.0.100.102'
+	option scheme 'http'
+
+config controller 'controller3'
+	option name 'Controller 3'
+	option address '10.0.100.103'
+	option scheme 'http'
+
+config controller 'controller4'
+	option name 'Controller 4'
+	option address '10.0.100.104'
+	option scheme 'http'

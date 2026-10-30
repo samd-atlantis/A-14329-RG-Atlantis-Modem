@@ -25,7 +25,7 @@ return view.extend({
     card(c.up?'✓':'×',_('Cellular'),c.up?_('Connected'):_('Offline'),'LTE · QMI'),
     card('▥',_('Modem USB'),s.modem_present?_('Detected'):_('Not detected'),'EC25-AF Mini PCIe'),
     card('▣',_('SIM'),s.sim,s.esim_populated?_('A · SIM / B · eSIM'):_('Physical SIM · A')),
-    card('⌁',_('Default setup IP'),'192.168.50.1',_('Wi-Fi / Ethernet'))]),
+    card('⌁',_('Default setup IP'),'10.0.100.7',_('Wi-Fi / Ethernet'))]),
    E('div',{class:'ag-actions'},[
     E('a',{class:'btn cbi-button-action',href:L.url('admin/gateway/controllers')},_('▤ Controllers')),
     E('a',{class:'btn',href:L.url('admin/gateway/settings')},_('▥ Cellular')),

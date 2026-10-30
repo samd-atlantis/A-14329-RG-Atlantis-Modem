@@ -17,7 +17,7 @@ class FactoryBundleTest(unittest.TestCase):
     def test_private_bundle_only_contains_this_units_record(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
-            unit = {'serial': 'TEST-0001', 'ssid': 'ATECH-TEST-0001',
+            unit = {'serial': 'TEST-0001', 'ssid': 'Atlantis-AUTO',
                     'wifi_password': 'a' * 24, 'root_hash': '$6$salt$' + 'A' * 86}
             (root/'unit.json').write_text(json.dumps(unit))
             image = root/'test-sysupgrade.bin'
@@ -25,6 +25,7 @@ class FactoryBundleTest(unittest.TestCase):
             manifest = {'board': 'A-14329-MB00', 'profile': 'hilink_hlk-7628n',
                         'mode': 'unprovisioned-validation', 'source_revision': 'test',
                         'openwrt_release': lock()['release'],
+                        'unit_record_schema': 'atlantis-mac4-v1',
                         'artifacts': [{'file': image.name, 'bytes': image.stat().st_size,
                                        'sha256': hashlib.sha256(image.read_bytes()).hexdigest()}]}
             (root/'manifest.json').write_text(json.dumps(manifest))
@@ -45,6 +46,12 @@ class FactoryBundleTest(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'security baseline'):
                     create(root/'unit.json', root/'manifest.json', image, root/'obsolete')
                 self.assertFalse((root/'obsolete').exists())
+            (root/'manifest.json').write_text(json.dumps(manifest))
+            old_manifest = {k: v for k, v in manifest.items() if k != 'unit_record_schema'}
+            (root/'manifest.json').write_text(json.dumps(old_manifest))
+            with self.assertRaisesRegex(ValueError, 'provisioning schema'):
+                create(root/'unit.json', root/'manifest.json', image, root/'old-schema')
+            self.assertFalse((root/'old-schema').exists())
             (root/'manifest.json').write_text(json.dumps(manifest))
             image.write_bytes(b'corrupt')
             with self.assertRaises(ValueError):

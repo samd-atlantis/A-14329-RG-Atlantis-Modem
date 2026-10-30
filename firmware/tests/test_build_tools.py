@@ -42,7 +42,7 @@ class BuildToolsTest(unittest.TestCase):
                 build.verify_selection(config, recipe)
 
     def test_unit_validation_rejects_injection_or_mismatched_identity(self):
-        unit = dict(serial='TEST-0001', ssid='ATECH-TEST-0001',
+        unit = dict(serial='TEST-0001', ssid='Atlantis-AUTO',
                     wifi_password='a' * 24, root_hash='$6$salt$' + 'A' * 86)
         self.assertEqual(build.validate_unit(unit), 'TEST-0001')
         for key, value in [('serial', '../escape'), ('ssid', 'different'),

@@ -1,5 +1,16 @@
 Common-image provisioning candidate for 50 units — must be qualified on first board
 
+Current records use MAC-derived Wi-Fi naming (package r9 onward). The manifest
+must identify unit_record_schema=atlantis-mac4-v1; the bundle tool rejects older
+r7/r8 images. Generate fresh records for this version. Without the hardware MAC,
+unit.json uses the internal marker Atlantis-AUTO; first boot derives the actual
+SSID Atlantis-XXXX from the Wi-Fi MAC. That marker is never advertised.
+labels.csv marks the SSID pending until the actual MAC/name is captured on the
+fixture. Do not print the pending placeholder as a completed customer label.
+For a single known unit use --count 1 --wifi-mac 00:11:22:33:A1:B2 with provision.py;
+its label contains Atlantis-A1B2, and first boot verifies it matches the radio.
+Passwords remain unique random credentials. Setup URL is https://10.0.100.7.
+
 Purpose: compile the common firmware once, then supply each unit's unique identity
 and credentials separately. No common/default admin password is introduced.
 This is an initial-programming procedure for an ALREADY COMPATIBLE OpenWrt system,

@@ -20,7 +20,16 @@ class ProvisionTest(unittest.TestCase):
         self.assertNotEqual(password_a, password_b)
         self.assertNotIn(password_a, str(a))
         self.assertTrue(a['root_hash'].startswith('$6$'))
-        self.assertEqual(a['ssid'], 'ATECH-TEST-0001')
+        self.assertEqual(a['ssid'], 'Atlantis-AUTO')
+
+    def test_explicit_mac_generates_label_ssid_and_rejects_bad_macs(self):
+        if os.name == 'nt':
+            os.environ['PATH'] = r'C:\Program Files\Git\usr\bin' + os.pathsep + os.environ['PATH']
+        unit, _ = provision.make_unit('TEST-0001', '00:11:22:33:a1:b2')
+        self.assertEqual(unit['ssid'], 'Atlantis-A1B2')
+        for mac in ('00:00:00:00:00:00', '01:11:22:33:A1:B2', 'invalid'):
+            with self.subTest(mac=mac), self.assertRaises(ValueError):
+                provision.make_unit('TEST-0001', mac)
 
     def test_bad_serial_rejected(self):
         with self.assertRaises(ValueError):

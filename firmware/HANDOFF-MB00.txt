@@ -1,9 +1,12 @@
 A-14329-MB00 firmware candidate handoff - 2026-10-29
 
-2026-10-30: Atlantis branding/dashboard source revision r8 is pending a new
+2026-10-30: Atlantis dashboard, MAC-based SSID and Walchem-network revision r9 is pending a new
 compiled-image validation. The r7 download and hashes below describe the prior
 candidate and do not contain the new dashboard. See VALIDATION-MB00.txt for the
 replacement build; its handoff will supersede these files after checks pass.
+Current factory-bundle tools require the r9 MAC-derived provisioning schema;
+the older r7/r8 images cannot accept these newly generated records. Target LAN
+is 10.0.100.7/23; controller HTTP addresses are .101-.104 and DHCP is .150-.199.
 
 The common OpenWrt 25.12.6 candidate compiled successfully and passed compiled
 kernel/device-tree and filesystem inspection on GitHub and independently locally.
@@ -49,8 +52,8 @@ WHEN THE FIRST BOARD ARRIVES
    identity, hashes and sysupgrade -T before the qualified installation operation.
    The bare CI image intentionally has locked network login and no setup Wi-Fi;
    supplying the per-unit record is required for customer setup.
-4. After successful provisioning, use Ethernet DHCP or ATECH-<serial> Wi-Fi and
-   https://192.168.50.1 with the unit's unique admin password. Enter the carrier
+4. After successful provisioning, use Ethernet DHCP or Atlantis-<MAC4> Wi-Fi and
+   https://10.0.100.7 with the unit's unique admin password. Enter the carrier
    APN, then enable cellular. Leave J17 modem-service USB unplugged during normal
    cellular operation. U20 is absent; use physical nano-SIM A.
 5. Complete acceptance-template.json with measured results, including every LAN

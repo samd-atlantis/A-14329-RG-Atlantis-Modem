@@ -27,6 +27,8 @@ def create(unit_path, manifest_path, image, output):
         raise ValueError('Expected the common MB00 unprovisioned development image')
     if manifest.get('openwrt_release') != lock()['release']:
         raise ValueError('Image does not match the current locked OpenWrt security baseline')
+    if manifest.get('unit_record_schema') != 'atlantis-mac4-v1':
+        raise ValueError('Image does not support the current MAC-derived SSID provisioning schema')
     if 'sysupgrade' not in image.name:
         raise ValueError('A sysupgrade image is required')
     entries = [a for a in manifest.get('artifacts', []) if a.get('file') == image.name]

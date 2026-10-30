@@ -29,6 +29,9 @@
     "soak_hours": null
   },
   "checks": {
+    "ssid_matches_permanent_wifi_mac_suffix": "NOT_TESTED",
+    "walchem_static_ips_mask_gateway_http": "NOT_TESTED",
+    "dhcp_excludes_controller_addresses": "NOT_TESTED",
     "assembly_polarity_solder_supports": "NOT_TESTED",
     "protective_earth_and_mains_isolation": "NOT_TESTED",
     "modem_bulk_cap_deviation_closed": "NOT_TESTED",

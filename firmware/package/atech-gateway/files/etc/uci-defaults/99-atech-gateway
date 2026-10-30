@@ -38,7 +38,18 @@ ssid="$(jsonfilter -i "$UNIT" -e '@.ssid')" || exit 1
 key="$(jsonfilter -i "$UNIT" -e '@.wifi_password')" || exit 1
 hash="$(jsonfilter -i "$UNIT" -e '@.root_hash')" || exit 1
 case "$serial" in ''|*[!A-Za-z0-9-]*) exit 1;; esac
-[ ${#serial} -le 24 ] && [ "$ssid" = "ATECH-$serial" ] || exit 1
+[ ${#serial} -le 24 ] || exit 1
+# The internal HLK radio is phy0. Use its permanent MAC, also pinned below as
+# the setup AP BSSID, so the advertised name matches the actual Wi-Fi address.
+mac="$(cat /sys/class/ieee80211/phy0/macaddress)" || exit 1
+[ ${#mac} -eq 17 ] || exit 1
+printf '%s\n' "$mac" | LC_ALL=C grep -Eq '^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$' || exit 1
+mac="$(printf '%s' "$mac" | tr 'a-f' 'A-F')" || exit 1
+case "$mac" in 00:00:00:00:00:00|?[13579BDF]:*) exit 1;; esac
+suffix="$(printf '%s' "$mac" | tr -d ':' | cut -c9-12)" || exit 1
+expected_ssid="Atlantis-$suffix"
+[ "$ssid" = Atlantis-AUTO ] || [ "$ssid" = "$expected_ssid" ] || exit 1
+ssid="$expected_ssid"
 case "$key" in *[!0-9a-f]*) exit 1;; esac
 [ ${#key} -eq 24 ] || exit 1
 printf '%s\n' "$hash" | LC_ALL=C grep -Eq '^\$6\$(rounds=[1-9][0-9]*\$)?[./A-Za-z0-9]{1,16}\$[./A-Za-z0-9]{86}$' || exit 1
@@ -58,8 +69,8 @@ uci set system.@system[0].hostname="AG-$serial" || exit 1
 # Provisioned units must authenticate on the USB/UART console as well as LuCI.
 uci set system.@system[0].ttylogin='1' || exit 1
 uci set gateway.main.serial="$serial" || exit 1
-uci set network.lan.ipaddr='192.168.50.1' || exit 1
-uci set network.lan.netmask='255.255.255.0' || exit 1
+uci set network.lan.ipaddr='10.0.100.7' || exit 1
+uci set network.lan.netmask='255.255.254.0' || exit 1
 # Retain upstream board-generated four-LAN-port switch VLAN (PHY1..4).
 # Remove PHY0 wired WAN; this carrier's upstream is cellular.
 uci -q delete network.wan || true
@@ -71,8 +82,8 @@ uci set network.cellular.apn='' || exit 1
 uci set network.cellular.auth='none' || exit 1
 uci set network.cellular.pdptype='ipv4' || exit 1
 uci set network.cellular.auto='0' || exit 1
-uci set dhcp.lan.start='100' || exit 1
-uci set dhcp.lan.limit='100' || exit 1
+uci set dhcp.lan.start='150' || exit 1
+uci set dhcp.lan.limit='50' || exit 1
 uci set dhcp.lan.leasetime='12h' || exit 1
 uci set wireless.radio0.country='US' || exit 1
 uci set wireless.radio0.channel='auto' || exit 1
@@ -83,6 +94,7 @@ uci set wireless.default_radio0.device='radio0' || exit 1
 uci set wireless.default_radio0.mode='ap' || exit 1
 uci set wireless.default_radio0.network='lan' || exit 1
 uci set wireless.default_radio0.ssid="$ssid" || exit 1
+uci set wireless.default_radio0.macaddr="$mac" || exit 1
 uci set wireless.default_radio0.encryption='psk2' || exit 1
 uci set wireless.default_radio0.key="$key" || exit 1
 uci set wireless.default_radio0.disabled='0' || exit 1

@@ -1,5 +1,7 @@
 """Run first-boot shell logic with fake UCI/system services; no router required."""
 import os
+import ipaddress
+import re
 from pathlib import Path
 import shutil
 import subprocess
@@ -21,14 +23,16 @@ class FirstBootTest(unittest.TestCase):
             posix = '/' + posix[0].lower() + posix[2:]
         self.env = os.environ.copy()
         self.env.update(TEST_DIR=posix, PROVISIONED='0', SERIAL='BENCH-0001',
-                        SSID='ATECH-BENCH-0001', KEY='0123456789abcdef01234567',
+                        SSID='Atlantis-AUTO', KEY='0123456789abcdef01234567',
                         HASH='$6$testsalt$' + 'a'*86, FAIL_CONFIG='0', WAN_ZONE='wan',
                         FAIL_JSON='0', FAIL_GATEWAY_COMMIT='0')
         (self.dir/'unit.json').write_text('{}')
+        (self.dir/'wifi-mac').write_text('00:11:22:33:a1:b2\n')
         (self.dir/'shadow').write_text('root:*:0:0:99999:7:::\ndaemon:*:0:0:99999:7:::\n')
         source = (ROOT/'package/atech-gateway/files/etc/uci-defaults/99-atech-gateway').read_text()
         source = source.replace('/etc/gateway/unit.json', posix+'/unit.json')
         source = source.replace('/etc/shadow', posix+'/shadow')
+        source = source.replace('/sys/class/ieee80211/phy0/macaddress', posix+'/wifi-mac')
         mocks = '''
 uci() {
  case "$*" in
@@ -103,6 +107,20 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
         self.assertNotIn('ttylogin=0', log)
         self.assertIn('set firewall.@zone[1].input=REJECT', log)
         self.assertIn('set gateway.main.provisioned=1', log)
+        self.assertIn('set wireless.default_radio0.ssid=Atlantis-A1B2', log)
+        self.assertIn('set wireless.default_radio0.macaddr=00:11:22:33:A1:B2', log)
+        self.assertIn('set network.lan.ipaddr=10.0.100.7', log)
+        self.assertIn('set network.lan.netmask=255.255.254.0', log)
+        start = int(re.search(r'uci set dhcp.lan.start=(\d+)', log)[1])
+        limit = int(re.search(r'uci set dhcp.lan.limit=(\d+)', log)[1])
+        network = ipaddress.ip_network('10.0.100.7/255.255.254.0', strict=False)
+        config = (ROOT/'package/atech-gateway/files/etc/config/gateway').read_text()
+        addresses = re.findall(r"option address '([^']+)'", config)
+        self.assertEqual(addresses, ['10.0.100.' + str(i) for i in range(101, 105)])
+        self.assertEqual(config.count("option scheme 'http'"), 4)
+        pool = {network.network_address + i for i in range(start, start + limit)}
+        self.assertEqual((str(min(pool)), str(max(pool))), ('10.0.100.150', '10.0.100.199'))
+        self.assertTrue(all(ipaddress.ip_address(ip) in network and ipaddress.ip_address(ip) not in pool for ip in addresses))
         self.assertIn('root:'+self.env['HASH']+':', (self.dir/'shadow').read_text())
         self.assertNotIn('wifi down', log)
 
@@ -123,6 +141,31 @@ wifi() { echo "wifi $*" >> "$TEST_DIR/log"; }
     def test_bad_ssid_does_not_configure_wifi(self):
         self.env['SSID']='shared-default'
         self.assert_failed_closed(*self.run_script())
+
+    def test_concrete_label_ssid_must_match_actual_radio_mac(self):
+        self.env['SSID'] = 'Atlantis-FFFF'
+        self.assert_failed_closed(*self.run_script())
+
+    def test_concrete_matching_ssid_is_accepted(self):
+        self.env['SSID'] = 'Atlantis-A1B2'
+        proc, log = self.run_script()
+        self.assertEqual(proc.returncode, 0, proc.stderr)
+        self.assertIn('set wireless.default_radio0.ssid=Atlantis-A1B2', log)
+
+    def test_missing_radio_mac_locks_setup(self):
+        (self.dir/'wifi-mac').unlink()
+        self.assert_failed_closed(*self.run_script())
+
+    def test_invalid_zero_or_multicast_radio_mac_locks_setup(self):
+        for mac in ('', '00:00:00:00:00:00', 'FF:FF:FF:FF:FF:FF',
+                    '01:11:22:33:a1:b2', 'not-a-mac', '00:11:22:33:zz:zz',
+                    '00:11:22:33:a1:b2\nextra'):
+            with self.subTest(mac=mac):
+                path = self.dir/'log'
+                if path.exists():
+                    path.unlink()
+                (self.dir/'wifi-mac').write_text(mac)
+                self.assert_failed_closed(*self.run_script())
 
     def test_short_wifi_key_does_not_enable_access(self):
         self.env['KEY'] = 'abcd'

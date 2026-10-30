@@ -1,5 +1,16 @@
 A-14329-MB00 validation record - 2026-10-29
 
+2026-10-30 CURRENT SOURCE: package 0.1.0-r9 incorporates the Atlantis dashboard,
+MAC-derived SSID Atlantis-XXXX, and corrected Walchem LAN defaults. Gateway is
+10.0.100.7/23 (255.255.254.0), controller HTTP bookmarks .101-.104, DHCP .150-.199.
+Unit records use Atlantis-AUTO or a verified Atlantis-<MAC4>; actual SSID/AP MAC
+comes from the permanent internal phy0 MAC. New manifests identify the required
+atlantis-mac4-v1 provisioning schema; the bundle tool rejects earlier images.
+The earlier r8 build 41059927653 was cancelled to include these user changes.
+Local checks passed 85 Python tests and 31 JavaScript/form/ACL checks. Coverage
+includes radio MAC validation/matching and DHCP exclusion of all four controller
+addresses. These are mocked/source checks; first-board Wi-Fi/traffic tests remain.
+
 2026-10-30 UI revision: package 0.1.0-r8 adds the supplied Atlantis SVG and a
 home dashboard using short labels, icons and large actions. Preview branding is
 updated too. The source change requires a replacement firmware build; the r7
