@@ -1,5 +1,21 @@
 A-14329-MB00 validation record - 2026-10-29
 
+2026-10-30 HOST COMMISSIONING: permanent serial allocation/import, private unit
+records and captured post-boot identity checks are implemented in tools/commission.py.
+The source also matches the supplied ESP Rev 2 setup-label/Label 1 print workflow
+and the CellModemInput 260924 serial/IMEI/LAN-MAC positional QR parser. Actual QR
+images were decoded in tests, including rotated setup labels. Physical printing,
+application scanner entry, router boot/login, flash/recovery and cellular tests
+are not claimed. No SAP/API call, actual print job or production ID allocation
+was performed. See commissioning/README.txt for exact procedure and provenance.
+The full local firmware suite passed 101 Python tests plus 33 JavaScript checks;
+the added imported-number regression also passed in the focused 9-test
+commissioning suite. The resulting full source suite contains 102 Python tests.
+These are host-only changes; firmware/package and build.sh still match the r10
+candidate source below. Do not restart its running cross-build for these tools.
+Portal/server feature development is paused at the user's request. Its unfinished
+local edits are preserved separately and are not part of this commissioning work.
+
 2026-10-30 CURRENT DEVELOPMENT: package 0.1.0-r10 adds kmod-wireguard,
 wireguard-tools and luci-proto-wireguard, disabled remote defaults, a remote
 feature marker and remote-aware controller bookmarks. All r9 LAN/SSID and

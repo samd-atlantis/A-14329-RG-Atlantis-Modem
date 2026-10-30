@@ -4,6 +4,15 @@ A-14329-MB00 programming and first-board commissioning
 The current compiled and statically inspected candidate is identified in
 HANDOFF-MB00.txt, including download link, hashes and remaining first-board steps.
 
+Permanent serial assignment and ESP-style label printing are now prepared as
+part of commissioning. Start with commissioning/README.txt and tools/commission.py.
+The routine reserves/registers the enclosure ID, creates its private unit.json and
+acceptance record, then requires matching captured router/SSID readback before
+generating labels. Actual printing uses the existing Label 1 Windows queue only
+when selected. CellModemInput-compatible identity scans are staged offline; no
+production SAP or SIM-provider write is made. These host tools do not establish
+the still-pending first-board OEM installation procedure.
+
 HARDWARE THIS PROCEDURE TARGETS
 Router: HLK-7628N, BOM C209920. Its supplier-linked manufacturer datasheet specifies
 32 MB flash / 128 MB RAM as the default, supporting the chosen 32 MB flash profile.
@@ -127,7 +136,9 @@ hardware_validated=0 and powercut_validated=0 stay set until bench acceptance.
 The first gate permits controlled expander initialization after bus/polarity review;
 the second separately gates disruptive rail cycling, which still requires a modem
 shutdown/power sequencing decision. Normal startup does not need either gate.
-No eSIM LPA, remote RMS replacement, cloud VPN or WAN administration is included.
+No eSIM LPA or WAN administration is enabled. The r10 candidate includes WireGuard
+support with remote access disabled by default. The portal/server work is paused;
+it is not required for first-board local router commissioning.
 
 FIRST-BOARD ACCEPTANCE RECORD
 Use acceptance-template.json and store a filled copy under firmware/private/<serial>.

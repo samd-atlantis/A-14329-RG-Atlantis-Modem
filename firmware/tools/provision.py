@@ -9,6 +9,15 @@ import secrets
 import subprocess
 
 
+def serial_batch(path):
+    serials = Path(path).read_text(encoding='utf-8').splitlines()
+    if not 1 <= len(serials) <= 10000 or any(not re.fullmatch(r'[A-Za-z0-9-]{1,24}', s) for s in serials):
+        raise ValueError('Invalid reserved serial list')
+    if len({s.casefold() for s in serials}) != len(serials):
+        raise ValueError('Duplicate serial in reserved batch')
+    return serials
+
+
 def make_unit(serial, wifi_mac=None):
     if not re.fullmatch(r"[A-Za-z0-9-]{1,24}", serial):
         raise ValueError("Serial must be 1–24 letters, digits or hyphens")
@@ -37,13 +46,18 @@ def main():
     parser.add_argument("--prefix", default="AG26")
     parser.add_argument("--start", type=int, default=1)
     parser.add_argument("--count", type=int, default=50)
+    parser.add_argument("--serial-file", type=Path, help="Reserved permanent serials, one per line; overrides prefix/start/count")
     parser.add_argument("--wifi-mac", help="Actual Wi-Fi MAC for one unit; --count must be 1")
     parser.add_argument("--output", type=Path, default=Path("private"))
     args = parser.parse_args()
-    if not 1 <= args.count <= 10000:
+    if not args.serial_file and not 1 <= args.count <= 10000:
         parser.error("count must be 1..10000")
-    if args.wifi_mac and args.count != 1:
-        parser.error('--wifi-mac requires --count 1')
+    try:
+        serials = serial_batch(args.serial_file) if args.serial_file else [f'{args.prefix}-{n:04d}' for n in range(args.start, args.start+args.count)]
+    except ValueError as error:
+        parser.error(str(error))
+    if args.wifi_mac and len(serials) != 1:
+        parser.error('--wifi-mac requires exactly one reserved serial or --count 1')
     args.output.mkdir(parents=True, exist_ok=True)
     os.chmod(args.output, 0o700)
     # Exclusive creation prevents inadvertently replacing an existing credential set.
@@ -51,15 +65,15 @@ def main():
         os.chmod(args.output / "labels.csv", 0o600)
         writer = csv.writer(labels)
         writer.writerow(["serial", "ssid", "wifi_password", "admin_username", "admin_password", "setup_url"])
-        for number in range(args.start, args.start + args.count):
-            unit, password = make_unit(f"{args.prefix}-{number:04d}", args.wifi_mac)
+        for serial in serials:
+            unit, password = make_unit(serial, args.wifi_mac)
             path = args.output / (unit["serial"] + ".json")
             with path.open("x", encoding="utf-8") as file:
                 json.dump(unit, file, indent=2)
             os.chmod(path, 0o600)
             label_ssid = unit['ssid'] if args.wifi_mac else 'PENDING: Atlantis-<Wi-Fi MAC suffix>'
             writer.writerow([unit["serial"], label_ssid, unit["wifi_password"], "root", password, "https://10.0.100.7"])
-    print(f"Created {args.count} unit records. Credentials are in {args.output}; do not publish them.")
+    print(f"Created {len(serials)} unit records. Credentials are in {args.output}; do not publish them.")
 
 
 if __name__ == "__main__":

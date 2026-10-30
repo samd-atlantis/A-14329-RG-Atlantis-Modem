@@ -2,6 +2,7 @@ import importlib.util
 import os
 from pathlib import Path
 import unittest
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location('provision', ROOT/'tools/provision.py')
@@ -34,6 +35,16 @@ class ProvisionTest(unittest.TestCase):
     def test_bad_serial_rejected(self):
         with self.assertRaises(ValueError):
             provision.make_unit('bad/serial')
+
+    def test_reserved_serial_file_rejects_duplicates_and_paths(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder)/'serials.txt'
+            path.write_text('FACTORY-001\nFACTORY-002\n')
+            self.assertEqual(provision.serial_batch(path), ['FACTORY-001', 'FACTORY-002'])
+            for value in ('FACTORY-001\nfactory-001\n', '../bad\n', '', '\n', 'valid\n\n'):
+                path.write_text(value)
+                with self.subTest(value=value), self.assertRaises(ValueError):
+                    provision.serial_batch(path)
 
 
 if __name__ == '__main__':

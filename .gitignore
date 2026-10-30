@@ -10,3 +10,5 @@ firmware/dist/
 .env.*
 *.pem
 *.key
+firmware/tools/ESP32 Configurator - Rev 2.exe
+firmware/tools/CellModemInput 260924.exe

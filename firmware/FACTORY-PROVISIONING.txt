@@ -26,8 +26,11 @@ no bootloader, calibration, MAC, firmware or unrelated device configuration.
 
 1. Use PROGRAMMING-MB00.txt to qualify the actual router flash layout, first-board
    firmware boot, own backups/recovery, and the hardware audit hold points.
-2. Generate per-unit records privately with tools/provision.py. Never reuse a record
-   across units. Print the corresponding serial/Wi-Fi/admin label for each unit.
+2. Assign/register the permanent enclosure serial and generate its private record
+   with tools/commission.py prepare (commissioning/README.txt). Never reuse a
+   record across units. Generate/print final Wi-Fi/login labels only after the
+   post-boot serial/MAC/SSID readback matches. provision.py --serial-file can also
+   consume an already reserved batch; it must not allocate a second identity.
 3. Download the successful common development build's manifest and sysupgrade image.
    Verify artifact origin/revision and hashes. No first build is production-approved.
 4. Create a per-unit bundle locally:

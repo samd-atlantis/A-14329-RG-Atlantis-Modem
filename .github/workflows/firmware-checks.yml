@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Commissioning label test dependencies
+        run: python3 -m pip install -r firmware/commissioning/requirements-test.txt
       - name: Provisioning and carrier-control tests
         run: python3 -m unittest discover -s firmware/tests -p 'test_*.py' -v
       - name: LuCI source and access-control checks

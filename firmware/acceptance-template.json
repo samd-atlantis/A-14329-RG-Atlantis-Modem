@@ -29,6 +29,10 @@
     "soak_hours": null
   },
   "checks": {
+    "permanent_serial_enclosure_unit_record_and_router_match": "NOT_TESTED",
+    "serial_registry_and_private_records_backed_up": "NOT_TESTED",
+    "setup_label_physical_print_qr_scan_and_login": "NOT_TESTED",
+    "cellmodeminput_serial_imei_lan_mac_scan_match": "NOT_TESTED",
     "ssid_matches_permanent_wifi_mac_suffix": "NOT_TESTED",
     "walchem_static_ips_mask_gateway_http": "NOT_TESTED",
     "dhcp_excludes_controller_addresses": "NOT_TESTED",

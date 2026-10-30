@@ -1,5 +1,12 @@
 A-14329-MB00 firmware candidate handoff - 2026-10-29
 
+2026-10-30 commissioning addition: use commissioning/README.txt and tools/commission.py
+to assign/register the permanent enclosure serial, create its private unit.json,
+then compare captured router/SSID readback before producing ESP-style setup labels
+or a CellModemInput-compatible identity scan. Printing is explicitly selected and
+still needs physical validation. These host-only tools do not change the r10 image
+or close any first-board power, bootloader, recovery or functional acceptance gate.
+
 2026-10-30: Atlantis dashboard, MAC-based SSID, Walchem-network and WireGuard r10 is pending a new
 compiled-image validation. The r7 download and hashes below describe the prior
 candidate and do not contain the new dashboard. See VALIDATION-MB00.txt for the
