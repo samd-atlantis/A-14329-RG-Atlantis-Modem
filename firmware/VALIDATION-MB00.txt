@@ -1,5 +1,15 @@
 A-14329-MB00 validation record - 2026-10-29
 
+2026-10-30 PERMANENT ADDRESS: user selected https://connect.atlantisllc.com.
+Commissioning assigns /u/<serial>, records that exact URL immutably, and renders
+it as readable text and a QR on the public enclosure label. The private setup
+label also shows the remote address and distinguishes LOCAL LOGIN. DNS/HTTPS
+hosting and live remote access have not been deployed; portal/server work remains
+paused. This is an address/label preparation change, not a working remote service.
+All 15 focused commissioning/label tests and three CellModemInput adapter tests
+passed, including actual decode of the default permanent-address QR and explicit
+selection of the public label through a mocked printer. No actual print job ran.
+
 2026-10-30 HOST COMMISSIONING: permanent serial allocation/import, private unit
 records and captured post-boot identity checks are implemented in tools/commission.py.
 The source also matches the supplied ESP Rev 2 setup-label/Label 1 print workflow

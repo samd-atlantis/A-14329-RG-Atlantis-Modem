@@ -20,6 +20,9 @@ def open_registry(path, create=False):
             CREATE TABLE IF NOT EXISTS serial_counters(prefix TEXT PRIMARY KEY, next_value INTEGER NOT NULL);
             CREATE TABLE IF NOT EXISTS serial_registry(serial TEXT PRIMARY KEY COLLATE NOCASE, model TEXT NOT NULL, reserved_at INTEGER NOT NULL);
             CREATE TABLE IF NOT EXISTS commissioning(serial TEXT PRIMARY KEY REFERENCES serial_registry(serial), unit_sha256 TEXT NOT NULL, operator TEXT NOT NULL, wifi_mac TEXT UNIQUE, verified_at INTEGER, probe_sha256 TEXT);
+            CREATE TABLE IF NOT EXISTS unit_addresses(serial TEXT PRIMARY KEY REFERENCES serial_registry(serial), url TEXT NOT NULL UNIQUE);
+            CREATE TRIGGER IF NOT EXISTS immutable_address_update BEFORE UPDATE ON unit_addresses BEGIN SELECT RAISE(ABORT,'Permanent unit URLs cannot change'); END;
+            CREATE TRIGGER IF NOT EXISTS immutable_address_delete BEFORE DELETE ON unit_addresses BEGIN SELECT RAISE(ABORT,'Permanent unit URLs cannot be removed'); END;
             CREATE TRIGGER IF NOT EXISTS immutable_serial_update BEFORE UPDATE ON serial_registry BEGIN SELECT RAISE(ABORT,'Permanent serials cannot change'); END;
             CREATE TRIGGER IF NOT EXISTS immutable_serial_delete BEFORE DELETE ON serial_registry BEGIN SELECT RAISE(ABORT,'Permanent serials cannot be reused'); END;
         ''')

@@ -36,7 +36,7 @@ def create(folder, verification, identifiers, output):
         raise ValueError('Invalid scanned physical-SIM ICCID')
     if not isinstance(apn,str) or len(apn)>100 or any(ord(c)<32 for c in apn):raise ValueError('Invalid APN')
     draft={'schema':'mb00-cellmodeminput-draft-1','status':'REVIEW_REQUIRED_NO_SAP_WRITE',
-        'serial':data['serial'],'unit_record_sha256':readback['unit_sha256'],
+        'serial':data['serial'],'remote_url':data['remote_url'],'unit_record_sha256':readback['unit_sha256'],
         'sap_fields':{'U_ModSerNum':data['serial'],'U_ModIMEI':imei,'U_ModLanMac':lan.replace(':',''),
             'U_ModManu':'Atlantis','U_ModModNum':'A-14329-MB00','U_ModAdminPW':data['admin_password'],
             'U_ModWifiPW':data['wifi_password'],'U_ModAPN':apn,'U_SimICCID':iccid},

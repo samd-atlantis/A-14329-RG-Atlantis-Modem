@@ -16,6 +16,7 @@ import time
 
 from provision import make_unit
 from serial_registry import open_registry, reserve, reserve_named
+from device_address import unit_url
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -40,6 +41,7 @@ def prepare(registry, output, operator, prefix='AG26', wifi_mac=None, serial=Non
     source = 'factory-configurator' if serial else 'local-reservation'
     serial = reserve_named(registry, serial) if serial else reserve(registry, prefix)[0]
     unit['serial'] = serial
+    remote_url = unit_url(serial)
     folder = Path(output)/serial
     folder.mkdir(parents=True, exist_ok=False, mode=0o700)
     os.chmod(folder, 0o700)
@@ -55,15 +57,17 @@ def prepare(registry, output, operator, prefix='AG26', wifi_mac=None, serial=Non
     write_private(folder/'acceptance.json', acceptance)
     write_private(folder/'identity.json', {'schema':'mb00-commissioning-1', 'serial':serial,
         'model':'A-14329-MB00', 'operator':operator, 'serial_source':source, 'unit_sha256':digest(folder/'unit.json'),
+        'remote_url':remote_url, 'remote_service_status':'NOT_DEPLOYED',
         'identity_status':'PREPARED_NOT_VERIFIED', 'hardware_tested':False, 'production_approved':False})
     # Public enclosure artwork contains identity only. Wi-Fi/admin credentials
     # belong on a separate controlled setup record; no public QR is a password.
-    (folder/'enclosure-label.txt').write_text('ATLANTIS\nA-14329-MB00\nSERIAL: '+serial+'\n', encoding='utf-8')
+    (folder/'enclosure-label.txt').write_text('ATLANTIS\nA-14329-MB00\nSERIAL: '+serial+'\nREMOTE ACCESS: '+remote_url+'\n', encoding='utf-8')
     con = open_registry(registry)
     try:
         with con:
             con.execute('INSERT INTO commissioning(serial,unit_sha256,operator) VALUES(?,?,?)',
                         (serial, digest(folder/'unit.json'), operator))
+            con.execute('INSERT INTO unit_addresses VALUES(?,?)', (serial, remote_url))
     finally:
         con.close()
     return folder
@@ -106,6 +110,10 @@ def verify(registry, unit_path, probe_path, label_serial, output):
             record = con.execute('SELECT unit_sha256,wifi_mac FROM commissioning WHERE serial=?', (serial,)).fetchone()
             if not record or record[0] != digest(unit_path):
                 raise ValueError('Unit record is absent from or differs from the commissioning registry')
+            address = con.execute('SELECT url FROM unit_addresses WHERE serial=?', (serial,)).fetchone()
+            if not address or address[0] != unit_url(serial):
+                raise ValueError('Permanent unit URL is missing or conflicts with the assigned serial')
+            report['remote_url'] = address[0]
             if record[1] is not None and record[1] != mac.upper():
                 raise ValueError('This enclosure is already bound to another router; use a controlled service procedure')
             other = con.execute('SELECT serial FROM commissioning WHERE wifi_mac=? AND serial<>?', (mac.upper(), serial)).fetchone()
@@ -137,6 +145,7 @@ def main():
     check.add_argument('--label-serial', required=True)
     check.add_argument('--labels-dir', type=Path, help='Render private setup and public enclosure labels after readback matches')
     check.add_argument('--print-labels', action='store_true', help='Also submit two setup labels to the existing Windows printer')
+    check.add_argument('--print-kind', choices=('setup','enclosure'), default='setup', help='Choose private setup or public permanent-address labels')
     check.add_argument('--printer', help='Override the ESP configurator Label 1 queue')
     args = parser.parse_args()
     if args.command == 'verify' and args.print_labels and not args.labels_dir:
@@ -149,7 +158,7 @@ def main():
             report = verify(args.registry, args.unit, args.probe, args.label_serial, args.output)
             print('Captured identity matched '+report['serial']+'; Wi-Fi '+report['ssid']+'. Physical acceptance remains required.')
             if args.labels_dir:
-                from commission_labels import verified_data, setup_label, enclosure_label, print_windows, DEFAULT_PRINTER
+                from commission_labels import verified_data, setup_label, enclosure_label, print_selected, DEFAULT_PRINTER
                 data = verified_data(args.unit.parent, args.output)
                 setup, enclosure = setup_label(data), enclosure_label(data)
                 args.labels_dir.mkdir(parents=True, exist_ok=False, mode=0o700)
@@ -158,8 +167,8 @@ def main():
                 os.chmod(args.labels_dir/'setup-private.png', 0o600)
                 enclosure.save(args.labels_dir/'enclosure-public.png')
                 if args.print_labels:
-                    print_windows(setup.rotate(90, expand=True), args.printer or DEFAULT_PRINTER, 2, report['serial'])
-                    print('Setup label submitted. Operator must confirm the physical print and scans.')
+                    print_selected(setup,enclosure,args.print_kind,args.printer or DEFAULT_PRINTER,2,report['serial'])
+                    print('Selected label submitted. Operator must confirm the physical print and scans.')
                 else:
                     print('Created label artwork; no print job submitted.')
     except (ValueError, OSError, sqlite3.Error) as error:

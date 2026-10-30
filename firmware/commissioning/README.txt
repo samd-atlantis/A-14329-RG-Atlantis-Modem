@@ -31,9 +31,23 @@ customer records require a later reviewed extension. Keep that work separate fro
 getting this router qualified. Manufacturer/model selections in the existing app
 may need approved Atlantis/A-14329-MB00 entries in its local configuration.
 
-No usable customer portal domain has been chosen. Public enclosure labels default
-to serial/model only. A future HTTPS portal QR is a locator, never an authorization
-token. The CellModemInput identity QR, Wi-Fi connection QR and future portal URL QR
+PERMANENT REMOTE ADDRESS - selected by the user on 2026-10-30:
+  https://connect.atlantisllc.com/u/<permanent-enclosure-serial>
+For example: https://connect.atlantisllc.com/u/AG26-000001
+The public enclosure label shows the human-readable URL and its QR code. The
+private setup label also shows that same remote URL, with its local setup QR
+clearly identified as LOCAL LOGIN. The URL/serial pairing is saved once in the
+registry and identity/readback records; changing or deleting it is refused.
+Keep this hostname and /u/serial path permanent, including across later portal
+redesigns. SIM, cellular IP, replacement cellular card, customer or facility changes
+must never require another enclosure address. Public links still require login
+and permission checks; scanning the QR never grants access by itself.
+
+The selected address is NOT LIVE: DNS, HTTPS hosting and remote access still need
+deployment when the user resumes the paused portal/server work. Label creation
+does not configure DNS, publish a site or establish a tunnel. Do not represent it
+as working remote access or ship without testing the actual end-to-end link.
+The CellModemInput identity QR, Wi-Fi connection QR and enclosure remote URL QR
 have separate purposes; keep their labels distinct.
 
 SOURCE PROVENANCE (only reviewed label behavior/logo were reused)
@@ -78,7 +92,7 @@ gap; do not fill gaps by recycling numbers. Preparation creates:
   credentials.csv        private setup credentials; SSID pending until readback
   identity.json          registry/file binding; PREPARED_NOT_VERIFIED
   acceptance.json        serial/operator filled; physical tests remain NOT_TESTED
-  enclosure-label.txt    public model + serial, without login credentials
+  enclosure-label.txt    public model + serial + permanent remote URL, no credentials
 Keep the setup password sheet inside controlled commissioning storage/the inside
 of the enclosure. Do not publish it on the outside serial label or in Git.
 
@@ -110,6 +124,10 @@ state, actual Wi-Fi MAC and Atlantis-<MAC4> SSID:
 This renders the private setup label and public serial label after readback.
 It does not print unless --print-labels is added. That option submits two setup
 labels to the existing Label 1 queue; --printer overrides the exact queue name.
+To print the public enclosure label with its permanent remote URL/QR instead,
+add --print-labels --print-kind enclosure. Reprints can also use:
+  python firmware/tools/commission_labels.py --unit-directory firmware/private/units/AG26-000001 --verification firmware/private/units/AG26-000001/readback.json --output firmware/private/units/AG26-000001/reprint --print --print-kind enclosure
+The public label contains no Wi-Fi/admin password; the private setup label does.
 No print job was submitted during development/testing. Windows queue acceptance
 does not prove paper output: verify the media/orientation, scan both QR codes,
 check that Wi-Fi and HTTPS reach the unit and authenticate with its unique login.

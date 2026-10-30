@@ -77,6 +77,20 @@ class CommissionTest(unittest.TestCase):
                 self.prepare(**kwargs)
         self.assertFalse(self.registry.exists())
 
+    def test_permanent_address_is_saved_with_identity_and_cannot_be_reassigned(self):
+        folder=self.prepare()
+        expected='https://connect.atlantisllc.com/u/'+folder.name
+        identity=json.loads((folder/'identity.json').read_text())
+        self.assertEqual(identity['remote_url'],expected)
+        self.assertEqual(identity['remote_service_status'],'NOT_DEPLOYED')
+        self.assertIn(expected,(folder/'enclosure-label.txt').read_text())
+        con=open_registry(self.registry)
+        try:
+            self.assertEqual(con.execute('SELECT url FROM unit_addresses WHERE serial=?',(folder.name,)).fetchone()[0],expected)
+            for sql in ("UPDATE unit_addresses SET url='https://other.example.test'",'DELETE FROM unit_addresses'):
+                with self.assertRaises(sqlite3.IntegrityError):con.execute(sql)
+        finally:con.close()
+
     def test_imported_factory_number_advances_the_local_counter_without_reusing_it(self):
         reserve_named(self.registry,'TEST26-000040')
         self.assertEqual(reserve(self.registry,'TEST26')[0],'TEST26-000041')

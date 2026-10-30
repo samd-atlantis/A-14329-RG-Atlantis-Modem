@@ -11,8 +11,8 @@ import json
 import os
 from pathlib import Path
 import re
-from urllib.parse import urlsplit
 from build_support import validate_unit
+from device_address import unit_url, REMOTE_ORIGIN
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PRINTER = r'\\Atech-DC.atechllc.local\Label 1'
@@ -42,6 +42,8 @@ def verified_data(folder, verification):
         raise ValueError('Invalid verified radio MAC')
     if record.get('ssid') != 'Atlantis-'+mac.replace(':','')[-4:] or unit.get('ssid') not in ('Atlantis-AUTO', record['ssid']):
         raise ValueError('Wi-Fi label must match the verified internal radio MAC')
+    if record.get('remote_url') != unit_url(serial):
+        raise ValueError('Permanent unit URL must match the commissioning record and enclosure serial')
     with (folder/'credentials.csv').open(newline='', encoding='utf-8') as file:
         credentials = list(csv.DictReader(file))
     if len(credentials)!=1 or credentials[0].get('serial')!=serial or credentials[0].get('wifi_password')!=unit.get('wifi_password'):
@@ -56,7 +58,8 @@ def verified_data(folder, verification):
     if not hmac.compare_digest(hashed,unit['root_hash']):
         raise ValueError('Admin credential does not match this unit')
     return {'serial':serial,'ssid':record['ssid'],'wifi_password':unit['wifi_password'],
-        'username':'root','admin_password':credentials['admin_password'],'setup_url':'https://10.0.100.7'}
+        'username':'root','admin_password':credentials['admin_password'],'setup_url':'https://10.0.100.7',
+        'remote_url':record['remote_url']}
 
 
 def font(size, bold=True):
@@ -102,7 +105,7 @@ def setup_label(data, sample=False):
     image.paste(logo,((2000-logo.width)//2,25),logo)
     fitted(draw,(50,245,1950,380),'MODEM SETUP',120)
     fitted(draw,(70,395,1930,500),'S/N '+data['serial'],95)
-    for y,title in ((580,'1  WI-FI'),(1610,'2  WEB LOGIN')):
+    for y,title in ((580,'1  WI-FI'),(1610,'2  LOCAL LOGIN')):
         draw.rounded_rectangle((50,y,1950,y+980),radius=45,outline='black',width=12)
         fitted(draw,(90,y+20,1260,y+150),title,100)
         draw.line((90,y+640,1910,y+640),fill='black',width=8)
@@ -116,26 +119,31 @@ def setup_label(data, sample=False):
     paste_qr(image,(1360,1710,1900,2250),data['setup_url'])
     fitted(draw,(90,2270,1910,2370),'ADMIN PASSWORD',52)
     fitted(draw,(90,2370,1910,2530),data['admin_password'],94)
-    fitted(draw,(70,2650,1930,2760),'A-14329-MB00',80)
-    fitted(draw,(70,2800,1930,2940),'SAMPLE · NOT A DEVICE' if sample else data['serial'],80)
+    fitted(draw,(70,2620,1930,2720),'A-14329-MB00 · REMOTE ACCESS',60)
+    fitted(draw,(70,2730,1930,2840),data.get('remote_url') or unit_url(data['serial']),72)
+    fitted(draw,(70,2850,1930,2950),'SAMPLE · NOT A DEVICE' if sample else 'LOGIN REQUIRED',48)
     return image
 
 
 def enclosure_label(data, portal_base=None, sample=False):
     from PIL import Image,ImageDraw
-    image=Image.new('RGB',(2000,700),'white');draw=ImageDraw.Draw(image)
-    right=1340 if portal_base else 1960
+    if portal_base and portal_base.rstrip('/') != REMOTE_ORIGIN:
+        raise ValueError('Reprints must use the permanent commissioned origin '+REMOTE_ORIGIN)
+    remote = data.get('remote_url') or unit_url(data['serial'])
+    if remote != unit_url(data['serial']):
+        raise ValueError('Permanent URL and enclosure serial do not match')
+    image=Image.new('RGB',(2000,1100),'white');draw=ImageDraw.Draw(image)
+    right=1310
     logo=Image.open(ROOT/'commissioning/assets/atlantis-bw.png').convert('RGBA');logo.thumbnail((right-80,180))
     draw.rounded_rectangle(((right-logo.width)//2-16,20,(right+logo.width)//2+16,230),radius=12,fill='black')
     image.paste(logo,((right-logo.width)//2,35),logo)
-    fitted(draw,(30,230,right,350),'A-14329-MB00',90)
-    fitted(draw,(30,370,right,560),'S/N '+data['serial'],110)
-    if portal_base:
-        url=urlsplit(portal_base)
-        if url.scheme!='https' or not url.hostname or url.username or url.password or url.query or url.fragment or url.path not in ('','/'):
-            raise ValueError('Portal base must be the final HTTPS origin, without credentials or a path')
-        paste_qr(image,(1370,45,1970,645),portal_base.rstrip('/')+'/u/'+data['serial'])
-    if sample:fitted(draw,(30,585,right,680),'SAMPLE · DOMAIN PENDING',50)
+    fitted(draw,(30,255,right,360),'A-14329-MB00',74)
+    fitted(draw,(30,385,right,540),'S/N '+data['serial'],100)
+    fitted(draw,(30,560,right,660),'REMOTE ACCESS',78)
+    fitted(draw,(30,675,right,790),'https://connect.atlantisllc.com',78)
+    fitted(draw,(30,795,right,920),'/u/'+data['serial'],92)
+    paste_qr(image,(1340,300,1980,940),remote)
+    fitted(draw,(30,970,1970,1070),'SAMPLE · SERVICE NOT LIVE' if sample else 'LOGIN REQUIRED',54)
     return image
 
 
@@ -166,13 +174,21 @@ def print_windows(image, printer, copies=2, serial=''):
         dc.DeleteDC()
 
 
+def print_selected(setup, enclosure, kind, printer, copies, serial):
+    if kind not in ('setup','enclosure'):
+        raise ValueError('Choose setup or enclosure label')
+    image = setup.rotate(90,expand=True) if kind=='setup' else enclosure
+    print_windows(image,printer,copies,serial)
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--unit-directory',type=Path,required=True)
     parser.add_argument('--verification',type=Path,required=True)
     parser.add_argument('--output',type=Path,required=True,help='New private label directory')
-    parser.add_argument('--portal-base',help='Final customer HTTPS origin; omit until hosting exists')
+    parser.add_argument('--portal-base',help='Optional explicit confirmation of https://connect.atlantisllc.com; other origins are rejected')
     parser.add_argument('--print',dest='print_label',action='store_true',help='Submit setup label to the selected Windows printer')
+    parser.add_argument('--print-kind',choices=('setup','enclosure'),default='setup',help='Select the private setup label or public permanent-address label')
     parser.add_argument('--printer',default=DEFAULT_PRINTER)
     parser.add_argument('--copies',type=int,default=2)
     args=parser.parse_args()
@@ -182,8 +198,8 @@ def main():
     setup.save(args.output/'setup-private.png');os.chmod(args.output/'setup-private.png',0o600)
     enclosure.save(args.output/'enclosure-public.png')
     if args.print_label:
-        print_windows(setup.rotate(90,expand=True),args.printer,args.copies,data['serial'])
-        print('Setup label submitted to Windows. Operator must confirm physical print and scan; no acceptance recorded automatically.')
+        print_selected(setup,enclosure,args.print_kind,args.printer,args.copies,data['serial'])
+        print('Selected label submitted to Windows. Operator must confirm physical print and scan; no acceptance recorded automatically.')
     else:print('Created matching setup/enclosure label artwork. No print job submitted; keep the setup label private.')
 
 

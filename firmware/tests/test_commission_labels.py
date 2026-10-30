@@ -45,15 +45,22 @@ class LabelTest(unittest.TestCase):
     def test_public_identity_has_only_permanent_url_and_no_credential_qr(self):
         import zxingcpp
         data=labels.verified_data(self.folder,self.verification)
-        self.assertFalse(zxingcpp.read_barcodes(labels.enclosure_label(data)))
-        image=labels.enclosure_label(data,'https://portal.example.test')
-        self.assertEqual([r.text for r in zxingcpp.read_barcodes(image)],['https://portal.example.test/u/'+data['serial']])
-        for url in ('http://portal.example.test','https://user:pass@portal.example.test','https://portal.example.test/?key=secret'):
+        image=labels.enclosure_label(data)
+        self.assertEqual([r.text for r in zxingcpp.read_barcodes(image)],['https://connect.atlantisllc.com/u/'+data['serial']])
+        for url in ('http://connect.atlantisllc.com','https://user:pass@connect.atlantisllc.com','https://connect.atlantisllc.com/?key=secret','https://portal.example.test'):
             with self.subTest(url=url),self.assertRaises(ValueError):labels.enclosure_label(data,url)
+
+    def test_operator_can_select_public_address_label_without_printing_private_credentials(self):
+        data=labels.verified_data(self.folder,self.verification)
+        setup,enclosure=labels.setup_label(data),labels.enclosure_label(data)
+        with patch('commission_labels.print_windows') as printer:
+            labels.print_selected(setup,enclosure,'enclosure',labels.DEFAULT_PRINTER,2,data['serial'])
+        self.assertIs(printer.call_args.args[0],enclosure)
+        self.assertEqual(printer.call_args.args[1:],(labels.DEFAULT_PRINTER,2,data['serial']))
 
     def test_labels_reject_pending_wrong_unit_ssid_and_credential_sheet(self):
         record=json.loads(self.verification.read_text())
-        for change in ({'identity_status':'PREPARED_NOT_VERIFIED'},{'serial':'wrong'},{'ssid':'Atlantis-AUTO'},{'unit_sha256':'0'*64}):
+        for change in ({'identity_status':'PREPARED_NOT_VERIFIED'},{'serial':'wrong'},{'ssid':'Atlantis-AUTO'},{'unit_sha256':'0'*64}, {'remote_url':'https://connect.atlantisllc.com/u/OTHER-UNIT'}):
             self.verification.write_text(json.dumps({**record,**change}))
             with self.subTest(change=change),self.assertRaises(ValueError):labels.verified_data(self.folder,self.verification)
         self.verification.write_text(json.dumps(record))
