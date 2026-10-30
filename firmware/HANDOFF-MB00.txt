@@ -1,74 +1,117 @@
-A-14329-MB00 firmware candidate handoff - 2026-10-29
+A-14329-MB00 firmware candidate handoff - 2026-10-30
 
-2026-10-30 commissioning addition: use commissioning/README.txt and tools/commission.py
-to assign/register the permanent enclosure serial, create its private unit.json,
-then compare captured router/SSID readback before producing ESP-style setup labels
-or a CellModemInput-compatible identity scan. Printing is explicitly selected and
-still needs physical validation. These host-only tools do not change the r10 image
-or close any first-board power, bootloader, recovery or functional acceptance gate.
+CURRENT CANDIDATE: atech-gateway 0.1.0-r10 / OpenWrt 25.12.6
+Compilation, GitHub compiled-image inspection and independent local kernel/DTB
+and filesystem inspection PASSED. This is the offline-validated software candidate
+for FIRST-BOARD commissioning. It has not booted on our carrier and is not a
+production approval. The bare common image requires private per-unit provisioning.
+The earlier r7 evidence is retained as history, not the current programming image.
 
-2026-10-30: Atlantis dashboard, MAC-based SSID, Walchem-network and WireGuard r10 is pending a new
-compiled-image validation. The r7 download and hashes below describe the prior
-candidate and do not contain the new dashboard. See VALIDATION-MB00.txt for the
-replacement build; its handoff will supersede these files after checks pass.
-Current factory-bundle tools require the r9 MAC-derived provisioning schema;
-the older r7/r8 images cannot accept these newly generated records. Target LAN
-is 10.0.100.7/23; controller HTTP addresses are .101-.104 and DHCP is .150-.199.
-
-The common OpenWrt 25.12.6 candidate compiled successfully and passed compiled
-kernel/device-tree and filesystem inspection on GitHub and independently locally.
-This is the software candidate for first-board commissioning. It has not booted
-on our carrier, and the initial OEM installation path remains to be qualified.
-
-FILES
-Build source: 62b465179c766924cc7306eebf1fdfbb9906cb28
-Carrier package: atech-gateway 0.1.0-r7
-Build/download: https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40946542802
-Artifact name: A-14329-MB00-UNPROVISIONED-VALIDATION
-GitHub retention: 30 days from upload. Local files are retained under
-firmware/dist/validation-run-40946542802/. Download/archive them before expiry.
+FILES AND EXACT BUILD
+Firmware build source: 8a2519687a32ab4e683d93b74662811606761bbf
+Host commissioning/label tools: eda260259e2accfde74e52ebce115c6b9f70f549
+Build/download: https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41067820915
+Artifact: A-14329-MB00-UNPROVISIONED-VALIDATION (id 12987489100)
+Local download: firmware/dist/validation-run-41067820915/
+GitHub retention is 30 days from the October 30 upload. Archive the files before
+expiry. Local downloads are ignored by Git; the compact evidence is committed.
 
 openwrt-ramips-mt76x8-hilink_hlk-7628n-squashfs-sysupgrade.bin
-  Size: 5898513 bytes
-  SHA256: d84ce09c22e8380ad5fb9555f0a937624419405e0fdd07c9b86b5840b3e012fd
-  Use only with an already qualified compatible OpenWrt upgrade path.
+  Size: 6095121 bytes
+  SHA256: 84ea0aef0247b24489a2ae1405859508a394c52c47b9110ace2dd9aa34cae15d
+  Use ONLY after compatible OpenWrt installation/recovery has been qualified.
 openwrt-ramips-mt76x8-hilink_hlk-7628n-initramfs-kernel.bin
-  Size: 5819722 bytes
-  SHA256: 6e3b3f3a891f56d7ed6df461a21bab6ecf6da5630b462c7096adcda54399f2c8
-  RAM-boot candidate only after confirming the actual bootloader's RAM-boot method.
+  Size: 6005741 bytes
+  SHA256: b17ecaccb89c2c0736d1ab3d4542bbcf0feb1b506d48205bac9885bbd5fd132f
+  RAM-boot candidate only after identifying the actual OEM bootloader procedure.
 
-Keep manifest.json, SHA256SUMS, build.config, feeds.txt, build-lock.json and
-carrier-dts.patch with these binaries. Committed compact evidence is under
-validation/2026-10-29-62b4651/. It checks 158 installed packages, 71 kernel modules,
-required autoload/services, locked root, carrier defaults and all 11 gateway files.
-Image-check run: https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40958079191/attempts/2
+Both binaries match manifest.json and SHA256SUMS. Keep those files, build.config,
+feeds.txt, build-lock.json and carrier-dts.patch with the downloaded images.
+The common-image manifest must say unit_record_schema=atlantis-mac4-v1. Older r7/r8
+images do not support current factory records. Never relabel an old manifest.
+
+VALIDATION EVIDENCE
+Compiled-image CI: https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41079703855
+Host/source CI (104 Python + 33 JavaScript checks):
+  https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41076974981
+Published portal CI (14 HTTP/TLS/isolation fixture tests):
+  https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41076974751
+Compact independent evidence: validation/2026-10-30-8a25196/
+The independent inspectors report no failures or warnings. The image contains
+170 packages, 79 kernel modules and all 13 byte-matched custom gateway files.
+The actual appended DTB enables USB/PHY, Ethernet, Wi-Fi and carrier I2C, removes
+conflicting upstream keys/LEDs, and retains the expected 32 MB partition layout.
+This does not measure the arriving module's actual flash, RAM or bootloader.
+
+Verified actual rootfs content includes QMI/USB serial/modem, MT7603 Wi-Fi,
+I2C/i2c-dev drivers; required autoload and service links; and the supplied Atlantis
+SVG (SHA256 1c6146cef66498b1ff2b2e334c283591ae1d354fe69a2d550c2b3c21390e1389).
+WireGuard packages, wireguard.ko/autoload, wg and netifd protocol are present.
+No private unit record is embedded. Root network authentication is locked and no
+setup Wi-Fi is preconfigured in the validation image. Remote defaults are disabled;
+hardware_validated, powercut_validated and esim_populated remain zero.
+
+PROVISIONED DEFAULTS (actual packaged first-boot files matched built source)
+LAN gateway: 10.0.100.7 / 255.255.254.0 (/23).
+DHCP: 10.0.100.150 through .199.
+Controller bookmarks: HTTP 10.0.100.101 through .104.
+SSID: Atlantis- plus the last four uppercase hexadecimal characters of the
+permanent internal Wi-Fi MAC. AP BSSID is set to that MAC. Missing/invalid MAC
+or mismatched concrete label SSID fails closed. Atlantis-AUTO is an internal
+provisioning marker and must not appear on a finished Wi-Fi label.
+These are inspected files and source tests, not a demonstrated router boot.
 
 WHEN THE FIRST BOARD ARRIVES
 1. Follow PROGRAMMING-MB00.txt and hardware/audits/AUDIT-MB00.txt. Inspect the
-   assembly/supports while unpowered; start rail tests without the modem. Resolve
-   the modem supply/bulk-capacitor deviation before full modem commissioning.
-   The 10 A distribution and closed-enclosure thermal tests remain separate.
-2. Connect J14 USB-C for the router serial console and identify the actual HLK
-   flash/RAM, bootloader and partition map. Preserve that unit's own complete
-   flash, MAC/RF calibration and recovery backup. Establish recovery before writes.
-   HLK-FACTORY-RECOVERY.txt lists the conditional OEM installation branches.
-   The sysupgrade image has not been qualified as an OEM web-update upload.
-3. Once compatible OpenWrt installation/recovery is proven, use the common-image
-   per-unit bundle procedure in FACTORY-PROVISIONING.txt. Generate unique records
-   privately using tools/provision.py, then tools/make_factory_bundle.py. Verify
-   identity, hashes and sysupgrade -T before the qualified installation operation.
-   The bare CI image intentionally has locked network login and no setup Wi-Fi;
-   supplying the per-unit record is required for customer setup.
-4. After successful provisioning, use Ethernet DHCP or Atlantis-<MAC4> Wi-Fi and
-   https://10.0.100.7 with the unit's unique admin password. Enter the carrier
-   APN, then enable cellular. Leave J17 modem-service USB unplugged during normal
-   cellular operation. U20 is absent; use physical nano-SIM A.
-5. Complete acceptance-template.json with measured results, including every LAN
-   jack, Wi-Fi/controller access, both USB orientations, LTE reconnect/load tests,
-   saved configuration, unique authentication and recovery. Keep GPIO-control
-   validation gates at zero until the corresponding bench work has passed.
+   unpowered assembly/supports and begin rail tests without the cellular card.
+   Resolve the modem supply/bulk-capacitor deviation: 116 uF fitted nominal versus
+   the Quectel guidance of at least 470 uF. Do not add a large capacitor blindly;
+   regulator stability/load-step/vendor disposition remains a hardware hold.
+   The separate 10 A distribution, protective-earth/isolation and enclosure
+   thermal tests are not satisfied by any firmware build.
+2. Connect J14 USB-C for the HLK-7628N UART console. Identify actual flash/RAM,
+   bootloader and offsets. Save and verify THAT UNIT'S complete flash, environment,
+   MAC/RF calibration and recovery backup. Establish recovery before flash writes.
+   HLK-FACTORY-RECOVERY.txt describes conditional OEM installation branches; the
+   sysupgrade file is not an established OEM web-update upload or complete dump.
+3. Use commissioning/README.txt and tools/commission.py prepare to assign/register
+   the permanent ENCLOSURE serial and create its private unit.json and acceptance
+   record. Use the one authoritative factory registry; no production IDs were
+   allocated during development. An existing factory serial can be supplied.
+4. After compatible OpenWrt installation is proven, use FACTORY-PROVISIONING.txt
+   and tools/make_factory_bundle.py with that unit.json, this manifest and this
+   exact common sysupgrade image. Check unit/image/config hashes and sysupgrade -T
+   before the qualified first-provisioning operation. The bare common image alone
+   intentionally has locked network login and no customer setup Wi-Fi.
+5. Reboot, capture this unit with the current tools/collect-device.sh, then use
+   commission.py verify with the actual scanned enclosure serial. Confirm the
+   router serial and final MAC-based SSID. Generate/print labels only after the
+   readback matches, then physically scan them and prove the unique login works.
+   Setup credentials remain private; public enclosure labels contain no passwords.
+6. Local setup uses Ethernet DHCP or Atlantis-<MAC4> Wi-Fi at https://10.0.100.7.
+   Enter the carrier APN and enable cellular. Leave J17 modem-service USB unplugged
+   during normal router-to-modem operation. Use the ordered EC25AFFA-MINIPCIE and
+   physical nano-SIM A; U20 is absent and not needed.
+7. Complete acceptance-template.json with actual measurements/tests for every LAN,
+   Wi-Fi/controller access, USB orientations, cellular registration/data/reconnect,
+   power loss, saved settings, authentication, recovery and thermal behavior. Keep
+   carrier GPIO-control gates zero until their corresponding bench checks pass.
 
-The normal setup interface and modem drivers are included. Current r10 source
-adds WireGuard and the local portal prototype in ../portal/README.md. Remote
-access stays disabled until enrolled and qualified; hosting and real-device
-tests remain pending. An eSIM profile downloader is still future work.
+PERMANENT REMOTE ADDRESS AND EXISTING TOOLS
+Each box's permanent locator is https://connect.atlantisllc.com/u/<serial>.
+It is saved with its identity and printed as readable text/QR. This address is
+NOT LIVE: DNS/HTTPS hosting/server/tunnel deployment is paused. A printed URL is
+not authorization; the planned portal and device-native logins still apply.
+The commissioned enclosure serial never follows a SIM, IP or cellular-card IMEI.
+CellModemInput-compatible identity scans contain serial/IMEI/LAN MAC only. Its
+record draft is private and does not write SAP or activate a SIM. The existing
+RUT241 app has one controller field set; four-controller record mapping is future
+reviewed work. No actual print jobs or SAP/Telnyx writes occurred during development.
+
+Routine upgrades preserve the private unit record; a full factory reset of a
+common-image overlay erases its device copy. Restore that original private record,
+not another unit's identity, through an authorized recovery. Do not ship a customer
+full-reset feature until retained identity/recovery has been qualified.
+
+The build monitor ends after this offline handoff. Actual hardware commissioning,
+physical printing/scanning, hosted remote access, and production approval remain.

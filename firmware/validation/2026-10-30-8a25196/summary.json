@@ -1,0 +1,68 @@
+{
+  "schema": "mb00-offline-validation-summary-1",
+  "board": "A-14329-MB00",
+  "package": "0.1.0-r10",
+  "build_source_revision": "8a2519687a32ab4e683d93b74662811606761bbf",
+  "host_tools_source_revision": "eda260259e2accfde74e52ebce115c6b9f70f549",
+  "build_run": 41067820915,
+  "build_url": "https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41067820915",
+  "image_check_run": 41079703855,
+  "image_check_url": "https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41079703855",
+  "source_check_run": 41076974981,
+  "portal_check_run": 41076974751,
+  "source_python_tests": 104,
+  "source_javascript_checks": 33,
+  "published_portal_tests": 14,
+  "build_conclusion": "success",
+  "image_check_conclusion": "success",
+  "independent_image_check": "passed",
+  "independent_rootfs_check": "passed",
+  "manifest_schema": "atlantis-mac4-v1",
+  "artifact_id": 12987489100,
+  "artifacts": [
+    {
+      "file": "openwrt-ramips-mt76x8-hilink_hlk-7628n-initramfs-kernel.bin",
+      "bytes": 6005741,
+      "sha256": "b17ecaccb89c2c0736d1ab3d4542bbcf0feb1b506d48205bac9885bbd5fd132f"
+    },
+    {
+      "file": "openwrt-ramips-mt76x8-hilink_hlk-7628n-squashfs-sysupgrade.bin",
+      "bytes": 6095121,
+      "sha256": "84ea0aef0247b24489a2ae1405859508a394c52c47b9110ace2dd9aa34cae15d"
+    }
+  ],
+  "installed_package_count": 170,
+  "kernel_module_count": 79,
+  "matched_custom_file_count": 13,
+  "wireguard_packages": {
+    "kmod-wireguard": "6.12.112-r1",
+    "luci-proto-wireguard": "26.288.56989~75a306d",
+    "wireguard-tools": "1.0.20260223-r1"
+  },
+  "wireguard_kernel_and_autoload": true,
+  "remote_enabled_default": "0",
+  "lan_gateway": "10.0.100.7",
+  "netmask": "255.255.254.0",
+  "dhcp_pool": "10.0.100.150-10.0.100.199",
+  "controller_http_addresses": [
+    "10.0.100.101",
+    "10.0.100.102",
+    "10.0.100.103",
+    "10.0.100.104"
+  ],
+  "wifi_ssid": "Atlantis-<last 4 uppercase permanent internal Wi-Fi MAC hex characters>",
+  "logo_sha256": "1c6146cef66498b1ff2b2e334c283591ae1d354fe69a2d550c2b3c21390e1389",
+  "permanent_public_url": "https://connect.atlantisllc.com/u/<serial>",
+  "portal_service_live": false,
+  "programming_authorization": false,
+  "hardware_tested": false,
+  "production_approved": false,
+  "remaining_acceptance": [
+    "modem supply/capacitor disposition and rail tests",
+    "actual RAM/flash/bootloader and per-unit backup/recovery",
+    "qualified initial OEM install/RAM boot",
+    "permanent serial provision/readback and physical labels/scans/login",
+    "Ethernet/Wi-Fi/cellular/controller/reconnect/power/thermal tests",
+    "future hosted portal/WireGuard/device-native-login end-to-end tests"
+  ]
+}

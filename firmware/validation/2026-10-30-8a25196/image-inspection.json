@@ -1,0 +1,134 @@
+{
+  "schema": "mb00-image-inspection-1",
+  "file": "openwrt-ramips-mt76x8-hilink_hlk-7628n-squashfs-sysupgrade.bin",
+  "bytes": 6095121,
+  "sha256": "84ea0aef0247b24489a2ae1405859508a394c52c47b9110ace2dd9aa34cae15d",
+  "manifest_sha256_verified": true,
+  "manifest_source_revision": "8a2519687a32ab4e683d93b74662811606761bbf",
+  "openwrt_metadata": {
+    "metadata_version": "1.1",
+    "compat_version": "1.0",
+    "supported_devices": [
+      "hilink,hlk-7628n"
+    ],
+    "version": {
+      "dist": "OpenWrt",
+      "version": "25.12.6",
+      "revision": "r33311-981c978eff",
+      "target": "ramips/mt76x8",
+      "board": "hilink_hlk-7628n"
+    }
+  },
+  "fwtool_chunks": [
+    {
+      "type": 1,
+      "bytes": 269,
+      "crc32_verified": true
+    }
+  ],
+  "uimage": {
+    "architecture": "MIPS",
+    "os": "Linux",
+    "type": "kernel",
+    "compression": "LZMA",
+    "name": "MIPS OpenWrt Linux-6.12.112",
+    "payload_bytes": 1959450,
+    "decompressed_bytes": 6449341,
+    "load_address": "0x80000000",
+    "entry_point": "0x80000000",
+    "timestamp": 1792273538,
+    "header_crc32_verified": true,
+    "payload_crc32_verified": true
+  },
+  "dtb": {
+    "offset_in_decompressed_kernel": 6440992,
+    "bytes": 8349,
+    "compatible": [
+      "hilink,hlk-7628n",
+      "mediatek,mt7628an-soc"
+    ],
+    "i2c_node": "/palmbus@10000000/i2c@900",
+    "i2c_status": [
+      "okay"
+    ],
+    "keys_present": false,
+    "leds_present": false,
+    "partitions": {
+      "u-boot": {
+        "offset": 0,
+        "bytes": 196608,
+        "read_only": true
+      },
+      "u-boot-env": {
+        "offset": 196608,
+        "bytes": 65536,
+        "read_only": true
+      },
+      "factory": {
+        "offset": 262144,
+        "bytes": 65536,
+        "read_only": true
+      },
+      "firmware": {
+        "offset": 327680,
+        "bytes": 33226752,
+        "read_only": false
+      }
+    },
+    "peripherals": {
+      "usb_ehci": {
+        "node": "/ehci@101c0000",
+        "status": [
+          "okay"
+        ],
+        "status_defaulted": true,
+        "enabled": true,
+        "blocking_nodes": [],
+        "phy_reference_valid": true,
+        "phy_node": "/usbphy@10120000"
+      },
+      "usb_phy": {
+        "node": "/usbphy@10120000",
+        "status": [
+          "okay"
+        ],
+        "status_defaulted": true,
+        "enabled": true,
+        "blocking_nodes": []
+      },
+      "ethernet": {
+        "node": "/ethernet@10100000",
+        "status": [
+          "okay"
+        ],
+        "status_defaulted": true,
+        "enabled": true,
+        "blocking_nodes": []
+      },
+      "wifi": {
+        "node": "/wmac@10300000",
+        "status": [
+          "okay"
+        ],
+        "status_defaulted": false,
+        "enabled": true,
+        "blocking_nodes": []
+      }
+    }
+  },
+  "squashfs": {
+    "offset": 1959514,
+    "bytes_used": 4095482,
+    "compression_id": 4
+  },
+  "carrier_checks_passed": true,
+  "failures": [],
+  "programming_authorization": false,
+  "hardware_tested": false,
+  "limitations": [
+    "Manifest SHA256 is an integrity check, not a trusted signature.",
+    "Source revision is supplied by the manifest, not proven from machine code.",
+    "Rootfs file contents and package behavior are not inspected.",
+    "Actual flash size, bootloader compatibility and hardware operation are not tested."
+  ]
+}

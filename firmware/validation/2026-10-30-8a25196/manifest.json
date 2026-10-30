@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "board": "A-14329-MB00",
+  "profile": "hilink_hlk-7628n",
+  "source_revision": "8a2519687a32ab4e683d93b74662811606761bbf",
+  "openwrt_release": "v25.12.6",
+  "openwrt_commit": "64900e756efa667774214f9c6b17c113222e01f7",
+  "feeds": {
+    "packages": "093d551675b1119a06ef224d419905e8d6b2af1a",
+    "luci": "75a306df84a020c57a631ef5b4c02ace56d93387",
+    "routing": "48c808034414a2112cf9d5261a20a320e8d0d170",
+    "telephony": "2618106d5846a4a542fdf5809f0d3ed228ce439b",
+    "video": "094bf58da6682f895255a35a84349a79dab4bf95"
+  },
+  "mode": "unprovisioned-validation",
+  "hardware_tested": false,
+  "production_approved": false,
+  "unit_record_schema": "atlantis-mac4-v1",
+  "requires_confirmed_flash_bytes": 33554432,
+  "artifacts": [
+    {
+      "file": "openwrt-ramips-mt76x8-hilink_hlk-7628n-initramfs-kernel.bin",
+      "bytes": 6005741,
+      "sha256": "b17ecaccb89c2c0736d1ab3d4542bbcf0feb1b506d48205bac9885bbd5fd132f"
+    },
+    {
+      "file": "openwrt-ramips-mt76x8-hilink_hlk-7628n-squashfs-sysupgrade.bin",
+      "bytes": 6095121,
+      "sha256": "84ea0aef0247b24489a2ae1405859508a394c52c47b9110ace2dd9aa34cae15d"
+    }
+  ]
+}

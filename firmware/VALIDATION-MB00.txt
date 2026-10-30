@@ -1,5 +1,37 @@
 A-14329-MB00 validation record - 2026-10-29
 
+2026-10-30 CURRENT CANDIDATE r10 - OFFLINE VALIDATION PASSED
+Cross-build 41067820915 from 8a2519687a32ab4e683d93b74662811606761bbf completed
+successfully at 15:19 UTC; compiled-image run 41079703855 passed at 15:20 UTC.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41067820915
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41079703855
+Independent local inspect_image.py and inspect_rootfs.py also passed, with zero
+failures/warnings, against package files from that exact build revision. Both
+binary hashes/sizes match the manifest and SHA256SUMS; unit_record_schema is
+atlantis-mac4-v1. The actual rootfs has 170 packages, 79 modules and all 13 custom
+files byte-matched, including the supplied logo and remote-support marker.
+Actual DTB enables USB/PHY/Ethernet/Wi-Fi/I2C with expected carrier pin/partition
+settings. QMI/USB serial, Wi-Fi, I2C and WireGuard drivers/autoload/services are
+present; remote access and hardware/eSIM control gates remain disabled.
+The packaged first-boot file has the requested LAN .7/23, DHCP .150-.199,
+HTTP controller .101-.104, permanent-MAC SSID/BSSID and fail-closed checks.
+This is static content/source verification, not execution on the carrier.
+Host/source revision eda260259e2accfde74e52ebce115c6b9f70f549 passed all 104 Python
+and 33 JS checks on Linux; its published portal passed all 14 proxy fixture tests.
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41076974981
+https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/41076974751
+Compact independent evidence: validation/2026-10-30-8a25196/. Prior r7 evidence
+is preserved unchanged. HANDOFF-MB00.txt now gives the r10 downloads/hashes and
+permanent-serial programming/label procedure. Entries below are development history;
+older pending-build statements and r7 image hashes do not identify today's image.
+No actual router was programmed, production ID issued, physical print sent, or
+SAP/Telnyx/DNS/server change made. Portal/server feature work stays paused and
+its unfinished local edits remain uncommitted. The permanent public URL is selected
+but NOT LIVE. hardware_tested, programming_authorization and production_approved
+remain false. Modem power/capacitor disposition, actual memory/bootloader, own
+backups/recovery, physical label/login and all first-board functions still require
+hardware acceptance. This completes the authorized offline firmware candidate.
+
 2026-10-30 PERMANENT ADDRESS: user selected https://connect.atlantisllc.com.
 Commissioning assigns /u/<serial>, records that exact URL immutably, and renders
 it as readable text and a QR on the public enclosure label. The private setup
