@@ -1,5 +1,10 @@
 A-14329-MB00 firmware candidate handoff - 2026-10-29
 
+2026-10-30: Atlantis branding/dashboard source revision r8 is pending a new
+compiled-image validation. The r7 download and hashes below describe the prior
+candidate and do not contain the new dashboard. See VALIDATION-MB00.txt for the
+replacement build; its handoff will supersede these files after checks pass.
+
 The common OpenWrt 25.12.6 candidate compiled successfully and passed compiled
 kernel/device-tree and filesystem inspection on GitHub and independently locally.
 This is the software candidate for first-board commissioning. It has not booted

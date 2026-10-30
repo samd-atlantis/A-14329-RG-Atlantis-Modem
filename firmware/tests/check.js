@@ -16,7 +16,7 @@ async function main(){
  const dir=path.join(root,'package/atech-gateway/files/www/luci-static/resources/view/gateway');
  for(const file of fs.readdirSync(dir)){
   const src=fs.readFileSync(path.join(dir,file),'utf8');new Function(src);checks++;
-  const calls=[];const context={view:{extend:o=>o},form,E,_:s=>s,L:{url:s=>'/'+s},rpc:{declare:d=>{calls.push(d);return async()=>({site:'Bench',serial:'TEST',sim:'A',version:'dev',hardware_validated:false,up:false});}},poll:{add:()=>{}},dom:{content:(node,children)=>node.children=children},ui:{}};
+  const calls=[];const context={view:{extend:o=>o},form,E,_:s=>s,L:{url:s=>'/'+s,resource:s=>'/luci-static/resources/'+s},rpc:{declare:d=>{calls.push(d);return async()=>({site:'Bench',serial:'TEST',sim:'A',version:'dev',hardware_validated:false,up:false});}},poll:{add:()=>{}},dom:{content:(node,children)=>node.children=children},ui:{}};
   const view=vm.runInNewContext('(function(){'+src+'})()',context);
   if(file==='settings.js'){
    const node=await view.render();const maps=node.children;assert.equal(maps.length,2);

@@ -1,5 +1,11 @@
 A-14329-MB00 validation record - 2026-10-29
 
+2026-10-30 UI revision: package 0.1.0-r8 adds the supplied Atlantis SVG and a
+home dashboard using short labels, icons and large actions. Preview branding is
+updated too. The source change requires a replacement firmware build; the r7
+binary and archived evidence below remain the previously validated candidate.
+The revised dashboard preserves the existing modem-control validation gates.
+
 76 Python tests and 31 JavaScript/form/ACL checks passed on Linux for commit
 62b465179c766924cc7306eebf1fdfbb9906cb28; shell syntax checks passed too.
 https://github.com/samd-atlantis/A-14329-RG-Atlantis-Modem/actions/runs/40946542009
