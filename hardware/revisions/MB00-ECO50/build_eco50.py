@@ -92,7 +92,8 @@ def main():
     # Original two USB junctions and the working signal path are retained.
     # Only new ESD shunt branches are added; remove obsolete ESD ground stub/via.
     remove={"conse0133356ea398f66","cons0920a95be9abd25b","458618fd5813397f",
-            "22c149ac8d3cd2c1","14a47d27125b276f","e6217bd13e60a2ee"}
+            "22c149ac8d3cd2c1","14a47d27125b276f","e6217bd13e60a2ee",
+            "gndstitch_C61","d78d04f2434c51f3","6199149f3c980b98"}
     line("USB_CONSOLE_DP",1,[(3519.685,271.22),(3535,271.22),(3565,301.22),(3585,311.22),(3619.685,311.22)],9.74)
     line("USB_CONSOLE_DM",1,[(3519.685,298.78),(3550,329.095),(3619.685,338.78)],9.74)
     line("GND_ISO",1,[(3480.315,285),(3470,285)],9.74)
@@ -141,6 +142,8 @@ def main():
         pads=[copy.deepcopy(r) for r in fpold["records"] if r["h"]["type"]=="PAD"]
         for pad in pads:
             n=pad["b"]["num"];pad["b"].update(centerX=pad_positions[n][0]/.0254,centerY=pad_positions[n][1]/.0254,padAngle=0,padOffsetX=0,padOffsetY=0,relativeAngle=0)
+            # Explicit stencil openings; never inherit a DNP/hand-solder -100mm mask.
+            if polarity:pad["b"].update(topPasteExpansion=-2,bottomPasteExpansion=-2)
             pad["b"]["defaultPad"].update(padType="RECT",width=pad_sizes[0]/.0254,height=pad_sizes[1]/.0254)
         meta=copy.deepcopy(next(r for r in fpold["records"] if r["h"]["type"]=="META"));meta["b"].update(title=title,source="",description="ECO50 locally authored from saved manufacturer drawing; native DFM review required")
         for k in list(meta["b"].get("attributes",{})):
@@ -188,9 +191,9 @@ def main():
         q=copy.deepcopy(pt);q['h'].update(id=f'eco50positive{i}',ticket=200+i);q['b'].update(points=points,zIndex=200+i);cap_symbol['records'].append(q)
     docs.append(cap_symbol);c25da['Symbol']='ec50311000000006'
     # Keep the long positive land clear of SW4's grounded switch terminal.
-    c25oldy=comps["C25"]["b"]["y"];comps["C25"]["b"]["y"]=1435
+    c25oldy=comps["C25"]["b"]["y"];comps["C25"]["b"]["y"]=1405
     for r in rows:
-        if r["h"]["type"]=="ATTR" and r["b"].get("parentId")==comps["C25"]["h"]["id"] and r["b"].get("x") is not None:r["b"]["y"]+=1435-c25oldy
+        if r["h"]["type"]=="ATTR" and r["b"].get("parentId")==comps["C25"]["h"]["id"] and r["b"].get("x") is not None:r["b"]["y"]+=1405-c25oldy
     line("GND_ISO",1,[(4685.0394,c25oldy+59.74),(4685.0394,1435+2.45/.0254)],20)
     # Clear the larger C25 terminal lands. Move the adjacent 1uF bypass and
     # reconnect its positive branch, with a short new ground via.
@@ -216,9 +219,13 @@ def main():
     gp=next(p for p in old61.values() if p["net"]=="GND_ISO")
     line("GND_ISO",1,[(gp["x"],gp["y"]+dy),(4650,gp["y"]+dy)],12)
     via("GND_ISO",4650,gp["y"]+dy)
-    for ref,x,y in [('C25',4740,1595),('C61',4740,1700)]:
+    for ref,x,y in [('C25',4740,1565),('C61',4740,1700)]:
         label=next(r['b'] for r in rows if r['h']['type']=='ATTR' and r['b'].get('parentId')==comps[ref]['h']['id'] and r['b']['key']=='Designator')
         label.update(x=x,y=y,angle=0)
+
+    # Native-reviewed C61 ground branch, including the obstacle-avoiding bends.
+    for r in json.loads((HERE/"native-ground-route.json").read_text()):
+        rec("LINE",r["b"],r["h"]["id"])
 
     # No stale filled copper may be mistaken for a rebuilt plane.
     rows[:]=[r for r in rows if r["h"]["id"] not in remove and r["h"]["type"]!="POURED"]+added
@@ -263,6 +270,9 @@ def main():
     sc['C25']['b']['attrs']['Value']='470uF / 10V POLY'
     sd.append(copy.deepcopy(cap_symbol))
     sd.extend(copy.deepcopy(d) for d in docs if d["head"]["b"]["uuid"] in [lfp,cfp])
+    notes={"DesignTitle":"A-14329-MB00 ECO50 ENGINEERING | 4-PORT CELLULAR ROUTER", "ModemNotes":"J8: ordered EC25AFFA-MINIPCIE; separately installed. Reserved card pins remain unconnected.", "Review2":"ECO50 TEST: C25 470uF polymer, L2 1uH, C22 22nF. Startup/load-step/stability/thermal and mechanical fit validation required before fabrication release.", "Version":"MB00-ECO50 ENGINEERING - NOT FOR FABRICATION"}
+    for r in sr:
+        if r['h']['type']=='ATTR' and r['b'].get('key') in notes:r['b']['value']=notes[r['b']['key']]
     schtarget=HERE/"schematic-eco50-engineering.epro2"
     write_native(schsource,schtarget,sd,"Schematic1-ECO50-ENGINEERING")
 

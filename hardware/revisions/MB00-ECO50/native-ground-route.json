@@ -1,0 +1,162 @@
+[
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644855,
+      "id": "33ae6c43b99b893d"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4685.0394,
+      "startY": 1687.56,
+      "endX": 4724.8453,
+      "endY": 1727.366,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644856,
+      "id": "19d182c582e149c0"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4724.8453,
+      "startY": 1727.366,
+      "endX": 4726.9534,
+      "endY": 1727.366,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644857,
+      "id": "052d66f3b6953095"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4726.9534,
+      "startY": 1727.366,
+      "endX": 4734.4486,
+      "endY": 1734.8612,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644858,
+      "id": "8ecdc06de1844205"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4734.4486,
+      "startY": 1734.8612,
+      "endX": 4734.4486,
+      "endY": 1736.9692,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644862,
+      "id": "90e63e69440f6511"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4750,
+      "startY": 1885,
+      "endX": 4698.5863,
+      "endY": 1936.4137,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644863,
+      "id": "ce2a57efbbf93aa3"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4698.5863,
+      "startY": 1936.4137,
+      "endX": 4685.0394,
+      "endY": 1936.4137,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644872,
+      "id": "8c5405aed34ce060"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4734.4486,
+      "startY": 1736.9692,
+      "endX": 4750,
+      "endY": 1752.5206,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  },
+  {
+    "h": {
+      "type": "LINE",
+      "ticket": 644875,
+      "id": "a27412bbc8872993"
+    },
+    "b": {
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND_ISO",
+      "layerId": 1,
+      "startX": 4750,
+      "startY": 1752.5206,
+      "endX": 4750,
+      "endY": 1885,
+      "width": 9.8425,
+      "locked": false,
+      "zIndex": -1
+    }
+  }
+]

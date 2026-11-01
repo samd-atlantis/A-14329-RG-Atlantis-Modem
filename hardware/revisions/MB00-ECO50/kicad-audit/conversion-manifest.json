@@ -1,6 +1,6 @@
 {
   "source": "hardware\\revisions\\MB00-ECO50\\pcb-eco50-engineering.epro2",
-  "sha256": "d95a03ed4354b6ed9b70c39d331d2deec11137caf8793b21e2cc2b127b4b29db",
+  "sha256": "99bc5a78cb25efca744c08655462314b9688c2a73cf1e55e5049bbd902e666c8",
   "kicad": "9.0.7",
   "native_counts": {
     "META": 1,
@@ -27,8 +27,8 @@
     "STRING": 81,
     "RULE_SELECTOR": 265,
     "PAD": 24,
-    "LINE": 3388,
-    "VIA": 307,
+    "LINE": 3394,
+    "VIA": 306,
     "POUR": 2,
     "IMAGE": 1
   },
@@ -120,7 +120,7 @@
       "ref": "C25",
       "footprint": "ec50311000000004",
       "x_mm": 119.00000075999999,
-      "y_mm": 36.449,
+      "y_mm": 35.687,
       "angle": 90
     },
     {
@@ -1054,7 +1054,7 @@
       "source_id": "e7",
       "net": "GND_ISO",
       "x_mm": 119.00000075999999,
-      "y_mm": 38.898999999999994,
+      "y_mm": 38.13699999999999,
       "width_mm": 3.1,
       "height_mm": 1.6,
       "angle": 90,
@@ -1067,7 +1067,7 @@
       "source_id": "e8",
       "net": "3V3_MODEM",
       "x_mm": 119.00000075999999,
-      "y_mm": 33.999,
+      "y_mm": 33.237,
       "width_mm": 3.1,
       "height_mm": 1.6,
       "angle": 90,

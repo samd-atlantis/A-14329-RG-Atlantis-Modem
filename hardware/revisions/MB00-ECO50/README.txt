@@ -1,15 +1,19 @@
 A-14329-MB00 ECO50 - ENGINEERING REVISION - 2026-10-31
 
-STATUS: LOCAL NATIVE DESIGN UPDATED; NOT RELEASED FOR FABRICATION.
-This is a future-revision engineering candidate. It does not change the PCB or
-assembly order already at JLC. Frozen hardware/releases/A-14329-MB00 is unchanged.
-EasyEDA signed out during this session and returned "Failed to save the project
-data". No successful cloud import/save or native ERC/DRC is claimed for ECO50.
-The new native files must be imported/reviewed after sign-in. The existing PCB2
-and paused portal changes were not edited.
+STATUS: SAVED IN EASYEDA; ENGINEERING CANDIDATE, NOT FOR FABRICATION.
+Saved under A-14329 AIO Modem / Board1-ECO50-ENGINEERING, with its matching
+Schematic1-ECO50-ENGINEERING and PCB1-ECO50-ENGINEERING. Final rebuilt PCB:
+124 native DRC items, zero findings. Schematic: zero fatal/electrical errors,
+one supplier-attribute warning covering the three changed engineering devices.
+The existing PCB1, PCB2, JLC order and frozen hardware/releases/A-14329-MB00 were
+not revised. Power-loop/startup/load-step, assembly DFM and physical fit remain
+qualification gates; passing DRC does not qualify the new modem supply.
 
 DESIGN FILES
-pcb-eco50-engineering.epro2        Complete native PCB plus component libraries.
+pcb-eco50-native-reviewed.epro2   Actual saved EasyEDA export, rebuilt pours.
+schematic-eco50-native-reviewed.epro2  Actual saved matching schematic/notes.
+native-validation.json / native-pcb-drc.jpg  Native review evidence.
+pcb-eco50-engineering.epro2        Reproducible source; no cached pours.
 schematic-eco50-engineering.epro2  Schematic, corrected Q3, new parts/polarity.
 pcb-before-eco50.epro2            Download of working PCB1 before these edits.
 ENGINEERING-BOM.csv / ENGINEERING-CPL.csv
@@ -39,11 +43,15 @@ CHANGES
         Authored 6.3x7.7 mm can / maximum 6.8 mm base footprint. Pad 1 POSITIVE
         connects 3V3_MODEM; pad 2 NEGATIVE connects GND_ISO. Added explicit '+'
         on schematic and PCB. Reserve 8.5 mm height; no verified 3D model assigned.
-        Center moved to (4685.0394,1435) mil = (119.000001,36.449) mm.
-        Assembly polarity: positive pad center (119.000001,33.999) mm;
-        negative pad center (119.000001,38.899) mm in the exported CPL datum.
+        Center moved to (4685.0394,1405) mil = (119.000001,35.687) mm.
+        Assembly polarity: positive pad center (119.000001,33.237) mm;
+        negative pad center (119.000001,38.137) mm in the exported CPL datum.
         Cap base stays outside the nominal 30 mm-wide card envelope by 0.457 mm;
         actual module/socket/base tolerances and card insertion need physical fit.
+        Native review moved the cap 30 mil below the initial candidate; its lands
+        clear the original modem prohibited region. Both top paste expansions
+        are -2 mil: approximately 2.9984 x 1.4984 mm stencil apertures. The original
+        footprint had inherited -100 mm paste suppression; that is corrected.
    L2: SWPA5040S2R2NT 2.2uH -> Sunlord MWSA0503S-1R0MT,
        1uH +/-20%, C408355. Replaced the land pattern as well as the part/value.
        Manufacturer recommended lands: 1.9 x 2.5 mm, 2.2 mm inner gap.
@@ -94,6 +102,9 @@ CHANGES
    Removed both stale cached fills. Rebuild pours and verify actual resulting
    copper/return paths in native EasyEDA. The new ground connections rely on that
    rebuild. Existing primary-secondary signal spacing target remains 8 mm.
+   Native follow-up: both pours rebuilt; removed obsolete C61 stitching via and
+   two ground spurs, then routed C61 ground to the SW5 ground branch. Native
+   connection and clearance checks now have zero findings.
 
 COMPONENT SOURCING OBSERVATIONS (not reserved inventory)
 C408355: EasyEDA system library showed 3,445 JLC parts during this session.
@@ -108,13 +119,21 @@ VALIDATION
 544 schematic pin keys: exact agreement, no overlapping-label conflicts.
 Moved/new pads versus all routed copper and other pads: no detected conflicts
 under the local conservative screen. Edited signal nets have no pad-bearing opens.
+Actual imported/saved files independently re-extracted: all 285 critical checks
+and all 544 schematic pin mappings pass. Routed copper matches the reproducible
+source; pad geometry agrees at native export precision (0.001 mil quantization).
+Native PCB DRC after final pour rebuild: zero findings, 124 check items.
+Native schematic check: zero fatal/errors, one supplier-attribute warning on L2,
+C25 and C22. Selected MPN/supplier numbers match the engineering BOM, but custom
+land patterns and catalog attributes still require JLC assembly DFM review.
+Do not blindly apply Device Standardization or schematic-to-PCB footprint changes;
+review proposed land-pattern changes and preserve C25 polarity/paste apertures.
 KiCad 9.0.7 audit translation: zero copper-short/clearance/drill errors under
-translated rules. 21 warnings remain (14 dangling tracks, 6 dangling vias,
-1 generic copper sliver); all 7 unconnected reports are GND_ISO with native pours
-omitted. This is not "zero DRC" or evidence that final ground copper is connected.
-The new device data/schematic symbol, manufacturing courtyards, mask/paste,
-filled planes and 3D are not validated by that translation. Native ERC/DRC,
-rebuilt planes, polarity/DFM review and actual power/mechanical tests remain open.
+translated rules. 22 warnings (15 dangling tracks, 6 dangling vias, 1 sliver) and
+6 GND_ISO unconnected reports remain in the AUDIT ONLY translation, which omits
+native ground pours. The actual native PCB has no corresponding DRC findings.
+The translation does not qualify manufacturing courtyards, filled planes or 3D.
+Polarity/assembly DFM and actual power/mechanical tests remain open.
 All frozen-release manifest hashes verified unchanged.
 
 ALREADY-ORDERED BUILD
@@ -141,6 +160,7 @@ python hardware/revisions/MB00-ECO50/check_eco50.py
 python hardware/revisions/MB00-ECO50/plane_envelope.py
 & .tools/kicad/bin/python.exe hardware/revisions/MB00-ECO50/check_eco50.py --convert-only
 & .tools/kicad/bin/kicad-cli.exe pcb drc hardware/revisions/MB00-ECO50/kicad-audit/mb00-audit-only.kicad_pcb --format json --severity-all --output hardware/revisions/MB00-ECO50/kicad-audit/kicad-drc.json
+python hardware/revisions/MB00-ECO50/verify_native.py
 python hardware/revisions/MB00-ECO50/export_review.py
 Review exports need Pillow from the existing .tools/commission-deps directory;
 the native geometry screen uses only Python standard library and existing repo

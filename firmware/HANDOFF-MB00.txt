@@ -1,15 +1,20 @@
 A-14329-MB00 firmware candidate handoff - 2026-10-30
 
 2026-10-31 HARDWARE ENGINEERING FOLLOW-UP
-See hardware/revisions/MB00-ECO50/README.txt. Local native candidate moves U19,
+See hardware/revisions/MB00-ECO50/README.txt. The saved engineering revision moves U19,
 corrects Q3 schematic wires, removes the orphan USB fragment, increases planned
 primary-to-ground margin, and prepares C25=470uF polymer / L2=1uH / C22=22nF.
 This power network is NOT bench-qualified or released for fabrication. It is not
 a drop-in capacitor substitution on the ordered 1210 footprint. Existing MB00
 order files remain frozen; confirm any U19 omission with JLC separately. The
 existing board's power/load-step hold and first-board acceptance still apply.
-EasyEDA cloud import/save and native ERC/DRC are pending sign-in. Firmware r10
-and its hashes below are unchanged; hardware controls remain unvalidated/gated.
+Saved in EasyEDA under Board1-ECO50-ENGINEERING. Final PCB: zero findings in
+124 native DRC items after copper rebuild. Schematic: zero fatal/errors, one
+supplier-attribute warning on C22/C25/L2 requiring assembly/catalog review.
+Downloaded native exports pass 285 critical and 544 schematic pin mappings.
+C25 paste openings and C61 ground connection are corrected. Physical power and
+fit tests still hold the fabrication release. Firmware r10 and its hashes below
+are unchanged; hardware controls remain unvalidated/gated.
 
 CURRENT CANDIDATE: atech-gateway 0.1.0-r10 / OpenWrt 25.12.6
 Compilation, GitHub compiled-image inspection and independent local kernel/DTB

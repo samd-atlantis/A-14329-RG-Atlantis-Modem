@@ -10,3 +10,11 @@ references/MWSA-03.png
 kicad-audit/*.kicad_pcb
 kicad-audit/*.kicad_pro
 kicad-audit/*.kicad_dru
+
+# Temporary native diagnostic and placement screens.
+native-import-diagnostic.json
+placement-screen.json
+native-reviewed-docs.json
+native-reviewed-schematic-docs.json
+native-pin-validation.json
+kicad-audit/*.kicad_prl

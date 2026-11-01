@@ -88,12 +88,12 @@
   "physical_power_validation": false,
   "kicad_copper_short_clearance_drill_errors": [],
   "kicad_warning_counts": {
-    "track_dangling": 14,
+    "track_dangling": 15,
     "via_dangling": 6,
     "copper_sliver": 1
   },
   "kicad_unconnected_items": {
-    "count": 7,
+    "count": 6,
     "nets": [
       "GND_ISO"
     ]

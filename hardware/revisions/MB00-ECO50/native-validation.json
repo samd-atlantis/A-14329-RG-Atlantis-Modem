@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-31",
+  "status": "ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION",
+  "project": "A-14329 AIO Modem",
+  "board": "Board1-ECO50-ENGINEERING",
+  "pcb_document": "c40c19dda3ba2a21",
+  "schematic_page": "5989becae430ea8f",
+  "native_pcb_drc": {
+    "errors": 0,
+    "check_items": 124,
+    "reported_time": "2026-10-31 22:16:00",
+    "evidence": "native-pcb-drc.jpg"
+  },
+  "native_schematic_check": {
+    "fatal_errors": 0,
+    "errors": 0,
+    "warnings": 1,
+    "warning": "Supplier-attribute standardization warning: L2, C25, C22. Custom engineering devices require catalog/assembly review; do not blindly replace authored footprints."
+  },
+  "cloud_imported_and_saved": true,
+  "native_pours_rebuilt": true,
+  "native_poured_record_count": 2,
+  "exact_routed_copper_matches_reproducible_candidate": true,
+  "pad_geometry_matches_at_native_export_precision": true,
+  "pad_comparison_quantization_mil": 0.001,
+  "critical_pin_checks": 285,
+  "critical_pin_failures": [],
+  "schematic_pin_keys": 544,
+  "schematic_parity_failures": [],
+  "changed_native_device_MPN_and_supplier_numbers_match": true,
+  "C25_pad_centers_mm": {
+    "2": [
+      119.000001,
+      38.137
+    ],
+    "1": [
+      119.000001,
+      33.237
+    ]
+  },
+  "C25_top_paste_expansion_mil": -2,
+  "C25_paste_aperture_mm": [
+    2.9984,
+    1.4984
+  ],
+  "frozen_release_hash_changes": [],
+  "physical_power_validation": false,
+  "fabrication_release": false,
+  "files": {
+    "pcb-eco50-native-reviewed.epro2": "51fdfd8b80ad9fcbfe85bba88b5eb8fe32fd1cb475f636b21cfae1b2a2e54ed2",
+    "schematic-eco50-native-reviewed.epro2": "c0b21a131529610f5f14c6267a7fdab98a9470b6f1d39015740bb39a26a162ac"
+  }
+}

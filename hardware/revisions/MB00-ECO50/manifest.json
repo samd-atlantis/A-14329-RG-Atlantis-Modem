@@ -1,11 +1,45 @@
 {
   "revision": "MB00-ECO50",
   "status": "ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION",
-  "cloud_imported": false,
-  "native_ERC_DRC_passed": false,
+  "cloud_imported": true,
+  "native_PCB_DRC_passed": true,
+  "native_schematic_fatal_errors": 0,
+  "native_schematic_errors": 0,
+  "native_schematic_warnings": 1,
+  "native_ERC_DRC_warning_free": false,
   "power_bench_tested": false,
   "ordered_hardware_release_changed": false,
   "files": [
+    {
+      "file": "pcb-eco50-native-reviewed.epro2",
+      "bytes": 573749,
+      "sha256": "51fdfd8b80ad9fcbfe85bba88b5eb8fe32fd1cb475f636b21cfae1b2a2e54ed2"
+    },
+    {
+      "file": "schematic-eco50-native-reviewed.epro2",
+      "bytes": 238743,
+      "sha256": "c0b21a131529610f5f14c6267a7fdab98a9470b6f1d39015740bb39a26a162ac"
+    },
+    {
+      "file": "native-validation.json",
+      "bytes": 1680,
+      "sha256": "edfab8779d7b7649cb9368be2dae4677a059bb5d5c7556f728fb38f944493bf3"
+    },
+    {
+      "file": "native-pcb-drc.jpg",
+      "bytes": 214408,
+      "sha256": "88cf6147d47d248678db35157229d08750d47ca6c35454382b483bf05df13f1b"
+    },
+    {
+      "file": "native-ground-route.json",
+      "bytes": 3031,
+      "sha256": "751fecae24b2923ee010a4afdafc679bdad1748855900efa73712c4fe8f95327"
+    },
+    {
+      "file": "verify_native.py",
+      "bytes": 5963,
+      "sha256": "e684377856d6b10fb4cede0bbe80eba4ca337af0541ba4f726f60d762b5d450f"
+    },
     {
       "file": "pcb-before-eco50.epro2",
       "bytes": 345594,
@@ -13,13 +47,13 @@
     },
     {
       "file": "pcb-eco50-engineering.epro2",
-      "bytes": 308886,
-      "sha256": "d95a03ed4354b6ed9b70c39d331d2deec11137caf8793b21e2cc2b127b4b29db"
+      "bytes": 309050,
+      "sha256": "99bc5a78cb25efca744c08655462314b9688c2a73cf1e55e5049bbd902e666c8"
     },
     {
       "file": "schematic-eco50-engineering.epro2",
-      "bytes": 227615,
-      "sha256": "82f299637009f815f5eb416195142e1889908bdd2293a16b5fd2e685615bf02c"
+      "bytes": 227667,
+      "sha256": "5561aa23987898a4fe12f710541793796c35a3d580c6aeb53171f9f9bbdb574c"
     },
     {
       "file": "ENGINEERING-BOM.csv",
@@ -29,17 +63,17 @@
     {
       "file": "ENGINEERING-CPL.csv",
       "bytes": 3199,
-      "sha256": "320e4ca880566bfe9720712a4a6b4652f42c80d932761214445c32f4fdb004cb"
+      "sha256": "3cd301f8c6396ed6bba756508570a8462ae99cb0d5237818dddae439a1f434aa"
     },
     {
       "file": "README.txt",
-      "bytes": 10433,
-      "sha256": "4824ed1898a455f7dbcc23bae93f634484e2d7f5fcb80f2f02b2f8024b0d66d3"
+      "bytes": 11974,
+      "sha256": "e0fea0cf610639d75b47a0f9187921ab13c947dcaff8c3dabe546eb51fc8854b"
     },
     {
       "file": "validation.json",
-      "bytes": 1104,
-      "sha256": "bab8c0efb513720d97d25c984a3c6a92b946eee56b82b905dbc8c924491503d4"
+      "bytes": 1173,
+      "sha256": "18d9ef442d8594595ff4addbae8448017e8e989f394a20e5ec5ed4beb9d8a0f0"
     },
     {
       "file": "geometry-checks.json",
@@ -54,17 +88,17 @@
     {
       "file": "review-summary.json",
       "bytes": 1920,
-      "sha256": "99ed009a6657731695032804885e8dc57344cca85812e07206d12f239e7ad309"
+      "sha256": "c98794ea9fda006c19361cffee8d03413f76ac4ffc471d1235192d9a2ebfd283"
     },
     {
       "file": "kicad-audit/conversion-manifest.json",
-      "bytes": 185920,
-      "sha256": "07a163d411a8681eaed5efc8cc2b131e01d4e33d8372384c2bc1267bc799a15e"
+      "bytes": 185919,
+      "sha256": "26c59d76f948aedc6948975682e8840bf1747e954d5c50abada96029b98713aa"
     },
     {
       "file": "kicad-audit/kicad-drc.json",
-      "bytes": 16299,
-      "sha256": "7e24cb0fc4a2ee77fa3beda94698ab6033d911d7b171f452c80ba9a5a55c8cb6"
+      "bytes": 15918,
+      "sha256": "bac5b6aa052d16ea772772f87ef4e0b88fa738471a2332af17ed1b58d591f5a2"
     }
   ]
 }
