@@ -1,0 +1,30 @@
+{
+  "status": "ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION",
+  "source_sha256": "d644d036f864c4ade62616dd8feb4cc7bbc9a099e432a44d20ae013ddc445303",
+  "pcb_sha256": "d95a03ed4354b6ed9b70c39d331d2deec11137caf8793b21e2cc2b127b4b29db",
+  "schematic_sha256": "82f299637009f815f5eb416195142e1889908bdd2293a16b5fd2e685615bf02c",
+  "critical_pin_checks": 285,
+  "critical_pin_failures": [],
+  "schematic_pin_keys": 544,
+  "schematic_parity_failures": [],
+  "new_or_changed_copper_primitives": 17,
+  "local_clearance_issues": [],
+  "removed_ids": [
+    "14a47d27125b276f",
+    "22c149ac8d3cd2c1",
+    "458618fd5813397f",
+    "cons0920a95be9abd25b",
+    "conse0133356ea398f66",
+    "e6217bd13e60a2ee",
+    "f5fca58f793d0e82",
+    "route2810_000000ae"
+  ],
+  "cached_pours_removed": true,
+  "native_pours_rebuilt": false,
+  "native_drc_passed": false,
+  "power_load_step_tested": false,
+  "ordered_release_changed": false,
+  "bulk_uF_nominal": 539,
+  "soft_start_ms_nominal": 11,
+  "scope": "Pad/net parity and local geometry only; no loop stability, thermal, EMC, safety, physical fit or native ERC/DRC approval."
+}

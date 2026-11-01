@@ -1,0 +1,70 @@
+{
+  "revision": "MB00-ECO50",
+  "status": "ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION",
+  "cloud_imported": false,
+  "native_ERC_DRC_passed": false,
+  "power_bench_tested": false,
+  "ordered_hardware_release_changed": false,
+  "files": [
+    {
+      "file": "pcb-before-eco50.epro2",
+      "bytes": 345594,
+      "sha256": "d644d036f864c4ade62616dd8feb4cc7bbc9a099e432a44d20ae013ddc445303"
+    },
+    {
+      "file": "pcb-eco50-engineering.epro2",
+      "bytes": 308886,
+      "sha256": "d95a03ed4354b6ed9b70c39d331d2deec11137caf8793b21e2cc2b127b4b29db"
+    },
+    {
+      "file": "schematic-eco50-engineering.epro2",
+      "bytes": 227615,
+      "sha256": "82f299637009f815f5eb416195142e1889908bdd2293a16b5fd2e685615bf02c"
+    },
+    {
+      "file": "ENGINEERING-BOM.csv",
+      "bytes": 2098,
+      "sha256": "8018e9d3f05c1dd3f3562e6462f7c458fb171881a11727852e515dc6a87b7314"
+    },
+    {
+      "file": "ENGINEERING-CPL.csv",
+      "bytes": 3199,
+      "sha256": "320e4ca880566bfe9720712a4a6b4652f42c80d932761214445c32f4fdb004cb"
+    },
+    {
+      "file": "README.txt",
+      "bytes": 10433,
+      "sha256": "4824ed1898a455f7dbcc23bae93f634484e2d7f5fcb80f2f02b2f8024b0d66d3"
+    },
+    {
+      "file": "validation.json",
+      "bytes": 1104,
+      "sha256": "bab8c0efb513720d97d25c984a3c6a92b946eee56b82b905dbc8c924491503d4"
+    },
+    {
+      "file": "geometry-checks.json",
+      "bytes": 1640,
+      "sha256": "d5729946bcb1d90c41aec0202cb20fbdd28e273031c34691849809e36b32e199"
+    },
+    {
+      "file": "planned-plane-envelope.json",
+      "bytes": 573,
+      "sha256": "12a45d50b603d664f39f74076d546ab2aa7d5034e8d4b2b39fd3d233346051e8"
+    },
+    {
+      "file": "review-summary.json",
+      "bytes": 1920,
+      "sha256": "99ed009a6657731695032804885e8dc57344cca85812e07206d12f239e7ad309"
+    },
+    {
+      "file": "kicad-audit/conversion-manifest.json",
+      "bytes": 185920,
+      "sha256": "07a163d411a8681eaed5efc8cc2b131e01d4e33d8372384c2bc1267bc799a15e"
+    },
+    {
+      "file": "kicad-audit/kicad-drc.json",
+      "bytes": 16299,
+      "sha256": "7e24cb0fc4a2ee77fa3beda94698ab6033d911d7b171f452c80ba9a5a55c8cb6"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "status": "ENGINEERING_CANDIDATE",
+  "new_or_moved_pad_copper_issues": [],
+  "pad_to_pad_issues": [],
+  "changed_signal_nets_pad_bearing_opens": {},
+  "connectivity": {
+    "USB_CONSOLE_DP": [
+      {
+        "count": 24,
+        "pads": [
+          "U16.5",
+          "U19.1",
+          "J14.B6",
+          "J14.A6"
+        ],
+        "nearest": null
+      }
+    ],
+    "USB_CONSOLE_DM": [
+      {
+        "count": 30,
+        "pads": [
+          "U16.6",
+          "U19.2",
+          "J14.B7",
+          "J14.A7"
+        ],
+        "nearest": null
+      }
+    ],
+    "CONSOLE_TX": [
+      {
+        "count": 69,
+        "pads": [
+          "U1.31",
+          "U18.5",
+          "standalone.H1-2"
+        ],
+        "nearest": null
+      }
+    ],
+    "3V3_MODEM": [
+      {
+        "count": 50,
+        "pads": [
+          "C23.1",
+          "C24.1",
+          "C25.1",
+          "C61.1",
+          "J8.2",
+          "J8.39",
+          "J8.41",
+          "J8.52",
+          "L2.2",
+          "U3.14"
+        ],
+        "nearest": null
+      }
+    ],
+    "M_SW": [
+      {
+        "count": 10,
+        "pads": [
+          "L2.1",
+          "U3.3",
+          "U3.2",
+          "U3.1"
+        ],
+        "nearest": null
+      }
+    ],
+    "M_SS": [
+      {
+        "count": 5,
+        "pads": [
+          "C22.1",
+          "U3.9"
+        ],
+        "nearest": null
+      }
+    ]
+  },
+  "U19_to_U16_max_body_gap_mm": 0.8790000000000022,
+  "C25_max_base_to_nominal_card_edge_gap_mm": 0.457000640000006,
+  "frozen_release_hash_changes": [],
+  "native_courtyard_DFM": false,
+  "native_ERC_DRC": false,
+  "physical_power_validation": false
+}

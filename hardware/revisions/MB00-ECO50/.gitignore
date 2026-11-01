@@ -1,0 +1,12 @@
+# Reproducible intermediate decoded native records and raw multi-doc source.
+before-docs.json
+pcb-eco50-docs.json
+pcb-eco50.epro-source
+# Full manufacturer PDFs stay local; compact inspected page renders are tracked.
+references/*.pdf
+references/MWSA-01.png
+references/MWSA-03.png
+# Regenerated audit-only CAD; compact DRC/geometry evidence is committed.
+kicad-audit/*.kicad_pcb
+kicad-audit/*.kicad_pro
+kicad-audit/*.kicad_dru

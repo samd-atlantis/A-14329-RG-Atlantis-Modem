@@ -1,0 +1,17 @@
+{
+  "scope": "Conservative primary pad bounding boxes and track capsules to the entire planned plane outline, before native keepout/thermal clearances. Filled copper must be a subset after correct native rebuild. Does not validate creepage, fabrication tolerances, actual Gerbers or safety.",
+  "results": [
+    {
+      "layer": 15,
+      "minimum_mm": 9.09215512554005,
+      "item": "ac_dis22d4426c19829142",
+      "net": "AC_N"
+    },
+    {
+      "layer": 16,
+      "minimum_mm": 9.09215512554005,
+      "item": "ac_dis22d4426c19829142",
+      "net": "AC_N"
+    }
+  ]
+}
