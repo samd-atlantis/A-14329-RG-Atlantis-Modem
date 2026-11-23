@@ -1,13 +1,25 @@
 A-14329-MB00 ECO50 - ENGINEERING REVISION - 2026-10-31
 
 STATUS: SAVED IN EASYEDA; ENGINEERING CANDIDATE, NOT FOR FABRICATION.
-Saved under A-14329 AIO Modem / Board1-ECO50-ENGINEERING, with its matching
-Schematic1-ECO50-ENGINEERING and PCB1-ECO50-ENGINEERING. Final rebuilt PCB:
+Saved under A-14329 AIO Modem / A-14329-MB01 (formerly Board1-ECO50-ENGINEERING),
+with Schematic1-ECO50-ENGINEERING and PCB A-14329-MB01. Final rebuilt PCB:
 124 native DRC items, zero findings. Schematic: zero fatal/electrical errors,
 one supplier-attribute warning covering the three changed engineering devices.
 The existing PCB1, PCB2, JLC order and frozen hardware/releases/A-14329-MB00 were
 not revised. Power-loop/startup/load-step, assembly DFM and physical fit remain
 qualification gates; passing DRC does not qualify the new modem supply.
+
+2026-11-23 SOURCING UPDATE
+U16 remains WCH CH340C / SOP-16. Changed its instance Supplier Part override from
+C84681 to C7464026 in the saved PCB, schematic and ENGINEERING-BOM.csv. JLC marks
+the old listing unavailable and recommends C7464026. No component, pad, wire,
+trace, via, footprint definition or net mapping was changed by this sourcing edit.
+Preserved the user's existing MB01 title/notes. U16-sourcing-update.json records
+before/after hashes and comparisons; U16-C7464026-easyeda.jpg shows the saved code.
+The native DRC/ERC results and screenshot below are from October 31; November 23
+verification proves unchanged geometry and electrical mappings, not a new bench
+qualification. The shared catalog device retains its original code as provenance;
+the instance override is the authoritative purchasing code. No order was placed.
 
 DESIGN FILES
 pcb-eco50-native-reviewed.epro2   Actual saved EasyEDA export, rebuilt pours.

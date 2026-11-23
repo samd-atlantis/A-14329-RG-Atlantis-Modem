@@ -1,8 +1,8 @@
 {
   "status": "ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION",
   "source_sha256": "d644d036f864c4ade62616dd8feb4cc7bbc9a099e432a44d20ae013ddc445303",
-  "pcb_sha256": "99bc5a78cb25efca744c08655462314b9688c2a73cf1e55e5049bbd902e666c8",
-  "schematic_sha256": "5561aa23987898a4fe12f710541793796c35a3d580c6aeb53171f9f9bbdb574c",
+  "pcb_sha256": "30258819f0f99e4329d6e635586b3787639fb96e8301158e576796be3e542848",
+  "schematic_sha256": "a3b349bfc53e7a9048c6ec2cbb3443aa4aec53763cf45b16306287f63c3cda40",
   "critical_pin_checks": 285,
   "critical_pin_failures": [],
   "schematic_pin_keys": 544,

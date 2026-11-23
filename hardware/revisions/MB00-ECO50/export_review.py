@@ -30,6 +30,7 @@ def main():
     refkey=next(k for k in fields if 'designator' in k.lower())
     entries=[]
     for row in bom:
+        if row[refkey]=='U16':row['LCSC Part #']='C7464026'
         remain=[r.strip() for r in row[refkey].split(',') if r.strip() not in ['C22','C25','L2']]
         if remain:row[refkey]=','.join(remain);entries.append(row)
     changed={'C22':('CL10B223KB8NNNC','C0603','C21122'),'C25':('MA10V470M6X8','CAP-POLY-MA-D6.3-L7.7','C46550459'),'L2':('MWSA0503S-1R0MT','IND-MWSA0503S-5.4x5.2','C408355')}
@@ -93,8 +94,8 @@ def main():
     (HERE/'review-summary.json').write_text(json.dumps(checks,indent=2)+'\n',encoding='utf8',newline='\n')
     native=json.loads((HERE/'native-validation.json').read_text())
     assert all(hashlib.sha256((HERE/f).read_bytes()).hexdigest()==h for f,h in native['files'].items())
-    names=['pcb-eco50-native-reviewed.epro2','schematic-eco50-native-reviewed.epro2','native-validation.json','native-pcb-drc.jpg','native-ground-route.json','verify_native.py','pcb-before-eco50.epro2','pcb-eco50-engineering.epro2','schematic-eco50-engineering.epro2','ENGINEERING-BOM.csv','ENGINEERING-CPL.csv','README.txt','validation.json','geometry-checks.json','planned-plane-envelope.json','review-summary.json','kicad-audit/conversion-manifest.json','kicad-audit/kicad-drc.json']
-    manifest={'revision':'MB00-ECO50','status':'ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION','cloud_imported':True,'native_PCB_DRC_passed':True,'native_schematic_fatal_errors':0,'native_schematic_errors':0,'native_schematic_warnings':1,'native_ERC_DRC_warning_free':False,'power_bench_tested':False,'ordered_hardware_release_changed':False,'files':[dict(file=n,bytes=(HERE/n).stat().st_size,sha256=hashlib.sha256((HERE/n).read_bytes()).hexdigest()) for n in names]}
+    names=['U16-sourcing-update.json','U16-C7464026-easyeda.jpg','pcb-eco50-native-reviewed.epro2','schematic-eco50-native-reviewed.epro2','native-validation.json','native-pcb-drc.jpg','native-ground-route.json','verify_native.py','pcb-before-eco50.epro2','pcb-eco50-engineering.epro2','schematic-eco50-engineering.epro2','ENGINEERING-BOM.csv','ENGINEERING-CPL.csv','README.txt','validation.json','geometry-checks.json','planned-plane-envelope.json','review-summary.json','kicad-audit/conversion-manifest.json','kicad-audit/kicad-drc.json']
+    manifest={'revision':'MB00-ECO50','status':'ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION','cloud_imported':True,'native_PCB_DRC_passed':True,'native_check_date':'2026-10-31','sourcing_metadata_update_date':'2026-11-23','native_schematic_fatal_errors':0,'native_schematic_errors':0,'native_schematic_warnings':1,'native_ERC_DRC_warning_free':False,'power_bench_tested':False,'ordered_hardware_release_changed':False,'files':[dict(file=n,bytes=(HERE/n).stat().st_size,sha256=hashlib.sha256((HERE/n).read_bytes()).hexdigest()) for n in names]}
     (HERE/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf8',newline='\n')
     print('BOM/CPL:',len(bref),'matched designators; KiCad copper errors:',len(errors))
 

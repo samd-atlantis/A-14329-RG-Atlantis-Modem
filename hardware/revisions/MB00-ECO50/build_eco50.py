@@ -67,6 +67,9 @@ def main():
     next(r['b'] for r in rows if r['h']['type']=='META')['title']='PCB1-ECO50-ENGINEERING'
     att=attrs(rows)
     comps={att[r["h"]["id"],"Designator"]:r for r in rows if r["h"]["type"]=="COMPONENT"}
+    # 2026-11-23: JLC redirects the old CH340C listing to C7464026.
+    # Instance override preserves the verified footprint, pins and shared library.
+    comps['U16']['b']['attrs']['Supplier Part']='C7464026'
     ticket=max(r["h"].get("ticket",0) for r in rows)+1000
     added=[]
     def rec(kind, body, rid=None):
@@ -245,6 +248,7 @@ def main():
     # Use the original schematic snapshot plus previously audited Q3 correction.
     sd=docs_from(schsource);sr=next(d["records"] for d in sd if d["head"]["b"]["docType"]=="SCH_PAGE")
     sa=attrs(sr);sc={sa[r["h"]["id"],"Designator"]:r for r in sr if r["h"]["type"]=="COMPONENT" and (r["h"]["id"],"Designator") in sa}
+    sc['U16']['b']['attrs']['Supplier Part']='C7464026'
     for r in sr:
         if r["h"]["id"]=="ed2700000000011e":r["b"]["endY"]=-1070
         if r["h"]["id"]=="ed27000000000126":r["b"]["endY"]=-830

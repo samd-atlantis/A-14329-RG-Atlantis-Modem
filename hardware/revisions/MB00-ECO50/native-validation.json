@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "status": "ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION",
   "project": "A-14329 AIO Modem",
-  "board": "Board1-ECO50-ENGINEERING",
+  "board": "A-14329-MB01",
   "pcb_document": "c40c19dda3ba2a21",
   "schematic_page": "5989becae430ea8f",
   "native_pcb_drc": {
@@ -28,6 +28,9 @@
   "schematic_pin_keys": 544,
   "schematic_parity_failures": [],
   "changed_native_device_MPN_and_supplier_numbers_match": true,
+  "sourcing_metadata_update_date": "2026-11-23",
+  "U16_supplier_part": "C7464026",
+  "U16_update_scope": "Instance sourcing override; shared CH340C device/footprint retained.",
   "C25_pad_centers_mm": {
     "2": [
       119.000001,
@@ -47,7 +50,7 @@
   "physical_power_validation": false,
   "fabrication_release": false,
   "files": {
-    "pcb-eco50-native-reviewed.epro2": "51fdfd8b80ad9fcbfe85bba88b5eb8fe32fd1cb475f636b21cfae1b2a2e54ed2",
-    "schematic-eco50-native-reviewed.epro2": "c0b21a131529610f5f14c6267a7fdab98a9470b6f1d39015740bb39a26a162ac"
+    "pcb-eco50-native-reviewed.epro2": "d17e2746fef189683ac6194fa6e141a619fa7046a98e983a67bd0e638b40d2ff",
+    "schematic-eco50-native-reviewed.epro2": "b38cb28f823eb4c6099f6117905e0a577e906a13d8bfe13d063348f5389939fe"
   }
 }

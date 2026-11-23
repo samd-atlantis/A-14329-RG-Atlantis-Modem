@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-23",
+  "old_supplier_part": "C84681",
+  "new_supplier_part": "C7464026",
+  "manufacturer_part": "WCH CH340C",
+  "scope": "Sourcing metadata only. Existing user MB01 title/notes preserved.",
+  "documents": [
+    {
+      "document": "PCB",
+      "before_sha256": "6b23aa0c72a4d60f94c4a4a292d76cde844e396f24aff264d6a4a48dfd60703e",
+      "after_sha256": "d17e2746fef189683ac6194fa6e141a619fa7046a98e983a67bd0e638b40d2ff",
+      "footprint_definitions_unchanged": true,
+      "copper_and_wire_geometry_unchanged": true,
+      "pad_nets_unchanged": true
+    },
+    {
+      "document": "SCH_PAGE",
+      "before_sha256": "da8575c5fcea8155df2232de7b1c7b848a67a547e6be59c10c1a8254b931c574",
+      "after_sha256": "b38cb28f823eb4c6099f6117905e0a577e906a13d8bfe13d063348f5389939fe",
+      "footprint_definitions_unchanged": true,
+      "copper_and_wire_geometry_unchanged": true,
+      "pad_nets_unchanged": true
+    }
+  ],
+  "purchase_placed": false
+}

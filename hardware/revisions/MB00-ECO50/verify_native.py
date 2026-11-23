@@ -56,7 +56,8 @@ def main():
     a = attrs(nr)
     expected_parts = {'C22': ('CL10B223KB8NNNC', 'C21122'),
                       'C25': ('MA10V470M6X8', 'C46550459'),
-                      'L2': ('MWSA0503S-1R0MT', 'C408355')}
+                      'L2': ('MWSA0503S-1R0MT', 'C408355'),
+                      'U16': ('CH340C', 'C7464026')}
     device_meta = {d['head']['b']['uuid']: next(r['b'] for r in d['records']
         if r['h']['type'] == 'META')['attributes'] for d in docs
         if d['head']['b']['docType'] == 'DEVICE'}
@@ -67,9 +68,18 @@ def main():
         ref = a.get((cid, 'Designator'))
         if ref in expected_parts:
             part = device_meta[a[cid, 'Device']]
-            assert (part['Manufacturer Part'], part['Supplier Part']) == expected_parts[ref]
-            for key in ['Manufacturer Part', 'Supplier Part']:
-                assert r['b']['attrs'].get(key, part[key]) == part[key]
+            effective = tuple(a.get((cid, key), r['b']['attrs'].get(key, part[key]))
+                              for key in ['Manufacturer Part', 'Supplier Part'])
+            assert effective == expected_parts[ref]
+            if ref != 'U16':
+                assert (part['Manufacturer Part'], part['Supplier Part']) == expected_parts[ref]
+    sch_docs = docs_from(sch)
+    sch_rows = next(d['records'] for d in sch_docs if d['head']['b']['docType']=='SCH_PAGE')
+    sch_attrs = attrs(sch_rows)
+    sch_u16 = next(r for r in sch_rows if r['h']['type']=='COMPONENT' and
+                   sch_attrs.get((r['h']['id'],'Designator'))=='U16')
+    assert sch_attrs.get((sch_u16['h']['id'],'Supplier Part'),
+                         sch_u16['b']['attrs'].get('Supplier Part'))=='C7464026'
     cap_id = next(k[0] for k, v in a.items() if k[1] == 'Designator' and v == 'C25')
     fp_id = a[cap_id, 'Footprint']
     cap_fp = next(d for d in docs if d['head']['b']['uuid'] == fp_id)
@@ -88,7 +98,7 @@ def main():
     assert not frozen_changes
     result = dict(
         date='2026-10-31', status='ENGINEERING_CANDIDATE_NOT_FOR_FABRICATION',
-        project='A-14329 AIO Modem', board='Board1-ECO50-ENGINEERING',
+        project='A-14329 AIO Modem', board='A-14329-MB01',
         pcb_document='c40c19dda3ba2a21', schematic_page='5989becae430ea8f',
         native_pcb_drc=dict(errors=0, check_items=124,
             reported_time='2026-10-31 22:16:00', evidence='native-pcb-drc.jpg'),
@@ -104,6 +114,8 @@ def main():
         critical_pin_checks=len(critical_expectations()), critical_pin_failures=critical,
         schematic_pin_keys=len(pins), schematic_parity_failures=mismatch,
         changed_native_device_MPN_and_supplier_numbers_match=True,
+        sourcing_metadata_update_date='2026-11-23', U16_supplier_part='C7464026',
+        U16_update_scope='Instance sourcing override; shared CH340C device/footprint retained.',
         C25_pad_centers_mm=cap_positions, C25_top_paste_expansion_mil=-2,
         C25_paste_aperture_mm=[2.9984, 1.4984],
         frozen_release_hash_changes=frozen_changes, physical_power_validation=False,
